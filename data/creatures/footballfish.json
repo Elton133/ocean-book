@@ -1,0 +1,76 @@
+{
+  "slug": "footballfish",
+  "commonName": "Atlantic Footballfish",
+  "scientificName": "Himantolophus groenlandicus",
+  "authority": "Reinhardt, 1837",
+  "aphiaId": 126545,
+  "taxonomy": { "phylum": "Chordata", "class": "Teleostei", "order": "Lophiiformes", "family": "Himantolophidae" },
+  "group": "Deep-sea anglerfish",
+  "categories": ["deep-sea", "bioluminescent", "reproduction"],
+  "tagline": "A round, spiny angler with a glowing, tasselled lure",
+  "summary": "A deep-sea anglerfish shaped like a lumpy ball. Females, up to about 60 cm long, dangle a fleshy lure lit by glowing bacteria to draw prey within reach. Males are tiny, under 5 cm, and—unlike many anglerfish—they latch on only temporarily rather than fusing for life.",
+  "ability": "bacteria-lit fishing lure",
+  "stats": {
+    "size": "Females up to about 60 cm (standard length); males about 4 cm",
+    "depth": "Usually 200–800 m; recorded to about 1,830 m",
+    "range": "Mainly the Atlantic, from Greenland and Norway to South Africa; scattered records elsewhere",
+    "diet": "Fishes, squids and crustaceans",
+    "conservation": "IUCN: Least Concern"
+  },
+  "depthRange": { "min": 200, "max": 800 },
+  "facts": [
+    {
+      "title": "A living lantern",
+      "text": "The lure (esca) on the female's head 'fishing rod' glows because it hosts light-producing bacteria. In the darkness, the light draws prey within striking distance of her mouth.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Teeth like a trap",
+      "text": "Its teeth point inward, so whatever swims into the mouth struggles to get back out. Recorded prey includes fishes, squids and crustaceans.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Tiny, independent males",
+      "text": "Males reach only about 4 cm, against roughly 60 cm for females. In this family males apparently do not become permanently fused 'parasites' on females, as happens in some other anglerfishes.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "A temporary grip",
+      "text": "Males sniff out females with large nostril organs and clamp on with special bony teeth. One female carried a scar probably left by a male that later let go.",
+      "certainty": "uncertain",
+      "ref": 3
+    },
+    {
+      "title": "Prey for whales",
+      "text": "Despite its spines, it is eaten by sperm whales: several footballfish have been found in the stomachs of whales caught off the Azores.",
+      "certainty": "confirmed",
+      "ref": 3
+    }
+  ],
+  "references": [
+    { "title": "Himantolophus groenlandicus Reinhardt, 1837", "publisher": "WoRMS", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=126545" },
+    { "title": "A Rare Deep Sea Gem Arrives at NHM (Pacific footballfish)", "publisher": "Natural History Museum of Los Angeles County", "url": "https://nhm.org/stories/rare-deep-sea-gem-arrives-nhm" },
+    { "title": "Himantolophus groenlandicus – Atlantic footballfish", "publisher": "FishBase", "url": "https://www.fishbase.se/summary/Himantolophus-groenlandicus.html" },
+    { "title": "Himantolophus groenlandicus", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Himantolophus_groenlandicus" }
+  ],
+  "image": {
+    "src": "/media/creatures/footballfish/hero.webp",
+    "width": 1920, "height": 1440,
+    "alt": "A pale, preserved anglerfish with a rounded, lumpy body, gaping mouth and a long stalk on its head ending in a branched, tassel-like lure, against a dark background.",
+    "caption": "A preserved female Atlantic footballfish on display at the Port of Nagoya Public Aquarium, Japan.",
+    "creator": "KKPCW (Wikimedia Commons)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Specimen_of_Atlantic_Footballfish_(the_Port_of_Nagoya_Public_Aquarium).jpg",
+    "species": "Himantolophus groenlandicus",
+    "type": "photograph",
+    "setting": "specimen",
+    "focal": "45% 50%",
+    "tone": "dark"
+  },
+  "gallery": [],
+  "notes": "Catalogue slot 'Anglerfish'. Image is the only licence-compatible Commons photo of this species: a preserved museum specimen labelled 'チョウチンアンコウ' (the Japanese standard name for H. groenlandicus) at the Port of Nagoya Public Aquarium, filed in Category:Himantolophus groenlandicus; ID rests on the aquarium label. Lure-bacteria and inward-teeth facts are from NHM LA describing the family (Pacific footballfish, H. sagamius) and apply to footballfishes generally; male non-parasitism is stated for this species by FishBase ('apparently') and for the family by NHM. Wikipedia used for range, diet, temporary-attachment and Azores sperm-whale records (it cites Pietsch 2009, Oceanic Anglerfishes). Distribution: FishBase lists 'tropical and temperate parts of all oceans' while Wikipedia/IUCN emphasise the Atlantic; editor may wish to verify. Note: the familiar 'ball-shaped anglerfish with lantern' image in Japan (chōchin-ankō) refers to this species."
+}

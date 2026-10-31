@@ -1,0 +1,66 @@
+{
+  "slug": "basket-star",
+  "commonName": "Giant Basket Star",
+  "scientificName": "Astrophyton muricatum",
+  "authority": "(Lamarck, 1816)",
+  "aphiaId": 243214,
+  "taxonomy": { "phylum": "Echinodermata", "class": "Ophiuroidea", "order": "Euryalida", "family": "Gorgonocephalidae" },
+  "group": "Basket star (brittle star relative)",
+  "categories": ["giants"],
+  "tagline": "By day a tight fist, by night a living plankton net",
+  "summary": "A relative of brittle stars whose arms fork again and again into a fine, tangled mesh. By day it hides curled into a ball. At night it climbs to a high perch on a coral or sea fan and opens into a net close to a metre across to catch plankton drifting on the current.",
+  "ability": "night-time plankton net",
+  "stats": {
+    "size": "Arms spread to nearly 1 m across",
+    "depth": "Shallow water, down to about 30 m",
+    "range": "Western Atlantic, from North Carolina to Brazil, including the Caribbean and Gulf of Mexico",
+    "diet": "Plankton, small shrimps and even juvenile fishes",
+    "conservation": "Not evaluated by IUCN"
+  },
+  "depthRange": { "min": 0, "max": 30 },
+  "facts": [
+    { "title": "Branching arms", "text": "Like other echinoderms it is built on five rays. In basket stars these arms split again and again into ever finer branches, a trait found only in the order Euryalida.", "certainty": "confirmed", "ref": 2 },
+    { "title": "A net that closes", "text": "When a tiny branch touches food, the smallest branchlets curl around it to form a ball, which is passed to the mouth. Small shrimps and juvenile fish can be caught this way.", "certainty": "confirmed", "ref": 1 },
+    { "title": "Microscopic grabbers", "text": "Its arms are ringed with bands of pedicellariae, tiny grasping structures that in this family help catch prey.", "certainty": "confirmed", "ref": 2 },
+    { "title": "Shy of torchlight", "text": "Shine a light on a feeding basket star at night and it slowly curls up. Within several minutes it shrinks into a fist-sized bundle.", "certainty": "confirmed", "ref": 1 },
+    { "title": "Feeds facing the flow", "text": "It feeds only when conditions suit. In moderate currents it spreads its arms and turns them toward the flow, but it keeps them folded when the current is too strong.", "certainty": "confirmed", "ref": 1 }
+  ],
+  "references": [
+    { "title": "Astrophyton muricatum (Lamarck, 1816)", "publisher": "WoRMS", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=243214" },
+    { "title": "Astrophyton (giant basket star)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Astrophyton_muricatum" },
+    { "title": "A Sister-Group Comparison of Branching and Pedicellariae in Brittlestars (Echinodermata: Ophiuroidea) — 2023", "publisher": "Integrative Organismal Biology (via PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10155225/" }
+  ],
+  "image": {
+    "src": "/media/creatures/basket-star/hero.webp",
+    "width": 1920, "height": 1272,
+    "alt": "Top view of a basket star on a black background. A small, spotted orange central disc gives rise to arms that fork repeatedly into fine, coiling, salmon-pink branches spreading across the whole frame.",
+    "caption": "A giant basket star photographed by the Florida Museum of Natural History, showing its repeatedly forking arms.",
+    "creator": "François Michonneau",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Astrophyton_muricatum_FLMNH.jpg",
+    "species": "Astrophyton muricatum",
+    "type": "photograph",
+    "setting": "specimen",
+    "focal": "52% 50%",
+    "tone": "dark"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/basket-star/alt-1.webp",
+      "width": 1600, "height": 1200,
+      "alt": "At night on a reef, a basket star perched on a boulder coral spreads a huge orange, lace-like fan of finely branching arms, with its coiled central body at the middle.",
+      "caption": "Fully spread for night-time feeding on a reef in Panama.",
+      "creator": "A H (via iNaturalist)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Astrophyton_muricatum_98709033.jpg",
+      "species": "Astrophyton muricatum",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "50% 50%",
+      "tone": "dark"
+    }
+  ],
+  "notes": "We chose Astrophyton muricatum over Gorgonocephalus: Commons has very few live Gorgonocephalus photos and many good, correctly placed Astrophyton ones. Astrophyton is monotypic, which makes its ID easier. Two Diego Delso photos labelled A. muricatum from the Red Sea (Egypt; Jeddah, Saudi Arabia) were REJECTED as misidentified, because this species is western Atlantic only. The hero is a Florida Museum (FLMNH) photograph by echinoderm researcher F. Michonneau, probably a freshly collected animal; the setting is assumed to be 'specimen'. Gallery caveat: the iNaturalist image is from Panama, which has both Atlantic and Pacific coasts. The coral looks Caribbean, but please verify the observation locality before publishing. Wikipedia states 'eight arms'; we did not use that because basket stars have five branched rays (PMC 2023). The 'giants' category rests on the ~1 m arm spread and the common name 'giant basket star'; drop it if you want a stricter reading. Most behavioural facts come from Wikipedia, citing Jangoux 1990 (Echinoderm Research)."
+}

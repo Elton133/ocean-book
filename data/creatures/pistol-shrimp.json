@@ -1,0 +1,102 @@
+{
+  "slug": "pistol-shrimp",
+  "commonName": "Bigclaw Snapping Shrimp",
+  "scientificName": "Alpheus heterochaelis",
+  "authority": "Say, 1818",
+  "aphiaId": 158348,
+  "taxonomy": {
+    "phylum": "Arthropoda",
+    "class": "Malacostraca",
+    "order": "Decapoda",
+    "family": "Alpheidae"
+  },
+  "group": "Snapping (pistol) shrimp",
+  "categories": [],
+  "tagline": "A shrimp that fires bubbles hot enough to glow",
+  "summary": "A small shrimp with one enormous claw. When it snaps shut, it shoots out a water jet so fast that a vapour bubble forms and then collapses with a bang loud enough to stun prey — and, for an instant, a flash of light.",
+  "ability": "cavitation-bubble snap",
+  "stats": {
+    "size": "Up to about 5.5 cm; most adults much smaller",
+    "depth": "Shallow coastal waters",
+    "range": "Western Atlantic from Cape Hatteras to Brazil, incl. the Gulf of Mexico, West Indies and Bermuda",
+    "diet": "Worms, small crustaceans and small fishes such as gobies",
+    "conservation": "Not evaluated by IUCN"
+  },
+  "depthRange": {
+    "min": 0,
+    "max": 10,
+    "approx": true
+  },
+  "facts": [
+    {
+      "title": "The bang is a bubble",
+      "text": "High-speed filming with underwater microphones showed the snap's sound comes not from the claw halves hitting, but from the collapse of a cavitation bubble — a vapour cavity torn open by the fast water jet.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "A weapon made of water",
+      "text": "The claw snaps shut so quickly that it fires a jet of water fast enough to boil it into vapour at low pressure. The snap can stun or kill small prey animals.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "'Shrimpoluminescence'",
+      "text": "As the bubble collapses it emits a brief flash of light, implying temperatures of at least 5,000 K inside — the first known case of an animal making light this way.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "One claw rules",
+      "text": "The snapping claw, which can be on either the left or right side, is half as long as the shrimp's body; the other claw is ordinary-sized.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Living in pairs",
+      "text": "Bigclaw snapping shrimps mostly live as monogamous pairs, sheltering in crevices, burrows and reef holes in shallow water.",
+      "certainty": "confirmed",
+      "ref": 3
+    }
+  ],
+  "references": [
+    {
+      "title": "Alpheus heterochaelis Say, 1818",
+      "publisher": "WoRMS",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=158348"
+    },
+    {
+      "title": "How snapping shrimp snap: through cavitating bubbles (Versluis et al. 2000, Science)",
+      "publisher": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11000111"
+    },
+    {
+      "title": "Snapping shrimp make flashing bubbles (Lohse, Schmitz & Versluis 2001, Nature)",
+      "publisher": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11586346"
+    },
+    {
+      "title": "Alpheus heterochaelis",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alpheus_heterochaelis"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/pistol-shrimp/hero.webp",
+    "width": 1920,
+    "height": 744,
+    "alt": "Side view of a small translucent, mottled pinkish-brown shrimp on a black background, with long antennae and one greatly enlarged claw",
+    "caption": "A 2 cm bigclaw snapping shrimp from the lower Chesapeake Bay, photographed by the Smithsonian Environmental Research Center",
+    "creator": "Robert Aguilar, Smithsonian Environmental Research Center",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alpheus_heterochaelis_(I1117)_(23051697472).jpg",
+    "species": "Alpheus heterochaelis",
+    "type": "photograph",
+    "setting": "specimen",
+    "focal": "50% 50%",
+    "tone": "dark"
+  },
+  "gallery": [],
+  "notes": "Kept the brief's slug 'pistol-shrimp'; entry is Alpheus heterochaelis because both landmark cavitation papers (Versluis 2000, Lohse 2001) studied this species. Commons has no in-situ photo of it; hero is a fresh specimen on black (very wide 2.6:1 aspect — may crop tightly in full-screen frames). Searched other Alpheus spp. — only goby-partnership shots of other species or watermarked images. Depth: sources say only 'shallow water'; depthRange 0–10 m is an approximation for the gauge. No allowed category fits, so categories is empty."
+}

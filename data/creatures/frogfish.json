@@ -1,0 +1,125 @@
+{
+  "slug": "frogfish",
+  "commonName": "Striated Frogfish",
+  "scientificName": "Antennarius striatus",
+  "authority": "(Shaw, 1794)",
+  "aphiaId": 158790,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Teleostei",
+    "order": "Lophiiformes",
+    "family": "Antennariidae"
+  },
+  "group": "Frogfish (anglerfish)",
+  "categories": [
+    "camouflage"
+  ],
+  "tagline": "An angler with a worm on a stick and a lightning gulp",
+  "summary": "A lumpy, slow-moving anglerfish that sits motionless on the seabed, blending in, while it twitches a lure made from its first dorsal fin spine. When curious prey comes close, the frogfish's mouth snaps open and sucks it in within milliseconds — even prey nearly twice its own size.",
+  "ability": "fishing lure and ultrafast gulp",
+  "stats": {
+    "size": "Commonly about 10 cm; up to about 25 cm",
+    "depth": "From under 1 m to over 200 m; often around 40 m",
+    "range": "Tropical and warm-temperate Atlantic and Indo-Pacific waters",
+    "diet": "Fishes and other small animals drawn in by its lure",
+    "conservation": "IUCN: Least Concern"
+  },
+  "depthRange": {
+    "min": 1,
+    "max": 219
+  },
+  "facts": [
+    {
+      "title": "A fin turned fishing rod",
+      "text": "Its front-most dorsal fin spine has become a rod, the illicium, tipped with a bait called the esca. In this species the esca bears 2–7 worm-like appendages that wriggle like tempting prey.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Gone in six milliseconds",
+      "text": "Its jaws open so suddenly that prey is sucked in along with water in about six milliseconds. High-speed filming has shown frogfishes have one of the fastest feeding mechanisms of any vertebrate.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Eyes bigger than its stomach",
+      "text": "A huge mouth and stretchy stomach let it swallow prey up to twice its own size.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Slow-motion chameleon",
+      "text": "Its colour is extremely variable, and over a few weeks a striated frogfish can completely change colour to match its surroundings.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Eggs on a raft",
+      "text": "Its eggs are released wrapped in a ribbon-like, floating mass of mucus known as an 'egg raft'.",
+      "certainty": "confirmed",
+      "ref": 1
+    }
+  ],
+  "references": [
+    {
+      "title": "Antennarius striatus (Shaw, 1794)",
+      "publisher": "WoRMS",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=158790"
+    },
+    {
+      "title": "Striated Frogfish",
+      "publisher": "Florida Museum of Natural History",
+      "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/striated-frogfish/"
+    },
+    {
+      "title": "Striate Anglerfish, Antennarius striatus",
+      "publisher": "Australian Museum",
+      "url": "https://australian.museum/learn/animals/fishes/striate-anglerfish-antennarius-striatus/"
+    },
+    {
+      "title": "High-speed cinematographic evidence for ultrafast feeding in antennariid anglerfishes (Grobecker & Pietsch 1979, Science)",
+      "publisher": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17735055"
+    },
+    {
+      "title": "Antennarius striatus, Striated frogfish",
+      "publisher": "FishBase",
+      "url": "https://www.fishbase.se/summary/Antennarius_striatus.html"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/frogfish/hero.webp",
+    "width": 1920,
+    "height": 1440,
+    "alt": "A round orange frogfish covered in long, pale hair-like skin filaments, sitting on dark volcanic sand, with a small white worm-like lure curled above its upturned mouth",
+    "caption": "A 'hairy' striated frogfish on black sand in Lembeh Strait, Indonesia",
+    "creator": "Manuae",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Antennarius_striatus_at_Lembeh_srait.JPG",
+    "species": "Antennarius striatus",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "52% 50%",
+    "tone": "dark"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/frogfish/alt-1.webp",
+      "width": 1920,
+      "height": 1120,
+      "alt": "Side view of a rounded, tan frogfish with bold dark wavy stripes, its thin fishing-rod spine with a worm-like lure extending forward over its mouth, photographed in a tank",
+      "caption": "The rod and lure in profile: a striated frogfish from the Gulf of Mexico (NOAA)",
+      "creator": "NOAA/NMFS/SEFSC Pascagoula Laboratory; Collection of Brandi Noble",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NOAA",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Striped_anglerfish_(_Antennarius_striatus_).jpg",
+      "species": "Antennarius striatus",
+      "type": "photograph",
+      "setting": "specimen",
+      "focal": "45% 50%",
+      "tone": "light"
+    }
+  ],
+  "notes": "Chose Antennarius striatus (striated/hairy frogfish) — commonName changed to 'Striated Frogfish'; rename to plain 'Frogfish' if the group name is preferred. The hero shows the long-filamented 'hairy' form, which is A. striatus (FishBase notes males have more extended skin appendages). Gallery is a live NOAA specimen photographed in a tank (some glass reflections visible). The 6 ms figure is from the Florida Museum; Grobecker & Pietsch 1979 (ref 3) is the original high-speed film study. Public-domain licenceUrl points to the Commons PD-USGov-NOAA template (verify on file page)."
+}

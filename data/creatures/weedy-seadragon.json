@@ -1,0 +1,68 @@
+{
+  "slug": "weedy-seadragon",
+  "commonName": "Weedy Seadragon",
+  "scientificName": "Phyllopteryx taeniolatus",
+  "authority": "(Lacepède, 1804)",
+  "aphiaId": 282254,
+  "taxonomy": { "phylum": "Chordata", "class": "Teleostei", "order": "Syngnathiformes", "family": "Syngnathidae" },
+  "group": "Seadragon (seahorse family)",
+  "categories": ["camouflage", "reproduction"],
+  "tagline": "A spotted dragon drifting through the kelp",
+  "summary": "Also called the common seadragon, this slender relative of seahorses lives on kelp reefs and seagrass beds along southern Australia. Its reddish body is sprinkled with yellow spots and trimmed with small leafy flaps, and — as with all seadragons — the male carries the eggs.",
+  "ability": "camouflaged ambush feeding",
+  "stats": {
+    "size": "Commonly about 30 cm; up to 45 cm",
+    "depth": "About 1–50 m",
+    "range": "Southern Australia, from about Newcastle (NSW) to Tasmania and west to about Geraldton (WA)",
+    "diet": "Tiny crustaceans, especially mysids",
+    "conservation": "IUCN: Vulnerable"
+  },
+  "depthRange": { "min": 1, "max": 50 },
+  "facts": [
+    { "title": "Father as nursery", "text": "Males carry and nourish up to 250 developing eggs on a special patch on the underside of the tail, and some raise two broods in a breeding season.", "certainty": "confirmed", "ref": 1 },
+    { "title": "Stealthy hunter", "text": "Seadragons are ambush predators: relying on camouflage and slow, stealthy approach, they suck up mysids and other tiny crustaceans through a long, tube-like snout.", "certainty": "confirmed", "ref": 1 },
+    { "title": "Homebodies", "text": "Seadragons are a little more mobile than seahorses, yet tend to stay within a home range of roughly 500 m throughout their lives.", "certainty": "confirmed", "ref": 3 },
+    { "title": "Victoria's sea emblem", "text": "The weedy (common) seadragon is the official marine emblem of the Australian state of Victoria.", "certainty": "confirmed", "ref": 1 },
+    { "title": "A worrying trend?", "text": "Citizen-science dive surveys suggested a 59% population decline between 2011 and 2021, and the species is now listed as Vulnerable — though some researchers argue the data are too sparse to be sure of the trend.", "certainty": "uncertain", "ref": 4 }
+  ],
+  "references": [
+    { "title": "Phyllopteryx taeniolatus (Lacepède, 1804)", "publisher": "WoRMS", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=282254" },
+    { "title": "Common Seadragon, Phyllopteryx taeniolatus", "publisher": "Fishes of Australia (Museums Victoria)", "url": "https://fishesofaustralia.net.au/Home/species/3127" },
+    { "title": "Weedy Seadragon", "publisher": "Australian Museum", "url": "https://australian.museum/learn/animals/fishes/weedy-seadragon-phyllopteryx-taeniolatus/" },
+    { "title": "Seadragon species", "publisher": "IUCN SSC Seahorse, Pipefish & Seadragon Specialist Group", "url": "https://www.iucn-seahorse.org/seadragon-species" },
+    { "title": "Common seadragon", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Common_seadragon" }
+  ],
+  "image": {
+    "src": "/media/creatures/weedy-seadragon/hero.webp",
+    "width": 1920, "height": 1319,
+    "alt": "A weedy seadragon swimming over a green seagrass meadow, its long spotted snout pointing left, body banded dark and gold, with small dark leaf-like flaps on its back and belly",
+    "caption": "A weedy seadragon cruising over seagrass at Flinders Pier, Western Port, Victoria",
+    "creator": "Katieleeosborne",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Weedy_Sea_Dragon.jpg",
+    "species": "Phyllopteryx taeniolatus",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "45% 50%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/weedy-seadragon/alt-1.webp",
+      "width": 1920, "height": 1440,
+      "alt": "Close-up of a weedy seadragon's head in profile: a long, white-spotted tubular snout, a large eye, and small paddle-shaped flaps on its neck",
+      "caption": "The long, spotted snout of a weedy seadragon",
+      "creator": "Jack Breedon",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Here_there_be_Dragons.jpg",
+      "species": "Phyllopteryx taeniolatus",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "45% 40%",
+      "tone": "light"
+    }
+  ],
+  "notes": "IUCN status: Vulnerable per the IUCN Seahorse Specialist Group page and Wikipedia (citing a 2025 assessment); older pages (Australian Museum, Fishes of Australia) still say Least Concern — editor may want to confirm on the Red List site (blocked to my fetch). Incubation figures conflict (Fishes of Australia: 30–38 days; Australian Museum: about 8 weeks), so no duration is given. Fishes of Australia main text gives depth 1–50 m but its quick-facts say 1–150 m; used 1–50 m. 'Homebodies' fact is stated for seadragons generally. Hero webp is ~950 KB because of detailed seagrass texture."
+}

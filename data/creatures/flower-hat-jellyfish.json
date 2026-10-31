@@ -1,0 +1,103 @@
+{
+  "slug": "flower-hat-jellyfish",
+  "commonName": "Flower Hat Jellyfish",
+  "scientificName": "Olindias formosus",
+  "authority": "(Goto, 1903)",
+  "aphiaId": 719740,
+  "taxonomy": {
+    "phylum": "Cnidaria",
+    "class": "Hydrozoa",
+    "order": "Limnomedusae",
+    "family": "Olindiidae"
+  },
+  "group": "Hydromedusa (hydrozoan jelly)",
+  "categories": [
+    "venomous"
+  ],
+  "tagline": "A glowing lure-tipped hat that rests by day and hunts by night",
+  "summary": "A hydromedusa, not a true jellyfish, from shallow coastal waters off Japan and Korea. Its tentacles curl up over the outside of its striped bell and end in fluorescent green bands and pink tips. Experiments suggest these glowing tips may lure the small fish it eats.",
+  "ability": "fluorescent tentacle lures",
+  "stats": {
+    "size": "Bell up to about 15 cm across",
+    "depth": "Shallow coastal waters, less than about 30 m",
+    "range": "Northwestern Pacific: central and southern Japan, Jeju Island (South Korea)",
+    "diet": "Mainly small fish",
+    "conservation": "Not evaluated by IUCN"
+  },
+  "depthRange": {
+    "min": 0,
+    "max": 30
+  },
+  "facts": [
+    {
+      "title": "Tentacles worn on top",
+      "text": "Unusually, its tentacles grow up along the outside of the bell. Each one ends in a green fluorescent band and a pink-pigmented tip.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Fluorescent fishing lures",
+      "text": "In lab trials, juvenile rockfish were strongly attracted to the tentacles under blue light, which makes the tips fluoresce, but not under yellow or white light. This suggests the glow works as prey bait.",
+      "certainty": "hypothesis",
+      "ref": 1
+    },
+    {
+      "title": "Fluorescent, not bioluminescent",
+      "text": "The glow is fluorescence: proteins absorb blue light and re-emit it as green. The jelly makes no light of its own.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Day rester, night hunter",
+      "text": "Adults spend the day resting on the bottom among rocks or algae and rise at night to hunt. They are seen mainly from December to July, and each adult lives only a few months.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Tentacles placed by maths",
+      "text": "New tentacles are added at a near-constant angle of about 137.5°, the same rule seen in plant leaf spirals. Mathematicians liken this to 'Fibonacci hashing', which spreads tentacles evenly as their number grows.",
+      "certainty": "confirmed",
+      "ref": 2
+    }
+  ],
+  "references": [
+    {
+      "title": "Olindias formosus (Goto, 1903)",
+      "publisher": "WoRMS",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=719740"
+    },
+    {
+      "title": "Fluorescent proteins function as a prey attractant: experimental evidence from the hydromedusa Olindias formosus and other marine organisms — Haddock & Dunn 2015",
+      "publisher": "Biology Open (via PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4582119/"
+    },
+    {
+      "title": "Optimal hash arrangement of tentacles in jellyfish — Okabe & Yoshimura 2016",
+      "publisher": "Scientific Reports (via PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4895151/"
+    },
+    {
+      "title": "Flower hat jelly",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Olindias_formosus"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/flower-hat-jellyfish/hero.webp",
+    "width": 1920,
+    "height": 1280,
+    "alt": "A dome-shaped translucent jelly on a black background. Its bell is pinstriped with dark lines and shows a peach interior, and it is ringed by many cream-coloured, pink-tipped tentacles that curl upward over the bell and trail below.",
+    "caption": "Flower hat jelly in an aquarium. The pink-tipped tentacles curl up over its striped bell.",
+    "creator": "Σ64",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Olindias_formosa_01.jpg",
+    "species": "Olindias formosus",
+    "type": "photograph",
+    "setting": "aquarium",
+    "focal": "50% 45%",
+    "tone": "dark"
+  },
+  "gallery": [],
+  "notes": "The name was formerly spelled O. formosa; it was changed to formosus to correct a gender mismatch with the genus. Many popular sites also list Brazil and Argentina in its range, but sources consulted here give only Japan and Korea. South American records likely refer to a congener (e.g. O. sambaquiensis), so we left them out. Wikipedia mentions a single reported human fatality in Japan. We did not include it as a fact because it rests on a single case. Adult seasonality and day/night behaviour come from Wikipedia, which cites Patry et al. 2014 (JMBA). The setting is an aquarium; no correctly identified in situ photo was found at good resolution."
+}

@@ -1,0 +1,127 @@
+{
+  "slug": "frilled-shark",
+  "commonName": "Frilled Shark",
+  "scientificName": "Chlamydoselachus anguineus",
+  "authority": "Garman, 1884",
+  "aphiaId": 105831,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Elasmobranchii",
+    "order": "Hexanchiformes",
+    "family": "Chlamydoselachidae"
+  },
+  "group": "Deep-sea shark",
+  "categories": [
+    "deep-sea",
+    "ancient",
+    "reproduction"
+  ],
+  "tagline": "An eel-shaped shark with a collar of frills",
+  "summary": "A slender, eel-like shark with six frilly gill slits—the first pair meeting across the throat like a ruff—and a mouth lined with rows of small, three-pointed teeth. A primitive-looking deep-water hunter, it swallows squid, fishes and even other sharks, and may carry its young for more than a year.",
+  "ability": "needle-trap jaws and an extremely long pregnancy",
+  "stats": {
+    "size": "Females up to almost 2 m",
+    "depth": "Typically 500–1,000 m; recorded from about 20 to 1,500 m",
+    "range": "Patchy in the Atlantic and Pacific Oceans, on outer shelves, slopes and seamounts",
+    "diet": "Deep-water squid, bony fishes and other sharks",
+    "conservation": "IUCN: Least Concern"
+  },
+  "depthRange": {
+    "min": 500,
+    "max": 1000
+  },
+  "facts": [
+    {
+      "title": "Where the name comes from",
+      "text": "It has six gill slits with frilly edges, and the lower ends of the first pair join across the throat, forming a ruff-like collar.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Teeth that point inward",
+      "text": "Its large mouth holds groups of small, sharp, three-pointed teeth that point inward. It can swallow relatively large prey, including other deep-water sharks.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "A very long pregnancy",
+      "text": "Young hatch from eggs inside the mother and feed on large yolky eggs; litters of 2–15 pups are born at about 40–60 cm long. Gestation is thought to last more than a year.",
+      "certainty": "hypothesis",
+      "ref": 1
+    },
+    {
+      "title": "First filmed in 2004",
+      "text": "In August 2004, scientists reviewing submersible video off the south-eastern USA spotted a frilled shark gliding over sandy seafloor—thought to be the first time one was seen alive in its natural habitat.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "A 'living fossil'?",
+      "text": "Often called a 'living fossil', it shares many physical features with shark ancestors from the age of dinosaurs, and is described as a primitive deep-water shark.",
+      "certainty": "confirmed",
+      "ref": 3
+    }
+  ],
+  "references": [
+    {
+      "title": "Chlamydoselachus anguineus Garman, 1884",
+      "publisher": "WoRMS",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=105831"
+    },
+    {
+      "title": "Frill Shark, Chlamydoselachus anguineus",
+      "publisher": "Fishes of Australia (Museums Victoria)",
+      "url": "https://fishesofaustralia.net.au/home/species/3419"
+    },
+    {
+      "title": "Estuary to the Abyss 2004: August 27 log",
+      "publisher": "NOAA Ocean Exploration",
+      "url": "https://archive.oceanexplorer.noaa.gov/explorations/04etta/logs/aug27/aug27.html"
+    },
+    {
+      "title": "Watch a gulper eel inflate and deflate itself (includes frilled shark photo caption)",
+      "publisher": "National Geographic",
+      "url": "https://www.nationalgeographic.com/animals/article/gulper-eel-video-deep-sea-fish-nautilus-news"
+    },
+    {
+      "title": "Chlamydoselachus anguineus – Frilled shark",
+      "publisher": "FishBase",
+      "url": "https://www.fishbase.se/summary/Chlamydoselachus-anguineus.html"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/frilled-shark/hero.webp",
+    "width": 1920,
+    "height": 1449,
+    "alt": "Close-up of a grey-brown shark's head in blue-green light, showing a blunt snout, open mouth lined with small pale teeth, and ruffled, frilly gill folds behind the head.",
+    "caption": "The frilled gill folds that give the species its name, seen on a specimen in a display tank.",
+    "creator": "OpenCage (opencage.info)",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frilled_shark_head2.jpg",
+    "species": "Chlamydoselachus anguineus",
+    "type": "photograph",
+    "setting": "specimen",
+    "focal": "40% 55%",
+    "tone": "dark"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/frilled-shark/alt-1.webp",
+      "width": 1920,
+      "height": 1457,
+      "alt": "Grainy blue underwater video frame of a long, slender shark swimming over rippled sand, its shadow below, with date, depth and temperature text across the top.",
+      "caption": "The first known footage of a live frilled shark in its habitat, filmed from the Johnson-Sea-Link II submersible at about 870 m (2,866 ft), 26 August 2004.",
+      "creator": "NOAA Ocean Exploration",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chlamydoselachus_anguineus_NOOA.jpg",
+      "species": "Chlamydoselachus anguineus",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "55% 50%",
+      "tone": "dark"
+    }
+  ],
+  "notes": "Hero: OpenCage close-up (Commons Category:Chlamydoselachus anguineus); the animal appears to be a dead or preserved specimen in a tank—exact location not stated on Commons. Gallery: NOAA 2004 in-situ video frame (low quality, burnt-in data overlay; depth 2,866 ft as shown on the frame). Rejected: 'Frill shark - Australian Museum 2022.png' (credited to ChatGPT—AI-generated), 'Deania hystricosa.jpg' (other species). The 2007 Awashima Marine Park live shark images are not freely licensed. A separate southern African species, C. africana, was split off in 2009, so older 'worldwide' ranges may include it. 'Living fossil' is a popular label; the NatGeo source is a photo caption."
+}

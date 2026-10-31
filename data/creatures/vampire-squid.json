@@ -1,0 +1,50 @@
+{
+  "slug": "vampire-squid",
+  "commonName": "Vampire Squid",
+  "scientificName": "Vampyroteuthis infernalis",
+  "authority": "Chun, 1903",
+  "aphiaId": 141887,
+  "taxonomy": { "phylum": "Mollusca", "class": "Cephalopoda", "order": "Vampyromorpha", "family": "Vampyroteuthidae" },
+  "group": "Vampyromorph cephalopod",
+  "categories": ["deep-sea", "bioluminescent", "ancient"],
+  "tagline": "Neither vampire nor squid, but a gentle snow-eater",
+  "summary": "Despite its name, the vampire squid is neither a vampire nor a squid but the last surviving member of an ancient cephalopod group. It drifts through the low-oxygen twilight zone, gathering 'marine snow', the sinking debris of the waters above, with two long sticky filaments.",
+  "ability": "turning its cloak inside out",
+  "stats": {
+    "size": "Up to about 30 cm total length",
+    "depth": "Mostly 600–900 m",
+    "range": "Worldwide in tropical and temperate seas",
+    "diet": "Marine snow (sinking organic debris); also small zooplankton",
+    "conservation": "No IUCN assessment found in sources checked"
+  },
+  "depthRange": { "min": 600, "max": 900 },
+  "facts": [
+    { "title": "A living fossil", "text": "Its scientific name means 'vampire squid from hell', yet it is the only living member of its family and the last survivor of an ancient lineage, distinct from both squids and octopuses.", "certainty": "confirmed", "ref": 1 },
+    { "title": "Mucus dumplings", "text": "It traps falling marine snow on two sticky filaments, pulls them through its arms, and wraps the particles in mucus before passing the 'dumpling' to its mouth. It is the only cephalopod known to feed mainly as a scavenger.", "certainty": "confirmed", "ref": 2 },
+    { "title": "The pineapple pose", "text": "When threatened it flips its webbed arms up over its body like a cloak, showing spiky-looking fleshy cirri. If danger persists, its arm tips glow blue, and it can release a glowing cloud instead of ink.", "certainty": "confirmed", "ref": 1 },
+    { "title": "Built for low oxygen", "text": "It thrives in the oxygen minimum zone, where few predators can follow. A very slow metabolism and blood with an unusually high affinity for oxygen help it get by.", "certainty": "confirmed", "ref": 2 },
+    { "title": "Many spawnings", "text": "Unlike most cephalopods, which breed once and die, female vampire squid appear to spawn repeatedly, releasing a few eggs at a time.", "certainty": "confirmed", "ref": 2 }
+  ],
+  "references": [
+    { "title": "Vampyroteuthis infernalis Chun, 1903", "publisher": "WoRMS (World Register of Marine Species)", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=141887" },
+    { "title": "Vampire squid — Animals of the Deep", "publisher": "MBARI", "url": "https://www.mbari.org/animal/vampire-squid/" },
+    { "title": "Vampire squid", "publisher": "Monterey Bay Aquarium", "url": "https://www.montereybayaquarium.org/animals/animals-a-to-z/vampire-squid" }
+  ],
+  "image": {
+    "src": "/media/creatures/vampire-squid/hero.webp",
+    "width": 1701, "height": 1149,
+    "alt": "Historic colour illustration of a vampire squid in side view: a dark red rounded body with small fins, a large eye, and webbed arms flared forward like an umbrella",
+    "caption": "Vampire squid as drawn for Carl Chun, who described the species in 1903",
+    "creator": "Carl Chun",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vampyroteuthis_infernalis.jpg",
+    "species": "Vampyroteuthis infernalis",
+    "type": "illustration",
+    "setting": "illustration",
+    "focal": "55% 50%",
+    "tone": "light"
+  },
+  "gallery": [],
+  "notes": "No freely licensed photograph of a live vampire squid was found on Commons (category holds a museum model, historic plates and microscope slides); MBARI/NOAA photos are not on Commons with a free licence. Used the Carl Chun plate (public domain). Image is 1701 px wide (not upscaled). IUCN status not found in fetched sources; please verify before stating one."
+}

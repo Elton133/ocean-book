@@ -1,0 +1,110 @@
+{
+  "slug": "comb-jelly",
+  "commonName": "Comb Jelly — Sea Walnut",
+  "scientificName": "Mnemiopsis leidyi",
+  "authority": "A. Agassiz, 1865",
+  "aphiaId": 106401,
+  "taxonomy": {
+    "phylum": "Ctenophora",
+    "class": "Tentaculata",
+    "order": "Lobata",
+    "family": "Bolinopsidae"
+  },
+  "group": "Comb jelly (ctenophore)",
+  "categories": [
+    "bioluminescent",
+    "transparent"
+  ],
+  "tagline": "Rainbow-rippling, glass-clear and no relation to jellyfish",
+  "summary": "Comb jellies are not jellyfish: they belong to their own ancient phylum, Ctenophora, and do not sting. The sea walnut swims by beating eight rows of tiny ciliary combs. These scatter light into shimmering rainbows, which is diffraction, not glowing. When disturbed it can also produce its own light.",
+  "ability": "rainbow comb rows and bioluminescence",
+  "stats": {
+    "size": "Up to roughly 7–12 cm long",
+    "depth": "Coastal and estuarine waters",
+    "range": "Native to the western Atlantic; invasive in the Black, Caspian, Baltic and North seas",
+    "diet": "Zooplankton, including crustaceans, other comb jellies, fish eggs and larvae",
+    "conservation": "Not evaluated by IUCN"
+  },
+  "depthRange": {
+    "min": 0,
+    "max": 30,
+    "approx": true
+  },
+  "facts": [
+    {
+      "title": "Rainbows, not glowing",
+      "text": "The flickering rainbow colours come from light diffracting off the beating comb plates (fused cilia). It happens only in ambient light and is often mistaken for bioluminescence.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "It does make light too",
+      "text": "Mnemiopsis is genuinely bioluminescent. It uses a photoprotein, a single complex of light-making molecules, and its comb rows give off blue-green light when disturbed.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "An invader that crashed fisheries",
+      "text": "Carried in ships' ballast water, it reached the Black Sea in the early 1980s. There it ate fish eggs and larvae and competed with anchovy for food, contributing to a dramatic fall in catches.",
+      "certainty": "confirmed",
+      "ref": 4
+    },
+    {
+      "title": "It can grow young again",
+      "text": "In 2024 researchers showed that stressed adults can revert to the earlier, two-tentacled cydippid larval form and later mature and spawn again. It is the first ctenophore known to do this.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "A now-you-see-it anus",
+      "text": "It has no permanent anus. When waste builds up, the gut fuses with the skin to open a temporary pore, which closes again after defecation. In adults this happens about once an hour.",
+      "certainty": "confirmed",
+      "ref": 4
+    }
+  ],
+  "references": [
+    {
+      "title": "Mnemiopsis leidyi A. Agassiz, 1865",
+      "publisher": "WoRMS",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=106401"
+    },
+    {
+      "title": "Reverse development in the ctenophore Mnemiopsis leidyi — Soto-Angel & Burkhardt 2024",
+      "publisher": "PNAS (via PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11551415/"
+    },
+    {
+      "title": "Bioluminescence myths: All comb jellies luminesce and they make the colors of the rainbow",
+      "publisher": "The Bioluminescence Web Page (S. Haddock, UC Santa Barbara / MBARI)",
+      "url": "https://biolum.eemb.ucsb.edu/myth.html"
+    },
+    {
+      "title": "Marine eukaryote bioluminescence: a review of species and their functional biology (2025)",
+      "publisher": "Marine Life Science & Technology (via PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12102453/"
+    },
+    {
+      "title": "Mnemiopsis",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mnemiopsis"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/comb-jelly/hero.webp",
+    "width": 1920,
+    "height": 1493,
+    "alt": "A glass-clear comb jelly against a black background, seen side-on with two large rounded oral lobes. Rows of tiny comb plates along its edges scatter light into streaks of rainbow colour.",
+    "caption": "Sea walnut (Mnemiopsis leidyi). The rainbow streaks along its comb rows are diffracted light, not bioluminescence.",
+    "creator": "Bruno C. Vellutini",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Comb_jelly_2.jpg",
+    "species": "Mnemiopsis leidyi",
+    "type": "photograph",
+    "setting": "aquarium",
+    "focal": "52% 50%",
+    "tone": "dark"
+  },
+  "gallery": [],
+  "notes": "We chose Mnemiopsis leidyi because Commons has many correctly identified photos and it is documented as bioluminescent: the 2025 review lists it among photoprotein species. The hero was taken by ctenophore researcher Bruno Vellutini, filed under Category:Mnemiopsis leidyi. It is most likely a lab or aquarium shot against black (setting assumed). The animal fills most of the frame, so tight landscape crops may clip the lobes. The image is 1920×1493, uncropped. Wikipedia gives the first Black Sea record as 1982. Depth is not documented in the sources consulted; depthRange 0–30 m is an indicative value for coastal plankton. Size and the invasion history come from Wikipedia (last-resort source). The 2024 reverse-development finding is from the PNAS paper."
+}

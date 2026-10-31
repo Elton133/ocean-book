@@ -1,0 +1,92 @@
+{
+  "slug": "humpback-anglerfish",
+  "commonName": "Humpback Anglerfish",
+  "scientificName": "Melanocetus johnsonii",
+  "authority": "Günther, 1864",
+  "aphiaId": 126556,
+  "taxonomy": { "phylum": "Chordata", "class": "Teleostei", "order": "Lophiiformes", "family": "Melanocetidae" },
+  "group": "Deep-sea anglerfish",
+  "categories": ["deep-sea", "bioluminescent", "reproduction"],
+  "tagline": "A fist-sized ambush with a glowing lure",
+  "summary": "Also called the black seadevil, this small, velvety-black anglerfish dangles a glowing lure in front of a cavernous, needle-toothed mouth. The light comes from bacteria living inside the lure. Females reach about 18 cm; the dwarf males are under 3 cm and live independently.",
+  "ability": "bacterial light lure and an expandable stomach",
+  "stats": {
+    "size": "Females up to about 18 cm; males about 3 cm",
+    "depth": "Usually 100–1,500 m; recorded to about 4,500 m",
+    "range": "Tropical to temperate waters of all oceans",
+    "diet": "Small fishes and crustaceans; can swallow prey longer than itself",
+    "conservation": "IUCN: Least Concern"
+  },
+  "depthRange": { "min": 100, "max": 1500 },
+  "facts": [
+    {
+      "title": "Borrowed light",
+      "text": "The female's 'fishing rod' is the first ray of her dorsal fin. Its tip, the esca, is a sac packed with light-producing bacteria, so the fish doesn't make the glow itself—its microbial partners do.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Fishing, not chasing",
+      "text": "Rather than spending energy hunting, the angler hangs in the dark with its lure lit and waits. When a small fish or crustacean comes close, the huge mouth and sharp teeth snap shut.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "A stretchy stomach",
+      "text": "Its stomach stretches enormously. A 6.6 cm humpback anglerfish was found with a roughly 24 cm viperfish inside it—prey more than three times its own length.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Dwarf, but not a parasite",
+      "text": "Males are tiny and, like other dwarf anglerfish males, find females by following their scent. Unlike some anglerfish whose males fuse permanently to the female, Melanocetus males are non-parasitic and stay free-living.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Black as ink",
+      "text": "Deep-sea anglerfishes have dark skin that absorbs light—an ultra-black camouflage that helps mask their presence.",
+      "certainty": "confirmed",
+      "ref": 1
+    }
+  ],
+  "references": [
+    { "title": "Melanocetus johnsonii Günther, 1864", "publisher": "WoRMS", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=126556" },
+    { "title": "Deep-sea anglerfish (order Lophiiformes)", "publisher": "MBARI – Animals of the Deep", "url": "https://www.mbari.org/animal/deep-sea-anglerfish/" },
+    { "title": "Deep-sea anglerfish", "publisher": "Monterey Bay Aquarium", "url": "https://www.montereybayaquarium.org/animals/animals-a-to-z/deep-sea-anglerfish" },
+    { "title": "Melanocetus johnsonii – Humpback anglerfish", "publisher": "FishBase", "url": "https://www.fishbase.se/summary/Melanocetus-johnsonii.html" }
+  ],
+  "image": {
+    "src": "/media/creatures/humpback-anglerfish/hero.webp",
+    "width": 1920, "height": 1477,
+    "alt": "Black-and-white engraving of an anglerfish with a round, swollen belly, a huge gaping mouth lined with thin needle-like teeth, and a slender rod with a small knob rising from its head.",
+    "caption": "The original 1864 illustration of the species, drawn by G. H. Ford for Albert Günther's description in the Proceedings of the Zoological Society of London.",
+    "creator": "George Henry Ford (via Biodiversity Heritage Library)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MelanocetusJohnsoniiFord.jpg",
+    "species": "Melanocetus johnsonii",
+    "type": "illustration",
+    "setting": "illustration",
+    "focal": "50% 50%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/humpback-anglerfish/alt-1.webp",
+      "width": 1920, "height": 1156,
+      "alt": "A glossy black anglerfish, freshly caught, lying among other deep-sea fishes and red shrimps in a trawl haul.",
+      "caption": "A freshly trawled humpback anglerfish among the rest of the catch aboard NOAA Ship Delaware II, 2004.",
+      "creator": "Personnel of NOAA Ship DELAWARE II (NOAA Photo Library)",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melanocetus_johnsonii_by_NOAA.jpg",
+      "species": "Melanocetus johnsonii",
+      "type": "photograph",
+      "setting": "specimen",
+      "focal": "45% 50%",
+      "tone": "dark"
+    }
+  ],
+  "notes": "Hero is a historical scientific illustration (Günther 1864 type description, PZSL) because the only real photograph on Commons (NOAA trawl specimen, used as gallery alt-1) is cluttered and does not show the lure. Rejected: NHM London display models (Commons 'Hal - Melanocetus johnsonii' and 'Melanocetus johnsonii.00x' files — these are models, not specimens) and 'Rape abisal, Greg Dykstra' (an artwork of a different-looking anglerfish). Lure/bioluminescent-bacteria and ultra-black-skin facts come from MBARI's order-level page and apply to deep-sea anglerfishes generally. The 2014 MBARI ROV video of a live Melanocetus in Monterey Canyon is often cited as a first; sources only identify it to genus, so it is not used. Common names also include 'black seadevil' and 'humpback blackdevil'."
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "sea-pen",
+  "commonName": "Orange Sea Pen",
+  "scientificName": "Ptilosarcus gurneyi",
+  "authority": "(Gray, 1860)",
+  "aphiaId": 290947,
+  "taxonomy": {
+    "phylum": "Cnidaria",
+    "class": "Octocorallia",
+    "order": "Scleralcyonacea",
+    "family": "Pennatulidae"
+  },
+  "group": "Sea pen (colonial octocoral)",
+  "categories": [
+    "bioluminescent"
+  ],
+  "tagline": "A feathery colony that glows, deflates and hides in the sand",
+  "summary": "Shaped like an old quill pen, the orange sea pen is a colony of polyps, each with its own job: anchoring, feeding or pumping water. It stands in soft sand and mud off western North America, strains plankton from the current and, when disturbed, flashes greenish-blue light and shrinks into its base.",
+  "ability": "glowing retreat into the seabed",
+  "stats": {
+    "size": "Up to about 46–48 cm tall",
+    "depth": "Subtidal sand and mud; reported from about 14 m to 225 m",
+    "range": "Northeastern Pacific, from Alaska to southern California / northern Mexico",
+    "diet": "Zooplankton",
+    "conservation": "Not evaluated by IUCN"
+  },
+  "depthRange": {
+    "min": 14,
+    "max": 225
+  },
+  "facts": [
+    {
+      "title": "One animal, many polyps",
+      "text": "A single primary polyp forms the stalk and the bulb that anchors it. Thousands of secondary polyps then take on jobs: feeding polyps catch plankton and make eggs and sperm, while pumping polyps move water in and out.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "A pulse of blue-green light",
+      "text": "When it is touched, a greenish-blue glow runs up and down the stalk, which may startle predators. A disturbed pen that has withdrawn into the sediment can still be seen glowing in the dark.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "It knows who's touching",
+      "text": "The amount it retracts depends on the predator. It withdraws when touched by the leather star, which hunts sea pens, but does not react defensively to the ochre star, which does not eat them.",
+      "certainty": "confirmed",
+      "ref": 4
+    },
+    {
+      "title": "Drifts to a new home",
+      "text": "Though it looks rooted, it can inflate with water and drift like a leaf to relocate.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Slow-growing, long-lived",
+      "text": "Young sea pens take over a year to reach about 2.5 cm (1 in) tall. A single pen may produce about a million eggs over a lifetime of around 10 years.",
+      "certainty": "confirmed",
+      "ref": 2
+    }
+  ],
+  "references": [
+    {
+      "title": "Ptilosarcus gurneyi (Gray, 1860)",
+      "publisher": "WoRMS",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=290947"
+    },
+    {
+      "title": "Orange Sea Pen",
+      "publisher": "Oregon Coast Aquarium",
+      "url": "https://aquarium.org/animals/orange-sea-pen/"
+    },
+    {
+      "title": "The Orange Sea Pen (Burgess & Eagleston, Washington Dept. of Ecology)",
+      "publisher": "Encyclopedia of Puget Sound",
+      "url": "https://www.eopugetsound.org/node/163875"
+    },
+    {
+      "title": "Orange Sea Pen, Ptilosarcus gurneyi",
+      "publisher": "Vancouver Island University – Deep Bay Marine Field Station",
+      "url": "https://deepbay.viu.ca/orange-sea-pen-ptilosarcus-gurneyi"
+    },
+    {
+      "title": "Ptilosarcus gurneyi",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ptilosarcus_gurneyi"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/sea-pen/hero.webp",
+    "width": 1920,
+    "height": 1615,
+    "alt": "Three bright orange-pink sea pens rising from pale sand against a blue background. Their thick, ridged, feather-like fronds bend into arches above stout, bulb-shaped bases.",
+    "caption": "Orange sea pens on display at the California Academy of Sciences.",
+    "creator": "Toby Hudson",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ptilosarcus_gurneyi_California.JPG",
+    "species": "Ptilosarcus gurneyi",
+    "type": "photograph",
+    "setting": "aquarium",
+    "focal": "50% 50%",
+    "tone": "dark"
+  },
+  "gallery": [],
+  "notes": "Predator recognition: Wikipedia, citing Weightman & Arsenault 2002 (Can. J. Zool.), is also supported by the Oregon Coast Aquarium. The glow-in-sediment detail is from VIU. A Flickr image titled 'Fleshy Sea Pen' from an aquarium in Dubai was rejected because its species ID is unverified. Depth reports vary widely: Wikipedia gives 14–225 m, the Oregon Coast Aquarium says subtidal to about 30 m (100 ft), and VIU gives no depth. We used the wider range, so treat it with caution. WoRMS currently places sea pens in order Scleralcyonacea (formerly Pennatulacea). The 10-year lifespan and million-egg figures come from a Washington Dept. of Ecology article and are approximate."
+}

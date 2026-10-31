@@ -1,0 +1,121 @@
+{
+  "slug": "cookiecutter-shark",
+  "commonName": "Cookiecutter Shark",
+  "scientificName": "Isistius brasiliensis",
+  "authority": "(Quoy & Gaimard, 1824)",
+  "aphiaId": 215612,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Elasmobranchii",
+    "order": "Squaliformes",
+    "family": "Dalatiidae"
+  },
+  "group": "Deep-sea shark",
+  "categories": [
+    "deep-sea",
+    "bioluminescent"
+  ],
+  "tagline": "A cigar-sized shark that bites cookies out of whales",
+  "summary": "A glowing, cigar-shaped shark only about half a metre long that attacks animals far larger than itself. It latches on with sucker-like lips, spins, and carves out a neat round plug of flesh—leaving crater wounds on tunas, dolphins, whales and seals.",
+  "ability": "suction-and-spin bite that cuts round plugs of flesh",
+  "stats": {
+    "size": "Females up to about 56 cm; males about 42 cm",
+    "depth": "Recorded from the surface to about 3,500–3,700 m; below about 1,000 m by day, rising at night",
+    "range": "Tropical to warm-temperate oceans worldwide",
+    "diet": "Plugs of flesh from large fishes, sharks and marine mammals; also whole squid and crustaceans",
+    "conservation": "IUCN: Least Concern"
+  },
+  "depthRange": {
+    "min": 0,
+    "max": 3700
+  },
+  "facts": [
+    {
+      "title": "The cookie-cutter bite",
+      "text": "It sucks onto its victim with fleshy lips and throat muscles, grips with slender upper teeth, then bites with its large lower teeth and spins, cutting out a deep, circular plug.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "A glowing belly",
+      "text": "Except for a dark collar around the throat, its underside is covered in tiny light organs that give an even greenish glow, hiding its silhouette from below (counter-illumination).",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "A collar that lures?",
+      "text": "Biologist Edith Widder suggested that the unlit collar looks like a small fish against the glow, luring fast predators such as tunas and dolphins close enough to be bitten.",
+      "certainty": "hypothesis",
+      "ref": 1
+    },
+    {
+      "title": "Teeth replaced as a set",
+      "text": "Its lower teeth are joined at their bases and shed as a whole row rather than one by one. It swallows the old row—possibly a way to recycle calcium.",
+      "certainty": "hypothesis",
+      "ref": 2
+    },
+    {
+      "title": "Daily elevator ride",
+      "text": "It spends the day in deep water, below about 1,000 m, and migrates toward the surface at night to feed. There are even reports of its bite marks on submarine sonar domes.",
+      "certainty": "confirmed",
+      "ref": 2
+    }
+  ],
+  "references": [
+    {
+      "title": "Isistius brasiliensis (Quoy & Gaimard, 1824)",
+      "publisher": "WoRMS",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=215612"
+    },
+    {
+      "title": "Smalltooth Cookiecutter Shark, Isistius brasiliensis",
+      "publisher": "Fishes of Australia (Museums Victoria)",
+      "url": "https://fishesofaustralia.net.au/home/species/2015"
+    },
+    {
+      "title": "Isistius brasiliensis – Cookiecutter shark",
+      "publisher": "Florida Museum of Natural History",
+      "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/isistius-brasiliensis/"
+    },
+    {
+      "title": "Isistius brasiliensis – Cookie cutter shark",
+      "publisher": "FishBase",
+      "url": "https://www.fishbase.se/summary/Isistius-brasiliensis.html"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/cookiecutter-shark/hero.webp",
+    "width": 1920,
+    "height": 1440,
+    "alt": "A small, slender brown shark photographed side-on against a white background, with a dark band around the gill area, two small dorsal fins set far back and a large tail.",
+    "caption": "A cookiecutter shark from Réunion Island in the Indian Ocean; note the dark collar behind the head.",
+    "creator": "Hugues Evano (IFREMER, Délégation océan Indien)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Squalelet_f%C3%A9roce_(Isistius_brasiliensis)_(Ifremer_00764-87574).jpg",
+    "species": "Isistius brasiliensis",
+    "type": "photograph",
+    "setting": "specimen",
+    "focal": "50% 55%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/cookiecutter-shark/alt-1.webp",
+      "width": 1244,
+      "height": 1920,
+      "alt": "A hand holding a small brown shark upright by its body, its round mouth wide open to show a ring of triangular lower teeth.",
+      "caption": "Head-on view showing the round mouth and the row of large triangular lower teeth used to carve out plugs of flesh.",
+      "creator": "NOAA Photo Library",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Isistius_brasiliensis_front_view.jpg",
+      "species": "Isistius brasiliensis",
+      "type": "photograph",
+      "setting": "specimen",
+      "focal": "45% 25%",
+      "tone": "light"
+    }
+  ],
+  "notes": "Hero: IFREMER fresh specimen from Réunion (Commons Category:Isistius brasiliensis). Gallery: NOAA Photo Library specimen held in hand (portrait). Rejected: Smithsonian jar specimen (cluttered). The 'collar lure' fact cites Fishes of Australia's summary of Widder (1998). Fishes of Australia also reports a cookiecutter bite on a long-distance swimmer in Hawaii (Honebrink et al. 2011)—not used in facts. Depth: FishBase 0–3,700 m, Fishes of Australia 0–3,500 m."
+}

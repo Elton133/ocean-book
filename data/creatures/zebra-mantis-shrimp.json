@@ -1,0 +1,66 @@
+{
+  "slug": "zebra-mantis-shrimp",
+  "commonName": "Zebra Mantis Shrimp",
+  "scientificName": "Lysiosquilla maculata",
+  "authority": "(Fabricius, 1793)",
+  "aphiaId": 211183,
+  "taxonomy": { "phylum": "Arthropoda", "class": "Malacostraca", "order": "Stomatopoda", "family": "Lysiosquillidae" },
+  "group": "Mantis shrimp (spearer)",
+  "categories": ["reproduction"],
+  "tagline": "The patient spear-fisher of the sand",
+  "summary": "The largest of all mantis shrimps, this striped ambush hunter lives in a sandy burrow and waits with only its eyes showing. When a fish or shrimp passes, it lunges out and impales it on barbed, spear-like claws — a very different strategy from the hammer-fisted 'smasher' mantis shrimps.",
+  "ability": "ambush spearing from a burrow",
+  "stats": {
+    "size": "Up to about 40 cm long",
+    "depth": "Shallow sandy seabeds; reported to about 145 m",
+    "range": "Indo-Pacific, from East Africa to Hawaii and the Galápagos",
+    "diet": "Small fishes and crustaceans",
+    "conservation": "Not evaluated by IUCN"
+  },
+  "depthRange": { "min": 6, "max": 145 },
+  "facts": [
+    { "title": "Spearer, not smasher", "text": "Mantis shrimps come in two broad types: 'smashers' roam and hammer hard-shelled prey, while 'spearers' like this one hide in sandy burrows and snatch fast, soft-bodied prey such as fish.", "certainty": "confirmed", "ref": 1 },
+    { "title": "Eyes at the doorway", "text": "Field observations show it hunts mainly at night, hidden in its burrow with just its eyes peeking out, then lunging to grab passing prey.", "certainty": "confirmed", "ref": 1 },
+    { "title": "Slower than you'd think", "text": "Its strikes averaged about 2.3 m/s and lasted about 25 milliseconds — slower than smashers' blows, but similar to other predators that catch evasive prey. Speed, it seems, isn't everything for an ambusher.", "certainty": "confirmed", "ref": 1 },
+    { "title": "The biggest mantis shrimp", "text": "Reaching up to about 40 cm, it is described as the largest mantis shrimp in the world.", "certainty": "confirmed", "ref": 2 },
+    { "title": "A couple that shares a home", "text": "Zebra mantis shrimps are socially monogamous: a male and female share a burrow, and the female cares for the eggs.", "certainty": "confirmed", "ref": 2 }
+  ],
+  "references": [
+    { "title": "Lysiosquilla maculata (Fabricius, 1793)", "publisher": "WoRMS", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=211183" },
+    { "title": "Strike mechanics of an ambush predator: the spearing mantis shrimp (deVries et al. 2012, Journal of Experimental Biology)", "publisher": "PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/23175528" },
+    { "title": "Lysiosquillina maculata", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Lysiosquillina_maculata" }
+  ],
+  "image": {
+    "src": "/media/creatures/zebra-mantis-shrimp/hero.webp",
+    "width": 1920, "height": 1280,
+    "alt": "Two pale, stalked eyes and the front of a zebra mantis shrimp's head peeking out of a burrow in coarse sand",
+    "caption": "Waiting in ambush: a zebra mantis shrimp watches from its burrow off Jeddah, Red Sea",
+    "creator": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Camar%C3%B3n_mantis_cebra_(Lysiosquilla_maculata),_Yeda,_Arabia_Saudita,_2025-05-21,_DD_85.jpg",
+    "species": "Lysiosquilla maculata",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "50% 50%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/zebra-mantis-shrimp/alt-1.webp",
+      "width": 1920, "height": 1280,
+      "alt": "A large mantis shrimp with bold dark and pale bands across its body, resting on gravel under blue aquarium light",
+      "caption": "The full banded body, seen in a public aquarium in Prague",
+      "creator": "Karelj",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lysiosquillina_maculata_Prague_2012_2.jpg",
+      "species": "Lysiosquilla maculata",
+      "type": "photograph",
+      "setting": "aquarium",
+      "focal": "50% 50%",
+      "tone": "dark"
+    }
+  ],
+  "notes": "WoRMS currently treats Lysiosquillina maculata (the name used in most literature, incl. deVries et al. 2012) as unaccepted, with the accepted name Lysiosquilla maculata (AphiaID 211183). Editor may wish to mention the alternative name. Depth range 6–145 m comes from SeaLifeBase (seen in search results only; site blocked direct fetch, so not listed as a reference). Size, range and monogamy come from Wikipedia, which cites Caldwell (UCMP) and Templin et al. 2017."
+}

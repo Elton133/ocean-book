@@ -1,0 +1,67 @@
+{
+  "slug": "giant-isopod",
+  "commonName": "Giant Isopod",
+  "scientificName": "Bathynomus giganteus",
+  "authority": "A. Milne-Edwards, 1879",
+  "aphiaId": 259252,
+  "taxonomy": { "phylum": "Arthropoda", "class": "Malacostraca", "order": "Isopoda", "family": "Cirolanidae" },
+  "group": "Deep-sea isopod (crustacean)",
+  "categories": ["deep-sea", "giants"],
+  "tagline": "A pill bug the size of a dinner plate, scavenging the deep slope",
+  "summary": "A distant, ocean-dwelling cousin of the garden woodlouse, scaled up enormously. Giant isopods patrol the muddy continental slopes of the Gulf of Mexico and the Caribbean, scavenging whatever dead animals sink from above. Adults commonly measure 19–36 cm, and the largest documented is about 50 cm.",
+  "ability": "deep-sea scavenging",
+  "stats": {
+    "size": "Typically 19–36 cm; largest documented about 50 cm",
+    "depth": "Typically 310–1,800 m",
+    "range": "Western Atlantic: Gulf of Mexico, Caribbean, and north to Georgia (USA)",
+    "diet": "Scavenger of dead animals sinking to the seafloor",
+    "conservation": "Not evaluated by IUCN"
+  },
+  "depthRange": { "min": 310, "max": 1800 },
+  "facts": [
+    { "title": "The largest isopod", "text": "It is the largest known isopod. The biggest individual documented in scientific literature was about 50 cm; a widely shared 76 cm claim from the press has never been confirmed.", "certainty": "confirmed", "ref": 2 },
+    { "title": "Males run larger", "text": "An analysis of historical records found that adult males are on average about 5 cm longer than females.", "certainty": "confirmed", "ref": 2 },
+    { "title": "Big because it's deep?", "text": "Its large size is often explained by 'deep-sea gigantism', the tendency of some cold-water invertebrates to grow larger and live longer. The exact causes are still debated.", "certainty": "hypothesis", "ref": 3 },
+    { "title": "Mini-adults, no larva", "text": "Females brood eggs in a pouch called a marsupium. The young hatch as miniature adults (mancae), up to about 6 cm long, skipping a larval stage entirely.", "certainty": "confirmed", "ref": 3 },
+    { "title": "Eyes that shine", "text": "Its widely spaced compound eyes have more than 4,000 facets and a reflective layer, the tapetum lucidum, that makes them seem to glow in a camera light.", "certainty": "confirmed", "ref": 3 }
+  ],
+  "references": [
+    { "title": "Bathynomus giganteus A. Milne-Edwards, 1879", "publisher": "WoRMS", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=259252" },
+    { "title": "What is an isopod?", "publisher": "NOAA Ocean Exploration", "url": "https://oceanexplorer.noaa.gov/facts/isopod.html" },
+    { "title": "Sizing ocean giants: patterns of intraspecific size variation in marine megafauna — McClain et al. 2015", "publisher": "PeerJ (via PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4304853/" },
+    { "title": "Bathynomus giganteus", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Bathynomus_giganteus" }
+  ],
+  "image": {
+    "src": "/media/creatures/giant-isopod/hero.webp",
+    "width": 1920, "height": 1080,
+    "alt": "A large pale lilac isopod with a domed, segmented shell and many hooked legs walks across greenish seafloor sediment. A spiral orange whip coral curls through the foreground.",
+    "caption": "A giant isopod beside a spiral whip coral, filmed by ROV in the Gulf of Mexico during NOAA's 2017 Okeanos Explorer expedition.",
+    "creator": "NOAA Office of Ocean Exploration and Research",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bathynomus_giganteus_hi-res.jpg",
+    "species": "Bathynomus giganteus",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "62% 50%",
+    "tone": "dark"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/giant-isopod/alt-1.webp",
+      "width": 1920, "height": 1277,
+      "alt": "Close-up underside of a freshly collected giant isopod beside a yellow measuring tape, showing long antennae, a pink head with mouthparts, hooked front legs and a cream-and-orange belly.",
+      "caption": "The underside of a giant isopod collected during NOAA's 2006 Expedition to the Deep Slope (Gulf of Mexico).",
+      "creator": "Expedition to the Deep Slope 2006, NOAA-OE",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bathynomus_giganteus_NOAA.jpg",
+      "species": "Bathynomus giganteus",
+      "type": "photograph",
+      "setting": "specimen",
+      "focal": "50% 45%",
+      "tone": "dark"
+    }
+  ],
+  "notes": "We chose NOAA Gulf of Mexico images because records of 'B. giganteus' from the Indo-Pacific are now treated as other species (McClain 2015, citing Lowry & Dempsey 2006). Many Japanese and Taiwanese aquarium photos on Commons labelled B. giganteus may therefore show other Bathynomus species and were not used. Depth: McClain 2015 gives 310–1,800 m (one record at 80 m); Wikipedia gives 310–2,140 m for the genus in the West Atlantic. Facts 3–5 come from Wikipedia (last resort), which cites Briones-Fourzán & Lozano-Alvarez 1991 (J. Crust. Biol.). The popular story of an aquarium isopod that 'starved for five years' was deliberately not used. NOAA's swimming-isopod note (ref 1) says the animal filmed was nearly 30 cm."
+}

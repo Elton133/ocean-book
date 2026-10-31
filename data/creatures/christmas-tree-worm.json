@@ -1,0 +1,102 @@
+{
+  "slug": "christmas-tree-worm",
+  "commonName": "Christmas Tree Worm",
+  "scientificName": "Spirobranchus giganteus",
+  "authority": "(Pallas, 1766)",
+  "aphiaId": 209944,
+  "taxonomy": {
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Sabellida",
+    "family": "Serpulidae"
+  },
+  "group": "Tube-dwelling bristle worm (serpulid polychaete)",
+  "categories": [],
+  "tagline": "Twin spiral crowns on a worm that lives inside living coral",
+  "summary": "The colourful 'trees' are all most divers ever see of this worm. They are twin spiral crowns of feathery tentacles that strain food from the water and help it breathe. The rest of the worm stays hidden in a limy tube buried in living coral, and it snaps back inside and shuts a spiny trapdoor when danger approaches.",
+  "ability": "spiral feeding crowns and trapdoor retreat",
+  "stats": {
+    "size": "Body about 3.8 cm; tube up to about 20 cm long",
+    "depth": "Shallow coral reefs",
+    "range": "Caribbean and tropical western Atlantic (similar worms in the Indo-Pacific are now often treated as separate species)",
+    "diet": "Plankton and other tiny particles filtered from the water",
+    "conservation": "Not evaluated by IUCN"
+  },
+  "depthRange": {
+    "min": 0,
+    "max": 30,
+    "approx": true
+  },
+  "facts": [
+    {
+      "title": "Trees made of tentacles",
+      "text": "Each 'tree' is a spiral of feathery tentacles called radioles. Cilia on them carry trapped food to the mouth, and they double as gills.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "A spiny trapdoor",
+      "text": "When startled, the worm retreats into its tube and seals the entrance with an operculum: a hard, calcified lid armed with antler-shaped spines.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Living inside coral",
+      "text": "Larvae settle on living coral and build a calcareous tube. The coral then grows around the tube until only the opening shows.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Some live for decades",
+      "text": "By counting the host coral's annual growth bands, researchers estimated that some worms had lived more than 10 years and a few more than 40 years.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Not always a good tenant",
+      "text": "Christmas tree worms' moving lids can rub and wound the coral around them, especially when algae grow on the lid. In a Thai survey of related Indo-Pacific species, about a fifth of the lids examined had caused visible injuries.",
+      "certainty": "confirmed",
+      "ref": 2
+    }
+  ],
+  "references": [
+    {
+      "title": "Spirobranchus giganteus (Pallas, 1766)",
+      "publisher": "WoRMS",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=209944"
+    },
+    {
+      "title": "Spirobranchus giganteus",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Spirobranchus_giganteus"
+    },
+    {
+      "title": "Filamentous turf algae on tube worms intensify damage in massive Porites corals — Hoeksema et al. 2019",
+      "publisher": "Ecology (via PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6850283/"
+    },
+    {
+      "title": "Age-estimation of the Christmas Tree Worm Spirobranchus giganteus living buried in the coral skeleton from the coral-growth band of the host coral — Nishi & Nishihira 1996",
+      "publisher": "Fisheries Science (J-STAGE)",
+      "url": "https://www.jstage.jst.go.jp/article/fishsci1994/62/3/62_3_400/_article"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/christmas-tree-worm/hero.webp",
+    "width": 1920,
+    "height": 1280,
+    "alt": "Two white-and-purple spiral crowns of a Christmas tree worm rising side by side from the top of a domed orange brain coral, against a soft green background.",
+    "caption": "A Christmas tree worm's twin crowns emerging from a brain coral off San Pedro, Belize.",
+    "creator": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gusano_%C3%A1rbol_de_Navidad_(Spirobranchus_giganteus),_San_Pedro,_Belice,_2025-12-17,_DD_102.jpg",
+    "species": "Spirobranchus giganteus",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "50% 40%",
+    "tone": "light"
+  },
+  "gallery": [],
+  "notes": "TAXONOMY CAUTION: In the strict sense, S. giganteus is the Caribbean/western Atlantic Christmas tree worm. Indo-Pacific 'Christmas tree worms' are now mostly assigned to S. corniculatus and related species; the Thai survey (ref 2) found S. corniculatus, S. richardsmithi and S. cf. tetraceros. However, WoRMS distribution records and Wikipedia still list Indo-Pacific localities for S. giganteus. We therefore chose a Caribbean (Belize) photo and rejected the many Indo-Pacific Commons images filed under S. giganteus (Thailand, Philippines, Fiji, Red Sea, etc.) as doubtful IDs. A g. phua photo from Cuba was also good but carries a watermark. The age study (ref 3, Japanese authors, 1996) used the name S. giganteus before the Indo-Pacific split. It may concern an Indo-Pacific species of the complex; the abstract does not give the locality. CATEGORIES left empty: none of the allowed categories (deep-sea, bioluminescent, intelligent, camouflage, giants, venomous, transparent, reproduction, ancient) is sourced for this species; the editor may decide. Depth is not documented in the sources consulted; depthRange 0–30 m is an indicative value for shallow reef. Body and tube sizes come from Wikipedia."
+}

@@ -1,0 +1,123 @@
+{
+  "slug": "glass-octopus",
+  "commonName": "Glass Octopus",
+  "scientificName": "Vitreledonella richardi",
+  "authority": "Joubin, 1918",
+  "aphiaId": 141962,
+  "taxonomy": {
+    "phylum": "Mollusca",
+    "class": "Cephalopoda",
+    "order": "Octopoda",
+    "family": "Amphitretidae"
+  },
+  "group": "Pelagic octopus",
+  "categories": [
+    "transparent",
+    "deep-sea",
+    "camouflage"
+  ],
+  "tagline": "An octopus you can see straight through",
+  "summary": "A gelatinous, almost colourless octopus that drifts through the dim midwaters of tropical and subtropical oceans. Only its eyes, optic nerves and digestive organs are easy to see. It is so rarely encountered that most specimens have come from the stomachs of predators.",
+  "ability": "near-total transparency",
+  "stats": {
+    "size": "Mantle up to about 11 cm; total length up to about 45 cm",
+    "depth": "Mesopelagic to bathypelagic (twilight and midnight zones); filmed alive at 680 m",
+    "range": "Tropical and subtropical seas worldwide",
+    "diet": "Not well known; young are thought to shift to softer-bodied prey as they grow",
+    "conservation": "IUCN: Least Concern (2014 assessment)"
+  },
+  "depthRange": {
+    "min": 200,
+    "max": 1000,
+    "approx": true
+  },
+  "facts": [
+    {
+      "title": "Glass body",
+      "text": "Its body is gelatinous and transparent, so in the open ocean there is little for a predator to see except the compact eyes and gut.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Rectangular eyes",
+      "text": "Seen from the side its eyes look rectangular. The narrow, upright shape is thought to shrink the eye's shadow when seen from below, helping the octopus stay hidden.",
+      "certainty": "hypothesis",
+      "ref": 3
+    },
+    {
+      "title": "Rarely seen alive",
+      "text": "Records are extremely rare; many come from the stomachs of predators such as northern bottlenose whales. In 2021 a remotely operated vehicle filmed two living glass octopuses near the Phoenix Islands, one at 680 m.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Mother as nursery",
+      "text": "Females brood hundreds of eggs, each about 4 mm long, inside the mantle cavity. The mother dies soon after the young are born, leaving them to fend for themselves.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Moving deeper with age",
+      "text": "Tiny young live near the upper layers; as they grow, these octopuses gradually move away from the surface into deeper water.",
+      "certainty": "confirmed",
+      "ref": 1
+    }
+  ],
+  "references": [
+    {
+      "title": "Vitreledonella richardi Joubin, 1918",
+      "publisher": "WoRMS (World Register of Marine Species)",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=141962"
+    },
+    {
+      "title": "First record of the glass octopus Vitreledonella richardi (Cephalopoda: Vitreledonellidae) from the Arabian Sea (Sajikumar et al. 2016)",
+      "publisher": "Marine Biodiversity Records (BMC)",
+      "url": "https://mbr.biomedcentral.com/articles/10.1186/s41200-016-0041-6"
+    },
+    {
+      "title": "244 Coral Samples, 14 Seamounts, and 2 Glass Octopuses",
+      "publisher": "Schmidt Ocean Institute",
+      "url": "https://schmidtocean.org/cruise-log-post/244-coral-samples-14-seamounts-and-2-glass-octopuses/"
+    },
+    {
+      "title": "Glass octopus",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Glass_octopus"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/glass-octopus/hero.webp",
+    "width": 1265,
+    "height": 1920,
+    "alt": "Historic scientific drawing of a glass octopus in fine white lines on a black background: a dome-shaped transparent mantle above a tangle of eight long, slender arms",
+    "caption": "Glass octopus, ventral view of a female, from Louis Joubin's 1918 description of the species",
+    "creator": "Louis Joubin",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vitreledonella_richardi.jpg",
+    "species": "Vitreledonella richardi",
+    "type": "illustration",
+    "setting": "illustration",
+    "focal": "50% 35%",
+    "tone": "dark"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/glass-octopus/alt-1.webp",
+      "width": 1920,
+      "height": 1278,
+      "alt": "A preserved glass octopus specimen on a black background, now opaque and tan-coloured, with a crumpled mantle and curled arms, beside a 50 mm scale bar",
+      "caption": "Preserved glass octopus, Natural History Museum of Denmark: preservation turns the see-through body opaque",
+      "creator": "Natural History Museum of Denmark",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vitreledonella_richardi_Joubin,_1918.jpg",
+      "species": "Vitreledonella richardi",
+      "type": "photograph",
+      "setting": "specimen",
+      "focal": "50% 50%",
+      "tone": "dark"
+    }
+  ],
+  "notes": "No freely licensed photo of a live glass octopus on Commons (Schmidt Ocean 2021 footage is not on Commons). Hero is Joubin's public-domain drawing (inverted, white on black; portrait 1265×1920) because it shows the transparent form; the museum specimen photo (alt) is opaque, damaged and has a scale bar, so it ranks lower editorially despite the brief's specimen>illustration order — swap if preferred. WoRMS places the species in Amphitretidae (older literature: Vitreledonellidae). Eye-silhouette fact is a proposed explanation (Land 1992, via Wikipedia). Brooding details via Wikipedia (citing WoRMS). depthRange 200–1000 m is approximate; trawl records extend deeper (Joubin's specimen came from a net fished to 5,300 m, depth of capture uncertain)."
+}

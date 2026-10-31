@@ -1,0 +1,77 @@
+{
+  "slug": "goblin-shark",
+  "commonName": "Goblin Shark",
+  "scientificName": "Mitsukurina owstoni",
+  "authority": "Jordan, 1898",
+  "aphiaId": 105842,
+  "taxonomy": { "phylum": "Chordata", "class": "Elasmobranchii", "order": "Lamniformes", "family": "Mitsukurinidae" },
+  "group": "Deep-sea shark",
+  "categories": ["deep-sea", "ancient"],
+  "tagline": "A pink, flabby shark with slingshot jaws",
+  "summary": "A rarely seen deep-water shark with a long, flat, blade-like snout and pinkish skin coloured by blood vessels showing through. Its jaws can shoot forward from under its head faster and farther than those of any other shark, snatching fish, squid and crustaceans.",
+  "ability": "catapulting jaws",
+  "stats": {
+    "size": "Up to about 3.9 m; possibly larger",
+    "depth": "Mostly 270–960 m; recorded to about 1,300 m",
+    "range": "Scattered records in the Atlantic, Pacific and Indian Oceans; most from Japan",
+    "diet": "Bony fishes, squids and crustaceans",
+    "conservation": "IUCN: Least Concern"
+  },
+  "depthRange": { "min": 270, "max": 1300 },
+  "facts": [
+    {
+      "title": "Slingshot jaws",
+      "text": "Filmed feeding in 2016, goblin sharks swung the lower jaw down and back, then shot both jaws forward at up to 3.1 m/s—the fastest, farthest jaw protrusion known among sharks.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "An electric snout",
+      "text": "The underside of the long snout is peppered with pores leading to the ampullae of Lorenzini, organs that sense electric fields. It most likely finds prey by detecting their electrical signals.",
+      "certainty": "hypothesis",
+      "ref": 1
+    },
+    {
+      "title": "Pink from blood",
+      "text": "Its pinkish-white colour comes from blood vessels visible through the skin; young are ghostly white and grow pinker with age. Preserved specimens fade to brown.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "A trade-off for weak swimming",
+      "text": "Its body is soft and flabby. Researchers suggest the lightning jaws evolved to suit food-poor deep water, possibly compensating for the loss of strong swimming ability.",
+      "certainty": "hypothesis",
+      "ref": 2
+    },
+    {
+      "title": "Last of an old lineage",
+      "text": "It is the only living member of its family, which also includes extinct sharks known only from fossils, such as Scapanorhynchus.",
+      "certainty": "confirmed",
+      "ref": 3
+    }
+  ],
+  "references": [
+    { "title": "Mitsukurina owstoni Jordan, 1898", "publisher": "WoRMS", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=105842" },
+    { "title": "Goblin Shark, Mitsukurina owstoni", "publisher": "Australian Museum", "url": "https://australian.museum/learn/animals/fishes/goblin-shark-mitsukurina-owstoni/" },
+    { "title": "Nakaya, K. et al. (2016). Slingshot feeding of the goblin shark Mitsukurina owstoni. Scientific Reports 6: 27786", "publisher": "Scientific Reports", "url": "https://www.nature.com/articles/srep27786" },
+    { "title": "Mitsukurina owstoni – Goblin shark", "publisher": "Florida Museum of Natural History", "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/mitsukurina-owstoni/" },
+    { "title": "Mitsukurina owstoni – Goblin shark", "publisher": "FishBase", "url": "https://www.fishbase.se/summary/Mitsukurina-owstoni.html" }
+  ],
+  "image": {
+    "src": "/media/creatures/goblin-shark/hero.webp",
+    "width": 1920, "height": 1440,
+    "alt": "Close-up of a mounted goblin shark in a dim museum case: a long, flat, pointed snout projects over a jutting jaw lined with slender, needle-like teeth.",
+    "caption": "A goblin shark mount at the Natural History Museum Vienna, its jaws shown thrust forward.",
+    "creator": "Pengo (Wikimedia Commons)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Goblin_shark,_Pengo.jpg",
+    "species": "Mitsukurina owstoni",
+    "type": "photograph",
+    "setting": "specimen",
+    "focal": "60% 50%",
+    "tone": "dark"
+  },
+  "gallery": [],
+  "notes": "Hero is a museum mount (NHM Vienna). Not used, pending editor verification: 'Goblin shark (Mitsukurina owstoni).jpg' (public domain via fws.gov, credited 'Michigan State University', described as 'underwater image') — editorially the best picture, but its provenance is unexplained and it has the look of a digital composite of a dead specimen on a seabed, so it was not presented as an in-situ photo. Museum Victoria juvenile photos are too small (≤1500×312). Size: Australian Museum gives 3.9 m; Florida Museum notes photo-based estimates of 5.4–6.2 m are unconfirmed. 'Ancient' category is based on the family's fossil members (Florida Museum); the 'living fossil' label is popular rather than technical. AphiaID per WoRMS is 105842 (the brief's example showed 105826)."
+}

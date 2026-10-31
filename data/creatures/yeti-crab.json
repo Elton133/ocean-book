@@ -1,0 +1,51 @@
+{
+  "slug": "yeti-crab",
+  "commonName": "Yeti Crab",
+  "scientificName": "Kiwa hirsuta",
+  "authority": "Macpherson, Jones & Segonzac, 2005",
+  "aphiaId": 249751,
+  "taxonomy": { "phylum": "Arthropoda", "class": "Malacostraca", "order": "Decapoda", "family": "Kiwaidae" },
+  "group": "Hydrothermal-vent squat lobster",
+  "categories": ["deep-sea"],
+  "tagline": "A blind, furry crab wearing a coat of bacteria",
+  "summary": "Discovered in 2005 on hydrothermal vents in the South Pacific, the yeti crab is a pale squat lobster whose long arms are thickly furred with bristles. Those bristles host dense mats of bacteria that can draw energy from vent chemicals rather than sunlight.",
+  "ability": "bacteria-farming bristles",
+  "stats": {
+    "size": "About 15 cm long",
+    "depth": "About 2,200–2,300 m",
+    "range": "Hydrothermal vents on the Pacific–Antarctic Ridge, south of Easter Island",
+    "diet": "Probably omnivorous; may feed on bacteria grown on its bristles",
+    "conservation": "Not evaluated by IUCN"
+  },
+  "depthRange": { "min": 2200, "max": 2300 },
+  "facts": [
+    { "title": "A 21st-century discovery", "text": "The species was found in 2005 on the Pacific–Antarctic Ridge, about 1,500 km south of Easter Island, at roughly 2,200 m depth, living around hydrothermal vents.", "certainty": "confirmed", "ref": 3 },
+    { "title": "So new it needed a family", "text": "It was so distinct from known crustaceans that scientists created a brand-new family, Kiwaidae, to hold it.", "certainty": "confirmed", "ref": 1 },
+    { "title": "A coat of microbes", "text": "Its 'fur' is setae (stiff bristles) covered in dense filamentous bacteria. Their enzymes suggest they can fix carbon and process sulfur from vent fluids — chemosynthesis, making food from chemicals instead of light.", "certainty": "confirmed", "ref": 2 },
+    { "title": "Farmer or scavenger?", "text": "Scientists suspect it eats the bacteria it grows, but this has not been directly observed in Kiwa hirsuta; its describers also saw it feeding on damaged mussel tissue.", "certainty": "hypothesis", "ref": 1 },
+    { "title": "Nearly eyeless", "text": "Yeti crabs' eyes are reduced to small, soft, unpigmented tissue — little use in the pitch-dark deep sea, and the animal is thought to be blind.", "certainty": "confirmed", "ref": 1 }
+  ],
+  "references": [
+    { "title": "Kiwa hirsuta Macpherson, Jones & Segonzac, 2005", "publisher": "WoRMS", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=249751" },
+    { "title": "Dancing for Food in the Deep Sea: Bacterial Farming by a New Species of Yeti Crab (Thurber, Jones & Schnabel 2011)", "publisher": "PLOS ONE", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0026243" },
+    { "title": "Epibiotic bacteria associated with the recently discovered Yeti crab, Kiwa hirsuta (Goffredi et al. 2008, Environmental Microbiology)", "publisher": "Caltech Authors", "url": "https://authors.library.caltech.edu/records/pscbq-0jh14" },
+    { "title": "Kiwa hirsuta", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kiwa_hirsuta" }
+  ],
+  "image": {
+    "src": "/media/creatures/yeti-crab/hero.webp",
+    "width": 1920, "height": 1260,
+    "alt": "A pale, cream-coloured yeti crab seen from above against a black background, its two long arms covered in dense silky bristles ending in small claws",
+    "caption": "A yeti crab collected from a hydrothermal vent on the Pacific–Antarctic Ridge at about 2,300 m",
+    "creator": "Alexis Fifis (Ifremer)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Galath%C3%A9e_y%C3%A9ti,_un_habitant_des_profondeurs_abyssales_(Ifremer_00569-68091_-_25272).jpg",
+    "species": "Kiwa hirsuta",
+    "type": "photograph",
+    "setting": "specimen",
+    "focal": "50% 50%",
+    "tone": "dark"
+  },
+  "gallery": [],
+  "notes": "Hero is a studio photo of a collected specimen (no in-situ Kiwa hirsuta photo with a suitable licence found; the Commons in-situ vent swarm is an unidentified Kiwa sp., so rejected). Only one individual was originally collected, so ecology is poorly known. Size (~15 cm) is from Wikipedia; the PLOS ONE paper does not give it."
+}

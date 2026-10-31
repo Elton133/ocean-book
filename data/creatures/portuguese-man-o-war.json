@@ -1,0 +1,66 @@
+{
+  "slug": "portuguese-man-o-war",
+  "commonName": "Portuguese Man o' War",
+  "scientificName": "Physalia physalis",
+  "authority": "(Linnaeus, 1758)",
+  "aphiaId": 135479,
+  "taxonomy": { "phylum": "Cnidaria", "class": "Hydrozoa", "order": "Siphonophorae", "family": "Physaliidae" },
+  "group": "Siphonophore (colonial hydrozoan)",
+  "categories": ["venomous"],
+  "tagline": "Not a jellyfish but a colony sailing under one float",
+  "summary": "It looks like a jellyfish but is a siphonophore: a colony of genetically identical zooids that each do one job. A gas-filled float acts as a sail, while stinging tentacles trailing many metres below catch small fish and crustaceans. It goes wherever wind and currents take it.",
+  "ability": "wind-driven sail and stinging tentacles",
+  "stats": {
+    "size": "Float rises up to about 15 cm above the water; tentacles average about 10 m, up to about 30 m",
+    "depth": "Floats at the surface; tentacles hang below",
+    "range": "Mostly tropical and subtropical seas; sometimes drifts to the coasts of Britain and Ireland",
+    "diet": "Small crustaceans and larval fish",
+    "conservation": "Not evaluated by IUCN"
+  },
+  "depthRange": { "min": 0, "max": 10 },
+  "facts": [
+    { "title": "A colony, not a jellyfish", "text": "Each man o' war is a colony of zooids, genetically identical clones specialised for floating, catching prey, feeding or reproducing. None can survive on its own.", "certainty": "confirmed", "ref": 1 },
+    { "title": "A float that sails", "text": "The gas-filled float, called the pneumatophore, has a crest along its top that works as a sail. With no way to swim, the colony goes where the wind and currents take it.", "certainty": "confirmed", "ref": 2 },
+    { "title": "Digestion outside the body", "text": "Prey is paralysed by the tentacles' stinging cells and hauled up to feeding polyps called gastrozooids, which release digestive juices onto it.", "certainty": "confirmed", "ref": 2 },
+    { "title": "Dangerous even when stranded", "text": "Stings cause severe pain and welts and are rarely deadly to people. A man o' war washed up on the beach can still sting weeks later.", "certainty": "confirmed", "ref": 1 },
+    { "title": "Fleets of a thousand", "text": "Men o' war sometimes drift in groups of 1,000 or more. Mass strandings on British and Irish coasts are rare, historically only a few times a century.", "certainty": "confirmed", "ref": 1 }
+  ],
+  "references": [
+    { "title": "Physalia physalis (Linnaeus, 1758)", "publisher": "WoRMS", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=135479" },
+    { "title": "What is a Portuguese Man o' War?", "publisher": "NOAA National Ocean Service", "url": "https://oceanservice.noaa.gov/facts/portuguese-man-o-war.html" },
+    { "title": "Portuguese man o' war (Physalia physalis)", "publisher": "MarLIN – Marine Biological Association of the UK", "url": "https://www.marlin.ac.uk/species/detail/2093" }
+  ],
+  "image": {
+    "src": "/media/creatures/portuguese-man-o-war/hero.webp",
+    "width": 1920, "height": 1280,
+    "alt": "A Portuguese man o' war stranded on coarse sand: a glossy, translucent blue float edged with a bright pink crest, sitting on a mass of dark blue polyps and tentacles.",
+    "caption": "Stranded on Praia de Ril, Burela, Galicia (Spain). The pink-edged crest is the colony's sail.",
+    "creator": "Fernando Losada Rodríguez",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Physalia_physalis.009_-_Praia_do_Ril_(Burela).jpg",
+    "species": "Physalia physalis",
+    "type": "photograph",
+    "setting": "specimen",
+    "focal": "45% 50%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/portuguese-man-o-war/alt-1.webp",
+      "width": 1920, "height": 1269,
+      "alt": "Close-up underwater of the underside of a man o' war colony: clusters of deep blue polyps with yellow-tipped feeding parts hanging beneath the clear float, with coiled tentacles trailing down.",
+      "caption": "Close-up of the siphonosome, the cluster of feeding, reproductive and stinging zooids under the float.",
+      "creator": "Taro Taylor (tarotastic)",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Physalia_physalis_close_up.jpg",
+      "species": "Physalia physalis",
+      "type": "photograph",
+      "setting": "specimen",
+      "focal": "55% 40%",
+      "tone": "light"
+    }
+  ],
+  "notes": "Hero is a stranded animal (setting 'specimen'). No sharp, correctly identified in-water float photo was found on Commons. A set of five 8688px Flickr images titled 'Physalia physalis' (48740683238 etc.) shows pale, colourless fragments on black that do not look like the man o' war float, so they were rejected as doubtful. Tentacle length differs between sources: NOAA says an average of 10 m and up to 30 m; MarLIN says 10–20 m when extended. WoRMS lists P. physalis as accepted. A Europe PMC search also turned up a 2024 genomics study titled 'Global genomics of the man-o'-war (Physalia) reveals biodiversity at the ocean surface'. It was not read here, but the editor may want to check it for possible species splits. depthRange shows the tentacle reach below the surface float."
+}

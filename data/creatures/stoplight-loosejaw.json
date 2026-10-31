@@ -1,0 +1,126 @@
+{
+  "slug": "stoplight-loosejaw",
+  "commonName": "Stoplight Loosejaw",
+  "scientificName": "Malacosteus niger",
+  "authority": "Ayres, 1848",
+  "aphiaId": 127358,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Teleostei",
+    "order": "Stomiiformes",
+    "family": "Stomiidae"
+  },
+  "group": "Deep-sea dragonfish",
+  "categories": [
+    "deep-sea",
+    "bioluminescent"
+  ],
+  "tagline": "A hunter with a secret red searchlight",
+  "summary": "A slender black dragonfish that shines red light from an organ beneath each eye—a colour almost no other deep-sea animal can see. Its own eyes are tuned to red, giving it a private beam for spotting prey that never knows it is lit.",
+  "ability": "red bioluminescent 'night-vision' searchlight",
+  "stats": {
+    "size": "Up to about 25 cm",
+    "depth": "About 500–3,900 m; thought to stay below 500 m",
+    "range": "All oceans, from about 66°N to about 30°S; not known from the Mediterranean",
+    "diet": "Fishes, crustaceans and large copepods",
+    "conservation": "IUCN: Least Concern"
+  },
+  "depthRange": {
+    "min": 500,
+    "max": 3900
+  },
+  "facts": [
+    {
+      "title": "Two kinds of light",
+      "text": "Like most deep-sea animals it has a blue light organ, just behind the eye. But a large organ beneath the eye glows far-red—the 'stoplight' that gives the fish its name.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "A private waveband",
+      "text": "Red light barely travels in seawater, so nearly all deep-sea animals have lost the ability to see it. A red beam may let the loosejaw illuminate prey and signal to its own kind without being noticed.",
+      "certainty": "hypothesis",
+      "ref": 2
+    },
+    {
+      "title": "Borrowed pigment for red vision",
+      "text": "Unusually, its retina holds a pigment derived from bacteriochlorophyll (a bacterial cousin of chlorophyll) that boosts sensitivity to red light. Its similarity to pigments in copepods the fish eats suggests a dietary origin.",
+      "certainty": "hypothesis",
+      "ref": 3
+    },
+    {
+      "title": "Where the pigment comes from",
+      "text": "A 2016 study looked for bacteria in the eye that might make the pigment and found none; the chemical was spread throughout the retina, and its origin remains unclear.",
+      "certainty": "uncertain",
+      "ref": 3
+    },
+    {
+      "title": "A hinged head",
+      "text": "A flexible joint between the back of the skull and the first vertebra lets it tip its head far back, widening its gape to swallow large prey.",
+      "certainty": "confirmed",
+      "ref": 1
+    }
+  ],
+  "references": [
+    {
+      "title": "Malacosteus niger Ayres, 1848",
+      "publisher": "WoRMS",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=127358"
+    },
+    {
+      "title": "Stoplight Loosejaw, Malacosteus niger",
+      "publisher": "Fishes of Australia (Museums Victoria)",
+      "url": "https://fishesofaustralia.net.au/home/species/4770"
+    },
+    {
+      "title": "Douglas, R.H., Mullineaux, C.W. & Partridge, J.C. (2000). Long-wave sensitivity in deep-sea stomiid dragonfish with far-red bioluminescence: evidence for a dietary origin of the chlorophyll-derived retinal photosensitizer of Malacosteus niger. Phil. Trans. R. Soc. B 355(1401)",
+      "publisher": "Philosophical Transactions of the Royal Society B (PubMed Central)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1692851"
+    },
+    {
+      "title": "Douglas, R.H. et al. (2016). Localisation and origin of the bacteriochlorophyll-derived photosensitizer in the retina of the deep-sea dragon fish Malacosteus niger. Scientific Reports 6: 39395",
+      "publisher": "Scientific Reports (PubMed Central)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5171636"
+    },
+    {
+      "title": "Malacosteus niger – Stoplight loosejaw",
+      "publisher": "FishBase",
+      "url": "https://www.fishbase.se/summary/Malacosteus-niger.html"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/stoplight-loosejaw/hero.webp",
+    "width": 1920,
+    "height": 495,
+    "alt": "A long, slender, glossy black fish lying on a blue tray, its long lower jaw hanging open and a bright red spot below its eye.",
+    "caption": "A stoplight loosejaw trawled from about 1,500 m; the red spot under the eye is its red light organ.",
+    "creator": "NOAA Northeast Fisheries Science Center",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malacosteus_niger_1.jpg",
+    "species": "Malacosteus niger",
+    "type": "photograph",
+    "setting": "specimen",
+    "focal": "20% 50%",
+    "tone": "dark"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/stoplight-loosejaw/alt-1.webp",
+      "width": 1722,
+      "height": 537,
+      "alt": "Painted illustration of a long black fish on a white background, with a small eye, a red patch beneath it and a long, open lower jaw lined with thin teeth.",
+      "caption": "Malacosteus niger painted by Emma Kissling for the Prince of Monaco's scientific campaigns, 1911.",
+      "creator": "Emma Kissling",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malacosteus_niger1.jpg",
+      "species": "Malacosteus niger",
+      "type": "illustration",
+      "setting": "illustration",
+      "focal": "25% 50%",
+      "tone": "light"
+    }
+  ],
+  "notes": "Hero is the only real photo on Commons (NOAA NEFSC, 2005): a very wide, low-resolution strip (source 1956×504), so it will look soft if cropped to full-screen height—editor may prefer a letterboxed layout. Rejected: NHM London display models ('Hal - Malacosteus niger' files). Gallery alt-1 kept at native 1722×537 (not upscaled). Range per FishBase; Fishes of Australia notes the southern-hemisphere M. australis (split by Kenaley 2007) is a separate species. 'No floor to the mouth' (the classic loosejaw feature) was not stated by a fetched source and was omitted."
+}

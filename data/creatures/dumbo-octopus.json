@@ -1,0 +1,66 @@
+{
+  "slug": "dumbo-octopus",
+  "commonName": "Dumbo Octopus",
+  "scientificName": "Grimpoteuthis spp.",
+  "authority": "G. C. Robson, 1932",
+  "aphiaId": 138293,
+  "taxonomy": { "phylum": "Mollusca", "class": "Cephalopoda", "order": "Octopoda", "family": "Grimpoteuthidae" },
+  "group": "Cirrate (finned) octopus",
+  "categories": ["deep-sea"],
+  "tagline": "The deepest-living octopus, flapping on ear-like fins",
+  "summary": "Dumbo octopuses are a genus of soft, jelly-like deep-sea octopuses named for the two ear-like fins above their eyes. They hover and 'hop' over the abyssal seafloor, and one was filmed nearly 7 km down, deeper than any other octopus or squid ever seen.",
+  "ability": "flying on ear-like fins",
+  "stats": {
+    "size": "Hadal individuals filmed at about 35–43 cm total length",
+    "depth": "Mostly about 1,000–7,000 m",
+    "range": "Probably worldwide in deep, cold water",
+    "diet": "Small seafloor animals: worms, copepods, amphipods, isopods",
+    "conservation": "Not evaluated by IUCN as a genus; most species are poorly known"
+  },
+  "depthRange": { "min": 1000, "max": 6957 },
+  "facts": [
+    { "title": "Deepest octopus on record", "text": "In 2019 a baited camera lander in the Java Trench, Indian Ocean, filmed a Grimpoteuthis at 6,957 m: the first unequivocal sighting of any cephalopod in the hadal zone (below 6,000 m).", "certainty": "confirmed", "ref": 1 },
+    { "title": "Fins, not jets", "text": "Unlike most octopuses, which jet water through a siphon, dumbos swim mainly by flapping their two fins, which helps them save energy in the food-poor deep sea.", "certainty": "confirmed", "ref": 2 },
+    { "title": "Hop, spread, repeat", "text": "Filmed individuals foraged in short 'hops' across the mud, landing with arms and web spread before lifting off again. One picked up a tiny isopod, then dropped it.", "certainty": "confirmed", "ref": 1 },
+    { "title": "Eggs left on their own", "text": "Dumbo octopuses attach large, tough-cased eggs to deep-sea corals and do not guard them. Hatchlings emerge as fully formed juveniles able to fend for themselves.", "certainty": "confirmed", "ref": 2 },
+    { "title": "A tangled family tree", "text": "Telling species apart is hard: specimens are rare and often damaged, and many key features are internal, so photos alone rarely pin down a species.", "certainty": "confirmed", "ref": 1 }
+  ],
+  "references": [
+    { "title": "Grimpoteuthis G. C. Robson, 1932", "publisher": "WoRMS (World Register of Marine Species)", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=138293" },
+    { "title": "First in situ observation of Cephalopoda at hadal depths (Octopoda: Opisthoteuthidae: Grimpoteuthis sp.) — Jamieson & Vecchione 2020", "publisher": "Marine Biology (Springer)", "url": "https://link.springer.com/article/10.1007/s00227-020-03701-1" },
+    { "title": "Grimpoteuthis", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Grimpoteuthis" }
+  ],
+  "image": {
+    "src": "/media/creatures/dumbo-octopus/hero.webp",
+    "width": 1920, "height": 1080,
+    "alt": "A pale pinkish dumbo octopus swimming above a blue-green seafloor, its ear-like fins raised and webbed arms trailing below",
+    "caption": "A dumbo octopus (Grimpoteuthis) swims above the deep seafloor, filmed by NOAA's remotely operated vehicle; the scientists noted damage to an arm and fin",
+    "creator": "NOAA Okeanos Explorer Program",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mar22-1-hires.jpg",
+    "species": "Grimpoteuthis sp.",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "50% 40%",
+    "tone": "dark"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/dumbo-octopus/alt-1.webp",
+      "width": 1920, "height": 1080,
+      "alt": "A dumbo octopus against black water, viewed from below, with its arms coiled up beneath its pale mantle and fins out to the sides",
+      "caption": "A dumbo octopus swims away using its fins, arms curled in an unusual coiled posture",
+      "creator": "NOAA Okeanos Explorer Program",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dumbo-hires.jpg",
+      "species": "Grimpoteuthis sp.",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "70% 45%",
+      "tone": "dark"
+    }
+  ],
+  "notes": "WoRMS currently places Grimpoteuthis in family Grimpoteuthidae (the 2020 paper used Opisthoteuthidae). Both photos are NOAA Okeanos Explorer frames identified by NOAA only to genus (Grimpoteuthis); no Opisthoteuthis/other cirrate images used. Size given is from the two hadal individuals measured from video (350 and 430 mm total length), not a genus maximum. Commons 'Grimpoteuthis.jpg' (illustration) and G. bathynectes (1280 px) not used. Fin swimming, egg and diet facts are from Wikipedia (secondary; cites Collins & Villanueva 2006). Feeding has not been directly observed in Grimpoteuthis beyond the hadal isopod pick-up."
+}

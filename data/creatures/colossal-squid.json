@@ -1,0 +1,105 @@
+{
+  "slug": "colossal-squid",
+  "commonName": "Colossal Squid",
+  "scientificName": "Mesonychoteuthis hamiltoni",
+  "authority": "G. C. Robson, 1925",
+  "aphiaId": 325299,
+  "taxonomy": {
+    "phylum": "Mollusca",
+    "class": "Cephalopoda",
+    "order": "Oegopsida",
+    "family": "Cranchiidae"
+  },
+  "group": "Glass squid",
+  "categories": [
+    "giants",
+    "deep-sea"
+  ],
+  "tagline": "The heaviest invertebrate on Earth",
+  "summary": "A giant of the icy Southern Ocean, the colossal squid is the heaviest known invertebrate, armed with rotating hooks on its tentacles and the largest eyes ever studied. For a century it was known almost only from whale stomachs and fishing catches, until a baby was filmed alive in 2025.",
+  "ability": "swivelling tentacle hooks",
+  "stats": {
+    "size": "Estimated up to about 7 m long and 500 kg",
+    "depth": "Adults about 1,000 m or deeper; juveniles shallower",
+    "range": "Antarctic waters, reaching north to southern New Zealand",
+    "diet": "Fishes, including Antarctic toothfish",
+    "conservation": "IUCN: Least Concern"
+  },
+  "depthRange": {
+    "min": 500,
+    "max": 2000,
+    "approx": true
+  },
+  "facts": [
+    {
+      "title": "Heavyweight champion",
+      "text": "A colossal squid caught in the Ross Sea in 2007 weighed about 470–495 kg, and scientists estimate the species reaches about 500 kg, making it the heaviest invertebrate known.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Hooks that turn",
+      "text": "The club-shaped tips of its two tentacles carry rotating hooks, and its arms bear hooks too. No other glass squid has them.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Record-breaking eyes",
+      "text": "It has the largest animal eyes ever studied, possibly the largest of any animal in history, useful for spotting faint light in the deep.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "First seen alive in 2025",
+      "text": "In March 2025 a remotely operated vehicle filmed a see-through, 30 cm juvenile at 600 m near the South Sandwich Islands: the first confirmed footage of a live colossal squid in its habitat.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Whale food",
+      "text": "Beaks pile up in sperm whale stomachs because they resist digestion. From these, scientists estimate colossal squid could make up a large share of some sperm whales' diet in the Southern Ocean.",
+      "certainty": "hypothesis",
+      "ref": 1
+    }
+  ],
+  "references": [
+    {
+      "title": "Mesonychoteuthis hamiltoni Robson, 1925",
+      "publisher": "WoRMS (World Register of Marine Species)",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=325299"
+    },
+    {
+      "title": "Colossal squid (Colossal squid at Te Papa; Anatomy; Life and habits)",
+      "publisher": "Te Papa — Museum of New Zealand",
+      "url": "https://www.tepapa.govt.nz/digital-museum/explore-digital-museum/colossal-squid/colossal-squid-te-papa"
+    },
+    {
+      "title": "First Confirmed Footage of a Colossal Squid—and it's a Baby!",
+      "publisher": "Schmidt Ocean Institute",
+      "url": "https://schmidtocean.org/first-colossal-squid-footage/"
+    },
+    {
+      "title": "Colossal squid",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Colossal_squid"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/colossal-squid/hero.webp",
+    "width": 1440,
+    "height": 1920,
+    "alt": "A preserved colossal squid lying in a long glass display tank, its broad fin at the top and thick orange-pink arms hanging down through the fluid",
+    "caption": "The colossal squid on display at Te Papa, Wellington: the only one on public display in the world, caught in the Ross Sea in 2007",
+    "creator": "Scotted400",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colossal_squid_in_Te_Papa.jpg",
+    "species": "Mesonychoteuthis hamiltoni",
+    "type": "photograph",
+    "setting": "specimen",
+    "focal": "50% 35%",
+    "tone": "dark"
+  },
+  "gallery": [],
+  "notes": "Image is a portrait museum display photo (Te Papa specimen); crop for landscape will be tight. Rejected: Commons 'Colossal squid head and limbs, NHM' tank photos (could not verify these are not the NHM's giant squid), 'Giant Squid (20495944085)' (comparison with giant squid tentacle), and size-comparison illustrations. Te Papa's 'life and habits' page still says nobody has seen a live colossal squid swimming; that is outdated since the 2025 Schmidt Ocean footage. Te Papa's '77% of a sperm whale's diet' estimate not used as a number (single estimate); framed as hypothesis. Depth range is approximate (Te Papa: 1,000 m or more; Wikipedia: juveniles 0–500 m, adolescents 500–2,000 m). IUCN LC from Wikipedia infobox."
+}

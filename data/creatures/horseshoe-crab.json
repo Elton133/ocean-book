@@ -1,0 +1,51 @@
+{
+  "slug": "horseshoe-crab",
+  "commonName": "Atlantic Horseshoe Crab",
+  "scientificName": "Limulus polyphemus",
+  "authority": "(Linnaeus, 1758)",
+  "aphiaId": 150514,
+  "taxonomy": { "phylum": "Arthropoda", "class": "Merostomata", "order": "Xiphosurida", "family": "Limulidae" },
+  "group": "Horseshoe crab (chelicerate arthropod, not a true crab)",
+  "categories": ["ancient", "reproduction"],
+  "tagline": "Not a crab, and older than the dinosaurs",
+  "summary": "Despite its name, the horseshoe crab is not a crab at all but a relative of spiders and scorpions, from a lineage far older than the dinosaurs. Each spring and summer, crowds of them crawl onto Atlantic beaches to spawn, laying eggs that feed migrating shorebirds. Their blue, copper-based blood is used to keep medicines safe.",
+  "ability": "blood that detects bacterial toxins",
+  "stats": {
+    "size": "Females up to about 30 cm across the shell and 60 cm long with tail; males 25–30% smaller",
+    "depth": "Shallow coasts to more than 200 m; mostly shallower than about 30 m",
+    "range": "Atlantic coast of the Americas, from Maine to the Yucatán Peninsula and the Gulf",
+    "diet": "Marine worms and other small invertebrates living in the seabed",
+    "conservation": "IUCN: Vulnerable"
+  },
+  "depthRange": { "min": 0, "max": 30 },
+  "facts": [
+    { "title": "Not a true crab", "text": "Horseshoe crabs are not crustaceans. They belong to an ancient group of arthropods more closely related to spiders and scorpions than to crabs.", "certainty": "confirmed", "ref": 1 },
+    { "title": "Living fossil", "text": "Their body plan has changed relatively little for around 350 million years, and their lineage predates the dinosaurs by more than 200 million years.", "certainty": "confirmed", "ref": 2 },
+    { "title": "Beach-wide spawning parties", "text": "On spring and early-summer high tides around full and new moons, females crawl ashore with a male clasped to their shell, often trailed by several more males. One female may lay 100,000 or more eggs over several nights.", "certainty": "confirmed", "ref": 2 },
+    { "title": "Blood that guards medicine", "text": "Their copper-based blood clots on contact with bacterial toxins. An extract called Limulus Amoebocyte Lysate is used to check that vaccines, drugs and medical devices are free of contamination.", "certainty": "confirmed", "ref": 2 },
+    { "title": "A feast for birds", "text": "More than 20 species of migratory birds, as well as loggerhead turtles and many fishes, rely on horseshoe crab eggs. Delaware Bay hosts the largest population in the world.", "certainty": "confirmed", "ref": 1 }
+  ],
+  "references": [
+    { "title": "Limulus polyphemus (Linnaeus, 1758)", "publisher": "WoRMS (World Register of Marine Species)", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=150514" },
+    { "title": "Are horseshoe crabs really crabs?", "publisher": "NOAA National Ocean Service", "url": "https://oceanservice.noaa.gov/facts/horseshoe-crab.html" },
+    { "title": "Atlantic Horseshoe Crab (Limulus polyphemus)", "publisher": "U.S. Fish & Wildlife Service", "url": "https://www.fws.gov/species/atlantic-horseshoe-crab-limulus-polyphemus" },
+    { "title": "Atlantic horseshoe crab", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Atlantic_horseshoe_crab" }
+  ],
+  "image": {
+    "src": "/media/creatures/horseshoe-crab/hero.webp",
+    "width": 1920, "height": 1275,
+    "alt": "Dozens of olive-brown horseshoe crabs crowded together in shallow, rippling water at the shoreline, their domed shells glistening",
+    "caption": "Horseshoe crabs gathering to spawn at Mispillion Harbor, Delaware Bay",
+    "creator": "Gregory Breese / U.S. Fish and Wildlife Service",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Horseshoe_Crab_(4035546156).jpg",
+    "species": "Limulus polyphemus",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "50% 50%",
+    "tone": "light"
+  },
+  "gallery": [],
+  "notes": "NOT A TRUE CRAB: a chelicerate (relative of spiders and scorpions), stated in tagline, group and fact 1. WoRMS class is Merostomata, order Xiphosurida. Fact refs: 0-based index 1 = NOAA NOS, 2 = USFWS. NOAA NOS says bled crabs are returned 'relatively unharmed'; ASMFC management now counts biomedical mortality, so that claim was deliberately omitted. Date-like phrasing: FWS gives ~350 million years unchanged; NOAA says lineage predates dinosaurs by >200 million years. IUCN Vulnerable via Wikipedia infobox (2016 assessment, not fetched directly). depthRange 0–30 m reflects preferred depths; adults range deeper than 200 m. Fact 5 ref is NOAA NOS (index 1). The 'reproduction' category reflects mass beach spawning with satellite males (FWS)."
+}

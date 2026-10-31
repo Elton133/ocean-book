@@ -1,0 +1,50 @@
+{
+  "slug": "blue-dragon",
+  "commonName": "Blue Dragon Sea Slug",
+  "scientificName": "Glaucus atlanticus",
+  "authority": "Forster, 1777",
+  "aphiaId": 140022,
+  "taxonomy": { "phylum": "Mollusca", "class": "Gastropoda", "order": "Nudibranchia", "family": "Glaucidae" },
+  "group": "Ocean-surface nudibranch (sea slug)",
+  "categories": ["venomous", "camouflage"],
+  "tagline": "An upside-down sea slug that steals stingers from its prey",
+  "summary": "A small nudibranch about 3 cm long that floats belly-up at the ocean surface, buoyed by a swallowed air bubble. It eats venomous drifters such as the Portuguese man o' war and stores their unfired stinging cells in its finger-like cerata, turning its prey's weapons into its own defence.",
+  "ability": "stolen stinging cells (kleptocnidae)",
+  "stats": {
+    "size": "Usually about 3 cm long",
+    "depth": "Floats at the sea surface",
+    "range": "Open ocean, tropical to temperate waters worldwide; often washed ashore",
+    "diet": "Floating cnidarians such as bluebottles/men o' war, by-the-wind sailors and blue buttons; also fish in lab trials",
+    "conservation": "Not evaluated by IUCN"
+  },
+  "depthRange": { "min": 0, "max": 1 },
+  "facts": [
+    { "title": "Floats upside down", "text": "Air swallowed into its stomach keeps it at the surface, belly-side up. Its blue underside faces the sky, while its silvery back faces the deep.", "certainty": "confirmed", "ref": 1 },
+    { "title": "Camouflage both ways", "text": "Its colouring is countershading: from above, the blue blends with the sea, and from below, the silver-grey blends with the bright surface.", "certainty": "confirmed", "ref": 2 },
+    { "title": "Borrowed weapons", "text": "It eats Physalia and other floating cnidarians and stores their stinging capsules, called nematocysts, in sacs at the tips of its cerata. This theft is called kleptocnidae. Handling one can cause a painful sting.", "certainty": "confirmed", "ref": 1 },
+    { "title": "Cerata used as hands", "text": "In 2025 researchers filmed captive blue dragons using their front cerata like arms to grab whitebait and jellyfish. This suggests they are more generalist hunters than once thought.", "certainty": "confirmed", "ref": 1 },
+    { "title": "Look-alike species", "text": "A similar blue dragon once lumped as Glaucus marginatus turned out to be four separate species. Genetic studies show that G. atlanticus populations are separated by ocean basins.", "certainty": "confirmed", "ref": 2 }
+  ],
+  "references": [
+    { "title": "Glaucus atlanticus Forster, 1777", "publisher": "WoRMS", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=140022" },
+    { "title": "Blue angels have devil hands: Predatory behavior using cerata in Glaucus atlanticus (2025)", "publisher": "Ecology (via PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11912302/" },
+    { "title": "Glaucus atlanticus", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Glaucus_atlanticus" }
+  ],
+  "image": {
+    "src": "/media/creatures/blue-dragon/hero.webp",
+    "width": 1920, "height": 1440,
+    "alt": "Top-down view of a blue dragon sea slug in shallow water. Its slender body has a dark blue stripe and pale blue-white sides, and three pairs of fan-like clusters of pointed blue-and-white cerata spread out from it like wings, over a blurred olive-green rock.",
+    "caption": "A blue dragon washed ashore at Bronte Beach, Sydney, photographed in a rock pool.",
+    "creator": "Sylke Rohrlach",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blue_dragon-glaucus_atlanticus_(8599051974).jpg",
+    "species": "Glaucus atlanticus",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "50% 48%",
+    "tone": "dark"
+  },
+  "gallery": [],
+  "notes": "Setting: a stranded animal photographed in a shallow rock pool, not its true open-ocean habitat. The photographer labels the animal G. atlanticus. Note that the G. marginatus complex also occurs off Sydney and looks similar, so photo IDs carry some uncertainty. Some Commons images show G. marginatus or G. bennettae alongside G. atlanticus; we avoided those. The 'venomous' category reflects its stolen nematocysts, which can sting humans; the slug itself does not make venom. We did NOT use the popular claim that it stings 'more powerfully than the man o' war' (Wikipedia), because it is weakly supported. Size, countershading and the cryptic-species details come from Wikipedia, which cites Churchill et al. 2014."
+}

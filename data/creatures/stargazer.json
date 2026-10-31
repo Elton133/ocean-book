@@ -1,0 +1,67 @@
+{
+  "slug": "stargazer",
+  "commonName": "Whitemargin Stargazer",
+  "scientificName": "Uranoscopus sulphureus",
+  "authority": "Valenciennes, 1832",
+  "aphiaId": 274044,
+  "taxonomy": { "phylum": "Chordata", "class": "Teleostei", "order": "Uranoscopiformes", "family": "Uranoscopidae" },
+  "group": "Stargazer",
+  "categories": ["venomous", "camouflage"],
+  "tagline": "A buried ambusher that stares up at the sky",
+  "summary": "Stargazers spend most of their lives buried in sand with only their upward-facing eyes showing. The whitemargin stargazer of the Indo-Pacific waits beneath the seabed, can dangle a lure from its mouth to draw prey close, and carries a venomous spine on each shoulder.",
+  "ability": "buried ambush",
+  "stats": {
+    "size": "Up to about 45 cm long",
+    "depth": "About 5–350 m",
+    "range": "Indo-Pacific: Red Sea to Indonesia, Fiji, Samoa and Tonga; also Réunion",
+    "diet": "Small bottom-living fishes and invertebrates",
+    "conservation": "IUCN: Least Concern"
+  },
+  "depthRange": { "min": 5, "max": 350 },
+  "facts": [
+    { "title": "Eyes to the sky", "text": "Stargazers are named for eyes set on top of the head. This species is rarely seen because it lies buried in sand or mud most of the time, with only its eyes showing.", "certainty": "confirmed", "ref": 1 },
+    { "title": "Built-in sand filter", "text": "While buried, a fringe of small fleshy flaps (cirri) around the edge of its mouth keeps sand out as it breathes.", "certainty": "confirmed", "ref": 1 },
+    { "title": "Fishing with a lure", "text": "It has a lure in its mouth, used to attract prey within striking range before it lunges up from the sand.", "certainty": "confirmed", "ref": 1 },
+    { "title": "Venomous shoulders", "text": "A venomous spine sits on each shoulder (the cleithral spine). Wounds can be serious — a hazard for anyone stepping on or handling a buried stargazer.", "certainty": "confirmed", "ref": 1 },
+    { "title": "Shocking cousins", "text": "Some stargazers in the genus Astroscopus, from the western Atlantic, can produce electric discharges from organs built from modified eye muscles. The whitemargin stargazer is not one of them.", "certainty": "confirmed", "ref": 2 }
+  ],
+  "references": [
+    { "title": "Uranoscopus sulphureus Valenciennes, 1832", "publisher": "WoRMS", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=274044" },
+    { "title": "Uranoscopus sulphureus, Whitemargin stargazer", "publisher": "FishBase", "url": "https://www.fishbase.se/summary/Uranoscopus_sulphureus.html" },
+    { "title": "The electromotor system of the stargazer: a model for integrative actions at electrotonic synapses (Bennett & Pappas 1983)", "publisher": "PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/6834104" },
+    { "title": "Stargazer (fish)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Stargazer_(fish)" }
+  ],
+  "image": {
+    "src": "/media/creatures/stargazer/hero.webp",
+    "width": 1920, "height": 1080,
+    "alt": "A pale, sand-dusted stargazer resting on a sandy seabed at night, with a broad flat head, small upward-facing eyes, a downturned mouth and a black blotch on its dorsal fin",
+    "caption": "A whitemargin stargazer on sand off Komodo Island, Indonesia",
+    "creator": "Xs6615",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Uranoscopus_sulphureus-WhitemarginStargazer-DMS.jpg",
+    "species": "Uranoscopus sulphureus",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "55% 50%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/stargazer/alt-1.webp",
+      "width": 1920, "height": 1440,
+      "alt": "Top-down view of a stargazer's head buried in dark sand, showing two bulging eyes on top of the head and a fringed, upward-facing mouth",
+      "caption": "Almost invisible: a whitemargin stargazer buried in volcanic sand, Lembeh Strait, Indonesia",
+      "creator": "Rickard Zerpe",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Whitemargin_Stargazer_(Uranoscopus_sulphureus)_(24434626925).jpg",
+      "species": "Uranoscopus sulphureus",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "50% 40%",
+      "tone": "dark"
+    }
+  ],
+  "notes": "Chose Uranoscopus sulphureus (whitemargin stargazer) because Commons has good in-situ photos; U. scaber photos were mostly market/dead fish, and Kathetostoma averruncus had only one small drawing. commonName changed to 'Whitemargin Stargazer' to match the species — rename to plain 'Stargazer' if the editor prefers the group name. Electric organs are claimed only for Astroscopus (confirmed by Bennett & Pappas 1983), not for this species. Diet is given at family level (Wikipedia); FishBase species page does not list prey."
+}

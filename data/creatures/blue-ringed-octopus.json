@@ -1,0 +1,122 @@
+{
+  "slug": "blue-ringed-octopus",
+  "commonName": "Greater Blue-ringed Octopus",
+  "scientificName": "Hapalochlaena lunulata",
+  "authority": "(Quoy & Gaimard, 1832)",
+  "aphiaId": 342333,
+  "taxonomy": {
+    "phylum": "Mollusca",
+    "class": "Cephalopoda",
+    "order": "Octopoda",
+    "family": "Octopodidae"
+  },
+  "group": "Octopus",
+  "categories": [
+    "venomous",
+    "camouflage"
+  ],
+  "tagline": "A pocket-sized octopus with a lethal warning sign",
+  "summary": "Barely the size of a golf ball, the greater blue-ringed octopus hides camouflaged among reef rubble. Disturb it and about 60 electric-blue rings flash on its skin: a warning backed by tetrodotoxin, a nerve poison potent enough to kill a human.",
+  "ability": "flashing blue warning rings",
+  "stats": {
+    "size": "Up to about 10 cm, arms included",
+    "depth": "Shallow coastal waters",
+    "range": "Tropical and subtropical Indo-West Pacific, from Sri Lanka to the Philippines, Australia and Vanuatu",
+    "diet": "Small crabs, shrimps and molluscs",
+    "conservation": "IUCN: Least Concern (2018 assessment)"
+  },
+  "depthRange": {
+    "min": 0,
+    "max": 20,
+    "approx": true
+  },
+  "facts": [
+    {
+      "title": "Rings that switch on",
+      "text": "Its roughly 60 blue rings contain mirror-like layered reflectors. Muscles, under direct nerve control, open and close skin around each ring to flash it in a fraction of a second: a mechanism not known in other cephalopods.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Tetrodotoxin venom",
+      "text": "Its bite can deliver tetrodotoxin (TTX), the same nerve poison found in pufferfish. TTX blocks the channels nerves use to fire, causing paralysis, and there is no known antidote.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Who makes the poison?",
+      "text": "Bacteria living in the octopus's salivary glands have been proposed as the true source of its TTX, but early evidence was weak and the question remains open.",
+      "certainty": "hypothesis",
+      "ref": 2
+    },
+    {
+      "title": "Bluff first, bite last",
+      "text": "It spends most of its time hidden and well camouflaged. It flashes its rings when disturbed and bites only when strongly harassed, so it is dangerous mainly to people who handle it.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "A mother's last clutch",
+      "text": "The female carries her clutch of eggs beneath her arms until they hatch, not feeding during that time, and dies soon after.",
+      "certainty": "confirmed",
+      "ref": 3
+    }
+  ],
+  "references": [
+    {
+      "title": "Hapalochlaena lunulata (Quoy & Gaimard, 1832)",
+      "publisher": "WoRMS (World Register of Marine Species)",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=342333"
+    },
+    {
+      "title": "How does the blue-ringed octopus (Hapalochlaena lunulata) flash its blue rings? (Mäthger et al. 2012, J. Exp. Biol.)",
+      "publisher": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23053367/"
+    },
+    {
+      "title": "Distribution of Tetrodotoxin in Blue-Ringed Octopuses and the Hunt for Tetrodotoxin-Producing Symbiotic Bacteria (Williams 2009, The Malacologist)",
+      "publisher": "Utah State University DigitalCommons",
+      "url": "https://digitalcommons.usu.edu/biology_facpub/25"
+    },
+    {
+      "title": "Greater blue-ringed octopus",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Greater_blue-ringed_octopus"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/blue-ringed-octopus/hero.webp",
+    "width": 1920,
+    "height": 1440,
+    "alt": "A small yellow octopus covered in vivid blue rings outlined in black, perched on a dark, fuzzy reef bottom",
+    "caption": "Greater blue-ringed octopus showing its warning rings, Lembeh Strait, Indonesia",
+    "creator": "Rickard Zerpe",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greater_blue-ringed_octopus_(Hapalochlaena_lunulata)_(16219454856).jpg",
+    "species": "Hapalochlaena lunulata",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "50% 45%",
+    "tone": "dark"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/blue-ringed-octopus/alt-1.webp",
+      "width": 1920,
+      "height": 1440,
+      "alt": "A pale blue-ringed octopus on a reef, its body curled forward over a clutch of eggs held beneath its arms",
+      "caption": "A female greater blue-ringed octopus brooding eggs, Lembeh, Indonesia",
+      "creator": "Rickard Zerpe",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greater_blue-ringed_octopus_with_eggs_(Hapalochlaena_lunulata)_(16243516631).jpg",
+      "species": "Hapalochlaena lunulata",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "50% 45%",
+      "tone": "dark"
+    }
+  ],
+  "notes": "Venom confirmed as tetrodotoxin (TTX). The Mäthger et al. abstract (PubMed) states the neurotoxin can kill a human; the 'no antidote' and brooding details come from Wikipedia (secondary). Clutch size and brooding duration vary between sources (Wikipedia gives both 50–100 and 60–100 eggs, ~1 month and ~50 days), so no numbers used. Depth: sources say 'shallow waters'; depthRange 0–20 m is an approximation for the gauge. Rings in the alt photo: whether the eggs are visible is subtle in the frame; the Commons title states 'with eggs'."
+}

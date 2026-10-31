@@ -1,0 +1,121 @@
+{
+  "slug": "giant-squid",
+  "commonName": "Giant Squid",
+  "scientificName": "Architeuthis dux",
+  "authority": "Steenstrup, 1857",
+  "aphiaId": 342218,
+  "taxonomy": {
+    "phylum": "Mollusca",
+    "class": "Cephalopoda",
+    "order": "Oegopsida",
+    "family": "Architeuthidae"
+  },
+  "group": "Squid",
+  "categories": [
+    "giants",
+    "deep-sea"
+  ],
+  "tagline": "The real kraken, finally caught on camera",
+  "summary": "The giant squid is one of the largest invertebrates on Earth, with tentacles longer than any other cephalopod's and eyes the size of dinner plates. Known for centuries only from carcasses and sea-monster tales, it was first photographed alive in the deep sea in 2004.",
+  "ability": "giant eyes and whip-like tentacles",
+  "stats": {
+    "size": "Females up to about 12–13 m total length, males about 10 m (tentacles included)",
+    "depth": "Possibly about 300–1,000 m",
+    "range": "Worldwide in temperate oceans; rare in the tropics and polar seas",
+    "diet": "Deep-sea fishes and squids",
+    "conservation": "IUCN: Least Concern (2014 assessment)"
+  },
+  "depthRange": {
+    "min": 300,
+    "max": 1000
+  },
+  "facts": [
+    {
+      "title": "First photos in the wild",
+      "text": "In 2004 a Japanese team's deep-sea camera photographed a giant squid attacking bait at 900 m off the Ogasawara Islands. A tentacle it left behind confirmed its identity and showed the animal was over 8 m long.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Not 20 metres long",
+      "text": "Tales of 20 m giants are not backed by any measured specimen. Mantles are not known to exceed about 2.25 m; much of the length is two stretchy feeding tentacles.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Eyes like dinner plates",
+      "text": "Its eyes reach at least 27 cm across, among the largest of any animal. One proposed reason is spotting the faint glow stirred up by approaching sperm whales, its main predator.",
+      "certainty": "hypothesis",
+      "ref": 3
+    },
+    {
+      "title": "Seen alive, and active",
+      "text": "Rather than a sluggish drifter, the 2004 images suggest an active predator that strikes and tangles prey with its long feeding tentacles.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "One species worldwide",
+      "text": "Several species were once proposed, but DNA from giant squid around the globe shows remarkably little variation, suggesting there is just one species.",
+      "certainty": "confirmed",
+      "ref": 3
+    }
+  ],
+  "references": [
+    {
+      "title": "Architeuthis dux Steenstrup, 1857",
+      "publisher": "WoRMS (World Register of Marine Species)",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=342218"
+    },
+    {
+      "title": "First-ever observations of a live giant squid in the wild (Kubodera & Mori 2005, Proc. R. Soc. B)",
+      "publisher": "PubMed Central",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1559985/"
+    },
+    {
+      "title": "Architeuthis dux (giant squid)",
+      "publisher": "Animal Diversity Web, University of Michigan",
+      "url": "https://animaldiversity.org/accounts/architeuthis_dux/"
+    },
+    {
+      "title": "Giant squid",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Giant_squid"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/giant-squid/hero.webp",
+    "width": 1920,
+    "height": 1440,
+    "alt": "A pale, freshly caught giant squid laid out lengthwise on a ship's wet deck, its arms and two long tentacles stretched out beside its body",
+    "caption": "A giant squid netted by the NOAA research vessel Gordon Gunter in the Gulf of Mexico off Louisiana, now Smithsonian specimen MOL 1130046",
+    "creator": "NOAA (credited on Commons via Paul Greenhall, Smithsonian Institution)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MOL_1130046_Architeuthis_specimen.jpg",
+    "species": "Architeuthis dux",
+    "type": "photograph",
+    "setting": "specimen",
+    "focal": "55% 45%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/giant-squid/alt-1.webp",
+      "width": 1920,
+      "height": 640,
+      "alt": "A preserved giant squid photographed from above on a black background, with its two very long thin tentacles looping far beyond its eight arms",
+      "caption": "Preserved giant squid from Skagen, Denmark (1965), Natural History Museum of Denmark, NHMD-141565",
+      "creator": "Natural History Museum of Denmark",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Architeuthis_dux_NHMD-141565.png",
+      "species": "Architeuthis dux",
+      "type": "photograph",
+      "setting": "specimen",
+      "focal": "45% 50%",
+      "tone": "dark"
+    }
+  ],
+  "notes": "No freely licensed in-situ photo of a live giant squid exists on Commons; hero is a fresh (deck) specimen, alt a preserved museum specimen (very wide 3:1 panorama). Commons spells the vessel 'Godon Gunter' (typo for Gordon Gunter). Diet from Animal Diversity Web (based on stomach contents of dead specimens). Size, eye, single-species and IUCN (Allcock & Barratt 2014, LC) facts via Wikipedia, which cites O'Shea, Nilsson et al. 2012 and Winkelmann et al. 2013. The 'spotting sperm whales' explanation for the eyes is a hypothesis (Nilsson et al. 2012)."
+}

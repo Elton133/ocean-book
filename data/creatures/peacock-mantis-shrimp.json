@@ -1,0 +1,133 @@
+{
+  "slug": "peacock-mantis-shrimp",
+  "commonName": "Peacock Mantis Shrimp",
+  "scientificName": "Odontodactylus scyllarus",
+  "authority": "(Linnaeus, 1758)",
+  "aphiaId": 220297,
+  "taxonomy": {
+    "phylum": "Arthropoda",
+    "class": "Malacostraca",
+    "order": "Stomatopoda",
+    "family": "Odontodactylidae"
+  },
+  "group": "Mantis shrimp (smasher)",
+  "categories": [],
+  "tagline": "A rainbow-coloured boxer with a spring-loaded punch",
+  "summary": "This vividly coloured reef crustacean smashes snails and crabs with club-like forelimbs that strike faster than almost any other animal movement. Its eyes are among the most complex known — though, contrary to popular belief, that doesn't mean it sees colours better than we do.",
+  "ability": "spring-loaded smashing strike",
+  "stats": {
+    "size": "About 3–18 cm long",
+    "depth": "About 3–40 m",
+    "range": "Indo-Pacific, from East Africa to the Mariana Islands",
+    "diet": "Snails, crabs and other crustaceans, clams",
+    "conservation": "Not evaluated by IUCN"
+  },
+  "depthRange": {
+    "min": 3,
+    "max": 40
+  },
+  "facts": [
+    {
+      "title": "A punch with a spring",
+      "text": "A saddle-shaped spring in each striking limb stores energy, then releases it in a blow reaching 14–23 m/s with accelerations of 6,300–8,000 times gravity — one of the fastest feeding strikes known.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Every strike hits twice",
+      "text": "The club moves so fast that it creates cavitation bubbles — pockets of vapour that collapse violently. Force sensors recorded a second peak from the collapsing bubbles a fraction of a millisecond after the impact itself.",
+      "certainty": "confirmed",
+      "ref": 4
+    },
+    {
+      "title": "Up to 16 kinds of light sensors",
+      "text": "Mantis shrimp eyes contain between 12 and 16 types of photoreceptor (light-sensing cells), with about 12 devoted to colour, spanning ultraviolet to far red. Humans have four types.",
+      "certainty": "confirmed",
+      "ref": 6
+    },
+    {
+      "title": "Myth: they see more colours",
+      "text": "Despite all those receptors, colour tests found mantis shrimps are surprisingly poor at telling similar colours apart — worse than humans. More receptors does not mean a richer palette.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Colour by scanning?",
+      "text": "Researchers proposed that mantis shrimps recognise colours quickly by sweeping their eyes across a scene, rather than finely comparing them as we do. This idea is still being tested and debated.",
+      "certainty": "hypothesis",
+      "ref": 1
+    }
+  ],
+  "references": [
+    {
+      "title": "Odontodactylus scyllarus (Linnaeus, 1758)",
+      "publisher": "WoRMS",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=220297"
+    },
+    {
+      "title": "A different form of color vision in mantis shrimp (Thoen et al. 2014, Science)",
+      "publisher": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24458639"
+    },
+    {
+      "title": "Deadly strike mechanism of a mantis shrimp (Patek, Korff & Caldwell 2004, Nature)",
+      "publisher": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15103366"
+    },
+    {
+      "title": "Mantis shrimp may have swiftest kick in the animal kingdom (press release on Patek et al. 2004)",
+      "publisher": "UC Berkeley News",
+      "url": "https://newsarchive.berkeley.edu/news/media/releases/2004/04/21_shrimp.shtml"
+    },
+    {
+      "title": "Extreme impact and cavitation forces of a biological hammer (Patek & Caldwell 2005, Journal of Experimental Biology)",
+      "publisher": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16169943"
+    },
+    {
+      "title": "Peacock mantis shrimp",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Peacock_mantis_shrimp"
+    },
+    {
+      "title": "Mantis shrimp",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mantis_shrimp"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/peacock-mantis-shrimp/hero.webp",
+    "width": 1920,
+    "height": 1280,
+    "alt": "A peacock mantis shrimp on dark sand, with an olive-green banded body, iridescent green and red-fringed forelimbs, red legs and two stalked blue eyes raised high",
+    "caption": "A peacock mantis shrimp on volcanic sand off Réunion, western Indian Ocean",
+    "creator": "Cédric Péneau",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Odontodactylus_scyllarus_R%C3%A9union.jpg",
+    "species": "Odontodactylus scyllarus",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "55% 45%",
+    "tone": "dark"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/peacock-mantis-shrimp/alt-1.webp",
+      "width": 1920,
+      "height": 1280,
+      "alt": "Close-up of a peacock mantis shrimp's two large round eyes, each crossed by a horizontal band, on blue stalks",
+      "caption": "The eyes that launched a myth: among the most complex in the animal kingdom",
+      "creator": "Cédric Péneau",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Odontodactylus_scyllarus_eyes.jpg",
+      "species": "Odontodactylus scyllarus",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "50% 50%",
+      "tone": "dark"
+    }
+  ],
+  "notes": "No category from the allowed list genuinely applies, so categories is left empty — editor may wish to assign one. Thoen et al.'s poor-discrimination result was partly challenged by a 2022 study on a different species (Haptosquilla trispinosa) that found mantis shrimps can distinguish saturated colours from grey — hence 'still debated'."
+}

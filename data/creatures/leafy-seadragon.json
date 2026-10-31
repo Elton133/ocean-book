@@ -1,0 +1,68 @@
+{
+  "slug": "leafy-seadragon",
+  "commonName": "Leafy Seadragon",
+  "scientificName": "Phycodurus eques",
+  "authority": "(Günther, 1865)",
+  "aphiaId": 282248,
+  "taxonomy": { "phylum": "Chordata", "class": "Teleostei", "order": "Syngnathiformes", "family": "Syngnathidae" },
+  "group": "Seadragon (seahorse family)",
+  "categories": ["camouflage", "reproduction"],
+  "tagline": "A fish that dresses as drifting seaweed",
+  "summary": "A relative of seahorses found only in southern Australia, the leafy seadragon is draped in leaf-shaped skin flaps that make it look like a scrap of kelp. It glides on tiny, nearly invisible fins, sucks up minute crustaceans — and, as in seahorses, it is the father who carries the eggs.",
+  "ability": "seaweed disguise",
+  "stats": {
+    "size": "Up to about 35 cm long",
+    "depth": "About 4–50 m",
+    "range": "Southern Australia, from Kangaroo Island (SA) to south-western Western Australia",
+    "diet": "Mysids and other tiny crustaceans",
+    "conservation": "IUCN: Least Concern"
+  },
+  "depthRange": { "min": 4, "max": 50 },
+  "facts": [
+    { "title": "Leaves for hiding, not swimming", "text": "The leafy flaps are camouflage, letting it sway like kelp in the swell. It actually moves by rapidly fluttering small, almost transparent fins, steering with its tail.", "certainty": "confirmed", "ref": 3 },
+    { "title": "Dad carries the eggs", "text": "The female deposits 250–300 eggs onto a spongy patch under the male's tail, and he carries them for 6–8 weeks until they hatch. Males may raise two broods a season.", "certainty": "confirmed", "ref": 1 },
+    { "title": "A cup for every egg", "text": "The male's skin is soft when the eggs are first pressed in, then hardens to form a small cup around each one.", "certainty": "confirmed", "ref": 3 },
+    { "title": "Toothless pipette feeder", "text": "With no teeth, it feeds by suction, slurping tiny crustaceans such as mysids whole through its long, tube-like snout.", "certainty": "confirmed", "ref": 3 },
+    { "title": "A state emblem", "text": "Found nowhere but southern Australia, it is protected throughout its range and is the official marine emblem of South Australia.", "certainty": "confirmed", "ref": 1 }
+  ],
+  "references": [
+    { "title": "Phycodurus eques (Günther, 1865)", "publisher": "WoRMS", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=282248" },
+    { "title": "Leafy Seadragon, Phycodurus eques", "publisher": "Fishes of Australia (Museums Victoria)", "url": "https://fishesofaustralia.net.au/home/species/3126" },
+    { "title": "Leafy Seadragon", "publisher": "Australian Museum", "url": "https://australian.museum/learn/animals/fishes/leafy-seadragon-phycodurus-eques/" },
+    { "title": "Leafy Seadragon", "publisher": "Aquarium of the Pacific", "url": "https://www.aquariumofpacific.org/onlinelearningcenter/species/leafy_seadragon" },
+    { "title": "Seadragon species", "publisher": "IUCN SSC Seahorse, Pipefish & Seadragon Specialist Group", "url": "https://www.iucn-seahorse.org/seadragon-species" }
+  ],
+  "image": {
+    "src": "/media/creatures/leafy-seadragon/hero.webp",
+    "width": 1920, "height": 1278,
+    "alt": "A leafy seadragon in open blue-green water, its golden striped body covered in branching, leaf-shaped olive flaps, above tufts of brown seaweed",
+    "caption": "A leafy seadragon hovering over weed off Kangaroo Island, South Australia",
+    "creator": "James Rosindell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leafy_Seadragon_on_Kangaroo_Island.jpg",
+    "species": "Phycodurus eques",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "50% 50%",
+    "tone": "dark"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/leafy-seadragon/alt-1.webp",
+      "width": 1920, "height": 1440,
+      "alt": "An orange leafy seadragon with spotted, leaf-shaped flaps swimming low over a seagrass bed in green-blue water",
+      "caption": "A vivid orange leafy seadragon gliding over seagrass",
+      "creator": "Sylke Rohrlach",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leafy_Sea_Dragon-Phycodurus_eques_(23694746864).jpg",
+      "species": "Phycodurus eques",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "45% 45%",
+      "tone": "light"
+    }
+  ],
+  "notes": "IUCN status: Least Concern per the IUCN Seahorse Specialist Group page (formerly Near Threatened); Fishes of Australia's page inconsistently lists both NT and LC. IUCN Red List site itself returned 403, so not cited directly. Gallery photo location not stated on Commons (photographer is Sydney-based; species occurs only in southern/western Australia)."
+}

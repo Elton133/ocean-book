@@ -1,0 +1,76 @@
+{
+  "slug": "blobfish",
+  "commonName": "Blobfish",
+  "scientificName": "Psychrolutes marcidus",
+  "authority": "(McCulloch, 1926)",
+  "aphiaId": 274674,
+  "taxonomy": { "phylum": "Chordata", "class": "Teleostei", "order": "Perciformes", "family": "Psychrolutidae" },
+  "group": "Deep-sea fish",
+  "categories": ["deep-sea"],
+  "tagline": "Not ugly—just out of its depth",
+  "summary": "Famous as the 'world's ugliest animal', the smooth-head blobfish only looks like a melted frown after being hauled up from the deep. At home on the seafloor 600–1,200 m down, its soft body is held in shape by the pressure and it looks like a plump, ordinary fish.",
+  "ability": "pressure-proof soft body",
+  "stats": {
+    "size": "Up to about 38 cm",
+    "depth": "About 600–1,200 m",
+    "range": "Continental slope off southern and south-eastern Australia, including Tasmania",
+    "diet": "Not well documented",
+    "conservation": "Not evaluated by IUCN"
+  },
+  "depthRange": { "min": 600, "max": 1200 },
+  "facts": [
+    {
+      "title": "The famous face is damage",
+      "text": "The viral 'blob' photo shows a decompressed dead specimen. Hauled up rapidly from over a kilometre down, the fish's jelly-like body collapses at the surface, distorting its features.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Built for pressure",
+      "text": "Blobfish have no swim bladder and very soft, barely hardened bones. That lets them withstand crushing deep-sea pressure without cracking—but leaves nothing to hold their shape in air.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "What it really looks like",
+      "text": "Alive and at the right pressure it is probably far more fish-like, as the original 1926 drawing shows: plump and soft-bodied, but with normal fins and a recognisable face.",
+      "certainty": "hypothesis",
+      "ref": 2
+    },
+    {
+      "title": "A 'withered' name",
+      "text": "Marcidus is Latin for withered or weak, probably because its head, body and fins are covered in loose, flabby skin that hides the features beneath.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Which blob was 'Mr Blobby'?",
+      "text": "The famous 2003 specimen, nicknamed Mr Blobby and kept at the Australian Museum, was trawled off New Zealand. It is only 'possibly' this species; some sources assign it to a close relative.",
+      "certainty": "uncertain",
+      "ref": 2
+    }
+  ],
+  "references": [
+    { "title": "Psychrolutes marcidus (McCulloch, 1926)", "publisher": "WoRMS", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=274674" },
+    { "title": "Smooth-head Blobfish, Psychrolutes marcidus", "publisher": "Fishes of Australia (Museums Victoria)", "url": "https://fishesofaustralia.net.au/home/species/4638" },
+    { "title": "'World's ugliest animal' contest took a blobfish out of water", "publisher": "Science News", "url": "https://www.sciencenews.org/blog/gory-details/worlds-ugliest-animal-contest-took-blobfish-out-water" },
+    { "title": "Psychrolutes marcidus – Smooth-head blobfish", "publisher": "FishBase", "url": "https://www.fishbase.se/summary/Psychrolutes-marcidus.html" }
+  ],
+  "image": {
+    "src": "/media/creatures/blobfish/hero.webp",
+    "width": 1000, "height": 395,
+    "alt": "Black-and-white drawing of a soft-bodied fish with a large rounded head, big eye, wide mouth, broad fan-like pectoral fin, long dorsal and anal fins and a rounded tail.",
+    "caption": "The original illustration from McCulloch's 1926 description of the species, drawn from a trawled specimen: far more fish-like than the famous 'blob' photo.",
+    "creator": "Allan Riverstone McCulloch (Biological Results of the F.I.S. Endeavour)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Psychrolutes_marcidus.jpg",
+    "species": "Psychrolutes marcidus",
+    "type": "illustration",
+    "setting": "illustration",
+    "focal": "40% 50%",
+    "tone": "light"
+  },
+  "gallery": [],
+  "notes": "No licence-compatible photograph of P. marcidus exists on Commons; the famous 'Mr Blobby' photo (Kerryn Parkinson/NORFANZ) is copyrighted. Hero is the type illustration (McCulloch 1926, Endeavour results pl. LV fig. 2 — matches the citation in Fishes of Australia); it is only 1000×395 px and was NOT upscaled, so it needs a contained/letterboxed layout rather than a full-bleed crop. Rejected: 'Two Psychrolutes marcidus.jpg' (Rachel Caauwe, CC BY-SA 3.0) — a modern artist's imaginative painting labelled 'in situ', not a scientific record; 'Foul disease' (whiteboard graffiti); 'CBNMS Blob Sculpin' (different species, Psychrolutes phrictus). Diet: no fetched source documented it, hence 'Not well documented'. Mr Blobby's ID: Science News says 'possibly' P. marcidus; BBC Science Focus says P. microporos. Range per Fishes of Australia ('endemic'); some sources extend it to New Zealand. WoRMS order is Perciformes (older sources: Scorpaeniformes). 'Ugliest animal' title from the 2013 Ugly Animal Preservation Society vote."
+}

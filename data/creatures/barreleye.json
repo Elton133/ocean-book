@@ -1,0 +1,77 @@
+{
+  "slug": "barreleye",
+  "commonName": "Barreleye Fish",
+  "scientificName": "Macropinna microstoma",
+  "authority": "Chapman, 1939",
+  "aphiaId": 281482,
+  "taxonomy": { "phylum": "Chordata", "class": "Teleostei", "order": "Argentiniformes", "family": "Opisthoproctidae" },
+  "group": "Deep-sea fish",
+  "categories": ["deep-sea", "transparent"],
+  "tagline": "The fish that looks up through its own forehead",
+  "summary": "A small twilight-zone fish whose glowing green, tube-shaped eyes sit inside a transparent, fluid-filled shield on its head. It hovers almost motionless, scanning the faint light above for the silhouettes of prey, then rotates its eyes forward to feed.",
+  "ability": "rotating tubular eyes inside a see-through head",
+  "stats": {
+    "size": "Up to about 15 cm",
+    "depth": "About 460–800 m",
+    "range": "North Pacific, from the Bering Sea to Japan and Baja California",
+    "diet": "Zooplankton, including small crustaceans and siphonophores",
+    "conservation": "Not evaluated by IUCN"
+  },
+  "depthRange": { "min": 460, "max": 800 },
+  "facts": [
+    {
+      "title": "A see-through head",
+      "text": "A transparent, fluid-filled shield covers the top of the head. It was missing from most older descriptions, probably because the fragile dome was destroyed when fish were hauled up in nets.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Eyes that swivel",
+      "text": "Its tubular eyes were long thought to be fixed, staring only upward. Robison and Reisenbichler (2008) used ROV video and a live, net-caught fish to show the eyes rotate forward as the fish tilts to feed.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Green sunglasses",
+      "text": "The tubular eyes are capped by bright green lenses. MBARI suggests the green pigment filters out direct sunlight, helping the fish pick out the bioluminescent glow of prey overhead.",
+      "certainty": "hypothesis",
+      "ref": 1
+    },
+    {
+      "title": "Hovering hunter",
+      "text": "Large, flat fins let it hang nearly motionless and manoeuvre precisely. Its pointed mouth is small, but its gut is large, and two net-caught fish had jelly fragments in their stomachs.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Thief among tentacles?",
+      "text": "Researchers speculate it may pick prey out of the stinging tentacles of siphonophores (colonial jellies), with its clear shield protecting its eyes from stings — an idea still to be confirmed.",
+      "certainty": "hypothesis",
+      "ref": 0
+    }
+  ],
+  "references": [
+    { "title": "Barreleye fish (Macropinna microstoma)", "publisher": "MBARI – Animals of the Deep", "url": "https://www.mbari.org/animal/barreleye/" },
+    { "title": "Researchers solve mystery of deep-sea fish with tubular eyes and transparent head", "publisher": "MBARI (press release, 23 Feb 2009)", "url": "https://www.mbari.org/news/researchers-solve-mystery-of-deep-sea-fish-with-tubular-eyes-and-transparent-head/" },
+    { "title": "Robison, B.H. & Reisenbichler, K.R. (2008). Macropinna microstoma and the paradox of its tubular eyes. Copeia 2008(4): 780–784", "publisher": "Copeia", "url": "https://doi.org/10.1643/CG-07-082" },
+    { "title": "Macropinna microstoma Chapman, 1939", "publisher": "WoRMS", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=281482" },
+    { "title": "Macropinna microstoma – Barreleye", "publisher": "FishBase", "url": "https://www.fishbase.se/summary/Macropinna-microstoma.html" }
+  ],
+  "image": {
+    "src": "/media/creatures/barreleye/hero.webp",
+    "width": 1920, "height": 1440,
+    "alt": "A small black fish lying on an open palm; the front of its head is a clear dome through which a large dark eye is visible.",
+    "caption": "A barreleye collected by trawl in the Gulf of Alaska during a NOAA Ocean Exploration expedition; its clear head shield is still intact.",
+    "creator": "NOAA Ocean Exploration, Exploring Pelagic Biodiversity of the Gulf of Alaska and the Impact of Its Seamounts (author not named)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barreleye-fish_GoK.jpg",
+    "species": "Macropinna microstoma",
+    "type": "photograph",
+    "setting": "specimen",
+    "focal": "45% 50%",
+    "tone": "light"
+  },
+  "gallery": [],
+  "notes": "Only one licence-compatible Commons image of M. microstoma exists (fresh trawl specimen held in a hand, NOAA public domain; Commons file description says 'a barreleye fish (Opisthoproctidae)' but it is filed in Category:Macropinna microstoma and the transparent head shield and tubular eyes match). MBARI's in-situ ROV images are copyrighted. 'Barreleye' is also used for other Opisthoproctidae. Conservation status per FishBase (IUCN Not Evaluated). WoRMS places the family in Argentiniformes; class given as Teleostei per WoRMS."
+}

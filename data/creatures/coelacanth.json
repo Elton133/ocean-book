@@ -1,0 +1,77 @@
+{
+  "slug": "coelacanth",
+  "commonName": "West Indian Ocean Coelacanth",
+  "scientificName": "Latimeria chalumnae",
+  "authority": "Smith, 1939",
+  "aphiaId": 217438,
+  "taxonomy": { "phylum": "Chordata", "class": "Actinistia", "order": "Coelacanthiformes", "family": "Latimeriidae" },
+  "group": "Lobe-finned fish",
+  "categories": ["ancient", "deep-sea", "reproduction"],
+  "tagline": "The fish that came back from extinction",
+  "summary": "A large, slow-living fish with fleshy, limb-like fins, from a lineage thought extinct for 70 million years until a living specimen turned up in 1938. Dark metallic blue with pale spots, it shelters in deep rocky caves by day and drifts out to feed at night. It may live nearly a century.",
+  "ability": "fleshy lobed fins and an ultra-slow life",
+  "stats": {
+    "size": "Up to about 2 m and 95 kg",
+    "depth": "About 150–700 m; often around 180–250 m",
+    "range": "Western Indian Ocean: the Comoros, with populations off South Africa, Madagascar and Mozambique",
+    "diet": "Fishes and squid",
+    "conservation": "IUCN: Critically Endangered"
+  },
+  "depthRange": { "min": 150, "max": 700 },
+  "facts": [
+    {
+      "title": "Back from the dead",
+      "text": "Its lineage of lobe-finned fishes was thought to have died out 70 million years ago, until a living coelacanth was discovered in 1938. Modern coelacanths look remarkably like many fossil relatives.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Not our closest fishy cousin",
+      "text": "Sequencing its genome in 2013 showed that lungfish, not the coelacanth, are the closest living relatives of four-limbed animals—though it still offers clues to how fins became limbs.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "A century-long life",
+      "text": "By counting tiny annual growth marks on scales, a 2021 study found the oldest specimen was 84 years old and estimated maturity at around 55. Earlier work had assumed lifespans of about 20 years.",
+      "certainty": "hypothesis",
+      "ref": 3
+    },
+    {
+      "title": "A five-year pregnancy",
+      "text": "Coelacanths give birth to live young. The same 2021 study suggests embryos develop for about five years inside the mother—earlier estimates were around three years, already among the longest of any vertebrate.",
+      "certainty": "hypothesis",
+      "ref": 3
+    },
+    {
+      "title": "Cave sleepers, night drifters",
+      "text": "By day they rest in caves on steep rocky slopes—up to 14 in one cave. At night they forage alone, drifting with currents and travelling up to about 8 km before retreating at dawn.",
+      "certainty": "confirmed",
+      "ref": 1
+    }
+  ],
+  "references": [
+    { "title": "Latimeria chalumnae Smith, 1939", "publisher": "WoRMS", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=217438" },
+    { "title": "Latimeria chalumnae – Coelacanth", "publisher": "FishBase", "url": "https://www.fishbase.se/summary/Latimeria-chalumnae.html" },
+    { "title": "Amemiya, C.T. et al. (2013). The African coelacanth genome provides insights into tetrapod evolution. Nature 496: 311–316", "publisher": "Nature", "url": "https://www.nature.com/articles/nature12027" },
+    { "title": "Coelacanths may live nearly a century, five times longer than researchers expected (on Mahé, Ernande & Herbin 2021, Current Biology)", "publisher": "EurekAlert! / Cell Press", "url": "https://www.eurekalert.org/news-releases/899367" },
+    { "title": "Mahé, K., Ernande, B. & Herbin, M. (2021). New scale analyses reveal centenarian African coelacanths. Current Biology", "publisher": "Current Biology", "url": "https://doi.org/10.1016/j.cub.2021.05.054" }
+  ],
+  "image": {
+    "src": "/media/creatures/coelacanth/hero.webp",
+    "width": 1920, "height": 887,
+    "alt": "A large, heavy-bodied fish with thick, fleshy, paddle-like fins and a three-lobed tail, displayed against a deep blue background and lit in blue.",
+    "caption": "A preserved coelacanth on display at the Musée zoologique de Strasbourg, France. The blue is the display lighting, though in life the fish is a dark metallic blue with pale spots.",
+    "creator": "Ji-Elle (Wikimedia Commons)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_zoologique_de_Strasbourg-Coelacanthe_(2).jpg",
+    "species": "Latimeria chalumnae",
+    "type": "photograph",
+    "setting": "specimen",
+    "focal": "45% 50%",
+    "tone": "dark"
+  },
+  "gallery": [],
+  "notes": "No freely licensed in-situ photograph exists on Commons (live footage by Fricke/Ballesta etc. is copyrighted). Hero is a taxidermied/preserved museum specimen (Strasbourg) under blue display light. Rejected: Sebastian Brandt 3D 'zoological reconstruction' images (models), 'Smith with the second coelacanth…-transformed.png' (filename suggests digital transformation/upscaling of a historical photo). The 1938 specimen was from South Africa; IUCN Critically Endangered per FishBase (assessment dated 2000). Fact refs: fact 0 and 1 cite the Nature genome paper (index 2); facts 2–3 cite the EurekAlert release (index 3) with the paper (index 4) also listed. Gestation estimates differ: FishBase ~3 years; Mahé et al. 2021 ~5 years. Authority per WoRMS: Smith, 1939."
+}

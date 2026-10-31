@@ -3,12 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predev": "node scripts/build-catalogue.mjs",
     "dev": "next dev",
+    "prebuild": "node scripts/build-catalogue.mjs",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "catalogue": "node scripts/build-catalogue.mjs"
   },
   "dependencies": {
+    "framer-motion": "^14.9.0",
     "next": "16.4.3",
     "react": "19.3.0",
     "react-dom": "19.3.0"

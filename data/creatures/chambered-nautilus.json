@@ -1,0 +1,50 @@
+{
+  "slug": "chambered-nautilus",
+  "commonName": "Chambered Nautilus",
+  "scientificName": "Nautilus pompilius",
+  "authority": "Linnaeus, 1758",
+  "aphiaId": 216384,
+  "taxonomy": { "phylum": "Mollusca", "class": "Cephalopoda", "order": "Nautilida", "family": "Nautilidae" },
+  "group": "Nautilus (shelled cephalopod)",
+  "categories": ["ancient", "deep-sea"],
+  "tagline": "A living link to the age before dinosaurs",
+  "summary": "The chambered nautilus is a cephalopod that still carries its ancestors' coiled, striped shell, divided into gas-filled chambers that keep it afloat. It rises at night from deep reef slopes to hunt with more than 90 sticky tentacles, and lives for 20 years or more, which makes it slow to recover from shell collecting.",
+  "ability": "floating on a chambered shell",
+  "stats": {
+    "size": "Shell typically about 13–23 cm across",
+    "depth": "Down to about 700 m by day; up to about 70 m at night",
+    "range": "Western Pacific and coastal Indian Ocean",
+    "diet": "Fishes and crustaceans such as crabs and shrimps; also scavenges",
+    "conservation": "US Endangered Species Act: Threatened; CITES Appendix II (IUCN status not found)"
+  },
+  "depthRange": { "min": 70, "max": 700 },
+  "facts": [
+    { "title": "An ancient design", "text": "Nautiluses have changed little over about 150 million years and were cruising deep reefs before the dinosaurs, earning them the label 'living fossil'.", "certainty": "confirmed", "ref": 1 },
+    { "title": "A shell that floats", "text": "Its body sits in the outermost chamber. A tube called the siphuncle runs through the older chambers, letting the animal adjust the gas and liquid inside them to control buoyancy.", "certainty": "confirmed", "ref": 2 },
+    { "title": "Ninety-plus tentacles", "text": "It has more than 90 tentacles, the most of any cephalopod. They have no suckers; instead, grooves, ridges and a sticky coating grip prey, and chemical sensors smell food in the water.", "certainty": "confirmed", "ref": 1 },
+    { "title": "Daily commute", "text": "By day it lingers on deep reef slopes to avoid predators, as deep as about 700 m; at night it rises to around 70 m to feed and lay eggs.", "certainty": "confirmed", "ref": 1 },
+    { "title": "Slow life, real threat", "text": "Nautiluses mature at roughly 10–15 years and lay few eggs. Fishing for the international shell trade is their main threat; the US listed the species as threatened in 2018.", "certainty": "confirmed", "ref": 2 }
+  ],
+  "references": [
+    { "title": "Nautilus pompilius Linnaeus, 1758", "publisher": "WoRMS (World Register of Marine Species)", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=216384" },
+    { "title": "Chambered nautilus", "publisher": "Monterey Bay Aquarium", "url": "https://www.montereybayaquarium.org/animals/animals-a-to-z/chambered-nautilus" },
+    { "title": "Chambered Nautilus", "publisher": "NOAA Fisheries", "url": "https://www.fisheries.noaa.gov/species/chambered-nautilus" }
+  ],
+  "image": {
+    "src": "/media/creatures/chambered-nautilus/hero.webp",
+    "width": 1920, "height": 1280,
+    "alt": "A chambered nautilus against a black background, its cream shell striped with brown, a spotted hood above a small eye, and a cluster of pale tentacles reaching forward",
+    "caption": "Chambered nautilus at Pairi Daiza, Brugelette, Belgium",
+    "creator": "Hans Hillewaert",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nautilus_pompilius_(detail).jpg",
+    "species": "Nautilus pompilius",
+    "type": "photograph",
+    "setting": "aquarium",
+    "focal": "50% 50%",
+    "tone": "dark"
+  },
+  "gallery": [],
+  "notes": "Aquarium photo; the only in-situ Commons image (Dunstan et al. ROV frame) is small (1767 px) with caption panels. MBA says ESA listing in 2017, NOAA Fisheries says 2018 (final rule was 2018) — used 2018. Shell size: MBA 16–21 cm diameter vs NOAA 5–9 in (13–23 cm) at maturity; used the NOAA range. Maturity: MBA 12–15 yr, NOAA 10–15 yr. The siphuncle fact is phrased from NOAA's description (which calls the tube the 'hyponome', a term usually used for the funnel; I used 'siphuncle', the standard anatomical term) — editor may wish to verify wording. Nautilus taxonomy is unsettled (NOAA). IUCN status for N. pompilius not found in fetched sources."
+}

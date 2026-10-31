@@ -1,0 +1,77 @@
+{
+  "slug": "hatchetfish",
+  "commonName": "Marine Hatchetfish",
+  "scientificName": "Argyropelecus aculeatus",
+  "authority": "Valenciennes, 1850",
+  "aphiaId": 127306,
+  "taxonomy": { "phylum": "Chordata", "class": "Teleostei", "order": "Stomiiformes", "family": "Sternoptychidae" },
+  "group": "Deep-sea fish",
+  "categories": ["deep-sea", "bioluminescent", "camouflage"],
+  "tagline": "A silver blade that hides with its own light",
+  "summary": "A thin, mirror-sided fish no longer than a finger, shaped like the blade of a hatchet. Rows of light organs along its belly glow to match the faint daylight filtering down from above, erasing its silhouette from hunters looking up from below.",
+  "ability": "counter-illumination (belly lights that erase its shadow)",
+  "stats": {
+    "size": "Up to about 8 cm",
+    "depth": "Mostly 200–600 m by day; rises to about 80–300 m at night",
+    "range": "Tropical and temperate oceans worldwide, except the eastern North Pacific",
+    "diet": "Ostracods and copepods; larger fish also take pteropods, krill and small fishes",
+    "conservation": "IUCN: Least Concern"
+  },
+  "depthRange": { "min": 100, "max": 600 },
+  "facts": [
+    {
+      "title": "Invisible from below",
+      "text": "Light organs (photophores) along the belly shine a pale blue light matching daylight from above. This 'counter-illumination' hides the fish from predators that hunt by looking up for silhouettes.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "A dimmer switch",
+      "text": "Hatchetfish can adjust the intensity and colour of their belly lights to keep matching the light filtering down as conditions change.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Lights aimed at its eyes",
+      "text": "Its eyes point upward, so how does it check its belly glow? Researchers propose that small light organs facing into its own eyes act as a reference for setting brightness.",
+      "certainty": "hypothesis",
+      "ref": 3
+    },
+    {
+      "title": "A nightly commute",
+      "text": "By day it stays mostly at 200–600 m. Early at night it climbs to about 80–200 m to feed, then sinks back down by day.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Mirror armour",
+      "text": "Its flattened, silvery sides add a second layer of disguise, helping it vanish in the dim, downward light of the twilight zone.",
+      "certainty": "confirmed",
+      "ref": 1
+    }
+  ],
+  "references": [
+    { "title": "Argyropelecus aculeatus Valenciennes, 1850", "publisher": "WoRMS", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=127306" },
+    { "title": "Lovely Hatchetfish, Argyropelecus aculeatus", "publisher": "Fishes of Australia (Museums Victoria)", "url": "https://fishesofaustralia.net.au/home/species/3938" },
+    { "title": "Hatchetfish", "publisher": "Monterey Bay Aquarium", "url": "https://www.montereybayaquarium.org/animals/animals-a-to-z/hatchetfish" },
+    { "title": "Lights in the eyes for better disguise (on Davis et al. 2020, Proc. R. Soc. B, doi:10.1098/rspb.2019.2918)", "publisher": "Duke University", "url": "https://today.duke.edu/2020/06/lights-eyes-better-disguise" },
+    { "title": "Argyropelecus aculeatus – Lovely hatchetfish", "publisher": "FishBase", "url": "https://www.fishbase.se/summary/Argyropelecus-aculeatus.html" }
+  ],
+  "image": {
+    "src": "/media/creatures/hatchetfish/hero.webp",
+    "width": 1920, "height": 1289,
+    "alt": "A deep-bodied, silvery fish photographed side-on against a pale blue background, with large upward-looking eyes, a short tail and a row of pale oval light organs along the lower edge of its body.",
+    "caption": "An Atlantic silver hatchetfish from the Gulf of Mexico. The pale ovals along its lower edge are its light organs.",
+    "creator": "SEFSC Pascagoula Laboratory; collection of Brandi Noble, NOAA/NMFS/SEFSC",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ArgyropelecusAculeatus.jpg",
+    "species": "Argyropelecus aculeatus",
+    "type": "photograph",
+    "setting": "specimen",
+    "focal": "45% 50%",
+    "tone": "light"
+  },
+  "gallery": [],
+  "notes": "Species chosen: Argyropelecus aculeatus (best image: NOAA SEFSC public-domain specimen photo, Gulf of Mexico). Common names vary: 'Atlantic silver hatchetfish' (NOAA), 'Lovely hatchetfish' (Fishes of Australia, FishBase). WoRMS authority date 1850; Fishes of Australia cites 1849. Monterey Bay Aquarium's page and the Duke/Davis et al. study cover hatchetfishes generally, not this species specifically. Depth gauge 100–600 m reflects day/night range; FishBase records to about 2,056 m."
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "mimic-octopus",
+  "commonName": "Mimic Octopus",
+  "scientificName": "Thaumoctopus mimicus",
+  "authority": "M. Norman & Hochberg, 2005",
+  "aphiaId": 342403,
+  "taxonomy": { "phylum": "Mollusca", "class": "Cephalopoda", "order": "Octopoda", "family": "Octopodidae" },
+  "group": "Octopus",
+  "categories": ["camouflage", "intelligent"],
+  "tagline": "One octopus, many costumes",
+  "summary": "A slender, long-armed octopus of tropical sand and silt flats that forages in daylight, in full view of predatory fish. Instead of just hiding, it reshapes its body and colours to impersonate other animals, including venomous ones, and appears to choose its disguise to suit the threat.",
+  "ability": "impersonating other animals",
+  "stats": {
+    "size": "About 60 cm long including arms",
+    "depth": "Mostly shallower than about 15 m",
+    "range": "Indo-West Pacific, from the Red Sea to New Caledonia and the Great Barrier Reef; most records from Indonesia",
+    "diet": "Small fishes, crabs and worms",
+    "conservation": "IUCN: Least Concern (2019 assessment)"
+  },
+  "depthRange": { "min": 1, "max": 15 },
+  "facts": [
+    { "title": "Found on film first", "text": "Scientists filming in Sulawesi and Bali described it as an octopus new to science in 2001; its formal scientific name followed in 2005.", "certainty": "confirmed", "ref": 1 },
+    { "title": "Dynamic mimicry", "text": "Nine individuals were seen switching between postures and colour patterns, several clearly impersonating venomous animals that share its habitat. Biologists call this shape-shifting repertoire 'dynamic mimicry'.", "certainty": "confirmed", "ref": 1 },
+    { "title": "A cast of characters", "text": "Reported guises include a lionfish (arms fanned out like spines), a banded sea snake (two arms stretched out, the rest hidden) and a flat, banded sole gliding over the sand.", "certainty": "confirmed", "ref": 2 },
+    { "title": "Choosing the right disguise", "text": "Observers suggest the octopus picks a model to fit the threat: one harassed by damselfish turned into a 'sea snake', a predator of damselfish. How deliberate this choice is remains under study.", "certainty": "hypothesis", "ref": 1 },
+    { "title": "Mud, not reef", "text": "Unlike most octopuses that shelter on reefs, it lives on open sand and silt, often near river mouths, jetting just above the bottom to search burrows for prey.", "certainty": "confirmed", "ref": 2 }
+  ],
+  "references": [
+    { "title": "Thaumoctopus mimicus M. Norman & Hochberg, 2005", "publisher": "WoRMS (World Register of Marine Species)", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=342403" },
+    { "title": "Dynamic mimicry in an Indo-Malayan octopus (Norman, Finn & Tregenza 2001, Proc. R. Soc. B)", "publisher": "PubMed Central", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1088805/" },
+    { "title": "Mimic octopus", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Mimic_octopus" }
+  ],
+  "image": {
+    "src": "/media/creatures/mimic-octopus/hero.webp",
+    "width": 1920, "height": 1440,
+    "alt": "A mimic octopus with bold brown-and-white banded arms spread over dark sand, its small eyes raised on top of its head",
+    "caption": "Mimic octopus on a sandy bottom at Anilao, Philippines",
+    "creator": "Rickard Zerpe",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mimic_octopus_(Thaumoctopus_mimicus)_(14217664448).jpg",
+    "species": "Thaumoctopus mimicus",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "55% 40%",
+    "tone": "dark"
+  },
+  "gallery": [],
+  "notes": "Specific mimicry models (lionfish, sea snake, sole), size, depth, range and IUCN status come from Wikipedia, which cites Norman & Hochberg 2005, Hanlon et al. 2008 and IUCN (Allcock 2019); the primary papers and IUCN site could not be fetched (403/JS). The 'choice of disguise' fact is framed as a hypothesis, as in Norman et al. 2001 ('our observations suggest'). Close relative Wunderpus photogenicus looks similar; the chosen photo is labelled T. mimicus by the photographer."
+}

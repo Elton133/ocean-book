@@ -1,0 +1,104 @@
+{
+  "slug": "bobbit-worm",
+  "commonName": "Bobbit Worm",
+  "scientificName": "Eunice aphroditois",
+  "authority": "(Pallas, 1788)",
+  "aphiaId": 130053,
+  "taxonomy": {
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Eunicida",
+    "family": "Eunicidae"
+  },
+  "group": "Giant bristle worm (eunicid polychaete)",
+  "categories": [
+    "giants"
+  ],
+  "tagline": "A buried ambush hunter with spring-loaded jaws",
+  "summary": "A giant bristle worm that hides almost its whole body in a mucus-lined burrow, leaving only five striped antennae above the sand. When a fish touches them, its jaws snap shut and drag the prey underground. Recorded specimens approach 3 m long, which makes it a contender for the longest polychaete.",
+  "ability": "ambush strike from the sand",
+  "stats": {
+    "size": "Longest recorded specimen about 3 m (299 cm)",
+    "depth": "Shallow, warm coastal seabeds: intertidal to subtidal sand, rubble and rock",
+    "range": "Warm waters of the Indo-Pacific and Atlantic (identity of many records uncertain)",
+    "diet": "Fishes and other passing animals",
+    "conservation": "Not evaluated by IUCN"
+  },
+  "depthRange": {
+    "min": 0,
+    "max": 40,
+    "approx": true
+  },
+  "facts": [
+    {
+      "title": "Antennae as bait",
+      "text": "By day it lies buried with five striped antennae poking out. These sense passing prey and may also work as a lure. Its jaws wait under tension like a sprung trap.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Changes tactics at night",
+      "text": "After dark, it switches from waiting to actively hunting, pushing out of its burrow to snatch passing prey.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Fish fight back",
+      "text": "In Indonesia's Lembeh Strait, groups of young monocle bream were seen 'mobbing' bobbit worms, squirting jets of water at the burrow until the worm sometimes retreated.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "A 20-million-year-old lair",
+      "text": "L-shaped fossil burrows up to 2 m long, found in Miocene rocks in Taiwan, closely resemble bobbit worm lairs. They suggest ambush-hunting worms like this were already present about 20 million years ago.",
+      "certainty": "hypothesis",
+      "ref": 3
+    },
+    {
+      "title": "Probably several species",
+      "text": "Many different giant worms have been lumped under this name. Taxonomists warn that some 'bobbit worms' worldwide may be other, even undescribed, species.",
+      "certainty": "confirmed",
+      "ref": 2
+    }
+  ],
+  "references": [
+    {
+      "title": "Eunice aphroditois (Pallas, 1788)",
+      "publisher": "WoRMS",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=130053"
+    },
+    {
+      "title": "Novel mobbing strategies of a fish population against a sessile annelid predator — Lachat & Haag-Wackernagel 2016",
+      "publisher": "Scientific Reports (via PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5018815/"
+    },
+    {
+      "title": "A new species of giant Eunice (Eunicidae, Polychaeta, Annelida) from the east coast of Australia (2022)",
+      "publisher": "ZooKeys (via PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9848632/"
+    },
+    {
+      "title": "The 20-million-year old lair of an ambush-predatory worm preserved in northeast Taiwan (2021)",
+      "publisher": "Scientific Reports (via PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7820589/"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/bobbit-worm/hero.webp",
+    "width": 1920,
+    "height": 1440,
+    "alt": "The head of a large worm rising from dark gravelly sand. Its tan, iridescent body segments shimmer blue and green, curved grey jaws spread open, and five striped antennae stick straight up.",
+    "caption": "A bobbit worm with its jaws open, Anilao, Philippines.",
+    "creator": "Rickard Zerpe",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bobbit_worm_(Eunice_aphroditois)_(14217679648).jpg",
+    "species": "Eunice aphroditois",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "52% 45%",
+    "tone": "dark"
+  },
+  "gallery": [],
+  "notes": "WoRMS gives Eunice aphroditois (Pallas, 1788) as the accepted name. Its type locality is Sri Lanka and no type specimen exists. Per the ZooKeys 2022 paper, Indo-Pacific 'bobbit worms' are almost always identified as E. aphroditois, but this name has absorbed several giant species. The hero photo (Philippines) follows that convention; its true species identity cannot be confirmed from a photo. Commons iNaturalist images of slim reddish worms on rock, and a fish-like image ('Eunice aphroditois 33864655'), were rejected. The 299 cm figure is the record specimen cited in Lachat & Haag-Wackernagel 2016. We did not use the popular story that the name refers to females severing males' genitals: no source supports it. Depth is not given in the sources consulted; depthRange 0–40 m is an indicative value for shallow coastal habitat."
+}

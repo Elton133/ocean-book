@@ -1,0 +1,116 @@
+{
+  "slug": "japanese-spider-crab",
+  "commonName": "Japanese Spider Crab",
+  "scientificName": "Macrocheira kaempferi",
+  "authority": "(Temminck, 1836)",
+  "aphiaId": 346131,
+  "taxonomy": {
+    "phylum": "Arthropoda",
+    "class": "Malacostraca",
+    "order": "Decapoda",
+    "family": "Macrocheiridae"
+  },
+  "group": "Giant spider crab (decapod crustacean)",
+  "categories": [
+    "giants",
+    "camouflage"
+  ],
+  "tagline": "The widest-reaching arthropod on Earth",
+  "summary": "Called taka-ashi-gani, 'tall-legged crab', in Japan, it has the greatest leg span of any known arthropod: up to about 3.7 m from claw to claw. It walks the seafloor off southern Japan, scavenging and picking at plants and shellfish, and disguises its bumpy shell with living sponges and other animals.",
+  "ability": "record-breaking leg span",
+  "stats": {
+    "size": "Leg span up to about 3.7 m; body up to about 40 cm wide; up to about 19 kg",
+    "depth": "Adults usually about 50–600 m",
+    "range": "Pacific coast of Japan (mainly southern Honshū); outlying records off Iwate and Taiwan",
+    "diet": "Omnivore and scavenger: dead fish, molluscs, small invertebrates, algae",
+    "conservation": "Not evaluated by IUCN"
+  },
+  "depthRange": {
+    "min": 50,
+    "max": 600
+  },
+  "facts": [
+    {
+      "title": "Record-breaking reach",
+      "text": "Guinness World Records lists it as the longest marine crustacean. One specimen had a claw span of 3.7 m and weighed 18.6 kg, though average spans are closer to 2.4–2.7 m.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Wears living disguises",
+      "text": "It tears sponges, worm tubes and other organisms from the seabed, shapes them with its mouthparts and sticks them onto its shell, where they keep growing as camouflage.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Larvae near the surface",
+      "text": "Females carry up to about 1.5 million eggs per season. The hatchlings drift as plankton near the warmer surface through several larval stages before settling to the cold depths.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "A fragile 100-minute moult",
+      "text": "Moulting takes about 100 minutes. The crab becomes immobile, backs out of its shell starting at the rear, and frees its long walking legs last.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Half a century old?",
+      "text": "Guinness says specimens live 50+ years, but crabs are hard to age and no peer-reviewed lifespan estimate was found.",
+      "certainty": "uncertain",
+      "ref": 1
+    }
+  ],
+  "references": [
+    {
+      "title": "Macrocheira kaempferi (Temminck, 1836)",
+      "publisher": "WoRMS",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=346131"
+    },
+    {
+      "title": "Longest marine crustacean",
+      "publisher": "Guinness World Records",
+      "url": "https://www.guinnessworldrecords.com/world-records/70875-longest-marine-crustacean"
+    },
+    {
+      "title": "Japanese spider crab",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Japanese_spider_crab"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/japanese-spider-crab/hero.webp",
+    "width": 1920,
+    "height": 1280,
+    "alt": "Low front view of a huge spider crab in a blue-lit aquarium, raising its long, thin, red-and-white mottled claws. A second spider crab and small fish are in the background.",
+    "caption": "Japanese spider crab at Osaka Aquarium Kaiyukan, Japan.",
+    "creator": "Takashi Hososhima",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_spider_crab_(15340536895).jpg",
+    "species": "Macrocheira kaempferi",
+    "type": "photograph",
+    "setting": "aquarium",
+    "focal": "45% 40%",
+    "tone": "dark"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/japanese-spider-crab/alt-1.webp",
+      "width": 1920,
+      "height": 1280,
+      "alt": "Front view of a Japanese spider crab standing on dark blue gravel. Its knobbly orange carapace sits high on long, orange-and-white legs, casting a large spidery shadow below.",
+      "caption": "At the Aquarium of the Pacific, Long Beach, California.",
+      "creator": "Eric Kilby",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spider_Crab_(19066404505).jpg",
+      "species": "Macrocheira kaempferi",
+      "type": "photograph",
+      "setting": "aquarium",
+      "focal": "50% 45%",
+      "tone": "dark"
+    }
+  ],
+  "notes": "WoRMS currently places the genus in its own family, Macrocheiridae; older sources use Inachidae. No acceptable in situ photo was found on Commons, so both images are aquarium shots. The gallery file's title is just 'Spider Crab', but it is filed in Category:Macrocheira kaempferi, is from the Aquarium of the Pacific, and is unmistakably this species. Depth varies by source: Wikipedia gives 50–600 m, while Guinness says 30–50 m. We used Wikipedia's range, which matches regular occurrence at about 300 m in Suruga Bay. No IUCN assessment was found. Wikipedia mentions fishery conservation measures, but we found no primary source for them."
+}

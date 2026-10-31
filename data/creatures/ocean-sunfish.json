@@ -1,0 +1,104 @@
+{
+  "slug": "ocean-sunfish",
+  "commonName": "Ocean Sunfish",
+  "scientificName": "Mola mola",
+  "authority": "(Linnaeus, 1758)",
+  "aphiaId": 127405,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Teleostei",
+    "order": "Tetraodontiformes",
+    "family": "Molidae"
+  },
+  "group": "Open-ocean fish",
+  "categories": [
+    "giants",
+    "reproduction"
+  ],
+  "tagline": "A swimming millstone that dives for jellies",
+  "summary": "One of the heaviest bony fishes on Earth: a huge, flattened disc with towering fins and no proper tail, able to top 2.5 tonnes. Once thought to be a lazy drifter, it is an active swimmer that dives hundreds of metres to hunt jellies and siphonophores, then returns toward the surface.",
+  "ability": "wing-like fin flapping and deep dives",
+  "stats": {
+    "size": "Up to about 3.3 m long and 4.2 m tall fin-to-fin; over 2.5 tonnes",
+    "depth": "Mostly the top 200 m; dives beyond 800 m, possibly 1,000 m",
+    "range": "Tropical and temperate oceans worldwide",
+    "diet": "Jellyfish, siphonophores, salps and comb jellies; also small crustaceans, squids and fishes",
+    "conservation": "IUCN: Vulnerable"
+  },
+  "depthRange": {
+    "min": 0,
+    "max": 844
+  },
+  "facts": [
+    {
+      "title": "A fish without a tail",
+      "text": "Instead of a tail fin it has a clavus—Latin for 'rudder'—a stiff lobe formed from extensions of the dorsal and anal fins. Its name Mola is Latin for millstone, after its round shape.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Flying underwater",
+      "text": "It swims by flapping its tall dorsal and anal fins in unison, like a pair of wings. This is thought to be an efficient stroke that lets it dive repeatedly to great depths.",
+      "certainty": "hypothesis",
+      "ref": 2
+    },
+    {
+      "title": "Not just a lazy drifter",
+      "text": "Tagged sunfish in the north-west Atlantic spent over 80% of their time in the top 200 m but dived as deep as 844 m, making regular forays to feed on deep-water siphonophores and jellies.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Why bask at the surface?",
+      "text": "Sunfish are often seen lying flat at the surface. One idea is that they warm up after cold dives; but a tagging study found no link between cold-water time and surface time, so the reason remains debated.",
+      "certainty": "uncertain",
+      "ref": 1
+    },
+    {
+      "title": "300 million eggs",
+      "text": "A single adult female can produce up to 300 million tiny, buoyant eggs, yet sunfish larvae are rarely collected.",
+      "certainty": "confirmed",
+      "ref": 1
+    }
+  ],
+  "references": [
+    {
+      "title": "Mola mola (Linnaeus, 1758)",
+      "publisher": "WoRMS",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=127405"
+    },
+    {
+      "title": "Ocean Sunfish, Mola mola",
+      "publisher": "Australian Museum",
+      "url": "https://australian.museum/learn/animals/fishes/ocean-sunfish-mola-mola/"
+    },
+    {
+      "title": "Ocean Sunfish, Mola mola",
+      "publisher": "Fishes of Australia (Museums Victoria)",
+      "url": "https://fishesofaustralia.net.au/home/species/785"
+    },
+    {
+      "title": "Mola mola – Ocean sunfish",
+      "publisher": "FishBase",
+      "url": "https://www.fishbase.se/summary/Mola-mola.html"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/ocean-sunfish/hero.webp",
+    "width": 1920,
+    "height": 1440,
+    "alt": "A huge, flat, disc-shaped fish with a tall fin above and below hangs in green water over a rocky wreck, while two scuba divers work on the seabed below it.",
+    "caption": "A large ocean sunfish buzzes NOAA divers documenting the wreck of the schooner Paul Palmer, Stellwagen Bank National Marine Sanctuary, Massachusetts, 2006.",
+    "creator": "Matthew Lawrence, Stellwagen Bank NMS, NOS, NOAA",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sanc1008_-_Flickr_-_NOAA_Photo_Library.jpg",
+    "species": "Mola mola",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "55% 40%",
+    "tone": "dark"
+  },
+  "gallery": [],
+  "notes": "Image chosen from Stellwagen Bank (NW Atlantic), where Mola mola is the expected species; images from the Galápagos, Namibia/South Africa and unspecified locations were avoided because the look-alike Mola alexandrini and M. tecta occur in the Southern Hemisphere. Commons lists the file under both PD-USGov-NOAA and CC BY 2.0 (NOAA Flickr); public domain recorded. Divers appear in the frame (gives scale). 'Heaviest bony fish' is avoided: the sources call M. mola the heaviest/largest bony fish, but the heaviest recorded individual (Azores, 2021) has been reported as Mola alexandrini (from memory of Sawai et al. 2022; not re-verified in this session)—worded as 'one of the heaviest'. Fact refs: 'not a lazy drifter' combines the Potter & Howell (2010) tagging figures quoted by the Australian Museum with Fishes of Australia's note on siphonophore-feeding dives. Depth gauge max uses the 844 m tagging record; Fishes of Australia mentions records beyond 1,000 m. 'Reproduction' category based on extreme fecundity."
+}

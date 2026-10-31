@@ -1,0 +1,76 @@
+{
+  "slug": "gulper-eel",
+  "commonName": "Gulper Eel",
+  "scientificName": "Eurypharynx pelecanoides",
+  "authority": "Vaillant, 1882",
+  "aphiaId": 127165,
+  "taxonomy": { "phylum": "Chordata", "class": "Teleostei", "order": "Anguilliformes", "family": "Eurypharyngidae" },
+  "group": "Deep-sea eel",
+  "categories": ["deep-sea", "bioluminescent"],
+  "tagline": "Mostly mouth, with a glowing tail tip",
+  "summary": "Also called the pelican eel, this black, whip-tailed fish is built around an enormous, loosely hinged mouth that can balloon open to scoop up prey and water together. Its tiny eyes sit near the tip of its snout, and the end of its long tail carries a light organ.",
+  "ability": "balloon-like expanding mouth",
+  "stats": {
+    "size": "Up to about 80 cm; some records to about 1 m",
+    "depth": "About 500–3,000 m",
+    "range": "Tropical and temperate seas worldwide",
+    "diet": "Mainly crustaceans; also fishes, squids and other invertebrates",
+    "conservation": "IUCN: Least Concern"
+  },
+  "depthRange": { "min": 500, "max": 3000 },
+  "facts": [
+    {
+      "title": "A mouth like a net",
+      "text": "Its jaws extend far back along the body, so the gape makes up half or more of the length in front of the vent. The mouth cavity can stretch enormously.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Big mouth, small meals",
+      "text": "Despite the huge gape, it mainly eats crustaceans. It is thought to gulp prey along with a mouthful of water, then push the water out through its gill openings.",
+      "certainty": "hypothesis",
+      "ref": 1
+    },
+    {
+      "title": "Caught on camera",
+      "text": "In 2018 the E/V Nautilus team filmed a young gulper eel off Hawaiʻi inflating its mouth like a black balloon, then deflating and swimming away. Why it did so is unknown; some researchers suspect a reaction to threat.",
+      "certainty": "uncertain",
+      "ref": 3
+    },
+    {
+      "title": "A glowing tail tip",
+      "text": "The long, tapering tail ends in an expanded light-producing organ. What it is used for has not been established.",
+      "certainty": "uncertain",
+      "ref": 2
+    },
+    {
+      "title": "Males transform",
+      "text": "At maturity males change: their smell organs enlarge while their teeth and jaws degenerate. Degeneration in both sexes suggests they may spawn only once and then die.",
+      "certainty": "hypothesis",
+      "ref": 1
+    }
+  ],
+  "references": [
+    { "title": "Eurypharynx pelecanoides Vaillant, 1882", "publisher": "WoRMS", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=127165" },
+    { "title": "Pelican Eel, Eurypharynx pelecanoides", "publisher": "Australian Museum", "url": "https://australian.museum/learn/animals/fishes/pelican-eel-eurypharynx-pelecanoides/" },
+    { "title": "Eurypharynx pelecanoides – Pelican eel", "publisher": "FishBase", "url": "https://www.fishbase.se/summary/Eurypharynx-pelecanoides.html" },
+    { "title": "Watch a gulper eel inflate and deflate itself, shocking scientists", "publisher": "National Geographic", "url": "https://www.nationalgeographic.com/animals/article/gulper-eel-video-deep-sea-fish-nautilus-news" }
+  ],
+  "image": {
+    "src": "/media/creatures/gulper-eel/hero.webp",
+    "width": 1920, "height": 933,
+    "alt": "A glossy black, eel-like fish lying on a pale surface, with a huge triangular mouth hanging open at left and a very long, thin tail curling round to the right.",
+    "caption": "A freshly caught gulper eel, its oversized jaws hanging open.",
+    "creator": "Alexei Orlov",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eurypharynx.jpg",
+    "species": "Eurypharynx pelecanoides",
+    "type": "photograph",
+    "setting": "specimen",
+    "focal": "35% 50%",
+    "tone": "light"
+  },
+  "gallery": [],
+  "notes": "Image is a fresh specimen (Commons Category:Eurypharynx pelecanoides, VRTS-confirmed CC BY 3.0); location not stated. Rejected: NHM London display models; Hong Kong market 'Gulpers' photo (unidentified, not this species). WoRMS currently places Eurypharyngidae in Anguilliformes; the Australian Museum and older sources use Saccopharyngiformes. Size: Australian Museum says 80 cm, FishBase 100 cm TL; depth: Australian Museum 500–3,000 m, FishBase gives an implausibly wide 500–7,625 m (usually 1,200–1,400 m), so the museum range was used. The tail light organ's function is not established in sources fetched (popular sources often call it a lure; omitted)."
+}

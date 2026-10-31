@@ -1,0 +1,118 @@
+{
+  "slug": "flying-gurnard",
+  "commonName": "Flying Gurnard",
+  "scientificName": "Dactylopterus volitans",
+  "authority": "(Linnaeus, 1758)",
+  "aphiaId": 127232,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Teleostei",
+    "order": "Dactylopteriformes",
+    "family": "Dactylopteridae"
+  },
+  "group": "Flying gurnard (helmet gurnard)",
+  "categories": [],
+  "tagline": "A 'flying' fish that never leaves the seabed",
+  "summary": "Despite its name — volitans means 'flying' — this bottom-dwelling Atlantic fish cannot fly or even glide. It walks over sand on its pelvic fins, probing for crabs and clams, and when disturbed it suddenly fans out enormous, blue-edged pectoral fins like a pair of wings.",
+  "ability": "fan-wing display",
+  "stats": {
+    "size": "Commonly about 38 cm; up to about 50 cm",
+    "depth": "About 1–100 m",
+    "range": "Both sides of the Atlantic, incl. the Mediterranean; Canada to Argentina in the west",
+    "diet": "Bottom-living crustaceans (especially crabs), clams and small fishes",
+    "conservation": "IUCN: Least Concern"
+  },
+  "depthRange": {
+    "min": 1,
+    "max": 100
+  },
+  "facts": [
+    {
+      "title": "It can't fly",
+      "text": "Despite both its common and scientific names, the flying gurnard cannot fly or glide through the air — which is why some prefer the name 'helmet gurnard'.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Wings as a warning?",
+      "text": "When excited, it spreads its huge, semi-transparent pectoral fins, edged in bright blue. Scientists suggest the sudden flash may startle predators.",
+      "certainty": "hypothesis",
+      "ref": 3
+    },
+    {
+      "title": "Walking the seabed",
+      "text": "Flying gurnards have been seen 'walking' along sandy seafloors on their pelvic fins while they search for food.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "A drumming fish",
+      "text": "Flying gurnards make sounds with a special drumming muscle that beats against their two-lobed swim bladder.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Digging for dinner",
+      "text": "It feeds mainly on bottom-living crustaceans — especially crabs — plus clams and small fishes, using a stiff front fin ray to dig into the sediment.",
+      "certainty": "confirmed",
+      "ref": 2
+    }
+  ],
+  "references": [
+    {
+      "title": "Dactylopterus volitans (Linnaeus, 1758)",
+      "publisher": "WoRMS",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=127232"
+    },
+    {
+      "title": "Dactylopterus volitans, Flying gurnard",
+      "publisher": "FishBase",
+      "url": "https://www.fishbase.se/summary/Dactylopterus_volitans.html"
+    },
+    {
+      "title": "Flying gurnard",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Flying_gurnard"
+    },
+    {
+      "title": "Dactylopteridae",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dactylopteridae"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/flying-gurnard/hero.webp",
+    "width": 1920,
+    "height": 1440,
+    "alt": "A flying gurnard seen from above on pale sand, its two huge fan-shaped pectoral fins spread wide, translucent with white spots and bright blue edges",
+    "caption": "Fins fully fanned: a flying gurnard over sand off Menorca, Mediterranean Sea",
+    "creator": "Encarna Sáez Goñalons & Víctor Martínez Moll",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:DactylopterusVolitans.JPG",
+    "species": "Dactylopterus volitans",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "55% 50%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/flying-gurnard/alt-1.webp",
+      "width": 1920,
+      "height": 1275,
+      "alt": "Side view of a red-brown flying gurnard on sand, covered in turquoise spots, with large golden eyes, wing-like pectoral fins folded back and two tall separate spines rising from its head",
+      "caption": "Wings folded: a flying gurnard propped on its fins on the seabed",
+      "creator": "Barry Peters",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flying_Gurnard_(4578998771).jpg",
+      "species": "Dactylopterus volitans",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "45% 50%",
+      "tone": "light"
+    }
+  ],
+  "notes": "Hero location: Commons description says only 'Xoriguer' (Cala en Xoriguer, Menorca) — caption assumes Menorca. IUCN Least Concern (assessed 2013) per FishBase. Digging fact comes from Wikipedia, citing Davenport & Wirtz 2019. No allowed category clearly fits, so categories is empty."
+}

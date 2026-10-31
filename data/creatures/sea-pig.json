@@ -1,0 +1,99 @@
+{
+  "slug": "sea-pig",
+  "commonName": "Sea Pig",
+  "scientificName": "Scotoplanes spp.",
+  "authority": "Théel, 1882",
+  "aphiaId": 123520,
+  "taxonomy": {
+    "phylum": "Echinodermata",
+    "class": "Holothuroidea",
+    "order": "Elasipodida",
+    "family": "Elpidiidae"
+  },
+  "group": "Deep-sea sea cucumber",
+  "categories": [
+    "deep-sea",
+    "transparent"
+  ],
+  "tagline": "A see-through sea cucumber that walks the abyss on stilts",
+  "summary": "Sea pigs are plump, translucent sea cucumbers that roam muddy deep-sea plains. Most sea cucumbers have stubby tube feet hidden underneath, but sea pigs stand on long, leg-like ones as they hoover up organic bits from the mud. Large herds gather at sunken whale carcasses.",
+  "ability": "walking on stilt-like tube feet",
+  "stats": {
+    "size": "Typically 4–15 cm long; up to about 17 cm",
+    "depth": "About 1,000–6,000 m",
+    "range": "Deep seafloors worldwide",
+    "diet": "Seafloor mud and detritus (organic particles sinking from above)",
+    "conservation": "Not evaluated by IUCN"
+  },
+  "depthRange": {
+    "min": 1000,
+    "max": 6000
+  },
+  "facts": [
+    {
+      "title": "Legs that are feet",
+      "text": "The 'legs' are enlarged tube feet. Sea pigs use these long, stilt-like tube feet to hold their bodies above the soft mud as they walk.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Mud for dinner",
+      "text": "Like most sea cucumbers, sea pigs eat seafloor mud and detritus: bits of dead algae and animals that sink from the sunlit waters far above.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Crab nurseries on legs",
+      "text": "In video of about 2,600 sea pigs off Monterey Bay, almost a quarter carried juvenile king crabs. Ninety-six percent of the young crabs seen on open mud were riding on or hiding under sea pigs.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Shelter on bare mud",
+      "text": "Researchers think the crabs use sea pigs to hide from predators, since little else rises above the flat mud. What the sea pig gets out of the arrangement, if anything, is unknown.",
+      "certainty": "hypothesis",
+      "ref": 2
+    },
+    {
+      "title": "Herds at whale falls",
+      "text": "Sea pigs are among the most commonly seen deep-sea animals off Monterey Bay, and huge groups have been spotted feeding near sunken whale carcasses.",
+      "certainty": "confirmed",
+      "ref": 1
+    }
+  ],
+  "references": [
+    {
+      "title": "Scotoplanes Théel, 1882",
+      "publisher": "WoRMS",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=123520"
+    },
+    {
+      "title": "Sea pig",
+      "publisher": "MBARI (Monterey Bay Aquarium Research Institute)",
+      "url": "https://www.mbari.org/animal/sea-pig/"
+    },
+    {
+      "title": "Young king crabs found hitchhiking on sea pigs",
+      "publisher": "MBARI",
+      "url": "https://www.mbari.org/young-king-crabs-found-hitchhiking-on-sea-pigs/"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/sea-pig/hero.webp",
+    "width": 1920,
+    "height": 1080,
+    "alt": "A pale, translucent lilac sea cucumber standing on stubby leg-like tube feet on grey-brown mud, with fleshy projections sticking up from its back. A small red crab is tucked beneath its body, and two red laser dots used for scale are visible.",
+    "caption": "A sea pig on the deep seafloor with a small king crab sheltering underneath, filmed by remotely operated vehicle (ROV).",
+    "creator": "NOAA / MBARI",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scotoplanes_globosa_and_crab.jpg",
+    "species": "Scotoplanes globosa",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "48% 45%",
+    "tone": "light"
+  },
+  "gallery": [],
+  "notes": "This is a genus-level entry, Scotoplanes spp. (WoRMS AphiaID 123520). MBARI itself refers to its animals as Scotoplanes sp. The hero is a NOAA/MBARI ROV frame, filed on Commons as S. globosa and from the Monterey Bay sanctuary (SIMoN) photo archive; species-level ID from video is tentative. All other Commons 'Scotoplanes' images are preserved USNM museum specimens. 'Hooked-nosed Sea Pig' on Commons is actually a grey seal and was rejected. Ref [2]: the crab study is Barry et al. 2016, Marine Ecology 38:e12396. The MBARI animal page gives a maximum size of 17 cm and the crab article gives 4–15 cm for animals off Monterey Bay. 'Transparent' is based on MBARI calling them 'see-through sea cucumbers'."
+}

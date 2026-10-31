@@ -1,0 +1,109 @@
+{
+  "slug": "immortal-jellyfish",
+  "commonName": "Immortal Jellyfish",
+  "scientificName": "Turritopsis dohrnii",
+  "authority": "(Weismann, 1883)",
+  "aphiaId": 151801,
+  "taxonomy": {
+    "phylum": "Cnidaria",
+    "class": "Hydrozoa",
+    "order": "Anthoathecata",
+    "family": "Oceaniidae"
+  },
+  "group": "Hydrozoan jellyfish",
+  "categories": [
+    "reproduction"
+  ],
+  "tagline": "A jellyfish that can run its life cycle backwards",
+  "summary": "A hydrozoan jellyfish only a few millimetres across. When starved, injured or ageing, its adult form can collapse into a cyst and regrow as a polyp, the stage it began as. That reversal earned it the nickname “immortal”, though in the wild most individuals are simply eaten or die of disease.",
+  "ability": "reverse development (life-cycle reversal)",
+  "stats": {
+    "size": "Bell up to about 4.5 mm across",
+    "depth": "Coastal waters; polyps on docks, hulls and the seabed",
+    "range": "Temperate to tropical seas; first described from the Mediterranean",
+    "diet": "Zooplankton, fish eggs, small molluscs",
+    "conservation": "Not evaluated by IUCN"
+  },
+  "depthRange": {
+    "min": 0,
+    "max": 50,
+    "approx": true
+  },
+  "facts": [
+    {
+      "title": "Life cycle in reverse",
+      "text": "When damaged, starved or senescent, the medusa shrinks into a cyst (a ball of poorly differentiated cells). The cyst then grows into a polyp, the attached stage that normally comes before the jellyfish.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Cells that change jobs",
+      "text": "During the reversal, cells transdifferentiate: specialised cells switch to entirely different cell types. That differs from dedifferentiation, where cells only step back to a less specialised state within their own lineage.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Rejuvenates even after breeding",
+      "text": "In laboratory studies, sexually mature medusae can revert at rates up to 100%, with no apparent limit on how many times one individual can repeat the cycle.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Immortal, with limits",
+      "text": "It still dies. Reversal has not been observed in the wild, and most medusae probably fall to predators or disease first. New medusae budded from the polyp are clones, not the original animal.",
+      "certainty": "confirmed",
+      "ref": 4
+    },
+    {
+      "title": "Clues in the genome",
+      "text": "Comparing its genome with the non-rejuvenating Turritopsis rubra revealed extra copies or variants of genes for DNA replication, DNA repair and telomere maintenance. These may help explain the ability, but this is not proven.",
+      "certainty": "hypothesis",
+      "ref": 2
+    }
+  ],
+  "references": [
+    {
+      "title": "Turritopsis dohrnii (Weismann, 1883)",
+      "publisher": "WoRMS",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=151801"
+    },
+    {
+      "title": "Transcriptome Characterization of Reverse Development in Turritopsis dohrnii (Hydrozoa, Cnidaria) — Matsumoto et al. 2019, G3",
+      "publisher": "G3: Genes|Genomes|Genetics (via PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6893190/"
+    },
+    {
+      "title": "Comparative genomics of mortal and immortal cnidarians unveils novel keys behind rejuvenation — Pascual-Torner et al. 2022",
+      "publisher": "PNAS (via PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9459311/"
+    },
+    {
+      "title": "Genome assembly and transcriptomic analyses of the repeatedly rejuvenating jellyfish Turritopsis dohrnii — Hasegawa et al. 2023",
+      "publisher": "DNA Research (via PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9835754/"
+    },
+    {
+      "title": "Turritopsis dohrnii",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Turritopsis_dohrnii"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/immortal-jellyfish/hero.webp",
+    "width": 1920,
+    "height": 1280,
+    "alt": "A tiny, round, translucent jellyfish with a pale yellow cross-shaped stomach at its centre and a fringe of short tentacles, against a black background flecked with white particles.",
+    "caption": "A Turritopsis dohrnii medusa photographed for the Smithsonian's National Museum of Natural History collections.",
+    "creator": "Dr. Karen J. Osborn, Smithsonian National Museum of Natural History",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turritopsisdohrnii.jpeg",
+    "species": "Turritopsis dohrnii",
+    "type": "photograph",
+    "setting": "specimen",
+    "focal": "50% 48%",
+    "tone": "dark"
+  },
+  "gallery": [],
+  "notes": "Only one correctly identified, high-resolution T. dohrnii photo exists on Commons (NMNH collection image); the hero is a crop of the original 5616×3744 frame centred on the medusa. Many Commons 'Turritopsis' images are T. rubra or T. nutricula and were rejected. Morphologically, T. dohrnii cannot be told apart from some congeners without DNA. Depth is not well documented in sources consulted; depthRange 0–50 m is an indicative coastal value for the gauge only. Popular claims of 'true immortality' are deliberately qualified. Size and diet from Wikipedia (last-resort source)."
+}

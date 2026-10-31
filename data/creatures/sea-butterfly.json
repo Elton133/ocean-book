@@ -1,0 +1,98 @@
+{
+  "slug": "sea-butterfly",
+  "commonName": "Sea Butterfly",
+  "scientificName": "Limacina helicina",
+  "authority": "(Phipps, 1774)",
+  "aphiaId": 140223,
+  "taxonomy": {
+    "phylum": "Mollusca",
+    "class": "Gastropoda",
+    "order": "Pteropoda",
+    "family": "Limacinidae"
+  },
+  "group": "Shelled pteropod (swimming snail)",
+  "categories": [
+    "transparent"
+  ],
+  "tagline": "A snail that flies like an insect",
+  "summary": "The sea butterfly is a tiny swimming snail, its glassy shell often under a centimetre across, that 'flies' through Arctic and subarctic seas on two wing-like flaps. Hugely abundant and a key food for fish, whales and the sea angel, its fragile shell makes it an early warning sign of ocean acidification.",
+  "ability": "underwater flight",
+  "stats": {
+    "size": "Shell about 5–10 mm wide (up to about 13 mm)",
+    "depth": "Mostly upper 150 m",
+    "range": "Arctic and subarctic seas of the Atlantic and Pacific",
+    "diet": "Phytoplankton, tiny protozoans and small zooplankton caught in a mucus web",
+    "conservation": "No IUCN assessment found"
+  },
+  "depthRange": {
+    "min": 0,
+    "max": 150
+  },
+  "facts": [
+    {
+      "title": "Flying, not swimming",
+      "text": "It beats two wing-like flaps 4 to 10 times a second in a stroke resembling that of tiny flying insects, effectively flying through the water.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "A net made of mucus",
+      "text": "It hangs still beneath a large, spherical web of mucus that traps plankton, then eats the web and its catch and spins a new one.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "A shell that dissolves",
+      "text": "Its thin shell is made of aragonite, a form of calcium carbonate that dissolves easily. In experiments, shell damage increased steadily as seawater became more acidic.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Arctic food staple",
+      "text": "It can make up more than half of all zooplankton in polar waters and is eaten by herring, salmon, seals, whales, seabirds and sea angels.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Male first, then female",
+      "text": "Each sea butterfly starts life as a male and later becomes female once it grows larger than about 5 mm.",
+      "certainty": "confirmed",
+      "ref": 2
+    }
+  ],
+  "references": [
+    {
+      "title": "Limacina helicina (Phipps, 1774)",
+      "publisher": "WoRMS (World Register of Marine Species)",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=140223"
+    },
+    {
+      "title": "Shell condition and survival of Puget Sound pteropods are impaired by ocean acidification conditions (Busch et al. 2014, PLoS ONE)",
+      "publisher": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25162395/"
+    },
+    {
+      "title": "Limacina helicina",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Limacina_helicina"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/sea-butterfly/hero.webp",
+    "width": 600,
+    "height": 450,
+    "alt": "A tiny sea butterfly against a dark, speckled background: a glassy coiled shell with pinkish-brown insides and two translucent wing-like flaps spread above it, with a red 1000 micrometre scale bar in the corner",
+    "caption": "Sea butterfly from the Arctic, photographed during NOAA's Hidden Ocean expedition (2005)",
+    "creator": "Russ Hopcroft, Institute of Marine Science, University of Alaska Fairbanks / NOAA",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Limacina_helicina_7.jpg",
+    "species": "Limacina helicina",
+    "type": "photograph",
+    "setting": "specimen",
+    "focal": "45% 45%",
+    "tone": "dark"
+  },
+  "gallery": [],
+  "notes": "IMAGE IS LOW-RESOLUTION (600×450, not upscaled; encoded at q100 to pass 30 KB check) and has a small scale bar in the bottom-left corner. It is the only correctly identified live L. helicina photo on Commons; all ≥1200 px files were multi-species figures, a museum label sheet, or the NOAA 'dissolved pteropod shell' image (species not stated). Editor may prefer image: null or a licensed replacement. Antarctic animals formerly called L. helicina are now L. antarctica (Wikipedia, citing Hunt et al. 2010). Flight, mucus-web, abundance, predator and sex-change facts are from Wikipedia (secondary; cites Murphy et al., Gilmer & Harbison 1991, Hunt et al. 2010). Category \"transparent\" is borderline: the shell is described as hyaline (glass-clear) and the wings translucent, but the body is dark purple."
+}

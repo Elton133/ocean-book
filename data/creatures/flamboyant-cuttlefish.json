@@ -1,0 +1,51 @@
+{
+  "slug": "flamboyant-cuttlefish",
+  "commonName": "Flamboyant Cuttlefish",
+  "scientificName": "Ascarosepion pfefferi",
+  "authority": "(Hoyle, 1885)",
+  "aphiaId": 1667026,
+  "taxonomy": { "phylum": "Mollusca", "class": "Cephalopoda", "order": "Sepiida", "family": "Sepiidae" },
+  "group": "Cuttlefish",
+  "categories": ["camouflage"],
+  "tagline": "A walking light show on the seafloor",
+  "summary": "A small cuttlefish of tropical sand and mud flats that walks rather than swims, ambling on its arms and fin flaps. When disturbed, it stays put and ripples with waves of dark brown, white, yellow and red: a bold display long said to warn of toxic flesh, though the evidence is mixed.",
+  "ability": "walking colour display",
+  "stats": {
+    "size": "Mantle up to about 6–8 cm",
+    "depth": "About 3–86 m",
+    "range": "Northern Australia and southern New Guinea to Indonesia, Malaysia and the Philippines",
+    "diet": "Crustaceans and small fishes",
+    "conservation": "IUCN: Data Deficient (assessed as Metasepia pfefferi, 2012)"
+  },
+  "depthRange": { "min": 3, "max": 86 },
+  "facts": [
+    { "title": "A cuttlefish that walks", "text": "Its cuttlebone (the buoyant internal shell) is small and lets it float only briefly, so it mostly ambles over the bottom on two arms and flaps of its fin.", "certainty": "confirmed", "ref": 2 },
+    { "title": "Standing its ground", "text": "Unlike most cuttlefish, it does not dart away when threatened. It stays still, pulses its fins and flashes vivid colour waves, with red arm tips, that may warn predators off.", "certainty": "confirmed", "ref": 2 },
+    { "title": "Toxic? Not proven", "text": "It is often called the only poisonous cuttlefish, based on an unpublished toxicology result. Later tests found only trace tetrodotoxin, too little to harm vertebrates, so its toxicity remains unconfirmed.", "certainty": "uncertain", "ref": 3 },
+    { "title": "A daytime hunter", "text": "While most cephalopods hunt at night, it is active by day, using shifting camouflage to stalk crustaceans and small fishes.", "certainty": "confirmed", "ref": 2 },
+    { "title": "Eggs left to hatch", "text": "Females cement single eggs into crevices and leave them. The eggs turn see-through as they develop, and hatchlings can already make adult colour patterns.", "certainty": "confirmed", "ref": 3 }
+  ],
+  "references": [
+    { "title": "Ascarosepion pfefferi (Hoyle, 1885)", "publisher": "WoRMS (World Register of Marine Species)", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1667026" },
+    { "title": "Cuttlefishes (Cephalopoda, Sepiidae): the bare bones—an hypothesis of relationships (Lupše et al. 2023)", "publisher": "Marine Biology (Springer)", "url": "https://link.springer.com/article/10.1007/s00227-023-04195-3" },
+    { "title": "Flamboyant cuttlefish", "publisher": "Monterey Bay Aquarium", "url": "https://www.montereybayaquarium.org/animals/animals-a-to-z/flamboyant-cuttlefish" },
+    { "title": "Flamboyant cuttlefish", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Flamboyant_cuttlefish" }
+  ],
+  "image": {
+    "src": "/media/creatures/flamboyant-cuttlefish/hero.webp",
+    "width": 1920, "height": 1440,
+    "alt": "A flamboyant cuttlefish walking over pale sand and seagrass, its body mottled brown and purple with yellow-edged fins and arms tipped in bright pink-red",
+    "caption": "Flamboyant cuttlefish crawling along the sandy bottom, Apo Reef Natural Park, Philippines",
+    "creator": "Dmitry Domrin",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%A1uttlefish_Ascarosepion_pfefferi_crawls_along_the_sandy_bottom._Apo_reef_nature_reserve._Philippines.jpg",
+    "species": "Ascarosepion pfefferi",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "45% 55%",
+    "tone": "light"
+  },
+  "gallery": [],
+  "notes": "Name: WoRMS accepts Ascarosepion pfefferi (Hoyle, 1885); Metasepia pfefferi is a superseded combination (AphiaID 342366 → 1667026), following Lupše et al. 2023. Reference index 1 (Lupše) supports the name change only; facts 0, 1 and 3 cite the Monterey Bay Aquarium (index 2) and facts 2 and 4 cite Wikipedia (index 3). MBA still states the flesh is 'highly poisonous ... as lethal as blue-ringed octopuses' (Mark Norman, unpublished); Wikipedia reports later work finding only trace TTX. Treated as uncertain; 'venomous' category NOT assigned. Size: sources differ (6 vs 8 cm mantle). Commons file title begins with a Cyrillic 'С' (sourceUrl percent-encoded accordingly). IUCN assessment (2012) used the old name Metasepia pfefferi."
+}

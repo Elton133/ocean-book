@@ -1,0 +1,113 @@
+{
+  "slug": "ribbon-eel",
+  "commonName": "Ribbon Eel",
+  "scientificName": "Rhinomuraena quaesita",
+  "authority": "Garman, 1888",
+  "aphiaId": 217529,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Teleostei",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  "group": "Moray eel",
+  "categories": [],
+  "tagline": "A moray that changes colour as it grows",
+  "summary": "A ribbon-thin moray with flared, leaf-like nostrils that peers from sand and rubble burrows near coral reefs. It is the only moray known to change colour abruptly as it ages — black as a juvenile, electric blue, then yellow — a sequence long thought to track a change of sex.",
+  "ability": "colour-phase transformation",
+  "stats": {
+    "size": "Up to about 130 cm long",
+    "depth": "About 1–67 m",
+    "range": "Tropical Indo-West Pacific",
+    "diet": "Small fishes",
+    "conservation": "IUCN: Least Concern"
+  },
+  "depthRange": {
+    "min": 1,
+    "max": 67
+  },
+  "facts": [
+    {
+      "title": "Black, then blue, then yellow",
+      "text": "Small juveniles are jet black with a yellow dorsal fin. Males are bright blue with a yellow snout and jaw, and females are yellow, sometimes with blue towards the tail.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "A one-off among morays",
+      "text": "It is the only moray eel known to go through abrupt colour changes as it grows.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Male first, then female?",
+      "text": "Ribbon eels are widely described as switching sex from male to female (protandry). But this has been inferred from their colour changes and not yet confirmed directly.",
+      "certainty": "hypothesis",
+      "ref": 2
+    },
+    {
+      "title": "Enormous nostrils",
+      "text": "The tip of its snout carries enormous, flared nostrils — one of the features that makes this slender eel so striking.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Head-out ambusher",
+      "text": "Secretive by nature, it usually hides in sand or rubble near reefs, often with only its head sticking out, and feeds on small fishes.",
+      "certainty": "confirmed",
+      "ref": 2
+    }
+  ],
+  "references": [
+    {
+      "title": "Rhinomuraena quaesita Garman, 1888",
+      "publisher": "WoRMS",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=217529"
+    },
+    {
+      "title": "Ribbon Eel, Rhinomuraena quaesita",
+      "publisher": "Fishes of Australia (Museums Victoria)",
+      "url": "https://fishesofaustralia.net.au/home/species/3568"
+    },
+    {
+      "title": "Rhinomuraena quaesita, Ribbon moray",
+      "publisher": "FishBase",
+      "url": "https://www.fishbase.se/summary/Rhinomuraena_quaesita.html"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/ribbon-eel/hero.webp",
+    "width": 1920,
+    "height": 1280,
+    "alt": "A slender violet-blue ribbon eel with a yellow-edged fin rising diagonally from the lower left, its yellow jaws open and a flared nostril on its snout, against a blurred reef",
+    "caption": "A blue-phase ribbon eel at Anilao, Philippines",
+    "creator": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anguila_list%C3%B3n_azul_(Rhinomuraena_quaesita),_Anilao,_Filipinas,_2023-08-23,_DD_60.jpg",
+    "species": "Rhinomuraena quaesita",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "55% 45%",
+    "tone": "dark"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/ribbon-eel/alt-1.webp",
+      "width": 1920,
+      "height": 1275,
+      "alt": "A yellow ribbon eel with its mouth open, its body rising from a sandy seabed",
+      "caption": "The yellow phase, usually interpreted as female",
+      "creator": "Barry Peters",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Female_Ribbon_eel_(Rhinomuraena_quaesita)_(2).jpg",
+      "species": "Rhinomuraena quaesita",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "40% 50%",
+      "tone": "dark"
+    }
+  ],
+  "notes": "Sex change: Fishes of Australia states it as fact, but FishBase explicitly says 'Protandry is diagnosed based on colouration, but not confirmed' — so presented as hypothesis and no 'reproduction' category assigned. No allowed category clearly fits, so categories is empty. Depth: FishBase 1–67 m (Fishes of Australia gives 1–57 m). Gallery photo location not given on Commons."
+}

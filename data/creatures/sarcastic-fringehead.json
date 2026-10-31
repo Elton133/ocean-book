@@ -1,0 +1,123 @@
+{
+  "slug": "sarcastic-fringehead",
+  "commonName": "Sarcastic Fringehead",
+  "scientificName": "Neoclinus blanchardi",
+  "authority": "Girard, 1858",
+  "aphiaId": 281679,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Teleostei",
+    "order": "Blenniiformes",
+    "family": "Chaenopsidae"
+  },
+  "group": "Tube blenny",
+  "categories": [],
+  "tagline": "A small fish with an enormous, combative mouth",
+  "summary": "This feisty blenny from California and Baja California lives inside empty shells, clam burrows — even discarded bottles — and defends its home fiercely. When rivals meet, males fling open their huge, brightly lined mouths and press them together in a bizarre wrestling match.",
+  "ability": "mouth-wrestling gape display",
+  "stats": {
+    "size": "Up to about 30 cm long",
+    "depth": "About 3–73 m",
+    "range": "Eastern Pacific, from San Francisco to central Baja California",
+    "diet": "Not well documented in the sources consulted",
+    "conservation": "IUCN: Least Concern"
+  },
+  "depthRange": {
+    "min": 3,
+    "max": 73
+  },
+  "facts": [
+    {
+      "title": "A mouth bigger than its head",
+      "text": "Males have extremely long jaws that extend well past the back of the head. A special hinge lets the upper jaw swing outwards, so the open mouth flares wide during a 'gaping display'.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Mouth-wrestling",
+      "text": "Rival males swim at each other with mouths agape and lock together mouth to mouth. In observed contests, the bigger fish with larger jaws tended to win.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Fighting for a home",
+      "text": "It usually lives inside objects — mollusc shells, clam burrows and even bottles. Males defend these shelters because without one, a male cannot breed.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Dad on guard",
+      "text": "Females lay eggs in old clam holes, under rocks or in discarded containers such as beer cans, and the male guards them until they hatch.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "A glowing threat?",
+      "text": "The membrane lining its mouth is brightly coloured and partly fluorescent, and reflects ultraviolet light. Researchers suggest this may make the display even more striking to rivals.",
+      "certainty": "hypothesis",
+      "ref": 2
+    }
+  ],
+  "references": [
+    {
+      "title": "Neoclinus blanchardi Girard, 1858",
+      "publisher": "WoRMS",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=281679"
+    },
+    {
+      "title": "Neoclinus blanchardi, Sarcastic fringehead",
+      "publisher": "FishBase",
+      "url": "https://www.fishbase.se/summary/Neoclinus_blanchardi.html"
+    },
+    {
+      "title": "Heterochrony in fringeheads (Neoclinus) and amplification of an extraordinary aggressive display in the Sarcastic Fringehead (Hongjamrassilp et al. 2018, Journal of Morphology)",
+      "publisher": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29399857"
+    },
+    {
+      "title": "Why these colorful fish engage in mouth-to-mouth showdowns",
+      "publisher": "National Geographic",
+      "url": "https://www.nationalgeographic.com/animals/article/sarcastic-fringeheads-why-do-they-fight"
+    },
+    {
+      "title": "Function of an extraordinary display in sarcastic fringeheads (Neoclinus blanchardi) with comments on its evolution (Hongjamrassilp, Skelton & Hastings 2023, Ecology)",
+      "publisher": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36203364"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/sarcastic-fringehead/hero.webp",
+    "width": 1920,
+    "height": 1080,
+    "alt": "Close-up of a sarcastic fringehead's head: a large bulging eye, small branched fringes above the eyes, and huge fleshy lips around a wide mouth",
+    "caption": "A sarcastic fringehead at the Monterey Bay Aquarium, California",
+    "creator": "Evan Baldonado / AquariumKids.org",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sarcastic_Fringehead_(Neoclinus_blanchardi)_at_the_Monterey_Bay_Aquarium.jpg",
+    "species": "Neoclinus blanchardi",
+    "type": "photograph",
+    "setting": "aquarium",
+    "focal": "55% 50%",
+    "tone": "dark"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/sarcastic-fringehead/alt-1.webp",
+      "width": 1920,
+      "height": 1440,
+      "alt": "A mottled red, brown and white fringehead with a red eye and small fringes on its head, half-hidden among seagrass and debris on a sandy seabed",
+      "caption": "In the wild, the fringehead blends into seagrass and debris on the seabed",
+      "creator": "Donald Davesne",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neoclinus_blanchardi_224577818.jpg",
+      "species": "Neoclinus blanchardi",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "60% 55%",
+      "tone": "dark"
+    }
+  ],
+  "notes": "Hero is an aquarium close-up (best available; the only in-situ Commons photo is used as gallery, an iNaturalist upload — ID per uploader, not independently verified). Diet not given by FishBase species summary — editor may want to fill from another source. No allowed category clearly fits (male egg-guarding is common in blennies), so categories is empty."
+}

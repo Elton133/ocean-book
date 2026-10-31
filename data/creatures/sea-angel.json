@@ -1,0 +1,120 @@
+{
+  "slug": "sea-angel",
+  "commonName": "Sea Angel",
+  "scientificName": "Clione limacina",
+  "authority": "(Phipps, 1774)",
+  "aphiaId": 139178,
+  "taxonomy": {
+    "phylum": "Mollusca",
+    "class": "Gastropoda",
+    "order": "Pteropoda",
+    "family": "Clionidae"
+  },
+  "group": "Pelagic sea slug (pteropod)",
+  "categories": [
+    "transparent"
+  ],
+  "tagline": "A winged snail with a ruthless appetite",
+  "summary": "The sea angel is a shell-less snail that 'flies' through cold Arctic and North Atlantic waters by flapping two wing-like lobes of its foot. Its see-through body glows with orange-red organs. Gentle as it looks, it is a specialist hunter that pulls sea butterflies out of their shells.",
+  "ability": "flapping wings and grasping cones",
+  "stats": {
+    "size": "Up to about 7–8.5 cm in the north; much smaller further south",
+    "depth": "Surface to more than 500 m",
+    "range": "Arctic Ocean and cold North Atlantic, south at least to the Sargasso Sea",
+    "diet": "Almost exclusively sea butterflies (Limacina helicina and L. retroversa)",
+    "conservation": "No IUCN assessment found"
+  },
+  "depthRange": {
+    "min": 0,
+    "max": 500
+  },
+  "facts": [
+    {
+      "title": "Snail with wings",
+      "text": "Sea angels are snails without shells. They swim by beating two wing-like flaps of the foot, and use gravity-sensing organs to keep upright in the water.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "A one-dish diet",
+      "text": "Adults eat almost nothing but sea butterflies, their shelled pteropod cousins. In Svalbard, researchers describe the sea butterfly Limacina helicina as its only prey.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Grab, hook, extract",
+      "text": "Three pairs of finger-like 'buccal cones' shoot out of its mouth to grip a sea butterfly's shell. Chitin hooks then pull the soft body out, and the sea angel swallows it whole.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "A year without food",
+      "text": "In a lab experiment, sea angels from Svalbard survived 356 days with no food at all, shrinking from about 22 to 12 mm while living off stored fats.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Whale food",
+      "text": "Baleen whales and fishes eat sea angels, and sailors historically nicknamed them 'whale-food'.",
+      "certainty": "confirmed",
+      "ref": 3
+    }
+  ],
+  "references": [
+    {
+      "title": "Clione limacina (Phipps, 1774)",
+      "publisher": "WoRMS (World Register of Marine Species)",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=139178"
+    },
+    {
+      "title": "The Arctic pteropod Clione limacina: seasonal lipid dynamics and life-strategy (Böer et al. 2005)",
+      "publisher": "Marine Biology (Springer)",
+      "url": "https://link.springer.com/article/10.1007/s00227-005-1607-8"
+    },
+    {
+      "title": "Exceptional long-term starvation ability and sites of lipid storage of the Arctic pteropod Clione limacina (Böer et al. 2006)",
+      "publisher": "Polar Biology (Springer)",
+      "url": "https://link.springer.com/article/10.1007/s00300-006-0214-6"
+    },
+    {
+      "title": "Clione limacina",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Clione_limacina"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/sea-angel/hero.webp",
+    "width": 1920,
+    "height": 1275,
+    "alt": "A transparent sea angel against a black background, its two clear wing-like flaps spread to the sides and a red-orange core of organs visible inside its body",
+    "caption": "Sea angel (Clione limacina) photographed by NOAA Fisheries scientists studying zooplankton",
+    "creator": "Matt Wilson / Jay Clark, NOAA NMFS Alaska Fisheries Science Center",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sea_angel.jpg",
+    "species": "Clione limacina",
+    "type": "photograph",
+    "setting": "specimen",
+    "focal": "50% 50%",
+    "tone": "dark"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/sea-angel/alt-1.webp",
+      "width": 1920,
+      "height": 1181,
+      "alt": "Several sea angels drifting together against a black background, each a clear, elongated body with small wings and a bright orange centre",
+      "caption": "Sea angels collected during IFREMER's IBTS 2010 survey",
+      "creator": "Olivier Dugornay (IFREMER)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Campagne_IBTS_2010_-_Mollusques_anges_de_mer_(Clione_limacina)_(Ifremer_00576-68796_-_27515).jpg",
+      "species": "Clione limacina",
+      "type": "photograph",
+      "setting": "specimen",
+      "focal": "50% 50%",
+      "tone": "dark"
+    }
+  ],
+  "notes": "Both photos are of live/fresh animals photographed in containers (black background), not in situ — labelled 'specimen'. The NOAA photo is from Alaska (AFSC); Wikipedia notes North Pacific Clione are now often treated as C. elegantissima, so that ID follows the photographer's label. WoRMS order for Clionidae returned as Pteropoda. The Walla Walla Salish Sea page (also describing buccal cones) was not cited because it treats NE Pacific animals as C. limacina. Size, depth, range, buccal-cone and 'whale-food' facts via Wikipedia (citing WoRMS, Lalli & Gilmer 1989, Böer et al.)."
+}

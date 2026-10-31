@@ -1,0 +1,109 @@
+{
+  "slug": "lions-mane-jellyfish",
+  "commonName": "Lion's Mane Jellyfish",
+  "scientificName": "Cyanea capillata",
+  "authority": "(Linnaeus, 1758)",
+  "aphiaId": 135301,
+  "taxonomy": {
+    "phylum": "Cnidaria",
+    "class": "Scyphozoa",
+    "order": "Semaeostomeae",
+    "family": "Cyaneidae"
+  },
+  "group": "True jellyfish (scyphozoan)",
+  "categories": [
+    "giants",
+    "venomous"
+  ],
+  "tagline": "A cold-water giant trailing a mane of stinging hair",
+  "summary": "One of the largest jellyfish known, drifting through cold northern seas with a bell that can reach about 1.8 m across and a curtain of more than a thousand sticky, stinging tentacles. It hunts fish and other jellies, and its sting is painful but rarely dangerous to people.",
+  "ability": "stinging tentacle net",
+  "stats": {
+    "size": "Bell up to about 1.8 m across; usually far smaller",
+    "depth": "Mostly near the surface, rarely below about 20 m",
+    "range": "Cold and temperate waters of the Arctic, North Atlantic and North Pacific",
+    "diet": "Fish, zooplankton, smaller jellyfish",
+    "conservation": "Not evaluated by IUCN"
+  },
+  "depthRange": {
+    "min": 0,
+    "max": 20
+  },
+  "facts": [
+    {
+      "title": "A mane of tentacles",
+      "text": "More than 1,000 tentacles hang beneath the bell, each armed with nematocysts (stinging cells). The bell itself is split into eight lobes, giving it the outline of an eight-pointed star.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "The 36-metre record",
+      "text": "The often-quoted 36.6 m (120 ft) tentacles come from a single 1865 account by Alexander Agassiz, with no details of how they were measured. That animal may even have been a different, undescribed Cyanea species.",
+      "certainty": "uncertain",
+      "ref": 4
+    },
+    {
+      "title": "Sinks onto its prey",
+      "text": "It positions itself above fish, spreads its tentacles, then slowly sinks, catching prey in a living net and stunning it with stinging cells.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Stings long after detaching",
+      "text": "In experiments with Icelandic specimens, detached tentacles kept their full ability to catch prey for 24 days, a risk for nearby fish farms.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Bigger in the far north",
+      "text": "Lower-latitude individuals are usually smaller, with bells around 50 cm. Juveniles are tan or light orange and darken to red and purple with age.",
+      "certainty": "confirmed",
+      "ref": 2
+    }
+  ],
+  "references": [
+    {
+      "title": "Cyanea capillata (Linnaeus, 1758)",
+      "publisher": "WoRMS",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=135301"
+    },
+    {
+      "title": "Lion's Mane Jellyfish",
+      "publisher": "Oceana",
+      "url": "https://oceana.org/marine-life/lions-mane-jellyfish/"
+    },
+    {
+      "title": "Lion's mane jellyfish",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lion%27s_mane_jellyfish"
+    },
+    {
+      "title": "Detached tentacles of lion's mane jellyfish Cyanea capillata can injure aquaculture fish — Sigurdsson et al. 2024",
+      "publisher": "Aquaculture Environment Interactions (Inter-Research)",
+      "url": "https://www.int-res.com/abstracts/aei/v16/p263-266/"
+    },
+    {
+      "title": "Sizing ocean giants: patterns of intraspecific size variation in marine megafauna — McClain et al. 2015",
+      "publisher": "PeerJ (via PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4304853/"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/lions-mane-jellyfish/hero.webp",
+    "width": 1920,
+    "height": 1290,
+    "alt": "Seen from above, a large jellyfish with a translucent white, lobed bell and a peach-orange centre floats in dark green water, trailing hundreds of fine white tentacles in every direction.",
+    "caption": "A lion's mane jellyfish near the surface in North Icelandic waters.",
+    "creator": "Smiley.toerist",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jellyfish_North_Iceland.jpg",
+    "species": "Cyanea capillata",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "48% 50%",
+    "tone": "dark"
+  },
+  "gallery": [],
+  "notes": "Hero cropped slightly top and bottom to remove a mooring rope in the lower-left corner. Size figures vary by source: Oceana gives a bell up to 1.8 m; Wikipedia says 'over 2 m'. We used the more conservative figure. The famous 36.6 m tentacle length is marked uncertain. McClain et al. 2015 trace it to Agassiz's 1865 Nahant (Massachusetts) specimen and say western Atlantic 'C. capillata' may be a genetically distinct Cyanea sp. Cyanea taxonomy is unsettled (some workers lump the genus), and Japanese populations are sometimes treated as C. nozakii. No IUCN assessment found; Oceana says the population has not been assessed. Depth (≤20 m) is from Wikipedia."
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "fangtooth",
+  "commonName": "Common Fangtooth",
+  "scientificName": "Anoplogaster cornuta",
+  "authority": "(Valenciennes, 1833)",
+  "aphiaId": 126393,
+  "taxonomy": { "phylum": "Chordata", "class": "Teleostei", "order": "Trachichthyiformes", "family": "Anoplogastridae" },
+  "group": "Deep-sea fish",
+  "categories": ["deep-sea"],
+  "tagline": "The biggest teeth for its size of any fish",
+  "summary": "A small, ultra-black fish with a gaping mouth full of fangs—proportionally the largest teeth of any fish. Growing to only about 18 cm, it drifts through the twilight and midnight zones waiting for prey to come close, sensing movement rather than seeing it.",
+  "ability": "oversized fangs that fold into sockets in its head",
+  "stats": {
+    "size": "Up to about 18 cm",
+    "depth": "Mostly 500–2,000 m; young near the surface, adults recorded to about 5,000 m",
+    "range": "Tropical and temperate seas worldwide",
+    "diet": "Crustaceans when young; mainly fishes as adults",
+    "conservation": "IUCN: Least Concern"
+  },
+  "depthRange": { "min": 500, "max": 2000 },
+  "facts": [
+    {
+      "title": "Teeth with their own garage",
+      "text": "Relative to its size, the fangtooth has the largest teeth of any fish. When it shuts its mouth, the huge lower fangs slide up into sockets on either side of its brain.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Feeling, not seeing",
+      "text": "Its eyes are small and its eyesight is thought to be poor. Instead it relies on the dark lateral line along its side, a row of sensors that detects tiny movements in the water.",
+      "certainty": "hypothesis",
+      "ref": 1
+    },
+    {
+      "title": "Ultra-black skin",
+      "text": "Its skin is packed with pigment that absorbs about 99.5% of the light hitting it, helping it hide in plain sight.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "A baby in disguise",
+      "text": "Juveniles look like a different fish: pale, big-eyed, with long horn-like spines on the head and small teeth. The name cornuta, 'horned', refers to those juvenile spines.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Rarely seen alive",
+      "text": "Despite living worldwide, it is elusive: MBARI's remotely operated vehicles have spotted a fangtooth on average less than once every two years since the institute opened.",
+      "certainty": "confirmed",
+      "ref": 1
+    }
+  ],
+  "references": [
+    { "title": "Anoplogaster cornuta (Valenciennes, 1833)", "publisher": "WoRMS", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=126393" },
+    { "title": "Fangtooth (Anoplogaster cornuta)", "publisher": "MBARI – Animals of the Deep", "url": "https://www.mbari.org/animal/fangtooth/" },
+    { "title": "Fangtooth, Anoplogaster cornuta", "publisher": "Fishes of Australia (Museums Victoria)", "url": "https://fishesofaustralia.net.au/Home/species/3735" },
+    { "title": "Creature feature: Fangtooth", "publisher": "Woods Hole Oceanographic Institution", "url": "https://www.whoi.edu/ocean-learning-hub/ocean-facts/fangtooth/" },
+    { "title": "Anoplogaster cornuta – Common fangtooth", "publisher": "FishBase", "url": "https://www.fishbase.se/summary/Anoplogaster-cornuta.html" },
+    { "title": "Common fangtooth", "publisher": "Monterey Bay Aquarium", "url": "https://www.montereybayaquarium.org/animals/animals-a-to-z/fangtooth" }
+  ],
+  "image": {
+    "src": "/media/creatures/fangtooth/hero.webp",
+    "width": 1920, "height": 1440,
+    "alt": "A dead, dark-brown deep-sea fish lying on crushed ice, seen from the side, with a large head, small eye and long fang-like teeth protruding from its open mouth.",
+    "caption": "A common fangtooth on ice, photographed in Iceland.",
+    "creator": "Brian Suda",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anoplogaster_cornuta_iceland.jpg",
+    "species": "Anoplogaster cornuta",
+    "type": "photograph",
+    "setting": "specimen",
+    "focal": "55% 45%",
+    "tone": "light"
+  },
+  "gallery": [],
+  "notes": "Hero is a dead specimen on ice (Commons Category:Anoplogaster cornuta; North Atlantic, where only A. cornuta occurs). Rejected: NOAA Photo Library 'Fis01058' (sharper, fresh, but only categorised to genus Anoplogaster and from a Pacific Cobb trawl, so A. cornuta vs A. brachycera cannot be confirmed; also shows a hand and wristwatch). Size: MBARI/FishBase give max 18 cm; Monterey Bay Aquarium says up to 15.2 cm and WHOI says adults average 16 cm. The fang-socket detail: Fishes of Australia says sockets 'on either side of its brain'; WHOI describes them as on the roof of the mouth—same function, different wording. WHOI also lists 'bioluminescence: yes, on the sides', which is not supported by other sources and was not used. Order follows WoRMS (Trachichthyiformes); older sources place it in Beryciformes."
+}

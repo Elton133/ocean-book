@@ -1,0 +1,50 @@
+{
+  "slug": "blanket-octopus",
+  "commonName": "Blanket Octopus",
+  "scientificName": "Tremoctopus violaceus",
+  "authority": "Delle Chiaje, 1830",
+  "aphiaId": 141694,
+  "taxonomy": { "phylum": "Mollusca", "class": "Cephalopoda", "order": "Octopoda", "family": "Tremoctopodidae" },
+  "group": "Pelagic octopus",
+  "categories": ["reproduction"],
+  "tagline": "A giant cape-wearing female and a walnut-sized male",
+  "summary": "The violet blanket octopus drifts in warm open seas, never resting on the seafloor. Females unfurl a vast, colourful web of skin between their arms like a cape, and can grow to about 2 m, while males stay only a few centimetres long: one of the most extreme size gaps between the sexes in any large animal.",
+  "ability": "unfurling a cape-like web",
+  "stats": {
+    "size": "Females up to about 2 m; males about 2.4 cm",
+    "depth": "Near-surface open ocean (epipelagic zone)",
+    "range": "Warm seas worldwide",
+    "diet": "Carnivore",
+    "conservation": "IUCN: Least Concern"
+  },
+  "depthRange": { "min": 0, "max": 200 },
+  "facts": [
+    { "title": "Extreme size gap", "text": "Females can reach about 2 m long while males stay around 2.4 cm. By weight the sexes differ by a factor of at least 10,000; National Geographic puts it as high as 40,000.", "certainty": "confirmed", "ref": 2 },
+    { "title": "A cape for defence", "text": "When threatened, a female spreads the sheets of webbing between her arms to look far bigger. The web can also tear away if a predator bites it, letting her escape.", "certainty": "confirmed", "ref": 1 },
+    { "title": "Borrowed stingers", "text": "Small blanket octopuses have been seen carrying torn-off tentacles of the Portuguese man o' war, likely brandished as weapons. How they handle the stinging cells is not fully understood.", "certainty": "hypothesis", "ref": 2 },
+    { "title": "A detachable arm", "text": "The tiny male stores sperm in a special arm (the hectocotylus), which he detaches and gives to the female. She keeps it in her body until she is ready to fertilise her eggs.", "certainty": "confirmed", "ref": 1 },
+    { "title": "Males rarely seen", "text": "Males are so small and elusive that the first live male was not seen by scientists until 2002, off the Great Barrier Reef.", "certainty": "confirmed", "ref": 2 }
+  ],
+  "references": [
+    { "title": "Tremoctopus violaceus Delle Chiaje, 1830", "publisher": "WoRMS (World Register of Marine Species)", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=141694" },
+    { "title": "Blanket Octopus", "publisher": "National Geographic", "url": "https://www.nationalgeographic.com/animals/invertebrates/facts/blanket-octopus" },
+    { "title": "Common blanket octopus", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Common_blanket_octopus" }
+  ],
+  "image": {
+    "src": "/media/creatures/blanket-octopus/hero.webp",
+    "width": 1348, "height": 1920,
+    "alt": "Hand-coloured 19th-century plate of a female blanket octopus seen from above, a pale blue body with two long arms joined by a broad pinkish web spreading upward like a cape",
+    "caption": "Female violet blanket octopus, a hand-coloured plate by Jean Baptiste Vérany (19th century)",
+    "creator": "Jean Baptiste Vérany",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tremoctopus_violaceus_Verany.jpg",
+    "species": "Tremoctopus violaceus",
+    "type": "illustration",
+    "setting": "illustration",
+    "focal": "50% 40%",
+    "tone": "light"
+  },
+  "gallery": [],
+  "notes": "No freely licensed in-situ underwater photo of T. violaceus on Commons; available photos are beach-stranded/handheld specimens (South Padre Island), a museum jar, or multi-panel ZooKeys figures. Used Vérany's public-domain plate (portrait, includes plate margins/text). Tremoctopus robsoni photo rejected (different species). The NatGeo page covers the genus (Tremoctopus spp.); size ratio sources differ (10,000 vs 40,000 by weight) — both given. Wikipedia attributes the size/dimorphism and first-live-male facts to Norman et al. 2002 (NZ J. Mar. Freshw. Res.), and IUCN LC to Allcock 2014. Whether the octopus is immune to man o' war stings is disputed (NatGeo says immune; Wikipedia says unknown), so framed as hypothesis."
+}

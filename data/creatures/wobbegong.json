@@ -1,0 +1,66 @@
+{
+  "slug": "wobbegong",
+  "commonName": "Spotted Wobbegong",
+  "scientificName": "Orectolobus maculatus",
+  "authority": "(Bonnaterre, 1788)",
+  "aphiaId": 281931,
+  "taxonomy": { "phylum": "Chordata", "class": "Elasmobranchii", "order": "Orectolobiformes", "family": "Orectolobidae" },
+  "group": "Carpet shark",
+  "categories": ["camouflage"],
+  "tagline": "A shark disguised as the seafloor",
+  "summary": "Flattened, blotched and fringed with branching skin flaps around its mouth, the spotted wobbegong looks more like a patterned rug than a shark. It rests on Australian reefs by day and hunts fishes, octopuses and crabs at night.",
+  "ability": "carpet camouflage",
+  "stats": {
+    "size": "Up to about 1.7 m long",
+    "depth": "Usually 0–110 m; recorded to about 220 m",
+    "range": "Southern Australia, from Western Australia to southern Queensland",
+    "diet": "Fishes, octopuses, crabs and crayfish",
+    "conservation": "IUCN: Least Concern"
+  },
+  "depthRange": { "min": 0, "max": 110 },
+  "facts": [
+    { "title": "A fringed disguise", "text": "Along each side of the head, in front of the eye, are 6–10 long, branching skin flaps called dermal lobes. With its blotched, ringed pattern they help this well-camouflaged shark blend into reef and sand.", "certainty": "confirmed", "ref": 1 },
+    { "title": "Night shift", "text": "Spotted wobbegongs are nocturnal: they usually rest during the day and feed at night, mostly on fishes and octopuses, plus crabs and crayfish.", "certainty": "confirmed", "ref": 1 },
+    { "title": "Big litters", "text": "Females give birth to live young — up to 37 pups — after a gestation of 10–11 months. Inside the mother, the embryos feed only on their egg yolk.", "certainty": "confirmed", "ref": 1 },
+    { "title": "A shark out of water", "text": "It can be found in water barely deep enough to cover it, and has been seen climbing between tide pools with its back out of the water.", "certainty": "uncertain", "ref": 2 },
+    { "title": "Docile — until stepped on", "text": "Though usually placid, it bites people who step on or provoke it, can cause severe cuts, and is often reluctant to let go.", "certainty": "confirmed", "ref": 1 }
+  ],
+  "references": [
+    { "title": "Orectolobus maculatus (Bonnaterre, 1788)", "publisher": "WoRMS", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=281931" },
+    { "title": "Spotted Wobbegong, Orectolobus maculatus", "publisher": "Fishes of Australia (Museums Victoria)", "url": "https://fishesofaustralia.net.au/home/species/1975" },
+    { "title": "Orectolobus maculatus, Spotted wobbegong", "publisher": "FishBase", "url": "https://www.fishbase.se/summary/Orectolobus_maculatus.html" }
+  ],
+  "image": {
+    "src": "/media/creatures/wobbegong/hero.webp",
+    "width": 1920, "height": 1440,
+    "alt": "A spotted wobbegong lying across a reef covered in orange and cream sponges, its flat greenish-brown body patterned with pale rings, and a fringe of small branching flaps along its mouth",
+    "caption": "A spotted wobbegong resting among sponges off Forster, New South Wales",
+    "creator": "Taso Viglas",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Orectolobus_maculatus_forster.jpg",
+    "species": "Orectolobus maculatus",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "45% 55%",
+    "tone": "dark"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/wobbegong/alt-1.webp",
+      "width": 1920, "height": 1080,
+      "alt": "Head-on view of a spotted wobbegong lying on shelly sand, its broad flat head fringed with branching flaps and its back patterned with pale rings",
+      "caption": "Head-on, the wobbegong's 'beard' of dermal lobes is easy to see",
+      "creator": "Christopher Mark",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Orectolobus_maculatus_12649700.jpg",
+      "species": "Orectolobus maculatus",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "50% 60%",
+      "tone": "light"
+    }
+  ],
+  "notes": "Size: Fishes of Australia gives max 170 cm; FishBase cites an older max of 320 cm — used the more conservative figure. IUCN: Least Concern (assessed 2015) per FishBase; Fishes of Australia page inconsistently shows both Near Threatened and Least Concern, and notes it is listed as Vulnerable in New South Wales. Rejected Commons 'Orectolobus maculatus kurnell.jpg' — its banded pattern looks more like O. halei/ornatus. Tide-pool climbing is an older field observation (FishBase citing Compagno), hence 'uncertain'."
+}
