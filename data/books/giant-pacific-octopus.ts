@@ -263,7 +263,20 @@ export const octopusPages: PageSpec[] = [
     },
   },
   {
-    id: "generation", layout: "octo-generation", chapter: "09", title: "The Next Generation", theme: "abyss",
+    id: "film", layout: "documentary", chapter: "09", title: "The Next Generation", theme: "abyss",
+    data: {
+      video: octopusMedia.eggsVideo,
+      kicker: "Filmed off Alki, Seattle",
+      cues: [
+        { t: 0, text: "Beneath a rock ledge off Seattle, a female has hung her eggs from the ceiling of her den.", ref: 0 },
+        { t: 6, text: "Each pale strand holds about 250 eggs — tens of thousands in all.", ref: 1 },
+        { t: 12, text: "For up to six months she cleans them and keeps water flowing over them. In all that time, she does not eat.", ref: 0 },
+        { t: 19, text: "When they hatch, each the size of a grain of rice, her life will be over.", ref: 0 },
+      ],
+    },
+  },
+  {
+    id: "generation", layout: "octo-generation", chapter: "09", title: "A Single Generation", theme: "abyss",
     data: {
       video: octopusMedia.eggsVideo,
       still: octopusMedia.brooding,
@@ -289,4 +302,5 @@ export const octopusPages: PageSpec[] = [
       },
     },
   },
+  { id: "sources", layout: "sources", chapter: "10", title: "Sources & Credits", theme: "ivory" },
 ];

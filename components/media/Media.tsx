@@ -124,7 +124,7 @@ export function VideoClip({
         type="button"
         onClick={toggle}
         data-no-drag
-        className="annot absolute bottom-3 left-3 z-10 flex items-center gap-2 bg-black/40 px-2.5 py-1.5 text-ivory/90 backdrop-blur-sm transition hover:bg-black/60"
+        className="annot absolute bottom-3 left-3 z-10 flex items-center gap-2 text-ivory/80 transition [text-shadow:0_1px_6px_rgba(0,0,0,0.8)] hover:text-ivory"
         aria-label={playing ? "Pause video" : "Play video"}
       >
         <span aria-hidden className="inline-block w-2.5 text-center">{playing ? "❚❚" : "▶"}</span>

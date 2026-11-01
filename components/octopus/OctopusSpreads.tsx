@@ -8,7 +8,7 @@ import { EASE_OUT } from "@/lib/motion";
 import { usePageMotion } from "@/components/motion/PageContext";
 import { Parallax, Reveal, Rule, SplitText } from "@/components/motion/Reveal";
 import { CertaintyTag, CinematicImage, Credit, MarineSnow, Ref, VideoClip } from "@/components/media/Media";
-import { ChapterMark, PageFrame, PageTitle } from "@/components/pages/Frame";
+import { ChapterMark, PageFrame, PageTitle, Side } from "@/components/pages/Frame";
 import { TaxonomyLadder } from "@/components/diagrams/TaxonomyLadder";
 import { DepthGauge } from "@/components/diagrams/DepthGauge";
 import { AnatomyPlate, type Hotspot } from "./AnatomyPlate";
@@ -45,67 +45,50 @@ function LightShafts({ className = "" }: { className?: string }) {
   );
 }
 
-/* 01 — The Encounter --------------------------------------------------- */
+/* 01 — The Encounter: one enormous photograph, almost nothing else ------ */
 export function OctoEncounter(p: PageProps) {
   const d = data<{ media: MediaAsset; lede: string; marks: string[]; refs: number[] }>(p);
   const { creature } = p.book;
   return (
     <div className="absolute inset-0">
       <CinematicImage media={d.media} priority zoom={[1.22, 1.04]} duration={18} depth={26} />
-      <div className="absolute inset-0 bg-gradient-to-r from-abyss via-abyss/55 to-transparent" />
-      <div className="absolute inset-0 bg-gradient-to-t from-abyss via-transparent to-abyss/40" />
+      <div className="absolute inset-0 bg-gradient-to-r from-abyss/90 via-abyss/30 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-t from-abyss/90 via-transparent to-transparent" />
       <LightShafts />
       <MarineSnow density={90} />
 
-      <div className="absolute inset-0 flex flex-col justify-end px-5 pb-36 sm:px-10 lg:px-16 lg:pb-32">
-        <ChapterMark chapter={p.page.chapter} label={p.page.title} />
+      <div className="absolute inset-x-0 bottom-0 px-5 pb-32 sm:px-10 lg:px-16 lg:pb-28">
         <Parallax depth={-10}>
-          <h1 className="display mt-5 text-[clamp(3.4rem,11.5vw,12.5rem)] leading-[0.84]">
-            <SplitText text="Giant Pacific" by="char" delay={0.2} className="block" />
-            <SplitText text="Octopus" by="char" delay={0.55} className="block italic text-[#f3c9b4]" />
+          <h1 className="display text-[clamp(3.4rem,11.5vw,12.5rem)] leading-[0.84]">
+            <SplitText text="Giant Pacific" by="char" delay={0.4} className="block" />
+            <SplitText text="Octopus" by="char" delay={0.75} className="block italic text-[#f3c9b4]" />
           </h1>
         </Parallax>
-        <div className="mt-6 grid gap-6 lg:grid-cols-12">
-          <Reveal delay={1.3} className="lg:col-span-5">
-            <p className="annot mb-3 opacity-70">
-              <em className="display text-lg not-italic">
-                <i>{creature.scientificName}</i>
-              </em>{" "}
-              {creature.authority}
-            </p>
-            <p className="lede max-w-xl opacity-85">
-              {d.lede}
-              <Ref n={d.refs[0]} />
-            </p>
-          </Reveal>
-        </div>
+        <Reveal delay={1.5} className="mt-5 flex flex-wrap items-baseline gap-x-4">
+          <i className="display text-xl opacity-85">{creature.scientificName}</i>
+          <span className="annot opacity-55">{creature.authority}</span>
+        </Reveal>
+        <Reveal delay={1.9} className="mt-4 max-w-md lg:hidden">
+          <p className="text-sm leading-relaxed opacity-75">
+            {d.lede}
+            <Ref n={d.refs[0]} />
+          </p>
+        </Reveal>
       </div>
 
-      {/* Marginal annotations */}
-      <Parallax depth={8} className="absolute right-5 top-28 hidden flex-col items-end gap-4 text-right md:flex lg:right-16">
-        {d.marks.map((m, i) => (
-          <Reveal key={m} delay={1.6 + i * 0.15} from="right" className="annot flex items-center gap-3 uppercase tracking-[0.2em] opacity-75">
-            {m}
-            <span className="h-px w-10 bg-current opacity-50" />
-          </Reveal>
-        ))}
-      </Parallax>
-
-      <Reveal delay={2.4} className="absolute bottom-28 right-5 hidden items-center gap-3 sm:flex lg:right-16">
-        <span className="annot uppercase tracking-[0.2em] opacity-70">Drag, swipe or press →</span>
-        <motion.span
-          aria-hidden
-          className="block h-px w-12 origin-left bg-ivory"
-          animate={{ scaleX: [0.2, 1, 0.2], opacity: [0.3, 1, 0.3] }}
-          transition={{ duration: 2.4, repeat: Infinity, ease: "easeInOut" }}
-        />
+      {/* A single caption, set like the line beneath a photograph in a book */}
+      <Reveal delay={2.8} blur={false} className="absolute bottom-28 right-16 hidden max-w-sm text-right lg:block">
+        <p className="display text-lg italic leading-snug opacity-80">
+          {d.lede}
+          <Ref n={d.refs[0]} />
+        </p>
+        <Credit media={d.media} className="mt-3" />
       </Reveal>
-      <Credit media={d.media} className="absolute bottom-24 left-5 sm:left-10 lg:bottom-[5.5rem] lg:left-16" />
     </div>
   );
 }
 
-/* 02 — Meet the Octopus ----------------------------------------------- */
+/* 02 — Meet the Octopus: a scientific plate --------------------------- */
 export function OctoMeet(p: PageProps) {
   const d = data<{
     kicker: string;
@@ -117,28 +100,48 @@ export function OctoMeet(p: PageProps) {
   return (
     <PageFrame>
       <div className="grid h-full gap-10 lg:grid-cols-12 lg:gap-8">
-        <div className="flex flex-col lg:col-span-3">
+        <Side part="a" className="flex flex-col lg:col-span-3">
           <ChapterMark chapter={p.page.chapter} />
           <PageTitle text={p.page.title} className="mt-4 text-[clamp(3rem,5.4vw,5.6rem)]" />
           <Reveal delay={0.6}>
             <p className="display mt-3 text-xl italic text-rust">{d.kicker}</p>
           </Reveal>
-          <div className="mt-8 hidden lg:block">
+          <Reveal delay={0.8} className="lg:hidden">
+            <p className="lede mt-5 opacity-80">{d.lede}</p>
+          </Reveal>
+          <div className="mt-8">
             <TaxonomyLadder rows={d.taxonomy} delay={0.6} />
           </div>
-        </div>
+        </Side>
 
-        <div className="flex items-center lg:col-span-6">
-          <AnatomyPlate hotspots={d.hotspots} className="w-full" />
-        </div>
+        <Side part="b" className="flex flex-col justify-center lg:col-span-6">
+          <Reveal delay={0.2} from="none" duration={1.6}>
+            <figure className="relative border border-ink/45 p-3 outline outline-1 outline-offset-[5px] outline-ink/20 sm:p-5">
+              <div className="flex items-baseline justify-between border-b border-ink/20 pb-2">
+                <span className="display text-sm uppercase tracking-[0.3em]">Plate II.</span>
+                <span className="display text-sm italic opacity-70">Cephalopoda</span>
+              </div>
+              <AnatomyPlate hotspots={d.hotspots} className="w-full pt-2" />
+              <figcaption className="border-t border-ink/20 pt-2 text-center">
+                <span className="display text-base italic">Enteroctopus dofleini</span>
+                <span className="annot opacity-60"> (Wülker, 1910). Oral view, schematic.</span>
+              </figcaption>
+            </figure>
+          </Reveal>
+          <dl className="mt-6 grid grid-cols-4 gap-x-4 lg:hidden">
+            {d.stats.map((s) => (
+              <div key={s.label}>
+                <dd className="display text-2xl leading-none">{s.value}</dd>
+                <dt className="annot mt-1 leading-snug opacity-60">{s.label}</dt>
+              </div>
+            ))}
+          </dl>
+        </Side>
 
-        <div className="flex flex-col justify-between gap-8 lg:col-span-3">
+        <Side part="b" className="hidden flex-col justify-between gap-8 lg:col-span-3 lg:flex">
           <Reveal delay={0.9}>
             <p className="lede opacity-80">{d.lede}</p>
           </Reveal>
-          <div className="lg:hidden">
-            <TaxonomyLadder rows={d.taxonomy} />
-          </div>
           <dl className="grid grid-cols-2 gap-x-6 gap-y-5">
             {d.stats.map((s, i) => (
               <Reveal key={s.label} delay={1.2 + i * 0.12} className="border-t border-ink/20 pt-3">
@@ -152,7 +155,7 @@ export function OctoMeet(p: PageProps) {
             ))}
           </dl>
           <ScaleCompare />
-        </div>
+        </Side>
       </div>
     </PageFrame>
   );
@@ -175,17 +178,15 @@ function ScaleCompare() {
           ))}
         </g>
         <line x1="0" x2={W} y1="64" y2="64" stroke="currentColor" strokeOpacity="0.3" />
-        {/* human */}
         <motion.g initial={{ opacity: 0 }} animate={{ opacity: active ? 1 : 0 }} transition={{ delay: active ? delay + 1.6 : 0 }}>
           <rect x="0" y="12" width={1.8 * m} height="10" fill="currentColor" fillOpacity="0.25" />
           <text x={1.8 * m + 6} y="20" fontSize="8" className="annot" fill="currentColor" opacity="0.8">PERSON 1.8 M</text>
         </motion.g>
-        {/* arm span */}
         <motion.rect
           x="0"
           y="34"
           height="12"
-          fill="var(--coral)"
+          fill="var(--rust)"
           initial={{ width: 0 }}
           animate={{ width: active ? 4 * m : 0 }}
           transition={{ duration: reduced ? 0 : 1.8, delay: active ? delay + 1.8 : 0, ease: EASE_OUT }}
@@ -195,7 +196,7 @@ function ScaleCompare() {
           x2={4.8 * m}
           y1="40"
           y2="40"
-          stroke="var(--coral)"
+          stroke="var(--rust)"
           strokeDasharray="3 3"
           initial={{ opacity: 0 }}
           animate={{ opacity: active ? 1 : 0 }}
@@ -221,7 +222,7 @@ export function OctoDisguise(p: PageProps) {
       <div aria-hidden className="absolute inset-0" style={{ background: "radial-gradient(80% 70% at 70% 40%, rgba(111,214,200,0.14), transparent 70%)" }} />
       <PageFrame>
         <div className="grid h-full gap-10 lg:grid-cols-12 lg:gap-12">
-          <div className="flex flex-col lg:col-span-5">
+          <Side part="a" className="flex flex-col lg:col-span-5">
             <ChapterMark chapter={p.page.chapter} />
             <PageTitle text={p.page.title} className="mt-4 text-[clamp(3rem,6vw,6.4rem)]" />
             <Reveal delay={0.7}>
@@ -231,7 +232,7 @@ export function OctoDisguise(p: PageProps) {
               </p>
             </Reveal>
 
-            <div className="mt-8 space-y-0" data-no-drag>
+            <div className="mt-8" data-no-drag>
               {d.layers.map((l, i) => (
                 <Reveal key={l.name} delay={1 + i * 0.12}>
                   <button
@@ -260,9 +261,9 @@ export function OctoDisguise(p: PageProps) {
                 </Reveal>
               ))}
             </div>
-          </div>
+          </Side>
 
-          <div className="flex flex-col justify-center lg:col-span-7">
+          <Side part="b" className="flex flex-col justify-center lg:col-span-7">
             <SkinLab />
             <Reveal delay={1.8} className="mx-auto mt-6 max-w-lg border-l border-biolume/60 pl-5">
               <div className="flex items-center gap-3">
@@ -274,7 +275,7 @@ export function OctoDisguise(p: PageProps) {
                 <Ref n={d.paradox.ref} />
               </p>
             </Reveal>
-          </div>
+          </Side>
         </div>
       </PageFrame>
     </div>
@@ -293,7 +294,7 @@ export function OctoArms(p: PageProps) {
       </div>
       <PageFrame>
         <div className="grid h-full gap-10 lg:grid-cols-12 lg:gap-6">
-          <div className="flex flex-col lg:col-span-4">
+          <Side part="a" className="flex flex-col justify-center lg:col-span-4 lg:justify-start">
             <ChapterMark chapter={p.page.chapter} />
             <PageTitle text="Eight Arms," className="mt-4 text-[clamp(2.8rem,5vw,5.4rem)]" />
             <SplitText as="p" text="Incredible Intelligence" delay={0.35} className="display block text-[clamp(2.2rem,3.6vw,3.8rem)] italic text-biolume" />
@@ -306,13 +307,13 @@ export function OctoArms(p: PageProps) {
             <Reveal delay={1.1} className="mt-8 max-w-sm">
               <NeuronSplit />
             </Reveal>
-          </div>
-          <div className="flex items-center lg:col-span-4">
+          </Side>
+          <Side part="b" className="flex items-center lg:col-span-4">
             <NervousSystem className="w-full" />
-          </div>
-          <div className="flex flex-col justify-end gap-6 lg:col-span-4 lg:pl-6">
+          </Side>
+          <Side part="c" className="flex flex-col justify-center gap-7 lg:col-span-4 lg:justify-end lg:pl-6">
             {d.points.map((pt, i) => (
-              <Reveal key={pt.title} delay={1.4 + i * 0.15} className="relative bg-abyss/70 p-4 backdrop-blur-sm lg:bg-abyss/60">
+              <Reveal key={pt.title} delay={1.4 + i * 0.15} className="border-l border-biolume/50 pl-4 lg:bg-abyss/55 lg:py-3 lg:pr-3 lg:backdrop-blur-sm">
                 <div className="flex items-baseline justify-between gap-3">
                   <p className="display text-2xl">{pt.title}</p>
                   <CertaintyTag certainty={pt.certainty} />
@@ -323,7 +324,7 @@ export function OctoArms(p: PageProps) {
                 </p>
               </Reveal>
             ))}
-          </div>
+          </Side>
         </div>
       </PageFrame>
     </div>
@@ -338,7 +339,7 @@ export function OctoHearts(p: PageProps) {
       <div aria-hidden className="absolute inset-0" style={{ background: "radial-gradient(60% 60% at 55% 50%, rgba(47,134,224,0.16), transparent 70%)" }} />
       <PageFrame>
         <div className="grid h-full gap-10 lg:grid-cols-12 lg:gap-10">
-          <div className="flex flex-col lg:col-span-4">
+          <Side part="a" className="flex flex-col justify-center lg:col-span-4 lg:justify-start">
             <ChapterMark chapter={p.page.chapter} />
             <h2 className="display mt-4 text-[clamp(3rem,6vw,6.4rem)] leading-[0.9]">
               <SplitText text="Three Hearts," delay={0.1} className="block" />
@@ -351,11 +352,11 @@ export function OctoHearts(p: PageProps) {
               </p>
             </Reveal>
             <BloodCompare className="mt-8 max-w-sm" />
-          </div>
-          <div className="flex items-center lg:col-span-5">
+          </Side>
+          <Side part="b" className="flex items-center lg:col-span-5">
             <Circulation className="w-full" />
-          </div>
-          <div className="flex flex-col justify-center gap-8 lg:col-span-3">
+          </Side>
+          <Side part="c" className="flex flex-col justify-center gap-8 lg:col-span-3">
             {d.notes.map((n, i) => (
               <Reveal key={n.title} delay={1.5 + i * 0.2}>
                 <Rule delay={1.5 + i * 0.2} className="mb-4" />
@@ -367,7 +368,7 @@ export function OctoHearts(p: PageProps) {
                 </p>
               </Reveal>
             ))}
-          </div>
+          </Side>
         </div>
       </PageFrame>
     </div>
@@ -381,15 +382,16 @@ export function OctoMind(p: PageProps) {
     lede: string;
     studies: { year: string; title: string; text: string; certainty: Certainty; ref?: number }[];
   }>(p);
-  const [sel, setSel] = useState<number | null>(null);
+  const [sel, setSel] = useState(0);
+  const s = d.studies[sel];
   return (
     <div className="absolute inset-0">
       <CinematicImage media={d.media} zoom={[1.04, 1.16]} duration={26} depth={14} focal="45% 8%" />
       <div className="absolute inset-0 bg-gradient-to-l from-abyss via-abyss/50 to-transparent" />
-      <div className="absolute inset-0 bg-gradient-to-t from-abyss via-abyss/20 to-transparent" />
-      <PageFrame className="lg:overflow-visible">
+      <div className="absolute inset-0 bg-gradient-to-t from-abyss via-abyss/30 to-transparent" />
+      <PageFrame>
         <div className="flex h-full flex-col">
-          <div className="ml-auto flex max-w-xl flex-col items-start lg:items-end lg:text-right">
+          <Side part="a" className="ml-auto flex max-w-xl flex-1 flex-col items-start justify-end lg:flex-none lg:items-end lg:text-right">
             <ChapterMark chapter={p.page.chapter} />
             <h2 className="display mt-4 text-[clamp(3.2rem,7vw,7.6rem)] leading-[0.86]">
               <SplitText text="The Intelligent" by="char" delay={0.1} className="block" />
@@ -398,48 +400,50 @@ export function OctoMind(p: PageProps) {
             <Reveal delay={0.9}>
               <p className="lede mt-5 opacity-85">{d.lede}</p>
             </Reveal>
-          </div>
+            <Credit media={d.media} className="mt-4 lg:hidden" />
+          </Side>
 
-          <div className="mt-auto pt-10">
-            <Reveal delay={1.2} className="annot mb-3 flex flex-wrap gap-5 opacity-80">
-              <CertaintyTag certainty="confirmed" />
-              <CertaintyTag certainty="hypothesis" />
-              <CertaintyTag certainty="uncertain" />
-            </Reveal>
-            <ol className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4" data-no-drag>
-              {d.studies.map((s, i) => (
-                <Reveal key={s.title} as="li" delay={1.3 + i * 0.12}>
-                  <button
-                    type="button"
-                    onClick={() => setSel(sel === i ? null : i)}
-                    aria-expanded={sel === i}
-                    className={`group h-full w-full border p-4 text-left backdrop-blur-md transition duration-500 ${
-                      sel === i ? "border-biolume/70 bg-abyss/80" : "border-ivory/15 bg-abyss/45 hover:border-ivory/40"
-                    }`}
-                  >
-                    <div className="flex items-center justify-between">
-                      <span className="annot opacity-60">{s.year}</span>
-                      <CertaintyTag certainty={s.certainty} />
-                    </div>
-                    <p className="display mt-3 text-2xl leading-tight">{s.title}</p>
-                    <motion.div
-                      initial={false}
-                      animate={{ height: sel === i ? "auto" : 0, opacity: sel === i ? 1 : 0 }}
-                      transition={{ duration: 0.5, ease: EASE_OUT }}
-                      className="overflow-hidden"
+          {/* The record of evidence, read like an index of studies */}
+          <Side part="b" className="mt-auto grid gap-6 pt-10 lg:grid-cols-12">
+            <Reveal delay={1.2} className="lg:col-span-5">
+              <p className="annot mb-3 uppercase tracking-[0.2em] opacity-50">The evidence</p>
+              <ol data-no-drag>
+                {d.studies.map((st, i) => (
+                  <li key={st.title}>
+                    <button
+                      type="button"
+                      onClick={() => setSel(i)}
+                      aria-pressed={sel === i}
+                      className={`group flex w-full items-baseline gap-4 border-t border-ivory/15 py-2.5 text-left transition ${sel === i ? "opacity-100" : "opacity-55 hover:opacity-90"}`}
                     >
-                      <p className="pt-2 text-sm leading-relaxed opacity-80">
-                        {s.text}
-                        <Ref n={s.ref} />
-                      </p>
-                    </motion.div>
-                    {sel !== i && <span className="annot mt-2 block opacity-40 transition group-hover:opacity-80">Read +</span>}
-                  </button>
-                </Reveal>
-              ))}
-            </ol>
-            <Credit media={d.media} className="mt-3" />
-          </div>
+                      <span className="annot w-16 shrink-0 opacity-60">{st.year}</span>
+                      <span className={`display text-xl leading-tight sm:text-2xl ${sel === i ? "italic" : ""}`}>{st.title}</span>
+                    </button>
+                  </li>
+                ))}
+              </ol>
+            </Reveal>
+            <div className="lg:col-span-6 lg:col-start-7">
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={sel}
+                  initial={{ opacity: 0, y: 12, filter: "blur(6px)" }}
+                  animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+                  exit={{ opacity: 0, y: -8, filter: "blur(6px)" }}
+                  transition={{ duration: 0.6, ease: EASE_OUT }}
+                  className="border-l border-biolume/50 pl-5"
+                >
+                  <CertaintyTag certainty={s.certainty} />
+                  <p className="display mt-2 text-3xl italic">{s.title}</p>
+                  <p className="mt-2 max-w-lg text-[0.95rem] leading-relaxed opacity-85">
+                    {s.text}
+                    <Ref n={s.ref} />
+                  </p>
+                </motion.div>
+              </AnimatePresence>
+              <Credit media={d.media} className="mt-6 hidden lg:block" />
+            </div>
+          </Side>
         </div>
       </PageFrame>
     </div>
@@ -457,7 +461,7 @@ export function OctoSurvival(p: PageProps) {
       <div className="absolute inset-0 bg-gradient-to-b from-teal/80 via-teal/85 to-abyss" />
       <PageFrame>
         <div className="grid h-full gap-10 lg:grid-cols-12 lg:gap-12">
-          <div className="flex flex-col lg:col-span-5">
+          <Side part="a" className="flex flex-col justify-center lg:col-span-5 lg:justify-start">
             <ChapterMark chapter={p.page.chapter} />
             <PageTitle text={p.page.title} by="char" className="mt-4 text-[clamp(3.6rem,9vw,9.5rem)] italic" />
             <Reveal delay={0.6}>
@@ -467,36 +471,34 @@ export function OctoSurvival(p: PageProps) {
               </p>
             </Reveal>
             <Reveal delay={0.9} className="mt-6">
-              <p className="annot mb-2 uppercase opacity-50">Hunted by</p>
-              <ul className="flex flex-wrap gap-2">
-                {d.predators.map((x) => (
-                  <li key={x} className="annot border border-ivory/25 px-2.5 py-1 uppercase tracking-[0.14em]">
-                    {x}
-                  </li>
-                ))}
-              </ul>
+              <p className="annot mb-1 uppercase tracking-[0.2em] opacity-50">Hunted by</p>
+              <p className="display text-xl italic opacity-90">{d.predators.join(" · ")}</p>
               <Credit media={d.media} className="mt-6" />
               <p className="annot opacity-50">Background: {d.media.caption}</p>
             </Reveal>
-          </div>
+          </Side>
           <div className="flex flex-col justify-center gap-6 lg:col-span-7">
-            <Reveal delay={0.8} from="right">
-              <InkEscape />
-            </Reveal>
-            <ol className="grid gap-x-8 gap-y-4 sm:grid-cols-2">
-              {d.tactics.map((t, i) => (
-                <Reveal key={t.title} as="li" delay={1.2 + i * 0.1} className="border-t border-ivory/20 pt-3">
-                  <p className="flex items-baseline gap-3">
-                    <span className="annot opacity-50">{String(i + 1).padStart(2, "0")}</span>
-                    <span className="display text-2xl">{t.title}</span>
-                  </p>
-                  <p className="mt-1 text-sm leading-relaxed opacity-75">
-                    {t.text}
-                    <Ref n={t.ref} />
-                  </p>
-                </Reveal>
-              ))}
-            </ol>
+            <Side part="b">
+              <Reveal delay={0.8} from="right">
+                <InkEscape />
+              </Reveal>
+            </Side>
+            <Side part="c">
+              <ol className="grid gap-x-8 gap-y-4 sm:grid-cols-2">
+                {d.tactics.map((t, i) => (
+                  <Reveal key={t.title} as="li" delay={1.2 + i * 0.1} className="border-t border-ivory/20 pt-3">
+                    <p className="flex items-baseline gap-3">
+                      <span className="annot opacity-50">{String(i + 1).padStart(2, "0")}</span>
+                      <span className="display text-2xl">{t.title}</span>
+                    </p>
+                    <p className="mt-1 text-sm leading-relaxed opacity-75">
+                      {t.text}
+                      <Ref n={t.ref} />
+                    </p>
+                  </Reveal>
+                ))}
+              </ol>
+            </Side>
           </div>
         </div>
       </PageFrame>
@@ -512,7 +514,7 @@ export function OctoWorld(p: PageProps) {
       <MarineSnow density={40} className="opacity-60" />
       <PageFrame>
         <div className="grid h-full gap-10 lg:grid-cols-12 lg:gap-10">
-          <div className="flex flex-col lg:col-span-6">
+          <Side part="a" className="flex flex-col justify-center lg:col-span-6 lg:justify-start">
             <ChapterMark chapter={p.page.chapter} />
             <PageTitle text={p.page.title} className="mt-4 text-[clamp(3.2rem,7vw,7rem)]" />
             <Reveal delay={0.6}>
@@ -524,14 +526,14 @@ export function OctoWorld(p: PageProps) {
             <div className="mt-6 lg:mt-auto">
               <RangeArc places={d.range} className="max-w-2xl" />
             </div>
-          </div>
-          <div className="flex items-center lg:col-span-3">
+          </Side>
+          <Side part="b" className="flex items-center lg:col-span-3">
             <DepthGauge min={d.depth.min} max={d.depth.max} label="G. P. octopus" height={420} className="mx-auto w-full max-w-[18rem]" />
-          </div>
-          <div className="lg:col-span-3">
-            <div className="flex h-full flex-col justify-end gap-3">
+          </Side>
+          <Side part="c" className="lg:col-span-3">
+            <div className="flex h-full flex-col justify-center gap-3 lg:justify-end">
               <Reveal delay={1.2} from="right">
-                <VideoClip media={d.video} className="aspect-[4/5] w-full border border-ivory/15" />
+                <VideoClip media={d.video} className="aspect-[4/5] max-h-[52vh] w-full border border-ivory/15" />
               </Reveal>
               <Reveal delay={1.4}>
                 <p className="text-sm italic opacity-75">{d.video.caption}</p>
@@ -545,27 +547,27 @@ export function OctoWorld(p: PageProps) {
                 </p>
               </Reveal>
             </div>
-          </div>
+          </Side>
         </div>
       </PageFrame>
     </div>
   );
 }
 
-/* 09 — The Next Generation -------------------------------------------- */
+/* 09b — A Single Generation ------------------------------------------- */
 export function OctoGeneration(p: PageProps) {
   const d = data<{ video: MediaAsset; still: MediaAsset; lede: string; stages: Stage[] }>(p);
   return (
     <div className="absolute inset-0">
-      <VideoClip media={d.video} className="absolute inset-0" />
-      <div className="absolute inset-0 bg-gradient-to-r from-abyss via-abyss/75 to-abyss/30" />
+      <CinematicImage media={d.still} zoom={[1.12, 1.02]} duration={22} depth={12} />
+      <div className="absolute inset-0 bg-gradient-to-r from-abyss via-abyss/80 to-abyss/40" />
       <div className="absolute inset-0 bg-gradient-to-t from-abyss/90 via-transparent to-abyss/60" />
       <PageFrame>
         <div className="grid h-full gap-10 lg:grid-cols-12">
-          <div className="flex flex-col lg:col-span-5">
+          <Side part="a" className="flex flex-col justify-center lg:col-span-5 lg:justify-start">
             <ChapterMark chapter={p.page.chapter} />
             <h2 className="display mt-4 text-[clamp(3rem,6.6vw,7rem)] leading-[0.88]">
-              <SplitText text="The Next" delay={0.1} className="block" />
+              <SplitText text="A Single" delay={0.1} className="block" />
               <SplitText text="Generation" delay={0.3} className="block italic text-[#f1df9a]" />
             </h2>
             <Reveal delay={0.7}>
@@ -574,14 +576,14 @@ export function OctoGeneration(p: PageProps) {
                 <Ref n={0} />
               </p>
             </Reveal>
-            <Reveal delay={1} className="mt-auto hidden max-w-sm lg:block">
-              <p className="text-sm italic opacity-70">{d.video.caption}</p>
-              <Credit media={d.video} className="mt-1" />
+            <Reveal delay={1} className="mt-6 max-w-sm lg:mt-auto">
+              <p className="text-sm italic opacity-70">{d.still.caption}</p>
+              <Credit media={d.still} className="mt-1" />
             </Reveal>
-          </div>
-          <div className="flex items-center justify-center lg:col-span-7">
+          </Side>
+          <Side part="b" className="flex items-center justify-center lg:col-span-7">
             <LifeCycle stages={d.stages} className="w-full" />
-          </div>
+          </Side>
         </div>
       </PageFrame>
     </div>

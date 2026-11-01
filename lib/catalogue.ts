@@ -2,6 +2,7 @@ import raw from "@/data/catalogue.generated.json";
 import { octopus, octopusPages } from "@/data/books/giant-pacific-octopus";
 import type { Book, Creature, PageSpec } from "./types";
 import { buildDefaultPages } from "./book-builder";
+import { zoneOf, type ZoneSlug } from "./zones";
 
 /** Hand-authored books take precedence over the generated default layout. */
 const AUTHORED: Record<string, { creature: Creature; pages: PageSpec[] }> = {
@@ -45,6 +46,7 @@ export function getBook(slug: string): Book | undefined {
   if (!creature) return undefined;
   return {
     creature,
+    zone: zoneOf(creature),
     pages: authored?.pages ?? buildDefaultPages(creature),
     related: relatedFor(creature),
   };
@@ -54,7 +56,7 @@ export function getBook(slug: string): Book | undefined {
 export type LibraryEntry = Pick<
   Creature,
   "slug" | "commonName" | "scientificName" | "group" | "categories" | "tagline" | "ability" | "taxonomy" | "image" | "depthRange"
-> & { pageCount: number };
+> & { pageCount: number; zone: ZoneSlug };
 
 export function libraryIndex(): LibraryEntry[] {
   return creatures.map((c) => ({
@@ -68,6 +70,7 @@ export function libraryIndex(): LibraryEntry[] {
     taxonomy: c.taxonomy,
     image: c.image,
     depthRange: c.depthRange,
+    zone: zoneOf(c),
     pageCount: (AUTHORED[c.slug]?.pages ?? buildDefaultPages(c)).length,
   }));
 }

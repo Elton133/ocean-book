@@ -43,6 +43,7 @@ export function buildDefaultPages(c: Creature): PageSpec[] {
   }
   pages.push({ id: "world", layout: "depth", title: "Its World", theme: "deep" });
   pages.push({ id: "farewell", layout: "closing", title: "Before You Leave", theme: "ivory" });
+  pages.push({ id: "sources", layout: "sources", title: "Sources & Credits", theme: "ivory" });
 
   return pages.map((p, i) => ({ ...p, chapter: pad(i + 1) }));
 }

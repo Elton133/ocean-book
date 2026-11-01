@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { EASE_OUT } from "@/lib/motion";
 import { usePageMotion } from "@/components/motion/PageContext";
+import { FigureChoice, HairlineSlider } from "@/components/ui/Controls";
 
 type Pigment = "yellow" | "red" | "brown";
 
@@ -198,43 +199,22 @@ export function SkinLab({ className = "" }: { className?: string }) {
           <line x1="2" y1="50" x2="8" y2="50" stroke="currentColor" strokeWidth="0.3" />
           <line x1="92" y1="50" x2="98" y2="50" stroke="currentColor" strokeWidth="0.3" />
         </svg>
-        <span className="annot absolute -right-2 top-6 rotate-90 opacity-60">× 40 — ILLUSTRATIVE</span>
+        <span className="annot absolute -right-2 top-6 rotate-90 opacity-60">ILLUSTRATIVE</span>
       </motion.div>
 
       <div className="mx-auto mt-5 max-w-md" data-no-drag>
-        <div className="flex flex-wrap justify-center gap-1.5" role="radiogroup" aria-label="Skin pattern">
-          {MODES.map((m) => (
-            <button
-              key={m.id}
-              type="button"
-              role="radio"
-              aria-checked={m.id === modeId}
-              onClick={() => {
-                setModeId(m.id);
-                setPapillae(m.papillae);
-              }}
-              className={`annot border px-3 py-1.5 uppercase tracking-[0.16em] transition ${
-                m.id === modeId ? "border-biolume bg-biolume text-abyss" : "border-ivory/25 hover:border-ivory/70"
-              }`}
-            >
-              {m.label}
-            </button>
-          ))}
-        </div>
-        <label className="mt-4 flex items-center gap-3">
-          <span className="annot w-24 shrink-0 uppercase opacity-60">Papillae</span>
-          <input
-            type="range"
-            min={0}
-            max={1}
-            step={0.01}
-            value={papillae}
-            onChange={(e) => setPapillae(parseFloat(e.target.value))}
-            className="h-px w-full cursor-pointer appearance-none bg-ivory/30 accent-biolume"
-            aria-label="Skin texture: smooth to raised papillae"
-          />
-          <span className="annot w-12 text-right opacity-60">{papillae < 0.33 ? "Smooth" : papillae < 0.66 ? "Bumpy" : "Raised"}</span>
-        </label>
+        <p className="annot mb-1.5 text-center uppercase tracking-[0.2em] opacity-50">Fig. 3 — Skin at × 40, five states</p>
+        <FigureChoice
+          className="justify-center"
+          label="Skin pattern"
+          options={MODES.map((m) => ({ id: m.id, label: m.label }))}
+          value={modeId}
+          onChange={(id) => {
+            setModeId(id);
+            setPapillae(MODES.find((m) => m.id === id)!.papillae);
+          }}
+        />
+        <HairlineSlider className="mt-4" value={papillae} onChange={setPapillae} from="smooth" to="raised" label="Skin texture: smooth to raised papillae" />
         <p className="mt-3 min-h-[2.5rem] text-center text-sm italic opacity-75">{mode.note}</p>
       </div>
     </div>

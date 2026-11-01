@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import {
   AnimatePresence,
   animate,
@@ -14,15 +14,24 @@ import {
 } from "framer-motion";
 import type { Book, MediaAsset, PageSpec } from "@/lib/types";
 import { EASE_CINE, ENTER_DELAY, TURN_DURATION } from "@/lib/motion";
-import { PageMotionContext } from "@/components/motion/PageContext";
+import { PageMotionContext, type SpreadPart } from "@/components/motion/PageContext";
 import { PageNavigation } from "./PageNavigation";
-import { BookPage } from "./BookPage";
+import { BookPage, IMMERSIVE, LAYOUT_PARTS } from "./BookPage";
 
 const THEME: Record<PageSpec["theme"], string> = {
   abyss: "bg-abyss text-ivory",
   deep: "bg-deep text-ivory",
   teal: "bg-teal text-ivory",
-  ivory: "bg-ivory text-ink",
+  ivory: "paper text-ink",
+};
+
+/* A soft light from above that says how deep this animal lives. */
+const ZONE_GLOW: Record<Book["zone"], string | null> = {
+  surface: "radial-gradient(110% 55% at 50% -12%, rgba(120,200,235,0.22), transparent 62%)",
+  twilight: "radial-gradient(100% 45% at 50% -14%, rgba(70,130,190,0.12), transparent 60%)",
+  midnight: null,
+  abyssal: null,
+  hadal: null,
 };
 
 /* The incoming leaf always travels the full width on top; the page beneath
@@ -39,35 +48,79 @@ const shade: Variants = {
 };
 const fade: Variants = { enter: { opacity: 0 }, center: { opacity: 1 }, exit: { opacity: 0 } };
 
+const PARTS: Exclude<SpreadPart, "all">[] = ["a", "b", "c"];
+
+export interface Entry {
+  page: PageSpec;
+  /** Chapter index into book.pages */
+  ci: number;
+  /** Part index within the spread (0 when shown whole) */
+  pi: number;
+  part: SpreadPart;
+}
+
 function mediaOf(page: PageSpec, book: Book): MediaAsset[] {
   const d = (page.data ?? {}) as Record<string, unknown>;
   const list = [d.media, d.still, book.creature.image].filter(Boolean) as MediaAsset[];
   return page.layout === "cover" || page.layout === "profile" ? list : list.filter((m) => m !== book.creature.image || d.media === m);
 }
 
+const NARROW = "(max-width: 1023px)";
+const subscribeNarrow = (cb: () => void) => {
+  const mq = window.matchMedia(NARROW);
+  mq.addEventListener("change", cb);
+  return () => mq.removeEventListener("change", cb);
+};
+
 export function CreatureBook({ book }: { book: Book }) {
   const router = useRouter();
-  const total = book.pages.length;
   const reduced = useReducedMotion() ?? false;
-  const [[index, dir], setState] = useState<[number, number]>([0, 1]);
-  const indexRef = useRef(0);
+  const narrow = useSyncExternalStore(subscribeNarrow, () => window.matchMedia(NARROW).matches, () => false);
+
+  /* On narrow screens each spread becomes one or more single pages. */
+  const entries = useMemo<Entry[]>(
+    () =>
+      book.pages.flatMap((page, ci): Entry[] => {
+        const n = narrow ? (LAYOUT_PARTS[page.layout] ?? 1) : 1;
+        return n === 1 ? [{ page, ci, pi: 0, part: "all" }] : PARTS.slice(0, n).map((part, pi) => ({ page, ci, pi, part }));
+      }),
+    [book.pages, narrow],
+  );
+
+  const [pos, setPos] = useState({ ci: 0, pi: 0, dir: 1 });
+  const indexOf = (p: { ci: number; pi: number }, es: Entry[]) => {
+    const exact = es.findIndex((e) => e.ci === p.ci && e.pi === p.pi);
+    return exact >= 0 ? exact : Math.max(0, es.findIndex((e) => e.ci === p.ci));
+  };
+  const index = indexOf(pos, entries);
+  const total = entries.length;
+
+  const posRef = useRef(pos);
+  const entriesRef = useRef(entries);
+  useEffect(() => {
+    posRef.current = pos;
+    entriesRef.current = entries;
+  }, [pos, entries]);
   const lockUntil = useRef(0);
   const [contentsOpen, setContentsOpen] = useState(false);
 
   const go = useCallback(
     (target: number, force = false) => {
-      const t = Math.max(0, Math.min(total - 1, target));
-      if (t === indexRef.current) return;
+      const es = entriesRef.current;
+      const cur = indexOf(posRef.current, es);
+      const t = Math.max(0, Math.min(es.length - 1, target));
+      if (t === cur) return;
       const now = performance.now();
       if (!force && now < lockUntil.current) return;
       lockUntil.current = now + (reduced ? 250 : 720);
-      setState([t, t > indexRef.current ? 1 : -1]);
-      indexRef.current = t;
+      const next = { ci: es[t].ci, pi: es[t].pi, dir: t > cur ? 1 : -1 };
+      posRef.current = next;
+      setPos(next);
     },
-    [total, reduced],
+    [reduced],
   );
-  const next = useCallback(() => go(indexRef.current + 1), [go]);
-  const prev = useCallback(() => go(indexRef.current - 1), [go]);
+  const step = useCallback((d: number) => go(indexOf(posRef.current, entriesRef.current) + d), [go]);
+  const goChapter = useCallback((ci: number) => go(entriesRef.current.findIndex((e) => e.ci === ci), true), [go]);
 
   const close = useCallback(() => {
     let fromLibrary = false;
@@ -79,24 +132,31 @@ export function CreatureBook({ book }: { book: Book }) {
     else router.push("/#library");
   }, [router]);
 
-  /* Deep links: #3 opens chapter three. The hash is kept in sync without
-     adding history entries, so Back always returns to the library. */
+  /* Deep links: #3 opens chapter three, #3b its second page on small screens.
+     The hash is kept in sync without adding history entries, so Back always
+     returns to the library. */
   useEffect(() => {
     const read = () => {
-      const n = parseInt(window.location.hash.slice(1), 10);
-      if (n >= 1 && n <= total && n - 1 !== indexRef.current) {
-        indexRef.current = n - 1;
-        setState([n - 1, 1]);
-      }
+      const m = window.location.hash.match(/^#(\d+)([bc])?$/);
+      if (!m) return;
+      const ci = parseInt(m[1], 10) - 1;
+      if (ci < 0 || ci >= book.pages.length) return;
+      const pi = m[2] ? PARTS.indexOf(m[2] as "b" | "c") : 0;
+      if (ci === posRef.current.ci && pi === posRef.current.pi) return;
+      const next = { ci, pi, dir: 1 };
+      posRef.current = next;
+      setPos(next);
     };
     read();
     window.addEventListener("hashchange", read);
     return () => window.removeEventListener("hashchange", read);
-  }, [total]);
+  }, [book.pages.length]);
+  const entry = entries[index];
   useEffect(() => {
-    const url = `${window.location.pathname}${window.location.search}#${index + 1}`;
+    const suffix = entry.pi > 0 ? PARTS[entry.pi] : "";
+    const url = `${window.location.pathname}${window.location.search}#${entry.ci + 1}${suffix}`;
     window.history.replaceState(window.history.state, "", url);
-  }, [index]);
+  }, [entry.ci, entry.pi]);
 
   /* Lock the document while reading. */
   useEffect(() => {
@@ -123,16 +183,16 @@ export function CreatureBook({ book }: { book: Book }) {
       if (contentsOpen) return;
       if (["ArrowRight", "PageDown"].includes(e.key) || (e.key === " " && !e.shiftKey && !el.closest("button"))) {
         e.preventDefault();
-        next();
+        step(1);
       } else if (["ArrowLeft", "PageUp"].includes(e.key) || (e.key === " " && e.shiftKey)) {
         e.preventDefault();
-        prev();
+        step(-1);
       } else if (e.key === "Home") go(0);
-      else if (e.key === "End") go(total - 1);
+      else if (e.key === "End") go(entriesRef.current.length - 1);
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [next, prev, go, total, close, contentsOpen]);
+  }, [step, go, close, contentsOpen]);
 
   /* Pointer parallax, spring-smoothed so layers glide rather than track. */
   const rawX = useMotionValue(0);
@@ -164,7 +224,8 @@ export function CreatureBook({ book }: { book: Book }) {
       if (d.horizontal) (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
     }
     if (d.horizontal) {
-      const atEdge = (dx > 0 && indexRef.current === 0) || (dx < 0 && indexRef.current === total - 1);
+      const i = indexOf(posRef.current, entriesRef.current);
+      const atEdge = (dx > 0 && i === 0) || (dx < 0 && i === entriesRef.current.length - 1);
       dragX.set(dx * (atEdge ? 0.12 : 0.38));
     }
   };
@@ -175,8 +236,9 @@ export function CreatureBook({ book }: { book: Book }) {
     const dx = e.clientX - d.x;
     const v = dx / Math.max(1, performance.now() - d.t);
     const threshold = Math.min(140, window.innerWidth * 0.18);
-    if (dx < -threshold || v < -0.55) go(indexRef.current + 1, true);
-    else if (dx > threshold || v > 0.55) go(indexRef.current - 1, true);
+    const i = indexOf(posRef.current, entriesRef.current);
+    if (dx < -threshold || v < -0.55) go(i + 1, true);
+    else if (dx > threshold || v > 0.55) go(i - 1, true);
     animate(dragX, 0, { type: "spring", stiffness: 260, damping: 32 });
   };
 
@@ -185,29 +247,25 @@ export function CreatureBook({ book }: { book: Book }) {
   useEffect(() => {
     const onWheel = (e: WheelEvent) => {
       if (contentsOpen) return;
-      const scroller = (e.target as HTMLElement).closest<HTMLElement>("[data-scroll]");
-      if (scroller && scroller.scrollHeight > scroller.clientHeight + 2 && Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
-        const atTop = scroller.scrollTop <= 0 && e.deltaY < 0;
-        const atBottom = scroller.scrollTop + scroller.clientHeight >= scroller.scrollHeight - 2 && e.deltaY > 0;
-        if (!atTop && !atBottom) return;
-      }
       e.preventDefault();
       const w = wheel.current;
       w.acc += Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : e.deltaY;
       clearTimeout(w.timer);
       w.timer = setTimeout(() => (w.acc = 0), 180);
       if (Math.abs(w.acc) > 70) {
-        if (w.acc > 0) next();
-        else prev();
+        step(w.acc > 0 ? 1 : -1);
         w.acc = 0;
       }
     };
     window.addEventListener("wheel", onWheel, { passive: false });
     return () => window.removeEventListener("wheel", onWheel);
-  }, [next, prev, contentsOpen]);
+  }, [step, contentsOpen]);
 
-  const page = book.pages[index];
-  const neighbours = [book.pages[index + 1], book.pages[index - 1]].filter(Boolean);
+  const page = entry.page;
+  const immersive = IMMERSIVE.has(page.layout);
+  const dark = page.theme !== "ivory";
+  const glow = dark && !immersive ? ZONE_GLOW[book.zone] : null;
+  const neighbours = [entries[index + 1]?.page, entries[index - 1]?.page].filter((p): p is PageSpec => !!p && p !== page);
 
   return (
     <div
@@ -222,10 +280,10 @@ export function CreatureBook({ book }: { book: Book }) {
       }}
     >
       <main aria-live="polite" aria-label={`${book.creature.commonName}, chapter ${page.chapter}: ${page.title}`} className="absolute inset-0">
-        <AnimatePresence initial={false} custom={dir}>
+        <AnimatePresence initial={false} custom={pos.dir}>
           <motion.section
-            key={page.id}
-            custom={dir}
+            key={`${page.id}-${entry.part}`}
+            custom={pos.dir}
             variants={reduced ? fade : leaf}
             initial="enter"
             animate="center"
@@ -235,14 +293,27 @@ export function CreatureBook({ book }: { book: Book }) {
             aria-roledescription="page"
           >
             <motion.div className="absolute inset-0" style={{ x: dragX }}>
-              <PageMotionContext.Provider value={{ active: true, reduced, delay: reduced ? 0 : ENTER_DELAY, px, py }}>
+              <PageMotionContext.Provider value={{ active: true, reduced, delay: reduced ? 0 : ENTER_DELAY, px, py, part: entry.part }}>
                 <BookPage page={page} book={book} index={index} total={total} goTo={go} />
               </PageMotionContext.Provider>
+              {glow && <div aria-hidden className="pointer-events-none absolute inset-0 z-20 mix-blend-screen" style={{ background: glow }} />}
+              {/* The fold between the two pages of a spread. */}
+              {!immersive && entry.part === "all" && (
+                <div
+                  aria-hidden
+                  className="pointer-events-none absolute inset-y-0 left-1/2 z-20 hidden w-40 -translate-x-1/2 lg:block"
+                  style={{
+                    background: dark
+                      ? "linear-gradient(90deg, transparent, rgba(0,0,0,0.22) 48%, rgba(255,255,255,0.025) 50.5%, transparent)"
+                      : "linear-gradient(90deg, transparent, rgba(70,45,15,0.09) 48%, rgba(255,255,255,0.18) 50.5%, transparent)",
+                  }}
+                />
+              )}
             </motion.div>
             {!reduced && (
               <motion.div
                 aria-hidden
-                custom={dir}
+                custom={pos.dir}
                 variants={shade}
                 initial="enter"
                 animate="center"
@@ -266,10 +337,12 @@ export function CreatureBook({ book }: { book: Book }) {
 
       <PageNavigation
         book={book}
+        entries={entries}
         index={index}
-        onPrev={prev}
-        onNext={next}
-        onGo={(i) => go(i, true)}
+        immersive={immersive}
+        onPrev={() => step(-1)}
+        onNext={() => step(1)}
+        onGoChapter={goChapter}
         onClose={close}
         contentsOpen={contentsOpen}
         setContentsOpen={setContentsOpen}

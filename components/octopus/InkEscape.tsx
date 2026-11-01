@@ -3,6 +3,7 @@
 import { motion, useAnimationControls } from "framer-motion";
 import { useRef, useState } from "react";
 import { usePageMotion } from "@/components/motion/PageContext";
+import { Action } from "@/components/ui/Controls";
 
 /** Side-view octopus, mantle first — the way it jets. */
 function OctopusSide({ className = "" }: { className?: string }) {
@@ -121,14 +122,9 @@ export function InkEscape({ className = "" }: { className?: string }) {
         <span className="annot absolute left-3 top-3 opacity-60">Fig. — Ink and jet escape (illustrative)</span>
       </div>
       <div className="mt-3 flex items-center gap-4" data-no-drag>
-        <button
-          type="button"
-          onClick={startle}
-          disabled={state !== "idle"}
-          className="annot border border-biolume/60 px-4 py-2 uppercase tracking-[0.18em] text-biolume transition hover:bg-biolume hover:text-abyss disabled:opacity-40"
-        >
+        <Action onClick={startle} disabled={state !== "idle"}>
           {state === "idle" ? "Startle it" : state === "escaping" ? "Escaping…" : "Gone."}
-        </button>
+        </Action>
         <p className="text-sm italic opacity-70" aria-live="polite">
           {state === "idle" ? "A predator approaches…" : "Ink clouds the water while a jet from the siphon fires it away, mantle first."}
         </p>

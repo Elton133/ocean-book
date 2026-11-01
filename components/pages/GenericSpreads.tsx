@@ -11,7 +11,7 @@ import { Parallax, Reveal, Rule, SplitText } from "@/components/motion/Reveal";
 import { CertaintyTag, CinematicImage, Credit, MarineSnow, Ref } from "@/components/media/Media";
 import { TaxonomyLadder } from "@/components/diagrams/TaxonomyLadder";
 import { DepthGauge } from "@/components/diagrams/DepthGauge";
-import { ChapterMark, PageFrame, PageTitle } from "./Frame";
+import { ChapterMark, PageFrame, PageTitle, Side } from "./Frame";
 
 /** When a species has no verified photograph, the cover is purely typographic. */
 function TypeCover({ name }: { name: string }) {
@@ -35,7 +35,7 @@ function TypeCover({ name }: { name: string }) {
 }
 
 /* Cover -------------------------------------------------------------- */
-export function CoverSpread({ book, page }: PageProps) {
+export function CoverSpread({ book }: PageProps) {
   const c = book.creature;
   const long = c.commonName.length > 18;
   return (
@@ -51,8 +51,7 @@ export function CoverSpread({ book, page }: PageProps) {
       )}
       <MarineSnow density={60} />
       <div className="absolute inset-0 flex flex-col justify-end px-5 pb-36 sm:px-10 lg:px-16 lg:pb-32">
-        <ChapterMark chapter={page.chapter} label={c.group} />
-        <h1 className={`display mt-5 max-w-[16ch] leading-[0.86] ${long ? "text-[clamp(3rem,8vw,8.5rem)]" : "text-[clamp(3.4rem,11vw,11.5rem)]"}`}>
+        <h1 className={`display max-w-[16ch] leading-[0.86] ${long ? "text-[clamp(3rem,8vw,8.5rem)]" : "text-[clamp(3.4rem,11vw,11.5rem)]"}`}>
           <SplitText text={c.commonName} by="char" delay={0.2} stagger={0.03} />
         </h1>
         <Reveal delay={1.1} className="mt-5 flex flex-wrap items-baseline gap-x-4 gap-y-1">
@@ -61,13 +60,6 @@ export function CoverSpread({ book, page }: PageProps) {
         </Reveal>
         <Reveal delay={1.3}>
           <p className="lede mt-4 max-w-xl opacity-85">{c.tagline}.</p>
-        </Reveal>
-        <Reveal delay={1.5} className="mt-5 flex flex-wrap gap-2">
-          {c.categories.map((k) => (
-            <span key={k} className="annot border border-ivory/25 px-2.5 py-1 uppercase tracking-[0.14em] opacity-80">
-              {categoryTitle(k)}
-            </span>
-          ))}
         </Reveal>
       </div>
       {c.image && <Credit media={c.image} className="absolute bottom-24 right-5 max-w-xs text-right sm:right-10 lg:bottom-[5.5rem] lg:right-16" />}
@@ -92,11 +84,12 @@ export function ProfileSpread({ book, page }: PageProps) {
     ["Diet", c.stats.diet],
     ["Status", c.stats.conservation],
   ];
+  const vintage = c.image && (c.image.type === "illustration" || c.image.setting === "illustration");
   return (
     <PageFrame>
       <div className="grid h-full gap-10 lg:grid-cols-12 lg:gap-10">
-        <div className="flex flex-col lg:col-span-4">
-          <ChapterMark chapter={page.chapter} />
+        <Side part="a" className="flex flex-col justify-center lg:col-span-4 lg:justify-start">
+          <ChapterMark chapter={page.chapter} label={c.group} />
           <PageTitle text={page.title} className="mt-4 text-[clamp(2.6rem,4.6vw,4.8rem)]" />
           <Reveal delay={0.7}>
             <p className="lede mt-5 opacity-80">{c.summary}</p>
@@ -104,39 +97,73 @@ export function ProfileSpread({ book, page }: PageProps) {
           <div className="mt-8">
             <TaxonomyLadder rows={rows} delay={0.8} />
           </div>
-        </div>
+          {c.categories.length > 0 && (
+            <Reveal delay={1.4} className="mt-6">
+              <p className="text-sm italic opacity-70">Shelved under {c.categories.map(categoryTitle).join(", ")}.</p>
+            </Reveal>
+          )}
+        </Side>
 
-        <div className="flex flex-col justify-center lg:col-span-5">
+        <Side part="b" className="flex flex-col justify-center lg:col-span-5">
           {c.image ? (
-            <Reveal delay={0.4} from="none" duration={1.6} className="relative">
-              <div className="relative aspect-[4/3] w-full overflow-hidden bg-ink/5">
-                <motion.div
-                  className="absolute inset-0"
-                  initial={{ clipPath: "inset(0 100% 0 0)" }}
-                  animate={{ clipPath: "inset(0 0% 0 0)" }}
-                  transition={{ duration: 1.6, delay: 0.9, ease: [0.83, 0, 0.17, 1] }}
-                >
-                  <Image src={c.image.src} alt={c.image.alt} fill sizes="(min-width:1024px) 40vw, 100vw" className="object-cover" style={{ objectPosition: c.image.focal }} />
-                </motion.div>
-              </div>
-              <p className="mt-3 text-sm italic opacity-70">{c.image.caption}</p>
-              <Credit media={c.image} className="mt-1" />
+            <Reveal delay={0.3} from="none" duration={1.6}>
+              {/* A plate: double rule, number, figure caption — photograph or engraving alike */}
+              <figure className="relative border border-ink/45 p-3 outline outline-1 outline-offset-[5px] outline-ink/20">
+                <div className="flex items-baseline justify-between border-b border-ink/20 pb-2">
+                  <span className="display text-sm uppercase tracking-[0.3em]">Plate I.</span>
+                  <span className="display text-sm italic opacity-70">{c.taxonomy.family}</span>
+                </div>
+                <div className={`relative mt-3 aspect-[4/3] w-full overflow-hidden ${vintage ? "" : "bg-ink/5"}`}>
+                  <motion.div
+                    className="absolute inset-0"
+                    initial={{ clipPath: "inset(0 100% 0 0)" }}
+                    animate={{ clipPath: "inset(0 0% 0 0)" }}
+                    transition={{ duration: 1.6, delay: 0.9, ease: [0.83, 0, 0.17, 1] }}
+                  >
+                    <Image
+                      src={c.image.src}
+                      alt={c.image.alt}
+                      fill
+                      sizes="(min-width:1024px) 40vw, 100vw"
+                      className={vintage ? "object-contain mix-blend-multiply [filter:sepia(0.45)_contrast(1.08)]" : "object-cover"}
+                      style={vintage ? undefined : { objectPosition: c.image.focal }}
+                    />
+                  </motion.div>
+                </div>
+                <figcaption className="mt-3 border-t border-ink/20 pt-2">
+                  <p className="text-sm italic leading-snug opacity-80">
+                    <span className="not-italic opacity-60">Fig. 1. </span>
+                    {c.image.caption}
+                  </p>
+                  <Credit media={c.image} className="mt-1" />
+                </figcaption>
+              </figure>
             </Reveal>
           ) : (
             <div className="grid aspect-[4/3] place-items-center border border-ink/15">
-              <p className="annot max-w-xs text-center opacity-60">No openly licensed, verified photograph of this species was found. We would rather show none than the wrong animal.</p>
+              <p className="display max-w-xs text-center text-lg italic opacity-60">No openly licensed, verified photograph of this species was found. We would rather show none than the wrong animal.</p>
             </div>
           )}
-        </div>
+          <dl className="mt-6 grid grid-cols-2 gap-x-6 gap-y-3 lg:hidden">
+            {stats.slice(0, 4).map(([k, v]) => (
+              <div key={k} className="border-t border-ink/20 pt-1.5">
+                <dt className="annot uppercase tracking-[0.2em] opacity-50">{k}</dt>
+                <dd className="text-sm leading-snug">{v}</dd>
+              </div>
+            ))}
+          </dl>
+        </Side>
 
-        <dl className="flex flex-col justify-center gap-4 lg:col-span-3">
-          {stats.map(([k, v], i) => (
-            <Reveal key={k} delay={1.1 + i * 0.1} className="border-t border-ink/20 pt-2.5">
-              <dt className="annot uppercase tracking-[0.2em] opacity-50">{k}</dt>
-              <dd className="mt-1 text-[0.95rem] leading-snug">{v}</dd>
-            </Reveal>
-          ))}
-        </dl>
+        <Side part="b" className="hidden flex-col justify-center gap-4 lg:col-span-3 lg:flex">
+          <dl className="contents">
+            {stats.map(([k, v], i) => (
+              <Reveal key={k} delay={1.1 + i * 0.1} className="border-t border-ink/20 pt-2.5">
+                <dt className="annot uppercase tracking-[0.2em] opacity-50">{k}</dt>
+                <dd className="mt-1 text-[0.95rem] leading-snug">{v}</dd>
+              </Reveal>
+            ))}
+          </dl>
+        </Side>
       </div>
     </PageFrame>
   );
@@ -199,7 +226,7 @@ export function FactSpread({ book, page }: PageProps) {
       <div aria-hidden className="absolute inset-0" style={{ background: "radial-gradient(70% 60% at 85% 20%, rgba(111,214,200,0.12), transparent 70%)" }} />
       <PageFrame>
         <div className="grid h-full gap-10 lg:grid-cols-12">
-          <div className="lg:col-span-4">
+          <Side part="a" className="flex flex-col justify-center lg:col-span-4 lg:justify-start">
             <ChapterMark chapter={page.chapter} />
             <PageTitle text={page.title} className="mt-4 text-[clamp(3rem,6vw,6.4rem)] italic" />
             <Reveal delay={0.6}>
@@ -212,8 +239,8 @@ export function FactSpread({ book, page }: PageProps) {
               <CertaintyTag certainty="hypothesis" />
               <CertaintyTag certainty="uncertain" />
             </Reveal>
-          </div>
-          <ol className="grid content-center gap-x-10 gap-y-8 sm:grid-cols-2 lg:col-span-8">
+          </Side>
+          <Side part="b" className="grid content-center gap-x-10 gap-y-7 sm:grid-cols-2 lg:col-span-8">
             {facts.map((f, i) => (
               <Reveal key={f.title} as="li" delay={0.7 + i * 0.14} className="relative">
                 <Rule delay={0.7 + i * 0.14} className="mb-4" />
@@ -230,7 +257,7 @@ export function FactSpread({ book, page }: PageProps) {
                 </div>
               </Reveal>
             ))}
-          </ol>
+          </Side>
         </div>
       </PageFrame>
     </div>
@@ -272,7 +299,7 @@ export function DepthSpread({ book, page }: PageProps) {
       />
       <PageFrame>
         <div className="grid h-full gap-10 lg:grid-cols-12">
-          <div className="flex flex-col lg:col-span-6">
+          <Side part="a" className="flex flex-col justify-center lg:col-span-6 lg:justify-start">
             <ChapterMark chapter={page.chapter} />
             <PageTitle text={page.title} className="mt-4 text-[clamp(3.2rem,7vw,7rem)]" />
             <dl className="mt-8 grid max-w-xl gap-6">
@@ -287,10 +314,10 @@ export function DepthSpread({ book, page }: PageProps) {
                 </Reveal>
               ))}
             </dl>
-          </div>
-          <div className="flex items-center justify-center lg:col-span-6">
+          </Side>
+          <Side part="b" className="flex items-center justify-center lg:col-span-6">
             <DepthGauge min={c.depthRange.min} max={c.depthRange.max} label={c.commonName} approx={c.depthRange.approx} className="w-full max-w-sm" height={400} />
-          </div>
+          </Side>
         </div>
       </PageFrame>
     </div>

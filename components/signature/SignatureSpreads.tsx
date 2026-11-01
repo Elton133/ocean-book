@@ -8,7 +8,8 @@ import { EASE_OUT } from "@/lib/motion";
 import { usePageMotion } from "@/components/motion/PageContext";
 import { Reveal, Rule } from "@/components/motion/Reveal";
 import { CertaintyTag, MarineSnow, Ref } from "@/components/media/Media";
-import { ChapterMark, PageFrame, PageTitle } from "@/components/pages/Frame";
+import { ChapterMark, PageFrame, PageTitle, Side } from "@/components/pages/Frame";
+import { HairlineSlider } from "@/components/ui/Controls";
 
 /** Find a reference index by matching its title or publisher. */
 const refOf = (c: Creature, re: RegExp) => {
@@ -16,15 +17,21 @@ const refOf = (c: Creature, re: RegExp) => {
   return i >= 0 ? i : undefined;
 };
 
+/** A figure variant or instruction set in type, not a button chip. */
 const Btn = ({ on, onClick, children }: { on?: boolean; onClick: () => void; children: React.ReactNode }) => (
   <button
     type="button"
     onClick={onClick}
     data-no-drag
     aria-pressed={on}
-    className={`annot border px-3.5 py-2 uppercase tracking-[0.16em] transition ${on ? "border-biolume bg-biolume text-abyss" : "border-ivory/30 hover:border-ivory/70"}`}
+    className={`group relative mr-4 pb-1 transition-opacity duration-500 ${on === undefined ? "opacity-90 hover:opacity-100" : on ? "opacity-100" : "opacity-45 hover:opacity-85"}`}
   >
-    {children}
+    {on === undefined && <span aria-hidden className="annot mr-1.5 opacity-60">↳</span>}
+    <span className="display text-lg italic leading-none sm:text-xl">{children}</span>
+    <span
+      aria-hidden
+      className={`absolute bottom-0 left-0 right-0 h-px origin-left bg-current transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] ${on ? "scale-x-100" : "scale-x-0 group-hover:scale-x-50"}`}
+    />
   </button>
 );
 
@@ -132,7 +139,7 @@ export function LureSpread({ book, page }: PageProps) {
     <div className="absolute inset-0 bg-black">
       <PageFrame>
         <div className="grid h-full gap-10 lg:grid-cols-12">
-          <div className="flex flex-col lg:col-span-4">
+          <Side part="a" className="flex flex-col justify-center lg:col-span-4 lg:justify-start">
             <ChapterMark chapter={page.chapter} label="Interactive" />
             <PageTitle text={page.title} className="mt-4 text-[clamp(3rem,6vw,6.2rem)] italic" />
             <Reveal delay={0.7}>
@@ -148,8 +155,8 @@ export function LureSpread({ book, page }: PageProps) {
             <Reveal delay={1.2} className="mt-6">
               <CertaintyTag certainty="confirmed" />
             </Reveal>
-          </div>
-          <div className="flex flex-col justify-center lg:col-span-8">
+          </Side>
+          <Side part="b" className="flex flex-col justify-center lg:col-span-8">
             <div className="relative aspect-[16/10] w-full overflow-hidden">
               <canvas ref={canvasRef} className="absolute inset-0 h-full w-full" aria-hidden />
               <svg viewBox="0 0 800 500" className="absolute inset-0 h-full w-full" role="img" aria-label="Silhouette of a female anglerfish with a glowing lure above its open mouth">
@@ -190,22 +197,10 @@ export function LureSpread({ book, page }: PageProps) {
               <span className="annot absolute right-3 top-3 opacity-70">Prey taken: {snaps}</span>
             </div>
             <div className="mt-4 flex flex-wrap items-center gap-4" data-no-drag>
-              <label className="flex flex-1 items-center gap-3">
-                <span className="annot w-20 uppercase opacity-60">Lure</span>
-                <input
-                  type="range"
-                  min={0}
-                  max={1}
-                  step={0.01}
-                  value={glow}
-                  onChange={(e) => setGlow(parseFloat(e.target.value))}
-                  className="h-px w-full cursor-pointer appearance-none bg-ivory/30 accent-biolume"
-                  aria-label="Lure brightness"
-                />
-              </label>
+              <HairlineSlider className="flex-1" value={glow} onChange={setGlow} from="dark" to="bright" label="Lure brightness" />
               <p className="text-sm italic opacity-70">{glow < 0.15 ? "Dark: nothing comes." : glow < 0.6 ? "A faint glow — a few prey drift closer." : "Bright: prey are drawn within reach of the jaws."}</p>
             </div>
-          </div>
+          </Side>
         </div>
       </PageFrame>
     </div>
@@ -237,7 +232,10 @@ const wlColor = (nm: number) => {
 export function MantisSpread({ book, page }: PageProps) {
   const c = book.creature;
   const { active, reduced, delay } = usePageMotion();
-  const [tab, setTab] = useState<"vision" | "strike">("vision");
+  const { part } = usePageMotion();
+  const [chosen, setTab] = useState<"vision" | "strike">("vision");
+  // On small screens the two subjects are two pages; on wide screens, a choice.
+  const tab = part === "a" ? "vision" : part === "b" ? "strike" : chosen;
   const [who, setWho] = useState<"human" | "mantis">("mantis");
   const [slow, setSlow] = useState(true);
   const [strikeId, setStrikeId] = useState(0);
@@ -259,10 +257,10 @@ export function MantisSpread({ book, page }: PageProps) {
       <div aria-hidden className="absolute inset-0" style={{ background: "radial-gradient(70% 60% at 70% 40%, rgba(64,182,255,0.12), transparent 70%)" }} />
       <PageFrame>
         <div className="grid h-full gap-10 lg:grid-cols-12">
-          <div className="flex flex-col lg:col-span-4">
+          <div className="flex flex-col justify-center lg:col-span-4 lg:justify-start">
             <ChapterMark chapter={page.chapter} label="Interactive" />
             <PageTitle text={page.title} className="mt-4 text-[clamp(3rem,6vw,6.2rem)]" />
-            <Reveal delay={0.6} className="mt-6 flex gap-2">
+            <Reveal delay={0.6} className={`mt-6 flex gap-2 ${part === "all" ? "" : "hidden"}`}>
               <Btn on={tab === "vision"} onClick={() => setTab("vision")}>Vision</Btn>
               <Btn on={tab === "strike"} onClick={() => setTab("strike")}>Strike</Btn>
             </Reveal>
@@ -422,7 +420,7 @@ export function BarreleyeSpread({ book, page }: PageProps) {
       <div aria-hidden className="absolute inset-0" style={{ background: "radial-gradient(50% 40% at 60% 10%, rgba(140,255,170,0.10), transparent 70%)" }} />
       <PageFrame>
         <div className="grid h-full gap-10 lg:grid-cols-12">
-          <div className="flex flex-col lg:col-span-4">
+          <Side part="a" className="flex flex-col justify-center lg:col-span-4 lg:justify-start">
             <ChapterMark chapter={page.chapter} label="Interactive" />
             <PageTitle text={page.title} className="mt-4 text-[clamp(3rem,6vw,6.2rem)] italic" />
             <Reveal delay={0.6}>
@@ -437,13 +435,8 @@ export function BarreleyeSpread({ book, page }: PageProps) {
                 <Ref n={refOf(c, /MBARI/i)} />
               </p>
             </Reveal>
-            <Reveal delay={1.1} className="mt-6 flex flex-wrap gap-2">
-              <Btn on={!feeding} onClick={() => setFeeding(false)}>Searching</Btn>
-              <Btn on={feeding} onClick={() => setFeeding(true)}>Feeding</Btn>
-              <Btn on={labels} onClick={() => setLabels((l) => !l)}>Labels</Btn>
-            </Reveal>
-          </div>
-          <div className="flex items-center justify-center lg:col-span-8" data-no-drag>
+          </Side>
+          <Side part="b" className="flex flex-col items-center justify-center gap-4 lg:col-span-8">
             <svg viewBox="0 0 700 460" className="h-auto w-full max-w-3xl overflow-visible" role="img" aria-label={`Barreleye fish diagram, ${feeding ? "tilted upward to feed with eyes rotated forward" : "level with eyes pointing upward"}`}>
               {/* prey overhead */}
               <motion.g animate={reduced ? undefined : { x: [0, 14, 0] }} transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}>
@@ -482,7 +475,12 @@ export function BarreleyeSpread({ book, page }: PageProps) {
               </AnimatePresence>
               <text x="0" y="450" className="annot" fontSize="9" fill="currentColor" opacity="0.45">ILLUSTRATIVE — BASED ON ROBISON &amp; REISENBICHLER (2008)</text>
             </svg>
-          </div>
+            <Reveal delay={1.1} className="flex flex-wrap justify-center">
+              <Btn on={!feeding} onClick={() => setFeeding(false)}>Searching</Btn>
+              <Btn on={feeding} onClick={() => setFeeding(true)}>Feeding</Btn>
+              <Btn on={labels} onClick={() => setLabels((l) => !l)}>Labels</Btn>
+            </Reveal>
+          </Side>
         </div>
       </PageFrame>
     </div>
@@ -508,7 +506,7 @@ export function DumboSpread({ book, page }: PageProps) {
       <MarineSnow density={50} />
       <PageFrame>
         <div className="grid h-full gap-10 lg:grid-cols-12">
-          <div className="flex flex-col lg:col-span-4">
+          <Side part="a" className="flex flex-col justify-center lg:col-span-4 lg:justify-start">
             <ChapterMark chapter={page.chapter} label="Interactive" />
             <PageTitle text={page.title} className="mt-4 text-[clamp(3rem,6vw,6.2rem)]" />
             <Reveal delay={0.6}>
@@ -523,12 +521,8 @@ export function DumboSpread({ book, page }: PageProps) {
                 <Ref n={hadal} />
               </p>
             </Reveal>
-            <Reveal delay={1.1} className="mt-6 flex gap-2">
-              <Btn on={mode === "fins"} onClick={() => setMode("fins")}>Fin swimming</Btn>
-              <Btn on={mode === "hop"} onClick={() => setMode("hop")}>Hop &amp; spread</Btn>
-            </Reveal>
-          </div>
-          <div className="relative flex items-center justify-center lg:col-span-8">
+          </Side>
+          <Side part="b" className="relative flex flex-col items-center justify-center gap-4 lg:col-span-8">
             <svg viewBox="0 0 600 460" className="h-auto w-full max-w-2xl overflow-visible" role="img" aria-label={`Animated dumbo octopus, ${mode === "fins" ? "flapping its fins to swim" : "hopping along the seafloor"}`}>
               {mode === "hop" && <rect x="0" y="420" width="600" height="40" fill="#1a1712" opacity="0.8" />}
               <motion.g
@@ -590,8 +584,12 @@ export function DumboSpread({ book, page }: PageProps) {
               </motion.g>
               <text x="0" y="20" className="annot" fontSize="9" fill="currentColor" opacity="0.45">ILLUSTRATIVE</text>
             </svg>
+            <Reveal delay={1.1} className="flex flex-wrap justify-center">
+              <Btn on={mode === "fins"} onClick={() => setMode("fins")}>Fin swimming</Btn>
+              <Btn on={mode === "hop"} onClick={() => setMode("hop")}>Hop &amp; spread</Btn>
+            </Reveal>
             <Rule className="absolute bottom-0 left-0 right-0" />
-          </div>
+          </Side>
         </div>
       </PageFrame>
     </div>

@@ -2,10 +2,11 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { motion, useMotionValueEvent, useReducedMotion, useScroll, useSpring, useTransform } from "framer-motion";
-import { useRef, useState } from "react";
+import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
 import type { LibraryEntry } from "@/lib/catalogue";
 import { EASE_OUT } from "@/lib/motion";
+import { ZONES } from "@/lib/zones";
 import { CreatureLibrary, markFromLibrary } from "./CreatureLibrary";
 
 interface Featured {
@@ -70,8 +71,6 @@ export function OceanLandingPage({ entries, featured }: { entries: LibraryEntry[
   const reduced = useReducedMotion();
   const heroRef = useRef<HTMLElement>(null);
   const { scrollYProgress: heroProgress } = useScroll({ target: heroRef, offset: ["start start", "end start"] });
-  const { scrollYProgress } = useScroll();
-  const smooth = useSpring(scrollYProgress, { stiffness: 60, damping: 20 });
 
   // Camera move: the hero image pushes in and sinks as you descend.
   const imgScale = useTransform(heroProgress, [0, 1], [1.05, reduced ? 1.05 : 1.3]);
@@ -79,25 +78,54 @@ export function OceanLandingPage({ entries, featured }: { entries: LibraryEntry[
   const textY = useTransform(heroProgress, [0, 1], ["0%", reduced ? "0%" : "-40%"]);
   const textOpacity = useTransform(heroProgress, [0, 0.7], [1, 0]);
 
-  // A depth meter that reads deeper as the page scrolls.
-  const [depth, setDepth] = useState(0);
-  useMotionValueEvent(smooth, "change", (v) => setDepth(Math.round(v * 4000)));
-  const bgTint = useTransform(smooth, [0, 1], ["rgba(12,43,47,0.55)", "rgba(0,0,0,0)"]);
-  const meterHeight = useTransform(smooth, [0, 1], ["0%", "100%"]);
+  // The depth meter reads the zone band under the middle of the screen.
+  const [depth, setDepth] = useState({ m: 0, zone: "", frac: 0 });
+  useEffect(() => {
+    let raf = 0;
+    const read = () => {
+      const mid = window.innerHeight / 2;
+      const bands = [...document.querySelectorAll<HTMLElement>("[data-zone]")];
+      let m = 0;
+      let zone = "";
+      for (const b of bands) {
+        const r = b.getBoundingClientRect();
+        const from = +b.dataset.from!;
+        const to = +b.dataset.to!;
+        if (r.top <= mid) {
+          const p = Math.min(1, Math.max(0, (mid - r.top) / r.height));
+          m = from + p * (to - from);
+          zone = ZONES.find((z) => z.slug === b.dataset.zone)?.name ?? "";
+        }
+      }
+      setDepth({ m: Math.round(m / 10) * 10, zone, frac: Math.sqrt(m / 11000) });
+    };
+    const onScroll = () => {
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(read);
+    };
+    read();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+    return () => {
+      cancelAnimationFrame(raf);
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+    };
+  }, []);
 
   const octo = featured.creature;
 
   return (
     <div className="relative">
-      <motion.div aria-hidden className="pointer-events-none fixed inset-0 -z-0" style={{ background: bgTint }} />
 
       {/* Depth meter */}
       <div className="pointer-events-none fixed left-4 top-1/2 z-30 hidden -translate-y-1/2 flex-col items-center gap-3 md:flex lg:left-8">
         <span className="annot opacity-50 [writing-mode:vertical-rl]">Depth</span>
         <div className="relative h-40 w-px bg-ivory/20">
-          <motion.span className="absolute left-0 top-0 w-px bg-biolume" style={{ height: meterHeight }} />
+          <span className="absolute left-0 top-0 w-px bg-biolume transition-[height] duration-500" style={{ height: `${depth.frac * 100}%` }} />
         </div>
-        <span className="annot tabular-nums opacity-80">{depth.toLocaleString("en-GB")} m</span>
+        <span className="annot tabular-nums opacity-80">{depth.m.toLocaleString("en-GB")} m</span>
+        {depth.zone && <span className="annot max-w-[5rem] text-center text-[0.55rem] uppercase leading-tight tracking-[0.15em] opacity-50">{depth.zone.replace(/^The /, "")}</span>}
       </div>
 
       {/* Header */}

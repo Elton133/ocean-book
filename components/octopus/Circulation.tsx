@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { EASE_OUT } from "@/lib/motion";
 import { usePageMotion } from "@/components/motion/PageContext";
+import { Action } from "@/components/ui/Controls";
 import { bez, bezPath, type Bezier } from "./geometry";
 
 type Kind = "venous" | "gill" | "arterial";
@@ -204,14 +205,9 @@ export function Circulation({ className = "" }: { className?: string }) {
           <span className="flex items-center gap-2"><span className="h-2 w-2 rounded-full" style={{ background: COLOR.venous }} />Oxygen-poor</span>
           <span className="flex items-center gap-2"><span className="h-2 w-2 rounded-full" style={{ background: COLOR.arterial }} />Oxygen-rich (blue)</span>
         </div>
-        <button
-          type="button"
-          onClick={() => setJet(true)}
-          disabled={jet}
-          className="annot border border-biolume/60 px-4 py-2 uppercase tracking-[0.18em] text-biolume transition hover:bg-biolume hover:text-abyss disabled:opacity-40"
-        >
-          {jet ? "Jetting…" : "Jet away"}
-        </button>
+        <Action onClick={() => setJet(true)} disabled={jet}>
+          {jet ? "Jetting…" : "Make it jet away"}
+        </Action>
         <p className="min-h-[1.5rem] text-center text-sm italic opacity-75" aria-live="polite">
           {jet ? "The mantle squeezes; the systemic heart pauses briefly while the branchial hearts keep going." : "Crawling: all three hearts beating."}
         </p>

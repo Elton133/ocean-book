@@ -106,6 +106,53 @@ body {
   border-color: var(--hairline);
 }
 
+/* Laid paper for the scientific spreads: fibres, a little foxing, a warm edge. */
+.paper {
+  background-color: var(--ivory);
+  background-image:
+    radial-gradient(circle at 12% 18%, rgba(150, 110, 60, 0.07) 0 2px, transparent 3px),
+    radial-gradient(circle at 83% 72%, rgba(150, 110, 60, 0.06) 0 3px, transparent 5px),
+    radial-gradient(circle at 64% 9%, rgba(150, 110, 60, 0.05) 0 1.5px, transparent 3px),
+    radial-gradient(120% 100% at 50% 50%, transparent 62%, rgba(120, 90, 50, 0.16) 100%),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='f'><feTurbulence type='fractalNoise' baseFrequency='0.55 0.9' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.45  0 0 0 0 0.36  0 0 0 0 0.24  0 0 0 0.09 0'/></filter><rect width='100%' height='100%' filter='url(%23f)'/></svg>");
+}
+
+/* Hairline range input */
+.book-range {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 16px;
+  background: transparent;
+  cursor: pointer;
+}
+.book-range::-webkit-slider-runnable-track {
+  height: 1px;
+  background: currentColor;
+  opacity: 0.45;
+}
+.book-range::-moz-range-track {
+  height: 1px;
+  background: currentColor;
+  opacity: 0.45;
+}
+.book-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 13px;
+  height: 13px;
+  margin-top: -6px;
+  border-radius: 9999px;
+  background: var(--ivory);
+  border: 1px solid var(--abyss);
+  box-shadow: 0 0 0 3px rgba(142, 240, 228, 0.25);
+}
+.book-range::-moz-range-thumb {
+  width: 13px;
+  height: 13px;
+  border-radius: 9999px;
+  background: var(--ivory);
+  border: 1px solid var(--abyss);
+}
+
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }

@@ -89,6 +89,7 @@ export interface PageSpec<D = Record<string, unknown>> {
 
 export interface Book {
   creature: Creature;
+  zone: import("./zones").ZoneSlug;
   pages: PageSpec[];
   related: Pick<Creature, "slug" | "commonName" | "scientificName" | "image">[];
 }

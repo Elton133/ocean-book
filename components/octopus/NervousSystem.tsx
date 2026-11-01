@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useMemo, useState } from "react";
 import { EASE_OUT } from "@/lib/motion";
 import { usePageMotion } from "@/components/motion/PageContext";
+import { Action } from "@/components/ui/Controls";
 import { bez, bezPath, type Bezier } from "./geometry";
 
 const C = 250;
@@ -162,13 +163,7 @@ export function NervousSystem({ className = "" }: { className?: string }) {
       </div>
 
       <div className="mx-auto mt-2 flex max-w-md flex-col items-center gap-3" data-no-drag>
-        <button
-          type="button"
-          onClick={fireBrain}
-          className="annot border border-biolume/60 px-4 py-2 uppercase tracking-[0.18em] text-biolume transition hover:bg-biolume hover:text-abyss"
-        >
-          Send a command from the brain
-        </button>
+        <Action onClick={fireBrain}>Send a command from the brain</Action>
         <p className="min-h-[2.75rem] text-center text-sm italic opacity-75" aria-live="polite">
           {caption}
         </p>
