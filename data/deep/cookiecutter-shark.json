@@ -1,0 +1,62 @@
+{
+  "extraReferences": [
+    { "title": "Moonless night sky increases Isistius species (cookiecutter shark) and live human contact. PLOS ONE 19: e0291852", "publisher": "PLOS ONE", "url": "https://doi.org/10.1371/journal.pone.0291852", "year": 2024, "authors": "Minaglia S., Liegl M." },
+    { "title": "Observation of an attack by a cookiecutter shark (Isistius brasiliensis) on a white shark (Carcharodon carcharias). Pacific Science 67: 129–134", "publisher": "Pacific Science", "url": "https://doi.org/10.2984/67.1.10", "year": 2013, "authors": "Hoyos-Padilla M., Papastamatiou Y.P., O'Sullivan J., Lowe C.G." },
+    { "title": "Cookiecutter shark bite wounds on cetaceans of the Gulf of Mexico. Aquatic Mammals, pp. 491–499", "publisher": "Aquatic Mammals", "url": "https://doi.org/10.1578/am.44.5.2018.491", "year": 2018, "authors": "Grace M.A., Aichinger Dias L., Maze-Foley K. et al." }
+  ],
+  "anatomy": {
+    "lede": "A cookiecutter shark is small enough to hold in one hand, yet every part of its head is built for taking bites out of animals hundreds of times its size.",
+    "media": 0,
+    "hotspots": [
+      { "id": "eye", "label": "Eye", "x": 6, "y": 52, "text": "The large green eyes face forwards but sit far enough back that the shark has little binocular vision.", "ref": 2 },
+      { "id": "lips", "label": "Sucking lips", "x": 9, "y": 57, "text": "Fleshy, sucker-like lips and strong throat muscles let it seal onto the skin of its victim before it bites.", "ref": 1 },
+      { "id": "collar", "label": "Dark collar", "x": 18, "y": 56, "text": "A dark brown band rings the gill region. It is the only part of the underside without light organs.", "ref": 2 },
+      { "id": "pectoral", "label": "Pectoral fin", "x": 26, "y": 56, "text": "The pectoral fins sit just behind the collar. Further back, the pelvic fins are larger than the dorsal fins.", "ref": 2 },
+      { "id": "belly", "label": "Glowing belly", "x": 47, "y": 61, "text": "The underside is densely covered in tiny light organs. They can keep glowing for up to three hours after the shark dies.", "ref": 2 },
+      { "id": "dorsals", "label": "Dorsal fins", "x": 66, "y": 47, "text": "Two small, spineless dorsal fins of nearly equal size sit far back on the body. There is no anal fin.", "ref": 2 },
+      { "id": "tail", "label": "Tail", "x": 94, "y": 50, "text": "The tail fin is large, with a long lower lobe.", "ref": 2 }
+    ],
+    "stats": [
+      { "value": "56 cm", "label": "Maximum length (females)", "ref": 2 },
+      { "value": "25–31", "label": "Lower teeth", "ref": 2 },
+      { "value": "0–3,700 m", "label": "Depth range", "ref": 3 },
+      { "value": "3 hours", "label": "Glow after death", "ref": 2 }
+    ]
+  },
+  "body": {
+    "lede": "The cookiecutter's 'bite' is really a suction, spin and slice, made possible by an unusual set of teeth.",
+    "systems": [
+      { "title": "Two kinds of teeth", "text": "The upper jaw holds 30–37 small, erect, thorn-like teeth that grip, while the lower jaw has 25–31 much larger, triangular blades that cut. Larger sharks have more teeth.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Teeth as one blade", "text": "The lower teeth are joined at their bases, so touching one moves the whole row, so the whole row acts as one cutting edge.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Light organs", "text": "Countless minute photophores give the belly an even glow, which hides the shark's silhouette from animals looking up from below.", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "mind": {
+    "lede": "No one has watched a cookiecutter hunt in the deep, so its behaviour is pieced together from wounds and rare encounters.",
+    "studies": [
+      { "year": "2013", "title": "Biting a great white", "text": "Researchers documented a cookiecutter shark attacking a white shark, one of the largest predatory fishes in the sea.", "certainty": "confirmed", "ref": 5 },
+      { "year": "2018", "title": "Scars on dolphins and whales", "text": "Crater-shaped bite wounds from cookiecutter sharks have been catalogued on cetaceans in the Gulf of Mexico, a sign of how widely it feeds.", "certainty": "confirmed", "ref": 6 },
+      { "year": "2024", "title": "Dark nights, more bites", "text": "Of seven known bites on living people worldwide, six were in Hawaiʻi. Analysis of channel swims there from 1961 to 2023 found that swimmers were far more likely to be bitten when neither moon nor sun was in the sky.", "certainty": "confirmed", "ref": 4 }
+    ]
+  },
+  "survival": {
+    "lede": "A small shark that feeds on giants has to hide from them as well.",
+    "tactics": [
+      { "title": "Counter-illumination", "text": "The glowing belly matches the faint light from above, making the shark hard to see from below.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Deep by day", "text": "It spends the day below about 1,000 m and rises towards the surface only at night to feed.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Hit and run", "text": "By taking a single plug of flesh and letting go, it can feed on large, dangerous animals without having to kill them.", "certainty": "hypothesis", "ref": 2 }
+    ],
+    "predators": ["Large sharks", "Large bony fishes"],
+    "threats": [
+      { "title": "Night-time catches", "text": "Its deep habitat makes it hard to target, but it is sometimes caught at night during its migration to the surface. Populations could fall if fishing pressure grows.", "certainty": "confirmed", "ref": 2 }
+    ]
+  },
+  "life": {
+    "lede": "Like many deep-sea sharks, the cookiecutter gives birth to live young that hatch from egg cases inside the mother.",
+    "stages": [
+      { "name": "Embryo", "text": "Pups develop in egg cases inside the mother's uterus, living on their yolk. Litters of 6 to 12 live young have been recorded.", "ref": 2 },
+      { "name": "Birth", "text": "The pups hatch inside the mother and are born live at about 14 cm long.", "ref": 1 },
+      { "name": "Adult", "text": "Males mature at about 38 cm and females at about 40 cm long. Females grow larger, reaching up to 56 cm.", "ref": 1 }
+    ]
+  }
+}

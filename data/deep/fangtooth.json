@@ -1,0 +1,61 @@
+{
+  "extraReferences": [
+    { "title": "Anoplogaster cornuta (common fangtooth)", "publisher": "Animal Diversity Web (University of Michigan)", "url": "https://animaldiversity.org/accounts/Anoplogaster_cornuta/" },
+    { "title": "Ultra-black camouflage in deep-sea fishes. Current Biology 30: 3470–3476", "publisher": "Current Biology", "url": "https://doi.org/10.1016/j.cub.2020.06.044", "year": 2020, "authors": "Davis A.L., Thomas K.N., Goetz F.E., Robison B.H., Johnsen S., Osborn K.J." },
+    { "title": "Comparative studies on the metabolism of shallow-water and deep-sea marine fishes. IV. Patterns of aerobic metabolism in the mesopelagic deep-sea fangtooth fish Anoplogaster cornuta. Marine Biology 35: 287–293", "publisher": "Marine Biology", "url": "https://doi.org/10.1007/BF00396876", "year": 1976, "authors": "Gordon M.S., Belman B.W., Chow P.H." }
+  ],
+  "anatomy": {
+    "lede": "A fangtooth is little more than a head and a mouth wrapped in a black body: a palm-sized ambusher built to grab whatever drifts close in the dark.",
+    "media": 0,
+    "hotspots": [
+      { "id": "fangs", "label": "Fangs", "x": 92, "y": 56, "text": "The jaws carry huge fang-like teeth, and adults are dark even inside the mouth, so the teeth are the only thing that stands out.", "ref": 2 },
+      { "id": "eye", "label": "Small eye", "x": 87.5, "y": 38, "text": "The eyes are small and are not thought to be very powerful, so the fish leans on other senses to find prey.", "ref": 3 },
+      { "id": "lateral-line", "label": "Lateral line", "x": 47, "y": 26, "text": "The lateral line runs as an open groove along the side, bridged at intervals by scales. It picks up tiny movements in the water.", "ref": 2 },
+      { "id": "pectoral-fin", "label": "Pectoral fin", "x": 55, "y": 43, "text": "When its mouth is stuffed with large prey, the fangtooth is reported to fan water over its gills with its pectoral fins.", "ref": 6 },
+      { "id": "dorsal-fin", "label": "Dorsal fin", "x": 34, "y": 21, "text": "A single long-based dorsal fin carries 17–20 soft rays and no spines.", "ref": 6 },
+      { "id": "tail", "label": "Prickly tail", "x": 15, "y": 21, "text": "The skin of the tail fin carries small, prickly scales.", "ref": 2 }
+    ],
+    "stats": [
+      { "value": "18 cm", "label": "Maximum length", "ref": 1 },
+      { "value": "500–2,100 m", "label": "Usual depth", "ref": 1 },
+      { "value": "< 0.5%", "label": "Light reflected by the skin", "ref": 7 },
+      { "value": "about 13 cm", "label": "Size at maturity", "ref": 6 }
+    ]
+  },
+  "senses": {
+    "lede": "In water where sunlight never reaches, the fangtooth seems to feel its way to food rather than look for it.",
+    "senses": [
+      { "kind": "vibration", "name": "Lateral line", "text": "The lateral line along each side senses even small movements nearby, which is how the fish is thought to detect prey.", "certainty": "confirmed", "ref": 1 },
+      { "kind": "touch", "name": "Touch", "text": "Scientists at MBARI believe the fangtooth has poor eyesight but an excellent sense of touch.", "certainty": "hypothesis", "ref": 1 },
+      { "kind": "heat", "name": "Temperature", "text": "The lateral line is also described as sensing changes in water temperature.", "certainty": "uncertain", "ref": 3 },
+      { "kind": "sight", "name": "Sight", "text": "Its small, milky-blue eyes are not very powerful, and how much it uses them has not been documented.", "certainty": "uncertain", "ref": 3 }
+    ]
+  },
+  "body": {
+    "lede": "Cold, dark, oxygen-poor water shapes how the fangtooth looks and how it breathes.",
+    "systems": [
+      { "title": "Skin that swallows light", "text": "A continuous layer of tightly packed pigment granules in the skin, with none of the gaps found in ordinary black fish, absorbs more than 99.5% of the light that hits it. The granules are close to the ideal size and shape for trapping light.", "certainty": "confirmed", "ref": 7 },
+      { "title": "Built for the cold", "text": "The fangtooth is adapted to a narrow band of cold water, around 4–6 °C.", "certainty": "confirmed", "ref": 6 },
+      { "title": "Breathing tested", "text": "In a 1976 study, ten fangtooths swam at controlled speeds at 3, 7 and 10 °C while the oxygen in their water was lowered towards zero, to learn how the species might survive the oxygen-poor layers of the eastern Pacific.", "certainty": "confirmed", "ref": 8 },
+      { "title": "Living with little oxygen", "text": "How it copes with the oxygen-poor layers it passes through is unsettled. It may visit them only briefly and pay back an 'oxygen debt' later, or switch to metabolism that needs no oxygen while there.", "certainty": "hypothesis", "ref": 6 }
+    ]
+  },
+  "survival": {
+    "lede": "Small as it is, the fangtooth is both hunter and hunted in the open midwater.",
+    "tactics": [
+      { "title": "Lurk and wait", "text": "Its gaping mouth, stubby fins and mottled body suggest a predator that hangs in the water and waits for prey to come close rather than chasing it.", "certainty": "hypothesis", "ref": 1 },
+      { "title": "Invisible in the beam", "text": "In the deep sea, the main threat is being lit up by another animal's bioluminescence. Ultra-black skin can cut the distance at which a predator spots it more than six-fold compared with a fish reflecting 2% of light.", "certainty": "confirmed", "ref": 7 },
+      { "title": "Big mouthfuls", "text": "Adults have been seen eating fish about a third of their own size, and most prey is swallowed whole.", "certainty": "confirmed", "ref": 6 }
+    ],
+    "predators": ["Tunas", "Marlin", "Sharks"]
+  },
+  "life": {
+    "lede": "A fangtooth starts life near the surface and sinks into the dark as it grows, changing so much on the way that the young were once thought to be another species.",
+    "stages": [
+      { "name": "Egg and larva", "text": "Eggs are spawned into open water with no parental care, and the larvae drift in the plankton, nearer the surface than the adults.", "ref": 6 },
+      { "name": "Horned juvenile", "duration": "to about 8 cm", "text": "Juveniles are pale, with long head spines, large eyes and small teeth in several rows. They feed on crustaceans and start to look like adults at about 8 cm.", "ref": 2 },
+      { "name": "Adult", "duration": "from about 13 cm", "text": "Adults turn uniformly blackish-brown, grow their great fangs and switch mainly to fish. They are thought to mature at about 13 cm.", "ref": 6 },
+      { "name": "Spawning", "text": "Spawning has been reported from June to August. Where it happens is unknown, and there seem to be no special spawning grounds.", "ref": 6 }
+    ]
+  }
+}

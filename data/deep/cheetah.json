@@ -1,0 +1,327 @@
+{
+  "extraReferences": [
+    {
+      "title": "Recent inner ear specialization for high-speed hunting in cheetahs. Scientific Reports 8: 2301",
+      "publisher": "Scientific Reports",
+      "authors": "Grohé, C., Lee, B. & Flynn, J.J.",
+      "year": 2018,
+      "url": "https://doi.org/10.1038/s41598-018-20198-3"
+    },
+    {
+      "title": "Cheetah do not abandon hunts because they overheat. Biology Letters 9: 20130472",
+      "publisher": "Biology Letters",
+      "authors": "Hetem, R.S. et al.",
+      "year": 2013,
+      "url": "https://doi.org/10.1098/rsbl.2013.0472"
+    },
+    {
+      "title": "Acinonyx jubatus (cheetah) — species record",
+      "publisher": "Animal Genome Size Database",
+      "authors": "Gregory, T.R.",
+      "url": "https://www.genomesize.com/result_species.php?id=4253"
+    },
+    {
+      "title": "Acinonyx jubatus genome assembly VMU_Ajub_asm_v1.0 (GCF_027475565.1)",
+      "publisher": "NCBI Datasets",
+      "year": 2022,
+      "url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_027475565.1/"
+    },
+    {
+      "title": "Genomic legacy of the African cheetah, Acinonyx jubatus. Genome Biology 16: 277",
+      "publisher": "Genome Biology",
+      "authors": "Dobrynin, P. et al.",
+      "year": 2015,
+      "url": "https://doi.org/10.1186/s13059-015-0837-4"
+    },
+    {
+      "title": "The global decline of cheetah Acinonyx jubatus and what it means for conservation. PNAS 114: 528–533",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "authors": "Durant, S.M. et al.",
+      "year": 2017,
+      "url": "https://doi.org/10.1073/pnas.1611122114"
+    },
+    {
+      "title": "Acinonyx jubatus (cheetah)",
+      "publisher": "Animal Diversity Web, University of Michigan",
+      "url": "https://animaldiversity.org/accounts/Acinonyx_jubatus/"
+    }
+  ],
+  "anatomy": {
+    "lede": "Everything about the cheetah is traded for speed: a light, greyhound-like frame, a spring-loaded spine, oversized airways and claws that grip like running spikes.",
+    "media": 0,
+    "hotspots": [
+      {
+        "id": "eye",
+        "label": "Eye",
+        "x": 23,
+        "y": 34,
+        "text": "High-set eyes with an elongated fovea give a sharp, wide-angle view of the plains. Cheetahs hunt by sight far more than by smell.",
+        "ref": 4
+      },
+      {
+        "id": "tear",
+        "label": "Tear mark",
+        "x": 24,
+        "y": 38,
+        "text": "A black stripe runs from the inner corner of each eye to the mouth. It may cut glare from the sun, though this has not been proven.",
+        "ref": 4
+      },
+      {
+        "id": "nose",
+        "label": "Nasal passages",
+        "x": 21,
+        "y": 36,
+        "text": "Large nostrils and nasal passages pull in air fast. They leave little room for long tooth roots, so a cheetah's teeth are small for a big cat.",
+        "ref": 4
+      },
+      {
+        "id": "spine",
+        "label": "Spine",
+        "x": 50,
+        "y": 31,
+        "text": "The flexible spine works like a spring for the back legs, lengthening every stride — but it is physically taxing.",
+        "ref": 4
+      },
+      {
+        "id": "paw",
+        "label": "Claws",
+        "x": 27,
+        "y": 62,
+        "text": "Its claws are only weakly retractile, with no protective skin folds, so they stay blunted from contact with the ground — and leave dog-like prints.",
+        "ref": 12
+      },
+      {
+        "id": "hind",
+        "label": "Hind legs",
+        "x": 61,
+        "y": 56,
+        "text": "At high speed a galloping cheetah carries most of its weight on its powerful back legs.",
+        "ref": 2
+      },
+      {
+        "id": "tail",
+        "label": "Tail",
+        "x": 88,
+        "y": 60,
+        "text": "The ringed tail, ending in a white tip, swings during turns and helps steer and balance the body.",
+        "ref": 3
+      }
+    ],
+    "stats": [
+      {
+        "value": "93 km/h",
+        "label": "Top speed measured in the wild",
+        "ref": 1
+      },
+      {
+        "value": "7 m",
+        "label": "Length of a stride",
+        "ref": 4
+      },
+      {
+        "value": "34–64 kg",
+        "label": "Adult weight",
+        "ref": 4
+      },
+      {
+        "value": "0–72 km/h in 2.5 s",
+        "label": "Acceleration",
+        "ref": 4
+      }
+    ]
+  },
+  "senses": {
+    "lede": "A daytime hunter of the open plains, the cheetah relies on its eyes — and on an inner ear tuned to keep its gaze steady at full sprint.",
+    "senses": [
+      {
+        "kind": "sight",
+        "name": "Sight",
+        "text": "Cheetahs scan the plains from termite mounds and rocky outcrops, picking out prey by eye before they begin to stalk.",
+        "certainty": "confirmed",
+        "ref": 4
+      },
+      {
+        "kind": "balance",
+        "name": "Balance",
+        "text": "Scans of cat skulls show the cheetah's balance organ in the inner ear is unusually large and differently shaped from other cats'. This probably helps keep its head and eyes steady while chasing prey at speed.",
+        "certainty": "hypothesis",
+        "ref": 6
+      },
+      {
+        "kind": "hearing",
+        "name": "Hearing",
+        "text": "Cheetahs keep in touch with high-pitched chirps that can be heard about 1.6 km away. A study at the Smithsonian's National Zoo found each cheetah's chirp differs, so they may recognise one another by voice.",
+        "certainty": "hypothesis",
+        "ref": 4
+      },
+      {
+        "kind": "smell",
+        "name": "Smell",
+        "text": "Because cheetahs are mostly solitary, scent marks of urine and droppings are an important way of passing on messages.",
+        "certainty": "confirmed",
+        "ref": 12
+      }
+    ]
+  },
+  "body": {
+    "lede": "A cheetah's body is tuned for a 20-second sprint, from its heart and lungs to the way its shoulders float free of the skeleton.",
+    "systems": [
+      {
+        "title": "Big heart, big lungs",
+        "text": "Large lungs and nostrils let air in quickly, while a large heart, liver and adrenal glands support a rapid physical response.",
+        "certainty": "confirmed",
+        "ref": 4
+      },
+      {
+        "title": "Floating shoulders",
+        "text": "Its shoulder blades are vertical and not attached to the small collarbones, and its hips swivel on a flexible spine, all of which lengthens the stride.",
+        "certainty": "confirmed",
+        "ref": 4
+      },
+      {
+        "title": "Not overheating after all",
+        "text": "Cheetahs were long said to give up chases because they overheat. Body-temperature loggers on four wild cheetahs showed they abandoned hunts at a normal 38.4 °C — and their temperature rose most after a successful hunt, perhaps from stress.",
+        "certainty": "confirmed",
+        "ref": 7
+      }
+    ]
+  },
+  "genome": {
+    "lede": "The cheetah genome, first published in 2015, reveals a species that passed through severe bottlenecks and now carries remarkably little genetic variety.",
+    "diploid": 38,
+    "genomeGb": 2.4,
+    "refs": {
+      "diploid": 8,
+      "genome": 9
+    },
+    "sequenced": 2015,
+    "findings": [
+      {
+        "title": "Almost identical genomes",
+        "text": "Wild-born African cheetahs' genomes are on average 95% homozygous — far more than an outbred domestic cat (24%) or even a Virunga mountain gorilla (78%).",
+        "certainty": "confirmed",
+        "ref": 10
+      },
+      {
+        "title": "Two ancient crashes",
+        "text": "Genetic models point to two population bottlenecks: one more than 100,000 years ago, and another about 11,000–12,600 years ago in Africa, when many large Ice Age mammals died out.",
+        "certainty": "hypothesis",
+        "ref": 10
+      },
+      {
+        "title": "Skin grafts that are not rejected",
+        "text": "Loss and low diversity of immune (MHC) genes would explain why unrelated cheetahs accept each other's skin grafts. Changes in a sperm gene may also help explain why most cheetah sperm are misshapen.",
+        "certainty": "hypothesis",
+        "ref": 10
+      }
+    ]
+  },
+  "mind": {
+    "lede": "Cheetahs have one of the most unusual social lives among cats: solitary mothers, but brothers who stay together for life.",
+    "studies": [
+      {
+        "year": "Field",
+        "title": "Brothers for life",
+        "text": "Young males usually stay together in a coalition, often two or three littermates. Coalitions defend territories, and larger ones hold them longer than single males.",
+        "certainty": "confirmed",
+        "ref": 12
+      },
+      {
+        "year": "Field",
+        "title": "Calling until reunited",
+        "text": "When members of a male coalition become separated, they may call with 'yipps' and 'churrs' for up to 20 minutes until they find each other again.",
+        "certainty": "confirmed",
+        "ref": 12
+      },
+      {
+        "year": "Field",
+        "title": "Lessons in hunting",
+        "text": "When her cubs are about six months old, a mother brings them live prey so they can practise making a kill.",
+        "certainty": "confirmed",
+        "ref": 4
+      },
+      {
+        "year": "Ancient",
+        "title": "A hunting partner for kings",
+        "text": "Cheetahs were semi-domesticated for hunting in ancient Egypt, Sumer and Assyria, and later by European and Indian royalty, who released them hooded, like falcons, when game was in sight.",
+        "certainty": "confirmed",
+        "ref": 12
+      }
+    ]
+  },
+  "survival": {
+    "lede": "The cheetah is a lightweight among big predators. It survives by speed and wariness rather than strength.",
+    "tactics": [
+      {
+        "title": "Flight, not fight",
+        "text": "With small teeth and a light build, cheetahs are easily overwhelmed by lions, so they usually run rather than fight.",
+        "certainty": "confirmed",
+        "ref": 4
+      },
+      {
+        "title": "Eat fast",
+        "text": "Cheetahs eat quickly because lions, hyenas and even vultures can drive them off a kill. They lose about half their food this way.",
+        "certainty": "confirmed",
+        "ref": 4
+      },
+      {
+        "title": "A cloak for cubs",
+        "text": "Young cubs have a long, smoky-grey mantle down their backs that may camouflage them among dead grass. Mothers hide them for around eight weeks, moving them between hiding places.",
+        "certainty": "hypothesis",
+        "ref": 12
+      }
+    ],
+    "predators": [
+      "Lions",
+      "Spotted hyenas",
+      "Leopards"
+    ],
+    "threats": [
+      {
+        "title": "A shrinking range",
+        "text": "About 7,100 cheetahs remain, in just 9% of their historical range — and 77% of that range lies outside protected areas.",
+        "certainty": "confirmed",
+        "ref": 11
+      },
+      {
+        "title": "Conflict with farmers",
+        "text": "In Namibia and elsewhere in southern Africa, cheetahs are treated as a threat to livestock and are shot.",
+        "certainty": "confirmed",
+        "ref": 12
+      }
+    ]
+  },
+  "life": {
+    "lede": "Few cheetah cubs survive to adulthood, and a mother raises them entirely alone.",
+    "stages": [
+      {
+        "name": "Pregnancy",
+        "duration": "90–95 days",
+        "text": "A female first gives birth at about 2.4 years old. Wild litters average 2–3 cubs.",
+        "ref": 12
+      },
+      {
+        "name": "Hidden cub",
+        "duration": "first 8 weeks or so",
+        "text": "Cubs are born blind and weigh 250–300 g. Their eyes open after 4–11 days, and they are hidden in tall grass, marsh or rocks while their mother hunts.",
+        "ref": 12
+      },
+      {
+        "name": "Following mother",
+        "duration": "6 weeks to 18 months",
+        "text": "From about six weeks cubs follow the hunt, and they are weaned at 3–6 months. In the Serengeti about 90% of cubs die before they are three months old.",
+        "ref": 4
+      },
+      {
+        "name": "Sibling group",
+        "duration": "about 6 months",
+        "text": "At around 18 months the mother leaves. Littermates stay together for about six more months; then sisters leave to live alone, while brothers often stay together.",
+        "ref": 4
+      }
+    ],
+    "lifespan": {
+      "value": "8–10 years on average in the wild",
+      "ref": 4
+    }
+  }
+}

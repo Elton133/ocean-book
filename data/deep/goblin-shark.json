@@ -1,0 +1,219 @@
+{
+  "extraReferences": [
+    {
+      "title": "First study on age and growth of the deep-water goblin shark, Mitsukurina owstoni (Jordan, 1898). bioRxiv preprint",
+      "publisher": "bioRxiv",
+      "authors": "Caltabellotta, F.P., Siders, Z.A., Cailliet, G., Motta, F.S. & Gadig, O.B.F.",
+      "year": 2020,
+      "url": "https://doi.org/10.1101/2020.02.04.934281"
+    },
+    {
+      "title": "Jaw mechanics in macrophagous lamniform sharks and their evolutionary and functional implications. Anatomical Record 306: 311–325",
+      "publisher": "The Anatomical Record",
+      "authors": "Tanoue, K. & Shimada, K.",
+      "year": 2023,
+      "url": "https://doi.org/10.1002/ar.25071"
+    },
+    {
+      "title": "First in situ observations of the goblin shark Mitsukurina owstoni. Journal of Fish Biology 109: 1317–1322",
+      "publisher": "Journal of Fish Biology",
+      "authors": "Judah, A.B. et al.",
+      "year": 2026,
+      "url": "https://doi.org/10.1111/jfb.70505"
+    }
+  ],
+  "anatomy": {
+    "lede": "The goblin shark's head is a hunting tool: a long, flat, sensor-studded snout above jaws that sit tucked away until the instant they are flung forward.",
+    "media": 0,
+    "hotspots": [
+      {
+        "id": "snout",
+        "label": "Blade-like snout",
+        "x": 78,
+        "y": 44,
+        "text": "The long, flattened snout is heavily pored underneath. The pores open into the ampullae of Lorenzini, organs that sense electric fields.",
+        "ref": 1
+      },
+      {
+        "id": "eye",
+        "label": "Eye",
+        "x": 42.5,
+        "y": 38,
+        "text": "Its eyes are tiny for a shark of its size.",
+        "ref": 3
+      },
+      {
+        "id": "jaws",
+        "label": "Protrusible jaws",
+        "x": 62,
+        "y": 58,
+        "text": "At rest the mouth sits back under the eye. To feed, the jaws shoot forward beneath the snout, as in this museum mount.",
+        "ref": 1
+      },
+      {
+        "id": "teeth",
+        "label": "Needle-like teeth",
+        "x": 56,
+        "y": 56,
+        "text": "Long, slender front teeth snag slippery prey; smaller, flattened teeth further back are suited to crushing.",
+        "ref": 3
+      },
+      {
+        "id": "gills",
+        "label": "Gill openings",
+        "x": 8,
+        "y": 40,
+        "text": "Five short gill openings run along each side of the head.",
+        "ref": 3
+      }
+    ],
+    "stats": [
+      {
+        "value": "3.1 m/s",
+        "label": "Top jaw-launch speed",
+        "ref": 2
+      },
+      {
+        "value": "8.6–9.4%",
+        "label": "Jaw reach, as share of body length",
+        "ref": 2
+      },
+      {
+        "value": "35–53",
+        "label": "Teeth in the upper jaw",
+        "ref": 3
+      },
+      {
+        "value": "about 3.9 m",
+        "label": "Length",
+        "ref": 1
+      }
+    ]
+  },
+  "senses": {
+    "lede": "With tiny eyes in near-darkness, the goblin shark is thought to rely on a sense humans lack.",
+    "senses": [
+      {
+        "kind": "electroreception",
+        "name": "Electric sense",
+        "text": "Pores packed along the underside of the snout lead to the ampullae of Lorenzini. The shark most likely uses them to find prey by the weak electric fields their bodies give off.",
+        "vsHuman": "absent in us",
+        "certainty": "hypothesis",
+        "ref": 1
+      },
+      {
+        "kind": "sight",
+        "name": "Sight",
+        "text": "Its eyes are tiny, and how well it sees in the dim water it lives in has not been studied.",
+        "certainty": "uncertain",
+        "ref": 3
+      }
+    ]
+  },
+  "body": {
+    "lede": "Its body is soft and weakly muscled; most of its specialisation is concentrated in the jaws.",
+    "systems": [
+      {
+        "title": "Double-ligament jaw launcher",
+        "text": "A double set of ligaments at the jaw joints powers the rapid forward thrust of the jaws, which are otherwise held tightly closed while it swims.",
+        "certainty": "confirmed",
+        "ref": 3
+      },
+      {
+        "title": "Speed over force",
+        "text": "Three-dimensional lever analysis found the goblin shark has the least efficient biting jaws of the lamniform sharks studied, because its jaw-closing muscles sit far back.",
+        "certainty": "confirmed",
+        "ref": 6
+      },
+      {
+        "title": "A soft, flabby body",
+        "text": "Its body is soft and flabby and the lower lobe of the tail is weakly developed — not the build of a fast-cruising hunter.",
+        "certainty": "confirmed",
+        "ref": 1
+      }
+    ]
+  },
+  "mind": {
+    "lede": "For more than a century the goblin shark was known only from dead specimens; filmed behaviour is very recent.",
+    "studies": [
+      {
+        "year": "2016",
+        "title": "Slingshot feeding on film",
+        "text": "Five strikes by two goblin sharks, videotaped at sea, showed the lower jaw swinging down and back, then both jaws shooting forward. The mouth opened and closed again as the jaws retracted, a feeding pattern not described in other sharks.",
+        "certainty": "confirmed",
+        "ref": 2
+      },
+      {
+        "year": "Field",
+        "title": "What 121 stomachs held",
+        "text": "Stomach contents of 121 goblin sharks from Tokyo Submarine Canyon contained bony fishes, squids and crustaceans.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "year": "2026",
+        "title": "First sightings in the wild",
+        "text": "Deep-sea cameras recorded live goblin sharks in their habitat for the first time, on a seamount near Jarvis Island in 2019 and on the slope of the Tonga Trench in 2024, extending the species' known depth range.",
+        "certainty": "confirmed",
+        "ref": 7
+      },
+      {
+        "year": "Aquaria",
+        "title": "Hard to keep",
+        "text": "One goblin shark taken to an aquarium in Yokohama survived only a week.",
+        "certainty": "confirmed",
+        "ref": 3
+      }
+    ]
+  },
+  "survival": {
+    "lede": "Rarely met and barely fished, the goblin shark survives in the deep by ambush rather than pursuit.",
+    "tactics": [
+      {
+        "title": "Ambush, not chase",
+        "text": "Rather than outswimming prey, it closes the last gap with its jaws. Researchers suggest this suits food-poor deep water and may compensate for weak swimming.",
+        "certainty": "hypothesis",
+        "ref": 2
+      },
+      {
+        "title": "Detecting hidden prey",
+        "text": "Its electrosensory snout may let it locate prey it cannot see in the dark.",
+        "certainty": "hypothesis",
+        "ref": 1
+      }
+    ],
+    "predators": [],
+    "threats": [
+      {
+        "title": "Bycatch",
+        "text": "It is caught only incidentally, in deep-water trawls, longlines and deep-set gill nets, and its meat is rarely sold. The IUCN lists it as Least Concern.",
+        "certainty": "confirmed",
+        "ref": 3
+      }
+    ]
+  },
+  "life": {
+    "lede": "No pregnant female goblin shark has ever been caught, so how it breeds is inferred from its relatives.",
+    "stages": [
+      {
+        "name": "Birth",
+        "text": "It is thought to give birth to live young that develop from eggs inside the mother, but no pregnant female has ever been captured.",
+        "ref": 3
+      },
+      {
+        "name": "Juvenile",
+        "text": "The smallest specimen on record measured 107 cm. Young are ghostly white, and smaller individuals are occasionally seen near the surface in open water.",
+        "ref": 3
+      },
+      {
+        "name": "Adult",
+        "text": "Mature males measure about 2.6–3.8 m and mature females about 3.4–3.7 m. Photo-based estimates of 5.4–6.2 m have been suggested but not confirmed.",
+        "ref": 3
+      }
+    ],
+    "lifespan": {
+      "value": "possibly up to about 55 years, maturing at about 16.5 (growth model from one specimen; unconfirmed)",
+      "ref": 5
+    }
+  }
+}

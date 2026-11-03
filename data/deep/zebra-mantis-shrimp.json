@@ -1,0 +1,216 @@
+{
+  "extraReferences": [
+    {
+      "title": "Spectral absorption of visual pigments in stomatopod larval photoreceptors. Journal of Comparative Physiology A 202: 215–223",
+      "publisher": "Journal of Comparative Physiology A",
+      "authors": "Feller, K.D. & Cronin, T.W.",
+      "year": 2016,
+      "url": "https://doi.org/10.1007/s00359-015-1063-y"
+    },
+    {
+      "title": "Intracellular recordings of spectral sensitivities in stomatopods: a comparison across species. Integrative and Comparative Biology 57: 1117–1129",
+      "publisher": "Integrative and Comparative Biology",
+      "authors": "Thoen, H.H., Chiou, T.-H. & Marshall, N.J.",
+      "year": 2017,
+      "url": "https://doi.org/10.1093/icb/icx111"
+    },
+    {
+      "title": "Whole-genome survey information revealed the genome characteristics, mitochondrial genome diversity and evolutionary patterns of Stomatopoda species. BMC Genomics 27: 35",
+      "publisher": "BMC Genomics",
+      "authors": "Duan, X., Li, Y., Ding, Y. et al.",
+      "year": 2025,
+      "url": "https://doi.org/10.1186/s12864-025-12296-0"
+    }
+  ],
+  "anatomy": {
+    "lede": "Out of its burrow, the zebra mantis shrimp is a long, boldly banded animal with stalked eyes and a pair of folded hunting limbs held beneath its head like a praying mantis.",
+    "media": 1,
+    "hotspots": [
+      {
+        "id": "eyes",
+        "label": "Stalked eyes",
+        "x": 73,
+        "y": 23,
+        "text": "The eyes sit on movable stalks. Before an attack, they are often the only part of the animal showing above the burrow.",
+        "ref": 1
+      },
+      {
+        "id": "claw",
+        "label": "Raptorial claw",
+        "x": 55,
+        "y": 49,
+        "text": "The hunting limbs are modified second maxillipeds. In spearers like this one, the last segment is unfolded, elongated and lined with sharp spines for snagging fish.",
+        "ref": 2
+      },
+      {
+        "id": "bands",
+        "label": "Banded body",
+        "x": 18,
+        "y": 40,
+        "text": "Dark and pale bands run across the long, segmented body, giving the animal its common name."
+      }
+    ],
+    "stats": [
+      {
+        "value": "40 cm",
+        "label": "Maximum length",
+        "ref": 2
+      },
+      {
+        "value": "2.3 m/s",
+        "label": "Mean peak strike speed",
+        "ref": 1
+      },
+      {
+        "value": "25 ms",
+        "label": "Mean strike duration",
+        "ref": 1
+      },
+      {
+        "value": "12.7 Gb",
+        "label": "Estimated genome size",
+        "ref": 5
+      }
+    ]
+  },
+  "senses": {
+    "lede": "Mantis shrimps have some of the most complex eyes of any animal. Their young start life with far simpler ones.",
+    "senses": [
+      {
+        "kind": "sight",
+        "name": "Colour vision",
+        "text": "Adult mantis shrimps have photoreceptors that detect up to 12 different colours, almost four times as many types as most animals. Why they need so many is still not understood.",
+        "certainty": "confirmed",
+        "ref": 4
+      },
+      {
+        "kind": "sight",
+        "name": "Larval eyes",
+        "text": "Zebra mantis shrimp larvae caught at Lizard Island had eyes with a single type of colour receptor, like other plankton. The complex adult eye is grown anew at metamorphosis.",
+        "certainty": "confirmed",
+        "ref": 3
+      }
+    ]
+  },
+  "body": {
+    "lede": "The zebra mantis shrimp carries the same strike machinery as its famous hammer-wielding relatives, but uses it differently.",
+    "systems": [
+      {
+        "title": "A spring it rarely uses",
+        "text": "Scans and dissections showed that it has the spring-and-latch structures other mantis shrimps use for spring-loaded strikes. Yet high-speed films suggest that it does not consistently use them.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "title": "Reach over force",
+        "text": "Smashers need force to break shells, but a spearer needs reach to snatch fast prey. Its strikes are slower and longer than a smasher's, but match those of other predators of fast-moving prey.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "title": "Bigger claws for males",
+        "text": "Males and females are similar in overall size, but males have larger raptorial claws.",
+        "certainty": "confirmed",
+        "ref": 2
+      }
+    ]
+  },
+  "genome": {
+    "lede": "No reference genome exists yet, but a 2025 'genome survey' estimated the size of the zebra mantis shrimp's DNA — and it is enormous.",
+    "genomeGb": 12.7,
+    "refs": {
+      "genome": 5
+    },
+    "sequenced": null,
+    "findings": [
+      {
+        "title": "A giant genome",
+        "text": "Genome size was estimated at about 12.7 billion base pairs, the largest of the three mantis shrimps surveyed. More than 83% of the DNA in these species is repetitive.",
+        "certainty": "confirmed",
+        "ref": 5
+      },
+      {
+        "title": "A missing mitochondrial gene",
+        "text": "Its mitochondrial genome is 16,204 base pairs long and lacks the ATP8 gene, as does that of the peacock mantis shrimp.",
+        "certainty": "confirmed",
+        "ref": 5
+      },
+      {
+        "title": "An early branch",
+        "text": "Family trees built from several types of genetic data place the zebra mantis shrimp near the base of the group, though relationships among mantis shrimps remain disputed.",
+        "certainty": "hypothesis",
+        "ref": 5
+      }
+    ]
+  },
+  "mind": {
+    "lede": "Watching mantis shrimps in the wild showed that they behave very differently from animals filmed in aquarium tanks.",
+    "studies": [
+      {
+        "year": "2012",
+        "title": "Variable strikes in the wild",
+        "text": "In the field, zebra mantis shrimps struck at passing prey with both longer and shorter strikes than those recorded in the laboratory.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "year": "Field",
+        "title": "Sharing a burrow",
+        "text": "Pairs are socially monogamous and share a burrow. Building such a burrow is costly, and finding a mate is risky, which may explain why pairs stay together.",
+        "certainty": "hypothesis",
+        "ref": 2
+      }
+    ]
+  },
+  "survival": {
+    "lede": "For a large but soft-bodied ambusher, the burrow is everything: a hiding place, a hunting blind and a home for two.",
+    "tactics": [
+      {
+        "title": "Hidden in the sand",
+        "text": "It hides in a sandy burrow with only its eyes showing, then lunges out to seize prey with both claws.",
+        "certainty": "confirmed",
+        "ref": 2
+      },
+      {
+        "title": "Night hunting",
+        "text": "In the field it ambushed evasive prey mainly at night.",
+        "certainty": "confirmed",
+        "ref": 1
+      }
+    ],
+    "predators": [],
+    "threats": [
+      {
+        "title": "Fishing",
+        "text": "There is a small artisanal fishery for this species.",
+        "certainty": "confirmed",
+        "ref": 2
+      }
+    ]
+  },
+  "life": {
+    "lede": "Like other mantis shrimps, the zebra mantis shrimp begins life drifting in the plankton before settling into a burrow.",
+    "stages": [
+      {
+        "name": "Egg",
+        "text": "The female looks after the eggs.",
+        "ref": 2
+      },
+      {
+        "name": "Larva",
+        "text": "Late-stage larvae have been caught at the sea surface at night. Mantis shrimp larvae can pass through up to 11 drifting stages, depending on the species.",
+        "ref": 3
+      },
+      {
+        "name": "Metamorphosis",
+        "text": "In the final hours of larval life, a completely new adult retina grows beside the old larval eye, which is later pushed aside and reabsorbed.",
+        "ref": 3
+      },
+      {
+        "name": "Adult",
+        "text": "Adults live in sandy burrows, usually as a male–female pair.",
+        "ref": 2
+      }
+    ]
+  }
+}

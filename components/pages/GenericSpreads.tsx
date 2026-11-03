@@ -12,6 +12,8 @@ import { CertaintyTag, CinematicImage, Credit, MarineSnow, Ref } from "@/compone
 import { TaxonomyLadder } from "@/components/diagrams/TaxonomyLadder";
 import { DepthGauge } from "@/components/diagrams/DepthGauge";
 import { ChapterMark, PageFrame, PageTitle, Side } from "./Frame";
+import { PlayMark, useFilm } from "@/components/book/FilmSheet";
+import { flightTitle } from "@/lib/flight";
 
 /** When a species has no verified photograph, the cover is purely typographic. */
 function TypeCover({ name }: { name: string }) {
@@ -37,6 +39,7 @@ function TypeCover({ name }: { name: string }) {
 /* Cover -------------------------------------------------------------- */
 export function CoverSpread({ book }: PageProps) {
   const c = book.creature;
+  const film = useFilm();
   const long = c.commonName.length > 18;
   return (
     <div className="absolute inset-0">
@@ -49,7 +52,7 @@ export function CoverSpread({ book }: PageProps) {
       ) : (
         <TypeCover name={c.commonName} />
       )}
-      <MarineSnow density={60} />
+      <MarineSnow density={60} air={c.realm === "land"} />
       <div className="absolute inset-0 flex flex-col justify-end px-5 pb-36 sm:px-10 lg:px-16 lg:pb-32">
         <h1 className={`display max-w-[16ch] leading-[0.86] ${long ? "text-[clamp(3rem,8vw,8.5rem)]" : "text-[clamp(3.4rem,11vw,11.5rem)]"}`}>
           <SplitText text={c.commonName} by="char" delay={0.2} stagger={0.03} />
@@ -60,6 +63,19 @@ export function CoverSpread({ book }: PageProps) {
         </Reveal>
         <Reveal delay={1.3}>
           <p className="lede mt-4 max-w-xl opacity-85">{c.tagline}.</p>
+        </Reveal>
+        <Reveal delay={1.6}>
+          <button
+            type="button"
+            onClick={film.open}
+            data-no-drag
+            className="group mt-7 inline-flex items-center gap-3 border border-ivory/40 py-2.5 pl-3 pr-5 transition hover:border-ivory"
+          >
+            <span className="grid h-8 w-8 place-items-center rounded-full border border-ivory/60 transition duration-500 group-hover:bg-ivory group-hover:text-abyss">
+              <PlayMark className="ml-0.5 h-3 w-3" />
+            </span>
+            <span className="eyebrow">{film.film ? "Watch the film" : "Film"}</span>
+          </button>
         </Reveal>
       </div>
       {c.image && <Credit media={c.image} className="absolute bottom-24 right-5 max-w-xs text-right sm:right-10 lg:bottom-[5.5rem] lg:right-16" />}
@@ -79,7 +95,8 @@ export function ProfileSpread({ book, page }: PageProps) {
   ];
   const stats: [string, string][] = [
     ["Size", c.stats.size],
-    ["Depth", c.stats.depth],
+    c.realm === "ocean" ? ["Depth", c.stats.depth] : ["Habitat", c.stats.habitat],
+    ...(c.realm === "land" && c.flight ? [["Flight", flightTitle(c.flight)] as [string, string]] : []),
     ["Range", c.stats.range],
     ["Diet", c.stats.diet],
     ["Status", c.stats.conservation],
@@ -188,7 +205,7 @@ export function FeatureSpread({ book, page }: PageProps) {
       )}
       {!media && (
         <>
-          <MarineSnow density={40} className="opacity-60" />
+          <MarineSnow density={40} className="opacity-60" air={c.realm === "land"} />
           <Parallax depth={24} className="pointer-events-none absolute -right-[4vw] bottom-[6vh] select-none">
             <span aria-hidden className="display block text-[38vw] italic leading-none text-ivory/[0.045] lg:text-[30vw]">
               {c.scientificName.split(" ")[0]}
@@ -286,6 +303,8 @@ export function PlateSpread({ page }: PageProps) {
 export function DepthSpread({ book, page }: PageProps) {
   const c = book.creature;
   const { active, delay, reduced } = usePageMotion();
+  // Land animals get their own range layout; the depth gauge is ocean-only.
+  if (c.realm !== "ocean") return null;
   return (
     <div className="absolute inset-0">
       <MarineSnow density={50} className="opacity-70" />

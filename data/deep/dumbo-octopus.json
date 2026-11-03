@@ -1,0 +1,51 @@
+{
+  "anatomy": {
+    "lede": "Dumbo octopuses are soft, jelly-like and built for hovering: two fins for flying, and webbed arms fringed with tiny fingers.",
+    "media": 0,
+    "hotspots": [
+      { "id": "fin", "label": "Ear-like fin", "x": 44, "y": 24, "text": "One of two fins on the mantle, set above each eye, that give the genus its 'dumbo' nickname. Cushioning cartilage at the fin base supports the muscles that drive it.", "ref": 2 },
+      { "id": "eye", "label": "Eye", "x": 48, "y": 22, "text": "Each fin sits above an eye, one on each side of the head.", "ref": 2 },
+      { "id": "mantle", "label": "Mantle", "x": 39, "y": 28, "text": "The body is soft and gelatinous, quite unlike the muscular body of a shallow-water octopus.", "ref": 2 },
+      { "id": "web", "label": "Web", "x": 55, "y": 39, "text": "A web of skin joins the arms. When a dumbo lands on the seafloor it spreads its arms and web, then lifts off again a few seconds later.", "ref": 1 },
+      { "id": "cirri", "label": "Cirri", "x": 68, "y": 36, "text": "The fringe along each arm is made of cirri, small finger-like projections that are thought to help move food towards the mouth.", "ref": 2 }
+    ],
+    "stats": [
+      { "value": "6,957 m", "label": "Deepest sighting", "ref": 1 },
+      { "value": "35–43 cm", "label": "Length of hadal individuals", "ref": 1 },
+      { "value": "about 1.3–1.5 °C", "label": "Water temperature at the deepest sightings", "ref": 1 },
+      { "value": "17", "label": "Recognised species", "ref": 2 }
+    ]
+  },
+  "body": {
+    "lede": "Life in cold, food-poor water favours an octopus that spends as little energy as possible.",
+    "systems": [
+      { "title": "Fin power", "text": "Dumbos rest on the seafloor with arms and web spread, crawl slowly, or lift off by contracting the web and arms and then swim with their fins. Jet propulsion, once proposed, is now thought unlikely.", "certainty": "confirmed", "ref": 2 },
+      { "title": "No ink, no colour change", "text": "Like other finned (cirrate) octopuses, they have no ink sac and lack the nerve-controlled colour cells that let other octopuses change colour.", "certainty": "confirmed", "ref": 2 },
+      { "title": "A rare internal shell", "text": "Some species have an internal shell. In one species, G. angularis, it has a shape distinct from the rest of the genus.", "certainty": "confirmed", "ref": 2 }
+    ]
+  },
+  "mind": {
+    "lede": "Almost all that is known about how dumbos behave comes from a few minutes of deep-sea video.",
+    "studies": [
+      { "year": "2019", "title": "Unbothered by cameras", "text": "Two dumbos filmed in the Java Trench, at 5,760 m and 6,957 m, largely ignored the bait and the lander. The lights seemed neither to scare them off nor to draw them in.", "certainty": "confirmed", "ref": 1 },
+      { "year": "2019", "title": "Short visits", "text": "The shallower octopus stayed in view for 23 minutes, left for 6 and came back for 7 more. Neither animal appeared to be resting or dying.", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "survival": {
+    "lede": "Living at 1,000 m and deeper keeps dumbo octopuses far from most dangers, and from people.",
+    "tactics": [
+      { "title": "Lift off and fly", "text": "When disturbed, a resting dumbo pulls in its web and arms to lift off, then flaps its fins to swim away.", "certainty": "confirmed", "ref": 2 },
+      { "title": "The deepest refuge", "text": "Octopuses able to live down to about 7,000 m could reach about 99% of the seafloor, compared with about 75% for those limited to 5,145 m.", "certainty": "hypothesis", "ref": 1 }
+    ],
+    "predators": ["Sharks"]
+  },
+  "life": {
+    "lede": "Dumbos and their relatives do not breed in seasons. Females carry eggs at many stages and lay them a few at a time.",
+    "stages": [
+      { "name": "Mating", "text": "Mating has never been seen. Males lack the modified arm other octopuses use and are thought to place sperm packets in the female's mantle with their enlarged suckers; she stores the sperm until she lays.", "ref": 2 },
+      { "name": "Egg", "text": "Females lay one or two large, tough-cased eggs at a time, attached to deep-sea corals, and leave them unguarded. This continuous spawning is best documented in a related genus.", "ref": 2 },
+      { "name": "Hatchling", "text": "The young hatch as fully competent juveniles, ready to fend for themselves.", "ref": 2 }
+    ],
+    "lifespan": { "value": "unknown; probably several years, judging by related octopuses", "ref": 2 }
+  }
+}

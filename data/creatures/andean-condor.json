@@ -1,0 +1,138 @@
+{
+  "slug": "andean-condor",
+  "realm": "land",
+  "commonName": "Andean Condor",
+  "scientificName": "Vultur gryphus",
+  "authority": "Linnaeus, 1758",
+  "gbifId": 2481907,
+  "iucnId": 22697641,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Cathartiformes",
+    "family": "Cathartidae"
+  },
+  "group": "New World vulture",
+  "categories": [
+    "fliers"
+  ],
+  "tagline": "The heaviest soaring bird, which almost never needs to flap",
+  "summary": "A huge black-and-white vulture of the Andes, with a white neck ruff and wings spanning about 3.2 m. Flight recorders fitted to wild condors in Patagonia showed they flap for only 1% of their time in the air, riding thermals and mountain winds instead. One bird flew for more than five hours without a single wingbeat.",
+  "ability": "soaring without flapping",
+  "flight": "soaring",
+  "stats": {
+    "size": "97.5–128 cm long with a wingspan of about 3.2 m; 7.7–15 kg, males larger than females",
+    "habitat": "Open mountains, high canyons, cliffs, steppe and desert, where carrion can be spotted from the air",
+    "elevation": "Recorded at up to 5,500 m",
+    "range": "The Andes and Pacific side of South America, from Colombia and north-western Venezuela to Tierra del Fuego",
+    "diet": "Mainly carrion; occasionally newborn animals",
+    "conservation": "IUCN Red List: Vulnerable (2020 assessment)"
+  },
+  "regions": [
+    "andes-patagonia"
+  ],
+  "biome": "mountain",
+  "facts": [
+    {
+      "title": "One wingbeat in a hundred",
+      "text": "Custom 'flight recorders' that logged every wingbeat across more than 216 hours of flight showed that young wild condors in Patagonia flapped for only 1% of their flight time. More than 75% of that flapping came during take-off.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "172 km on still wings",
+      "text": "One tagged condor flew for more than five hours without flapping, covering about 172 km. Even in winter, when thermals are weak, the researchers predict condors need to flap for only about two seconds per kilometre.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Wings of a glider",
+      "text": "At around 3.2 m, the Andean condor's wingspan is the longest of any land bird. Gaps between its spread primary feathers help it soar, and it rides the thermals rising off cliff faces for hours with very little effort.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Searching by sight",
+      "text": "Andean condors find carrion by sight, scanning the ground from thousands of feet up. They mostly scavenge, but sometimes take small animals such as marmots and rabbits.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Comb and eye colour",
+      "text": "Males are larger than females and have a fleshy comb on the head, which females lack. Males have yellow eyes, while females' eyes are red.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "A slow start in life",
+      "text": "Andean condors breed only every two to three years, laying a single egg on a bare cliff ledge, and both parents share the 54–58 days of incubation. For a bird that breeds so slowly, lead from ammunition and persecution by farmers are serious threats.",
+      "certainty": "confirmed",
+      "ref": 2
+    }
+  ],
+  "references": [
+    {
+      "title": "BirdLife International (2020). Vultur gryphus. The IUCN Red List of Threatened Species 2020",
+      "publisher": "IUCN Red List",
+      "year": 2020,
+      "url": "https://doi.org/10.2305/IUCN.UK.2020-3.RLTS.T22697641A181325230.en"
+    },
+    {
+      "title": "Physical limits of flight performance in the heaviest soaring bird. PNAS 117 (30): 17884–17890",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "authors": "Williams, H.J., Shepard, E.L.C., Holton, M.D., Alarcón, P.A.E., Wilson, R.P. & Lambertucci, S.A.",
+      "year": 2020,
+      "url": "https://doi.org/10.1073/pnas.1907360117"
+    },
+    {
+      "title": "Vultur gryphus (Andean condor)",
+      "publisher": "Animal Diversity Web, University of Michigan",
+      "url": "https://animaldiversity.org/accounts/Vultur_gryphus/"
+    },
+    {
+      "title": "Andean Condor",
+      "publisher": "The Peregrine Fund",
+      "url": "https://www.peregrinefund.org/explore-raptors-species/vultures/andean-condor"
+    },
+    {
+      "title": "Vultur gryphus Linnaeus, 1758",
+      "publisher": "GBIF",
+      "url": "https://www.gbif.org/species/2481907"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/andean-condor/hero.webp",
+    "width": 1920,
+    "height": 1280,
+    "alt": "Close view of an Andean condor gliding left to right on broad black wings with silvery-white panels, its bare, wrinkled reddish-brown head lowered below a fluffy white neck ruff, against a pale overcast sky",
+    "caption": "An adult glides past in the Colca Canyon, Peru",
+    "creator": "Thomas Fuhrmann",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peru_-_Colca_Canyon_-_Andean_condor_(Vultur_gryphus)_01.jpg",
+    "species": "Vultur gryphus",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "65% 55%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/andean-condor/alt-1.webp",
+      "width": 1920,
+      "height": 1280,
+      "alt": "An Andean condor seen from below, soaring on long, broad black wings with the tips of its primary feathers spread like fingers, its white neck ruff showing, against a blue sky",
+      "caption": "Soaring on outstretched wings, primary feathers spread like fingers, in the Chilean Andes",
+      "creator": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andean_condor_(Vultur_gryphus)_male_in_flight_Torres_del_Paine.jpg",
+      "species": "Vultur gryphus",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "50% 50%",
+      "tone": "light"
+    }
+  ],
+  "notes": "Flight figures (1% flapping, >216 h, >75% at take-off, >5 h and ~172 km without flapping, ~2 s per km in winter) are verbatim from the Williams et al. 2020 abstract and significance statement, read in full text via Europe PMC (PMC7395523). The tagged birds were immatures (eight condors) from Bariloche, Argentina, 2013–2018. Williams et al. call it the 'world's heaviest soaring bird'. The wingspan, mass, elevation (up to 5,500 m), diet, incubation and 'breed every 2 to 3 years' are from Animal Diversity Web. ADW still lists the species as Near Threatened, which is outdated; status is taken from IUCN (VU, 2020, confirmed via GBIF's IUCN checklist and the DOI handle). The range, comb, eye colour, 'one chick every other year' and 'shot and poisoned' are from the Peregrine Fund; ADW also lists lead ammunition and persecution by farmers. Order: Cathartiformes is used, as in most current bird checklists; the GBIF backbone places Cathartidae in Accipitriformes. Regions: andes-patagonia only (the Venezuelan and Colombian Andes are not a separate region). Categories: fliers only. It is a scavenger, not an apex predator, and VU does not meet the EN/CR bar for 'endangered'. Image alt-1: the Commons file name says 'male in flight Torres del Paine', but its description reads 'immature in flight, Farellones, Andes Mountains, Chile' (apparently copied from a sister upload). The caption therefore says only 'Chilean Andes' and does not give an age or sex. Only one gallery image is used; the others found were zoo birds or near-duplicates. iucnredlist.org and gbif.org web pages return 403 to scripted requests, so they were checked through the DOI handle API and the GBIF API."
+}

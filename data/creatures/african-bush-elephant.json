@@ -1,0 +1,177 @@
+{
+  "slug": "african-bush-elephant",
+  "realm": "land",
+  "commonName": "African Bush Elephant",
+  "scientificName": "Loxodonta africana",
+  "authority": "(Blumenbach, 1797)",
+  "gbifId": 2435350,
+  "iucnId": 181008073,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Proboscidea",
+    "family": "Elephantidae"
+  },
+  "group": "Elephant",
+  "categories": [
+    "endangered"
+  ],
+  "tagline": "The largest land animal, talking in rumbles too deep for us to hear",
+  "summary": "The biggest animal on land lives in family herds led by an older female, the matriarch. Much of its conversation happens in low rumbles, many of them below the range of human hearing, that can carry for kilometres across the savanna — and part of that sound may travel through the ground to be felt by other elephants' feet.",
+  "ability": "long-distance infrasonic rumbles",
+  "stats": {
+    "size": "Males weigh 4,500–6,100 kg and stand 3.2–4 m at the shoulder; females are smaller",
+    "habitat": "Savanna, grassland, woodland and semi-desert, wherever water is within reach",
+    "elevation": "Sea level to about 4,000 m",
+    "range": "Patchily across eastern and southern Africa, with scattered populations further north and west",
+    "diet": "Grasses, leaves, bark, roots and fruit; drinks large amounts of water every day",
+    "conservation": "IUCN Red List: Endangered (2021; amended 2022)"
+  },
+  "elevationRange": {
+    "min": 0,
+    "max": 4000
+  },
+  "regions": [
+    "african-savanna",
+    "namib-kalahari"
+  ],
+  "biome": "savanna",
+  "signatureData": {
+    "rumbleHzMin": 12,
+    "rumbleHzMax": 20,
+    "rangeKm": 10,
+    "refs": {
+      "rumble": 1,
+      "range": 3,
+      "seismic": 4
+    }
+  },
+  "facts": [
+    {
+      "title": "Rumbles below our hearing",
+      "text": "The fundamental frequency of an adult elephant's rumble typically lies between 12 and 20 Hz — mostly below the roughly 20 Hz lower limit of human hearing — with calves rumbling higher, at about 20–35 Hz. Field recordings have caught rumbles as low as 8 Hz.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Heard at least 4 km away",
+      "text": "In 58 playback experiments in Etosha National Park, Namibia, wild elephants responded to recorded calls played 1.2 and 2.0 km away, freezing, spreading their ears and scanning; some males walked 1 km or more towards the loudspeaker. Because the speaker played calls at only half the strongest recorded sound pressure, the researchers estimated the calls are audible to elephants at least 4 km from the source.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Ten kilometres on a still night",
+      "text": "Measurements of the air over Etosha fed into a sound model suggest that on clear, cold, calm nights, 1–2 hours after sunset, temperature inversions more than double the range of elephant calls, to over 10 km.",
+      "certainty": "hypothesis",
+      "ref": 3
+    },
+    {
+      "title": "Listening with their feet",
+      "text": "Some of a rumble's energy travels through the ground. When alarm calls were played to wild family groups as vibrations through the ground, elephants responded to the calls of familiar herds but not to those of unfamiliar herds or to control signals, showing they can tell seismic calls apart.",
+      "certainty": "confirmed",
+      "ref": 4
+    },
+    {
+      "title": "Led by the matriarch",
+      "text": "Herds are made up of females and their young, led by an older female. Pregnancy lasts about 22 months, and wild elephants live on average 60–70 years.",
+      "certainty": "confirmed",
+      "ref": 5
+    },
+    {
+      "title": "Its own species since 2021",
+      "text": "Until 2021 Africa's elephants were assessed together as one Vulnerable species. That year the IUCN assessed the savanna (bush) and forest elephants separately for the first time, listing the savanna elephant as Endangered after its numbers fell by at least 60% over the last 50 years; the forest elephant was listed as Critically Endangered.",
+      "certainty": "confirmed",
+      "ref": 0
+    }
+  ],
+  "references": [
+    {
+      "title": "African elephant species now Endangered and Critically Endangered — IUCN Red List",
+      "publisher": "IUCN",
+      "year": 2021,
+      "url": "https://iucn.org/news/species/202103/african-elephant-species-now-endangered-and-critically-endangered-iucn-red-list"
+    },
+    {
+      "title": "Elephant acoustic communication",
+      "publisher": "ElephantVoices",
+      "url": "https://www.elephantvoices.org/elephant-acoustic-communication"
+    },
+    {
+      "title": "African elephants respond to distant playbacks of low-frequency conspecific calls. J Exp Biol 157: 35–46",
+      "publisher": "Journal of Experimental Biology",
+      "authors": "Langbauer, W.R., Payne, K.B., Charif, R.A., Rapaport, L. & Osborn, F.",
+      "year": 1991,
+      "url": "https://doi.org/10.1242/jeb.157.1.35"
+    },
+    {
+      "title": "Atmospheric controls on elephant communication. J Exp Biol 198: 939–951",
+      "publisher": "Journal of Experimental Biology",
+      "authors": "Garstang, M., Larom, D., Raspet, R. & Lindeque, M.",
+      "year": 1995,
+      "url": "https://doi.org/10.1242/jeb.198.4.939"
+    },
+    {
+      "title": "Wild African elephants (Loxodonta africana) discriminate between familiar and unfamiliar conspecific seismic alarm calls. J Acoust Soc Am 122: 823–830",
+      "publisher": "Journal of the Acoustical Society of America",
+      "authors": "O'Connell-Rodwell, C.E., Wood, J.D., Kinzley, C., Rodwell, T.C., Poole, J.H. & Puria, S.",
+      "year": 2007,
+      "url": "https://doi.org/10.1121/1.2747161"
+    },
+    {
+      "title": "Loxodonta africana (African bush elephant)",
+      "publisher": "Animal Diversity Web",
+      "url": "https://animaldiversity.org/accounts/Loxodonta_africana/"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/african-bush-elephant/hero.webp",
+    "width": 1920,
+    "height": 1281,
+    "alt": "A large grey female elephant with short tusks walking towards the camera along a red-earth track through green bush, a small calf walking beside her",
+    "caption": "A female with her six-week-old calf, Matetsi Safari Area, Zimbabwe",
+    "creator": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:African_bush_elephants_(Loxodonta_africana)_female_with_six-week-old_baby.jpg",
+    "species": "Loxodonta africana",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "55% 50%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/african-bush-elephant/alt-1.webp",
+      "width": 1920,
+      "height": 1280,
+      "alt": "A pale, dusty elephant under a shrubby tree throwing a cloud of sand over her head with her curled trunk, while a calf sleeps on the ground beside her under a cut branch",
+      "caption": "A desert-dwelling elephant dusts herself while guarding her sleeping calf, which she has covered with a branch, Damaraland, Namibia",
+      "creator": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Desert_elephant_(Loxodonta_africana)_spraying_sand.jpg",
+      "species": "Loxodonta africana",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "40% 50%",
+      "tone": "light"
+    },
+    {
+      "src": "/media/creatures/african-bush-elephant/alt-2.webp",
+      "width": 1920,
+      "height": 1280,
+      "alt": "A young elephant standing side-on in a sandy dry riverbed, its trunk curled up over its head flinging a spray of reddish sand, with green bush behind",
+      "caption": "Sand-spraying in the dry bed of the Mutlumuvi River, Kruger National Park, South Africa",
+      "creator": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kruger_National_Park_(ZA),_Elefant_--_2024_--_0649.jpg",
+      "species": "Loxodonta africana",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "50% 55%",
+      "tone": "light"
+    }
+  ],
+  "notes": "signatureData: rumbleHzMin/Max 12–20 Hz is ElephantVoices' 'typical' fundamental frequency for adult rumbles (calves ~20–35 Hz; as low as 8 Hz in field recordings). The brief suggested Payne, Langbauer & Thomas 1986 (Behav Ecol Sociobiol 18:297–301) for the rumble range, but that paper is titled 'Infrasonic calls of the Asian elephant (Elephas maximus)' and reports 14–24 Hz from captive Asian elephants, so it was not used for this species. rangeKm 10 is from Garstang et al. 1995 (modelled: 'ranges of over 10 km are likely' 1–2 h after sunset under temperature inversions; marked 'hypothesis'). The measured-playback basis is Langbauer et al. 1991 (responses at 2.0 km; audible 'at least 4 km'), and Larom et al. 1997 (J Exp Biol 200:421) also models ranges exceeding 10 km; ElephantVoices gives 2–4 km by day and 7–10 km under evening inversions. Seismic: O'Connell-Rodwell et al. 2007 (wild Namibian family groups discriminate familiar vs unfamiliar seismic alarm calls); their 2006 Behav Ecol Sociobiol 59:842 paper (doi 10.1007/s00265-005-0136-2) showed the first responses to seismic playback but its abstract could not be read, so it is not cited. Detection specifically via foot receptors is described by ElephantVoices as 'may be detected ... through vibration-sensitive receptors in their feet and trunk'; the summary says 'may' accordingly. Size, elevation (0–4,000 m), gestation and lifespan from Animal Diversity Web, whose L. africana account may predate the 2021 forest/savanna split. Conservation: IUCN 2021 assessment, amended 2022 (e.T181008073A223031019, Gobush et al.; URL confirmed via GBIF's IUCN checklist, iucnredlist.org returns 403 to scripted requests); reference 0 is the IUCN news release, which resolves. Regions: namib-kalahari for the desert-dwelling elephants of north-west Namibia (gallery photo) and the Kalahari populations of Botswana. Categories: endangered (IUCN EN). Hero swapped to the mother and calf; the two gallery images both show dust/sand-spraying, but in contrasting habitats (Namibian desert vs Kruger riverbed)."
+}

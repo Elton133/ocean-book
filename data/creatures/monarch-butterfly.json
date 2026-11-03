@@ -1,0 +1,163 @@
+{
+  "slug": "monarch-butterfly",
+  "realm": "land",
+  "commonName": "Monarch Butterfly",
+  "scientificName": "Danaus plexippus",
+  "authority": "(Linnaeus, 1758)",
+  "gbifId": 5133088,
+  "iucnId": 159971,
+  "taxonomy": {
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Nymphalidae"
+  },
+  "group": "Butterfly",
+  "categories": [
+    "fliers",
+    "migrations"
+  ],
+  "tagline": "A butterfly weighing under a gram that flies up to 4,800 km to a mountain forest",
+  "summary": "Every autumn, monarchs from across eastern North America fly south to a handful of fir-clad mountains in central Mexico, while those west of the Rockies head for the California coast. The butterflies that make the journey have never been there before. They steer by a sun compass timed by clocks in their antennae, and their descendants take three or four generations to get back north.",
+  "ability": "continent-crossing migration",
+  "stats": {
+    "size": "Adults weigh less than a gram; caterpillars grow to about 5 cm",
+    "habitat": "Open fields, meadows and roadsides with milkweed; winters in mountain fir forest in Mexico and coastal groves in California",
+    "range": "Breeds across the United States and southern Canada; eastern monarchs winter in central Mexico, western monarchs on the California coast",
+    "diet": "Caterpillars eat only milkweed; adults drink nectar from flowers",
+    "conservation": "IUCN Red List: species Least Concern; the migratory subspecies was listed Endangered in 2022 and moved to Vulnerable in December 2023"
+  },
+  "regions": [
+    "north-american-forests",
+    "north-american-deserts"
+  ],
+  "biome": "temperate-forest",
+  "flight": "migrating",
+  "facts": [
+    {
+      "title": "Up to 4,800 km to a winter home",
+      "text": "Some monarchs fly as far as 3,000 miles (about 4,800 km) to reach their wintering grounds, travelling 50–100 miles (80–160 km) a day. The journey can take up to two months.",
+      "certainty": "confirmed",
+      "ref": 0
+    },
+    {
+      "title": "A mountain forest of butterflies",
+      "text": "Eastern monarchs spend the winter in 11 to 12 mountain areas in the Mexican states of Mexico and Michoacán, clustering in oyamel fir forests between 2,400 and 3,600 m. Western monarchs roost in eucalyptus, Monterey pine and Monterey cypress groves on the California coast.",
+      "certainty": "confirmed",
+      "ref": 0
+    },
+    {
+      "title": "Two weeks, or nine months",
+      "text": "In summer, adult monarchs live for 2 to 5 weeks. The generation that migrates south can live as long as 9 months. On the way back north, it takes 3 to 4 generations to repopulate the northern United States and Canada.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Clocks in the antennae",
+      "text": "Migrating monarchs steer with a time-compensated sun compass. Experiments showed that the antennae are needed for this compass to work and that they contain their own circadian clocks, which probably provide its main timing signal.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "A magnetic back-up",
+      "text": "In flight-simulator tests, autumn migrants also used an inclination magnetic compass to head towards the equator. It works only in ultraviolet-A or blue light (380–420 nm), and the light-sensitive magnetic sensors appear to sit in the antennae.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Endangered, then Vulnerable",
+      "text": "The IUCN listed the migratory monarch as Endangered in 2022, then moved it to Vulnerable from 11 December 2023. This change came after a petition questioned the population models used, not because monarch numbers had recovered.",
+      "certainty": "confirmed",
+      "ref": 4
+    }
+  ],
+  "references": [
+    {
+      "title": "Monarch Butterfly Migration and Overwintering",
+      "publisher": "USDA Forest Service",
+      "url": "https://www.fs.usda.gov/wildflowers/pollinators/Monarch_Butterfly/migration/index.shtml"
+    },
+    {
+      "title": "Monarch Butterfly Biology",
+      "publisher": "USDA Forest Service",
+      "url": "https://www.fs.usda.gov/wildflowers/pollinators/Monarch_Butterfly/biology/index.shtml"
+    },
+    {
+      "title": "Antennal circadian clocks coordinate sun compass orientation in migratory monarch butterflies. Science 325: 1700–1704",
+      "publisher": "Science",
+      "authors": "Merlin, C., Gegear, R.J. & Reppert, S.M.",
+      "year": 2009,
+      "url": "https://doi.org/10.1126/science.1176221"
+    },
+    {
+      "title": "A magnetic compass aids monarch butterfly migration. Nature Communications 5: 4164",
+      "publisher": "Nature Communications",
+      "authors": "Guerra, P.A., Gegear, R.J. & Reppert, S.M.",
+      "year": 2014,
+      "url": "https://doi.org/10.1038/ncomms5164"
+    },
+    {
+      "title": "IUCN Changes Migratory Monarch Status from Endangered to Vulnerable",
+      "publisher": "Monarch Joint Venture",
+      "year": 2023,
+      "url": "https://monarchjointventure.org/blog/iucn-changes-migratory-monarch-status-from-endangered-to-vulnerable"
+    },
+    {
+      "title": "Danaus plexippus (Walker, Oberhauser, Pelton & Pleasants)",
+      "publisher": "IUCN Red List of Threatened Species",
+      "year": 2022,
+      "url": "https://www.iucnredlist.org/species/159971/219149911"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/monarch-butterfly/hero.webp",
+    "width": 1920,
+    "height": 1280,
+    "alt": "Seven orange-and-black monarch butterflies feeding on a cluster of small yellow flowers, with another flying in from the upper left against a soft green and brown forest background",
+    "caption": "Overwintering monarchs taking nectar in the sun, Piedra Herrada sanctuary, Valle de Bravo, Mexico",
+    "creator": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monarch_butterflies_(Danaus_plexippus_plexippus)_Piedra_Herrada_2.jpg",
+    "species": "Danaus plexippus",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "60% 60%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/monarch-butterfly/alt-1.webp",
+      "width": 1920,
+      "height": 1573,
+      "alt": "Drooping branches of a fir tree in a dim forest, dotted with hundreds of orange monarch butterflies clinging to the needles",
+      "caption": "Monarchs roosting on oyamel fir, Piedra Herrada, Valle de Bravo, Mexico",
+      "creator": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monarch_butterflies_(Danaus_plexippus_plexippus)_on_Oyamel_fir_(Abies_religiosa)_Piedra_Herrada.jpg",
+      "species": "Danaus plexippus",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "55% 45%",
+      "tone": "dark"
+    },
+    {
+      "src": "/media/creatures/monarch-butterfly/alt-2.webp",
+      "width": 1920,
+      "height": 1440,
+      "alt": "Close side view of a monarch butterfly with folded wings, pale orange with black veins and white-spotted black edges, feeding on a red-orange flower against a green blur",
+      "caption": "A male monarch on a Mexican sunflower, Brooklyn Botanic Garden, New York",
+      "creator": "Rhododendrites",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monarch_butterfly_male_(52341).jpg",
+      "species": "Danaus plexippus",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "45% 50%",
+      "tone": "dark"
+    }
+  ],
+  "notes": "IUCN status history: the species Danaus plexippus is Least Concern (Walker, Oberhauser, Pelton & Pleasants 2022, DOI 10.2305/IUCN.UK.2022-1.RLTS.T159971A219149911.en; taxon ID 159971, confirmed via the GBIF IUCN checklist because iucnredlist.org returns 403 to scripts). The migratory subspecies D. p. plexippus was listed Endangered in the July 2022 Red List update (press coverage, July 21, 2022; the Monarch Joint Venture post dates the assessment 30 December 2021). After a petition, the IUCN Standards and Petitions Committee announced on 27 September 2023 that it would downlist it to Vulnerable, effective 11 December 2023 (Monarch Joint Venture). The species is therefore not shelved under 'endangered'. US Endangered Species Act: USFWS proposed listing as Threatened in December 2024; secondary sources say the final rule was moved to 'long-term actions' and a lawsuit over the delay was filed in February 2026. I found no final rule, but this was not checked against the Federal Register, so it is left out of the facts. Science (doi.org/10.1126/science.1176221) returns 403 to scripts; the abstract and metadata were read via Europe PMC. Regions: north-american-forests first. The western population breeds through the Rockies and the interior West, and eastern monarchs breed and migrate through the Dakotas/Prairies edge of the polygon. north-american-deserts is included because Xerces Society sources describe breeding habitat in Arizona and western Nevada, and monarch breeding at Great Basin milkweed sites. The Mexican overwintering sanctuaries (Michoacán/State of Mexico, around 19.2–19.7 N, 100 W) fall outside every mapped polygon (central-america starts at about 97 W), so they are described in the text, not mapped. Most of the eastern breeding range (east of about 95 W) is unmapped. Introduced/vagrant populations (Australia, New Zealand, Pacific islands, Iberia) are not mapped. Biome: temperate-forest, following the first region and the oyamel fir winter forest; much summer breeding is in open grassland/fields. Mass (under a gram) and caterpillar length (about 5 cm) are from USFS. That adults drink nectar is general knowledge and not in the cited USFS text. The USFS biology page gives the migration as 2,000–3,000 miles, and the migration page as 'as far as 3,000 miles'. Images: hero and alt-1 by Charles J. Sharp at Piedra Herrada (State of Mexico, February 2023; the hero is a Commons Featured Picture). alt-2 is a Featured Picture of a male in Brooklyn Botanic Garden (August 2025, geotagged). Its flower is a Tithonia, described in the caption as a Mexican sunflower."
+}

@@ -1,0 +1,60 @@
+{
+  "extraReferences": [
+    { "title": "Evidence that eye-facing photophores serve as a reference for counterillumination in an order of deep-sea fishes. Proceedings of the Royal Society B 287: 20192918", "publisher": "Proceedings of the Royal Society B", "url": "https://doi.org/10.1098/rspb.2019.2918", "year": 2020, "authors": "Davis A.L., Sutton T.T., Kier W.M., Johnsen S." },
+    { "title": "Measures and models of visual acuity in epipelagic and mesopelagic teleosts and elasmobranchs. Journal of Comparative Physiology A 209: 807–826", "publisher": "Journal of Comparative Physiology A (Springer)", "url": "https://doi.org/10.1007/s00359-023-01661-7", "year": 2023, "authors": "Caves E.M., Sutton T.T., Warrant E.J., Johnsen S." },
+    { "title": "Spawning in the deep: reproductive life history of four mesopelagic fishes of the northwestern Atlantic Ocean. Frontiers in Marine Science 12: 1582706", "publisher": "Frontiers in Marine Science", "url": "https://doi.org/10.3389/fmars.2025.1582706", "year": 2025, "authors": "Lefebvre L.S., Sosik H.M., Llopiz J.K." },
+    { "title": "Argyropelecus aculeatus", "publisher": "Fishes of Texas (University of Texas at Austin), species account after McEachran & Fechhelm", "url": "https://fishesoftexas.org/taxa/argyropelecus-aculeatus" }
+  ],
+  "anatomy": {
+    "lede": "Seen side-on it is a deep, flattened blade of silver, edged below with rows of light organs.",
+    "media": 0,
+    "hotspots": [
+      { "id": "eye", "label": "Eye", "x": 27, "y": 34, "text": "A light organ aimed at the eye shines into it through a dip in the iris, possibly so the fish can compare its own glow with daylight from above.", "ref": 5 },
+      { "id": "mouth", "label": "Jaws", "x": 18, "y": 46, "text": "The jaws are large, with long, backward-curving teeth and two enlarged canines in the lower jaw.", "ref": 1 },
+      { "id": "dorsal", "label": "Dorsal spine and fin", "x": 48, "y": 12, "text": "A tall spine stands in front of the dorsal fin, which has 9 soft rays.", "ref": 1 },
+      { "id": "flank", "label": "Silver flank", "x": 45, "y": 30, "text": "The mirror-like sides, with diffuse dark pigment on the trunk, help it blend into the dim light filtering down through the twilight zone.", "ref": 1 },
+      { "id": "belly-lights", "label": "Belly light organs", "x": 43, "y": 76, "text": "Rows of photophores along the belly give off a pale blue light, in a pattern particular to each species.", "ref": 2 },
+      { "id": "subcaudal", "label": "Tail light organs", "x": 64, "y": 45, "text": "A separate cluster of photophores sits under the tail, with spines below and in front of them and dark pigment concentrated above.", "ref": 1 }
+    ],
+    "stats": [
+      { "value": "8.3 cm", "label": "Maximum length", "ref": 1 },
+      { "value": "20.9 g", "label": "Heaviest recorded", "ref": 4 },
+      { "value": "200–600 m", "label": "Daytime depth", "ref": 1 },
+      { "value": "3.4 mm", "label": "Lens diameter", "ref": 6 }
+    ]
+  },
+  "senses": {
+    "lede": "Its eyes do two jobs: looking up for food and, it seems, checking its own disguise.",
+    "senses": [
+      { "kind": "sight", "name": "Sharp eyes for the twilight", "text": "Measurements of its lens optics suggest it can resolve details about 0.08 degrees apart.", "certainty": "confirmed", "ref": 6 },
+      { "kind": "sight", "name": "A built-in light meter", "text": "Light from the eye-facing photophore passes through clear tissue, the iris dip and the lens, and probably lands as an unfocused spot on an accessory retina. This may let the fish set its belly lights to match the light it sees above.", "certainty": "hypothesis", "ref": 5 }
+    ]
+  },
+  "body": {
+    "lede": "Its camouflage depends on light organs that are carefully shielded, positioned and timed to develop.",
+    "systems": [
+      { "title": "A shielded reference light", "text": "The eye-facing photophore is wrapped on its front and outer sides by a layer of melanin, so its light goes into the eye instead of out into the water where it could give the fish away.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Found wherever counter-shading lights exist", "text": "Across three families of related fishes, every species with belly lights capable of counter-illumination had an eye-facing photophore. Two species that cannot counter-illuminate lacked one.", "certainty": "confirmed", "ref": 5 },
+      { "title": "A spiny keel", "text": "Well-developed spines sit on the rear of the belly, the hind one much larger, and the keel there juts below the line of the body.", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "survival": {
+    "lede": "It hides by day and feeds by night, using light, silver and timing.",
+    "tactics": [
+      { "title": "Erasing its shadow", "text": "The belly lights match the colour and brightness of daylight from above, hiding its silhouette from midwater hunters looking up.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Feeding at dusk", "text": "It rises towards the surface early at night and is a selective feeder, mainly on tiny shelled crustaceans called conchoecid ostracods, with some copepods and larval crabs, shrimps and fishes.", "certainty": "confirmed", "ref": 4 },
+      { "title": "Quick to recover", "text": "FishBase rates its resilience as high, with a population thought able to double in less than 15 months, though this estimate is preliminary.", "certainty": "hypothesis", "ref": 4 }
+    ],
+    "predators": []
+  },
+  "life": {
+    "lede": "A short life, lived between the twilight zone by day and shallower water at night.",
+    "stages": [
+      { "name": "Egg", "text": "Fertilisation is external. Eggs are scattered in open water and the parents give no care.", "ref": 8 },
+      { "name": "Young fish", "text": "The adult pattern of light organs develops at about 15 mm in length.", "ref": 4 },
+      { "name": "Juvenile", "text": "Young fish have a clear, unpigmented bar just in front of the tail stalk.", "ref": 1 },
+      { "name": "Adult", "text": "Sexes are separate. Females spawn in repeated batches, and half are mature by about 39 mm in standard length.", "ref": 7 }
+    ],
+    "lifespan": { "value": "About 2 years", "ref": 8 }
+  }
+}

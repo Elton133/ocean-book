@@ -1,0 +1,319 @@
+{
+  "extraReferences": [
+    {
+      "title": "Panthera leo persica (Asian lion) — species record",
+      "publisher": "Animal Genome Size Database",
+      "authors": "Gregory, T.R.",
+      "url": "https://www.genomesize.com/result_species.php?id=4263"
+    },
+    {
+      "title": "Long live the king: chromosome-level assembly of the lion (Panthera leo) using linked-read, Hi-C, and long-read data. BMC Biology 18: 3",
+      "publisher": "BMC Biology",
+      "authors": "Armstrong, E.E. et al.",
+      "year": 2020,
+      "url": "https://doi.org/10.1186/s12915-019-0734-5"
+    },
+    {
+      "title": "Panthera leo genome assembly PanLeo1.0 (GCA_008795835.1)",
+      "publisher": "NCBI Datasets",
+      "year": 2019,
+      "url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_008795835.1/"
+    },
+    {
+      "title": "The evolutionary history of extinct and living lions. PNAS 117: 10927–10934",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "authors": "de Manuel, M. et al.",
+      "year": 2020,
+      "url": "https://doi.org/10.1073/pnas.1919423117"
+    },
+    {
+      "title": "Roaring and numerical assessment in contests between groups of female lions, Panthera leo. Animal Behaviour 47: 379–387",
+      "publisher": "Animal Behaviour",
+      "authors": "McComb, K., Packer, C. & Pusey, A.",
+      "year": 1994,
+      "url": "https://doi.org/10.1006/anbe.1994.1052"
+    },
+    {
+      "title": "Sexual selection, temperature, and the lion's mane. Science 297: 1339–1343",
+      "publisher": "Science",
+      "authors": "West, P.M. & Packer, C.",
+      "year": 2002,
+      "url": "https://doi.org/10.1126/science.1073257"
+    },
+    {
+      "title": "Cooperative hunting in lions: the role of the individual. Behavioral Ecology and Sociobiology 29: 445–454",
+      "publisher": "Behavioral Ecology and Sociobiology",
+      "authors": "Stander, P.E.",
+      "year": 1992,
+      "url": "https://doi.org/10.1007/BF00170175"
+    }
+  ],
+  "anatomy": {
+    "lede": "Strip away the coat and a lion is almost indistinguishable from a tiger. What sets it apart is its social life — and the male's mane, a signal read by friend and rival alike.",
+    "media": 0,
+    "hotspots": [
+      {
+        "id": "jaws",
+        "label": "Jaws and canines",
+        "x": 31,
+        "y": 40,
+        "text": "Powerful jaws and teeth pull down and kill prey often much larger than the lion itself. Adults have 30 teeth.",
+        "ref": 2
+      },
+      {
+        "id": "eye",
+        "label": "Eye",
+        "x": 36,
+        "y": 32,
+        "text": "Lions use visual cues to recognise one another — including reading the size and colour of a male's mane from a distance.",
+        "ref": 2
+      },
+      {
+        "id": "mane",
+        "label": "Mane",
+        "x": 42,
+        "y": 50,
+        "text": "Only male lions grow manes, from about age three. A dark mane signals good nutrition and high testosterone.",
+        "ref": 10
+      },
+      {
+        "id": "forelegs",
+        "label": "Forelegs",
+        "x": 47,
+        "y": 79,
+        "text": "Strong, compact bodies and powerful forelegs let lions wrestle large animals to the ground.",
+        "ref": 1
+      },
+      {
+        "id": "belly",
+        "label": "Body",
+        "x": 62,
+        "y": 58,
+        "text": "Adult males typically weigh about 189 kg and females about 126 kg; the heaviest male on record weighed 272 kg.",
+        "ref": 2
+      },
+      {
+        "id": "tail",
+        "label": "Tail tuft",
+        "x": 90,
+        "y": 68,
+        "text": "The long tail ends in a black tuft; cubs are born with spotted coats that fade as they grow.",
+        "ref": 2
+      }
+    ],
+    "stats": [
+      {
+        "value": "1.2 m",
+        "label": "Male shoulder height",
+        "ref": 2
+      },
+      {
+        "value": "189 kg",
+        "label": "Average adult male",
+        "ref": 2
+      },
+      {
+        "value": "3.3 m",
+        "label": "Longest male recorded",
+        "ref": 2
+      },
+      {
+        "value": "8 km",
+        "label": "Range of a roar",
+        "ref": 1
+      }
+    ]
+  },
+  "senses": {
+    "lede": "Living in groups that come and go across a large territory, lions keep track of each other — and of rivals — by sound, sight and scent.",
+    "senses": [
+      {
+        "kind": "hearing",
+        "name": "Hearing",
+        "text": "Lions listen closely to strangers' roars. In playback trials, pride females could judge how many intruders were calling and compared that with how many companions they had.",
+        "certainty": "confirmed",
+        "ref": 9
+      },
+      {
+        "kind": "sight",
+        "name": "Sight",
+        "text": "Manes are read visually: their length signals fighting ability to other males, and their darkness affects which males females choose.",
+        "certainty": "confirmed",
+        "ref": 10
+      },
+      {
+        "kind": "smell",
+        "name": "Smell",
+        "text": "Resident males regularly spray vegetation with urine and scuff the ground to mark territory, and females spray occasionally.",
+        "certainty": "confirmed",
+        "ref": 2
+      }
+    ]
+  },
+  "body": {
+    "lede": "The lion's body reflects its role as a heavy, cooperative predator — and the costs of male showmanship.",
+    "systems": [
+      {
+        "title": "A hot coat",
+        "text": "Manes come at a price: dark-maned males run hotter, have more abnormal sperm and eat less in the hottest months. Males grow lighter or shorter manes in hotter seasons, years and places.",
+        "certainty": "confirmed",
+        "ref": 10
+      },
+      {
+        "title": "Living with a virus",
+        "text": "In the Serengeti, Ngorongoro Crater and Kruger, 92% of lions tested carried feline immunodeficiency virus (FIV). It does not seem to harm lions, though it kills domestic cats.",
+        "certainty": "confirmed",
+        "ref": 2
+      },
+      {
+        "title": "Built for big prey",
+        "text": "Lions mainly eat animals weighing about 45–450 kg, such as zebra and wildebeest. In lean times they switch to rodents, reptiles and other small animals.",
+        "certainty": "confirmed",
+        "ref": 1
+      }
+    ]
+  },
+  "genome": {
+    "lede": "A chromosome-level lion genome was published in 2020. Ancient and modern lion DNA now traces how the species spread and shrank.",
+    "diploid": 38,
+    "genomeGb": 2.4,
+    "refs": {
+      "diploid": 5,
+      "genome": 7
+    },
+    "sequenced": 2020,
+    "findings": [
+      {
+        "title": "Cave lions split long ago",
+        "text": "Lions and the extinct cave lions of Ice Age Eurasia shared an ancestor about 500,000 years ago, and probably did not interbreed afterwards.",
+        "certainty": "confirmed",
+        "ref": 8
+      },
+      {
+        "title": "Two modern lineages",
+        "text": "Living lions fall into two main lineages that split about 70,000 years ago, with later gene flow between them.",
+        "certainty": "confirmed",
+        "ref": 8
+      },
+      {
+        "title": "Indian lions lack variety",
+        "text": "The lions of India's Gir Forest have almost no genetic diversity, the legacy of extremely small populations in the recent past.",
+        "certainty": "confirmed",
+        "ref": 8
+      }
+    ]
+  },
+  "mind": {
+    "lede": "The Serengeti lions have been studied continuously since 1966, making them among the best-understood social carnivores on Earth.",
+    "studies": [
+      {
+        "year": "1992",
+        "title": "Wings and centres",
+        "text": "In 486 group hunts in Etosha, Namibia, lionesses took set roles: some circled the prey as 'wings' while others waited as 'centres'. Each lioness tended to keep the same position, and hunts went best when they did.",
+        "certainty": "confirmed",
+        "ref": 11
+      },
+      {
+        "year": "1994",
+        "title": "Counting the opposition",
+        "text": "When recorded roars of strange females were played in 21 pride territories, residents were less likely to approach when they were outnumbered — and roared to recruit absent pride members.",
+        "certainty": "confirmed",
+        "ref": 9
+      },
+      {
+        "year": "2002",
+        "title": "What a mane says",
+        "text": "Dark-maned males in the Serengeti had longer reproductive lives and their cubs survived better. Females preferred dark manes, while rival males paid attention to mane length.",
+        "certainty": "confirmed",
+        "ref": 10
+      },
+      {
+        "year": "Field",
+        "title": "Shared nurseries",
+        "text": "Related lionesses often give birth at the same time and nurse each other's cubs in a crèche, which lowers cub deaths.",
+        "certainty": "confirmed",
+        "ref": 2
+      }
+    ]
+  },
+  "survival": {
+    "lede": "Adult lions have no natural predators. Their dangers come from other lions, from hunger and from people.",
+    "tactics": [
+      {
+        "title": "Defending the territory together",
+        "text": "Lions live at higher densities than other big cats, so pride members must defend their territory together against takeovers by other lions.",
+        "certainty": "confirmed",
+        "ref": 2
+      },
+      {
+        "title": "Coalitions of brothers",
+        "text": "Young males leave home at about 2.5 years and team up, usually with brothers, to take over a pride. Coalitions of three or four tend to hold a pride for longer than pairs.",
+        "certainty": "confirmed",
+        "ref": 2
+      },
+      {
+        "title": "Stealing a meal",
+        "text": "Lions scavenge actively, following hyenas and vultures, and steal kills from hyenas and leopards.",
+        "certainty": "confirmed",
+        "ref": 1
+      }
+    ],
+    "predators": [
+      "Spotted hyenas",
+      "Other lions"
+    ],
+    "threats": [
+      {
+        "title": "Poison and snares",
+        "text": "Lions are killed with snares, rifles and arrows, and because they scavenge they are especially vulnerable to poisoned carcasses.",
+        "certainty": "confirmed",
+        "ref": 2
+      },
+      {
+        "title": "Disease from dogs",
+        "text": "Many lions have died from diseases such as canine distemper, spread by domestic dogs from villages near their habitat.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "title": "Declines across Africa",
+        "text": "Lion populations are falling across most of Africa; only some intensively managed southern populations are holding up.",
+        "certainty": "confirmed",
+        "ref": 3
+      }
+    ]
+  },
+  "life": {
+    "lede": "A lion's life is shaped by the pride: cubs are raised communally, and their survival depends on how long their fathers hold power.",
+    "stages": [
+      {
+        "name": "Pregnancy",
+        "duration": "about 3.5 months",
+        "text": "One to six cubs are born, each weighing 1–2 kg. Females usually have a litter every two years.",
+        "ref": 2
+      },
+      {
+        "name": "Hidden cub",
+        "duration": "birth to 8 weeks",
+        "text": "Eyes open by about 11 days and cubs can run at a month old, but their mother keeps them hidden until about eight weeks.",
+        "ref": 2
+      },
+      {
+        "name": "Pride cub",
+        "duration": "to about 16 months",
+        "text": "Cubs are weaned at 7–10 months and depend on the pride until at least 16 months. Up to 80% die in their first two years, many from starvation or from males taking over the pride.",
+        "ref": 1
+      },
+      {
+        "name": "Nomad or pride member",
+        "duration": "from about 2.5 years",
+        "text": "Young females usually stay in their mother's pride for life. Young males are driven out and roam for two to three years before trying to win a pride of their own.",
+        "ref": 2
+      }
+    ],
+    "lifespan": {
+      "value": "Females 15–16 years in the wild; few males live past 10",
+      "ref": 2
+    }
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "extraReferences": [
+    {
+      "title": "Goldbogen, J.A. et al. (2011). Mechanics, hydrodynamics and energetics of blue whale lunge feeding: efficiency dependence on krill density. Journal of Experimental Biology 214(1): 131–146",
+      "publisher": "Journal of Experimental Biology",
+      "url": "https://doi.org/10.1242/jeb.048157",
+      "year": 2011,
+      "authors": "Goldbogen, J.A., Calambokidis, J., Oleson, E., Potvin, J., Pyenson, N.D., Schorr, G. & Shadwick, R.E."
+    },
+    {
+      "title": "Bukhman, Y.V. et al. (2024). A high-quality blue whale genome, segmental duplications, and historical demography. Molecular Biology and Evolution 41(3): msae036",
+      "publisher": "Molecular Biology and Evolution",
+      "url": "https://doi.org/10.1093/molbev/msae036",
+      "year": 2024,
+      "authors": "Bukhman, Y.V., Morin, P.A., Meyer, S. et al."
+    },
+    {
+      "title": "Totterdell, J.A. et al. (2022). The first three records of killer whales (Orcinus orca) killing and eating blue whales (Balaenoptera musculus). Marine Mammal Science 38(3): 1286–1301",
+      "publisher": "Marine Mammal Science",
+      "url": "https://doi.org/10.1111/mms.12906",
+      "year": 2022,
+      "authors": "Totterdell, J.A., Wellard, R., Reeves, I.M. et al."
+    }
+  ],
+  "anatomy": {
+    "lede": "Seen from the air, a blue whale is mostly a long, slim back: the head glows turquoise just under the surface, and the tail lies more than twenty metres behind it.",
+    "media": 0,
+    "hotspots": [
+      {
+        "id": "head",
+        "label": "Head and baleen",
+        "x": 16,
+        "y": 83,
+        "text": "Inside the mouth, plates of baleen hang from the upper jaw and work like a sieve. After a gulp, the tongue pushes water out between them and the krill stay behind.",
+        "ref": 1
+      },
+      {
+        "id": "blowholes",
+        "label": "Blowholes",
+        "x": 29,
+        "y": 62,
+        "text": "The whale breathes through blowholes on top of its head. Tagged blue whales came up to breathe after fairly short dives, the longest lasting 14.7 minutes.",
+        "ref": 4
+      },
+      {
+        "id": "blow",
+        "label": "Blow",
+        "x": 22,
+        "y": 38,
+        "text": "The misty blow is the whale's breath. Between dives its heart speeds up to 25–37 beats a minute as it reloads oxygen.",
+        "ref": 3
+      },
+      {
+        "id": "skin",
+        "label": "Mottled skin",
+        "x": 47,
+        "y": 42,
+        "text": "The blue-grey skin is mottled and looks light blue under water. Each whale's mottling is different, so researchers use it to identify individuals.",
+        "ref": 1
+      },
+      {
+        "id": "flukes",
+        "label": "Tail flukes",
+        "x": 84,
+        "y": 13,
+        "text": "The tail drives the whale at about 8 km/h while feeding and travelling, with short bursts of more than 30 km/h.",
+        "ref": 1
+      }
+    ],
+    "stats": [
+      { "value": "≈33 m", "label": "Longest (Antarctic blue whales)", "ref": 1 },
+      { "value": "≈150 t", "label": "Heaviest weight", "ref": 1 },
+      { "value": "2 bpm", "label": "Slowest heart rate recorded on a dive", "ref": 3 },
+      { "value": "≈5 t", "label": "Krill eaten a day by the largest whales", "ref": 1 }
+    ]
+  },
+  "senses": {
+    "lede": "In a dim, wide ocean a blue whale lives largely by sound. Its calls are among the loudest of any animal, and it listens for other whales across enormous distances.",
+    "senses": [
+      {
+        "kind": "hearing",
+        "name": "Hearing",
+        "text": "NOAA describes blue whales as having excellent hearing. Under the right conditions their calls may be heard by other whales up to about 1,600 km away, and scientists think they may also use sound to find their way.",
+        "certainty": "hypothesis",
+        "ref": 1
+      },
+      {
+        "kind": "other",
+        "name": "Song",
+        "text": "Blue whale songs fall into at least ten regional types worldwide. Each type keeps the same units and phrasing for decades, and in any one year singers match each other's pitch to within 3%.",
+        "certainty": "confirmed",
+        "ref": 5
+      }
+    ]
+  },
+  "body": {
+    "lede": "Being this big changes how a body works, from a heart that beats only a few times a minute to a way of feeding that only pays off when krill are packed together.",
+    "systems": [
+      {
+        "title": "A slow heart and an elastic aorta",
+        "text": "During dives the heart beat only 4–8 times a minute, sometimes just twice. A wide, very stretchy aortic arch is thought to store blood from each beat and keep it flowing during the long pauses.",
+        "certainty": "confirmed",
+        "ref": 3
+      },
+      {
+        "title": "The economics of a lunge",
+        "text": "Each lunge takes a lot of energy, but models based on tag data suggest blue whales feed nearly ten times more efficiently than other marine mammals. That only works when they target very dense swarms of krill.",
+        "certainty": "hypothesis",
+        "ref": 6
+      },
+      {
+        "title": "Dives cut short",
+        "text": "Tagged blue whales surfaced sooner than their oxygen stores would seem to allow, making at most six lunges per dive. The researchers suggest that costly lunge feeding uses up oxygen fast.",
+        "certainty": "hypothesis",
+        "ref": 4
+      }
+    ]
+  },
+  "genome": {
+    "lede": "A reference-quality blue whale genome, built from long DNA reads and published in 2024, is being used to look for clues to the species' huge size and long life.",
+    "diploid": 44,
+    "genomeGb": 2.7,
+    "refs": { "diploid": 7, "genome": 7 },
+    "sequenced": 2024,
+    "findings": [
+      {
+        "title": "A burst of duplicated genes",
+        "text": "Several genes have been copied many times in the blue whale genome after a recent burst of segmental duplications. Whether this is linked to its giant size still needs study.",
+        "certainty": "confirmed",
+        "ref": 7
+      },
+      {
+        "title": "A growth-gene signal",
+        "text": "Comparing 11 whales and dolphins, the team found sites in and around the IGF1 growth-factor gene whose DNA letters track body size across cetaceans.",
+        "certainty": "confirmed",
+        "ref": 7
+      },
+      {
+        "title": "Two oceans, long apart",
+        "text": "Pacific and Atlantic blue whale genomes are both highly varied, and their genetic separation dates back to the last interglacial period.",
+        "certainty": "hypothesis",
+        "ref": 7
+      }
+    ]
+  },
+  "mind": {
+    "lede": "Blue whales are hard to follow, but long-term recordings and tracking show some patterns in their behaviour.",
+    "studies": [
+      {
+        "year": "2009",
+        "title": "A worldwide drop in pitch",
+        "text": "Song recordings from the 1960s onwards show that seven of the ten known song types are getting lower. One idea is that, as numbers recover after whaling, males no longer need to sing as loudly and can sing lower.",
+        "certainty": "hypothesis",
+        "ref": 5
+      },
+      {
+        "year": "Field",
+        "title": "Mostly alone",
+        "text": "Blue whales sometimes travel in small groups but are more often seen alone or in pairs.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "year": "Field",
+        "title": "Following the krill",
+        "text": "Most spend summer feeding in polar waters and migrate towards the equator in winter, but some may not migrate at all. Where they go depends mostly on where krill are concentrated.",
+        "certainty": "confirmed",
+        "ref": 1
+      }
+    ]
+  },
+  "survival": {
+    "lede": "An adult blue whale has almost nothing to fear from other animals. Its real dangers have come from people.",
+    "tactics": [
+      {
+        "title": "Sheer size",
+        "text": "Size is its main protection: adults reach about 33 m and 150 tonnes in the Antarctic.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "title": "Bursts of speed",
+        "text": "Although it usually cruises at about 8 km/h, a blue whale can speed up to more than 30 km/h for short bursts.",
+        "certainty": "confirmed",
+        "ref": 1
+      }
+    ],
+    "predators": ["Killer whales"],
+    "threats": [
+      {
+        "title": "The legacy of whaling",
+        "text": "Commercial whaling in the early 1900s cut blue whale numbers to a small fraction of what they had been. Numbers are now rising, but the species is still listed as Endangered.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "title": "Ship strikes",
+        "text": "Collisions with vessels injure and kill blue whales, especially near ports and in busy shipping lanes, and from large, fast ships.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "title": "Entanglement",
+        "text": "Whales can become caught in traps, pots and nets and drag the gear for long distances, which can weaken, injure or kill them.",
+        "certainty": "confirmed",
+        "ref": 1
+      }
+    ]
+  },
+  "life": {
+    "lede": "Much of the blue whale's life history is still poorly known; most of what we have are estimates.",
+    "stages": [
+      { "name": "Pregnancy", "duration": "about 10–12 months", "text": "Mating and births mostly happen in winter, on or near the warmer breeding grounds.", "ref": 1 },
+      { "name": "Calf", "duration": "weaned at about 6–7 months", "text": "The calf is probably weaned on, or on the way to, the summer feeding grounds. Mothers with young calves are regularly seen in the Gulf of California from December to March.", "ref": 1 },
+      { "name": "Young whale", "duration": "mature at 5–15 years", "text": "Sexual maturity is thought to come at between 5 and 15 years old.", "ref": 1 },
+      { "name": "Adult", "duration": "a calf every 2–3 years", "text": "Females are estimated to give birth about once every two to three years.", "ref": 1 }
+    ],
+    "lifespan": { "value": "Estimated at around 80–90 years", "ref": 1 }
+  }
+}

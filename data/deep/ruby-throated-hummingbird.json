@@ -1,0 +1,82 @@
+{
+  "extraReferences": [
+    { "title": "The hummingbird tongue is a fluid trap, not a capillary tube. PNAS 108: 9356–9360", "publisher": "Proceedings of the National Academy of Sciences", "url": "https://doi.org/10.1073/pnas.1016944108", "year": 2011, "authors": "Rico-Guevara A., Rubega M.A." },
+    { "title": "Archilochus colubris genome assembly ASM2307948v1 (GCA_023079485.1)", "publisher": "NCBI Genome (Datasets)", "url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_023079485.1/", "year": 2022, "authors": "Johns Hopkins University" }
+  ],
+  "anatomy": {
+    "lede": "A ruby-throat weighs less than four grams, yet every part of it is tuned for hovering: a needle bill, a reflective throat, tiny feet and wings that hardly ever rest.",
+    "media": 1,
+    "hotspots": [
+      { "id": "bill", "label": "Bill", "x": 66, "y": 13, "text": "The long, straight bill reaches deep into tubular flowers. Inside, the tongue does the real work of gathering nectar.", "ref": 2 },
+      { "id": "eye", "label": "Eye", "x": 47, "y": 18, "text": "Its eyes are sensitive to blue-violet and near-ultraviolet light as well as the colours we see, which may help it pick out flowers.", "ref": 2 },
+      { "id": "gorget", "label": "Gorget", "x": 44, "y": 27, "text": "Only males have the brilliant metallic red throat. Females have a dull greyish throat instead.", "ref": 2 },
+      { "id": "back", "label": "Iridescent green", "x": 36, "y": 50, "text": "The back and head are iridescent green and the underparts white in both sexes.", "ref": 2 },
+      { "id": "wing", "label": "Wing", "x": 76, "y": 48, "text": "Normal flight takes about 53 wingbeats a second. In courtship displays a male's wings can beat up to 200 times a second.", "ref": 2 },
+      { "id": "feet", "label": "Feet", "x": 30, "y": 67, "text": "The feet are tucked up in flight. They are used for perching and, in territorial fights, for striking intruders.", "ref": 2 },
+      { "id": "tail", "label": "Tail", "x": 13, "y": 80, "text": "Males have a forked tail; females have a square tail with white tips.", "ref": 2 }
+    ],
+    "stats": [
+      { "value": "7.5–9 cm", "label": "Body length", "ref": 2 },
+      { "value": "3.4–3.8 g", "label": "Body mass", "ref": 2 },
+      { "value": "Up to 200", "label": "Wingbeats a second in display", "ref": 2 }
+    ]
+  },
+  "senses": {
+    "lede": "A hummingbird finds its food mainly by eye, scanning for red and orange flowers across a meadow.",
+    "senses": [
+      { "kind": "sight", "name": "Colour and ultraviolet sight", "text": "Ruby-throats can see into the blue-violet and near-ultraviolet range, roughly 370 to 570 nanometres. This may help them find and identify flowers worth visiting.", "certainty": "confirmed", "ref": 2 },
+      { "kind": "smell", "name": "Smell", "text": "They may also be able to find and tell apart food sources by smell, though this is less well established than their use of sight.", "certainty": "hypothesis", "ref": 2 },
+      { "kind": "hearing", "name": "Hearing", "text": "Their rapid, squeaky chips are used mostly as threats. A resident male answers an intruder with a single note repeated more and more loudly before he gives chase.", "certainty": "confirmed", "ref": 2 }
+    ]
+  },
+  "body": {
+    "lede": "Hovering is one of the most expensive ways to move. The ruby-throat's body runs close to its limits all day and has to switch itself down at night.",
+    "systems": [
+      { "title": "A tongue that traps nectar", "text": "The tip of the tongue splits into two fringed edges. As it leaves the nectar, the fringes curl inwards and trap the liquid. This works the same way in dead birds, so it costs the bird no energy and is not capillary action, as was long assumed.", "certainty": "confirmed", "ref": 6 },
+      { "title": "A furnace of a metabolism", "text": "Hovering needs about 204 calories per gram of body weight an hour, around ten times the resting rate of 20.6. To keep this up, a ruby-throat eats about twice its body weight in food each day.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Nightly torpor", "text": "On cold nights it saves energy by entering torpor, a state like a short hibernation in which its body cools by several degrees and its body processes slow down.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Fuel for migration", "text": "Before migrating, ruby-throats often double their body mass, storing fat to fuel the long journey south.", "certainty": "confirmed", "ref": 2 }
+    ]
+  },
+  "genome": {
+    "lede": "The ruby-throat's genome was assembled to chromosome level in 2022, from a single female.",
+    "genomeGb": 1.1,
+    "refs": { "genome": 7 },
+    "sequenced": 2022,
+    "findings": [
+      { "title": "A chromosome-scale assembly", "text": "Researchers at Johns Hopkins University combined short-read and nanopore sequencing of brain and flight-muscle tissue from an adult female from Toronto. The resulting assembly, released in 2022, is about 1.1 billion base pairs long and is NCBI's reference genome for the species.", "certainty": "confirmed", "ref": 7 }
+    ]
+  },
+  "mind": {
+    "lede": "Ruby-throats live alone and meet mainly to mate or fight. Their behaviour is a constant balance between defending food and spending as little energy as possible.",
+    "studies": [
+      { "year": "Field", "title": "Defending a patch", "text": "Males hold territories and warn intruders with escalating calls. If that fails, the resident chases the intruder and may jab it with his bill or strike it with his feet.", "certainty": "confirmed", "ref": 2 },
+      { "year": "Field", "title": "The dive display", "text": "A courting male flies in looping dives above a female. If she perches, he switches to very fast side-to-side arcs less than half a metre in front of her.", "certainty": "confirmed", "ref": 2 },
+      { "year": "2016", "title": "Stopovers on the Gulf coast", "text": "A study of birds stopping on the Alabama coast in autumn compared how much fuel adults and first-year birds carried and how long each stayed before moving on, giving a rare look at how these tiny migrants prepare for the Gulf of Mexico.", "certainty": "confirmed", "ref": 3 },
+      { "year": "2011", "title": "Testing the tongue", "text": "High-speed filming of hummingbird tongues, including the ruby-throat's, showed that the tongue tip changes shape as it leaves the nectar, overturning the long-held capillary model of how hummingbirds drink.", "certainty": "confirmed", "ref": 6 }
+    ]
+  },
+  "survival": {
+    "lede": "For a bird this small, the biggest dangers are running out of fuel and being caught by a quicker hunter.",
+    "tactics": [
+      { "title": "Unmatched agility", "text": "Hummingbirds can hover and even fly backwards and upside down, manoeuvres few other birds can match.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Timing the return", "text": "The spring migration north is timed so that birds arrive as their food plants come into flower along the way.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Shutting down to survive the cold", "text": "Torpor lets a bird survive a cold night that would otherwise burn through its small energy reserves.", "certainty": "confirmed", "ref": 2 }
+    ],
+    "predators": ["Sharp-shinned hawks", "Loggerhead shrikes", "Blue jays (nestlings)", "Domestic cats"],
+    "threats": [
+      { "title": "Collected for their feathers", "text": "In the 19th century, ruby-throats were hunted for collections because of their small size and brilliant plumage, though the species never became threatened.", "certainty": "confirmed", "ref": 2 },
+      { "title": "A recent decline", "text": "Breeding Bird Survey data show that, after decades of increase, numbers have fallen since about 2004 across much of the breeding range. The causes are not yet clear.", "certainty": "confirmed", "ref": 4 }
+    ]
+  },
+  "life": {
+    "lede": "Males leave after mating, so the female raises each brood alone, and in a good year she may raise up to three.",
+    "stages": [
+      { "name": "Egg", "duration": "10–14 days", "text": "The female lays 1 to 3 eggs, usually 2, and incubates them alone.", "ref": 2 },
+      { "name": "Nestling", "duration": "18–22 days", "text": "The chicks hatch helpless and are brooded and fed by their mother until they leave the nest.", "ref": 2 },
+      { "name": "Fledgling", "duration": "4–7 days", "text": "After fledging, the young are still fed by their mother until they are about 22 to 25 days old.", "ref": 2 },
+      { "name": "Adult", "text": "Young birds can probably breed in their first year. Males arrive back on the breeding grounds before females and set up territories.", "ref": 2 }
+    ],
+    "lifespan": { "value": "At least 9 years (female) and 5 years (male) in the wild", "ref": 2 }
+  }
+}

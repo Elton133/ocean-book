@@ -1,0 +1,194 @@
+{
+  "extraReferences": [
+    {
+      "title": "Digging with 'hands': observations of food capture in the flying gurnard Dactylopterus volitans (Linnaeus, 1758). Journal of Natural History 53: 2489–2501",
+      "publisher": "Journal of Natural History",
+      "url": "https://doi.org/10.1080/00222933.2019.1705415",
+      "year": 2019,
+      "authors": "Davenport J., Wirtz P."
+    },
+    {
+      "title": "Biologia reprodutiva do falso-voador, Dactylopterus volitans (Teleostei: Dactylopteridae), no litoral norte do Estado de São Paulo, Brasil. Arquivos de Ciências do Mar 35: 125–129",
+      "publisher": "Arquivos de Ciências do Mar",
+      "url": "https://doi.org/10.32360/acmar.v35i1-2.30930",
+      "year": 2017,
+      "authors": "Machado J.F., Zambeli R.M., Vianna M."
+    }
+  ],
+  "anatomy": {
+    "lede": "Folded up, a flying gurnard is a heavy-scaled bottom fish with big eyes. Its secret is in the pectoral fins, which work as shovels and as a sudden pair of wings.",
+    "media": 1,
+    "hotspots": [
+      {
+        "id": "eye",
+        "label": "Large eye",
+        "x": 10,
+        "y": 31,
+        "text": "The eyes are large, and the body colour is very variable: brown or greenish with reddish or yellowish patches.",
+        "ref": 2
+      },
+      {
+        "id": "front-pectoral",
+        "label": "Front of the pectoral fin",
+        "x": 11,
+        "y": 47,
+        "text": "The front part of each pectoral fin is used to explore the seabed and to dig. Its stiff, unsegmented leading ray forms a digging edge.",
+        "ref": 4
+      },
+      {
+        "id": "wing",
+        "label": "Folded 'wing'",
+        "x": 40,
+        "y": 69,
+        "text": "The back part of the pectoral fin, folded here, opens into a huge semi-transparent fan with bright blue tips when the fish is excited.",
+        "ref": 2
+      },
+      {
+        "id": "pelvic-fin",
+        "label": "Pelvic fin",
+        "x": 22,
+        "y": 65,
+        "text": "Flying gurnards have been seen 'walking' over sand on their pelvic fins while searching for food.",
+        "ref": 3
+      },
+      {
+        "id": "scales",
+        "label": "Armoured scales",
+        "x": 57,
+        "y": 51,
+        "text": "The body is covered in heavy, protective scales.",
+        "ref": 3
+      },
+      {
+        "id": "tail",
+        "label": "Tail",
+        "x": 89,
+        "y": 55,
+        "text": "Adults can reach about 50 cm and 1.8 kg, though about 38 cm is more usual.",
+        "ref": 1
+      }
+    ],
+    "stats": [
+      {
+        "value": "50 cm",
+        "label": "Maximum length",
+        "ref": 1
+      },
+      {
+        "value": "1.8 kg",
+        "label": "Maximum weight",
+        "ref": 1
+      },
+      {
+        "value": "1–100 m",
+        "label": "Depth",
+        "ref": 1
+      },
+      {
+        "value": "1.15–3.74 per second",
+        "label": "Digging strokes",
+        "ref": 4
+      }
+    ]
+  },
+  "body": {
+    "lede": "Each pectoral fin is really two tools in one, and the whole fish is wrapped in armour.",
+    "systems": [
+      {
+        "title": "A fin with two halves",
+        "text": "Each pectoral fin has a digging part, with flexible segmented rays behind a stiff front ray, and a larger rear part supported by unsegmented rays that forms the 'wing'.",
+        "certainty": "confirmed",
+        "ref": 4
+      },
+      {
+        "title": "Digging, then sucking",
+        "text": "Once the fin has uncovered prey, the fish catches it by suction, drawing it into the mouth with a rush of water.",
+        "certainty": "confirmed",
+        "ref": 4
+      },
+      {
+        "title": "Colour on demand",
+        "text": "It can shift from very dark brown or grey to almost white depending on the ground beneath it and other conditions.",
+        "certainty": "uncertain",
+        "ref": 2
+      }
+    ]
+  },
+  "mind": {
+    "lede": "Close watching of how the flying gurnard feeds has shown a careful, repeated digging routine.",
+    "studies": [
+      {
+        "year": "2019",
+        "title": "Digging with 'hands'",
+        "text": "Usually only one pectoral fin digs at a time. It sweeps forward and inwards, twists and presses down so the stiff front ray bites into the sediment, then pulls back and out to stir it up.",
+        "certainty": "confirmed",
+        "ref": 4
+      },
+      {
+        "year": "2019",
+        "title": "Short bursts",
+        "text": "Each dig lasts from one to seven strokes, made at between about one and four strokes a second.",
+        "certainty": "confirmed",
+        "ref": 4
+      }
+    ]
+  },
+  "survival": {
+    "lede": "A slow walker on open sand, the flying gurnard relies on armour and a surprise.",
+    "tactics": [
+      {
+        "title": "The sudden flash",
+        "text": "Spreading the brightly coloured pectoral fins may startle a predator long enough for the fish to escape.",
+        "certainty": "hypothesis",
+        "ref": 3
+      },
+      {
+        "title": "Armour",
+        "text": "Heavy, protective scales cover the body.",
+        "certainty": "confirmed",
+        "ref": 3
+      }
+    ],
+    "predators": [],
+    "threats": [
+      {
+        "title": "Caught with shrimp",
+        "text": "Off south-eastern Brazil, many flying gurnards are taken as bycatch by shrimp trawlers. Most of the catch are juveniles, and the shrimp closed season does not protect the spawning fish.",
+        "certainty": "confirmed",
+        "ref": 5
+      },
+      {
+        "title": "Fished and kept",
+        "text": "It is also of minor commercial importance, caught as a gamefish, and sold for aquariums.",
+        "certainty": "confirmed",
+        "ref": 1
+      }
+    ]
+  },
+  "life": {
+    "lede": "Flying gurnards begin life adrift in open water and settle to the seabed only later.",
+    "stages": [
+      {
+        "name": "Floating larva",
+        "text": "Many species of flying gurnard have an extended larval stage that floats freely in the ocean, while the adults live on the bottom.",
+        "ref": 3
+      },
+      {
+        "name": "Growing up",
+        "text": "In one study of 592 fish caught off Brazil, lengths ranged from about 7 to 35.5 cm, and fish of around 10 cm were the most common.",
+        "ref": 5
+      },
+      {
+        "name": "Maturity",
+        "duration": "at about 17–19 cm",
+        "text": "Half of females were mature at 17.4 cm and half of males at 19.3 cm.",
+        "ref": 5
+      },
+      {
+        "name": "Spawning",
+        "text": "Off Brazil, the ovaries and testes grew heavier between November and February, which points to that being the spawning season.",
+        "ref": 5
+      }
+    ]
+  }
+}

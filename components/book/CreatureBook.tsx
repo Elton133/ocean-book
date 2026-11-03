@@ -12,21 +12,38 @@ import {
   useSpring,
   type Variants,
 } from "framer-motion";
-import type { Book, MediaAsset, PageSpec } from "@/lib/types";
+import type { BiomeSlug, Book, MediaAsset, PageSpec } from "@/lib/types";
 import { EASE_CINE, ENTER_DELAY, TURN_DURATION } from "@/lib/motion";
 import { PageMotionContext, type SpreadPart } from "@/components/motion/PageContext";
 import { PageNavigation } from "./PageNavigation";
 import { BookPage, IMMERSIVE, LAYOUT_PARTS } from "./BookPage";
+import { FilmContext, FilmSheet } from "./FilmSheet";
 
 const THEME: Record<PageSpec["theme"], string> = {
   abyss: "bg-abyss text-ivory",
   deep: "bg-deep text-ivory",
   teal: "bg-teal text-ivory",
   ivory: "paper text-ink",
+  canopy: "bg-canopy text-ivory",
+  dune: "bg-dune text-ivory",
+  savanna: "bg-savanna text-ivory",
+  tundra: "bg-tundra text-ivory",
+};
+
+/* On land the light comes from the habitat instead: dappled green, hard desert sun, low gold, cold white. */
+const BIOME_GLOW: Partial<Record<BiomeSlug, string>> = {
+  rainforest: "radial-gradient(90% 55% at 70% -10%, rgba(120,190,120,0.16), transparent 60%)",
+  "monsoon-forest": "radial-gradient(90% 55% at 70% -10%, rgba(160,190,100,0.14), transparent 60%)",
+  desert: "radial-gradient(110% 60% at 50% -15%, rgba(245,200,130,0.2), transparent 62%)",
+  savanna: "radial-gradient(110% 55% at 20% -12%, rgba(230,190,100,0.18), transparent 62%)",
+  grassland: "radial-gradient(110% 55% at 20% -12%, rgba(210,200,120,0.14), transparent 62%)",
+  tundra: "radial-gradient(110% 55% at 50% -12%, rgba(200,225,240,0.16), transparent 62%)",
+  polar: "radial-gradient(110% 55% at 50% -12%, rgba(220,235,245,0.18), transparent 62%)",
+  mountain: "radial-gradient(110% 55% at 50% -12%, rgba(200,210,225,0.14), transparent 62%)",
 };
 
 /* A soft light from above that says how deep this animal lives. */
-const ZONE_GLOW: Record<Book["zone"], string | null> = {
+const ZONE_GLOW: Record<NonNullable<Book["zone"]>, string | null> = {
   surface: "radial-gradient(110% 55% at 50% -12%, rgba(120,200,235,0.22), transparent 62%)",
   twilight: "radial-gradient(100% 45% at 50% -14%, rgba(70,130,190,0.12), transparent 60%)",
   midnight: null,
@@ -103,6 +120,9 @@ export function CreatureBook({ book }: { book: Book }) {
   }, [pos, entries]);
   const lockUntil = useRef(0);
   const [contentsOpen, setContentsOpen] = useState(false);
+  const [filmOpen, setFilmOpen] = useState(false);
+  // While the contents or the film sheet is open, the book itself holds still.
+  const held = contentsOpen || filmOpen;
 
   const go = useCallback(
     (target: number, force = false) => {
@@ -129,8 +149,8 @@ export function CreatureBook({ book }: { book: Book }) {
       sessionStorage.removeItem("ob:from-library");
     } catch {}
     if (fromLibrary && window.history.length > 1) router.back();
-    else router.push("/#library");
-  }, [router]);
+    else router.push(book.creature.realm === "land" ? `/explore/${book.creature.regions[0]}` : "/#library");
+  }, [router, book.creature]);
 
   /* Deep links: #3 opens chapter three, #3b its second page on small screens.
      The hash is kept in sync without adding history entries, so Back always
@@ -176,11 +196,12 @@ export function CreatureBook({ book }: { book: Book }) {
       const el = e.target as HTMLElement;
       if (el.closest("input, textarea, select, [contenteditable=true]")) return;
       if (e.key === "Escape") {
-        if (contentsOpen) setContentsOpen(false);
+        if (filmOpen) setFilmOpen(false);
+        else if (contentsOpen) setContentsOpen(false);
         else close();
         return;
       }
-      if (contentsOpen) return;
+      if (held) return;
       if (["ArrowRight", "PageDown"].includes(e.key) || (e.key === " " && !e.shiftKey && !el.closest("button"))) {
         e.preventDefault();
         step(1);
@@ -192,7 +213,7 @@ export function CreatureBook({ book }: { book: Book }) {
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [step, go, close, contentsOpen]);
+  }, [step, go, close, contentsOpen, filmOpen, held]);
 
   /* Pointer parallax, spring-smoothed so layers glide rather than track. */
   const rawX = useMotionValue(0);
@@ -205,7 +226,7 @@ export function CreatureBook({ book }: { book: Book }) {
   const drag = useRef<{ x: number; y: number; t: number; id: number; horizontal: boolean | null } | null>(null);
 
   const onPointerDown = (e: React.PointerEvent) => {
-    if (contentsOpen) return;
+    if (held) return;
     const el = e.target as HTMLElement;
     if (el.closest("button, a, input, [data-no-drag]")) return;
     drag.current = { x: e.clientX, y: e.clientY, t: performance.now(), id: e.pointerId, horizontal: null };
@@ -246,7 +267,7 @@ export function CreatureBook({ book }: { book: Book }) {
   const wheel = useRef({ acc: 0, timer: 0 as unknown as ReturnType<typeof setTimeout> });
   useEffect(() => {
     const onWheel = (e: WheelEvent) => {
-      if (contentsOpen) return;
+      if (held) return;
       e.preventDefault();
       const w = wheel.current;
       w.acc += Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : e.deltaY;
@@ -259,12 +280,13 @@ export function CreatureBook({ book }: { book: Book }) {
     };
     window.addEventListener("wheel", onWheel, { passive: false });
     return () => window.removeEventListener("wheel", onWheel);
-  }, [step, contentsOpen]);
+  }, [step, held]);
 
   const page = entry.page;
   const immersive = IMMERSIVE.has(page.layout);
   const dark = page.theme !== "ivory";
-  const glow = dark && !immersive ? ZONE_GLOW[book.zone] : null;
+  const c = book.creature;
+  const glow = dark && !immersive ? (book.zone ? ZONE_GLOW[book.zone] : c.realm === "land" ? (BIOME_GLOW[c.biome] ?? null) : null) : null;
   const neighbours = [entries[index + 1]?.page, entries[index - 1]?.page].filter((p): p is PageSpec => !!p && p !== page);
 
   return (
@@ -294,7 +316,9 @@ export function CreatureBook({ book }: { book: Book }) {
           >
             <motion.div className="absolute inset-0" style={{ x: dragX }}>
               <PageMotionContext.Provider value={{ active: true, reduced, delay: reduced ? 0 : ENTER_DELAY, px, py, part: entry.part }}>
-                <BookPage page={page} book={book} index={index} total={total} goTo={go} />
+                <FilmContext.Provider value={{ film: book.film, open: () => setFilmOpen(true) }}>
+                  <BookPage page={page} book={book} index={index} total={total} goTo={go} />
+                </FilmContext.Provider>
               </PageMotionContext.Provider>
               {glow && <div aria-hidden className="pointer-events-none absolute inset-0 z-20 mix-blend-screen" style={{ background: glow }} />}
               {/* The fold between the two pages of a spread. */}
@@ -346,7 +370,9 @@ export function CreatureBook({ book }: { book: Book }) {
         onClose={close}
         contentsOpen={contentsOpen}
         setContentsOpen={setContentsOpen}
+        onFilm={() => setFilmOpen(true)}
       />
+      <FilmSheet creature={book.creature} film={book.film} open={filmOpen} onClose={() => setFilmOpen(false)} />
     </div>
   );
 }

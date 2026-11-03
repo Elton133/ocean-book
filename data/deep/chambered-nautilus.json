@@ -1,0 +1,85 @@
+{
+  "extraReferences": [
+    { "title": "The genome of Nautilus pompilius illuminates eye evolution and biomineralization. Nature Ecology & Evolution 5: 927–938", "publisher": "Nature Ecology & Evolution", "url": "https://doi.org/10.1038/s41559-021-01448-6", "year": 2021, "authors": "Zhang Y. et al." },
+    { "title": "Genomic insights into the adaptation and evolution of the nautilus, an ancient but evolving 'living fossil'. Molecular Ecology Resources 22: 15–27", "publisher": "Molecular Ecology Resources", "url": "https://doi.org/10.1111/1755-0998.13439", "year": 2022, "authors": "Huang Z., Huang W., Liu X. et al." },
+    { "title": "A biphasic memory curve in the chambered nautilus, Nautilus pompilius L. (Cephalopoda: Nautiloidea). Journal of Experimental Biology 211: 1992–1998", "publisher": "Journal of Experimental Biology", "url": "https://doi.org/10.1242/jeb.018531", "year": 2008, "authors": "Crook R., Basil J." },
+    { "title": "Three-dimensional odor tracking by Nautilus pompilius. Journal of Experimental Biology 203: 1409–1414", "publisher": "Journal of Experimental Biology", "url": "https://doi.org/10.1242/jeb.203.9.1409", "year": 2000, "authors": "Basil J.A., Hanlon R.T., Sheikh S.I., Atema J." },
+    { "title": "A role for nautilus in studies of the evolution of brain and behavior. Communicative & Integrative Biology 1: 18–19", "publisher": "Communicative & Integrative Biology (via PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2633788/", "year": 2008, "authors": "Crook R.J., Basil J.A." }
+  ],
+  "anatomy": {
+    "lede": "The nautilus is a cephalopod in a coiled house: a soft, many-armed body living in the last and largest room of a shell it keeps adding to.",
+    "media": 0,
+    "hotspots": [
+      { "id": "hood", "label": "Hood", "x": 36, "y": 26, "text": "The tough, spotted hood works like a trapdoor. When the animal pulls back into its shell, the hood seals the opening.", "ref": 1 },
+      { "id": "eye", "label": "Pinhole eye", "x": 47, "y": 45, "text": "The eye has no lens and works like a pinhole. It can sense only light and dark.", "ref": 1 },
+      { "id": "tentacles", "label": "Tentacles", "x": 12, "y": 62, "text": "More than 90 suckerless tentacles feel, taste and grip. They are ridged and coated in a sticky secretion that holds prey.", "ref": 1 },
+      { "id": "shell", "label": "Striped shell", "x": 81, "y": 27, "text": "Young shells are striped, and the stripes stretch as the animal grows. Each nautilus's pattern is distinctive enough to tell individuals apart.", "ref": 1 },
+      { "id": "living-chamber", "label": "Living chamber", "x": 60, "y": 74, "text": "The body occupies only the outermost chamber. Behind it, the older chambers hold the gas and liquid that keep the animal afloat.", "ref": 2 }
+    ],
+    "stats": [
+      { "value": "13–23 cm", "label": "Shell diameter at maturity", "ref": 2 },
+      { "value": "90+", "label": "Tentacles", "ref": 1 },
+      { "value": "about 30", "label": "Shell chambers in an adult", "ref": 1 },
+      { "value": "about 700 m", "label": "Daytime depth", "ref": 1 }
+    ]
+  },
+  "senses": {
+    "lede": "In the dim deep reef, a nautilus finds food mainly by smell, with simple eyes adding a sense of light and shade.",
+    "senses": [
+      { "kind": "smell", "name": "Rhinophores", "text": "In experiments in the dark, nautiluses followed drifting odour plumes to their source from up to 10 m away. When two small smell organs, the rhinophores, were blocked, they could no longer find the source.", "certainty": "confirmed", "ref": 6 },
+      { "kind": "taste", "name": "Tentacles", "text": "The thin tentacles can detect odour too, but in the same experiments they did not steer the animal. Instead they taste and touch as it feels along the reef.", "certainty": "confirmed", "ref": 6 },
+      { "kind": "sight", "name": "Pinhole eye", "text": "The simple, lens-less eyes can only sense light and dark. They seem to play a smaller part than smell in finding food.", "vsHuman": "weaker", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "body": {
+    "lede": "A nautilus floats, steers and feeds with equipment that has served its ancestors for hundreds of millions of years.",
+    "systems": [
+      { "title": "Buoyancy control", "text": "A tube running back through the shell controls how much gas and liquid each chamber holds, letting the animal fine-tune its buoyancy as it rises and sinks.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Jet propulsion", "text": "It swims by squirting water from its mantle cavity through a flexible siphon near the head. Pointing the siphon lets it move forwards, backwards or sideways.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Beak and radula", "text": "Prey held by the tentacles is broken up by a hard, beak-like mouth and then shredded further by a radula, a ribbon lined with tiny teeth.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Building the shell", "text": "The genome contains a conserved molluscan toolkit for making shell, plus repetitive protein sections found only in this lineage, which together build its shell.", "certainty": "confirmed", "ref": 3 }
+    ]
+  },
+  "genome": {
+    "lede": "Two research teams published nautilus genomes in 2021, giving the first full genetic look at a shelled cephalopod.",
+    "genomeGb": 0.79,
+    "refs": { "genome": 4 },
+    "sequenced": 2021,
+    "findings": [
+      { "title": "Compact and slow-changing", "text": "Compared with other cephalopods, the nautilus genome is compact, has relatively few genes and has evolved slowly.", "certainty": "confirmed", "ref": 3 },
+      { "title": "Genes behind the pinhole eye", "text": "Losses of certain genes, and changes in the size of gene families and their control networks, probably shaped the evolution of the lens-less pinhole eye.", "certainty": "hypothesis", "ref": 3 },
+      { "title": "Jumping genes", "text": "A chromosome-level assembly of about 785 million base pairs found recent activity of transposable elements, 'jumping genes' that may have helped the lineage adapt.", "certainty": "hypothesis", "ref": 4 }
+    ]
+  },
+  "mind": {
+    "lede": "The nautilus has fewer brain lobes and neurons than octopuses or squid, yet it can still learn and remember.",
+    "studies": [
+      { "year": "2008", "title": "Light means food", "text": "Nautiluses learned to link a blue light with the smell of food, and soon stretched out their tentacles at the light alone. Learning appeared within ten trials spread over 30 minutes.", "certainty": "confirmed", "ref": 7 },
+      { "year": "2008", "title": "Two kinds of memory", "text": "The trained response lasted under an hour, faded, then returned about six hours after training and lasted up to a day. This two-phase pattern resembles that of cuttlefish.", "certainty": "confirmed", "ref": 5 },
+      { "year": "2008", "title": "Memory without a memory centre", "text": "Nautiluses lack the vertical lobe that coleoid cephalopods use for learning, so their memory must rely on other parts of the brain.", "certainty": "confirmed", "ref": 5 }
+    ]
+  },
+  "survival": {
+    "lede": "With no ink and no colour-changing skin, the nautilus relies on its shell and on staying deep by day.",
+    "tactics": [
+      { "title": "Retreat and seal", "text": "At any threat it can withdraw into its shell and close the hood over the opening.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Daytime refuge", "text": "It spends the day on deep reef slopes, away from predators, and rises to feed only at night.", "certainty": "confirmed", "ref": 1 },
+      { "title": "No ink, no disguise", "text": "Unlike octopuses and squid, it has no ink sac and cannot camouflage itself, which may make learning to avoid danger especially valuable.", "certainty": "hypothesis", "ref": 7 }
+    ],
+    "predators": ["Sharks", "Bony fishes", "Octopuses"],
+    "threats": [
+      { "title": "Shell trade", "text": "Overharvesting for souvenirs, jewellery and décor is the main threat. Targeted fishing continues in Indonesia, the Philippines and China despite bans.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Slow to recover", "text": "Because nautiluses mature late and produce few young, fished populations are prone to serious decline.", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "life": {
+    "lede": "A nautilus grows slowly, adding chamber after chamber over a decade or more before it can breed.",
+    "stages": [
+      { "name": "Egg", "duration": "about 12 months", "text": "A female lays only 10 to 18 eggs a year, each about the size and shape of a garlic bulb.", "ref": 1 },
+      { "name": "Hatchling", "text": "The young nautilus hatches with a striped shell that already has seven or eight small chambers.", "ref": 1 },
+      { "name": "Juvenile", "duration": "10–15 years", "text": "It keeps adding chambers as it grows, and reaches maturity at around 10 to 15 years old.", "ref": 2 },
+      { "name": "Adult", "text": "A mature nautilus has about 30 chambers and continues to rise each night to feed and lay eggs.", "ref": 1 }
+    ],
+    "lifespan": { "value": "20 years or more", "ref": 1 }
+  }
+}

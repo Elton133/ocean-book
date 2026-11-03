@@ -1,0 +1,160 @@
+{
+  "slug": "lion",
+  "realm": "land",
+  "commonName": "Lion",
+  "scientificName": "Panthera leo",
+  "authority": "(Linnaeus, 1758)",
+  "gbifId": 5219404,
+  "iucnId": 15951,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Felidae"
+  },
+  "group": "Big cat",
+  "categories": [
+    "apex-predators"
+  ],
+  "tagline": "The only big cat that lives and hunts as a family",
+  "summary": "Lions live in prides built around related females, which do most of the hunting and often work together to bring down animals far bigger than themselves. Once found across much of Africa and into Asia, wild lions now survive mainly in Africa south of the Sahara, with a single Asian population in India's Gir Forest.",
+  "ability": "cooperative hunting",
+  "stats": {
+    "size": "1–1.2 m at the shoulder; males weigh 150–250 kg",
+    "habitat": "Savanna, grassland, open woodland and semi-desert",
+    "elevation": "From lowlands up to 4,240 m in Ethiopia's Bale Mountains",
+    "range": "Africa from the southern edge of the Sahara to South Africa, plus the Gir Forest in north-west India",
+    "diet": "Mainly large animals weighing about 45–450 kg",
+    "conservation": "IUCN Red List: Vulnerable (2025)"
+  },
+  "elevationRange": {
+    "min": 0,
+    "max": 4240,
+    "approx": true
+  },
+  "regions": [
+    "african-savanna",
+    "namib-kalahari",
+    "indian-subcontinent"
+  ],
+  "biome": "savanna",
+  "facts": [
+    {
+      "title": "A sisterhood",
+      "text": "Lions live in prides of related females and their young, which may number from several to as many as 40 animals. The females raise the cubs and do most of the hunting, though males sometimes join in.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Better together",
+      "text": "Several lions may stalk prey from different directions to within about 30 m before charging. In the Serengeti, lions hunting alone succeeded 17% of the time, while group hunts succeeded 30% of the time.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "A roar heard 8 km away",
+      "text": "Lions roar to mark their territory and keep in touch with pride members, and a roar can be heard up to about 8 km (five miles) away.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Twenty hours of rest",
+      "text": "Where prey is plentiful, lions spend about twenty hours a day sleeping or resting.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "The last Asian lions",
+      "text": "Asiatic lions survive as a single wild population in and around the Gir Forest of north-west India, where they face inbreeding, limited habitat and frequent conflict with people.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Holding on in the south",
+      "text": "An analysis of 47 lion populations found lions declining everywhere in Africa except in four southern countries — Botswana, Namibia, South Africa and Zimbabwe — partly thanks to small, fenced, intensively managed reserves.",
+      "certainty": "confirmed",
+      "ref": 3
+    }
+  ],
+  "references": [
+    {
+      "title": "Panthera leo (Nicholson, Bauer, Strampelli, Ikanda, Tumenta, Asfaw, Venkataraman & Loveridge)",
+      "publisher": "IUCN Red List of Threatened Species",
+      "year": 2025,
+      "url": "https://www.iucnredlist.org/species/15951/280792135"
+    },
+    {
+      "title": "Lion",
+      "publisher": "Smithsonian's National Zoo & Conservation Biology Institute",
+      "url": "https://nationalzoo.si.edu/animals/lion"
+    },
+    {
+      "title": "Panthera leo (lion)",
+      "publisher": "Animal Diversity Web",
+      "url": "https://animaldiversity.org/accounts/Panthera_leo/"
+    },
+    {
+      "title": "Lion (Panthera leo) populations are declining rapidly across Africa, except in intensively managed areas. PNAS 112: 14894–14899",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "authors": "Bauer, H., Chapron, G., Nowell, K., Henschel, P., Funston, P., Hunter, L.T.B., Macdonald, D.W. & Packer, C.",
+      "year": 2015,
+      "url": "https://doi.org/10.1073/pnas.1500664112"
+    },
+    {
+      "title": "Panthera leo (Linnaeus, 1758)",
+      "publisher": "GBIF",
+      "url": "https://www.gbif.org/species/5219404"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/lion/hero.webp",
+    "width": 1920,
+    "height": 1280,
+    "alt": "A muscular male lion with a dark, shaggy mane standing side-on in long green grass, head raised and mouth wide open showing its canine teeth, with a river and floodplain behind",
+    "caption": "A mature male beside the Chobe River, Chobe National Park, Botswana",
+    "creator": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lion_(Panthera_leo)_old_male_Chobe.jpg",
+    "species": "Panthera leo",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "50% 55%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/lion/alt-1.webp",
+      "width": 1920,
+      "height": 1280,
+      "alt": "Close-up of three tawny lions resting together in front of a leafy bush: a lioness on the left, a young male in the middle and a young male with a short, developing mane behind",
+      "caption": "Three members of a pride resting in the morning, Maasai Mara, Kenya",
+      "creator": "Benh LIEU SONG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lions_Family_Portrait_Masai_Mara.jpg",
+      "species": "Panthera leo",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "50% 45%",
+      "tone": "light"
+    },
+    {
+      "src": "/media/creatures/lion/alt-2.webp",
+      "width": 1920,
+      "height": 657,
+      "alt": "Wide panorama of about a dozen lionesses and young lions crowded over the dark carcass of a buffalo in dry golden grass, while a maned male lies to one side watching",
+      "caption": "A pride feeding on an African buffalo, Chobe National Park, Botswana",
+      "creator": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leones_(Panthera_leo)_deborando_un_búfalo_africano_negro_(Syncerus_caffer_caffer),_parque_nacional_de_Chobe,_Botsuana,_2018-07-28,_DD_94-96_PAN.jpg",
+      "species": "Panthera leo",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "55% 55%",
+      "tone": "light"
+    }
+  ],
+  "notes": "Conservation: IUCN 2025 assessment (Nicholson et al., e.T15951A280792135), category Vulnerable per GBIF's IUCN checklist (July 2026 release); iucnredlist.org returns 403 to scripted requests, so the URL was confirmed via the GBIF API, not a page fetch. Regions: african-savanna; namib-kalahari for the Kalahari lions (e.g. Kgalagadi, Tswalu) and Etosha; indian-subcontinent for the Gir population (Smithsonian, ADW). No population totals given: Smithsonian's figures (about 20,000 in Africa; about 250 in Gir) look dated against the 2023 Green Status figures reported in the press (~23,000 in Africa, ~670 in India), so I left numbers out rather than mix sources. Diet range '45–450 kg' converts Smithsonian's '100 to 1,000 pounds'. Elevation max 4,240 m is ADW's Bale Mountains population; the minimum is set at sea level (approx: true) as no source gives a lower limit. The 17%/30% hunting success figures are ADW's summary of Serengeti research. The hero shows the male with mouth open (Commons does not say whether yawning, roaring or flehmen), so the alt text describes it without guessing."
+}

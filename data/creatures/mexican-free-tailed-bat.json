@@ -1,0 +1,162 @@
+{
+  "slug": "mexican-free-tailed-bat",
+  "realm": "land",
+  "commonName": "Mexican Free-tailed Bat",
+  "scientificName": "Tadarida brasiliensis",
+  "authority": "(I. Geoffroy, 1824)",
+  "gbifId": 2433011,
+  "iucnId": 21314,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Chiroptera",
+    "family": "Molossidae"
+  },
+  "group": "Bat",
+  "categories": [
+    "fliers",
+    "nocturnal",
+    "migrations"
+  ],
+  "tagline": "The fastest bat ever measured, from the largest bat colonies on Earth",
+  "summary": "Also called the Brazilian free-tailed bat, this small, narrow-winged bat roosts in caves and under bridges in colonies that can number in the millions. At dusk the colonies pour out in dark ribbons, climbing to hunt moths and other insects in open sky. Radio-tracked from an aeroplane, individual bats reached ground speeds of 160 km/h.",
+  "ability": "high-speed flight in open sky",
+  "stats": {
+    "size": "Wingspan about 28 cm; adults weigh roughly 7–13 g",
+    "habitat": "Caves, mines, bridges and buildings; hunts high over desert, scrub and farmland",
+    "range": "Southern United States and Mexico through Central America and the Caribbean to south-western South America, including Brazil, Chile and Argentina",
+    "diet": "Flying insects, mainly moths and beetles, plus flies, true bugs and others",
+    "conservation": "IUCN: Least Concern (2015 assessment)"
+  },
+  "regions": [
+    "north-american-deserts",
+    "central-america",
+    "andes-patagonia"
+  ],
+  "biome": "desert",
+  "flight": "echolocating",
+  "facts": [
+    {
+      "title": "160 km/h, tracked from the air",
+      "text": "Seven bats from Frio Cave, Texas, were fitted with radio tags and followed at night by a light aircraft. All of them exceeded ground speeds of 25 m/s, and their individual top speeds ranged from 27.2 to 44.5 m/s (160 km/h), the fastest ever documented for a bat.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Flap, pause, glide",
+      "text": "The faster the bats flew, the more often they paused between wingbeats. The researchers suggest that this flap-gliding helps the bats reach their high speeds.",
+      "certainty": "hypothesis",
+      "ref": 1
+    },
+    {
+      "title": "Built like a swift",
+      "text": "Free-tailed bats have long, narrow wings and high wing loading, like swifts. They hunt insects in open airspace well above the ground rather than among trees.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "The largest bat colony in the world",
+      "text": "Bracken Cave, near San Antonio in Texas, holds up to 20 million Mexican free-tailed bats in summer, the largest bat colony in the world. Bat Conservation International bought the cave in 1992 to protect it.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Carlsbad's evening flight",
+      "text": "Each bat weighs about 13 g, about as much as three nickel coins, and has a wingspan of about 28 cm. The resident colony in Carlsbad Cavern, New Mexico, was about 400,000 in summer 2005, and counts during spring and autumn migration reached 793,000.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Hunting high and far",
+      "text": "Free-tailed bats have been recorded flying above 3,300 m, the highest flight altitude recorded for any bat. A bat may travel 25 km or more to forage in an evening, and some have been recorded up to 65 km from their roost.",
+      "certainty": "confirmed",
+      "ref": 4
+    }
+  ],
+  "references": [
+    {
+      "title": "Tadarida brasiliensis — Barquez, R., Diaz, M., Gonzalez, E., Rodriguez, A., Incháustegui, S. & Arroyo-Cabrales, J.",
+      "publisher": "IUCN Red List of Threatened Species",
+      "url": "https://www.iucnredlist.org/species/21314/22121621",
+      "year": 2015
+    },
+    {
+      "title": "Airplane tracking documents the fastest flight speeds recorded for bats. R Soc Open Sci 3: 160398",
+      "publisher": "Royal Society Open Science",
+      "authors": "McCracken, G.F., Safi, K., Kunz, T.H., Dechmann, D.K.N., Swartz, S.M. & Wikelski, M.",
+      "year": 2016,
+      "url": "https://doi.org/10.1098/rsos.160398"
+    },
+    {
+      "title": "Bats",
+      "publisher": "Carlsbad Caverns National Park, U.S. National Park Service",
+      "url": "https://www.nps.gov/cave/learn/nature/bats.htm"
+    },
+    {
+      "title": "Bracken Cave Preserve",
+      "publisher": "Bat Conservation International",
+      "url": "https://www.batcon.org/our-work/protect-restore-landscapes/bracken-cave-preserve/"
+    },
+    {
+      "title": "Tadarida brasiliensis (Brazilian free-tailed bat)",
+      "publisher": "Animal Diversity Web, University of Michigan",
+      "url": "https://animaldiversity.org/accounts/Tadarida_brasiliensis/"
+    },
+    {
+      "title": "Tadarida brasiliensis (I.Geoffroy, 1824)",
+      "publisher": "GBIF",
+      "url": "https://www.gbif.org/species/2433011"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/mexican-free-tailed-bat/hero.webp",
+    "width": 1920,
+    "height": 1280,
+    "alt": "Hundreds of bats streaming across a black night sky above dark treetops, the nearest ones lit pale by a flash with wings spread wide",
+    "caption": "The nightly emergence at Bracken Cave, Texas",
+    "creator": "Ann Froschauer / U.S. Fish and Wildlife Service",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-FWS",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mexican_free-tailed_bats_exiting_Bracken_Bat_Cave_(8006846716).jpg",
+    "species": "Tadarida brasiliensis",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "40% 45%",
+    "tone": "dark"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/mexican-free-tailed-bat/alt-1.webp",
+      "width": 1262,
+      "height": 943,
+      "alt": "A dense cloud of dark bats flying against a bright blue sky, above a fringe of green scrub",
+      "caption": "Free-tailed bats in daylight over the Texas scrub, July 2013",
+      "creator": "Ann Froschauer / U.S. Fish and Wildlife Service",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-FWS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mexican_free-tailed_bats_Texas_22_July_2013.png",
+      "species": "Tadarida brasiliensis",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "50% 40%",
+      "tone": "light"
+    },
+    {
+      "src": "/media/creatures/mexican-free-tailed-bat/alt-2.webp",
+      "width": 1920,
+      "height": 1280,
+      "alt": "A small dark grey-brown bat with broad wrinkled ears and a pug-like face held in a yellow leather glove",
+      "caption": "Close to: a free-tailed bat in a handler's glove at Bracken Cave, 2012",
+      "creator": "Ann Froschauer / U.S. Fish and Wildlife Service",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-FWS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mexican_free-tailed_bat_(8006850175).jpg",
+      "species": "Tadarida brasiliensis",
+      "type": "photograph",
+      "setting": "in hand",
+      "focal": "45% 50%",
+      "tone": "light"
+    }
+  ],
+  "notes": "IUCN Least Concern per Barquez et al. (2015), e.T21314A22121621. iucnredlist.org, gbif.org and doi.org/royalsocietypublishing.org return 403 to automated requests. The category and IUCN taxon ID were confirmed via the GBIF API (iucnRedListCategory: LC, iucnTaxonID 21314) and the assessment DOI 10.2305/IUCN.UK.2015-4.RLTS.T21314A22121621.en, which redirects to the cited page. McCracken et al. (2016) was read in full via Europe PMC (PMC5180116). Speeds are ground speeds: the authors modelled the wind but did not convert every value to airspeed, and they removed one 60.1 m/s outlier. Mass: NPS gives about 13 g (½ oz); ADW gives 7–12 g, varying with season and age. Wingspan 28 cm from both. The 3,300 m altitude and 25 km / 65 km foraging distances are from ADW, which does not give primary sources inline. The Bracken Cave figure is BCI's 'up to 20 million'. Other sources quote 15–20 million, and colony counts are estimates. Regions: north-american-deserts first (Carlsbad Caverns, the Chihuahuan Desert); central-america and andes-patagonia because ADW and IUCN place the range through Central America to south-western South America (Chile, Argentina). The migrations shelf is justified because northern populations migrate seasonally (ADW; NPS notes spring and autumn migration counts at Carlsbad). Images: all USFWS (Ann Froschauer), public domain as US federal government works. alt-2's Commons date (18 Sept 2012) matches the Bracken Cave emergence series, but the file itself does not name the location, so the 'Bracken Cave' in its caption is an inference from that same-day series. alt-2 shows a bat being handled (setting 'in hand'). A Carlsbad outflight photo by Nick Hristov was considered and rejected because its public-domain status rests only on NPS hosting."
+}

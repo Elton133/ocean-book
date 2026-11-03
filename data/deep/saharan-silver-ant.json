@@ -1,0 +1,60 @@
+{
+  "extraReferences": [
+    { "title": "Heat shock protein synthesis and thermotolerance in Cataglyphis, an ant from the Sahara desert. PNAS 92: 2994–2998", "publisher": "Proceedings of the National Academy of Sciences", "url": "https://doi.org/10.1073/pnas.92.7.2994", "year": 1995, "authors": "Gehring W.J. & Wehner R." },
+    { "title": "Molecular chaperoning helps safeguarding mitochondrial integrity and motor functions in the Sahara silver ant Cataglyphis bombycina. Scientific Reports 8: 9220", "publisher": "Scientific Reports", "url": "https://doi.org/10.1038/s41598-018-27628-2", "year": 2018, "authors": "Willot Q., Mardulyn P., Defrance M., Gueydan C. & Aron S." },
+    { "title": "Accuracy and spread of nest search behaviour in the Saharan silver ant, Cataglyphis bombycina, and in the salt pan species, Cataglyphis fortis. Animal Cognition 23: 1107–1117", "publisher": "Animal Cognition", "url": "https://doi.org/10.1007/s10071-020-01371-6", "year": 2020, "authors": "Pfeffer S., Wahl V. & Wolf H." },
+    { "title": "Bigger helpers in the ant Cataglyphis bombycina: increased worker polymorphism or novel soldier caste? PLoS ONE 9: e84929", "publisher": "PLoS ONE", "url": "https://doi.org/10.1371/journal.pone.0084929", "year": 2014, "authors": "Molet M., Maicher V. & Peeters C." },
+    { "title": "Facing lethal temperatures: heat-shock response in desert and temperate ants. Ecology and Evolution 13: e10438", "publisher": "Ecology and Evolution", "url": "https://doi.org/10.1002/ece3.10438", "year": 2023, "authors": "Araujo N.S., Perez R., Willot Q., Defrance M. & Aron S." }
+  ],
+  "anatomy": {
+    "lede": "A silver ant is less than a centimetre long, yet nearly every part of it is tuned for a few minutes of foraging on the hottest sand on Earth.",
+    "media": 1,
+    "hotspots": [
+      { "id": "mandibles", "label": "Mandibles", "x": 58, "y": 54, "text": "Workers search the midday dunes for insects and other small animals that have died of heat, and carry or tear them apart to take back to the nest.", "ref": 7 },
+      { "id": "head", "label": "Head and eye", "x": 65.5, "y": 49, "text": "Cataglyphis desert ants can wander hundreds of metres from the nest and still head home in a straight line, keeping track of direction and distance as they go.", "ref": 8 },
+      { "id": "thorax", "label": "Wingless thorax", "x": 72, "y": 53, "text": "Like all worker ants, silver-ant workers are females with a simplified, wingless thorax and a reduced reproductive system. Only queens are built for flight.", "ref": 9 },
+      { "id": "gaster", "label": "Silvered abdomen", "x": 82, "y": 54, "text": "Dense hairs with a triangular cross-section give the body its silver sheen, reflecting sunlight and radiating heat away.", "ref": 0 },
+      { "id": "legs", "label": "Legs", "x": 92.5, "y": 69, "text": "The ant runs with a strict tripod gait, three legs at a time, with moments when all six feet are off the ground.", "ref": 8 }
+    ],
+    "stats": [
+      { "value": "53.6 °C", "label": "Critical thermal maximum", "ref": 6 },
+      { "value": "above 50 °C", "label": "Body temperature while foraging", "ref": 6 },
+      { "value": "855 mm/s", "label": "Top running speed", "ref": 2 },
+      { "value": "under 1 cm", "label": "Worker length" }
+    ]
+  },
+  "body": {
+    "lede": "Reflective hairs keep the heat out. Inside, the ant's cells are prepared for heat before it arrives.",
+    "systems": [
+      { "title": "Ready before the heat", "text": "Cataglyphis ants build up heat-shock proteins, molecules that protect other proteins from damage, before they are exposed to high temperatures. Their cells keep making proteins up to 45 °C, against 39 °C in a temperate Formica ant and in fruit flies.", "certainty": "confirmed", "ref": 6 },
+      { "title": "Guarding the power stations", "text": "When heated, silver ants switch on chaperone proteins that work inside the mitochondria, the parts of the cell that supply energy. This seems to keep their muscles working during sudden bursts of extreme heat.", "certainty": "hypothesis", "ref": 7 },
+      { "title": "A measured response", "text": "Under heat stress the silver ant alters the activity of only about 0.6% of its genes, compared with 8–13% in two temperate ants. Desert ants seem to need far less of an emergency response.", "certainty": "confirmed", "ref": 10 }
+    ]
+  },
+  "mind": {
+    "lede": "Cataglyphis desert ants are famous navigators, and the silver ant manages the feat on shifting sand at a sprint.",
+    "studies": [
+      { "year": "2020", "title": "Counting steps on soft sand", "text": "Researchers expected the silver ant's bouncing gait and the yielding dune sand to spoil its sense of distance. In fact it found its way back to the nest as accurately as a salt-pan relative, on sand or on a hard floor.", "certainty": "confirmed", "ref": 8 },
+      { "year": "2020", "title": "A wider search", "text": "When a silver ant misses its nest entrance, it searches in a spiral that spreads wider than that of its relative, perhaps allowing for greater uncertainty in its reckoning.", "certainty": "hypothesis", "ref": 8 },
+      { "year": "1992", "title": "Timing the rush", "text": "Foragers leave the nest only once the sand is hot enough to drive their lizard predators into shelter, and must be back before they overheat themselves.", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "survival": {
+    "lede": "The silver ant's niche is a narrow window between being eaten and being cooked.",
+    "tactics": [
+      { "title": "Speed", "text": "Feet that touch the sand for only milliseconds and very high stride frequencies make it the fastest ant known, which may help it to limit time spent on the scorching surface.", "certainty": "hypothesis", "ref": 2 },
+      { "title": "Soldiers", "text": "Some colonies contain a third caste: large individuals with sabre-shaped mandibles and big abdomens, which appear to serve both for defence and for storing fat.", "certainty": "hypothesis", "ref": 9 },
+      { "title": "Deep nests", "text": "Nests in the dunes are huge and deep, with several entrances metres apart.", "certainty": "confirmed", "ref": 9 }
+    ],
+    "predators": ["Lizards"]
+  },
+  "life": {
+    "lede": "Like all ants, the silver ant grows through egg, larva and pupa. What a larva becomes depends on how large it grows.",
+    "stages": [
+      { "name": "Larva", "text": "Larvae are fed by workers. When a larva reaches a critical size it pupates, and different growth rules produce workers, soldiers or queens.", "ref": 9 },
+      { "name": "Worker", "text": "Most adults are wingless workers of varying size, which forage, care for the brood, build and defend the nest.", "ref": 9 },
+      { "name": "Soldier", "text": "Fewer, larger adults with sabre-shaped mandibles combine some growth patterns of workers with some of queens.", "ref": 9 },
+      { "name": "Queen", "text": "Winged young queens leave on nuptial flights, recorded in Morocco in April. A colony has one queen, who sheds her wings after mating; queens come in both large and small forms.", "ref": 9 }
+    ]
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "extraReferences": [
+    {
+      "title": "Brent, L.J.N. et al. (2015). Ecological knowledge, leadership, and the evolution of menopause in killer whales. Current Biology 25(6): 746–750",
+      "publisher": "Current Biology",
+      "url": "https://doi.org/10.1016/j.cub.2015.01.037",
+      "year": 2015,
+      "authors": "Brent, L.J.N., Franks, D.W., Foster, E.A., Balcomb, K.C., Cant, M.A. & Croft, D.P."
+    },
+    {
+      "title": "Au, W.W.L. et al. (2004). Echolocation signals of free-ranging killer whales (Orcinus orca) and modeling of foraging for chinook salmon (Oncorhynchus tshawytscha). Journal of the Acoustical Society of America 115(2): 901–909",
+      "publisher": "Journal of the Acoustical Society of America",
+      "url": "https://doi.org/10.1121/1.1642628",
+      "year": 2004,
+      "authors": "Au, W.W.L., Ford, J.K.B., Horne, J.K. & Allman, K.A.N."
+    },
+    {
+      "title": "Foote, A.D. et al. (2016). Genome-culture coevolution promotes rapid divergence of killer whale ecotypes. Nature Communications 7: 11693",
+      "publisher": "Nature Communications",
+      "url": "https://doi.org/10.1038/ncomms11693",
+      "year": 2016,
+      "authors": "Foote, A.D., Vijay, N., Ávila-Arcos, M.C. et al."
+    },
+    {
+      "title": "Foote, A.D. et al. (2015). Convergent evolution of the genomes of marine mammals. Nature Genetics 47(3): 272–275",
+      "publisher": "Nature Genetics",
+      "url": "https://doi.org/10.1038/ng.3198",
+      "year": 2015,
+      "authors": "Foote, A.D., Liu, Y., Thomas, G.W.C. et al."
+    },
+    {
+      "title": "Durban, J.W. & Pitman, R.L. (2012). Antarctic killer whales make rapid, round-trip movements to subtropical waters: evidence for physiological maintenance migrations? Biology Letters 8(2): 274–277",
+      "publisher": "Biology Letters",
+      "url": "https://doi.org/10.1098/rsbl.2011.0875",
+      "year": 2012,
+      "authors": "Durban, J.W. & Pitman, R.L."
+    },
+    {
+      "title": "Orcinus orca genome assembly mOrcOrc1.1 (GCF_937001465.1)",
+      "publisher": "NCBI Datasets",
+      "url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_937001465.1/",
+      "year": 2022
+    }
+  ],
+  "anatomy": {
+    "lede": "The orca's black-and-white pattern is one of the most recognisable in the sea. Its markings, fins and flippers also show differences between individuals and between the sexes.",
+    "media": 0,
+    "hotspots": [
+      {
+        "id": "head",
+        "label": "Head",
+        "x": 12,
+        "y": 29,
+        "text": "Hunting killer whales scan for prey with very broadband echolocation clicks, mostly centred between 45 and 80 kHz.",
+        "ref": 7
+      },
+      {
+        "id": "eyepatch",
+        "label": "Eye patch",
+        "x": 24,
+        "y": 31,
+        "text": "A white patch sits just above and behind each eye. Like all the markings, its shape varies between individuals and populations.",
+        "ref": 1
+      },
+      {
+        "id": "dorsal",
+        "label": "Dorsal fin",
+        "x": 52,
+        "y": 28,
+        "text": "Adult males grow much taller dorsal fins than females, along with larger flippers and flukes and a thicker body.",
+        "ref": 1
+      },
+      {
+        "id": "saddle",
+        "label": "Saddle patch",
+        "x": 51,
+        "y": 40,
+        "text": "A grey or white 'saddle' lies just behind the dorsal fin. Natural markings like these let researchers recognise individual whales and their pods.",
+        "ref": 3
+      },
+      {
+        "id": "belly",
+        "label": "White underside",
+        "x": 50,
+        "y": 66,
+        "text": "Killer whales are mostly black on top and white underneath, a pattern seen here as this whale clears the water.",
+        "ref": 1
+      },
+      {
+        "id": "flipper",
+        "label": "Pectoral flipper",
+        "x": 74,
+        "y": 35,
+        "text": "The second whale shows a broad, paddle-like flipper. Adult males develop disproportionately large flippers.",
+        "ref": 1
+      }
+    ],
+    "stats": [
+      { "value": "≈9.8 m", "label": "Maximum length", "ref": 1 },
+      { "value": "≈10 t", "label": "Maximum weight", "ref": 1 },
+      { "value": "1,087 m", "label": "Deepest recorded dive", "ref": 5 },
+      { "value": "90+ yrs", "label": "Oldest females", "ref": 1 }
+    ]
+  },
+  "senses": {
+    "lede": "Killer whales rely on underwater sound to feed, communicate and navigate. Different populations use their voices in very different ways.",
+    "senses": [
+      {
+        "kind": "echolocation",
+        "name": "Echolocation",
+        "text": "Fish-eating Resident killer whales hunting along cliffs off Vancouver Island produced clicks of 195–224 dB (re 1 µPa). A model suggests a chinook salmon's echo would still be clearly audible at about 100 m.",
+        "certainty": "confirmed",
+        "ref": 7
+      },
+      {
+        "kind": "hearing",
+        "name": "Hearing",
+        "text": "Noise from vessels, industry and military activity interferes with their use of sound for feeding, communication and orientation. Southern Residents call louder near noisy boats, which costs them energy.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "kind": "other",
+        "name": "Family calls",
+        "text": "Besides clicks and whistles, killer whales make pulsed calls that are learned and passed on within each population. NOAA describes them as 'family badges' that help hold groups together.",
+        "certainty": "confirmed",
+        "ref": 1
+      }
+    ]
+  },
+  "body": {
+    "lede": "A long life at the top of the food chain brings particular strains: polluted blubber, cold skin and the physical cost of deep dives.",
+    "systems": [
+      {
+        "title": "Blubber that stores pollutants",
+        "text": "Because they live long, eat at the top of the food web and carry a lot of blubber, killer whales build up unusually high levels of contaminants. These can harm their immune, nutritional and reproductive systems.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "title": "Trips to warm water for the skin?",
+        "text": "Tagged Antarctic killer whales made fast, non-stop trips to subtropical waters off Uruguay and Brazil, one covering about 9,400 km in 42 days. The authors suggest the warmer water lets them renew their skin without losing too much body heat.",
+        "certainty": "hypothesis",
+        "ref": 10
+      },
+      {
+        "title": "The price of deep dives",
+        "text": "A tagged killer whale dived beyond 750 m five times while taking fish from longlines, but each deep dive was followed by 3.9–4.6 hours of only shallow diving. This suggests such dives push it close to its physical limits.",
+        "certainty": "hypothesis",
+        "ref": 5
+      }
+    ]
+  },
+  "genome": {
+    "lede": "Killer whale genomes help show how different ways of life, passed on by learning, can leave marks in DNA.",
+    "genomeGb": 2.6,
+    "refs": { "genome": 11 },
+    "sequenced": 2015,
+    "findings": [
+      {
+        "title": "Convergence, but rarely adaptive",
+        "text": "Comparing the killer whale, walrus and manatee genomes found that matching amino-acid changes are common across the genome. Few of them are linked to the shared features of a marine lifestyle.",
+        "certainty": "confirmed",
+        "ref": 9
+      },
+      {
+        "title": "Culture shaping genes",
+        "text": "Killer whale ecotypes spread around the world in less than about 250,000 years. Their genetic differences line up with learned diets and habitats, which suggests culture has helped steer their evolution.",
+        "certainty": "hypothesis",
+        "ref": 8
+      }
+    ]
+  },
+  "mind": {
+    "lede": "Long-term studies of known individuals have made killer whales a key example of animal culture.",
+    "studies": [
+      {
+        "year": "1991",
+        "title": "Pod dialects",
+        "text": "Each of 16 Resident pods off British Columbia had its own set of calls, and pods sharing calls formed four clans. Small changes in learned calls over generations probably produced each pod's dialect.",
+        "certainty": "confirmed",
+        "ref": 3
+      },
+      {
+        "year": "2012",
+        "title": "Wave-washing and 'butchering'",
+        "text": "Pack-ice killer whales made 120 waves in 22 attacks on seals resting on ice floes, catching 75% of the Weddell seals they targeted. They also took the carcasses apart so carefully that the authors called it 'butchering'.",
+        "certainty": "confirmed",
+        "ref": 4
+      },
+      {
+        "year": "2015",
+        "title": "Grandmothers lead the way",
+        "text": "Among Resident killer whales, females past breeding age led the group through salmon foraging grounds, especially in years when salmon were scarce. This supports the idea that older females pass on ecological knowledge.",
+        "certainty": "hypothesis",
+        "ref": 6
+      }
+    ]
+  },
+  "survival": {
+    "lede": "As the ocean's top predator, an adult killer whale has no natural enemies. Its strength lies in its family group.",
+    "tactics": [
+      {
+        "title": "Hunting as a team",
+        "text": "Killer whales often hunt cooperatively, working together like a pack of wolves to catch prey.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "title": "Specialised diets",
+        "text": "Taken together, killer whales eat a wider range of food than any other whale or dolphin, but each population usually specialises in particular prey and learned hunting methods.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "title": "Close-knit pods",
+        "text": "Most live in pods of maternally related whales, from a few to 20 or more individuals, and stay closely tied to their mother's group.",
+        "certainty": "confirmed",
+        "ref": 1
+      }
+    ],
+    "predators": [],
+    "threats": [
+      {
+        "title": "Shortage of prey",
+        "text": "Overfishing and habitat loss have reduced food for some populations. This is a serious problem for Southern Residents, whose main prey, chinook salmon, is itself threatened.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "title": "Oil spills",
+        "text": "After the 1989 Exxon Valdez oil spill in Alaska, the AT1 Transient group fell from 22 whales to 6.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "title": "Disturbance and capture",
+        "text": "Near vessels, killer whales hunt less and travel more. Capture for aquariums no longer happens in the United States but still threatens killer whales elsewhere.",
+        "certainty": "confirmed",
+        "ref": 1
+      }
+    ]
+  },
+  "life": {
+    "lede": "Killer whales mature slowly and breed infrequently, and females can live for decades after they stop breeding.",
+    "stages": [
+      { "name": "Pregnancy", "duration": "15–18 months", "text": "A single calf is born. There is no fixed calving season, so births can happen in any month.", "ref": 1 },
+      { "name": "Calf", "duration": "at least 1–2 years", "text": "Calves feed only on milk for at least a year and stay close to their mother for at least the first two years.", "ref": 1 },
+      { "name": "Maturity", "duration": "females at 10–13 years", "text": "Females become sexually mature between 10 and 13 years old.", "ref": 1 },
+      { "name": "Breeding years", "duration": "about 25 years", "text": "In some populations females are estimated to give birth about every 5 years over a breeding life of around 25 years.", "ref": 1 },
+      { "name": "After menopause", "duration": "decades", "text": "Killer whales are one of the few species known to go through menopause. Older females go on leading their family groups.", "ref": 6 }
+    ],
+    "lifespan": { "value": "Females typically about 50 years (up to at least 90); males about 30 (up to at least 60)", "ref": 1 }
+  }
+}

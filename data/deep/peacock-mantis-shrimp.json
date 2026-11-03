@@ -1,0 +1,69 @@
+{
+  "extraReferences": [
+    { "title": "The stomatopod dactyl club: a formidable damage-tolerant biological hammer. Science 336", "publisher": "Science", "url": "https://doi.org/10.1126/science.1218764", "year": 2012, "authors": "Weaver J.C., Milliron G.W., Miserez A., et al." },
+    { "title": "Ultraviolet polarisation sensitivity in the stomatopod crustacean Odontodactylus scyllarus. Journal of Comparative Physiology A 195", "publisher": "Journal of Comparative Physiology A", "url": "https://doi.org/10.1007/s00359-009-0491-y", "year": 2009, "authors": "Kleinlogel S., Marshall N.J." },
+    { "title": "Dynamic polarization vision in mantis shrimps. Nature Communications 7: 12140", "publisher": "Nature Communications", "url": "https://doi.org/10.1038/ncomms12140", "year": 2016, "authors": "Daly I.M., How M.J., Partridge J.C., Temple S.E., Marshall N.J., Cronin T.W., Roberts N.W." },
+    { "title": "The independence of eye movements in a stomatopod crustacean is task dependent. Journal of Experimental Biology 220", "publisher": "Journal of Experimental Biology", "url": "https://doi.org/10.1242/jeb.153692", "year": 2017, "authors": "Daly I.M., How M.J., Partridge J.C., Roberts N.W." },
+    { "title": "Complex gaze stabilization in mantis shrimp. Proceedings of the Royal Society B 285: 20180594", "publisher": "Proceedings of the Royal Society B", "url": "https://doi.org/10.1098/rspb.2018.0594", "year": 2018, "authors": "Daly I.M., How M.J., Partridge J.C., Roberts N.W." },
+    { "title": "Whole-genome survey information revealed the genome characteristics, mitochondrial genome diversity and evolutionary patterns of Stomatopoda species. BMC Genomics 27", "publisher": "BMC Genomics", "url": "https://doi.org/10.1186/s12864-025-12296-0", "year": 2025, "authors": "Duan X., Li Y., Ding Y., Huang X., Xiao J., Wang Y., Lou F." }
+  ],
+  "anatomy": {
+    "lede": "The peacock mantis shrimp carries two hammers folded under its head and a pair of eyes unlike any other animal's.",
+    "media": 0,
+    "hotspots": [
+      { "id": "eye", "label": "Compound eye", "x": 57, "y": 15, "text": "The band across each eye is the mid-band. In two of its rows, small ultraviolet-sensitive cells respond to polarised ultraviolet light, set at right angles to each other.", "ref": 8 },
+      { "id": "eyestalk", "label": "Eyestalk", "x": 61, "y": 21, "text": "Each eye can swivel, tilt and roll on its stalk, largely independently of the other.", "ref": 9 },
+      { "id": "striking-limb", "label": "Striking limb", "x": 65, "y": 50, "text": "A saddle-shaped spring in the exoskeleton of this limb stores energy and then releases it in an extremely fast strike.", "ref": 2 },
+      { "id": "club", "label": "Dactyl club", "x": 54, "y": 60, "text": "The heel of the folded limb is the club, a mineral-packed hammer of crystalline hydroxyapatite and amorphous calcium phosphate and carbonate over a spiralling chitin framework.", "ref": 7 }
+    ],
+    "stats": [
+      { "value": "14–23 m/s", "label": "Strike speed", "ref": 3 },
+      { "value": "Up to 1,501 N", "label": "Peak impact force of one strike", "ref": 4 },
+      { "value": "390–480 µs", "label": "Gap between impact and bubble-collapse force peaks", "ref": 4 }    ]
+  },
+  "senses": {
+    "lede": "Mantis shrimp eyes do not just see colour; they read polarised light and move constantly to sample the scene.",
+    "senses": [
+      { "kind": "sight", "name": "Narrow colour channels", "text": "Some mantis shrimps have 12 photoreceptor types, each sampling a narrow band of wavelengths from deep ultraviolet to far red, 300 to 720 nanometres.", "certainty": "confirmed", "ref": 1 },
+      { "kind": "sight", "name": "Ultraviolet polarisation", "text": "Recordings from single cells showed that this species has ultraviolet-sensitive receptors that respond to the angle of polarised light.", "certainty": "confirmed", "ref": 8 },
+      { "kind": "sight", "name": "Rolling eyes for contrast", "text": "It rolls its eyes to line up particular receptors with the angle of polarised light, making an object stand out from its background. This was the first known case of an animal doing so.", "certainty": "confirmed", "ref": 9 }
+    ]
+  },
+  "body": {
+    "lede": "Hitting hard-shelled prey thousands of times takes a spring to power the blow and a hammer that does not shatter.",
+    "systems": [
+      { "title": "A spring-loaded strike", "text": "The strike is too fast for muscle alone. Energy is stored in a saddle-shaped spring and released all at once.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Two blows in one", "text": "On average, the force from collapsing cavitation bubbles is half the force of the impact itself, and sometimes up to 280% more.", "certainty": "confirmed", "ref": 4 },
+      { "title": "A hammer that resists cracking", "text": "The club's layered mix of minerals and spiralling chitin fibres gives it several lines of defence against breaking under repeated high-energy blows.", "certainty": "confirmed", "ref": 7 }
+    ]
+  },
+  "genome": {
+    "lede": "Mantis shrimp genomes are giants, and only a first survey of this one exists.",
+    "genomeGb": 11.07,
+    "refs": { "genome": 12 },
+    "sequenced": null,
+    "findings": [
+      { "title": "An enormous genome", "text": "Survey sequencing estimated the genome at about 11,068 million base pairs, with high heterozygosity and roughly 83–86% repeated sequences across the three species studied.", "certainty": "hypothesis", "ref": 12 },
+      { "title": "A missing mitochondrial gene", "text": "Its mitochondrial genome is 16,110 base pairs long and lacks the ATP8 gene found in a related Odontodactylus species.", "certainty": "confirmed", "ref": 12 }
+    ]
+  },
+  "mind": {
+    "lede": "Lab studies of how the peacock mantis shrimp moves its eyes show a visual system that works unlike ours.",
+    "studies": [
+      { "year": "2014", "title": "Recognising rather than comparing", "text": "Mantis shrimps did poorly at telling close wavelengths apart, so researchers proposed they recognise colours by scanning their eyes over a scene instead.", "certainty": "hypothesis", "ref": 1 },
+      { "year": "2017", "title": "Eyes that sometimes work together", "text": "When tracking a moving scene, its two eyes were only weakly linked; when startled, the uncovered eye drove a covered one. How independent the eyes are depends on the task.", "certainty": "confirmed", "ref": 10 },
+      { "year": "2018", "title": "No steadying for a rolling eye", "text": "It steadies its gaze against sideways motion, but shows no response to keep the eye from rolling. The researchers suggest its motion-sensing brain circuits may be arranged in a circle to cope.", "certainty": "hypothesis", "ref": 11 }
+    ]
+  },
+  "survival": {
+    "lede": "A burrow at the reef's edge and a punch that can break glass keep this small crustacean safe.",
+    "tactics": [
+      { "title": "A U-shaped burrow", "text": "It digs U-shaped holes in loose sediment near the base of coral reefs, about 3 to 40 metres down.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Smashing its way in", "text": "It strikes a shell again and again until it reaches the soft tissue inside. The largest can break aquarium glass.", "certainty": "confirmed", "ref": 5 }
+    ],
+    "predators": [],
+    "threats": [
+      { "title": "Aquarium trade", "text": "The peacock mantis shrimp is especially colourful and in demand among aquarium keepers.", "certainty": "confirmed", "ref": 6 }
+    ]
+  }
+}

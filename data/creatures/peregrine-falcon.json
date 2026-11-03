@@ -1,0 +1,178 @@
+{
+  "slug": "peregrine-falcon",
+  "realm": "land",
+  "commonName": "Peregrine Falcon",
+  "scientificName": "Falco peregrinus",
+  "authority": "Tunstall, 1771",
+  "gbifId": 2481047,
+  "iucnId": 45354964,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Falconiformes",
+    "family": "Falconidae"
+  },
+  "group": "Falcon",
+  "categories": [
+    "fliers",
+    "apex-predators",
+    "migrations"
+  ],
+  "tagline": "The falcon that hunts by falling out of the sky",
+  "summary": "A powerful, sharp-winged falcon that catches other birds in mid-air, often at the end of a steep, wing-folded dive called a stoop. Its top speed is famous but hard to pin down: radar has tracked wild stoops at up to 39 m/s (140 km/h), while models suggest a long vertical dive could go far faster. Wiped out across much of its range by DDT, it has since made one of conservation's great comebacks.",
+  "ability": "high-speed stooping dive",
+  "flight": "diving",
+  "stats": {
+    "size": "33–50 cm long with a wingspan of 78–122 cm; 0.4–1.5 kg",
+    "habitat": "Cliffs, crags, coasts and open country, and increasingly tall buildings in cities",
+    "range": "Breeds on every continent except Antarctica; northern populations migrate long distances",
+    "diet": "Mainly birds, from songbirds to pigeons and ducks, caught in the air",
+    "conservation": "IUCN Red List: Least Concern (2021 assessment)"
+  },
+  "regions": [
+    "north-american-forests",
+    "arctic-tundra",
+    "europe",
+    "andes-patagonia",
+    "eastern-australia-new-guinea"
+  ],
+  "biome": "mountain",
+  "signatureData": {
+    "stoopSpeedMs": 39,
+    "levelSpeedMs": 12.1,
+    "refs": {
+      "stoop": 1,
+      "level": 2
+    }
+  },
+  "facts": [
+    {
+      "title": "Clocked by radar: 39 m/s",
+      "text": "A tracking radar followed a peregrine through stoops lasting 40–110 seconds, at dive angles of 13–64° and losing 450–1,080 m of height. Average speeds were about 25 m/s, and the fastest 10-second stretches reached 31–39 m/s (up to about 140 km/h).",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Faster on paper",
+      "text": "Estimates of a peregrine's top diving speed run as high as 157 m/s, but none this high has ever been accurately measured. A physics model of 'ideal falcons' found that, given enough time, a vertical dive could reach 89–112 m/s. Whether real falcons ever go that fast remains to be shown.",
+      "certainty": "hypothesis",
+      "ref": 3
+    },
+    {
+      "title": "Cruising, not racing",
+      "text": "Radio-tracked migrating peregrines flapping in straight, level flight below about 100 m averaged an airspeed of just 43.7 km/h (about 12 m/s), the fastest 53.5 km/h. The researchers note that their top speeds are certainly higher, but that these are the speeds they normally travel at.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "A spiral attack",
+      "text": "A peregrine sees prey most sharply by turning its head about 40° to one side, but that slows it down. Wild peregrines watched through telescopes and a tracking device kept their heads straight and closed on prey along curved paths from up to 1,500 m away, a route that keeps the prey in their sharpest line of sight.",
+      "certainty": "confirmed",
+      "ref": 4
+    },
+    {
+      "title": "Back from the brink",
+      "text": "The pesticide DDT left peregrine eggs thin-shelled and weak, and by the 1960s the falcon had vanished from the eastern United States. Captive breeding released more than 4,000 young birds, and in 1999 the species was removed from the US Endangered Species List.",
+      "certainty": "confirmed",
+      "ref": 5
+    },
+    {
+      "title": "At home on skyscrapers",
+      "text": "Peregrines live and breed on every continent except Antarctica. What their homes have in common is good nesting habitat, and more and more of them now find it on the buildings of cities.",
+      "certainty": "confirmed",
+      "ref": 5
+    }
+  ],
+  "references": [
+    {
+      "title": "BirdLife International (2021). Falco peregrinus. The IUCN Red List of Threatened Species 2021",
+      "publisher": "IUCN Red List",
+      "year": 2021,
+      "url": "https://doi.org/10.2305/IUCN.UK.2021-3.RLTS.T45354964A206217909.en"
+    },
+    {
+      "title": "Radar observations of the stoop of the Peregrine Falcon Falco peregrinus and the Goshawk Accipiter gentilis. Ibis 129 (S1): 267–273",
+      "publisher": "Ibis",
+      "authors": "Alerstam, T.",
+      "year": 1987,
+      "url": "https://doi.org/10.1111/j.1474-919X.1987.tb03207.x"
+    },
+    {
+      "title": "Speed of flapping flight of Merlins and Peregrine Falcons. The Condor 88: 397–398",
+      "publisher": "The Condor",
+      "authors": "Cochran, W.W. & Applegate, R.D.",
+      "year": 1986,
+      "url": "https://doi.org/10.2307/1368897"
+    },
+    {
+      "title": "Gliding flight: speed and acceleration of ideal falcons during diving and pull out. J Exp Biol 201: 403–414",
+      "publisher": "Journal of Experimental Biology",
+      "authors": "Tucker, V.A.",
+      "year": 1998,
+      "url": "https://doi.org/10.1242/jeb.201.3.403"
+    },
+    {
+      "title": "Curved flight paths and sideways vision in peregrine falcons (Falco peregrinus). J Exp Biol 203: 3755–3763",
+      "publisher": "Journal of Experimental Biology",
+      "authors": "Tucker, V.A., Tucker, A.E., Akers, K. & Enderson, J.H.",
+      "year": 2000,
+      "url": "https://doi.org/10.1242/jeb.203.24.3755"
+    },
+    {
+      "title": "Peregrine Falcon",
+      "publisher": "The Peregrine Fund",
+      "url": "https://www.peregrinefund.org/explore-raptors-species/falcons/peregrine-falcon"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/peregrine-falcon/hero.webp",
+    "width": 1920,
+    "height": 1537,
+    "alt": "A peregrine falcon flying straight towards the camera on long, pointed, outstretched wings, its dark hood and yellow feet visible, above the stone pinnacle of a cathedral against a clear blue sky",
+    "caption": "A peregrine takes off from Winchester Cathedral, England",
+    "creator": "Andy Morffew",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_peregrine_falcon_takes_off_from_Winchester_Cathedral.jpg",
+    "species": "Falco peregrinus",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "58% 40%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/peregrine-falcon/alt-1.webp",
+      "width": 1920,
+      "height": 1920,
+      "alt": "A peregrine falcon seen from below in flight against a blue sky, its pale, finely barred underparts, barred wings and tail, and black moustache stripe below a yellow-ringed eye",
+      "caption": "In flight, showing the barred underside and dark 'moustache'",
+      "creator": "Juan Lacruz",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peregrine_Falcon_La_Ca%C3%B1ada.jpg",
+      "species": "Falco peregrinus",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "45% 50%",
+      "tone": "light"
+    },
+    {
+      "src": "/media/creatures/peregrine-falcon/alt-2.webp",
+      "width": 1920,
+      "height": 1441,
+      "alt": "A brown, streaked peregrine falcon with wings raised and yellow feet lowered, flying down a pale limestone cliff face dotted with yellow flowers",
+      "caption": "Coming in to its nest on a limestone cliff, Franconian Switzerland, Bavaria, Germany",
+      "creator": "Ermell",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peregrine_falcon_approaching-20200411-RM-164346.jpg",
+      "species": "Falco peregrinus",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "38% 35%",
+      "tone": "light"
+    }
+  ],
+  "notes": "signatureData: stoopSpeedMs 39 is the upper end of 'maximum speeds during 10-s intervals were between 31 and 39 m s-1' for the peregrine in Alerstam 1987 (abstract, via Crossref/OpenAlex; tracking radar, four stoops of a peregrine and a goshawk). I used this as the highest reputably measured stoop speed for a peregrine. Not used: the 389 km/h (108 m/s) and '200+ mph' figures from Ken Franklin's trained falcon diving with skydivers, which are not peer-reviewed. Also not used: a radar figure of about 51 m/s (114 mph) attributed to Peter & Kestenholz 1998 (Ornithologischer Beobachter), which I saw only quoted second-hand (Hedenström 1998 TREE, mailing lists) and could not read in the original; if confirmed, it would replace 39. A trained gyrfalcon (a different species) reached 52–58 m/s with optical tracking (Tucker, Cade & Tucker 1998, J Exp Biol 201: 2061). Ponitz et al. 2014 (PLoS ONE) measured only 22.5 m/s for a trained bird diving from a dam, so it is not used. levelSpeedMs 12.1 is the mean airspeed of 43.7 km/h for six radio-tracked migrating peregrines in level flapping flight (Cochran & Applegate 1986, Table 1; read from a scanned PDF of the original via the Wayback Machine copy of SORA). Their maximum was 53.5 km/h, their gliding airspeeds were 62–64 km/h, and the mean groundspeed was 48.8 km/h. The column headers were partly lost in OCR, so the airspeed/groundspeed columns were assigned from the text ('both the mean and the maximum peregrine airspeeds exceed those of the Merlin'). Chase speeds are higher, but I found no direct measurement: Mills et al. 2018 (PLoS Comput Biol) model a maximum sustained level speed of about 29 m/s. Fact 2 is marked 'hypothesis' because it is a model. Regions: the Peregrine Fund gives every continent except Antarctica; Animal Diversity Web notes tundra breeders in Alaska and Canada that migrate to Argentina and Chile (hence arctic-tundra and andes-patagonia). Biome 'mountain' was chosen for the cliff-nesting habit; the first region's own biome is temperate-forest. apex-predators: an aerial bird-hunter with few predators of its own. Sizes are from the Peregrine Fund. Images: the hero is an urban wild bird at Winchester (Flickr via Commons). alt-1 (Featured Picture) gives no location, so none is stated; 'La Cañada' in its file name is not explained. alt-2 is a Commons Featured Picture from Bavaria, described as 'approaching the nest'. The IUCN DOI resolves through the DOI handle API, and the IUCN ID and LC status were confirmed via GBIF's IUCN checklist. allaboutbirds.org returned 403 to scripted requests, so Cornell is not cited."
+}

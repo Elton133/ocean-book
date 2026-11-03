@@ -1,0 +1,84 @@
+{
+  "extraReferences": [
+    { "title": "Yeates, L.C., Williams, T.M. & Fink, T.L. (2007). Diving and foraging energetics of the smallest marine mammal, the sea otter (Enhydra lutris). Journal of Experimental Biology 210: 1960–1970", "publisher": "Journal of Experimental Biology", "url": "https://doi.org/10.1242/jeb.02767", "year": 2007, "authors": "Yeates, Williams & Fink" },
+    { "title": "Haslam, M. et al. (2019). Wild sea otter mussel pounding leaves archaeological traces. Scientific Reports 9: 4417", "publisher": "Scientific Reports", "url": "https://doi.org/10.1038/s41598-019-39902-y", "year": 2019, "authors": "Haslam, Fujii, Espinosa, Mayer, Ralls et al." },
+    { "title": "Jones, S.J.M. et al. (2017). The genome of the northern sea otter (Enhydra lutris kenyoni). Genes 8(12): 379", "publisher": "Genes", "url": "https://doi.org/10.3390/genes8120379", "year": 2017, "authors": "Jones, Haulena, Taylor, Chan et al." },
+    { "title": "Beichman, A.C. et al. (2019). Aquatic adaptation and depleted diversity: a deep dive into the genomes of the sea otter and giant otter. Molecular Biology and Evolution 36: 2631–2655", "publisher": "Molecular Biology and Evolution", "url": "https://doi.org/10.1093/molbev/msz101", "year": 2019, "authors": "Beichman, Koepfli, Li, Murphy, Dobrynin et al." }
+  ],
+  "anatomy": {
+    "lede": "A sea otter is a weasel remade for the sea: webbed hind feet for swimming, nimble forepaws for handling food, and a coat that does the job other marine mammals leave to blubber.",
+    "media": 1,
+    "hotspots": [
+      { "id": "hind-feet", "label": "Webbed hind feet", "x": 25, "y": 31, "text": "The hind legs are long and the feet broad, flat and webbed. Swimming, the otter tucks in its forelimbs and drives itself with its hind feet and tail.", "ref": 5 },
+      { "id": "tail", "label": "Tail", "x": 9, "y": 54, "text": "The flattened tail is less than a third of the body length, about 25–35 cm.", "ref": 5 },
+      { "id": "whiskers", "label": "Whiskers", "x": 72, "y": 51, "text": "Long, sensitive whiskers help it find small animals among kelp and in rock crevices.", "ref": 5 },
+      { "id": "forepaws", "label": "Forepaws", "x": 80, "y": 55, "text": "The short forelimbs have retractable claws and agile paws for grooming and for rubbing, twisting and pulling prey apart.", "ref": 5 },
+      { "id": "fur", "label": "Two-layer fur", "x": 64, "y": 59, "text": "A dark underfur lies beneath longer, lighter guard hairs, which trap a layer of air that keeps the skin dry.", "ref": 5 }
+    ],
+    "stats": [
+      { "value": "up to 45 kg", "label": "Weight", "ref": 5 },
+      { "value": "1 million+", "label": "Hairs per square inch, at the thickest", "ref": 2 },
+      { "value": "20–25%", "label": "Of body weight eaten each day", "ref": 5 },
+      { "value": "100 m", "label": "Deepest foraging dive recorded in Alaska", "ref": 3 }
+    ]
+  },
+  "senses": {
+    "lede": "Sea otters hunt on the seabed largely by feel, and know one another by smell and voice.",
+    "senses": [
+      { "kind": "touch", "name": "Whiskers and paws", "text": "It searches the dense kelp and crevices with its whiskers and forepaws, catching prey by touch.", "certainty": "confirmed", "ref": 5 },
+      { "kind": "smell", "name": "Smell", "text": "Each otter has its own scent that conveys identity, age and sex. Yet its genome shows many olfactory receptor genes have decayed, as in other aquatic mammals.", "certainty": "confirmed", "ref": 9 },
+      { "kind": "hearing", "name": "Hearing", "text": "Researchers have recognised nine calls, from the squeals pups use to reach their mothers to coos, growls, snarls and distress screams.", "certainty": "confirmed", "ref": 5 }
+    ]
+  },
+  "body": {
+    "lede": "Being a small, blubberless mammal in cold water makes life expensive.",
+    "systems": [
+      { "title": "Fur instead of fat", "text": "With no insulating fat, the sea otter depends entirely on its fur for warmth, so it grooms meticulously to keep the coat waterproof.", "certainty": "confirmed", "ref": 5 },
+      { "title": "A costly lifestyle", "text": "Measured in captive males, a foraging dive cost nearly twice as much energy as predicted for a seal, partly because the buoyant otter has to work hard to swim down. Wild otters balance this with long rests on the surface.", "certainty": "confirmed", "ref": 6 },
+      { "title": "Built-in pockets", "text": "Loose pouches of skin under the forearms carry a stone tool and food gathered on a dive, leaving the paws free.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Water from food", "text": "It gets most of its water from its prey but also drinks seawater.", "certainty": "confirmed", "ref": 5 }
+    ]
+  },
+  "genome": {
+    "lede": "Sea otter genomes record both its move into the sea and its brush with extinction.",
+    "genomeGb": 2.43,
+    "refs": { "genome": 8 },
+    "sequenced": 2017,
+    "findings": [
+      { "title": "Genes for life at sea", "text": "Comparisons with the giant otter found signs of natural selection on genes for limb development and hair follicles.", "certainty": "confirmed", "ref": 9 },
+      { "title": "Very little diversity", "text": "Southern and northern sea otters have extremely low genetic diversity and signs of recent inbreeding, raising the burden of possibly harmful mutations.", "certainty": "confirmed", "ref": 9 },
+      { "title": "Older declines", "text": "Population declines visible in the genome may predate the fur trade.", "certainty": "hypothesis", "ref": 9 }
+    ]
+  },
+  "mind": {
+    "lede": "Sea otters are the only marine mammals known to use stones habitually when foraging.",
+    "studies": [
+      { "year": "2019", "title": "Otter archaeology", "text": "Over ten years at Bennett Slough, California, otters pounded mussels on the same rocks, leaving distinctive wear and heaps of shells broken in a characteristic way.", "certainty": "confirmed", "ref": 7 },
+      { "year": "Field", "title": "Personal menus", "text": "Individuals specialise: one otter may eat mostly urchins and crabs while another eats mostly fish, depending on its skills and on what is available.", "certainty": "confirmed", "ref": 5 },
+      { "year": "Field", "title": "Keeping a tool", "text": "An otter often keeps the same stone for many dives, carrying it in its forearm pouch.", "certainty": "confirmed", "ref": 5 }
+    ]
+  },
+  "survival": {
+    "lede": "Life at the surface leaves sea otters exposed to sharks from below and eagles from above.",
+    "tactics": [
+      { "title": "Anchored in kelp", "text": "Resting otters float on their backs and wrap themselves in kelp so they do not drift, often in groups called rafts.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Dive with the pup", "text": "At any sign of a predator a mother grips her pup by the neck and dives.", "certainty": "confirmed", "ref": 5 }
+    ],
+    "predators": ["Great white sharks", "Bald eagles (pups)", "Coyotes"],
+    "threats": [
+      { "title": "Oil spills", "text": "In California, oil from a single tanker spill could threaten the whole southern population of about 3,000 otters.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Shark bites", "text": "Shark bites are a major cause of death for California's sea otters.", "certainty": "confirmed", "ref": 2 },
+      { "title": "A genetic bottleneck", "text": "Fur-trade hunting left today's populations with very low genetic diversity, which could hamper recovery.", "certainty": "hypothesis", "ref": 9 }
+    ]
+  },
+  "life": {
+    "lede": "A sea otter pup spends its first months riding on its mother's belly.",
+    "stages": [
+      { "name": "Pregnancy", "duration": "4–12 months", "text": "Thanks to delayed implantation the embryo can pause before developing, so pregnancy length varies widely. Births peak in May–June in the Aleutians and January–March in California.", "ref": 5 },
+      { "name": "Pup", "duration": "weaned at about 6 months", "text": "A single pup of 1.4–2.3 kg nurses on milk that is 20–25% fat. Its fluffy coat traps so much air that it floats, and the mother wraps it in kelp when she dives.", "ref": 5 },
+      { "name": "Young otter", "duration": "dependent 6–8 months", "text": "Pups start diving at about 2 months but rely on their mothers for six to eight months.", "ref": 5 },
+      { "name": "Adult", "duration": "mature at 4–6 years", "text": "Females mature at about 4 years and males at 5–6, though males may not mate until much later. Females usually pup once every one to two years.", "ref": 5 }
+    ],
+    "lifespan": { "value": "Up to about 23 years in the wild", "ref": 5 }
+  }
+}

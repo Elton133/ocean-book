@@ -1,0 +1,168 @@
+{
+  "slug": "orca",
+  "realm": "ocean",
+  "commonName": "Orca (Killer Whale)",
+  "scientificName": "Orcinus orca",
+  "authority": "(Linnaeus, 1758)",
+  "aphiaId": 137102,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Cetartiodactyla",
+    "family": "Delphinidae"
+  },
+  "group": "Toothed whale (dolphin family)",
+  "categories": [
+    "intelligent"
+  ],
+  "tagline": "The ocean's top predator, with family dialects and hunting traditions",
+  "summary": "The largest member of the dolphin family and the most widely distributed whale or dolphin, found in every ocean. Orcas live in tight family groups led by older females, and each population has its own learned calls and hunting methods, from chasing salmon to washing seals off ice floes.",
+  "ability": "cooperative hunting techniques passed down through families",
+  "stats": {
+    "size": "Up to about 9.8 m and 10 tonnes; adult males are larger than females",
+    "depth": "Often shallow; a tagged whale dived to 1,087 m",
+    "range": "Every ocean, from polar seas to the tropics; most abundant in cold waters such as the Antarctic, North Atlantic and North Pacific",
+    "diet": "The most varied of any cetacean, including fish, squid, seals and other whales; each population specialises",
+    "conservation": "IUCN: Data Deficient (2017); some populations, such as the Southern Residents, are endangered"
+  },
+  "depthRange": {
+    "min": 0,
+    "max": 1087
+  },
+  "regions": [
+    "pacific-ocean",
+    "atlantic-ocean",
+    "indian-ocean",
+    "southern-ocean",
+    "arctic-ocean"
+  ],
+  "facts": [
+    {
+      "title": "The biggest dolphin",
+      "text": "Despite its name, the killer whale is the largest member of the dolphin family, Delphinidae. It is found in every ocean, making it the most widely distributed of all whales and dolphins.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Diet by tradition",
+      "text": "Neighbouring populations can eat completely different food. Off the US Pacific Northwest, 'Resident' killer whales eat only fish, mainly salmon, while 'Bigg's' (transient) killer whales hunt mainly marine mammals. NOAA attributes this mostly to culture: learned hunting tactics.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Family dialects",
+      "text": "Among 16 pods of Resident killer whales off British Columbia, each pod used 7–17 types of call. Calls are learned, can stay almost unchanged for more than 25 years, and group the pods into four clans with no calls in common.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Making waves",
+      "text": "Pack-ice killer whales off the Antarctic Peninsula swim side by side towards an ice floe to raise a wave that washes a seal into the water. They took 12 of 14 seal kills this way, choosing Weddell seals almost every time.",
+      "certainty": "confirmed",
+      "ref": 4
+    },
+    {
+      "title": "A dive for stolen fish",
+      "text": "A satellite-tagged killer whale taking toothfish from fishing lines off South Georgia dived to 1,087 m. After each very deep dive it spent hours making only shallow dives.",
+      "certainty": "confirmed",
+      "ref": 5
+    },
+    {
+      "title": "Long-lived grandmothers",
+      "text": "Females typically live about 50 years in the wild, but some reach at least 90. Killer whales are among the few animals known to go through menopause.",
+      "certainty": "confirmed",
+      "ref": 1
+    }
+  ],
+  "references": [
+    {
+      "title": "Orcinus orca (Linnaeus, 1758)",
+      "publisher": "WoRMS",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137102"
+    },
+    {
+      "title": "Killer Whale",
+      "publisher": "NOAA Fisheries",
+      "url": "https://www.fisheries.noaa.gov/species/killer-whale"
+    },
+    {
+      "title": "Reeves, R., Pitman, R.L. & Ford, J.K.B. (2017). Orcinus orca. The IUCN Red List of Threatened Species 2017: e.T15421A50368125",
+      "publisher": "IUCN Red List",
+      "url": "https://doi.org/10.2305/IUCN.UK.2017-3.RLTS.T15421A50368125.en",
+      "year": 2017,
+      "authors": "Reeves, R., Pitman, R.L. & Ford, J.K.B."
+    },
+    {
+      "title": "Ford, J.K.B. (1991). Vocal traditions among resident killer whales (Orcinus orca) in coastal waters of British Columbia. Canadian Journal of Zoology 69(6): 1454–1483",
+      "publisher": "Canadian Journal of Zoology",
+      "url": "https://doi.org/10.1139/z91-206",
+      "year": 1991,
+      "authors": "Ford, J.K.B."
+    },
+    {
+      "title": "Pitman, R.L. & Durban, J.W. (2012). Cooperative hunting behavior, prey selectivity and prey handling by pack ice killer whales (Orcinus orca), type B, in Antarctic Peninsula waters. Marine Mammal Science 28(1): 16–36",
+      "publisher": "Marine Mammal Science",
+      "url": "https://doi.org/10.1111/j.1748-7692.2010.00453.x",
+      "year": 2012,
+      "authors": "Pitman, R.L. & Durban, J.W."
+    },
+    {
+      "title": "Towers, J.R. et al. (2019). Movements and dive behaviour of a toothfish-depredating killer and sperm whale. ICES Journal of Marine Science 76(1): 298–311",
+      "publisher": "ICES Journal of Marine Science",
+      "url": "https://doi.org/10.1093/icesjms/fsy118",
+      "year": 2019,
+      "authors": "Towers, J.R., Tixier, P., Ross, K.A., Bennett, J., Arnould, J.P.Y., Pitman, R.L. & Durban, J.W."
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/orca/hero.webp",
+    "width": 1920,
+    "height": 1277,
+    "alt": "Two black-and-white killer whales leap from blue-grey water side by side; the nearer one shows its white eye patch, white chin and grey saddle behind the dorsal fin, the other twists to show its white belly and a black paddle-shaped flipper.",
+    "caption": "Two killer whales breaching off the south side of Unimak Island, eastern Aleutian Islands, Alaska.",
+    "creator": "Robert Pitman, NOAA",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Killerwhales_jumping.jpg",
+    "species": "Orcinus orca",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "45% 45%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/orca/alt-1.webp",
+      "width": 1920,
+      "height": 1280,
+      "alt": "The tall black triangular dorsal fin and grey saddle patch of a killer whale rise from choppy water in the foreground, with a white research ship on the horizon behind.",
+      "caption": "A killer whale crossing the bow of the NOAA Ship McARTHUR II in the tropical Pacific Ocean.",
+      "creator": "Shannon Rankin, NOAA/NMFS/SWFSC",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anim1083_-_Flickr_-_NOAA_Photo_Library.jpg",
+      "species": "Orcinus orca",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "35% 55%",
+      "tone": "light"
+    },
+    {
+      "src": "/media/creatures/orca/alt-2.webp",
+      "width": 1920,
+      "height": 1174,
+      "alt": "A large group of killer whales surfacing together through rough, wind-whipped blue sea, their dorsal fins and white eye patches showing among the waves, with seabirds overhead.",
+      "caption": "A pod of killer whales travelling through rough seas in the North Pacific.",
+      "creator": "Allen Shimada, NOAA/NMFS/OST/AMD",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pod_killer_whales.jpg",
+      "species": "Orcinus orca",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "50% 40%",
+      "tone": "dark"
+    }
+  ],
+  "notes": "Slug 'orca'; common name given as 'Orca (Killer Whale)' since NOAA, IUCN and most sources use 'killer whale'. Taxonomy and AphiaID from the WoRMS REST API. IUCN: Data Deficient (Reeves, Pitman & Ford 2017), confirmed via Crossref, GBIF's IUCN category and the IUCN SSC Cetacean Specialist Group status page; several ecotypes may be separate species or subspecies, and the Strait of Gibraltar subpopulation is assessed separately. NOAA gives 32 ft and 11 tons (US), converted to about 9.8 m and 10 tonnes. Depth: the 1,087 m record (Towers et al., published online 2018, in print 2019) was made while the whale was depredating longlines; the paper notes each deep dive was followed by 3.9–4.6 h of shallow (<100 m) diving; no general depth-use figure was sourced. Not shelved as a 'giant'. Pitman & Durban (2012) was published online in 2011. A striking NOAA photo of three killer whales (anim1102) was not used because its Commons record has no description or location."
+}

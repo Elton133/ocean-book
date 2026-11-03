@@ -1,0 +1,79 @@
+{
+  "extraReferences": [
+    { "title": "Leafy and weedy seadragon genomes connect genic and repetitive DNA features to the extravagant biology of syngnathid fishes. PNAS 119: e2119602119", "publisher": "Proceedings of the National Academy of Sciences", "authors": "Small, C.M., Healey, H.M., Currey, M.C. et al.", "year": 2022, "url": "https://doi.org/10.1073/pnas.2119602119" },
+    { "title": "The life history of weedy seadragons, Phyllopteryx taeniolatus (Teleostei: Syngnathidae). Marine and Freshwater Research 57: 313–322", "publisher": "Marine and Freshwater Research", "authors": "Forsgren, K.L. & Lowe, C.G.", "year": 2006, "url": "https://doi.org/10.1071/MF05094" },
+    { "title": "Reproductive cycle and growth of Phyllopteryx taeniolatus. Journal of Fish Biology 67: 133–148", "publisher": "Journal of Fish Biology", "authors": "Sanchez-Camara, J., Booth, D.J. & Turon, X.", "year": 2005, "url": "https://doi.org/10.1111/j.0022-1112.2005.00720.x" },
+    { "title": "Demographics and vulnerability of a unique Australian fish, the weedy seadragon Phyllopteryx taeniolatus. Marine Ecology Progress Series 422: 253–264", "publisher": "Marine Ecology Progress Series", "authors": "Sanchez-Camara, J., Martin-Smith, K., Booth, D.J., Fritschi, J. & Turon, X.", "year": 2011, "url": "https://doi.org/10.3354/meps08920" },
+    { "title": "Photo-identification of individual weedy seadragons Phyllopteryx taeniolatus and its application in estimating population dynamics. Journal of Fish Biology 78: 1757–1768", "publisher": "Journal of Fish Biology", "authors": "Martin-Smith, K.M.", "year": 2011, "url": "https://doi.org/10.1111/j.1095-8649.2011.02966.x" },
+    { "title": "Improving conservation outcomes for seadragons: data, knowledge gaps, and future directions. Reviews in Fish Biology and Fisheries 35: 1119–1142", "publisher": "Reviews in Fish Biology and Fisheries", "authors": "Tustison, C., Wilson, N.G., Rouse, G.W., Booth, D.J. & De Brauwer, M.", "year": 2025, "url": "https://doi.org/10.1007/s11160-025-09950-x" }
+  ],
+  "anatomy": {
+    "lede": "A weedy seadragon is a seahorse stretched out straight: a long tube of a snout, an armoured body and a slender tail, all decorated with small leafy flaps that mimic drifting weed.",
+    "media": 0,
+    "hotspots": [
+      { "id": "snout", "label": "Snout", "x": 9, "y": 55, "text": "The long, tube-like snout ends in a tiny mouth at the tip. Prey such as mysids are sucked in through it.", "ref": 1 },
+      { "id": "eye", "label": "Eye", "x": 27, "y": 47, "text": "Seadragons are ambush predators. They rely on camouflage and a slow, stealthy approach to get close to tiny crustaceans.", "ref": 1 },
+      { "id": "head-flap", "label": "Leafy flap", "x": 33, "y": 30, "text": "Flat, oval skin flaps grow on the enlarged spines of the head and body. They give the species its 'weedy' name.", "ref": 1 },
+      { "id": "trunk", "label": "Armoured trunk", "x": 51, "y": 52, "text": "The body is encased in rings of bony plates. The pattern of spots and blotches on each side is unique to each seadragon and does not change.", "ref": 9 },
+      { "id": "bars", "label": "Bars", "x": 44, "y": 57, "text": "Bluish bars cross the sides of the trunk, while fine yellow spots dust the head and back. Colours vary from reddish orange to purplish.", "ref": 1 },
+      { "id": "belly-flaps", "label": "Belly flaps", "x": 56, "y": 68, "text": "More leafy flaps hang below the body. With the seadragon's colours they help it vanish among kelp and seagrass.", "ref": 2 },
+      { "id": "tail", "label": "Tail", "x": 70, "y": 66, "text": "In males, the underside of the tail holds a special patch where the fertilised eggs are carried and nourished until they hatch.", "ref": 1 }
+    ],
+    "stats": [
+      { "value": "45 cm", "label": "Maximum length", "ref": 1 },
+      { "value": "1–50 m", "label": "Depth", "ref": 1 },
+      { "value": "Up to 250", "label": "Eggs carried by a male", "ref": 1 },
+      { "value": "10–70 per hectare", "label": "Population density at study sites", "ref": 8 }
+    ]
+  },
+  "body": {
+    "lede": "Seadragons share the strange body plan of the seahorse family: armour instead of scales, a jaw built for suction and a father who becomes the nursery.",
+    "systems": [
+      { "title": "Toothless suction feeding", "text": "Seahorses, pipefishes and seadragons have no teeth. An elongated face and an unusual set of throat bones are built for a specialised kind of suction feeding.", "certainty": "confirmed", "ref": 5 },
+      { "title": "A body in rings", "text": "Instead of flexible scales, the body is wrapped in bony rings — 17 around the trunk and 31–37 along the tail — with flattened spines that carry the leafy flaps.", "certainty": "confirmed", "ref": 1 },
+      { "title": "A father's brood patch", "text": "The eggs are fixed to a special area on the underside of the male's tail, where he broods and nourishes them until they hatch.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Weak swimmers", "text": "Seadragons swim slowly and poorly — which helps explain why they are often found stranded on beaches.", "certainty": "confirmed", "ref": 2 }
+    ]
+  },
+  "genome": {
+    "lede": "In 2022 researchers published chromosome-scale genomes of the weedy and leafy seadragons, looking for clues to their leafy flaps and other unusual features.",
+    "genomeGb": 0.6,
+    "refs": { "genome": 5 },
+    "sequenced": 2022,
+    "findings": [
+      { "title": "Size and chromosomes", "text": "The weedy seadragon's genome was estimated at about 597 million base pairs, holding about 22,000 protein-coding genes. The DNA appears to be arranged on 23 chromosomes, a number inferred from the assembly rather than counted under a microscope.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Missing growth genes", "text": "Seahorses, pipefishes and seadragons have all lost several fibroblast growth factor genes, including fgf3 and fgf4. In other vertebrates these genes help build teeth, jaws and skin structures, so the losses may be linked to the family's toothless snouts and armoured bodies.", "certainty": "hypothesis", "ref": 5 },
+      { "title": "Clues to the flaps", "text": "The seadragon genomes are dense with repetitive DNA and have unusual non-coding regions near a gene involved in skin outgrowths — a possible lead to how the leafy appendages evolved.", "certainty": "hypothesis", "ref": 5 }
+    ]
+  },
+  "mind": {
+    "lede": "Divers and scientists have followed individual weedy seadragons for years, learning how faithful they are to one small patch of reef.",
+    "studies": [
+      { "year": "2005", "title": "Tagged and followed", "text": "Over a year, 84 tagged seadragons were followed. Pregnant males were seen for more than six months, from June–July to early January, and some carried two broods.", "certainty": "confirmed", "ref": 7 },
+      { "year": "2011", "title": "Faces in the crowd", "text": "In Tasmania, 43 adults were told apart from photographs alone, because the spots and blotches on each animal's side are unique and stayed unchanged for 18 months.", "certainty": "confirmed", "ref": 9 },
+      { "year": "2011", "title": "Staying put", "text": "A seven-year mark–recapture study at five sites confirmed that seadragons are strongly attached to their home sites. It also found declines at several of those sites.", "certainty": "confirmed", "ref": 8 }
+    ]
+  },
+  "survival": {
+    "lede": "The weedy seadragon survives by looking like weed. Its habitat, rather than any predator, is its main worry.",
+    "tactics": [
+      { "title": "Looking like weed", "text": "Leaf-shaped flaps and cryptic colouring hide it among kelp and seagrass while it creeps up on prey.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Slow and stealthy", "text": "As ambush predators, seadragons rely on camouflage and slow, careful approaches rather than speed.", "certainty": "confirmed", "ref": 1 }
+    ],
+    "predators": [],
+    "threats": [
+      { "title": "Shrinking habitat", "text": "Kelp reefs and seagrass meadows have declined along parts of the southern Australian coast, raising fears that seadragon numbers are falling too. Range-wide counts are still lacking.", "certainty": "hypothesis", "ref": 10 },
+      { "title": "Collecting", "text": "Collecting for the aquarium trade has been named as a possible threat, though seadragons are hard to keep and breed in captivity. The species is protected in New South Wales and Tasmania.", "certainty": "confirmed", "ref": 2 }
+    ]
+  },
+  "life": {
+    "lede": "Seadragons breed from the southern winter into summer, and the father does the carrying.",
+    "stages": [
+      { "name": "Spawning", "duration": "June to January", "text": "A mature female releases about 110 eggs per spawning, and a few females spawn more than once a season.", "ref": 6 },
+      { "name": "Brooding", "duration": "about 5–6 weeks", "text": "The male carries an average of about 90 eggs on his tail. In one study they hatched 35–42 days after fertilisation; other sources give 30–38 days or about 8 weeks.", "ref": 6 },
+      { "name": "Hatchling", "text": "Most young already look like miniature juveniles when they hatch, or soon afterwards.", "ref": 6 },
+      { "name": "Adult", "duration": "from about 1–2 years", "text": "Some seadragons mature after a year, but most do not breed until their second summer.", "ref": 1 }
+    ],
+    "lifespan": { "value": "Possibly more than 10 years (estimated from survival rates)", "ref": 9 }
+  }
+}

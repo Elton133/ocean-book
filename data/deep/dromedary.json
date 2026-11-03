@@ -1,0 +1,64 @@
+{
+  "extraReferences": [
+    { "title": "Camelid genomes reveal evolution and adaptation to desert environments. Nature Communications 5: 5188", "publisher": "Nature Communications", "url": "https://doi.org/10.1038/ncomms6188", "year": 2014, "authors": "Wu H., Guang X., Al-Fageeh M.B. et al." },
+    { "title": "Naturally occurring antibodies devoid of light chains. Nature 363: 446–448", "publisher": "Nature", "url": "https://doi.org/10.1038/363446a0", "year": 1993, "authors": "Hamers-Casterman C., Atarhouch T., Muyldermans S. et al." },
+    { "title": "Improving Illumina assemblies with Hi-C and long reads: an example with the North African dromedary. Molecular Ecology Resources 19: 1015–1026", "publisher": "Molecular Ecology Resources", "url": "https://doi.org/10.1111/1755-0998.13020", "year": 2019, "authors": "Elbers J.P., Rogers M.F., Perelman P.L. et al." },
+    { "title": "Development and application of camelid molecular cytogenetic tools. Journal of Heredity 105: 952–963", "publisher": "Journal of Heredity", "url": "https://doi.org/10.1093/jhered/ess067", "year": 2014, "authors": "Avila F., Das P.J., Kutzler M. et al." }
+  ],
+  "anatomy": {
+    "lede": "Almost every part of a dromedary's head and body is shaped by sand, sun and scarcity — from the lashes over its eyes to the broad pads beneath its feet.",
+    "media": 1,
+    "hotspots": [
+      { "id": "eye", "label": "Eye and lashes", "x": 60.5, "y": 26, "text": "A double row of eyelashes shields each eye from blowing sand and dust.", "ref": 1 },
+      { "id": "nostrils", "label": "Nostrils", "x": 69, "y": 20, "text": "When a sandstorm begins, the camel can close its nostrils to keep the sand out.", "ref": 1 },
+      { "id": "lips", "label": "Thick lips", "x": 69.5, "y": 32, "text": "The lips are thickened so the camel can grasp coarse, thorny plants. It chews each bite 40–50 times, keeping its mouth open while chewing thorny food.", "ref": 1 },
+      { "id": "throat", "label": "Throat and shoulder hair", "x": 63, "y": 46, "text": "The coat is longer on the throat, shoulders and hump than elsewhere on the body.", "ref": 1 },
+      { "id": "foot", "label": "Padded foot", "x": 53, "y": 87, "text": "The broad, pad-shaped feet spread the camel's weight on sand, but they are easily injured on sharp stones and slip in mud.", "ref": 1 }
+    ],
+    "stats": [
+      { "value": "1.8–2 m", "label": "Shoulder height of a male", "ref": 1 },
+      { "value": "300–690 kg", "label": "Body mass", "ref": 1 },
+      { "value": "3.5 m", "label": "Highest browsing reach", "ref": 1 },
+      { "value": "34", "label": "Teeth", "ref": 1 }
+    ]
+  },
+  "body": {
+    "lede": "The dromedary does not store water in its hump. Its secret is a body that spends water as sparingly as possible and can survive running very low.",
+    "systems": [
+      { "title": "A body that warms up by day", "text": "Instead of sweating to hold a steady temperature, the camel lets heat build up in its body during the day and gives it off in the cool night. In the 1950s, Knut Schmidt-Nielsen's team showed that this saves water that would otherwise be lost in sweat.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Keeping the blood flowing", "text": "When a dromedary dehydrates, the water it loses comes mainly from the fluid between and inside its cells. This helps explain how it can lose more than 30% of its body water and survive.", "certainty": "confirmed", "ref": 1 },
+      { "title": "A hump of fat", "text": "The hump is fat bound together by fibrous tissue, a food store for hard times. Dromedaries also need six to eight times as much salt as other animals to absorb and hold water, so about a third of what they eat must be salty plants.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Antibodies without light chains", "text": "In 1993 researchers found that camel blood contains large amounts of antibodies made only of heavy chains, with no light chains, which still recognise a wide range of targets. The discovery opened new ways of engineering antibodies.", "certainty": "confirmed", "ref": 6 }
+    ]
+  },
+  "genome": {
+    "lede": "Camels carry 74 chromosomes, a karyotype that cytogeneticists describe as difficult to work with. A chromosome-level reference genome for the North African dromedary followed in 2019.",
+    "diploid": 74,
+    "genomeGb": 2.27,
+    "refs": { "diploid": 8, "genome": 7 },
+    "sequenced": 2014,
+    "findings": [
+      { "title": "Genes for desert living", "text": "Comparing the genomes of the dromedary, Bactrian camel and alpaca, researchers found genetic features linked to fat and water metabolism and to coping with heat, aridity, strong ultraviolet light and dust. They proposed that changes in the kidneys underpin the camels' water economy.", "certainty": "hypothesis", "ref": 5 },
+      { "title": "A well-mixed herd", "text": "DNA from 1,083 living dromedaries showed little geographic structure: centuries of caravan trade have mixed the herds almost everywhere except East Africa, where populations have stayed more isolated.", "certainty": "confirmed", "ref": 4 },
+      { "title": "Restocked from the wild", "text": "Models of the same data support the idea that after the first domestication, herders kept adding animals from wild populations that are now extinct.", "certainty": "hypothesis", "ref": 4 }
+    ]
+  },
+  "mind": {
+    "lede": "Dromedaries live in small groups with clear roles, and they choose what they eat with care.",
+    "studies": [
+      { "year": "Field", "title": "Led from the front, guarded from the rear", "text": "Groups of 2 to 20 are usually a family of one male, one or more females and their young. The females take turns to lead while the male directs from the back, keeping stray males away.", "certainty": "confirmed", "ref": 1 },
+      { "year": "Field", "title": "A display of the throat", "text": "Rutting males threaten rivals with low noises, stand as tall as they can and bend their necks back. Males also have an inflatable soft palate, used to attract females.", "certainty": "confirmed", "ref": 1 },
+      { "year": "Field", "title": "A few leaves from each plant", "text": "Foraging camels spread out and take only a few leaves from each plant. This eases the pressure on desert vegetation and may limit how much of any one plant toxin a camel swallows.", "certainty": "hypothesis", "ref": 1 }
+    ]
+  },
+  "life": {
+    "lede": "Dromedaries breed slowly: usually one calf at a time, after a pregnancy that lasts more than a year.",
+    "stages": [
+      { "name": "Pregnancy", "duration": "370–440 days", "text": "Breeding happens in the winter rainy season, and the female carries a single calf for over a year.", "ref": 1 },
+      { "name": "Calf", "duration": "first day", "text": "Calves are born well developed and can move about freely by the end of their first day.", "ref": 1 },
+      { "name": "Young camel", "duration": "1–2 years", "text": "The mother feeds and cares for her calf for one to two years, and it gains about 0.2–0.3 kg a day in its first year.", "ref": 1 },
+      { "name": "Adult", "duration": "from 3–6 years", "text": "Females mature at about three and first mate at four or five; males start to rut at three but are not fully mature until six. Females calve about once every two years.", "ref": 1 }
+    ],
+    "lifespan": { "value": "about 40–50 years", "ref": 1 }
+  }
+}

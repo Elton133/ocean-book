@@ -155,7 +155,8 @@ export function Credit({ media, className = "" }: { media: MediaAsset; className
 }
 
 /** Drifting particles of marine snow, rendered on a single canvas. */
-export function MarineSnow({ density = 70, className = "" }: { density?: number; className?: string }) {
+/** Falling marine snow; with `air`, warm dust motes that drift slowly up through land light instead. */
+export function MarineSnow({ density = 70, className = "", air = false }: { density?: number; className?: string; air?: boolean }) {
   const ref = useRef<HTMLCanvasElement>(null);
   const { active, reduced } = usePageMotion();
 
@@ -189,14 +190,14 @@ export function MarineSnow({ density = 70, className = "" }: { density?: number;
       t += 1;
       ctx.clearRect(0, 0, w, h);
       for (const f of flakes) {
-        f.y += f.s;
-        f.x += Math.sin(t * 0.004 + f.d) * 0.00012;
-        if (f.y > 1.02) {
-          f.y = -0.02;
+        f.y += air ? -f.s * 0.5 : f.s;
+        f.x += Math.sin(t * 0.004 + f.d) * (air ? 0.0003 : 0.00012);
+        if (f.y > 1.02 || f.y < -0.02) {
+          f.y = air ? 1.02 : -0.02;
           f.x = Math.random();
         }
         ctx.beginPath();
-        ctx.fillStyle = `rgba(225, 240, 235, ${f.a})`;
+        ctx.fillStyle = air ? `rgba(245, 222, 170, ${f.a * 0.7})` : `rgba(225, 240, 235, ${f.a})`;
         ctx.arc(f.x * w, f.y * h, f.r, 0, Math.PI * 2);
         ctx.fill();
       }
@@ -208,7 +209,7 @@ export function MarineSnow({ density = 70, className = "" }: { density?: number;
       cancelAnimationFrame(raf);
       window.removeEventListener("resize", resize);
     };
-  }, [active, reduced, density]);
+  }, [active, reduced, density, air]);
 
   return <canvas ref={ref} aria-hidden className={`pointer-events-none absolute inset-0 h-full w-full ${className}`} />;
 }

@@ -1,0 +1,59 @@
+{
+  "extraReferences": [
+    { "title": "Microdistribution of tetrodotoxin in two species of blue-ringed octopuses (Hapalochlaena lunulata and Hapalochlaena fasciata) detected by fluorescent immunolabeling. Toxicon 60: 1307–1313", "publisher": "Toxicon", "url": "https://doi.org/10.1016/j.toxicon.2012.08.015", "year": 2012, "authors": "Williams B.L., Stark M.R., Caldwell R.L." },
+    { "title": "Convergent and parallel evolution in a voltage-gated sodium channel underlies TTX-resistance in the Greater Blue-ringed Octopus: Hapalochlaena lunulata. Toxicon 170: 77–84", "publisher": "Toxicon", "url": "https://doi.org/10.1016/j.toxicon.2019.09.013", "year": 2019, "authors": "Geffeney S.L., Williams B.L., Rosenthal J.J.C. et al." }
+  ],
+  "anatomy": {
+    "lede": "The greater blue-ringed octopus is about the size of a golf ball, and its whole skin is a warning sign.",
+    "media": 0,
+    "hotspots": [
+      { "id": "ring", "label": "Blue ring", "x": 31, "y": 44, "text": "The rings are 7 to 8 mm across, larger than in other blue-ringed octopuses, which helps tell this species apart. Each is bordered by a black line that sharpens the contrast.", "ref": 3 },
+      { "id": "blotch", "label": "Dark blotch", "x": 45, "y": 31, "text": "Dark chromatophores sit beneath and around each ring to boost contrast. Unusually for a cephalopod, there are none on top of the ring.", "ref": 1 },
+      { "id": "eye", "label": "Eye", "x": 56, "y": 25, "text": "Blue lines run through the eyes, a characteristic marking of this species.", "ref": 3 },
+      { "id": "mantle", "label": "Mantle", "x": 23, "y": 55, "text": "The background colour changes with its surroundings and mood, from yellow ochre to light brown, or whitish when the octopus is inactive.", "ref": 3 },
+      { "id": "arms", "label": "Arms", "x": 57, "y": 82, "text": "The eight arms are relatively short. It hunts by pouncing on prey, seizing it with its arms and pulling it to its beak.", "ref": 3 }
+    ],
+    "stats": [
+      { "value": "About 10 cm", "label": "Length, arms included", "ref": 3 },
+      { "value": "About 80 g", "label": "Average weight", "ref": 3 },
+      { "value": "About 60", "label": "Blue rings", "ref": 1 },
+      { "value": "About ⅓ s", "label": "Length of one flash", "ref": 3 }
+    ]
+  },
+  "body": {
+    "lede": "The blue-ringed octopus carries enough poison to kill a person, and it has evolved ways to show it off and to survive it.",
+    "systems": [
+      { "title": "Rings on a switch", "text": "Each ring contains inert multilayer reflectors tucked into a pouch of skin. Relaxing muscles above the reflectors and contracting muscles around the ring opens the pouch and flashes the blue.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Poison throughout the body", "text": "TTX is concentrated in the posterior salivary gland but also lies just under the skin of the mantle and arms and in channels through the dermis. Its presence in blood-rich organs such as the gills and hearts suggests it is carried in the blood.", "certainty": "confirmed", "ref": 4 },
+      { "title": "Immune to its own poison", "text": "TTX works by blocking sodium channels in nerves. This octopus has three amino-acid changes in its sodium channel that reduce TTX binding, matching changes that evolved separately in TTX-bearing fish and salamanders.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Two kinds of venom", "text": "Its saliva carries the products of two kinds of venom glands: one used to subdue crustacean prey, and tetrodotoxin, thought to serve mainly for defence.", "certainty": "hypothesis", "ref": 3 }
+    ]
+  },
+  "mind": {
+    "lede": "Most of the time this octopus is hidden and camouflaged. Its most dramatic behaviour, the ring flash, is reserved for emergencies.",
+    "studies": [
+      { "year": "2012", "title": "How the rings flash", "text": "Bathing the skin in chemicals that act on colour cells did not change the rings, showing the blue comes from fixed reflectors. The fast flashes are driven by muscles under direct nerve control, a mechanism not reported before in cephalopods.", "certainty": "confirmed", "ref": 1 },
+      { "year": "Aquaria", "title": "Mating blind", "text": "Whether one octopus touches another does not depend on sex, size or who lives there. Male–female matings last about 160 minutes, but male–male encounters about 30 seconds, suggesting a male cannot tell the sex of his partner until he inserts his mating arm.", "certainty": "confirmed", "ref": 3 },
+      { "year": "Field", "title": "A tidy doorway", "text": "Like other octopuses it lives in a den, and the entrance is easy to spot because it is littered with empty shells and crab legs from past meals.", "certainty": "confirmed", "ref": 3 }
+    ]
+  },
+  "survival": {
+    "lede": "The blue-ringed octopus hides first, warns second and bites only as a last resort.",
+    "tactics": [
+      { "title": "Camouflage", "text": "It spends much of its time hidden, showing effective camouflage patterns.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Warning flash", "text": "When disturbed it flashes its rings, an exceptionally fast and conspicuous warning display.", "certainty": "confirmed", "ref": 1 },
+      { "title": "A deadly bite", "text": "Strongly harassed, it bites and can deliver a neurotoxin able to kill a person. The bite is painless, and no antidote is known.", "certainty": "confirmed", "ref": 3 }
+    ],
+    "predators": []
+  },
+  "life": {
+    "lede": "A blue-ringed octopus lives fast: it hatches the size of a pea, is mating by the following autumn and dies after breeding.",
+    "stages": [
+      { "name": "Egg", "text": "The female lays about 50 to 100 eggs and carries them under her arms until they hatch, without feeding.", "ref": 3 },
+      { "name": "Paralarva", "text": "Hatchlings are about the size of a pea and drift briefly in the plankton before settling on the seabed.", "ref": 3 },
+      { "name": "Juvenile", "text": "Young octopuses grow quickly on the reef, rubble and sand of shallow coasts, feeding on small crabs, shrimps and molluscs.", "ref": 3 },
+      { "name": "Adult", "text": "They mature quickly and begin mating the following autumn. Males die after mating, and females die soon after their eggs hatch.", "ref": 3 }
+    ],
+    "lifespan": { "value": "About 2 years", "ref": 3 }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "anatomy": {
+    "lede": "A broad, flat head with eyes and mouth pointing upwards: the whitemargin stargazer is built to wait under the sand.",
+    "media": 0,
+    "hotspots": [
+      { "id": "eye", "label": "Upward-facing eye", "x": 61, "y": 40, "text": "The eyes sit on top of the head, the feature that gives the family its name. Buried, the fish leaves little but its eyes showing.", "ref": 1 },
+      { "id": "mouth", "label": "Upturned mouth", "x": 70, "y": 52, "text": "The fringe of small fleshy cirri along the edge of the mouth keeps sand out while the buried fish breathes. Inside is a lure that draws prey within striking range.", "ref": 1 },
+      { "id": "shoulder-spine", "label": "Shoulder spine", "x": 34, "y": 33, "text": "Behind the gill cover and above the pectoral fin sits a venomous cleithral spine, one on each side.", "ref": 3 },
+      { "id": "dorsal-fin", "label": "Black first dorsal fin", "x": 32, "y": 17, "text": "The black first dorsal fin, with four spines, is one of the marks that identify this species.", "ref": 1 }
+    ],
+    "stats": [
+      { "value": "Up to 45 cm", "label": "Length", "ref": 1 },
+      { "value": "5–350 m", "label": "Depth range", "ref": 1 },
+      { "value": "1.4–4.4 years", "label": "Estimated minimum population doubling time", "ref": 1 }
+    ]
+  },
+  "survival": {
+    "lede": "The stargazer hunts and hides in the same way: by staying buried and still.",
+    "tactics": [
+      { "title": "Ambush from below", "text": "Stargazers bury themselves in sand and then leap up to seize fish and invertebrates passing overhead.", "certainty": "confirmed", "ref": 3 },
+      { "title": "Hidden in plain sight", "text": "This species spends most of its time buried in sand or mud, which is why it is so rarely seen.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Two venomous spines", "text": "Stargazers carry two large venomous spines behind the gill covers, above the pectoral fins.", "certainty": "confirmed", "ref": 3 }
+    ],
+    "predators": [],
+    "threats": [
+      { "title": "Fishing", "text": "FishBase rates this species as moderately vulnerable to fishing. Its status is Least Concern, last assessed in 2023.", "certainty": "confirmed", "ref": 1 }
+    ]
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "extraReferences": [
+    {
+      "title": "Joint assembly and genetic mapping of the Atlantic horseshoe crab genome reveals ancient whole genome duplication. GigaScience 3: 9",
+      "publisher": "GigaScience",
+      "authors": "Nossa, C.W., Havlak, P., Yue, J.-X., Lv, J., Vincent, K.Y., Brockmann, H.J. & Putnam, N.H.",
+      "year": 2014,
+      "url": "https://doi.org/10.1186/2047-217X-3-9"
+    },
+    {
+      "title": "Genome assembly of a living fossil, the Atlantic horseshoe crab Limulus polyphemus, reveals lineage-specific whole-genome duplications, transposable element-based centromeres, and a ZW sex chromosome system. Molecular Biology and Evolution 42: msaf021",
+      "publisher": "Molecular Biology and Evolution",
+      "authors": "Castellano, K.R. et al.",
+      "year": 2025,
+      "url": "https://doi.org/10.1093/molbev/msaf021"
+    },
+    {
+      "title": "What the clock tells the eye: lessons from an ancient arthropod. Integrative and Comparative Biology 53: 144–153",
+      "publisher": "Integrative and Comparative Biology",
+      "authors": "Battelle, B.-A.",
+      "year": 2013,
+      "url": "https://doi.org/10.1093/icb/ict020"
+    },
+    {
+      "title": "Visual performance of horseshoe crabs day and night. Visual Neuroscience 7: 179–189",
+      "publisher": "Visual Neuroscience",
+      "authors": "Powers, M.K., Barlow, R.B. Jr & Kass, L.",
+      "year": 1991,
+      "url": "https://doi.org/10.1017/S0952523800004016"
+    },
+    {
+      "title": "H. Keffer Hartline: Nobel Prize",
+      "publisher": "The Rockefeller University",
+      "url": "https://www.rockefeller.edu/our-scientists/h-keffer-hartline/2487-nobel-prize"
+    },
+    {
+      "title": "Crash: A Tale of Two Species — Horseshoe Crab Anatomy",
+      "publisher": "PBS Nature",
+      "url": "https://www.pbs.org/wnet/nature/crash-a-tale-of-two-species-horseshoe-crab-anatomy/593"
+    },
+    {
+      "title": "Natural History of Horseshoe Crabs",
+      "publisher": "U.S. National Park Service (Fire Island National Seashore)",
+      "url": "https://www.nps.gov/fiis/learn/nature/natural-history-of-horseshoe-crabs.htm"
+    },
+    {
+      "title": "Horseshoe Crab",
+      "publisher": "Atlantic States Marine Fisheries Commission",
+      "url": "https://asmfc.org/species/horseshoe-crab/"
+    },
+    {
+      "title": "Conservation status of the American horseshoe crab (Limulus polyphemus): a regional assessment. Reviews in Fish Biology and Fisheries 27: 135–175",
+      "publisher": "Reviews in Fish Biology and Fisheries (via USGS)",
+      "authors": "Smith, D.R., Brockmann, H.J., Beekey, M.A., King, T.L., Millard, M. & Zaldivar-Rae, J.",
+      "year": 2017,
+      "url": "https://doi.org/10.1007/s11160-016-9461-y"
+    }
+  ],
+  "anatomy": {
+    "lede": "Seen from above, a horseshoe crab is a domed shield, a hinged rear plate and a spike of a tail. Almost everything else — legs, gills, mouth — is tucked away underneath.",
+    "media": 0,
+    "hotspots": [
+      {
+        "id": "eye",
+        "label": "Compound eye",
+        "x": 50.5,
+        "y": 42,
+        "text": "Two large compound eyes sit on the sides of the shell. Their main job is finding mates during the spawning season.",
+        "ref": 9
+      },
+      {
+        "id": "prosoma",
+        "label": "Head shield",
+        "x": 59,
+        "y": 52,
+        "text": "The front, horseshoe-shaped shield covers the head and the six pairs of appendages used for feeding and walking.",
+        "ref": 9
+      },
+      {
+        "id": "hinge",
+        "label": "Hinge",
+        "x": 66,
+        "y": 35,
+        "text": "A hinge joins the head shield to the spiny rear section, which shelters the book gills underneath.",
+        "ref": 9
+      },
+      {
+        "id": "telson",
+        "label": "Tail (telson)",
+        "x": 80,
+        "y": 37,
+        "text": "The long tail is harmless. It works as a rudder in the water and as a lever to flip the animal upright when a wave turns it over.",
+        "ref": 1
+      }
+    ],
+    "stats": [
+      {
+        "value": "30 cm",
+        "label": "Largest females, across the shell",
+        "ref": 2
+      },
+      {
+        "value": "4.8 kg",
+        "label": "Mature female weight",
+        "ref": 2
+      },
+      {
+        "value": "10",
+        "label": "Eyes in total",
+        "ref": 9
+      },
+      {
+        "value": "about 150",
+        "label": "Leaf-like plates per book gill",
+        "ref": 9
+      }
+    ]
+  },
+  "senses": {
+    "lede": "The horseshoe crab's eyes are among the most studied in biology, and they work almost as well at night as by day.",
+    "senses": [
+      {
+        "kind": "sight",
+        "name": "Compound eyes",
+        "text": "Each lateral eye is made of large units with individual photoreceptors big enough to record from. Linked photoreceptors dampen their neighbours' signals, sharpening edges before the image reaches the brain.",
+        "certainty": "confirmed",
+        "ref": 8
+      },
+      {
+        "kind": "sight",
+        "name": "Night vision",
+        "text": "A clock in the brain sends signals to the eyes at night that greatly raise their sensitivity, so horseshoe crabs can see at night nearly as well as by day.",
+        "certainty": "confirmed",
+        "ref": 6
+      },
+      {
+        "kind": "sight",
+        "name": "Extra eyes",
+        "text": "Besides the compound eyes, it has a pair of median eyes on top of the shell and three pairs of small 'rudimentary' eyes — larval eyes that persist into adulthood. Each type changes its light sensitivity over the day.",
+        "certainty": "confirmed",
+        "ref": 6
+      }
+    ]
+  },
+  "body": {
+    "lede": "Its body plan has barely changed in hundreds of millions of years, and some of its parts are unlike anything in a true crab.",
+    "systems": [
+      {
+        "title": "Copper-based blood",
+        "text": "Its blood carries oxygen with copper rather than iron. It is straw-coloured and turns blue when exposed to oxygen; its blood cells clot around bacterial toxins.",
+        "certainty": "confirmed",
+        "ref": 2
+      },
+      {
+        "title": "Book gills",
+        "text": "Six page-like gills under the rear section each carry about 150 thin flaps, like the pages of a book. Beating them also lets the animal swim in an emergency.",
+        "certainty": "confirmed",
+        "ref": 9
+      },
+      {
+        "title": "A tube-shaped heart",
+        "text": "The heart is a long tube running down the middle of the head shield and abdomen.",
+        "certainty": "confirmed",
+        "ref": 9
+      }
+    ]
+  },
+  "genome": {
+    "lede": "Sequencing shows that the horseshoe crab's ancestors copied their entire genome more than once — a rare event among invertebrates.",
+    "diploid": 52,
+    "genomeGb": 2.7,
+    "refs": {
+      "diploid": 4,
+      "genome": 4
+    },
+    "sequenced": 2014,
+    "findings": [
+      {
+        "title": "Whole-genome duplications",
+        "text": "A 2025 chromosome-level assembly supports three whole-genome duplications unique to horseshoe crabs, none shared with spiders and scorpions.",
+        "certainty": "confirmed",
+        "ref": 5
+      },
+      {
+        "title": "Doubled toxin detectors",
+        "text": "The genome carries tandem copies of Factors C and G, proteins in the pathway that detects bacterial toxins — the pathway behind the medical blood test.",
+        "certainty": "confirmed",
+        "ref": 5
+      },
+      {
+        "title": "ZW sex chromosomes",
+        "text": "Females carry a ZW pair of sex chromosomes. The genome also records a steep population decline over the last 5 million years.",
+        "certainty": "confirmed",
+        "ref": 5
+      }
+    ]
+  },
+  "mind": {
+    "lede": "Horseshoe crabs have taught neuroscience more than their simple behaviour might suggest.",
+    "studies": [
+      {
+        "year": "1932",
+        "title": "One nerve fibre at a time",
+        "text": "Using the horseshoe crab's long, easily isolated optic nerve, H. Keffer Hartline and colleagues became the first to record nerve impulses from single optic nerve fibres.",
+        "certainty": "confirmed",
+        "ref": 8
+      },
+      {
+        "year": "1967",
+        "title": "Lateral inhibition",
+        "text": "Hartline showed that excited photoreceptors suppress their neighbours, boosting contrast at edges. The discovery earned him a share of the 1967 Nobel Prize in Physiology or Medicine.",
+        "certainty": "confirmed",
+        "ref": 8
+      },
+      {
+        "year": "1991",
+        "title": "Courting a cement crab",
+        "text": "On a Massachusetts mating beach, males approached a cement model of a female from about 0.9 m away — about as well at night as in daylight. Females avoided it.",
+        "certainty": "confirmed",
+        "ref": 7
+      }
+    ]
+  },
+  "survival": {
+    "lede": "Adults are well armoured, but their eggs feed a whole coastline, and people take adults for bait and blood.",
+    "tactics": [
+      {
+        "title": "Righting itself",
+        "text": "Flipped onto its back by the surf, a horseshoe crab uses its long tail to turn itself back over.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "title": "Spawning on the tides",
+        "text": "Spawning usually coincides with high tides around full and new moons, when females come ashore to lay their eggs on the beach.",
+        "certainty": "confirmed",
+        "ref": 11
+      },
+      {
+        "title": "Many eggs",
+        "text": "Females lay roughly 90,000 eggs a year in clusters, spread over repeated spawning visits.",
+        "certainty": "confirmed",
+        "ref": 11
+      }
+    ],
+    "predators": [
+      "Red knots (eggs)",
+      "Ruddy turnstones (eggs)",
+      "Loggerhead turtles",
+      "American eels (eggs and larvae)",
+      "Flounders (eggs and larvae)"
+    ],
+    "threats": [
+      {
+        "title": "Bait harvest",
+        "text": "Horseshoe crabs are caught as bait for conch and eel fisheries; reported coastwide bait landings in 2024 were about 551,000 crabs.",
+        "certainty": "confirmed",
+        "ref": 11
+      },
+      {
+        "title": "Biomedical bleeding",
+        "text": "In 2024 about 1.07 million crabs were collected for their blood, and an estimated 185,000 of them died as a result.",
+        "certainty": "confirmed",
+        "ref": 11
+      },
+      {
+        "title": "Lost beaches",
+        "text": "Habitat loss and over-harvest leave the species vulnerable to local extinction, especially in New England and the Gulf of Maine.",
+        "certainty": "confirmed",
+        "ref": 12
+      }
+    ]
+  },
+  "life": {
+    "lede": "A horseshoe crab sheds its shell more than a dozen times and spends roughly a decade growing up before it spawns.",
+    "stages": [
+      {
+        "name": "Egg",
+        "duration": "about 2–4 weeks",
+        "text": "Females lay tiny green eggs in clusters of about 4,000 on spawning beaches. Some larvae overwinter in the nest and emerge the next spring.",
+        "ref": 2
+      },
+      {
+        "name": "Larva",
+        "duration": "about 1–3 weeks afloat",
+        "text": "Hatchlings are about 3 mm across and have no tail. They swim in the plankton before settling on the bottom and starting to moult.",
+        "ref": 10
+      },
+      {
+        "name": "Juvenile",
+        "duration": "about 2 years near shore",
+        "text": "Young crabs stay on intertidal flats near their home beaches, then move into deeper water as they grow.",
+        "ref": 10
+      },
+      {
+        "name": "Adult",
+        "duration": "from about 9–11 years",
+        "text": "Males mature after about 16 moults at 8–9 years; females after 17 moults at 10–11 years. Adults live offshore and return to beaches to spawn.",
+        "ref": 10
+      }
+    ],
+    "lifespan": {
+      "value": "more than 20 years",
+      "ref": 2
+    }
+  }
+}

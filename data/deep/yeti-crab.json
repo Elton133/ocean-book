@@ -1,0 +1,39 @@
+{
+  "extraReferences": [
+    { "title": "A new squat lobster family of Galatheoidea (Crustacea, Decapoda, Anomura) from the hydrothermal vents of the Pacific-Antarctic Ridge. Zoosystema 27 (4): 709–723", "publisher": "Zoosystema (via DIGITAL.CSIC)", "authors": "Macpherson, E., Jones, W. & Segonzac, M.", "year": 2005, "url": "http://hdl.handle.net/10261/42060" }
+  ],
+  "anatomy": {
+    "lede": "Seen from above, the yeti crab is a pale, smooth shell with two enormous 'furry' arms. It is not a true crab but a squat lobster, with its tail tucked beneath its body.",
+    "media": 0,
+    "hotspots": [
+      { "id": "abdomen", "label": "Folded tail", "x": 11, "y": 52, "text": "As in other squat lobsters, the abdomen is folded up against itself beneath the body rather than stretched out behind.", "ref": 4 },
+      { "id": "carapace", "label": "Carapace", "x": 27, "y": 51, "text": "The shell is calcified, smooth and slightly domed, about 1.3 times longer than wide, with only a sparse scattering of fine setae.", "ref": 4 },
+      { "id": "legs", "label": "Walking legs", "x": 12, "y": 26, "text": "The stout walking legs end in claw-like tips lined with dense, horny spinules for gripping rock.", "ref": 4 },
+      { "id": "spines", "label": "Paired rigid setae", "x": 39, "y": 33, "text": "Besides the soft 'fur', each arm carries rigid, barbed setae about 13 mm long, set in pairs. Unlike the soft setae, these carry no bacteria.", "ref": 4 },
+      { "id": "antennae", "label": "Antennae", "x": 66, "y": 51, "text": "The antennae lack the scale found in many relatives. The eyes, beside them, are reduced to small, soft patches of unpigmented tissue.", "ref": 4 },
+      { "id": "fur", "label": "'Fur'", "x": 62, "y": 30, "text": "The arms, legs and underside are covered with flexible setae about 15 mm long, carrying clusters of filamentous bacteria mostly towards their tips.", "ref": 4 },
+      { "id": "claw", "label": "Claw", "x": 92, "y": 30, "text": "The long, strong pincers are almost equal in size. The horny tip of the movable finger fits between two horny tips on the fixed finger.", "ref": 4 }
+    ],
+    "stats": [
+      { "value": "8.8 cm", "label": "Holotype total length", "ref": 4 },
+      { "value": "2,204–2,228 m", "label": "Depth of known sites", "ref": 4 },
+      { "value": "1–2 per 10 m²", "label": "Density around vents", "ref": 4 },
+      { "value": "about 15 mm", "label": "Length of the 'fur' setae", "ref": 4 }
+    ]
+  },
+  "body": {
+    "lede": "The yeti crab's most remarkable feature is not its own tissue but the community of microbes it carries.",
+    "systems": [
+      { "title": "A microbial coat", "text": "Electron microscopy showed dense clusters of bacteria attached to the outer layer of the setae, with no special structures for holding them. Most belong to a group called epsilon-Proteobacteria.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Chemical food factories", "text": "Enzymes found in the bacterial mats point to carbon fixation and the processing of sulfur compounds — the basis of chemosynthesis in vent fluids. Whether the crab eats them has not been shown for this species.", "certainty": "hypothesis", "ref": 2 },
+      { "title": "Eyes without sight", "text": "The eyes are reduced to soft, uncalcified, unpigmented tissue. Its describers set this apart as one of the features that make the family unique.", "certainty": "confirmed", "ref": 4 }
+    ]
+  },
+  "mind": {
+    "lede": "Almost everything known about yeti crab behaviour comes from a handful of submersible dives in 2004 and 2005.",
+    "studies": [
+      { "year": "Field", "title": "Spaced out around the vents", "text": "Crabs were seen more or less evenly spaced on the pillow basalt around active vents, and also at the base of black smokers among vent mussels, where shimmering milky water emerges.", "certainty": "confirmed", "ref": 4 },
+      { "year": "Field", "title": "Opportunistic feeders", "text": "Yeti crabs were watched eating the tissue of mussels damaged by the submersible's sampling. Like other vent crustaceans, they are probably omnivores.", "certainty": "uncertain", "ref": 4 }
+    ]
+  }
+}

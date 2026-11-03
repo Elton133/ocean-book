@@ -1,0 +1,64 @@
+{
+  "extraReferences": [
+    { "title": "Melanocetidae. Melanocetus. Black Seadevils. Version 05 November 2005 (under construction)", "publisher": "The Tree of Life Web Project", "url": "https://tolweb.org/Melanocetidae/22003", "year": 2005, "authors": "Pietsch T.W." },
+    { "title": "Ongoing transposon-mediated genome reduction in the luminous bacterial symbionts of deep-sea ceratioid anglerfishes. mBio 9: e01033-18", "publisher": "mBio (American Society for Microbiology)", "url": "https://doi.org/10.1128/mBio.01033-18", "year": 2018, "authors": "Hendry T.A., Freed L.L., Fader D., Fenolio D., Sutton T.T., Lopez J.V." },
+    { "title": "Diverse deep-sea anglerfishes share a genetically reduced luminous symbiont that is acquired from the environment. eLife 8: e47606", "publisher": "eLife", "url": "https://doi.org/10.7554/eLife.47606", "year": 2019, "authors": "Baker L.J., Freed L.L., Easson C.G., Lopez J.V., Fenolio D., Sutton T.T., Nyholm S.V., Hendry T.A." },
+    { "title": "Distribution, composition and functions of gelatinous tissues in deep-sea fishes. Royal Society Open Science 4: 171063", "publisher": "Royal Society Open Science", "url": "https://doi.org/10.1098/rsos.171063", "year": 2017, "authors": "Gerringer M.E., Drazen J.C., Linley T.D., Summers A.P., Jamieson A.J., Yancey P.H." }
+  ],
+  "anatomy": {
+    "lede": "The female is little more than a lure, a mouth and a stomach, wrapped in a rounded black body.",
+    "media": 0,
+    "hotspots": [
+      { "id": "esca", "label": "Esca (lure)", "x": 54, "y": 10, "text": "The glowing bulb at the tip is simple, usually with a rounded or conical extension, and has small crests at front and back.", "ref": 4 },
+      { "id": "illicium", "label": "Illicium (rod)", "x": 62, "y": 15, "text": "In females the rod measures from about a third to more than half of the body length.", "ref": 3 },
+      { "id": "eye", "label": "Eye", "x": 61, "y": 29, "text": "The mouth is huge and opens almost vertically, but the gape does not extend back past the eye.", "ref": 4 },
+      { "id": "teeth", "label": "Teeth", "x": 86, "y": 53, "text": "The teeth are slender, curved backwards and can fold down. There can be up to about 178 in the upper jaw and 142 in the lower.", "ref": 4 },
+      { "id": "dorsal-fin", "label": "Dorsal fin", "x": 30, "y": 37, "text": "Behind the rod, the soft dorsal fin has 13 to 17 rays.", "ref": 3 },
+      { "id": "tail", "label": "Tail fin", "x": 15, "y": 48, "text": "The small tail fin has 8 rays.", "ref": 3 },
+      { "id": "belly", "label": "Deep body", "x": 40, "y": 80, "text": "The body is very deep, 60 to 75% as deep as it is long (excluding the tail fin).", "ref": 4 }
+    ],
+    "stats": [
+      { "value": "18 cm", "label": "Largest female", "ref": 3 },
+      { "value": "2.9 cm", "label": "Largest male", "ref": 3 },
+      { "value": "Up to 61% of body length", "label": "Female's fishing rod", "ref": 3 },
+      { "value": "100–1,500 m", "label": "Usual depth", "ref": 3 }
+    ]
+  },
+  "senses": {
+    "lede": "The sexes sense the world differently: the female waits, while the male must search the darkness for her.",
+    "senses": [
+      { "kind": "sight", "name": "The male's eyes", "text": "Adult males have well-developed eyes that face sideways, elliptical in shape and with a pupil larger than the lens.", "certainty": "confirmed", "ref": 4 },
+      { "kind": "smell", "name": "The male's nose", "text": "Dwarf anglerfish males have a strong sense of smell and follow chemical signals (pheromones) to find a female.", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "body": {
+    "lede": "The humpback anglerfish relies on partners and on cheap, watery tissue to make a living in the dark.",
+    "systems": [
+      { "title": "Bacteria with shrinking genomes", "text": "The light in its lure comes from a bacterium named 'Candidatus Enterovibrio escacola' ('esca-dwelling'). Its genome is about half the size of free-living relatives and full of broken genes and jumping DNA, a sign that it is becoming dependent on its host.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Light caught from the sea", "text": "Most anglerfish species studied share this same symbiont, and its family tree does not match that of its hosts. This suggests each fish picks up its bacteria from the surrounding water, not from its parents.", "certainty": "hypothesis", "ref": 6 },
+      { "title": "A watery layer", "text": "It is one of many deep-sea fishes with a gelatinous layer under the skin. Such tissue is mostly water, cheap to grow and lighter than seawater, so it may help with buoyancy.", "certainty": "hypothesis", "ref": 7 },
+      { "title": "Males built for searching", "text": "Adult males have large, inflated nostrils on the sides of the snout and no jaw teeth. Instead they carry bony plates in front of the jaws studded with strong, hooked denticles.", "certainty": "confirmed", "ref": 4 }
+    ]
+  },
+  "survival": {
+    "lede": "It saves energy by letting prey come to it, and hides by reflecting almost no light.",
+    "tactics": [
+      { "title": "Lure and wait", "text": "Instead of chasing, it hangs in the dark with its lure lit and snaps shut on small fishes and crustaceans that come close.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Ultra-black skin", "text": "Deep-sea anglerfishes have dark skin that absorbs light, so the glow of other animals barely shows them up.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Swallow anything", "text": "It can swallow prey longer than itself: one 6.6 cm fish held a viperfish of about 24 cm.", "certainty": "confirmed", "ref": 3 }
+    ],
+    "predators": [],
+    "threats": [
+      { "title": "Seabed mining", "text": "Mining the abyssal plain for metals would release sediment plumes that cloud the water, and anglerfishes depend on clear water for their lures to work.", "certainty": "hypothesis", "ref": 1 }
+    ]
+  },
+  "life": {
+    "lede": "It begins life near the surface and sinks into the deep as it matures.",
+    "stages": [
+      { "name": "Egg raft", "text": "Eggs are probably released in a floating gelatinous raft or veil, as in other deep-sea anglerfishes.", "ref": 3 },
+      { "name": "Larva", "text": "Larvae have short, almost spherical bodies and live mainly in the upper 100 m. Even then, young females show a small club-shaped rudiment of the rod on the head.", "ref": 4 },
+      { "name": "Metamorphosis", "duration": "begins at 8–10 mm", "text": "The larva transforms into its adult form at a standard length of 8 to 10 mm.", "ref": 4 },
+      { "name": "Adult", "text": "Females keep growing to about 18 cm, while males stay under 3 cm. Males are free-living and never become parasitic; only two cases of temporary coupling with a female are known.", "ref": 4 }
+    ]
+  }
+}

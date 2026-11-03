@@ -1,0 +1,92 @@
+{
+  "extraReferences": [
+    { "title": "Insights into social insects from the genome of the honeybee Apis mellifera. Nature 443: 931–949", "publisher": "Nature", "url": "https://doi.org/10.1038/nature05260", "year": 2006, "authors": "Honeybee Genome Sequencing Consortium" },
+    { "title": "A hybrid de novo genome assembly of the honeybee, Apis mellifera, with chromosome-length scaffolds. BMC Genomics 20", "publisher": "BMC Genomics", "url": "https://doi.org/10.1186/s12864-019-5642-0", "year": 2019, "authors": "Wallberg A., Bunikis I., Pettersson O.V. et al." },
+    { "title": "Apis mellifera genome assembly Amel_HAv3.1 (GCF_003254395.2)", "publisher": "NCBI Genome (Datasets)", "url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_003254395.2/", "year": 2018, "authors": "Uppsala University" },
+    { "title": "The concepts of 'sameness' and 'difference' in an insect. Nature 410: 930–933", "publisher": "Nature", "url": "https://doi.org/10.1038/35073582", "year": 2001, "authors": "Giurfa M., Zhang S., Jenett A., Menzel R., Srinivasan M.V." },
+    { "title": "Numerical ordering of zero in honey bees. Science 360: 1124–1126", "publisher": "Science", "url": "https://doi.org/10.1126/science.aar4975", "year": 2018, "authors": "Howard S.R., Avarguès-Weber A., Garcia J.E., Greentree A.D., Dyer A.G." }
+  ],
+  "anatomy": {
+    "lede": "A worker honey bee is a flying toolkit: eyes that see ultraviolet, antennae that read scent, a pollen basket on each hind leg and a barbed sting kept for emergencies.",
+    "media": 0,
+    "hotspots": [
+      { "id": "antenna", "label": "Antenna", "x": 21, "y": 40, "text": "Most honey bee communication runs on scent and taste. Each hive has its own chemical signature that nestmates use to recognise one another.", "ref": 0 },
+      { "id": "eye", "label": "Compound eye", "x": 31, "y": 39, "text": "The eyes detect ultraviolet light, revealing flower markings we cannot see, and part of each eye is sensitive to polarised light for navigation.", "ref": 0 },
+      { "id": "mouth", "label": "Mouthparts", "x": 32, "y": 51, "text": "Workers suck up nectar with their tongue and store it in the crop, the front part of the gut, to carry home.", "ref": 0 },
+      { "id": "wings", "label": "Wings", "x": 54, "y": 15, "text": "Workers are smaller than drones but have longer wings. The flight muscles also act as a heater for the bee and the hive.", "ref": 0 },
+      { "id": "thorax", "label": "Hairy thorax", "x": 41, "y": 31, "text": "The thorax is covered in hair, while the abdomen has much less. Pollen caught in the hair is groomed off on to the hind legs.", "ref": 0 },
+      { "id": "pollen-basket", "label": "Pollen basket", "x": 56, "y": 41, "text": "Pollen is packed into a special structure on each hind leg, the pollen basket, and flown back to the hive.", "ref": 0 },
+      { "id": "abdomen", "label": "Banded abdomen", "x": 66, "y": 44, "text": "The orange and black bands work as warning colours: predators learn to link the pattern with a painful sting.", "ref": 0 }
+    ],
+    "stats": [
+      { "value": "10–15 mm", "label": "Worker length", "ref": 0 },
+      { "value": "Up to 1,000", "label": "Eggs a queen can lay in a day", "ref": 0 },
+      { "value": "About 3 km", "label": "Usual foraging radius", "ref": 0 }
+    ]
+  },
+  "senses": {
+    "lede": "A honey bee lives in a world of scent and vibration inside the dark hive, and of ultraviolet patterns and polarised skylight outside it.",
+    "senses": [
+      { "kind": "sight", "name": "Ultraviolet sight", "text": "Honey bee eyes detect ultraviolet wavelengths beyond the range we can see. This lets them see flower markings that show up only in ultraviolet and find the sun on cloudy days.", "vsHuman": "keener", "certainty": "confirmed", "ref": 0 },
+      { "kind": "other", "name": "Polarised light", "text": "One part of each eye is sensitive to the polarisation of skylight, which bees use as a compass when navigating.", "certainty": "confirmed", "ref": 0 },
+      { "kind": "smell", "name": "Smell", "text": "Bees locate flowers from a distance by scent, and foragers pass the smell of a rich patch to nestmates. The honey bee genome holds more genes for odorant receptors than other insect genomes sequenced at the time.", "certainty": "confirmed", "ref": 5 },
+      { "kind": "taste", "name": "Taste", "text": "Compared with other insects sequenced by 2006, the honey bee has fewer genes for gustatory (taste) receptors, consistent with a diet of nectar and pollen.", "certainty": "confirmed", "ref": 5 },
+      { "kind": "vibration", "name": "Vibration", "text": "Workers and queens sense vibrations. Workers pick up the vibrations of a dancing forager, and newly emerged queens call to each other and to the workers.", "certainty": "confirmed", "ref": 0 }
+    ]
+  },
+  "body": {
+    "lede": "Much of a worker's body is given over to jobs for the colony: making wax, feeding young, storing food and defending the hive.",
+    "systems": [
+      { "title": "Muscles as a heater", "text": "Honey bees are partly warm-blooded. By working their flight muscles they warm themselves and the hive, and in cold weather workers and queen form a tight, shivering cluster.", "certainty": "confirmed", "ref": 0 },
+      { "title": "Glands that build and feed", "text": "In their second week, workers' wax glands become active and they build comb. Glands in the head make royal jelly and worker jelly, and the food a female larva gets decides whether she becomes a queen or a worker.", "certainty": "confirmed", "ref": 0 },
+      { "title": "A sting made from an egg-laying tube", "text": "The sting of workers and queens is a modified ovipositor, supplied with venom from glands in the abdomen. A stinging worker also releases an alarm pheromone that draws other bees to the target.", "certainty": "confirmed", "ref": 0 },
+      { "title": "Turning nectar into honey", "text": "Foragers hand nectar to younger workers, who add enzymes and store it in open cells where water evaporates, concentrating the sugars into honey.", "certainty": "confirmed", "ref": 0 }
+    ]
+  },
+  "genome": {
+    "lede": "The honey bee was one of the first insects to have its genome read, and it remains a model for how genes shape social behaviour.",
+    "diploid": 32,
+    "genomeGb": 0.225,
+    "refs": { "diploid": 6, "genome": 7 },
+    "sequenced": 2006,
+    "findings": [
+      { "title": "Fewer defences, more noses", "text": "The 2006 genome showed that honey bees have fewer genes for immunity, detoxification and taste than other sequenced insects, but more for smell, and new genes for using nectar and pollen.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Sixteen chromosomes, end to end", "text": "A 2019 assembly placed more than 98% of the sequence on the 16 chromosomes, each as a single scaffold. Females carry two sets (32 chromosomes); males hatch from unfertilised eggs and carry one.", "certainty": "confirmed", "ref": 6 },
+      { "title": "Surprisingly vertebrate-like genes", "text": "For circadian rhythm, RNA interference and DNA methylation genes, the honey bee genome is more similar to vertebrates than the fruit fly's is.", "certainty": "confirmed", "ref": 5 }
+    ]
+  },
+  "mind": {
+    "lede": "Honey bees are a classic subject for studying learning and memory, and they keep surprising researchers with what they can grasp.",
+    "studies": [
+      { "year": "2001", "title": "Same or different", "text": "Bees learned to choose a stimulus that matched, or differed from, one they had just seen. They then applied the rule to new stimuli, even switching from colours to scents.", "certainty": "confirmed", "ref": 8 },
+      { "year": "2018", "title": "Placing zero", "text": "Bees trained on 'less than' with images of one to six shapes went on to rank an empty image below one, an understanding of zero shared with some parrots, primates and young children.", "certainty": "confirmed", "ref": 9 },
+      { "year": "2005", "title": "Dances checked by radar", "text": "Harmonic radar tracking of recruited bees confirmed that they use the waggle dance's directions to fly towards the advertised food.", "certainty": "confirmed", "ref": 1 },
+      { "year": "Hive", "title": "Jobs that change with age", "text": "Workers move through a sequence of jobs as they age: cleaning cells, nursing, building comb, guarding the entrance and finally, after about three weeks, foraging.", "certainty": "confirmed", "ref": 0 }
+    ]
+  },
+  "survival": {
+    "lede": "A colony is a fortress full of food, so it is defended with walls, guards and a sting that costs the defender her life.",
+    "tactics": [
+      { "title": "A sealed home", "text": "Colonies prefer protected cavities such as tree hollows and seal small gaps with propolis, a mix of wax and plant resins, leaving one small entrance.", "certainty": "confirmed", "ref": 0 },
+      { "title": "Guards at the door", "text": "Guard bees check every arrival by scent and attack any non-member that tries to get in.", "certainty": "confirmed", "ref": 0 },
+      { "title": "A sting that stays in", "text": "The heavily barbed sting and its venom glands stay embedded in the target, which kills the worker but may make the sting more painful and discourage further attack.", "certainty": "confirmed", "ref": 0 },
+      { "title": "Swarming", "text": "Healthy colonies reproduce by swarming: the old queen leaves with up to half the workers, who cluster nearby while scouts search for a new home.", "certainty": "confirmed", "ref": 0 }
+    ],
+    "predators": ["Bee-eaters", "Honeyguides", "Honey badgers", "Bears", "Beewolf wasps", "Vespid wasps", "Crab spiders", "Toads", "Skunks"],
+    "threats": [
+      { "title": "Varroa mites", "text": "The Varroa mite jumped from the Asian honey bee to Apis mellifera and has spread worldwide except Australia. It feeds on developing bees, spreads viruses and often wipes out colonies.", "certainty": "confirmed", "ref": 0 },
+      { "title": "Losing local bees", "text": "In Europe there is concern that large-scale commercial beekeeping is endangering locally adapted populations and subspecies.", "certainty": "confirmed", "ref": 0 },
+      { "title": "Colony collapse", "text": "Colony Collapse Disorder, in which hives suddenly empty of workers, has struck mainly large commercial apiaries in North America. No single cause has been identified.", "certainty": "hypothesis", "ref": 0 }
+    ]
+  },
+  "life": {
+    "lede": "Every bee in the hive passes through four stages in a wax cell. What it is fed as a larva decides whether a female becomes a worker or a queen.",
+    "stages": [
+      { "name": "Egg", "duration": "28–144 hours", "text": "The queen lays each egg in a wax cell. Fertilised eggs become females; unfertilised eggs become males.", "ref": 0 },
+      { "name": "Larva", "duration": "4–7 days at 34 °C", "text": "A white grub that stays in its cell, fed and groomed by nurse workers. Development is fastest at 33–36 °C.", "ref": 0 },
+      { "name": "Pupa", "duration": "7–8 days (queen) to 14–15 days (drone)", "text": "Workers seal the cell, the larva spins a silk cocoon and transforms. Workers take about 12 days as pupae.", "ref": 0 },
+      { "name": "Adult", "text": "Adults chew out of their cells and never grow again. Summer workers live 2 to 4 weeks, but workers that live through winter can last up to 11 months; drones survive 4 to 8 weeks.", "ref": 0 }
+    ],
+    "lifespan": { "value": "Queens usually 2–3 years, sometimes 5", "ref": 0 }
+  }
+}

@@ -22,11 +22,11 @@ const jetbrains = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.SITE_URL ?? "http://localhost:3000"),
   title: {
-    default: "The Ocean Book — A Visual Library of Extraordinary Sea Life",
-    template: "%s — The Ocean Book",
+    default: "The Wild Book — A Visual Library of Extraordinary Animals",
+    template: "%s — The Wild Book",
   },
   description:
-    "An immersive natural history book of the ocean's most extraordinary creatures, told through photography, motion and verified science.",
+    "An immersive natural history book of the world's most extraordinary animals — on land, in the air and beneath the sea — told through photography, motion and verified science.",
 };
 
 export const viewport: Viewport = {

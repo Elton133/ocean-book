@@ -1,0 +1,63 @@
+{
+  "extraReferences": [
+    { "title": "Enhanced retinal longwave sensitivity using a chlorophyll-derived photosensitiser in Malacosteus niger, a deep-sea dragon fish with far red bioluminescence. Vision Research 39", "publisher": "Vision Research", "url": "https://doi.org/10.1016/S0042-6989(98)00332-0", "year": 1999, "authors": "Douglas R.H., Partridge J.C., Dulai K.S., Hunt D.M., Mullineaux C.W., Hynninen P.H." },
+    { "title": "Evolution of a functional head joint in deep-sea fishes (Stomiidae). PLoS ONE 12: e0170224", "publisher": "PLoS ONE", "url": "https://doi.org/10.1371/journal.pone.0170224", "year": 2017, "authors": "Schnell N.K., Johnson G.D." },
+    { "title": "Comparative innervation of cephalic photophores of the loosejaw dragonfishes (Teleostei: Stomiiformes: Stomiidae): evidence for parallel evolution of long-wave bioluminescence. Journal of Morphology 271", "publisher": "Journal of Morphology", "url": "https://doi.org/10.1002/jmor.10807", "year": 2010, "authors": "Kenaley C.P." },
+    { "title": "Sexually dimorphic eye size in dragonfishes, a response to a bioluminescent signalling gap. Biology Letters 20: 20240165", "publisher": "Biology Letters", "url": "https://doi.org/10.1098/rsbl.2024.0165", "year": 2024, "authors": "Vu T., Ebeling H., Di Santo V., Kenaley C.P." },
+    { "title": "The mitochondrial genome of the bioluminescent fish Malacosteus niger Ayres, 1848 (Stomiidae, Actinopterygii) is large and complex, and contains an inverted-repeat structure. ZooKeys 1157", "publisher": "ZooKeys", "url": "https://doi.org/10.3897/zookeys.1157.97921", "year": 2023, "authors": "Gastineau R., Otis C., Boyle B., Lemieux C., Turmel M., St-Cyr J., Koken M." }
+  ],
+  "anatomy": {
+    "lede": "A long black fish with two kinds of headlight, an eye tuned to red, and a jaw that swings open like a trapdoor.",
+    "media": 1,
+    "hotspots": [
+      { "id": "eye", "label": "Eye", "x": 12, "y": 47, "text": "Its retina holds two visual pigments most sensitive at about 520 and 540 nm, plus a chlorophyll-derived pigment that boosts its sensitivity to red.", "ref": 2 },
+      { "id": "red-organ", "label": "Far-red light organ", "x": 13, "y": 53, "text": "The light organ below the eye shines far-red, peaking above 700 nm. Far-red light organs like this may have evolved up to three times among the loosejaw dragonfishes.", "ref": 7 },
+      { "id": "postorbital", "label": "Postorbital light organ", "x": 17, "y": 56, "text": "A smaller light organ behind the eye gives off blue light, like those of most deep-sea animals.", "ref": 1 },
+      { "id": "head-joint", "label": "Head joint", "x": 19, "y": 35, "text": "Where the skull meets the spine, only a flexible notochord remains. It lets the head tip far up and back, opening the mouth to a gape of up to 120 degrees.", "ref": 6 },
+      { "id": "jaw", "label": "Lower jaw", "x": 19, "y": 70, "text": "Its jaws are long and its prey relatively large. Compared with its southern look-alike, Malacosteus australis, its jaws are somewhat larger.", "ref": 1 }
+    ],
+    "stats": [
+      { "value": "Up to about 25.6 cm", "label": "Length", "ref": 4 },
+      { "value": "500–3,886 m", "label": "Recorded depth", "ref": 4 },
+      { "value": "Over 700 nm", "label": "Peak wavelength of its red light", "ref": 2 },
+      { "value": "Up to 120°", "label": "Mouth gape", "ref": 6 }
+    ]
+  },
+  "senses": {
+    "lede": "In a sea where almost every eye sees only blue, the loosejaw can see the red light it makes.",
+    "senses": [
+      { "kind": "sight", "name": "A borrowed red boost", "text": "It lacks the most red-sensitive visual pigments found in its relatives, and instead uses a mixture of altered bacteriochlorophyll c and d to extend its sensitivity into the red.", "certainty": "confirmed", "ref": 5 },
+      { "kind": "sight", "name": "A single opsin gene", "text": "Molecular analysis found only one opsin gene in its genome, forming a pigment pair with two slightly different versions of the light-catching chromophore.", "certainty": "confirmed", "ref": 5 },
+      { "kind": "sight", "name": "Bigger eyes in males", "text": "Males have larger eye lenses than females. A model suggests this lets them spot the light organs of the opposite sex from farther away.", "certainty": "hypothesis", "ref": 8 }
+    ]
+  },
+  "body": {
+    "lede": "The loosejaw's head is built for two jobs: making unusual light and swallowing big prey.",
+    "systems": [
+      { "title": "A true head joint", "text": "In most bony fishes the shoulder girdle is braced against the skull. In loosejaws it is not, and a folded sheath of notochord forms a working joint between skull and spine.", "certainty": "confirmed", "ref": 6 },
+      { "title": "Lights wired to different nerves", "text": "The far-red organ of Malacosteus is supplied by a different branch of the trigeminal nerve than the similar organs of related genera, evidence that red light evolved separately in each.", "certainty": "hypothesis", "ref": 7 }
+    ]
+  },
+  "genome": {
+    "lede": "No nuclear genome has been published, but its mitochondrial genome is one of the odder ones known in fishes.",
+    "sequenced": null,
+    "findings": [
+      { "title": "A large, complex mitogenome", "text": "Its mitochondrial genome is 21,263 base pairs long, with two copies of a 1,198 bp inverted repeat and a long run of short repeated elements.", "certainty": "confirmed", "ref": 9 }
+    ]
+  },
+  "mind": {
+    "lede": "No one has watched a stoplight loosejaw hunt or court, so its behaviour is inferred from its body.",
+    "studies": [
+      { "year": "2000", "title": "A private waveband", "text": "Because other deep-sea animals are blind to far-red light, loosejaws may use it to light up prey and signal to their own kind unseen.", "certainty": "hypothesis", "ref": 2 },
+      { "year": "2024", "title": "Closing the detection gap", "text": "Males have larger postorbital light organs, so females should see males first. Larger eyes in males may even out the distance at which each sex can find the other.", "certainty": "hypothesis", "ref": 8 }
+    ]
+  },
+  "survival": {
+    "lede": "Living below the reach of sunlight, the loosejaw hunts with a light its prey cannot see.",
+    "tactics": [
+      { "title": "An invisible searchlight", "text": "Red light does not penetrate deep water, so most deep-sea prey cannot see it, and the fish can light up its prey unseen.", "certainty": "hypothesis", "ref": 1 },
+      { "title": "Staying deep", "text": "It has been suggested that, unlike many deep-sea fishes, it does not migrate up towards the surface at night and stays below 500 m.", "certainty": "hypothesis", "ref": 4 }
+    ],
+    "predators": []
+  }
+}

@@ -92,6 +92,7 @@ export const octopus: Creature = {
   commonName: "Giant Pacific Octopus",
   scientificName: "Enteroctopus dofleini",
   authority: "(Wülker, 1910)",
+  realm: "ocean",
   aphiaId: 342305,
   taxonomy: { phylum: "Mollusca", class: "Cephalopoda", order: "Octopoda", family: "Enteroctopodidae" },
   group: "Cephalopod",

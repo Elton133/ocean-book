@@ -1,0 +1,170 @@
+{
+  "slug": "cheetah",
+  "realm": "land",
+  "commonName": "Cheetah",
+  "scientificName": "Acinonyx jubatus",
+  "authority": "(Schreber, 1775)",
+  "gbifId": 2435270,
+  "iucnId": 219,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Felidae"
+  },
+  "group": "Big cat",
+  "categories": [],
+  "tagline": "The fastest land animal, built for a short, all-out sprint",
+  "summary": "A slender, long-legged cat of open country that hunts by stalking close and then bursting into a sprint no other land mammal can match. Collars fitted to wild cheetahs in Botswana have clocked 93 km/h, but they also showed that most hunts are won by acceleration, braking and sharp turns rather than raw top speed.",
+  "ability": "explosive sprinting and turning",
+  "stats": {
+    "size": "Adults weigh 34–64 kg; males are slightly larger than females",
+    "habitat": "Open savanna, grassland and dry scrub",
+    "range": "Patchy across eastern and southern Africa, with small populations in North Africa, the Sahel and Iran",
+    "diet": "Small to medium-sized mammals, hunted mainly in the early morning and late afternoon",
+    "conservation": "IUCN Red List: Vulnerable (2024 assessment version)"
+  },
+  "regions": [
+    "african-savanna",
+    "namib-kalahari",
+    "sahara-arabia"
+  ],
+  "biome": "savanna",
+  "signatureData": {
+    "topSpeedMs": 25.9,
+    "strideLengthM": 7,
+    "strideFrequencyHz": 3.57,
+    "refs": {
+      "speed": 1,
+      "stride": 2
+    }
+  },
+  "facts": [
+    {
+      "title": "93 km/h, measured in the wild",
+      "text": "GPS and motion-sensor collars fitted to five wild cheetahs in Botswana recorded 367 runs, most of them hunts. The fastest reached 25.9 m/s (93 km/h, 58 mph) — yet most hunts involved only moderate speeds.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Brakes and turns win the hunt",
+      "text": "The same collars recorded some of the highest sideways and forward acceleration, deceleration and power per kilogram of body weight measured for any land mammal.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Seven metres a stride",
+      "text": "A classic study of filmed cheetahs found that at 25 m/s a cheetah completes a stride in 0.28 s, covering 7 m. Force-plate and high-speed video work found cheetahs raise their average stride frequency from 2.4 to 3.2 Hz as they speed up, using up to 3.9 Hz, and take longer, slower strides than racing greyhounds at the same speed.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Claws that dig in",
+      "text": "Cheetahs have blunt, semi-retractable claws. At 18 m/s a galloping cheetah carries 70% of its body weight on its hind legs, and researchers suggest its substantial claws dig in to give the grip needed for acceleration and manoeuvring.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "A furry rudder",
+      "text": "Cheetahs swing their tails while turning and braking. Wind-tunnel tests showed the fur nearly doubles the tail's effective frontal area at little cost in weight, so the tail may steer the body through air resistance as well as through its swinging mass.",
+      "certainty": "hypothesis",
+      "ref": 3
+    },
+    {
+      "title": "Stalk first, then sprint",
+      "text": "Cheetahs usually creep to within about 90 m of their target before the final burst. A full sprint lasts only about 20 seconds, and about half of their chases succeed.",
+      "certainty": "confirmed",
+      "ref": 4
+    }
+  ],
+  "references": [
+    {
+      "title": "Acinonyx jubatus (Durant, Groom, Ipavec, Mitchell & Khalatbari)",
+      "publisher": "IUCN Red List of Threatened Species",
+      "year": 2024,
+      "url": "https://www.iucnredlist.org/species/219/259025524"
+    },
+    {
+      "title": "Locomotion dynamics of hunting in wild cheetahs. Nature 498: 185–189",
+      "publisher": "Nature",
+      "authors": "Wilson, A.M., Lowe, J.C., Roskilly, K., Hudson, P.E., Golabek, K.A. & McNutt, J.W.",
+      "year": 2013,
+      "url": "https://doi.org/10.1038/nature12295"
+    },
+    {
+      "title": "High speed galloping in the cheetah (Acinonyx jubatus) and the racing greyhound (Canis familiaris): spatio-temporal and kinetic characteristics. J Exp Biol 215: 2425–2434",
+      "publisher": "Journal of Experimental Biology",
+      "authors": "Hudson, P.E., Corr, S.A. & Wilson, A.M.",
+      "year": 2012,
+      "url": "https://doi.org/10.1242/jeb.066720"
+    },
+    {
+      "title": "Quasi-steady state aerodynamics of the cheetah tail. Biology Open 5: 1072–1076",
+      "publisher": "Biology Open",
+      "authors": "Patel, A., Boje, E., Fisher, C., Louis, L. & Lane, E.",
+      "year": 2016,
+      "url": "https://doi.org/10.1242/bio.018457"
+    },
+    {
+      "title": "Cheetah",
+      "publisher": "Smithsonian's National Zoo & Conservation Biology Institute",
+      "url": "https://nationalzoo.si.edu/animals/cheetah"
+    },
+    {
+      "title": "Acinonyx jubatus (Schreber, 1775)",
+      "publisher": "GBIF",
+      "url": "https://www.gbif.org/species/2435270"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/cheetah/hero.webp",
+    "width": 1920,
+    "height": 1101,
+    "alt": "A spotted cheetah walking left through tall, pale green and golden grass, its long black-ringed tail with a white tip held low behind it",
+    "caption": "A female cheetah after a chase, Phinda Private Game Reserve, South Africa",
+    "creator": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cheetah_(Acinonyx_jubatus)_female_after_chase.jpg",
+    "species": "Acinonyx jubatus",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "45% 50%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/cheetah/alt-1.webp",
+      "width": 1920,
+      "height": 1280,
+      "alt": "A cheetah stretching with its front legs extended and rump raised, mouth wide open in a yawn showing long canine teeth, on dusty ground in front of a bush",
+      "caption": "A stretch and a yawn in the Masai Mara National Reserve, Kenya",
+      "creator": "Thomas Fuhrmann",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Masai_Mara_National_Reserve_07_-_cheetah_(Acinonyx_jubatus).jpg",
+      "species": "Acinonyx jubatus",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "55% 55%",
+      "tone": "light"
+    },
+    {
+      "src": "/media/creatures/cheetah/alt-2.webp",
+      "width": 1920,
+      "height": 1280,
+      "alt": "Close-up of two young cheetahs lying in green grass, licking each other's faces, with black tear-stripe markings running from their eyes",
+      "caption": "Two young brothers groom each other after feeding, Okavango Delta, Botswana",
+      "creator": "Arturo de Frias Marques",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cheetah_Brothers_AdF.jpg",
+      "species": "Acinonyx jubatus",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "50% 45%",
+      "tone": "light"
+    }
+  ],
+  "notes": "signatureData: topSpeedMs 25.9 is verbatim from Wilson et al. 2013 (abstract). Stride values are from Hildebrand (1961, J Mammalogy), as quoted in the introduction of Hudson et al. 2012 (ref 2): 'at 25 m/s a cheetah completes a stride in 0.28 s with a stride length of 7 m'; strideFrequencyHz 3.57 is 1/0.28 s, my derivation, consistent with 7 m x 3.57 Hz = 25 m/s. Hudson et al.'s own measured values (mean 2.4 to 3.2 Hz, maximum 3.9 Hz; 'up to 4.0 Hz' in their summary) come from trials in which cheetahs galloped at 8.7–17.8 m/s, so they are given in a fact, not as the signature pair. Hudson et al. also cite a 29 m/s figure averaged over 200 m from another study; not used. The tail fact is marked 'hypothesis' because Patel et al. 2016 is a wind-tunnel and modelling study. Categories left empty: the cheetah is a predator but routinely loses kills to lions and hyenas, so I did not shelve it under apex-predators; IUCN status is Vulnerable, not EN/CR. Add apex-predators if the shelf is meant loosely. Regions: namib-kalahari for the Namibia/Botswana strongholds; sahara-arabia for the small Northwest African (Saharan) and Iranian (Asiatic) populations noted by the Smithsonian; India's reintroduced African cheetahs (Kuno, from 2022) are not counted. IUCN assessment: Durant et al., version e.T219A259025524 (2024 version per GBIF's IUCN checklist and its DOI 10.2305/IUCN.UK.2024-1.RLTS.T219A259025524.en); iucnredlist.org and gbif.org return 403 to scripted requests, so those two URLs were confirmed via the GBIF API rather than a page fetch. Smithsonian population estimate (7,500–10,000) not used as it may be dated. Hero swapped to the walking female (more typical profile); the stretching Masai Mara cheetah is a Featured Picture used in the gallery."
+}

@@ -1,0 +1,66 @@
+{
+  "extraReferences": [
+    { "title": "Tremoctopus violaceus uses Physalia tentacles as weapons. Science 139: 764–766", "publisher": "Science", "url": "https://doi.org/10.1126/science.139.3556.764", "year": 1963, "authors": "Jones E.C." },
+    { "title": "First encounter with a live male blanket octopus: the world's most sexually size-dimorphic large animal. New Zealand Journal of Marine and Freshwater Research 36: 733–736", "publisher": "New Zealand Journal of Marine and Freshwater Research", "url": "https://doi.org/10.1080/00288330.2002.9517126", "year": 2002, "authors": "Norman M.D., Paul D., Finn J., Tregenza T." },
+    { "title": "The first record of Tremoctopus violaceus sensu stricto Delle Chiaje, 1830 in southwestern Gulf of Mexico gives a hint of the taxonomic status of Tremoctopus gracilis. ZooKeys 1012: 55–69", "publisher": "ZooKeys", "url": "https://doi.org/10.3897/zookeys.1012.55718", "year": 2021, "authors": "Jiménez-Badillo M.L., Meiners-Mandujano C., Galindo-Cortes G. et al." },
+    { "title": "First integrative morphological and genetic characterization of Tremoctopus violaceus sensu stricto in the Mediterranean Sea. Animals 12: 80", "publisher": "Animals (MDPI)", "url": "https://doi.org/10.3390/ani12010080", "year": 2021, "authors": "Agus B., Carbonara P., Melis R. et al." },
+    { "title": "Complete mitochondrial genome and the phylogenetic position of the pelagic octopus Tremoctopus violaceus (Mollusca: Tremoctopodidae). Mitochondrial DNA Part B 3: 1248–1249", "publisher": "Mitochondrial DNA Part B", "url": "https://doi.org/10.1080/23802359.2018.1532347", "year": 2018, "authors": "Chiu Y.-W., Chang C.-W., Shen K.-N., Ju Y.-M., Lin H.-D." }
+  ],
+  "anatomy": {
+    "lede": "A mature female is mostly cape: two long arms joined by a broad web that she can unfurl, roll up or cut loose.",
+    "media": 0,
+    "hotspots": [
+      { "id": "web", "label": "Web", "x": 50, "y": 35, "text": "Sheets of webbing stretch between the long dorsal arms of the female. She unfurls them to look bigger when threatened.", "ref": 1 },
+      { "id": "dorsal-arm", "label": "Dorsal arm", "x": 41, "y": 45, "text": "Young blanket octopuses have been found with fragments of Portuguese man o' war tentacles stuck to the suckers of these upper arms.", "ref": 3 },
+      { "id": "arm", "label": "Shorter arm", "x": 31, "y": 52, "text": "The other arms are short and lined with suckers, and are not joined by the web.", "ref": 2 },
+      { "id": "eye", "label": "Eye", "x": 44, "y": 61, "text": "Plates like this one were drawn from females in the 19th century. Scientists did not meet a live male until 2002.", "ref": 4 },
+      { "id": "mantle", "label": "Mantle", "x": 50, "y": 73, "text": "The female stores the detached arms of males inside her mantle cavity until she is ready to fertilise her eggs.", "ref": 1 }
+    ],
+    "stats": [
+      { "value": "Up to 2 m", "label": "Female length", "ref": 2 },
+      { "value": "About 2.4 cm", "label": "Male length", "ref": 2 },
+      { "value": "Over 100,000", "label": "Eggs in one spawning", "ref": 1 }
+    ]
+  },
+  "body": {
+    "lede": "Male and female blanket octopuses are built for completely different lives, and their bodies show it.",
+    "systems": [
+      { "title": "The most unequal pair", "text": "Few large animals show a bigger size gap between the sexes. One idea is that big females can carry more eggs, while staying small lets males keep using stolen stinging tentacles, a defence that only works at small sizes.", "certainty": "hypothesis", "ref": 2 },
+      { "title": "A detachable arm", "text": "The male's third right arm, the hectocotylus, holds a sperm-filled pouch. When he is ready to mate, the pouch ruptures, he cuts the arm off and gives it to a female, who may store several from different males.", "certainty": "confirmed", "ref": 2 },
+      { "title": "A huge supply of eggs", "text": "In a mature Mediterranean female, researchers estimated more than 105,000 oocytes (developing eggs).", "certainty": "confirmed", "ref": 6 }
+    ]
+  },
+  "genome": {
+    "lede": "No nuclear genome has been published for the blanket octopus. Most genetic work has used mitochondrial DNA to sort out which species is which.",
+    "sequenced": null,
+    "findings": [
+      { "title": "Mitochondrial genome", "text": "Its complete mitochondrial genome is 16,015 base pairs long and holds 13 protein-coding genes, 2 rRNA genes and 22 tRNA genes.", "certainty": "confirmed", "ref": 7 },
+      { "title": "Two species, not one", "text": "Genetic comparison of a Gulf of Mexico female with Pacific sequences suggests that blanket octopuses in the Pacific previously called T. violaceus are a separate species, T. gracilis.", "certainty": "hypothesis", "ref": 5 }
+    ]
+  },
+  "mind": {
+    "lede": "Blanket octopuses live far out in the open ocean, so most of what is known comes from chance encounters.",
+    "studies": [
+      { "year": "1963", "title": "Armed with stingers", "text": "Young blanket octopuses were found with many pieces of Portuguese man o' war tentacles attached to their upper arms, which they may use for attack and defence.", "certainty": "hypothesis", "ref": 3 },
+      { "year": "2002", "title": "The first living male", "text": "Scientists encountered a live male for the first time, off the Great Barrier Reef, confirming how tiny males are compared with females.", "certainty": "confirmed", "ref": 4 },
+      { "year": "2021", "title": "Dropping arms to save eggs", "text": "A mature female found in the Gulf of Mexico showed evidence of autotomy, shedding parts of her body, as a way of protecting her egg mass.", "certainty": "confirmed", "ref": 5 }
+    ]
+  },
+  "survival": {
+    "lede": "With no seafloor to hide on, a blanket octopus defends itself by looking huge or carrying weapons it has stolen.",
+    "tactics": [
+      { "title": "Unfurling the cape", "text": "When attacked, a female can roll up her web and then unfurl it, looking much larger and possibly scaring a predator away.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Cutting the cape loose", "text": "The web can tear away when a predator bites it, distracting the attacker while the octopus escapes.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Borrowed stingers", "text": "Males and females smaller than about 7 cm have been reported carrying man o' war tentacles. This defence works only at small sizes.", "certainty": "hypothesis", "ref": 2 }
+    ],
+    "predators": ["Blue sharks", "Tuna", "Billfish"]
+  },
+  "life": {
+    "lede": "Male and female lead very different lives. The male matures tiny and dies soon after mating, while the female keeps growing to lay a huge batch of eggs.",
+    "stages": [
+      { "name": "Young octopus", "text": "Small juveniles drift in the open ocean, where some carry pieces of man o' war tentacles for protection.", "ref": 3 },
+      { "name": "Mating", "text": "The male detaches his sperm-filled arm and hands it to the female. Sperm packets found in a still-maturing female suggest females may mate with several males before they are fully mature.", "ref": 6 },
+      { "name": "Spawning", "text": "The female lays more than 100,000 eggs, then retrieves the stored arm and spreads the sperm over the egg mass.", "ref": 1 }
+    ]
+  }
+}

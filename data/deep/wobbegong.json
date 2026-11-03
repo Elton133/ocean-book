@@ -1,0 +1,64 @@
+{
+  "extraReferences": [
+    { "title": "The distribution and abundance of electrosensory pores in two benthic sharks: a comparison of the wobbegong shark, Orectolobus maculatus, and the angel shark, Squatina australis. Marine and Freshwater Research 65: 1003–1008", "publisher": "Marine and Freshwater Research", "authors": "Egeberg, C.A., Kempster, R.M., Theiss, S.M., Hart, N.S. & Collin, S.P.", "year": 2014, "url": "https://doi.org/10.1071/MF13213" },
+    { "title": "Interspecific visual adaptations among wobbegong sharks (Orectolobidae). Brain, Behavior and Evolution 76: 248–260", "publisher": "Brain, Behavior and Evolution", "authors": "Theiss, S.M., Collin, S.P. & Hart, N.S.", "year": 2010, "url": "https://doi.org/10.1159/000321330" },
+    { "title": "Quantitative diet assessment of wobbegong sharks (genus Orectolobus) in New South Wales, Australia. ICES Journal of Marine Science 64: 1272–1281", "publisher": "ICES Journal of Marine Science", "authors": "Huveneers, C., Otway, N.M., Gibbs, S.E. & Harcourt, R.G.", "year": 2007, "url": "https://doi.org/10.1093/icesjms/fsm111" },
+    { "title": "Reproductive synchrony of three sympatric species of wobbegong shark (genus Orectolobus) in New South Wales, Australia. Marine and Freshwater Research 58: 765–777", "publisher": "Marine and Freshwater Research", "authors": "Huveneers, C., Walker, T.I., Otway, N.M. & Harcourt, R.G.", "year": 2007, "url": "https://doi.org/10.1071/MF06187" },
+    { "title": "Are wobbegongs social? Social networks of the spotted wobbegong shark (Orectolobus maculatus) in a small marine protected area (thesis)", "publisher": "Macquarie University", "authors": "Armansin, N.C.", "year": 2016, "url": "https://doi.org/10.25949/19440035" }
+  ],
+  "anatomy": {
+    "lede": "A spotted wobbegong is a shark pressed flat against the reef. Its broad head, blotched skin and fringe of skin flaps break up its outline as it waits for prey to come close.",
+    "media": 0,
+    "hotspots": [
+      { "id": "pattern", "label": "Ringed saddles", "x": 20, "y": 50, "text": "Dark saddles edged with whitish rings and blotches set this species apart from its close relative, the banded wobbegong.", "ref": 1 },
+      { "id": "pectoral", "label": "Pectoral fin", "x": 10, "y": 76, "text": "Like angel sharks, wobbegongs have a flattened body that suits life lying on the bottom and ambushing prey.", "ref": 3 },
+      { "id": "eye", "label": "Eye", "x": 54, "y": 49, "text": "A band of densely packed cells across the retina gives sharper vision in the lower field of view — towards the reef and passing prey.", "ref": 4 },
+      { "id": "lobes", "label": "Dermal lobes", "x": 60, "y": 64, "text": "Six to ten long, coarsely branched skin lobes line each side of the head in front of the eye. There are none on the chin.", "ref": 1 },
+      { "id": "mouth", "label": "Mouth", "x": 70, "y": 61, "text": "The broad mouth sits at the front of the head. Stomach contents show it eats mainly bony fish, along with some octopuses and other cephalopods, and occasionally sharks and rays.", "ref": 5 },
+      { "id": "snout", "label": "Snout", "x": 80, "y": 51, "text": "The snout carries an extra cluster of electrosensory pores not found in the angel shark, adding to the wobbegong's ability to sense prey.", "ref": 3 }
+    ],
+    "stats": [
+      { "value": "1.7 m", "label": "Maximum length", "ref": 1 },
+      { "value": "0–218 m", "label": "Recorded depth", "ref": 1 },
+      { "value": "21", "label": "Average litter (up to 37)", "ref": 6 },
+      { "value": "about 21 cm", "label": "Size at birth", "ref": 2 }
+    ]
+  },
+  "senses": {
+    "lede": "Lying still in dim water, often at night, a wobbegong needs to detect prey that comes within striking distance — and predators that might approach from behind.",
+    "senses": [
+      { "kind": "electroreception", "name": "Electric sense", "text": "Pores on the head lead to electroreceptors that detect the faint electric fields of living animals. The spotted wobbegong has more pores than the angel shark, including a cluster on the snout.", "vsHuman": "absent in us", "certainty": "confirmed", "ref": 3 },
+      { "kind": "electroreception", "name": "Watching its back", "text": "A cluster of pores just behind the first gill slit, more typical of rays, may help bottom-living sharks detect approaching predators.", "certainty": "hypothesis", "ref": 3 },
+      { "kind": "sight", "name": "Sight", "text": "Its retina has both rods and cones. Its visual system is tuned for sensitivity and seems especially well suited to low light.", "certainty": "confirmed", "ref": 4 }
+    ]
+  },
+  "mind": {
+    "lede": "Long seen as solitary lumps on the reef, spotted wobbegongs turn out to have patterns in where they go and whom they spend time with.",
+    "studies": [
+      { "year": "2007", "title": "Empty stomachs", "text": "Most wobbegongs caught by commercial fishers had empty stomachs, probably because they regurgitate when caught. Those with food had eaten mainly bony fish.", "certainty": "confirmed", "ref": 5 },
+      { "year": "2016", "title": "Familiar neighbours", "text": "Acoustic tags in a small marine reserve showed that some sharks preferred the company of particular others, and many of these pairings resumed after the sharks returned from seasonal migration.", "certainty": "hypothesis", "ref": 7 }
+    ]
+  },
+  "survival": {
+    "lede": "The spotted wobbegong's disguise works both ways: it hides the shark from prey, and from anything that might want to eat it.",
+    "tactics": [
+      { "title": "Living camouflage", "text": "Its blotched pattern and fringe of dermal lobes blend into reef, sand and seagrass, so prey swims close without noticing.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Resting by day", "text": "It is nocturnal, usually resting during the day and hunting at night.", "certainty": "confirmed", "ref": 1 },
+      { "title": "A tenacious bite", "text": "Although placid, it bites when stepped on or provoked. Fishes of Australia notes 23 confirmed bites on people recorded by the International Shark Attack File.", "certainty": "confirmed", "ref": 1 }
+    ],
+    "predators": [],
+    "threats": [
+      { "title": "Fishing", "text": "It is targeted and taken as bycatch in commercial and recreational fisheries, and is listed as Vulnerable in New South Wales.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Slow breeding", "text": "Females breed only once every three years, so populations take a long time to recover from fishing.", "certainty": "confirmed", "ref": 6 }
+    ]
+  },
+  "life": {
+    "lede": "Wobbegong breeding is slow and tightly timed. In New South Wales, a female's full cycle takes three years.",
+    "stages": [
+      { "name": "Egg development", "duration": "about 2 years", "text": "Eggs grow slowly inside the mother for a year, then rapidly in the second, and are released from the ovary in November.", "ref": 6 },
+      { "name": "Pregnancy", "duration": "10–11 months", "text": "The young develop inside the mother, feeding only on their egg yolk.", "ref": 6 },
+      { "name": "Birth", "duration": "September–October", "text": "Litters average 21 pups, each about 21 cm long. Pregnant females were found mostly in northern New South Wales.", "ref": 6 },
+      { "name": "Adult", "duration": "from about 1.1–1.3 m", "text": "Females start to mature at about 1.1 m long, and half of males are mature by about 1.3 m.", "ref": 6 }
+    ]
+  }
+}

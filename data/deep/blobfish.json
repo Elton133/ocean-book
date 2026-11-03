@@ -1,0 +1,28 @@
+{
+  "anatomy": {
+    "lede": "Drawn from a specimen in 1926, the smooth-head blobfish looks like a plump, soft fish with a big head, not the collapsed blob of internet fame.",
+    "media": 0,
+    "hotspots": [
+      { "id": "head", "label": "Large head", "x": 18, "y": 32, "text": "The head is big and rounded, about 40% of the body length, with a strongly curved profile from the blunt snout to the back of the head.", "ref": 1 },
+      { "id": "eye", "label": "Eye", "x": 12, "y": 44, "text": "The eyes are moderately large and set far apart: the space between them is more than twice the width of an eye.", "ref": 1 },
+      { "id": "mouth", "label": "Mouth", "x": 7, "y": 63, "text": "The large mouth reaches back to below the rear edge of the eyes, and both jaws carry a broad band of tiny, bristle-like teeth.", "ref": 1 },
+      { "id": "pectoral-fin", "label": "Pectoral fin", "x": 40, "y": 56, "text": "The pectoral fins are large and broadly angular, each with 24 or 25 rays.", "ref": 1 },
+      { "id": "dorsal-fin", "label": "Dorsal fins", "x": 52, "y": 22, "text": "There are two dorsal fins, but thick, fleshy skin wraps them so that they look like one, separated only by a shallow notch.", "ref": 1 },
+      { "id": "pelvic-fin", "label": "Pelvic fin", "x": 30, "y": 88, "text": "The small pelvic fins sit on the chest, beneath where the pectoral fins begin.", "ref": 1 },
+      { "id": "tail", "label": "Tail fin", "x": 88, "y": 57, "text": "The rounded tail fin is moderately large, and the long anal and dorsal fins join the tail stalk by a membrane.", "ref": 1 }
+    ],
+    "stats": [
+      { "value": "Up to 38 cm", "label": "Length", "ref": 1 },
+      { "value": "600–1,200 m", "label": "Depth", "ref": 1 },
+      { "value": "About 40%", "label": "Of body length is head", "ref": 1 }
+    ]
+  },
+  "body": {
+    "lede": "The blobfish's soft body is not a flaw. It suits life on the continental slope, 600 to 1,200 m down, where the pressure is crushing.",
+    "systems": [
+      { "title": "No swim bladder", "text": "Many fish have a gas-filled swim bladder that expands violently when they are hauled up from depth. Blobfish have none.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Barely bony bones", "text": "Species of Psychrolutes have very weak, barely hardened bones, so they look somewhat blob-like even in life. Soft bones let the body compress under pressure without cracking.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Loose, scaleless skin", "text": "The skin is smooth, has no scales and hangs loose and flabby over the body and fins. Its lateral line, the sensory canal fish use to detect water movement, is obvious only on the head.", "certainty": "confirmed", "ref": 1 }
+    ]
+  }
+}

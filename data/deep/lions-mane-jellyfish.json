@@ -1,0 +1,52 @@
+{
+  "extraReferences": [
+    { "title": "Jellyfish support high energy intake of leatherback sea turtles (Dermochelys coriacea): video evidence from animal-borne cameras. PLoS ONE 7: e33259", "publisher": "PLoS ONE", "authors": "Heaslip, S.G., Iverson, S.J., Bowen, W.D. & James, M.C.", "year": 2012, "url": "https://doi.org/10.1371/journal.pone.0033259" },
+    { "title": "Capture and digestion of the scyphozoan jellyfish Aurelia aurita by Cyanea capillata and prey response to predator contact. Journal of Plankton Research 19: 195–208", "publisher": "Journal of Plankton Research", "authors": "Hansson, L.J.", "year": 1997, "url": "https://doi.org/10.1093/plankt/19.2.195" }
+  ],
+  "anatomy": {
+    "lede": "A lion's mane has no brain, heart or bones: just a lobed bell of jelly, a mass of frilly arms around the mouth, and a curtain of stinging tentacles.",
+    "media": 0,
+    "hotspots": [
+      { "id": "bell", "label": "Bell", "x": 47, "y": 46, "text": "Slow pulses of the bell push the jellyfish only weakly forward, so it relies on currents to travel long distances.", "ref": 2 },
+      { "id": "lobes", "label": "Bell margin", "x": 36, "y": 66, "text": "In each of the eight notches between the bell's lobes sits a small balance organ that helps the jellyfish keep itself the right way up.", "ref": 2 },
+      { "id": "tentacles", "label": "Tentacles", "x": 16, "y": 39, "text": "The tentacles hang in clusters, about 70–150 under each of the eight lobes, around 1,200 in all.", "ref": 2 },
+      { "id": "oral-arms", "label": "Oral arms", "x": 52, "y": 80, "text": "Beneath the bell, broad, frilly oral arms armed with stinging cells surround the mouth.", "ref": 2 }
+    ],
+    "stats": [
+      { "value": "1.8 m", "label": "Bell width, up to", "ref": 1 },
+      { "value": "c. 1,200", "label": "Tentacles", "ref": 2 },
+      { "value": "1 km", "label": "Length of the largest shoals", "ref": 1 }
+    ]
+  },
+  "mind": {
+    "lede": "Without a brain, the lion's mane still hunts other jellies, and its prey reacts to the touch of its tentacles.",
+    "studies": [
+      { "year": "1997", "title": "A jellyfish that eats jellyfish", "text": "In a Swedish fjord, lion's manes caught moon jellies, and larger lion's manes caught more of them. One moon jelly took about 38 hours to digest.", "certainty": "confirmed", "ref": 6 },
+      { "year": "1997", "title": "The prey fights back", "text": "Moon jellies that brushed a lion's mane pulled in their tentacles and pulsed 46% faster, rising away from the predator.", "certainty": "confirmed", "ref": 6 },
+      { "year": "Field", "title": "Shoals", "text": "Unusually for jellyfish, lion's manes sometimes gather in shoals up to a kilometre long.", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "survival": {
+    "lede": "A big lion's mane has little to fear, except one animal that seeks it out: the leatherback turtle.",
+    "tactics": [
+      { "title": "A wall of stings", "text": "More than a thousand tentacles, each armed with stinging cells, stun prey and deter most attackers.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Size", "text": "Adults have very few natural predators because of their size, but juveniles are eaten by seabirds and larger fish such as ocean sunfish.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Turtle food", "text": "Cameras on leatherback turtles off Nova Scotia showed lion's manes made up 83–100% of their prey. Each turtle ate about 261 jellyfish a day on average.", "certainty": "confirmed", "ref": 5 }
+    ],
+    "predators": ["Leatherback turtles", "Seabirds", "Ocean sunfish", "Larger fish"],
+    "threats": [
+      { "title": "No major known threats", "text": "The species is not known to face any major threats, though its population has never been assessed.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Warming seas", "text": "During periods of warming, some individuals may drift outside their usual range.", "certainty": "hypothesis", "ref": 2 }
+    ]
+  },
+  "life": {
+    "lede": "The giant medusa is only one part of a life that alternates between a free-swimming bell and a tiny polyp fixed to the seabed.",
+    "stages": [
+      { "name": "Egg and larva", "text": "Medusae reproduce sexually. The female carries her fertilised eggs in her tentacles.", "ref": 2 },
+      { "name": "Polyp", "text": "The larvae settle and grow into small polyps, which multiply asexually.", "ref": 2 },
+      { "name": "Ephyra", "text": "Each polyp buds off a stack of tiny, immature medusae called ephyrae, which break away and swim off.", "ref": 2 },
+      { "name": "Medusa", "text": "The ephyrae grow into adult medusae, which are seen most often in late summer and autumn.", "ref": 2 }
+    ],
+    "lifespan": { "value": "About a year for the four stages", "ref": 2 }
+  }
+}

@@ -6,7 +6,9 @@ import { useEffect, useState } from "react";
 import type { Book } from "@/lib/types";
 import { EASE_CINE, EASE_OUT } from "@/lib/motion";
 import { zoneBySlug } from "@/lib/zones";
+import { biomeBySlug, regionBySlug } from "@/lib/world";
 import type { Entry } from "./CreatureBook";
+import { PlayMark } from "./FilmSheet";
 
 const pad = (n: number) => String(n).padStart(2, "0");
 
@@ -62,6 +64,7 @@ export function PageNavigation({
   onClose,
   contentsOpen,
   setContentsOpen,
+  onFilm,
 }: {
   book: Book;
   entries: Entry[];
@@ -73,6 +76,7 @@ export function PageNavigation({
   onClose: () => void;
   contentsOpen: boolean;
   setContentsOpen: (v: boolean) => void;
+  onFilm: () => void;
 }) {
   const entry = entries[index];
   const page = entry.page;
@@ -81,7 +85,9 @@ export function PageNavigation({
   const light = page.theme === "ivory" && !contentsOpen;
   const tone = light ? "text-ink" : "text-ivory";
   const hidden = useIdle(immersive && !contentsOpen);
-  const zone = zoneBySlug(book.zone);
+  const zone = book.zone ? zoneBySlug(book.zone) : null;
+  const c = book.creature;
+  const home = c.realm === "land" ? regionBySlug(c.regions[0]) : null;
   const chromeFade = `transition-[opacity,color] duration-1000 ${hidden ? "opacity-0" : "opacity-100"}`;
 
   return (
@@ -90,15 +96,32 @@ export function PageNavigation({
       <header className={`pointer-events-none fixed inset-x-0 top-0 z-50 flex items-start justify-between px-4 pt-4 sm:px-8 sm:pt-6 ${tone} ${chromeFade}`}>
         <div className="pointer-events-auto flex min-w-0 items-baseline gap-3">
           <Link href="/" className="eyebrow shrink-0 opacity-80 transition hover:opacity-100" data-no-drag>
-            The Ocean Book
+            The Wild Book
           </Link>
           <span className="eyebrow hidden opacity-40 sm:inline">/</span>
           <span className="display hidden truncate text-lg italic opacity-80 sm:inline">{book.creature.commonName}</span>
-          <span className="annot hidden truncate uppercase tracking-[0.18em] opacity-45 md:inline">
-            {zone.scientific} · {zone.from.toLocaleString("en-GB")}–{zone.to.toLocaleString("en-GB")} m
-          </span>
+          {zone && (
+            <span className="annot hidden truncate uppercase tracking-[0.18em] opacity-45 md:inline">
+              {zone.scientific} · {zone.from.toLocaleString("en-GB")}–{zone.to.toLocaleString("en-GB")} m
+            </span>
+          )}
+          {c.realm === "land" && home && (
+            <span className="annot hidden truncate uppercase tracking-[0.18em] opacity-45 md:inline">
+              {biomeBySlug(c.biome).name} · {home.name}
+            </span>
+          )}
         </div>
         <div className="pointer-events-auto flex items-center gap-5">
+          <button
+            type="button"
+            onClick={onFilm}
+            className="eyebrow inline-flex items-center gap-1.5 opacity-80 transition hover:opacity-100"
+            aria-haspopup="dialog"
+            aria-label={book.film ? `Watch a film of the ${book.creature.commonName}` : `Film of the ${book.creature.commonName}: none yet`}
+          >
+            <PlayMark className="h-2.5 w-2.5" />
+            Film
+          </button>
           <button type="button" onClick={() => setContentsOpen(!contentsOpen)} className="eyebrow opacity-80 transition hover:opacity-100" aria-expanded={contentsOpen}>
             {contentsOpen ? "Close" : "Contents"}
           </button>

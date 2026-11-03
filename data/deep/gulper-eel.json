@@ -1,0 +1,148 @@
+{
+  "extraReferences": [
+    {
+      "title": "Species distribution modeling of deep pelagic eels. Integrative and Comparative Biology 56: 524–530",
+      "publisher": "Integrative and Comparative Biology",
+      "authors": "DeVaney, S.C.",
+      "year": 2016,
+      "url": "https://doi.org/10.1093/icb/icw032"
+    }
+  ],
+  "anatomy": {
+    "lede": "The gulper eel has stripped its body down to a huge, loosely hinged mouth and a long, whip-thin tail, with very little in between.",
+    "media": 0,
+    "hotspots": [
+      {
+        "id": "snout",
+        "label": "Snout",
+        "x": 7,
+        "y": 39,
+        "text": "Its tiny eyes sit close to the tip of the snout, far from the hinge of the enormous jaws.",
+        "ref": 1
+      },
+      {
+        "id": "lower-jaw",
+        "label": "Lower jaw",
+        "x": 13,
+        "y": 80,
+        "text": "The jaws extend far back along the body, enlarging the mouth enormously. They carry several rows of small teeth.",
+        "ref": 1
+      },
+      {
+        "id": "mouth",
+        "label": "Expandable mouth",
+        "x": 22,
+        "y": 55,
+        "text": "The mouth cavity is greatly distensible, opening like a net to take in prey together with a large volume of water.",
+        "ref": 2
+      },
+      {
+        "id": "tail",
+        "label": "Whip-like tail",
+        "x": 93,
+        "y": 60,
+        "text": "The body tapers into a very long, thin tail with no tail fin. In intact specimens it ends in an expanded light-producing organ.",
+        "ref": 2
+      }
+    ],
+    "stats": [
+      { "value": "about 80 cm", "label": "Typical maximum length", "ref": 1 },
+      { "value": "100 cm", "label": "Longest recorded", "ref": 2 },
+      { "value": "1,200–1,400 m", "label": "Usual depth", "ref": 2 }
+    ]
+  },
+  "senses": {
+    "lede": "Its senses have barely been studied, but its anatomy offers clues — especially in mature males.",
+    "senses": [
+      {
+        "kind": "smell",
+        "name": "Smell",
+        "text": "At maturity males' smell organs enlarge while their jaws and teeth degenerate, suggesting that finding a mate by scent becomes their main task.",
+        "certainty": "hypothesis",
+        "ref": 1
+      },
+      {
+        "kind": "vibration",
+        "name": "Lateral line",
+        "text": "Instead of a line of pores along its sides, its lateral line — the system fishes use to sense water movement — is made of groups of raised tubules.",
+        "certainty": "confirmed",
+        "ref": 2
+      },
+      {
+        "kind": "sight",
+        "name": "Sight",
+        "text": "Its eyes are tiny; how much it relies on them in the near-darkness where it lives is not known.",
+        "certainty": "uncertain",
+        "ref": 1
+      }
+    ]
+  },
+  "body": {
+    "lede": "Much of the usual fish anatomy is missing: the gulper eel has no scales, no tail fin and no fin spines.",
+    "systems": [
+      {
+        "title": "Mouth as a scoop",
+        "text": "Prey is taken in along with water, which is then pushed out through the gill openings.",
+        "certainty": "hypothesis",
+        "ref": 1
+      },
+      {
+        "title": "A pared-down body",
+        "text": "It lacks scales, a tail fin and dorsal or anal fin spines, and its body is long and eel-like behind the head.",
+        "certainty": "confirmed",
+        "ref": 2
+      }
+    ]
+  },
+  "mind": {
+    "lede": "Almost everything known about its behaviour comes from a few chance encounters with underwater cameras.",
+    "studies": [
+      {
+        "year": "2018",
+        "title": "The black balloon",
+        "text": "Near a mile down off Hawaiʻi, a remotely operated vehicle filmed a young gulper eel inflating its mouth like a balloon, then deflating it and swimming off.",
+        "certainty": "confirmed",
+        "ref": 3
+      },
+      {
+        "year": "Field",
+        "title": "A threat response?",
+        "text": "After seeing a gulper eel inflate in the Gulf of Mexico, some researchers suggested the display happens when the fish feels threatened.",
+        "certainty": "uncertain",
+        "ref": 3
+      },
+      {
+        "year": "2016",
+        "title": "Mapping where it lives",
+        "text": "Modelling of museum records predicted a near-worldwide range, with gaps such as the Southern Ocean and Bering Sea. The gulper eel is not known to migrate up and down the water column each day.",
+        "certainty": "confirmed",
+        "ref": 4
+      }
+    ]
+  },
+  "life": {
+    "lede": "Its life cycle is pieced together from preserved specimens and from what is known of related eels.",
+    "stages": [
+      {
+        "name": "Egg",
+        "text": "Eggs are released into the open water and drift as plankton.",
+        "ref": 2
+      },
+      {
+        "name": "Leptocephalus larva",
+        "text": "Eggs hatch into leptocephalus larvae, the drifting larval form of eels, which live in the plankton.",
+        "ref": 2
+      },
+      {
+        "name": "Adult",
+        "text": "At maturity males change shape: their smell organs grow while their teeth and jaws shrink. Females remain relatively unchanged.",
+        "ref": 1
+      },
+      {
+        "name": "Spawning",
+        "text": "Degenerative changes in both sexes suggest gulper eels may spawn only once and then die.",
+        "ref": 2
+      }
+    ]
+  }
+}

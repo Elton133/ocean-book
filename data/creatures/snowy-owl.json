@@ -1,0 +1,171 @@
+{
+  "slug": "snowy-owl",
+  "realm": "land",
+  "commonName": "Snowy Owl",
+  "scientificName": "Bubo scandiacus",
+  "authority": "(Linnaeus, 1758)",
+  "gbifId": 5959143,
+  "iucnId": 22689055,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Strigiformes",
+    "family": "Strigidae"
+  },
+  "group": "Owl",
+  "categories": [
+    "fliers",
+    "apex-predators",
+    "migrations"
+  ],
+  "tagline": "The white owl that hunts the Arctic summer in daylight",
+  "summary": "A large, mostly white owl of the open Arctic tundra that, unlike most owls, hunts largely by day. Its life is tied to lemmings: satellite-tagged females roam thousands of kilometres each spring in search of a lemming boom to breed on, and some spend the winter far out on the sea ice.",
+  "ability": "silent flight and nomadic hunting",
+  "flight": "silent",
+  "stats": {
+    "size": "63–73 cm long; wingspan about 1.4–1.7 m; 0.7–2.9 kg, females larger and heavier than males",
+    "habitat": "Open, treeless Arctic tundra; in winter also coasts, prairies, marshes and sea ice",
+    "elevation": "Usually from sea level to below 300 m on the breeding grounds",
+    "range": "Circumpolar Arctic; in some winters irrupts far south into southern Canada, the northern United States, Europe and Asia",
+    "diet": "Mainly lemmings, voles and other small rodents; probably seabirds when wintering on the sea ice",
+    "conservation": "IUCN Red List: Vulnerable (2021 assessment)"
+  },
+  "elevationRange": {
+    "min": 0,
+    "max": 300,
+    "approx": true
+  },
+  "regions": [
+    "arctic-tundra",
+    "north-american-forests"
+  ],
+  "biome": "tundra",
+  "facts": [
+    {
+      "title": "An owl of the daylight",
+      "text": "Unlike most owls, snowy owls are largely active by day — an advantage in an Arctic summer when the sun never sets.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "1,600 lemmings a year",
+      "text": "A single snowy owl may eat more than 1,600 lemmings in a year. The number of eggs it lays, usually 3 to 11, depends on how much prey is around.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Roaming in search of a lemming boom",
+      "text": "Nine breeding females tracked by satellite for up to three years searched for up to 108 days and travelled up to 4,093 km each spring before settling where lemmings were plentiful. On average they nested 725 km from where they had bred the year before.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Wintering on the sea ice",
+      "text": "Most satellite-tracked adult females that breed in the Canadian Arctic stayed at high latitudes in winter and spent up to 101 days on the sea ice, gathering around patches of open water where seabirds also gather. The ocean, it seems, helps feed this tundra hunter through the winter.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Wings that whisper",
+      "text": "Like other owls, the snowy owl has soft, fringed edges and a velvety surface on its flight feathers, which let it fly almost silently. A 2020 review argues that these features mainly reduce the sound of feathers rubbing together. It is not yet settled whether silence helps owls sneak up on prey or lets them hear it better.",
+      "certainty": "hypothesis",
+      "ref": 4
+    },
+    {
+      "title": "Dressed for the cold",
+      "text": "White feathers cover even the legs and feet, protecting them from the cold. Males can become almost completely white as they age, while females keep more dark markings.",
+      "certainty": "confirmed",
+      "ref": 1
+    }
+  ],
+  "references": [
+    {
+      "title": "BirdLife International (2021). Bubo scandiacus. The IUCN Red List of Threatened Species 2021",
+      "publisher": "IUCN Red List",
+      "year": 2021,
+      "url": "https://doi.org/10.2305/IUCN.UK.2021-3.RLTS.T22689055A205475036.en"
+    },
+    {
+      "title": "Nyctea scandiaca (snowy owl)",
+      "publisher": "Animal Diversity Web, University of Michigan",
+      "url": "https://animaldiversity.org/accounts/Nyctea_scandiaca/"
+    },
+    {
+      "title": "An avian terrestrial predator of the Arctic relies on the marine ecosystem during winter. Journal of Avian Biology 42: 363–369",
+      "publisher": "Journal of Avian Biology",
+      "authors": "Therrien, J.-F., Gauthier, G. & Bêty, J.",
+      "year": 2011,
+      "url": "https://doi.org/10.1111/j.1600-048X.2011.05330.x"
+    },
+    {
+      "title": "Irruptive movements and breeding dispersal of snowy owls: a specialized predator exploiting a pulsed resource. Journal of Avian Biology 45: 536–544",
+      "publisher": "Journal of Avian Biology",
+      "authors": "Therrien, J.-F., Gauthier, G., Pinaud, D. & Bêty, J.",
+      "year": 2014,
+      "url": "https://doi.org/10.1111/jav.00426"
+    },
+    {
+      "title": "Evolution and ecology of silent flight in owls and other flying vertebrates. Integrative Organismal Biology 2: obaa001",
+      "publisher": "Integrative Organismal Biology",
+      "authors": "Clark, C.J., LePiane, K. & Liu, L.",
+      "year": 2020,
+      "url": "https://doi.org/10.1093/iob/obaa001"
+    },
+    {
+      "title": "Snowy Owl",
+      "publisher": "The Peregrine Fund",
+      "url": "https://www.peregrinefund.org/explore-raptors-species/owls/snowy-owl"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/snowy-owl/hero.webp",
+    "width": 1920,
+    "height": 1277,
+    "alt": "An almost pure white snowy owl flying low over brown and green tundra, wings raised, with a pale blue band of sea and a hazy sky behind",
+    "caption": "Hunting low over the summer tundra near Sachs Harbour, Banks Island, Canada",
+    "creator": "Stephan Sprinz",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Snowy_Owl_on_Banks_Island_02.jpg",
+    "species": "Bubo scandiacus",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "30% 55%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/snowy-owl/alt-1.webp",
+      "width": 1920,
+      "height": 1389,
+      "alt": "A heavily black-barred snowy owl with a white face and yellow eyes sitting among golden dune grass, looking back over its shoulder in low evening light",
+      "caption": "A barred winter visitor on the dunes at Jones Beach, New York",
+      "creator": "Rhododendrites",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Snowy_owl_at_Jones_Beach_(04882).jpg",
+      "species": "Bubo scandiacus",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "40% 45%",
+      "tone": "light"
+    },
+    {
+      "src": "/media/creatures/snowy-owl/alt-2.webp",
+      "width": 1920,
+      "height": 1296,
+      "alt": "A white snowy owl with dark-flecked wings and yellow eyes flying low over water that reflects orange and pink sunset light",
+      "caption": "Gliding over water at dusk",
+      "creator": "GoldenBright (Larry)",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Snowy_Owl_in_flight_-_Flickr_-_GoldenBright_(Larry).jpg",
+      "species": "Bubo scandiacus",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "62% 40%",
+      "tone": "light"
+    }
+  ],
+  "notes": "Size: length (63–73 cm) is from ADW. Wingspan sources differ (ADW gives an average of 170 cm, the Peregrine Fund 4.5 ft, about 1.4 m), so a range is given. Mass is the Peregrine Fund's 1.5–6.5 lb, converted to 0.7–2.9 kg. The ADW account is filed under the old name Nyctea scandiaca; the Bubo scandiacus URL returns a 404 page. Daytime hunting, 1,600 lemmings a year, clutch of 3–11, habitat below 300 m, feathered feet and plumage differences are from ADW. Sea ice (up to 101 days, December–April, around open water) is from the Therrien et al. 2011 abstract. Spring searching (up to 108 days and 4,093 km; dispersal averaging 725 km, range 18–2,224 km) is from the Therrien et al. 2014 abstract (9 satellite-tracked breeding females, Canadian Arctic). Silent flight: the Peregrine Fund describes the soft, feathery feather edges. Clark et al. 2020 is a review of owls in general, not of snowy owls specifically, so that fact is marked 'hypothesis'. Categories: apex-predators because Therrien et al. call it 'a top predator of the tundra'; migrations for its irruptive, nomadic movements (Therrien et al. 2014 call the owls 'irruptive migrants'). It is not shelved as nocturnal because it is largely diurnal, and VU does not meet the EN/CR bar. Regions: arctic-tundra (breeding), plus north-american-forests for winter irruptions into southern Canada and the northern US (Peregrine Fund). I added no Eurasian winter region because I had no specific source. elevationRange is approximate (ADW: 'sea level to less than 300 m'). Images: alt-1 (Jones Beach, a Quality Image) shows a heavily barred bird, typical of females and young, but its sex and age are not stated. alt-2 has a small photographer's signature ('Golden Bright') in the bottom-right corner, and its location is not given. The IUCN status (VU) and ID were confirmed via GBIF's IUCN checklist and the DOI handle API. rspb.org.uk's snowy-owl page now returns a 404 and allaboutbirds.org returns 403, so neither is cited."
+}

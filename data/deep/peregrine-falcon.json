@@ -1,0 +1,83 @@
+{
+  "extraReferences": [
+    { "title": "Falco peregrinus (peregrine falcon)", "publisher": "Animal Diversity Web, University of Michigan", "url": "https://animaldiversity.org/accounts/Falco_peregrinus/" },
+    { "title": "Peregrine and saker falcon genome sequences provide insights into evolution of a predatory lifestyle. Nature Genetics 45: 563–566", "publisher": "Nature Genetics", "authors": "Zhan, X., Pan, S., Wang, J. et al.", "year": 2013, "url": "https://doi.org/10.1038/ng.2588" },
+    { "title": "Characterization of chromosome structures of Falconinae (Falconidae, Falconiformes, Aves) by chromosome painting and delineation of chromosome rearrangements during their differentiation. Chromosome Research 16: 171–181", "publisher": "Chromosome Research", "authors": "Nishida, C., Ishijima, J., Kosaka, A. et al.", "year": 2008, "url": "https://doi.org/10.1007/s10577-007-1210-6" },
+    { "title": "Terminal attack trajectories of peregrine falcons are described by the proportional navigation guidance law of missiles. PNAS 114 (51): 13495–13500", "publisher": "Proceedings of the National Academy of Sciences", "authors": "Brighton, C.H., Thomas, A.L.R. & Taylor, G.K.", "year": 2017, "url": "https://doi.org/10.1073/pnas.1714532114" },
+    { "title": "Physics-based simulations of aerial attacks by peregrine falcons reveal that stooping at high speed maximizes catch success against agile prey. PLoS Computational Biology 14: e1006044", "publisher": "PLoS Computational Biology", "authors": "Mills, R., Hildenbrandt, H., Taylor, G.K. & Hemelrijk, C.K.", "year": 2018, "url": "https://doi.org/10.1371/journal.pcbi.1006044" },
+    { "title": "Sexual size dimorphism, prey morphology and catch success in relation to flight mechanics in the peregrine falcon: a simulation study. Journal of Avian Biology 50", "publisher": "Journal of Avian Biology", "authors": "Mills, R., Taylor, G.K. & Hemelrijk, C.K.", "year": 2019, "url": "https://doi.org/10.1111/jav.01979" }
+  ],
+  "anatomy": {
+    "lede": "Seen from below, the peregrine is all purpose: long pointed wings, a compact barred body, a dark 'moustache' and eyes built to lock on to flying birds.",
+    "media": 1,
+    "hotspots": [
+      { "id": "bill", "label": "Bill", "x": 19.5, "y": 43.2, "text": "Peregrines usually kill with the bill, by severing the prey's neck vertebrae.", "ref": 6 },
+      { "id": "eye", "label": "Eye", "x": 25.5, "y": 42, "text": "Peregrines have extraordinarily keen vision, able to spot small objects at great distances.", "ref": 6 },
+      { "id": "moustache", "label": "Cheek stripe", "x": 26.5, "y": 48, "text": "A black stripe runs down each cheek of the otherwise pale face.", "ref": 6 },
+      { "id": "underparts", "label": "Barred underparts", "x": 41.7, "y": 44, "text": "Adults are finely barred below. Females are typically 15–20% larger than males.", "ref": 6 },
+      { "id": "feet", "label": "Feet", "x": 67, "y": 52.6, "text": "In a stoop the falcon closes its feet and uses them to knock prey out of the sky. Even as nestlings, peregrines have very large feet for their size.", "ref": 5 },
+      { "id": "wingtip", "label": "Pointed wing", "x": 61.5, "y": 86.5, "text": "To stoop, the falcon folds these long wings and falls into a nose dive.", "ref": 5 }
+    ],
+    "stats": [
+      { "value": "78–122 cm", "label": "Wingspan", "ref": 5 },
+      { "value": "40–50%", "label": "How much heavier females are than males", "ref": 6 },
+      { "value": "39 m/s", "label": "Fastest stoop measured by radar", "ref": 1 }
+    ]
+  },
+  "senses": {
+    "lede": "A peregrine's world is mostly visual: it must find a bird far away, then keep it in sight at very high speed.",
+    "senses": [
+      { "kind": "sight", "name": "Distant sight", "text": "Peregrines have extraordinarily keen vision and hunt by spotting prey from high vantage points.", "certainty": "confirmed", "ref": 6 },
+      { "kind": "sight", "name": "Sideways sharp spot", "text": "A peregrine's sharpest vision lies about 40° to one side of its head. Holding its head straight while diving, it curves its flight path to keep prey in that sharp spot.", "certainty": "confirmed", "ref": 4 }
+    ]
+  },
+  "body": {
+    "lede": "Speed is only part of the story. Peregrine bodies are also shaped by how they kill and how the two sexes share the work.",
+    "systems": [
+      { "title": "Knock, then bite", "text": "The falcon strikes prey with closed feet, often in mid-air, then kills it with a bite to the neck. Prey may be eaten in flight or stored for later.", "certainty": "confirmed", "ref": 6 },
+      { "title": "Bigger females", "text": "Females are 15–20% larger and 40–50% heavier than males. Simulations suggest males are better at catching very agile prey in level flight, while females can carry up to 50% heavier loads.", "certainty": "hypothesis", "ref": 11 },
+      { "title": "Bird-eating specialist", "text": "Birds make up 77–99% of prey items, from starlings and pigeons to shorebirds and ducks; a few peregrines specialise in bats.", "certainty": "confirmed", "ref": 6 }
+    ]
+  },
+  "genome": {
+    "lede": "The peregrine was one of the first birds of prey to have its genome sequenced, alongside the saker falcon, in 2013.",
+    "diploid": 50,
+    "genomeGb": 1.2,
+    "refs": { "diploid": 8, "genome": 7 },
+    "sequenced": 2013,
+    "findings": [
+      { "title": "Fast-evolving genomes", "text": "Comparing about 8,400 genes with those of chicken, turkey and zebra finch showed that falcon genomes have evolved rapidly across the board.", "certainty": "confirmed", "ref": 7 },
+      { "title": "Beaks and smell", "text": "Falcons showed distinctive changes in genes linked to beak development and to smell, which the authors relate to their predatory lifestyle.", "certainty": "hypothesis", "ref": 7 },
+      { "title": "Fused chromosomes", "text": "Most birds have about 80 chromosomes, but the peregrine has 50. Chromosome painting shows that many small chromosomes have fused with larger ones in falcons.", "certainty": "confirmed", "ref": 8 }
+    ]
+  },
+  "mind": {
+    "lede": "Cameras and GPS loggers carried by falcons have shown that their attacks follow surprisingly precise rules.",
+    "studies": [
+      { "year": "2017", "title": "Steering like a missile", "text": "Footage from falcon-mounted cameras and GPS showed that peregrines close on targets using the same guidance rule as most guided missiles: turning in proportion to how fast the line of sight to the target swings round.", "certainty": "confirmed", "ref": 9 },
+      { "year": "2018", "title": "Why stoop?", "text": "Computer simulations suggest a high, fast dive raises catch success against erratically dodging prey, because speed gives the falcon more force to manoeuvre. The best-performing settings matched what real peregrines do.", "certainty": "hypothesis", "ref": 10 },
+      { "year": "Field", "title": "Sky dances", "text": "Courting pairs perform power dives, tight turns, high soaring and rolls, and gently grip each other's bills at the nest ledge.", "certainty": "confirmed", "ref": 6 }
+    ]
+  },
+  "survival": {
+    "lede": "Even a peregrine has enemies, especially when young, and its recovery from pesticides is one of conservation's great successes.",
+    "tactics": [
+      { "title": "Height is an advantage", "text": "Peregrines usually hunt from a high perch, which gives them more height from which to begin a stoop.", "certainty": "confirmed", "ref": 6 },
+      { "title": "Many ways to hunt", "text": "Besides diving, peregrines chase prey in level flight, sometimes hunt in pairs, and have been seen using ships as perches to hunt seabirds far out at sea.", "certainty": "confirmed", "ref": 5 }
+    ],
+    "predators": ["Great horned owls", "Gyrfalcons", "Golden eagles", "Foxes, cats, bears and wolverines (nestlings)"],
+    "threats": [
+      { "title": "Pesticides still in use", "text": "Organochlorine pesticides such as DDT and dieldrin thin eggshells. They are restricted in North America but not everywhere in Central and South America, where many peregrines spend the winter.", "certainty": "confirmed", "ref": 6 }
+    ]
+  },
+  "life": {
+    "lede": "Peregrines grow up fast: a chick can fly about six weeks after hatching.",
+    "stages": [
+      { "name": "Egg", "duration": "33–35 days", "text": "The female lays 2 to 6 eggs about two days apart. She does most of the incubating.", "ref": 6 },
+      { "name": "Nestling", "duration": "35–42 days", "text": "Chicks are fed by their parents until they are fully feathered and fledge at five to six weeks old.", "ref": 6 },
+      { "name": "Fledgling", "duration": "about 6 weeks", "text": "After fledging, young falcons stay near their parents while learning to hunt, becoming independent after about six weeks.", "ref": 6 },
+      { "name": "Adult", "duration": "from 1–5 years", "text": "Females first breed at 1 to 5 years old; males start later, at 2 to 8 years.", "ref": 6 }
+    ],
+    "lifespan": { "value": "Wild records of 16–20 years; 25 years in captivity", "ref": 6 }
+  }
+}

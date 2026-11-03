@@ -1,0 +1,154 @@
+{
+  "slug": "sperm-whale",
+  "realm": "ocean",
+  "commonName": "Sperm Whale",
+  "scientificName": "Physeter macrocephalus",
+  "authority": "Linnaeus, 1758",
+  "aphiaId": 137119,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Cetartiodactyla",
+    "family": "Physeteridae"
+  },
+  "group": "Toothed whale",
+  "categories": [
+    "giants",
+    "deep-sea",
+    "intelligent"
+  ],
+  "tagline": "A deep-diving hunter with the loudest voice on Earth",
+  "summary": "The largest toothed whale, with a vast, square head that holds an oil-filled organ used to focus sound. It hunts squid and fish in dives that routinely pass 600 m and last around 45 minutes, finding prey by echolocation in total darkness, and lives in close-knit family groups of females and young.",
+  "ability": "long-range biosonar from an enormous sound-making nose",
+  "stats": {
+    "size": "Males up to about 16 m and 40 tonnes; females up to about 12 m and 14 tonnes",
+    "depth": "Foraging dives usually about 600–1,000 m; tracked dives to 1,185 m and possibly 2,000 m",
+    "range": "All deep oceans, from the equator to the edges of the Arctic and Antarctic pack ice; females and young stay in warmer waters",
+    "diet": "Mainly deep-water squid; also sharks, skates and other fishes",
+    "conservation": "IUCN: Vulnerable (2025)"
+  },
+  "depthRange": {
+    "min": 0,
+    "max": 1185
+  },
+  "regions": [
+    "pacific-ocean",
+    "atlantic-ocean",
+    "indian-ocean",
+    "southern-ocean",
+    "arctic-ocean"
+  ],
+  "facts": [
+    {
+      "title": "A head full of oil",
+      "text": "The head makes up about a third of the body. It contains spermaceti, a waxy oil once prized by whalers for lamps and candles, which helps the whale focus sound.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "The loudest animal sound",
+      "text": "Recorded on-axis off Norway, sperm whale clicks reached source levels of up to 236 decibels (re 1 µPa) in a narrow, forward beam: by far the loudest sounds measured from any animal.",
+      "certainty": "confirmed",
+      "ref": 5
+    },
+    {
+      "title": "Hunting in the dark",
+      "text": "Digital tags on 37 whales in the Atlantic, Gulf of Mexico and Ligurian Sea showed average maximum dive depths of 644–985 m depending on region. A typical cycle was a 45-minute dive followed by about 9 minutes at the surface.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Over a kilometre down",
+      "text": "Two males tracked by sonar off Dominica in 1991 regularly dived to 400–600 m, once to 1,185 m and possibly once to 2,000 m.",
+      "certainty": "confirmed",
+      "ref": 4
+    },
+    {
+      "title": "Families of females",
+      "text": "Females and their young live in lasting social units, on average about 12 females with their calves. Young males leave at 4–21 years old to join bachelor groups, and the biggest males travel alone towards the poles.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "One calf every few years",
+      "text": "After a 14–16-month pregnancy a single calf about 4 m long is born. Females have a calf only about once every five to seven years, which is why whaling hit the species so hard.",
+      "certainty": "confirmed",
+      "ref": 1
+    }
+  ],
+  "references": [
+    {
+      "title": "Physeter macrocephalus Linnaeus, 1758",
+      "publisher": "WoRMS",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137119"
+    },
+    {
+      "title": "Sperm Whale",
+      "publisher": "NOAA Fisheries",
+      "url": "https://www.fisheries.noaa.gov/species/sperm-whale"
+    },
+    {
+      "title": "Whitehead, H., Barlow, J., Dawson, S.M., Eguiguren, A., Miller, B. & Shabangu, F. (2025). Physeter macrocephalus. The IUCN Red List of Threatened Species 2025: e.T41755A50382216",
+      "publisher": "IUCN Red List",
+      "url": "https://doi.org/10.2305/IUCN.UK.2025-2.RLTS.T41755A50382216.en",
+      "year": 2025,
+      "authors": "Whitehead, H., Barlow, J., Dawson, S.M., Eguiguren, A., Miller, B. & Shabangu, F."
+    },
+    {
+      "title": "Watwood, S.L. et al. (2006). Deep-diving foraging behaviour of sperm whales (Physeter macrocephalus). Journal of Animal Ecology 75(3): 814–825",
+      "publisher": "Journal of Animal Ecology",
+      "url": "https://doi.org/10.1111/j.1365-2656.2006.01101.x",
+      "year": 2006,
+      "authors": "Watwood, S.L., Miller, P.J.O., Johnson, M., Madsen, P.T. & Tyack, P.L."
+    },
+    {
+      "title": "Watkins, W.A. et al. (1993). Sperm whales tagged with transponders and tracked underwater by sonar. Marine Mammal Science 9(1): 55–67",
+      "publisher": "Marine Mammal Science",
+      "url": "https://doi.org/10.1111/j.1748-7692.1993.tb00426.x",
+      "year": 1993,
+      "authors": "Watkins, W.A., Daher, M.A., Fristrup, K.M., Howald, T.J. & Notarbartolo di Sciara, G."
+    },
+    {
+      "title": "Møhl, B. et al. (2003). The monopulsed nature of sperm whale clicks. Journal of the Acoustical Society of America 114(2): 1143–1154",
+      "publisher": "Journal of the Acoustical Society of America",
+      "url": "https://doi.org/10.1121/1.1586258",
+      "year": 2003,
+      "authors": "Møhl, B., Wahlberg, M., Madsen, P.T., Heerfordt, A. & Lund, A."
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/sperm-whale/hero.webp",
+    "width": 1920,
+    "height": 1080,
+    "alt": "Underwater in sunlit blue water, a large dark grey whale with a huge, blunt, box-shaped head swims beside a smaller calf; sunlight dapples their wrinkled backs.",
+    "caption": "A mother sperm whale and her calf off Mauritius; the calf has remoras attached to its body.",
+    "creator": "Gabriel Barathieu",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mother_and_baby_sperm_whale.jpg",
+    "species": "Physeter macrocephalus",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "40% 55%",
+    "tone": "dark"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/sperm-whale/alt-1.webp",
+      "width": 1920,
+      "height": 1280,
+      "alt": "A broad, triangular grey tail fluke lifted clear of a calm grey sea as a whale begins a dive.",
+      "caption": "A sperm whale raising its flukes as it dives off São Miguel, Azores, 2021.",
+      "creator": "Jules Verne Times Two (julesvernex2.com)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sperm_whale_(Physeter_macrocephalus)_diving,_S%C3%A3o_Miguel_Island,_Azores,_Portugal_(PPL1-Corrected).jpg",
+      "species": "Physeter macrocephalus",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "50% 45%",
+      "tone": "light"
+    }
+  ],
+  "notes": "Taxonomy and AphiaID from the WoRMS REST API (WoRMS order Cetartiodactyla; NOAA lists Cetacea). IUCN: the 2025-2 global reassessment (Whitehead et al. 2025) keeps the species Vulnerable, confirmed via Crossref (DOI) and the IUCN SSC Cetacean Specialist Group news item of 13 Nov 2025; the IUCN site itself blocks scripts. The Mediterranean subpopulation has its own, separate listing. NOAA gives weights in US tons (45 and 15 tons), converted to about 40 and 14 tonnes; 13 ft calf ≈ 4 m. Depth gauge max uses the 1,185 m sonar-tracked dive (Watkins et al. 1993); the 'possibly 2,000 m' dive was not certain in the source. Arctic Ocean included because NOAA gives the range as reaching the edge of the Arctic pack ice (large males only). 'Intelligent' shelf based on documented vocal clans and culture (see deep chapter). Hero is underwater wildlife photography off Mauritius; one licence-compatible gallery image added (Azores fluke-up). Commons also hosts a retouched 'pod' version from the same photographer, not used."
+}

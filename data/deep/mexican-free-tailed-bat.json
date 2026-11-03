@@ -1,0 +1,78 @@
+{
+  "extraReferences": [
+    { "title": "Bats jamming bats: food competition through sonar interference. Science 346: 745–747", "publisher": "Science", "url": "https://doi.org/10.1126/science.1259512", "year": 2014, "authors": "Corcoran A.J. & Conner W.E." },
+    { "title": "Communal nursing in Mexican free-tailed bat maternity colonies. Science 223: 1090–1091", "publisher": "Science", "url": "https://doi.org/10.1126/science.223.4640.1090", "year": 1984, "authors": "McCracken G.F." },
+    { "title": "Versatility and stereotypy of free-tailed bat songs. PLoS ONE 4: e6746", "publisher": "PLoS ONE", "url": "https://doi.org/10.1371/journal.pone.0006746", "year": 2009, "authors": "Bohn K.M., Schmidt-French B., Schwartz C., Smotherman M. & Pollak G.D." },
+    { "title": "Tadarida brasiliensis genome assembly DD_mTadBra1_pri (GCA_030848825.1)", "publisher": "NCBI Datasets, National Center for Biotechnology Information", "url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_030848825.1/", "year": 2023 }
+  ],
+  "anatomy": {
+    "lede": "A bat built for open sky: long narrow wings, a tail that sticks out beyond its membrane, and a body that weighs about as much as three coins.",
+    "media": 2,
+    "hotspots": [
+      { "id": "left-ear", "label": "Broad ear", "x": 41.5, "y": 37, "text": "The ears are large for the bat's size, 8–15 mm long, and broad.", "ref": 4 },
+      { "id": "right-ear", "label": "Ear", "x": 57, "y": 33, "text": "Echolocation is its main sense for finding its way and catching insects in the dark.", "ref": 4 },
+      { "id": "eye", "label": "Eye", "x": 50, "y": 51, "text": "Sight still matters: bats recognise one another by visual, chemical and vocal cues as well as by echolocation.", "ref": 4 },
+      { "id": "snout", "label": "Short snout", "x": 39.5, "y": 54, "text": "A short, pug-like snout is one of the features that identify the species.", "ref": 4 },
+      { "id": "lips", "label": "Wrinkled lips", "x": 44, "y": 58, "text": "The upper lips are deeply wrinkled, typical of free-tailed bats.", "ref": 4 },
+      { "id": "wing", "label": "Folded wing", "x": 59, "y": 63, "text": "Folded here, the long, narrow, pointed wings are made for rapid, direct flight in open air.", "ref": 4 }
+    ],
+    "stats": [
+      { "value": "79–98 mm", "label": "Head-and-body length", "ref": 4 },
+      { "value": "7–12 g", "label": "Adult weight", "ref": 4 },
+      { "value": "44.5 m/s", "label": "Fastest tracked ground speed", "ref": 1 },
+      { "value": "3,300 m", "label": "Highest recorded flight", "ref": 4 }
+    ]
+  },
+  "senses": {
+    "lede": "Free-tailed bats find their prey by sound, and their pups by sound and smell.",
+    "senses": [
+      { "kind": "echolocation", "name": "Echolocation", "text": "Cruising bats give brief calls at a nearly constant frequency, usually between 49 and 70 kHz. When they detect food or an obstacle they switch to sweeping calls from about 75 down to 40 kHz.", "vsHuman": "absent in us", "certainty": "confirmed", "ref": 4 },
+      { "kind": "smell", "name": "Smell", "text": "Pups learn their mother's scent early in life, and mothers use their pups' smell and calls to find them in the crowded crèche.", "certainty": "confirmed", "ref": 4 },
+      { "kind": "hearing", "name": "Hearing", "text": "Beyond echoes, the bats listen to a rich vocal repertoire, including complex songs sung by males.", "certainty": "confirmed", "ref": 8 }
+    ]
+  },
+  "body": {
+    "lede": "A small bat with a high-performance body, fuelled by milk richer than that of any other bat.",
+    "systems": [
+      { "title": "Rich milk", "text": "Mothers produce milk with over 28% fat, the highest recorded for any bat, which lets the pups grow quickly.", "certainty": "confirmed", "ref": 4 },
+      { "title": "Torpor", "text": "Like other bats of temperate regions, it can let its body temperature drop into daily torpor to save energy, and it may hibernate.", "certainty": "confirmed", "ref": 4 },
+      { "title": "Climbing legs", "text": "Its legs are powerful, and it climbs well.", "certainty": "confirmed", "ref": 4 }
+    ]
+  },
+  "genome": {
+    "lede": "A chromosome-level genome assembly of the species was released in 2023, about 2.3 billion letters long.",
+    "genomeGb": 2.28,
+    "refs": { "genome": 9 },
+    "sequenced": 2023,
+    "findings": []
+  },
+  "mind": {
+    "lede": "Life in colonies of millions has produced some unusual behaviour, from sonar sabotage to song.",
+    "studies": [
+      { "year": "2014", "title": "Jamming the competition", "text": "Field recordings showed that bats chasing the same insect emit a special call that interferes with a rival's echolocation. Played back, the jamming call made bats miss their targets.", "certainty": "confirmed", "ref": 6 },
+      { "year": "1984", "title": "Not quite indiscriminate nursing", "text": "Genetic tests on nursing pairs in Texas showed that mothers mostly nurse their own or related pups, not any pup at random. Even so, about 17% of females were feeding pups that could not be theirs.", "certainty": "confirmed", "ref": 7 },
+      { "year": "2009", "title": "Songs with syntax", "text": "Males sing songs built from the same four syllable types and three phrase types, ordered by shared rules, yet each bat varies its song from one rendition to the next.", "certainty": "confirmed", "ref": 8 }
+    ]
+  },
+  "survival": {
+    "lede": "Owls, hawks and snakes all take free-tailed bats, but against a population in the tens of millions their toll is very small.",
+    "tactics": [
+      { "title": "Safety in numbers", "text": "With a total population of around 100 million, the number of bats lost to predators is very low.", "certainty": "confirmed", "ref": 4 },
+      { "title": "Fast and high", "text": "Quick, straight flight takes them far from the roost, often 25 km or more, to forage high in the open air.", "certainty": "confirmed", "ref": 4 }
+    ],
+    "predators": ["Red-tailed hawks", "American kestrels", "Great horned owls", "Barn owls", "Mississippi kites", "Virginia opossums", "Striped skunks", "Raccoons", "Coachwhip snakes"],
+    "threats": [
+      { "title": "Roosts and pesticides", "text": "Populations have fallen over the past century, probably through the disturbance and destruction of roosts and indirect poisoning by pesticides in the insects they eat.", "certainty": "hypothesis", "ref": 4 }
+    ]
+  },
+  "life": {
+    "lede": "Mothers leave their pups in vast nurseries, returning to find and feed their own.",
+    "stages": [
+      { "name": "Mating", "duration": "spring", "text": "Males call and scent-mark territories to attract females. Females have a single oestrous cycle each spring.", "ref": 4 },
+      { "name": "Birth", "duration": "after 11–12 weeks", "text": "A single pup is born while its mother hangs upside down; the birth takes about 90 seconds, and the newborn finds a nipple within 10–15 minutes.", "ref": 4 },
+      { "name": "Crèche", "duration": "4–7 weeks", "text": "Pups are left in dense clusters while their mothers feed, and are nursed daily until they reach adult size and independence.", "ref": 4 },
+      { "name": "Adult", "duration": "from 9 months", "text": "Females can breed at nine months, males at about two years. Adults have a 70–80% chance of surviving each year.", "ref": 4 }
+    ],
+    "lifespan": { "value": "over 8 years in the wild; 12 in captivity", "ref": 4 }
+  }
+}

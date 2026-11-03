@@ -17,6 +17,9 @@ import {
   OctoGeneration,
 } from "@/components/octopus/OctopusSpreads";
 import { LureSpread, MantisSpread, BarreleyeSpread, DumboSpread } from "@/components/signature/SignatureSpreads";
+import { CheetahSpread, EchoSpread, ElephantSpread, HoverSpread, StoopSpread } from "@/components/signature/LandSignatures";
+import { RangeSpread } from "@/components/pages/RangeSpread";
+import { DeepAnatomy, DeepBody, DeepGenome, DeepLife, DeepMind, DeepSenses, DeepSurvival } from "@/components/deep/DeepSpreads";
 
 export interface PageProps {
   page: PageSpec;
@@ -34,6 +37,7 @@ const LAYOUTS: Record<string, ComponentType<PageProps>> = {
   facts: FactSpread,
   plate: PlateSpread,
   depth: DepthSpread,
+  range: RangeSpread,
   closing: ClosingSpread,
   sources: SourcesSpread,
   documentary: DocumentarySpread,
@@ -50,6 +54,18 @@ const LAYOUTS: Record<string, ComponentType<PageProps>> = {
   "sig-mantis": MantisSpread,
   "sig-barreleye": BarreleyeSpread,
   "sig-dumbo": DumboSpread,
+  "sig-cheetah": CheetahSpread,
+  "sig-elephant": ElephantSpread,
+  "sig-stoop": StoopSpread,
+  "sig-hover": HoverSpread,
+  "sig-echo": EchoSpread,
+  "deep-anatomy": DeepAnatomy,
+  "deep-senses": DeepSenses,
+  "deep-body": DeepBody,
+  "deep-genome": DeepGenome,
+  "deep-mind": DeepMind,
+  "deep-survival": DeepSurvival,
+  "deep-life": DeepLife,
 };
 
 /**
@@ -60,6 +76,7 @@ export const LAYOUT_PARTS: Record<string, number> = {
   profile: 2,
   facts: 2,
   depth: 2,
+  range: 2,
   closing: 2,
   sources: 2,
   "octo-meet": 2,
@@ -74,6 +91,18 @@ export const LAYOUT_PARTS: Record<string, number> = {
   "sig-mantis": 2,
   "sig-barreleye": 2,
   "sig-dumbo": 2,
+  "sig-cheetah": 2,
+  "sig-elephant": 2,
+  "sig-stoop": 2,
+  "sig-hover": 2,
+  "sig-echo": 2,
+  "deep-anatomy": 2,
+  "deep-senses": 2,
+  "deep-body": 2,
+  "deep-genome": 2,
+  "deep-mind": 2,
+  "deep-survival": 3,
+  "deep-life": 2,
 };
 
 /** Spreads that are mostly picture: the interface steps back while you look. */

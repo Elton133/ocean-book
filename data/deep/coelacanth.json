@@ -1,0 +1,87 @@
+{
+  "extraReferences": [
+    { "title": "African Coelacanth (Tanzanian DPS)", "publisher": "NOAA Fisheries", "url": "https://www.fisheries.noaa.gov/species/african-coelacanth" },
+    { "title": "Color vision of the coelacanth (Latimeria chalumnae) and adaptive evolution of rhodopsin (RH1) and rhodopsin-like (RH2) pigments. Journal of Heredity 91: 215–220", "publisher": "Journal of Heredity", "url": "https://doi.org/10.1093/jhered/91.3.215", "year": 2000, "authors": "Yokoyama S." },
+    { "title": "The rostral organ of Latimeria chalumnae: morphological evidence of an electroreceptive function. Copeia 1982: 467", "publisher": "Copeia", "url": "https://doi.org/10.2307/1444635", "year": 1982, "authors": "Bemis W.E., Hetherington T.E." },
+    { "title": "Bite force in the extant coelacanth Latimeria: the role of the intracranial joint and the basicranial muscle. Current Biology 25: 1228–1233", "publisher": "Current Biology", "url": "https://doi.org/10.1016/j.cub.2015.02.076", "year": 2015, "authors": "Dutel H., Herbin M., Clément G., Herrel A." },
+    { "title": "Allometric growth in the extant coelacanth lung during ontogenetic development. Nature Communications 6: 8222", "publisher": "Nature Communications", "url": "https://doi.org/10.1038/ncomms9222", "year": 2015, "authors": "Cupello C., Brito P.M., Herbin M. et al." }
+  ],
+  "anatomy": {
+    "lede": "The coelacanth carries features that vanished from almost every other living animal long ago: fleshy limb-like fins, a hinged skull and a lung that no longer breathes.",
+    "media": 0,
+    "hotspots": [
+      { "id": "snout", "label": "Snout", "x": 10, "y": 53, "text": "Inside the snout lies the rostral organ, whose structure suggests it detects weak electric fields.", "ref": 7 },
+      { "id": "eye", "label": "Eye", "x": 15, "y": 51, "text": "The large eye is tuned to the narrow band of blue light, around 480 nm, that reaches the coelacanth's depths.", "ref": 6 },
+      { "id": "pectoral", "label": "Lobed pectoral fin", "x": 42, "y": 59, "text": "The paired fins grow from fleshy, muscular lobes and move in an alternating pattern, like the legs of a walking four-limbed animal.", "ref": 5 },
+      { "id": "pelvic", "label": "Pelvic fin", "x": 55, "y": 77, "text": "The pelvic fins are lobed too, and join in the same alternating, limb-like movements as the pectoral fins.", "ref": 1 },
+      { "id": "dorsal-2", "label": "Second dorsal fin", "x": 65, "y": 28, "text": "The coelacanth usually swims slowly by sculling with its second dorsal fin and its anal fin.", "ref": 1 },
+      { "id": "scales", "label": "Armoured scales", "x": 57, "y": 51, "text": "Tiny, nearly invisible yearly growth rings on the scales revealed that coelacanths live for around a century.", "ref": 4 },
+      { "id": "tail", "label": "Tail", "x": 91, "y": 52, "text": "Although it usually moves slowly, a sudden flip of the tail fin lets the fish make a quick lunge.", "ref": 1 }
+    ],
+    "stats": [
+      { "value": "up to 2 m", "label": "Length (females)", "ref": 1 },
+      { "value": "95 kg", "label": "Maximum weight", "ref": 1 },
+      { "value": "about 1%", "label": "Share of the braincase filled by the brain", "ref": 1 },
+      { "value": "48", "label": "Chromosomes", "ref": 2 }
+    ]
+  },
+  "senses": {
+    "lede": "Coelacanths hunt at night in near-darkness. Their senses are tuned to a deep, dim, blue world.",
+    "senses": [
+      { "kind": "sight", "name": "Blue-tuned vision", "text": "The coelacanth appears to see with just two visual pigments, a rod pigment and a cone pigment, most sensitive at 478 nm and 485 nm. Both are shifted to match the blue light near 200 m depth.", "certainty": "confirmed", "ref": 6 },
+      { "kind": "electroreception", "name": "Rostral organ", "text": "The structure of the rostral organ in the snout points to an electroreceptive role, and the fish may use it to scan the seabed for hidden prey.", "vsHuman": "absent in us", "certainty": "hypothesis", "ref": 7 },
+      { "kind": "electroreception", "name": "The headstand", "text": "Coelacanths have been seen standing on their heads for two or three minutes. This may be a way of scanning the bottom with the rostral organ, or simply a reaction to submersible lights.", "certainty": "hypothesis", "ref": 1 }
+    ]
+  },
+  "body": {
+    "lede": "Under its armoured skin the coelacanth is a museum of early vertebrate design, adapted to a cold, deep, slow life.",
+    "systems": [
+      { "title": "A hinged skull", "text": "It is the only living vertebrate whose braincase is split in two by an intracranial joint. A unique muscle flexes the front of the skull at this joint and boosts its bite force.", "certainty": "confirmed", "ref": 8 },
+      { "title": "A lung that stopped growing", "text": "The earliest known embryo has a well-developed lung, but its growth stalls and in adults it is vestigial. A fatty organ develops alongside it and controls buoyancy instead.", "certainty": "confirmed", "ref": 9 },
+      { "title": "Slow metabolism", "text": "Coelacanths extract oxygen poorly and have a slow metabolism, which fits their slow growth and very long lives.", "certainty": "confirmed", "ref": 4 }
+    ]
+  },
+  "genome": {
+    "lede": "Sequencing the coelacanth in 2013 settled an old question about which fish are our closest cousins, and showed a genome that has changed unusually little.",
+    "diploid": 48,
+    "genomeGb": 2.86,
+    "refs": { "diploid": 2, "genome": 2 },
+    "sequenced": 2013,
+    "findings": [
+      { "title": "Slowly evolving genes", "text": "Its protein-coding genes have changed at roughly half the rate of tetrapod genes since the two lineages split, which may help explain why it looks so like its fossil relatives.", "certainty": "confirmed", "ref": 2 },
+      { "title": "A switch for building limbs", "text": "A stretch of DNA near the HoxD genes, shared with tetrapods but not ray-finned fish, drove limb-specific activity when tested in mice, suggesting a fin enhancer was later reused for building hands and feet.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Missing antibody", "text": "Despite extensive searching, no genes for IgM, an antibody found in almost all other jawed vertebrates, were found; it has two IgW genes instead.", "certainty": "confirmed", "ref": 2 }
+    ]
+  },
+  "mind": {
+    "lede": "Coelacanths are hard to watch: most of what is known about their behaviour comes from submersible and camera observations at depth.",
+    "studies": [
+      { "year": "Field", "title": "Drift hunting", "text": "Coelacanths are slow, night-time drift hunters, riding currents close to the seabed and taking cephalopods, eels, cuttlefish and deep-water fishes.", "certainty": "confirmed", "ref": 5 },
+      { "year": "Field", "title": "Known by their spots", "text": "The pattern of white blotches on each fish is unique, so researchers can recognise individuals from photographs and video.", "certainty": "confirmed", "ref": 5 },
+      { "year": "Field", "title": "Shared caves", "text": "Up to 13 or 14 coelacanths have been found resting together in one cave by day, although each forages alone at night.", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "survival": {
+    "lede": "Coelacanths have few natural enemies but almost no capacity to recover from losses.",
+    "tactics": [
+      { "title": "Cave shelter", "text": "Daytime caves and ledges on steep rocky slopes give them shelter from predators.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Living cheaply", "text": "A slow metabolism lets them live on little food in deep, cool water of about 13–25 °C.", "certainty": "hypothesis", "ref": 1 }
+    ],
+    "predators": ["Large sharks"],
+    "threats": [
+      { "title": "Shark gillnets", "text": "Off Tanzania, coelacanths are caught as bycatch in deep-set shark gillnets, which NOAA calls historically the most significant threat. The fishery has expanded over the last decade.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Coastal development", "text": "Deep-water port building brings pollution, sediment, underwater blasting and dredging into coelacanth habitat.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Slow life, high risk", "text": "With maturity at 40 to 69 years and a five-year pregnancy, coelacanths may be more threatened than once thought.", "certainty": "hypothesis", "ref": 4 }
+    ]
+  },
+  "life": {
+    "lede": "The coelacanth has one of the slowest life histories of any fish: decades to grow up, years to give birth.",
+    "stages": [
+      { "name": "Egg", "text": "Eggs are huge, about 9 cm across and over 325 g, and are fertilised and kept inside the mother.", "ref": 1 },
+      { "name": "Embryo", "duration": "about 5 years", "text": "The young develop inside the mother for around five years, according to scale-based estimates, possibly the longest pregnancy of any animal with a backbone.", "ref": 4 },
+      { "name": "Newborn", "text": "Pups are born live at an estimated 35–38 cm long. One 179 cm female caught off Mozambique in 1991 carried 26 near-term pups.", "ref": 1 },
+      { "name": "Adult", "duration": "from about 40–69 years", "text": "Scale growth rings suggest sexual maturity comes very late, somewhere between 40 and 69 years of age.", "ref": 4 }
+    ],
+    "lifespan": { "value": "probably around 100 years", "ref": 4 }
+  }
+}

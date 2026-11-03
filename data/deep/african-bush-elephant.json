@@ -1,0 +1,99 @@
+{
+  "extraReferences": [
+    { "title": "Extreme expansion of the olfactory receptor gene repertoire in African elephants and evolutionary dynamics of orthologous gene groups in 13 placental mammals. Genome Research 24: 1485–1496", "publisher": "Genome Research", "authors": "Niimura, Y., Matsui, A. & Touhara, K.", "year": 2014, "url": "https://doi.org/10.1101/gr.169532.113" },
+    { "title": "Elephants and human color-blind deuteranopes have identical sets of visual pigments. Genetics 170: 335–344", "publisher": "Genetics", "authors": "Yokoyama, S. et al.", "year": 2005, "url": "https://doi.org/10.1534/genetics.104.039511" },
+    { "title": "Locally-curved geometry generates bending cracks in the African elephant skin. Nature Communications 9: 3865", "publisher": "Nature Communications", "authors": "Martins, A.F. et al.", "year": 2018, "url": "https://doi.org/10.1038/s41467-018-06257-3" },
+    { "title": "Chromosome painting among Proboscidea, Hyracoidea and Sirenia: support for Paenungulata (Afrotheria, Mammalia) but not Tethytheria. Proceedings of the Royal Society B 274: 1333–1340", "publisher": "Proceedings of the Royal Society B", "authors": "Pardini, A.T. et al.", "year": 2007, "url": "https://doi.org/10.1098/rspb.2007.0088" },
+    { "title": "Loxodonta africana genome assembly mLoxAfr1.hap2 (GCF_030014295.1), Vertebrate Genomes Project", "publisher": "NCBI Datasets", "year": 2023, "url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_030014295.1/" },
+    { "title": "Potential mechanisms for cancer resistance in elephants and comparative cellular response to DNA damage in humans. JAMA 314: 1850–1860", "publisher": "JAMA", "authors": "Abegglen, L.M. et al.", "year": 2015, "url": "https://doi.org/10.1001/jama.2015.13134" },
+    { "title": "A zombie LIF gene in elephants is upregulated by TP53 to induce apoptosis in response to DNA damage. Cell Reports 24: 1765–1776", "publisher": "Cell Reports", "authors": "Vazquez, J.M., Sulak, M., Chigurupati, S. & Lynch, V.J.", "year": 2018, "url": "https://doi.org/10.1016/j.celrep.2018.07.042" },
+    { "title": "A comprehensive genomic history of extinct and living elephants. PNAS 115: E2566–E2574", "publisher": "Proceedings of the National Academy of Sciences", "authors": "Palkopoulou, E. et al.", "year": 2018, "url": "https://doi.org/10.1073/pnas.1720554115" },
+    { "title": "Matriarchs as repositories of social knowledge in African elephants. Science 292: 491–494", "publisher": "Science", "authors": "McComb, K., Moss, C., Durant, S.M., Baker, L. & Sayialel, S.", "year": 2001, "url": "https://doi.org/10.1126/science.1057895" },
+    { "title": "Elephants can determine ethnicity, gender, and age from acoustic cues in human voices. PNAS 111: 5433–5438", "publisher": "Proceedings of the National Academy of Sciences", "authors": "McComb, K. et al.", "year": 2014, "url": "https://doi.org/10.1073/pnas.1321543111" },
+    { "title": "African elephants can use human pointing cues to find hidden food. Current Biology 23: 2033–2037", "publisher": "Current Biology", "authors": "Smet, A.F. & Byrne, R.W.", "year": 2013, "url": "https://doi.org/10.1016/j.cub.2013.08.037" },
+    { "title": "African elephants address one another with individually specific name-like calls. Nature Ecology & Evolution 8: 1353–1364", "publisher": "Nature Ecology & Evolution", "authors": "Pardo, M.A. et al.", "year": 2024, "url": "https://doi.org/10.1038/s41559-024-02420-w" }
+  ],
+  "anatomy": {
+    "lede": "The largest animal on land is built around a few extraordinary tools: a trunk that is both nose and hand, ears that work as radiators, and teeth that are replaced from the back of the jaw like a conveyor belt.",
+    "media": 0,
+    "hotspots": [
+      { "id": "ear", "label": "Ear", "x": 60, "y": 30, "text": "The huge triangular ears help the elephant keep cool in the hottest months.", "ref": 5 },
+      { "id": "eye", "label": "Eye", "x": 49, "y": 33, "text": "Long lashes guard the small eyes from dust and debris. Elephants see in two colour channels, much like a red–green colour-blind person.", "ref": 7 },
+      { "id": "tusk", "label": "Tusk", "x": 47, "y": 49, "text": "Tusks are enlarged incisor teeth made of ivory. Calves are born without them; the tusk-forming incisors replace small milk teeth at about a year old.", "ref": 5 },
+      { "id": "trunk", "label": "Trunk", "x": 43, "y": 58, "text": "The muscular trunk is used for breathing, smelling and grabbing objects, and as a temporary container to suck up water and squirt it into the mouth.", "ref": 5 },
+      { "id": "skin", "label": "Cracked skin", "x": 52, "y": 70, "text": "A network of tiny cracks covers the skin. These channels hold water and mud, helping the elephant stay cool and protecting it from parasites and sun.", "ref": 8 },
+      { "id": "foot", "label": "Foot", "x": 51, "y": 91, "text": "Some of a rumble's energy travels through the ground. Elephants detect these seismic calls and can tell those of familiar and unfamiliar herds apart.", "ref": 4 },
+      { "id": "calf", "label": "Calf", "x": 76, "y": 68, "text": "A newborn weighs about 100 kg. It stays close at its mother's side for its first four years or so.", "ref": 5 }
+    ],
+    "stats": [
+      { "value": "6,100 kg", "label": "Heaviest males", "ref": 5 },
+      { "value": "3.5 m", "label": "Longest tusks", "ref": 5 },
+      { "value": "30 mm", "label": "Skin thickness", "ref": 5 },
+      { "value": "24 km/h", "label": "Running speed", "ref": 5 }
+    ]
+  },
+  "senses": {
+    "lede": "An elephant lives in a world of smell and sound — much of it below the range of human hearing — and even feels distant calls through the ground.",
+    "senses": [
+      { "kind": "smell", "name": "Smell", "text": "African elephants carry about 2,000 working smell-receptor genes, packed into enlarged gene clusters — an extreme expansion compared with the other mammals studied.", "vsHuman": "keener", "certainty": "confirmed", "ref": 6 },
+      { "kind": "hearing", "name": "Hearing", "text": "Much of an adult's rumble lies below about 20 Hz, under the lower limit of human hearing, yet elephants respond to such calls played from kilometres away.", "vsHuman": "keener", "certainty": "confirmed", "ref": 1 },
+      { "kind": "vibration", "name": "Seismic sense", "text": "Part of a rumble's energy travels through the ground. In playback trials, wild elephants reacted to seismic alarm calls of familiar herds but ignored those of strangers.", "vsHuman": "keener", "certainty": "confirmed", "ref": 4 },
+      { "kind": "sight", "name": "Sight", "text": "Elephants have two colour pigments in daylight, sensitive to blue and yellow-green light, giving them dichromatic vision like a red–green colour-blind person.", "vsHuman": "weaker", "certainty": "confirmed", "ref": 7 },
+      { "kind": "touch", "name": "Touch", "text": "Touch matters most between mother and calf and between mating pairs; courting elephants stroke each other with their trunks.", "certainty": "confirmed", "ref": 5 }
+    ]
+  },
+  "body": {
+    "lede": "Keeping a six-tonne body fed, cool and working for 60 years or more takes some unusual engineering.",
+    "systems": [
+      { "title": "Six sets of molars", "text": "Elephants grow six molars on each side of each jaw in turn. Each new tooth moves forward as the one in front wears away; when the sixth is worn down there is no replacement, and the elephant can no longer chew its food.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Skin that cracks on purpose", "text": "The outer layer of elephant skin is thick, brittle and slow to shed. As it thickens on the skin's tiny bumps it fractures, creating micrometre-wide channels that hold water and mud.", "certainty": "confirmed", "ref": 8 },
+      { "title": "Ears as radiators", "text": "The large ears help keep the body cool. Elephants also use their trunks to coat themselves with mud or water, which helps them stay hydrated.", "certainty": "confirmed", "ref": 5 },
+      { "title": "A trunk for drinking", "text": "An elephant needs around 50 gallons (about 190 litres) of water every day. It sucks water into its trunk and squirts it into its mouth rather than drinking directly.", "certainty": "confirmed", "ref": 5 }
+    ]
+  },
+  "genome": {
+    "lede": "A first draft of the African elephant genome was released in 2009, and a chromosome-level assembly followed in 2023. It has helped explain why such a large, long-lived animal rarely gets cancer.",
+    "diploid": 56,
+    "genomeGb": 3.5,
+    "refs": { "diploid": 9, "genome": 10 },
+    "sequenced": 2009,
+    "findings": [
+      { "title": "Twenty copies of a cancer guard", "text": "Humans have one copy of the tumour-suppressor gene TP53; African elephants have at least 20, most of them extra copies called retrogenes. Elephant cells exposed to DNA damage self-destruct more readily than human cells, and elephants' estimated cancer mortality is about 5%, against 11–25% in people.", "certainty": "confirmed", "ref": 11 },
+      { "title": "A zombie gene comes back to life", "text": "Elephants revived a dead copy of a gene called LIF6. Switched on by TP53 when DNA is damaged, it helps kill the damaged cell — a change that appeared as elephants' ancestors grew large.", "certainty": "hypothesis", "ref": 12 },
+      { "title": "Two species, long apart", "text": "Genomes from living and extinct elephants show the ancestors of savanna and forest elephants were almost completely isolated from each other for about 500,000 years, supporting their treatment as separate species.", "certainty": "confirmed", "ref": 13 }
+    ]
+  },
+  "mind": {
+    "lede": "Long lives, long memories and close family ties make elephants some of the most socially skilled animals studied.",
+    "studies": [
+      { "year": "2001", "title": "The wisdom of the matriarch", "text": "Playback experiments in Amboseli, Kenya, showed that families led by older matriarchs were better at telling familiar callers from strangers, and these groups may raise more calves.", "certainty": "confirmed", "ref": 14 },
+      { "year": "2013", "title": "Reading a pointing finger", "text": "Eleven captive African elephants, without prior training, found hidden food by following a person's pointing gesture, even when the gesture was subtle.", "certainty": "confirmed", "ref": 16 },
+      { "year": "2014", "title": "Telling people apart by voice", "text": "In Amboseli, family groups bunched defensively and sniffed the air more after hearing recorded voices of Maasai men, who pose a greater threat to them, than voices of another ethnic group — and reacted less to Maasai women and boys.", "certainty": "confirmed", "ref": 15 },
+      { "year": "2024", "title": "Calling each other by name", "text": "Machine-learning analysis of wild elephant rumbles found calls specific to the elephant being addressed, and elephants reacted more strongly to playbacks of calls originally aimed at them.", "certainty": "hypothesis", "ref": 17 }
+    ]
+  },
+  "survival": {
+    "lede": "A healthy adult has little to fear from other animals. The danger is to calves that stray — and, above all, from people.",
+    "tactics": [
+      { "title": "Safety in the herd", "text": "Females live in family herds of 6 to 70 animals that guard the young. Predators mostly take calves that lag behind the group.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Sheer size", "text": "Males can weigh over six tonnes. Few predators will risk attacking a full-grown elephant.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Long-distance warning", "text": "Elephants call to warn or gather members of their herd, and their low-frequency calls can be heard by other elephants at least 4 km away.", "certainty": "confirmed", "ref": 2 }
+    ],
+    "predators": ["Lions", "Spotted hyenas", "African wild dogs", "Nile crocodiles"],
+    "threats": [
+      { "title": "Poaching for ivory", "text": "Despite an international ban on the ivory trade since 1989, illegal ivory trading doubled between 2007 and 2014.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Losing the oldest", "text": "Hunters often target the largest elephants. Because older females hold the herd's social knowledge, losing them may harm the whole family.", "certainty": "hypothesis", "ref": 14 },
+      { "title": "Shrinking, unprotected range", "text": "About 70% of the elephant's remaining range lies outside protected land, and human development continues to take habitat.", "certainty": "confirmed", "ref": 5 }
+    ]
+  },
+  "life": {
+    "lede": "Elephants grow up slowly, with the longest pregnancy of any land mammal and years of learning within the family.",
+    "stages": [
+      { "name": "Pregnancy", "duration": "about 22 months", "text": "A single calf, rarely twins, develops for almost two years. Females breed only once every 3 to 9 years.", "ref": 5 },
+      { "name": "Newborn", "duration": "birth to 4 years", "text": "The calf weighs 90–120 kg at birth. It may suckle for up to three years and keeps close to its mother, who helps it past obstacles.", "ref": 5 },
+      { "name": "Youngster", "duration": "to about 8 years", "text": "The whole herd teaches the young elephant to use its trunk, find food and move safely, until it becomes independent at around eight.", "ref": 5 },
+      { "name": "Adult", "duration": "from 11 (females) or 20 (males)", "text": "Females mature at about 11 and stay with their family; males mature at about 20 and live alone or with a few other bulls.", "ref": 5 }
+    ],
+    "lifespan": { "value": "60–70 years on average in the wild", "ref": 5 }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "extraReferences": [
+    { "title": "Vampire squid: detritivores in the oxygen minimum zone. Proceedings of the Royal Society B 279: 4559–4567", "publisher": "Proceedings of the Royal Society B", "authors": "Hoving, H.J.T. & Robison, B.H.", "year": 2012, "url": "https://doi.org/10.1098/rspb.2012.1357" },
+    { "title": "Light production by the arm tips of the deep-sea cephalopod Vampyroteuthis infernalis. Biological Bulletin 205: 102–109", "publisher": "The Biological Bulletin", "authors": "Robison, B.H., Reisenbichler, K.R., Hunt, J.C. & Haddock, S.H.D.", "year": 2003, "url": "https://doi.org/10.2307/1543231" },
+    { "title": "Decline in pelagic cephalopod metabolism with habitat depth reflects differences in locomotory efficiency. Biological Bulletin 192: 262–278", "publisher": "The Biological Bulletin", "authors": "Seibel, B.A., Thuesen, E.V., Childress, J.J. & Gorodezky, L.A.", "year": 1997, "url": "https://doi.org/10.2307/1542720" },
+    { "title": "Vampire squid reproductive strategy is unique among coleoid cephalopods. Current Biology 25: R322–R323", "publisher": "Current Biology", "authors": "Hoving, H.J.T., Laptikhovsky, V.V. & Robison, B.H.", "year": 2015, "url": "https://doi.org/10.1016/j.cub.2015.02.018" },
+    { "title": "Vampire squid live long and reproduce often", "publisher": "MBARI", "year": 2015, "url": "https://www.mbari.org/news/vampire-squid-live-long-and-reproduce-often/" },
+    { "title": "The first global deep-sea stable isotope assessment reveals the unique trophic ecology of Vampire Squid Vampyroteuthis infernalis (Cephalopoda). Scientific Reports 9: 19099", "publisher": "Scientific Reports", "authors": "Golikov, A.V., Ceia, F.R., Sabirov, R.M. et al.", "year": 2019, "url": "https://doi.org/10.1038/s41598-019-55719-1" },
+    { "title": "Giant genome of the vampire squid reveals the derived state of modern octopod karyotypes. iScience 28: 113832", "publisher": "iScience", "authors": "Yoshida, M., Tóth, E., Kon-Nanjo, K. et al.", "year": 2025, "url": "https://doi.org/10.1016/j.isci.2025.113832" }
+  ],
+  "anatomy": {
+    "lede": "Carl Chun's 1903 plate shows the vampire squid as it looks when calm: a soft, dark body, one pair of fins, enormous eyes and eight arms joined by a deep web like an umbrella.",
+    "media": 0,
+    "hotspots": [
+      { "id": "fins", "label": "Fins", "x": 15, "y": 48, "text": "Adults have a single pair of fins on the mantle. Gentle fin strokes are often the only movement seen as the animal hangs almost still in the water.", "ref": 3 },
+      { "id": "mantle", "label": "Mantle", "x": 30, "y": 62, "text": "The body is soft and gelatinous, only slightly denser than seawater, so the animal stays afloat with very little effort.", "ref": 2 },
+      { "id": "eye", "label": "Eye", "x": 48, "y": 46, "text": "About 2.5 cm across on a body up to 30 cm long, these are the largest eyes of any living animal in proportion to its size. They are clear, and only look blue when lit by a submersible's lamps.", "ref": 2 },
+      { "id": "web", "label": "Web", "x": 62, "y": 28, "text": "A wide web of skin links the eight arms. When startled, the animal turns it inside out over its body like a cloak.", "ref": 1 },
+      { "id": "arm-tips", "label": "Arm tips", "x": 85, "y": 34, "text": "A small light organ at the tip of each of the eight arms gives off blue light, usually when the animal is touched.", "ref": 4 },
+      { "id": "cirri", "label": "Cirri", "x": 80, "y": 70, "text": "Rows of soft, finger-like cirri line the inside of the arms. They help move mucus-bound food along to the mouth.", "ref": 1 }
+    ],
+    "stats": [
+      { "value": "30 cm", "label": "Maximum total length", "ref": 1 },
+      { "value": "2.5 cm", "label": "Eye diameter", "ref": 2 },
+      { "value": "8×", "label": "Filament reach, in body lengths", "ref": 3 },
+      { "value": "600–900 m", "label": "Usual depth", "ref": 1 }
+    ]
+  },
+  "senses": {
+    "lede": "In water where almost no sunlight reaches, the vampire squid relies on huge eyes and on two long filaments that feel the water around it.",
+    "senses": [
+      { "kind": "sight", "name": "Sight", "text": "Its eyes are the largest of any animal relative to body size. Its keen sight probably lets it pick out the largest flakes of marine snow drifting past.", "certainty": "hypothesis", "ref": 2 },
+      { "kind": "touch", "name": "Sensory filaments", "text": "The two retractile filaments carry large, apparently sensory cells linked to a thick nerve that runs to the brain. They are thought to detect food and perhaps approaching predators.", "certainty": "hypothesis", "ref": 3 }
+    ]
+  },
+  "body": {
+    "lede": "The vampire squid lives where oxygen is scarce and food arrives slowly from above. Its body is built to spend as little energy as possible.",
+    "systems": [
+      { "title": "The slowest cephalopod metabolism", "text": "Measured against 33 other open-ocean cephalopods, it had the lowest metabolic rate. One individual of about 1 kg used oxygen more slowly, for its weight, than any cephalopod ever measured.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Blood that grabs oxygen", "text": "Large gills and a copper-based blood pigment, haemocyanin, with the highest affinity for oxygen known in any cephalopod help it take up the little oxygen around it.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Light instead of ink", "text": "It produces no ink. Instead, its arm tips can release a sticky fluid full of tiny glowing particles that forms a luminous cloud, powered by the light-making chemicals coelenterazine and luciferase.", "certainty": "confirmed", "ref": 4 },
+      { "title": "No colour change", "text": "Many cephalopods change colour using muscles around their pigment sacs. The vampire squid lacks these muscles, so it stays a dark reddish brown.", "certainty": "confirmed", "ref": 2 }
+    ]
+  },
+  "genome": {
+    "lede": "A 2025 study sequenced the genome of a vampire squid caught in the western Pacific, identified only as Vampyroteuthis sp. It is the largest cephalopod genome sequenced so far.",
+    "genomeGb": 11.7,
+    "refs": { "genome": 9 },
+    "sequenced": 2025,
+    "findings": [
+      { "title": "A giant genome", "text": "After duplicated stretches were removed, the assembly was 11.7 billion base pairs, close to the 11.5–11.8 billion estimated from DNA reads. At least 62% of it is repetitive DNA.", "certainty": "confirmed", "ref": 9 },
+      { "title": "Squid-like chromosomes", "text": "Although it has eight arms like an octopus, its genome keeps much of the chromosome layout seen in squids and cuttlefish. This suggests that octopuses' fewer, more tangled chromosomes arose later through fusions and swaps.", "certainty": "confirmed", "ref": 9 }
+    ]
+  },
+  "mind": {
+    "lede": "Watched by remotely operated vehicles off California, the vampire squid turned out to behave unlike any other cephalopod.",
+    "studies": [
+      { "year": "2003", "title": "Lights on contact", "text": "Live animals brought gently to a laboratory showed two kinds of light display: glowing arm tips, readily triggered by touch, and a luminous cloud released only under stronger provocation.", "certainty": "confirmed", "ref": 4 },
+      { "year": "2012", "title": "Fishing with a thread", "text": "Video from submersibles showed animals hanging still with one filament stretched out to collect drifting debris, rarely both at once. Laboratory feeding confirmed that the filaments, not the arms, capture the food.", "certainty": "confirmed", "ref": 3 },
+      { "year": "2019", "title": "A diet that changes with age", "text": "Chemical signatures in the beaks of 104 animals from three oceans showed that young vampire squid hunt small zooplankton, while larger ones drift and feed more on sinking organic particles — the reverse of the pattern in most cephalopods.", "certainty": "confirmed", "ref": 8 }
+    ]
+  },
+  "survival": {
+    "lede": "The oxygen-poor water it lives in keeps most hunters away. For the rest, the vampire squid relies on staying hidden and on confusing displays rather than speed.",
+    "tactics": [
+      { "title": "A refuge in low oxygen", "text": "By feeding on marine snow, it can spend most of its life at depths where oxygen is very low but predators are few.", "certainty": "confirmed", "ref": 3 },
+      { "title": "Hidden by colour", "text": "Its dark colouring makes it hard to see in the dim twilight zone, where red light does not reach.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Confusing displays", "text": "Rather than swimming hard to escape, it probably relies on its camouflage and its glowing arm tips and light clouds. Only short bursts of swimming are thought to be needed.", "certainty": "hypothesis", "ref": 3 }
+    ],
+    "predators": ["Sperm whales"]
+  },
+  "life": {
+    "lede": "Most cephalopods breed once and die. Female vampire squid appear to spawn many times, resting in between.",
+    "stages": [
+      { "name": "Egg", "text": "Females release their eggs one at a time into open water rather than guarding a clutch.", "ref": 7 },
+      { "name": "Young juvenile", "text": "Small young have a pair of fins near the front of the body and actively hunt small zooplankton.", "ref": 3 },
+      { "name": "Older juvenile", "text": "For a time, growing juveniles carry two pairs of fins before reaching the adult form with a single pair.", "ref": 3 },
+      { "name": "Adult", "text": "Mature females keep thousands of immature egg cells and ripen batches of about 100 at a time. Between spawnings the ovary returns to a resting state, which has not been seen in other soft-bodied cephalopods.", "ref": 7 }
+    ],
+    "lifespan": { "value": "Possibly up to a decade (estimated, not measured)", "ref": 7 }
+  }
+}

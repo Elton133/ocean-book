@@ -1,0 +1,72 @@
+{
+  "extraReferences": [
+    { "title": "Vision in the snapping shrimp Alpheus heterochaelis. Journal of Experimental Biology 222: jeb209015", "publisher": "Journal of Experimental Biology", "url": "https://doi.org/10.1242/jeb.209015", "year": 2019, "authors": "Kingston A.C.N., Lucia R.L., Havens H.M., Cronin T.W., Speiser D.I." },
+    { "title": "A snapping shrimp has the fastest vision of any aquatic animal. Biology Letters 16: 20200298", "publisher": "Biology Letters", "url": "https://doi.org/10.1098/rsbl.2020.0298", "year": 2020, "authors": "Kingston A.C.N., Chappell D.R., Speiser D.I." },
+    { "title": "Snapping shrimp have helmets that protect their brains by dampening shock waves. Current Biology 32", "publisher": "Current Biology", "url": "https://doi.org/10.1016/j.cub.2022.06.042", "year": 2022, "authors": "Kingston A.C.N., Woodin S.A., Wethey D.S., Speiser D.I." },
+    { "title": "Role of mechanosensory stimuli in intraspecific agonistic encounters of the snapping shrimp (Alpheus heterochaelis). Biological Bulletin 195", "publisher": "The Biological Bulletin", "url": "https://doi.org/10.2307/1542823", "year": 1998, "authors": "Herberholz J., Schmitz B." },
+    { "title": "Signaling via water currents in behavioral interactions of snapping shrimp (Alpheus heterochaelis). Biological Bulletin 201", "publisher": "The Biological Bulletin", "url": "https://doi.org/10.2307/1543520", "year": 2001, "authors": "Herberholz J., Schmitz B." },
+    { "title": "Developing elastic mechanisms: ultrafast motion and cavitation emerge at the millimeter scale in juvenile snapping shrimp. Journal of Experimental Biology 226", "publisher": "Journal of Experimental Biology", "url": "https://doi.org/10.1242/jeb.244645", "year": 2023, "authors": "Harrison J.S., Patek S.N." },
+    { "title": "Tradeoffs explain scaling, sex differences, and seasonal oscillations in the remarkable weapons of snapping shrimp (Alpheus spp.). eLife 12: e84589", "publisher": "eLife", "url": "https://doi.org/10.7554/eLife.84589", "year": 2023, "authors": "Dinh J.P., Patek S.N." }
+  ],
+  "anatomy": {
+    "lede": "A small shrimp built around one oversized weapon, with a helmet over its eyes to survive its own blasts.",
+    "media": 0,
+    "hotspots": [
+      { "id": "snapper", "label": "Snapper claw", "x": 72, "y": 72, "text": "When this claw snaps shut it fires a water jet fast enough to tear open a cavitation bubble. The bubble's collapse makes the bang that stuns or kills prey.", "ref": 1 },
+      { "id": "minor-claw", "label": "Small claw", "x": 74, "y": 50, "text": "The other claw is ordinary-sized. Young shrimps start with two equal claws; one enlarges later, on either side.", "ref": 3 },
+      { "id": "orbital-hood", "label": "Orbital hood", "x": 60, "y": 30, "text": "A clear, helmet-like extension of the shell covers the eyes. It damps the shock waves from snaps, protecting the shrimp's brain.", "ref": 6 },
+      { "id": "antennules", "label": "Antennules", "x": 69, "y": 22, "text": "These short feelers sense both chemicals and water movement. Rivals aim fast currents from their gills straight at them during encounters.", "ref": 8 },
+      { "id": "pleopods", "label": "Swimmerets", "x": 33, "y": 62, "text": "Beating the swimmerets drives strong currents backwards, one of several kinds of current the shrimp makes when meeting others.", "ref": 8 },
+      { "id": "eggs", "label": "Eggs", "x": 30, "y": 42, "text": "This is a female with eggs. In females, a bigger snapper claw comes at a cost: fewer, smaller eggs.", "ref": 10 }
+    ],
+    "stats": [
+      { "value": "At least 5,000 K", "label": "Temperature inside the collapsing bubble", "ref": 2 },
+      { "value": "At least 160 Hz", "label": "Speed of vision (flicker sampling)", "ref": 5 },
+      { "value": "About 5.8 × 10⁵ m/s²", "label": "Acceleration of a juvenile's snap", "ref": 9 }
+    ]
+  },
+  "senses": {
+    "lede": "Long thought to be half-blind under its hood, the bigclaw snapping shrimp turns out to see well and to read the water around it.",
+    "senses": [
+      { "kind": "sight", "name": "Fast, clear sight", "text": "Its compound eyes look out through a hood almost as transparent as seawater, resolve detail to about 8 degrees, and have at least two colour classes of photoreceptor.", "certainty": "confirmed", "ref": 4 },
+      { "kind": "sight", "name": "The fastest eyes in water", "text": "Its eyes sample at least 160 times a second, the fastest yet measured in an aquatic animal, and work from late twilight to direct sunlight.", "certainty": "confirmed", "ref": 5 },
+      { "kind": "touch", "name": "Feeling the jet", "text": "Hairs on the snapper claw sense the water jet of a rival. When researchers coated them with lacquer, shrimps that were hit retreated instead of approaching.", "certainty": "confirmed", "ref": 7 },
+      { "kind": "smell", "name": "Smelling the current", "text": "Slow sideways currents from the gills most probably help the shrimp sample odours, and its antennules pick up both chemical and mechanical cues.", "certainty": "hypothesis", "ref": 8 }
+    ]
+  },
+  "body": {
+    "lede": "The snap is a feat of engineering: a spring, a latch and the physics of a collapsing bubble.",
+    "systems": [
+      { "title": "A spring-loaded claw", "text": "The snapper claw works by a spring-and-latch mechanism. It develops gradually and starts snapping about a month after hatching, when the claw is only millimetres long.", "certainty": "confirmed", "ref": 9 },
+      { "title": "Body armour against blasts", "text": "Shrimps whose orbital hoods were removed slowed down and lost motor control after shock waves; those with intact hoods did not. It is the first known biological armour that damps shock waves.", "certainty": "confirmed", "ref": 6 },
+      { "title": "A costly weapon", "text": "In three snapping shrimp species, a bigger claw came with a smaller abdomen, suggesting the weapon is paid for with the rest of the body.", "certainty": "confirmed", "ref": 10 }
+    ]
+  },
+  "mind": {
+    "lede": "Snapping shrimps settle disputes with ritualised shots, water currents and signals rather than all-out fights.",
+    "studies": [
+      { "year": "1998", "title": "Aimed warning shots", "text": "In staged encounters, a shrimp cocked its claw for about half a second, and over half its snaps were aimed at the rival, usually striking its snapper claw from under a centimetre away. Males held the cock longer and hit more often than females.", "certainty": "confirmed", "ref": 7 },
+      { "year": "2001", "title": "Talking with water", "text": "Shrimps fire fast, focused gill currents at an opponent's antennules. Dominant animals released more of these currents and more water jets than subordinates, so the currents may carry information about status.", "certainty": "hypothesis", "ref": 8 },
+      { "year": "2023", "title": "Big claws win partners", "text": "In males, but not females, a larger snapper claw went with a better chance of being paired and with a relatively larger partner.", "certainty": "confirmed", "ref": 10 }
+    ]
+  },
+  "survival": {
+    "lede": "Small and soft-bodied, the shrimp relies on its bang and on a good hiding place.",
+    "tactics": [
+      { "title": "The bang", "text": "The snap deters predators as well as stunning prey, and is also used in displays.", "certainty": "confirmed", "ref": 3 },
+      { "title": "Hiding by day", "text": "It often hides in a crevice or hole during the day, among reefs, seagrass, salt marshes and mud.", "certainty": "confirmed", "ref": 3 },
+      { "title": "Living in pairs", "text": "Most bigclaw snapping shrimps live as monogamous pairs, sharing a shelter.", "certainty": "confirmed", "ref": 3 }
+    ],
+    "predators": ["Weakfish"]
+  },
+  "life": {
+    "lede": "The bigclaw snapping shrimp races through its larval life and starts snapping while still tiny.",
+    "stages": [
+      { "name": "Mating", "text": "The female is only receptive for a short time just after she moults.", "ref": 3 },
+      { "name": "Egg", "duration": "about 4 weeks", "text": "Eggs hatch about four weeks after being laid.", "ref": 3 },
+      { "name": "Larva", "duration": "about 5 days", "text": "The larvae do not feed but live on their yolk, passing through three larval stages in about five days.", "ref": 3 },
+      { "name": "Juvenile", "text": "Reared from eggs, young shrimps began snapping about a month after hatching, as the spring mechanism in the claw gradually developed.", "ref": 9 },
+      { "name": "Adult", "text": "Adults mostly live as monogamous pairs, hiding in crevices and burrows in shallow water.", "ref": 3 }
+    ]
+  }
+}

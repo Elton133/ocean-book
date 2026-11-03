@@ -1,0 +1,85 @@
+{
+  "extraReferences": [
+    { "title": "Danaus plexippus (monarch)", "publisher": "Animal Diversity Web, University of Michigan", "url": "https://animaldiversity.org/accounts/Danaus_plexippus/" },
+    { "title": "Polarized light helps monarch butterflies navigate. Current Biology 14: 155–158", "publisher": "Current Biology", "url": "https://doi.org/10.1016/j.cub.2003.12.034", "year": 2004, "authors": "Reppert S.M., Zhu H. & White R.H." },
+    { "title": "The monarch butterfly genome yields insights into long-distance migration. Cell 147: 1171–1185", "publisher": "Cell", "url": "https://doi.org/10.1016/j.cell.2011.09.052", "year": 2011, "authors": "Zhan S., Merlin C., Boore J.L. & Reppert S.M." },
+    { "title": "The genetics of monarch butterfly migration and warning colouration. Nature 514: 317–321", "publisher": "Nature", "url": "https://doi.org/10.1038/nature13812", "year": 2014, "authors": "Zhan S., Zhang W., Niitepõld K. et al." },
+    { "title": "Genome editing retraces the evolution of toxin resistance in the monarch butterfly. Nature 574: 409–412", "publisher": "Nature", "url": "https://doi.org/10.1038/s41586-019-1610-8", "year": 2019, "authors": "Karageorgi M., Groen S.C., Sumbul F. et al." },
+    { "title": "Foraging dynamics of bird predators on overwintering monarch butterflies in Mexico. Evolution 39: 852–868", "publisher": "Evolution", "url": "https://doi.org/10.1111/j.1558-5646.1985.tb00427.x", "year": 1985, "authors": "Brower L.P. & Calvert W.H." }
+  ],
+  "anatomy": {
+    "lede": "Less than a gram of butterfly, carrying a sun compass, a magnetic compass and a dose of plant poison across a continent.",
+    "media": 2,
+    "hotspots": [
+      { "id": "antennae", "label": "Antennae", "x": 77, "y": 24, "text": "The antennae house circadian clocks that time the sun compass, and appear to contain light-sensitive magnetic sensors.", "ref": 3 },
+      { "id": "eye", "label": "Compound eye", "x": 69.5, "y": 32, "text": "Photoreceptors in the topmost row of the eye are arranged to detect the polarisation of skylight, one of the cues the sun compass uses.", "ref": 7 },
+      { "id": "thorax", "label": "Thorax", "x": 67, "y": 40, "text": "The black, white-spotted thorax holds the flight muscles. Genes for muscle function show the strongest signs of selection linked to migration.", "ref": 9 },
+      { "id": "forewing", "label": "Orange forewing", "x": 44, "y": 37, "text": "Bright orange is a warning to predators that the butterfly is poisonous. Variation in this colouring is controlled by a single myosin gene.", "ref": 9 },
+      { "id": "veins", "label": "Black veins", "x": 47, "y": 56, "text": "Females have thicker black veins than males. Males can also be recognised by a small swollen pouch on each hindwing.", "ref": 6 },
+      { "id": "border", "label": "Spotted border", "x": 40.5, "y": 76, "text": "Black borders with white spots frame the wings in both sexes.", "ref": 6 }
+    ],
+    "stats": [
+      { "value": "8.6–12.4 cm", "label": "Wingspan", "ref": 6 },
+      { "value": "under 1 g", "label": "Adult weight", "ref": 1 },
+      { "value": "100–300", "label": "Eggs laid by a female", "ref": 1 },
+      { "value": "273 Mb", "label": "Genome size", "ref": 8 }
+    ]
+  },
+  "senses": {
+    "lede": "Getting to a few mountain forests in Mexico from as far away as Canada takes more than one way of finding direction.",
+    "senses": [
+      { "kind": "sight", "name": "Sun and polarised light", "text": "In outdoor flight simulators, turning a polarising filter above migrating monarchs changed their flight direction in a predictable way, showing that the angle of polarised skylight feeds into their sun compass.", "certainty": "confirmed", "ref": 7 },
+      { "kind": "magnetoreception", "name": "Magnetic sense", "text": "An inclination compass, which senses the angle of the Earth's magnetic field rather than its polarity, may guide migrants when the sun is hidden and fine-tune the sun compass on clear days.", "certainty": "hypothesis", "ref": 3 },
+      { "kind": "smell", "name": "Smell", "text": "The monarch genome contains monarch-specific expansions of chemoreceptor genes, which may matter for long-distance migration.", "certainty": "hypothesis", "ref": 8 }
+    ]
+  },
+  "body": {
+    "lede": "A monarch is poisonous because its caterpillar eats poisonous plants, and has evolved a body that can tolerate them.",
+    "systems": [
+      { "title": "Borrowed poison", "text": "Caterpillars take up cardiac glycosides from the milkweeds they eat and store them, which makes monarchs poisonous to vertebrate predators.", "certainty": "confirmed", "ref": 6 },
+      { "title": "A resistant sodium pump", "text": "Cardiac glycosides attack the sodium pump in animal cells. Monarchs carry three amino-acid changes in this pump; when the same changes were edited into fruit flies, the flies became as insensitive to the toxins as monarchs.", "certainty": "confirmed", "ref": 10 },
+      { "title": "Delayed breeding", "text": "The last generation of the year does not become reproductive. These butterflies migrate and overwinter in reproductive diapause, maturing only in February and March as they head north.", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "genome": {
+    "lede": "A draft monarch genome was published in 2011: 273 million letters of DNA containing 16,866 protein-coding genes.",
+    "genomeGb": 0.273,
+    "refs": { "genome": 8 },
+    "sequenced": 2011,
+    "findings": [
+      { "title": "Clock and compass genes", "text": "The genome revealed a complete set of molecular parts for the monarch's circadian clock, a vertebrate-like opsin, and microRNAs that differ between summer and migratory butterflies.", "certainty": "confirmed", "ref": 8 },
+      { "title": "Born to migrate", "text": "Sequencing 101 Danaus genomes from around the world showed that the monarch was ancestrally migratory and spread out of North America to its present worldwide range.", "certainty": "confirmed", "ref": 9 },
+      { "title": "Efficient flight muscles", "text": "Migratory monarchs carry a distinctive form of the collagen IV α-1 gene, used in flight muscle, and fly more efficiently than non-migratory populations.", "certainty": "confirmed", "ref": 9 }
+    ]
+  },
+  "mind": {
+    "lede": "Much of what is known about monarch navigation comes from tethering butterflies in flight simulators and seeing which way they try to fly.",
+    "studies": [
+      { "year": "2004", "title": "Reading the sky", "text": "Butterflies tested in the morning or the afternoon responded in the same way to a rotated polarising filter, suggesting that polarised light helps them stay on course even under varied skies.", "certainty": "hypothesis", "ref": 7 },
+      { "year": "2014", "title": "A compass for cloudy days", "text": "In flight-simulator tests, migrants oriented towards the equator using an inclination magnetic compass, but only in ultraviolet-A or blue light between 380 and 420 nm, a detail earlier studies had overlooked.", "certainty": "confirmed", "ref": 3 },
+      { "year": "Field", "title": "Courtship in two acts", "text": "Courtship has an aerial phase, in which the male chases, nudges and brings down the female, and a ground phase, in which they mate. Monarchs rely less on chemical signals than their relatives.", "certainty": "confirmed", "ref": 6 }
+    ]
+  },
+  "survival": {
+    "lede": "Warning colours and stored poison deter most predators, but a few birds have learned to get around them.",
+    "tactics": [
+      { "title": "Advertised poison", "text": "The orange and black pattern warns predators that the butterfly is distasteful, a defence built on toxins carried over from caterpillar to adult.", "certainty": "confirmed", "ref": 6 },
+      { "title": "Safety in the middle", "text": "In wintering colonies, monarchs on the edges and in thinned patches of forest are at much greater risk from birds, which may explain why they gather in dense clusters.", "certainty": "hypothesis", "ref": 11 }
+    ],
+    "predators": ["Black-backed orioles", "Black-headed grosbeaks"],
+    "threats": [
+      { "title": "Bird predation in winter", "text": "In one 2.25-hectare colony in Mexico, orioles and grosbeaks killed an average of about 15,000 monarchs a day, around 9% of the colony over the winter. They took more males, perhaps because of their fat or because females carry more toxin.", "certainty": "confirmed", "ref": 11 },
+      { "title": "Wintering forests", "text": "The migration itself has been called a threatened phenomenon. In California, introduced eucalyptus trees now hold most wintering sites, standing in for native trees reduced by logging.", "certainty": "confirmed", "ref": 6 }
+    ]
+  },
+  "life": {
+    "lede": "The monarch goes through complete metamorphosis — egg, caterpillar, chrysalis and adult — several times over in a single summer.",
+    "stages": [
+      { "name": "Egg", "duration": "about 4 days", "text": "Females lay their eggs on milkweed plants, the caterpillars' only food.", "ref": 1 },
+      { "name": "Caterpillar", "duration": "egg and caterpillar together about 2 weeks", "text": "The caterpillar grows by shedding its skin several times. How fast it develops depends on temperature.", "ref": 6 },
+      { "name": "Chrysalis", "duration": "9–15 days", "text": "The caterpillar stops growing and forms a case around itself. Inside, its body is rebuilt into a butterfly.", "ref": 6 },
+      { "name": "Adult", "duration": "2–5 weeks; up to 9 months", "text": "Summer adults live a few weeks, mating and laying eggs for the next generation. The late-season generation migrates and can live for as long as nine months.", "ref": 1 }
+    ],
+    "lifespan": { "value": "2–5 weeks in summer; up to 9 months for the migratory generation", "ref": 1 }
+  }
+}

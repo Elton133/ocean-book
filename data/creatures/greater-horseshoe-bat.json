@@ -1,0 +1,170 @@
+{
+  "slug": "greater-horseshoe-bat",
+  "realm": "land",
+  "commonName": "Greater Horseshoe Bat",
+  "scientificName": "Rhinolophus ferrumequinum",
+  "authority": "(Schreber, 1774)",
+  "gbifId": 2432655,
+  "iucnId": 19517,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Chiroptera",
+    "family": "Rhinolophidae"
+  },
+  "group": "Bat",
+  "categories": [
+    "fliers",
+    "nocturnal"
+  ],
+  "tagline": "A bat that hunts with one long, pure note",
+  "summary": "The largest horseshoe bat in Europe hangs wrapped in its wings by day and hunts low over pasture and woodland edges at night. Instead of the short chirps most bats use, it sends out long calls held at almost a single pitch, about 82 kHz, through a fleshy horseshoe-shaped noseleaf, and listens for the flutter of insect wings in the echoes.",
+  "ability": "constant-frequency echolocation",
+  "stats": {
+    "size": "Head and body 57–71 mm; wingspan 35–40 cm; 17–34 g",
+    "habitat": "Pasture, woodland edge and hedgerows; roosts in old buildings and caves, hibernates underground",
+    "range": "North Africa and Europe through the Caucasus, Central Asia and the Himalaya to China, Korea and Japan",
+    "diet": "Large insects: chafers, dung beetles, noctuid moths, craneflies and caddis flies",
+    "conservation": "IUCN: Least Concern (2016 assessment); rare and much reduced in Britain"
+  },
+  "regions": [
+    "europe",
+    "china-mongolia",
+    "himalaya-tibet"
+  ],
+  "biome": "temperate-forest",
+  "flight": "echolocating",
+  "signatureData": {
+    "callKhzMin": 82,
+    "callKhzMax": 84,
+    "refs": {
+      "call": 2
+    }
+  },
+  "facts": [
+    {
+      "title": "A horseshoe on the nose",
+      "text": "Horseshoe bats are recognised by a complex, horseshoe-shaped noseleaf. It is tied to their particular kind of echolocation: the calls are sent out through the nose rather than the mouth.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "One long note",
+      "text": "The greater horseshoe's call is held at an almost constant frequency of about 82 kHz, far above human hearing. Through a bat detector it comes out as a series of continuous warbles.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Correcting for the Doppler shift",
+      "text": "At rest the bat calls for about 50 ms at around 83 kHz. In flight it lowers the pitch by just enough that the echoes, raised by its own movement, come back close to that resting note, the frequency to which its hearing is most sharply tuned.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "A mother's note",
+      "text": "Recordings of 386 wild bats aged 1–28 years in south-west England showed that each bat's resting note rises in youth, falls in old age and dips in midwinter. Young bats' notes closely matched their mothers'.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Perch and pounce",
+      "text": "Greater horseshoes often hunt like flycatchers, watching from a regular perch and flying out to take passing insects. Large prey is carried back to a feeding perch, where discarded wings and wing-cases pile up beneath.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Long lives, steep decline",
+      "text": "Individuals have lived for up to 30 years, and females may not breed until their third year. In Britain the species is now confined to south-west England and south Wales, and its numbers are estimated to have fallen by over 90% in a century.",
+      "certainty": "confirmed",
+      "ref": 1
+    }
+  ],
+  "references": [
+    {
+      "title": "Rhinolophus ferrumequinum — Piraccini, R.",
+      "publisher": "IUCN Red List of Threatened Species",
+      "url": "https://www.iucnredlist.org/species/19517/21973253",
+      "year": 2016
+    },
+    {
+      "title": "Greater horseshoe bat",
+      "publisher": "Bat Conservation Trust",
+      "url": "https://www.bats.org.uk/about-bats/what-are-bats/uk-bats/greater-horseshoe"
+    },
+    {
+      "title": "Echolocation calls of bats are influenced by maternal effects and change over a lifetime. Proc R Soc B 252: 125–128",
+      "publisher": "Proceedings of the Royal Society B",
+      "authors": "Jones, G. & Ransome, R.D.",
+      "year": 1993,
+      "url": "https://doi.org/10.1098/rspb.1993.0055"
+    },
+    {
+      "title": "Variability in echolocation call intensity in a community of horseshoe bats: a role for resource partitioning or communication? PLoS ONE 5: e12842",
+      "publisher": "PLoS ONE",
+      "authors": "Schuchmann, M. & Siemers, B.M.",
+      "year": 2010,
+      "url": "https://doi.org/10.1371/journal.pone.0012842"
+    },
+    {
+      "title": "Rhinolophus ferrumequinum (greater horseshoe bat)",
+      "publisher": "Animal Diversity Web, University of Michigan",
+      "url": "https://animaldiversity.org/accounts/Rhinolophus_ferrumequinum/"
+    },
+    {
+      "title": "Rhinolophus ferrumequinum (Schreber, 1774)",
+      "publisher": "GBIF",
+      "url": "https://www.gbif.org/species/2432655"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/greater-horseshoe-bat/hero.webp",
+    "width": 1920,
+    "height": 1464,
+    "alt": "Close-up of a greater horseshoe bat hanging from pale rock, its brown fur framed by dark folded wings, eyes closed, with the fleshy horseshoe-shaped noseleaf and two pointed ears clearly visible",
+    "caption": "Hanging wrapped in its wings: a greater horseshoe bat at Hrdovická, Slovakia",
+    "creator": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rhinolophus_ferrumequinum_Slovakia.jpg",
+    "species": "Rhinolophus ferrumequinum",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "52% 45%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/greater-horseshoe-bat/alt-1.webp",
+      "width": 1920,
+      "height": 1280,
+      "alt": "Dozens of small brown bats hanging from the timber walls and beams of a roof space, one flying across the lower part of the frame with its wings spread",
+      "caption": "A summer day roost in a timber roof, with one bat on the wing inside the roost",
+      "creator": "Klaus Krahn",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gro%C3%9Fe_Hufeisennase_(Rhinolophus_ferrumequinum)_1.jpg",
+      "species": "Rhinolophus ferrumequinum",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "45% 60%",
+      "tone": "dark"
+    },
+    {
+      "src": "/media/creatures/greater-horseshoe-bat/alt-2.webp",
+      "width": 1920,
+      "height": 1280,
+      "alt": "A single greater horseshoe bat hanging, wings wrapped around it, from the rocky ceiling of a dim cave passage",
+      "caption": "At the far end of its range: a greater horseshoe in Kawachi Wind Cave, Japan",
+      "creator": "Kingfiser",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rhinolophus_ferrumequinum_Kawachi.jpg",
+      "species": "Rhinolophus ferrumequinum",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "62% 40%",
+      "tone": "dark"
+    }
+  ],
+  "notes": "IUCN Least Concern per Piraccini (2016), e.T19517A21973253; iucnredlist.org and gbif.org return 403 to automated requests, so the category and IUCN taxon ID were confirmed through the GBIF API (iucnRedListCategory endpoint: LC, iucnTaxonID 19517) and the assessment DOI 10.2305/IUCN.UK.2016-2.RLTS.T19517A21973253.en, which redirects to the cited page. The doi.org links for Jones & Ransome also return 403 to scripts; the paper's metadata was confirmed via Crossref and the full text was read from the Plazi/Zenodo copy (doi:10.5281/zenodo.13447367). signatureData: callKhzMin/Max 82–84 kHz is the band of resting constant-frequency (CF) values in Jones & Ransome (1993) — text: CF 'at about 83 kHz'; Figure 1 group means of British bats run from about 82.0 to 83.5 kHz with standard deviations reaching about 84 kHz; Figure 3 values for mothers and infants lie between 82 and 84 kHz. This is a British population at rest. Other sources differ: Bat Conservation Trust gives 'about 82 kHz'; Schuchmann & Siemers (2010) give a mean of 80 kHz for flying bats in Bulgaria (emitted CF is lowered in flight to compensate for Doppler shift); ADW quotes 77–81 kHz (Schober & Grimmberger 1997); Wikipedia's 69–83 kHz is for the whole call including the FM sweeps; East Asian populations call much lower. Ref 3 (Schuchmann & Siemers) is kept to document the in-flight value. Size, diet, hunting behaviour, lifespan and UK decline from BCT; ADW gives the same measurements, citing Schober & Grimmberger. Regions: europe first; china-mongolia (China, Korea; Japan lies just off that region) and himalaya-tibet (the IUCN account and Wikipedia note montane Himalayan populations). North African (Maghreb) populations exist but were not mapped to sahara-arabia because they are in the Mediterranean mountains, not the desert. Images: hero (Slovakia, 2024) and alt-2 (Japan, show-cave area, 2019) are wild bats in situ. alt-1 (Klaus Krahn, 2004) is described on Commons only as a day roost with occasional flight inside the roost; the location is not stated. Its file is in the species category and the bats match the species, but the individual flying bat cannot be confirmed separately."
+}

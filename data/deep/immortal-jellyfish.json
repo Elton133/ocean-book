@@ -1,0 +1,64 @@
+{
+  "extraReferences": [
+    { "title": "Reversing the life cycle: medusae transforming into polyps and cell transdifferentiation in Turritopsis nutricula (Cnidaria, Hydrozoa). The Biological Bulletin 190: 302–312", "publisher": "The Biological Bulletin", "url": "https://doi.org/10.2307/1543022", "year": 1996, "authors": "Piraino S., Boero F., Aeschbach B., Schmid V." },
+    { "title": "A silent invasion. Biological Invasions 11: 825–834", "publisher": "Biological Invasions (Springer)", "url": "https://doi.org/10.1007/s10530-008-9296-0", "year": 2009, "authors": "Miglietta M.P., Lessios H.A." },
+    { "title": "Life cycle, morphology and medusa ontogenesis of Turritopsis dohrnii (Cnidaria: Hydrozoa). Italian Journal of Zoology 83: 390–399", "publisher": "Italian Journal of Zoology (Taylor & Francis)", "url": "https://doi.org/10.1080/11250003.2016.1203034", "year": 2016, "authors": "Martell L., Piraino S., Gravili C., Boero F." }
+  ],
+  "anatomy": {
+    "lede": "A medusa smaller than a fingernail, built from a thin jelly bell, a central stomach and a fringe of tentacles.",
+    "media": 0,
+    "hotspots": [
+      { "id": "bell", "label": "Bell", "x": 39, "y": 52, "text": "The bell is made of mesoglea, a jelly-like layer, and is about as tall as it is wide. Its walls are thin, thickening slightly at the top.", "ref": 4 },
+      { "id": "manubrium", "label": "Manubrium (stomach)", "x": 50, "y": 47, "text": "The central tube that carries the mouth holds a large population of interstitial cells, the stem-like cells that help cnidarians regenerate.", "ref": 1 },
+      { "id": "tentacle", "label": "Marginal tentacles", "x": 52, "y": 32, "text": "Tentacles are added around the rim as the medusa grows. Researchers use their number, with the shape of the bell's top, to tell apart four stages of development.", "ref": 7 },
+      { "id": "exumbrella", "label": "Outer bell skin", "x": 59, "y": 58, "text": "Cutting experiments showed that a medusa can turn back into a polyp only if cells of this outer skin and part of the gut system are present.", "ref": 5 }
+    ],
+    "stats": [
+      { "value": "About 4.5 mm", "label": "Maximum bell width", "ref": 4 },
+      { "value": "About 1 mm", "label": "Size when released from the polyp", "ref": 4 },
+      { "value": "14–25 °C", "label": "Temperatures medusae were reared at", "ref": 7 }
+    ]
+  },
+  "body": {
+    "lede": "Its body plan is ordinary for a hydrozoan. What is extraordinary is what its cells can turn into.",
+    "systems": [
+      { "title": "Not powered by stem cells alone", "text": "When the stomach tube, rich in stem-like cells, was cut out and kept alone, it could not become polyp tissue. The outer bell skin, which has none of those cells, could. That points to fully specialised cells being reprogrammed into new types.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Parts that exist only in the jellyfish", "text": "Striated swimming muscles under the bell, nerve rings and simple light-sensitive spots (ocelli) are found only in the medusa. During reversal they disappear, and cells that make a protective chitin coat, found only in polyps, appear instead.", "certainty": "confirmed", "ref": 1 },
+      { "title": "A cyst with no recognisable parts", "text": "A reverting medusa shrinks, stops swimming and settles into a cyst wrapped in a thin chitin envelope. Over the next 24 to 36 hours it grows a creeping root-like stolon from which new polyps sprout.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Polyps regrow from fragments too", "text": "In a laboratory study at 25 °C, cut pieces of polyp first rounded up into a 'dumpling' and, within about two days, grew a new stolon.", "certainty": "confirmed", "ref": 3 }
+    ]
+  },
+  "genome": {
+    "lede": "Two genome projects have compared the immortal jellyfish with a close relative that cannot rejuvenate after breeding.",
+    "genomeGb": 0.39,
+    "refs": { "genome": 2 },
+    "sequenced": 2022,
+    "findings": [
+      { "title": "A bigger genome than its mortal cousin", "text": "The genome is estimated at about 390 million base pairs, against about 210 million in Turritopsis rubra. About 17,500 genes were predicted, compared with about 9,300 in T. rubra, though the T. dohrnii assembly was more fragmented.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Switching genes back to an early state", "text": "During reversal, genes normally kept silent by a regulator called polycomb repressive complex 2 were switched off, while targets of pluripotency factors were switched on. The authors propose these as key drivers of rejuvenation.", "certainty": "hypothesis", "ref": 2 },
+      { "title": "A long-read assembly from Japan", "text": "A 2023 draft genome, built from one clonal line using long DNA reads, totalled about 436 million base pairs with 23,314 high-confidence genes, giving researchers a reference for future work.", "certainty": "confirmed", "ref": 3 }
+    ]
+  },
+  "survival": {
+    "lede": "Its one great trick is to go backwards when life turns hostile.",
+    "tactics": [
+      { "title": "Reverse instead of die", "text": "Medusae at every stage, from newly released to fully mature, were shown to turn back into colonial polyps, either directly or after a resting period.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Many triggers", "text": "In the laboratory, reversal was set off by starvation, sudden temperature changes, lower salinity and physical damage.", "certainty": "confirmed", "ref": 4 },
+      { "title": "Built for long journeys", "text": "Because starved or damaged medusae can revert to polyps, they may survive long voyages in ships' ballast water.", "certainty": "hypothesis", "ref": 6 }
+    ],
+    "predators": [],
+    "threats": [
+      { "title": "Spread by people, not threatened by them", "text": "Near-identical genes in animals from Japan, Panama, Florida, Spain and Italy point to a worldwide, human-assisted introduction. Medusae looked different in tropical and temperate waters, which helped the spread go unnoticed.", "certainty": "confirmed", "ref": 6 }
+    ]
+  },
+  "life": {
+    "lede": "A typical hydrozoan cycle, with one extra path: from adult back to polyp.",
+    "stages": [
+      { "name": "Planula larva", "text": "Fertilised eggs become short-lived, feeding larvae that do not travel far before settling on the seabed.", "ref": 1 },
+      { "name": "Polyp colony", "text": "The larva becomes a colonial polyp that spreads by budding and releases new medusae, each a clone of the colony.", "ref": 1 },
+      { "name": "Medusa", "duration": "about 18–30 days to maturity", "text": "Released medusae about 1 mm across feed in the plankton and mature in a few weeks: about 25–30 days at 20 °C and 18–22 days at 22 °C. Development is faster in warmer water.", "ref": 4 },
+      { "name": "Cyst (reversal)", "duration": "about 1–2 days", "text": "A damaged, starved or ageing medusa shrinks into a cyst, which within 24 to 36 hours develops polyp features and starts the cycle again.", "ref": 1 }
+    ],
+    "lifespan": { "value": "No fixed limit seen in the lab; unknown in the wild", "ref": 4 }
+  }
+}

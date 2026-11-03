@@ -1,0 +1,218 @@
+{
+  "extraReferences": [
+    {
+      "title": "Rogers, T.L. & Cato, D.H. (2002). Individual variation in the acoustic behaviour of the adult male leopard seal, Hydrurga leptonyx. Behaviour 139: 1267–1286",
+      "publisher": "Behaviour",
+      "url": "https://doi.org/10.1163/156853902321104154",
+      "year": 2002,
+      "authors": "Rogers & Cato"
+    },
+    {
+      "title": "Canitz, J. et al. (2025). Reference genome of the leopard seal (Hydrurga leptonyx), a Southern Ocean apex predator. Frontiers in Genetics 16: 1561273",
+      "publisher": "Frontiers in Genetics",
+      "url": "https://doi.org/10.3389/fgene.2025.1561273",
+      "year": 2025,
+      "authors": "Canitz, Kienle, van der Linde, Borras-Chavez et al."
+    }
+  ],
+  "anatomy": {
+    "lede": "The leopard seal is built like no other Antarctic seal: long and slender for speed and agility in the water, with an outsized head and jaws made for handling large prey.",
+    "media": 0,
+    "hotspots": [
+      {
+        "id": "head",
+        "label": "Huge head",
+        "x": 74,
+        "y": 30,
+        "text": "The large head carries a long snout, well suited to catching and handling prey as big as penguins and young seals.",
+        "ref": 5
+      },
+      {
+        "id": "mouth",
+        "label": "Jaws and cheek teeth",
+        "x": 66,
+        "y": 46,
+        "text": "Behind the lips, the many-cusped cheek teeth interlock when the mouth closes, forming a sieve that strains small prey from the water.",
+        "ref": 4
+      },
+      {
+        "id": "coat",
+        "label": "Spotted coat",
+        "x": 52,
+        "y": 40,
+        "text": "The back is dark grey and the underside silvery grey, both scattered with dark and light spots, the 'leopard' pattern behind its name.",
+        "ref": 5
+      },
+      {
+        "id": "foreflipper",
+        "label": "Foreflipper",
+        "x": 45,
+        "y": 50,
+        "text": "Its species name leptonyx means 'slender-clawed', after the claws on its flippers.",
+        "ref": 5
+      },
+      {
+        "id": "body",
+        "label": "Slender body",
+        "x": 29,
+        "y": 41,
+        "text": "The long, slender body makes the leopard seal very agile in the water, where it spends most of its time.",
+        "ref": 5
+      }
+    ],
+    "stats": [
+      {
+        "value": "about 3.8 m",
+        "label": "Length of large females",
+        "ref": 5
+      },
+      {
+        "value": "540 kg",
+        "label": "Heaviest female weighed at Cape Shirreff",
+        "ref": 2
+      },
+      {
+        "value": "1,256 m",
+        "label": "Deepest recorded dive",
+        "ref": 2
+      },
+      {
+        "value": "1,950 km",
+        "label": "Furthest distance from Bird Island",
+        "ref": 3
+      }
+    ]
+  },
+  "body": {
+    "lede": "A predator that can tackle a penguin one day and krill the next needs versatile equipment.",
+    "systems": [
+      {
+        "title": "A two-way mouth",
+        "text": "Captive seals drew small prey in by suction and expelled the water through their cheek teeth. Wear on the front teeth but not the cheek teeth suggests the cheek teeth act mainly as a sieve.",
+        "certainty": "confirmed",
+        "ref": 4
+      },
+      {
+        "title": "Short, flat-bottomed dives",
+        "text": "Most tagged dives at Cape Shirreff lasted about 3 minutes and averaged about 29 m; around two-thirds had a square, flat-bottomed profile.",
+        "certainty": "confirmed",
+        "ref": 2
+      },
+      {
+        "title": "Heavier females",
+        "text": "Adult females averaged 454 kg and 196 cm around the girth, against 302 kg and 156 cm for males.",
+        "certainty": "confirmed",
+        "ref": 2
+      }
+    ]
+  },
+  "genome": {
+    "lede": "A reference genome was published only in 2025, from a seal that stranded in New Zealand.",
+    "genomeGb": 2.4,
+    "refs": {
+      "genome": 7
+    },
+    "sequenced": 2025,
+    "findings": [
+      {
+        "title": "A nearly complete map",
+        "text": "Long-read sequencing of a stranded adult male from Kaitorete Beach, Christchurch, produced a 2.4-billion-base-pair assembly in just 203 pieces, judged about 98% complete for genes expected in carnivores.",
+        "certainty": "confirmed",
+        "ref": 7
+      },
+      {
+        "title": "Lining up with relatives",
+        "text": "The assembly covers about 95% of the Hawaiian monk seal genome, and its pieces map onto that seal's 18 chromosomes, including the Y chromosome.",
+        "certainty": "confirmed",
+        "ref": 7
+      }
+    ]
+  },
+  "mind": {
+    "lede": "Leopard seals are solitary and hard to watch, so much of what is known about their behaviour comes from sound recordings, tags and captive animals.",
+    "studies": [
+      {
+        "year": "2002",
+        "title": "Songs with a signature",
+        "text": "Recordings of adult males in Prydz Bay, East Antarctica, showed each male sang his calls in a distinctive order; a sequence could be matched to the right seal 83% of the time.",
+        "certainty": "confirmed",
+        "ref": 6
+      },
+      {
+        "year": "2013",
+        "title": "Switching techniques",
+        "text": "Captive leopard seals hunting small prey underwater sucked it into the mouth and then expelled the water through the sieve of their cheek teeth, the first direct observations of filter feeding in the species.",
+        "certainty": "confirmed",
+        "ref": 4
+      },
+      {
+        "year": "2018",
+        "title": "Midday rests",
+        "text": "Seals tracked at South Georgia hauled out most often around midday from October to April, with haul-outs spread more evenly through the day in winter.",
+        "certainty": "confirmed",
+        "ref": 3
+      }
+    ]
+  },
+  "survival": {
+    "lede": "As an apex predator, an adult leopard seal has little to fear except killer whales and a changing climate.",
+    "tactics": [
+      {
+        "title": "Eat what is in season",
+        "text": "At Cape Shirreff, adult females switch in spring and summer to warm-blooded prey such as penguin chicks and fur seal pups, while males feed lower in the food web.",
+        "certainty": "confirmed",
+        "ref": 2
+      },
+      {
+        "title": "Roam widely",
+        "text": "Tracked seals made long trips north to the Polar Frontal Zone and south to the pack ice, rather than staying near one colony.",
+        "certainty": "confirmed",
+        "ref": 3
+      }
+    ],
+    "predators": [
+      "Killer whales"
+    ],
+    "threats": [
+      {
+        "title": "Shrinking sea ice",
+        "text": "Leopard seals give birth and nurse on pack ice, so a decline in Antarctic sea ice is likely to affect them.",
+        "certainty": "hypothesis",
+        "ref": 5
+      }
+    ]
+  },
+  "life": {
+    "lede": "Leopard seals breed on the drifting pack ice, which makes them among the least studied seals in the world.",
+    "stages": [
+      {
+        "name": "Pregnancy",
+        "duration": "about 274 days",
+        "text": "Mating takes place in the water in December and early January, shortly after pups are weaned.",
+        "ref": 5
+      },
+      {
+        "name": "Pup",
+        "duration": "nursed about 4 weeks",
+        "text": "Pups are born on ice floes between late October and November, about 120 cm long, and are nursed and guarded by the mother alone.",
+        "ref": 5
+      },
+      {
+        "name": "On the ice",
+        "duration": "10+ days hauled out",
+        "text": "Satellite tags on three females that stayed on the ice for more than ten days probably captured birth and nursing for the first time.",
+        "ref": 2
+      },
+      {
+        "name": "Adult",
+        "duration": "mature at about 4 years",
+        "text": "Females mature at about 4 years and males at about 4.5; they breed once a year.",
+        "ref": 5
+      }
+    ],
+    "lifespan": {
+      "value": "Recorded up to about 30 years in the wild",
+      "ref": 5
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "anatomy": {
+    "lede": "A basket star is a small central disc with arms that fork again and again, until the animal becomes a living net nearly a metre wide.",
+    "media": 0,
+    "hotspots": [
+      { "id": "disc", "label": "Central disc", "x": 54, "y": 50, "text": "All the arms grow out of a small central disc. Food caught by the arms is passed back here to the mouth.", "ref": 1 },
+      { "id": "arm-base", "label": "Arm base", "x": 44, "y": 46, "text": "Near the disc the arms overlap one another. This may create turbulence that helps the outer branches catch food or brings more food within reach.", "ref": 1 },
+      { "id": "fork", "label": "Forking arm", "x": 33, "y": 43, "text": "Each arm divides again and again into finer branches. Among brittle stars, only the order Euryalida has branching arms.", "ref": 2 },
+      { "id": "branchlets", "label": "Fine branchlets", "x": 10, "y": 30, "text": "The finest branches make a small-meshed net that can catch a wide range of prey.", "ref": 1 },
+      { "id": "bands", "label": "Grasping bands", "x": 78, "y": 15, "text": "Raised bands of pedicellariae, tiny grasping structures used for catching prey, ring the arms and give them a banded look.", "ref": 2 },
+      { "id": "coil", "label": "Coiled tip", "x": 56, "y": 72, "text": "The tips can coil tightly. When a branchlet touches food, the smallest branches curl around it into a ball that is passed to the mouth.", "ref": 1 }
+    ],
+    "stats": [
+      { "value": "Nearly 1 m", "label": "Arm span", "ref": 1 },
+      { "value": "To about 30 m", "label": "Depth", "ref": 1 },
+      { "value": "Only species", "label": "In its genus, Astrophyton", "ref": 1 }
+    ]
+  },
+  "senses": {
+    "lede": "A basket star responds to light, touch and the flow of water, and decides from moment to moment whether to feed.",
+    "senses": [
+      { "kind": "other", "name": "Light", "text": "Shine a torch on a feeding basket star at night and it slowly curls up, taking several minutes to become a fist-sized bundle.", "certainty": "confirmed", "ref": 1 },
+      { "kind": "touch", "name": "Touch", "text": "When a branchlet touches a food particle, the smallest branches close around it, catching animals as large as small shrimps and juvenile fish.", "certainty": "confirmed", "ref": 1 },
+      { "kind": "vibration", "name": "Current", "text": "It feeds only when conditions suit, turning its arms to face the current at moderate speeds and keeping them folded when the flow is too strong.", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "body": {
+    "lede": "Branching arms and grasping bands are rare among brittle stars. In basket stars they work together as a net that catches food against the current.",
+    "systems": [
+      { "title": "More arm, same five rays", "text": "Echinoderms are built on five rays. Some increase the length of their food-gathering arms by adding extra rays, but basket stars branch the original five instead, as only suspension feeders do.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Grabbers for catching prey", "text": "Every member of the basket star's family, the Gorgonocephalidae, has pedicellariae on its arms, and in this family they are used mainly or only for catching prey.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Why branch?", "text": "Branching may help gorgonocephalid basket stars use their pedicellariae to catch zooplankton on the upstream side, unlike unbranched relatives that catch food downstream on mucus-covered tube feet.", "certainty": "hypothesis", "ref": 2 }
+    ]
+  },
+  "mind": {
+    "lede": "The basket star follows a daily routine: hiding by day and climbing high to feed at night.",
+    "studies": [
+      { "year": "Field", "title": "A night-time climber", "text": "It is nocturnal. At night it climbs to the top of large corals or sea fans, holding on with the lower parts of its arms, and spreads the rest in a bowl shape to catch plankton.", "certainty": "confirmed", "ref": 1 },
+      { "year": "Field", "title": "Hiding by day", "text": "By day it curls into a tight ball and retreats to the base of its coral or sea fan, or into a crevice, protecting itself from predators.", "certainty": "confirmed", "ref": 1 },
+      { "year": "Field", "title": "A matching lodger", "text": "The shrimp Periclimenes perryae often lives on the giant basket star, and larger shrimps are usually coloured to match their host.", "certainty": "confirmed", "ref": 1 }
+    ]
+  }
+}

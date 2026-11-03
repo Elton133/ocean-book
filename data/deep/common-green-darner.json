@@ -1,0 +1,66 @@
+{
+  "anatomy": {
+    "lede": "One of the larger dragonflies of North America: huge eyes, a short, muscular thorax that powers four independent wings, and a long abdomen like a darning needle.",
+    "media": 0,
+    "hotspots": [
+      { "id": "eye", "label": "Compound eye", "x": 73.4, "y": 65, "text": "The eyes are so large that they wrap around the head, giving an almost all-round view, though the dragonfly sees poorly directly above and below.", "ref": 3 },
+      { "id": "face", "label": "Green face", "x": 77.5, "y": 71, "text": "Males have a green face and dull green eyes.", "ref": 3 },
+      { "id": "thorax", "label": "Thorax", "x": 65.5, "y": 62, "text": "The short, robust thorax holds the flight muscles. Vibrating them warms the body.", "ref": 3 },
+      { "id": "forewing", "label": "Four wings", "x": 80.5, "y": 49, "text": "Each of the four wings can move independently, so the darner can fly forwards or backwards, hover and change direction in an instant.", "ref": 3 },
+      { "id": "abdomen", "label": "Blue abdomen", "x": 41.7, "y": 60, "text": "In males, the second to sixth segments of the abdomen are bright blue. Most females are brown and grey-green here, though a minority resemble males.", "ref": 3 },
+      { "id": "appendages", "label": "Tail appendages", "x": 8, "y": 60, "text": "The male uses the claspers at the tip of his abdomen to grip a female by the head or the front of the thorax.", "ref": 3 }
+    ],
+    "stats": [
+      { "value": "up to 8 cm", "label": "Body length", "ref": 3 },
+      { "value": "140 km", "label": "Most a migrant can travel in a day", "ref": 3 },
+      { "value": "3,000 km", "label": "Longest recorded migration", "ref": 3 },
+      { "value": "9–13", "label": "Moults as a nymph", "ref": 3 }
+    ]
+  },
+  "senses": {
+    "lede": "A dragonfly is a hunter of the eyes. Almost everything it does, from catching prey to finding a mate, starts with sight.",
+    "senses": [
+      { "kind": "sight", "name": "Motion vision", "text": "The great eyes detect movement easily, letting the darner spot flying and ground-dwelling prey as well as possible mates and predators.", "certainty": "confirmed", "ref": 3 },
+      { "kind": "sight", "name": "Colour and ultraviolet", "text": "Dragonflies can see a wide range of colours, including ultraviolet light.", "certainty": "confirmed", "ref": 3 },
+      { "kind": "other", "name": "Polarised light", "text": "Migrating green darners may use the pattern of polarised light in the sky to work out which way is south.", "certainty": "hypothesis", "ref": 3 },
+      { "kind": "touch", "name": "Touch", "text": "Sight identifies a mate, but touch matters too: the male holds the female with his claspers throughout mating.", "certainty": "confirmed", "ref": 3 }
+    ]
+  },
+  "body": {
+    "lede": "The green darner lives two lives, a hunter underwater and then in the air, with very different bodies for each.",
+    "systems": [
+      { "title": "Making its own warmth", "text": "Although it is an insect, the darner actively controls its temperature. It warms up by vibrating its wing muscles, and moves heat around the body by adjusting the flow of its blood-like haemolymph, letting it fly in cool weather and colder regions.", "certainty": "confirmed", "ref": 3 },
+      { "title": "A striking lower lip", "text": "The nymph has a large, flat labium, or lower lip, that it shoots out to spear prey on pointed palps and then pulls back to the jaws.", "certainty": "confirmed", "ref": 3 },
+      { "title": "Breathing through the rear", "text": "A nymph's gills sit in a chamber in its rectum. By squirting water out of the anus it can shoot forwards, away from danger.", "certainty": "confirmed", "ref": 3 }
+    ]
+  },
+  "mind": {
+    "lede": "The darner's behaviour follows consistent patterns: when to fly, where to rest and how to fight.",
+    "studies": [
+      { "year": "Field", "title": "Following the sun", "text": "On autumn migrations, darners roost overnight on warm, west-facing vegetation. In the morning they flutter their wings to warm up, then move to east-facing perches in the sun.", "certainty": "confirmed", "ref": 3 },
+      { "year": "Field", "title": "Weather watchers", "text": "Cold fronts are a good sign that an autumn migration is about to start, while spring migrants often arrive on warm fronts. In flight they make use of thermals and updrafts.", "certainty": "confirmed", "ref": 3 },
+      { "year": "Field", "title": "Fights over females", "text": "Single males often attack a pair flying in tandem, landing on them, ramming, pulling and biting. The paired male fights back, and the struggle can split the pair or drown them.", "certainty": "confirmed", "ref": 3 },
+      { "year": "1941", "title": "Raiders of the beehive", "text": "Green darners have gathered in large numbers at bee yards to catch honey bees, especially queens and drones on their mating flights. A severe outbreak in 1941 cost beekeepers heavily.", "certainty": "confirmed", "ref": 3 }
+    ]
+  },
+  "survival": {
+    "lede": "In ponds without fish the darner nymph is the top predator, but in the air and the water there is always something larger.",
+    "tactics": [
+      { "title": "Stab and jab", "text": "A threatened nymph twists its abdomen to jab at an attacker with its side spines and tail points. As a last resort it uses the hooks on its labium, at the risk of damaging its feeding apparatus.", "certainty": "confirmed", "ref": 3 },
+      { "title": "Keep still, blend in", "text": "Nymphs may slow down or stop moving altogether when a predator is near. Their brown or green colours camouflage them, and green nymphs are more common in spring and summer, when water plants are thick.", "certainty": "confirmed", "ref": 3 },
+      { "title": "Speed and sight", "text": "Adults fly fast and dodge predators easily, and their keen vision helps them see danger coming.", "certainty": "confirmed", "ref": 3 }
+    ],
+    "predators": ["Birds", "Spiders", "Robber flies", "Larger dragonflies", "Frogs", "Fish", "Tiger salamander larvae"]
+  },
+  "life": {
+    "lede": "Dragonflies have no pupal stage. The nymph that hatches from the egg grows through a series of moults and then climbs into the air as an adult.",
+    "stages": [
+      { "name": "Egg", "duration": "at least 6–7 days", "text": "The pair lays eggs in tandem on floating stems, leaves and branches. A lack of oxygen in the water triggers hatching.", "ref": 3 },
+      { "name": "Nymph", "duration": "3–5 months in migrants; 11–12 in residents", "text": "The aquatic nymph lives near the shore in water less than half a metre deep, moulting 9 to 13 times. Offspring of migrants develop fast; northern residents overwinter as nymphs.", "ref": 3 },
+      { "name": "Emergence", "text": "The full-grown nymph climbs out of the water, sometimes travelling far before scaling a plant stem. Its skin splits and the adult pulls free, expanding its wings.", "ref": 3 },
+      { "name": "Teneral", "text": "The newly emerged adult is soft, with little fat and immature reproductive organs; the tip of its abdomen is reddish-purple. It feeds heavily as its cuticle hardens and its colours develop, and migrants often set off at this stage.", "ref": 3 },
+      { "name": "Adult", "text": "Mature adults mate many times with many partners. Northern residents breed in July and August; migrants breed in the north in June and again in the south in late autumn.", "ref": 3 }
+    ],
+    "lifespan": { "value": "several weeks to a little over a month as an adult", "ref": 3 }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "extraReferences": [
+    {
+      "title": "The compleat angler: aggressive mimicry in an antennariid anglerfish. Science 201: 369–370",
+      "publisher": "Science",
+      "url": "https://doi.org/10.1126/science.201.4353.369",
+      "year": 1978,
+      "authors": "Pietsch T.W., Grobecker D.B."
+    }
+  ],
+  "anatomy": {
+    "lede": "A striated frogfish is a lumpy, scaleless ball of a fish, with an upturned mouth, limb-like fins and a fishing rod growing from its head.",
+    "media": 1,
+    "hotspots": [
+      {
+        "id": "esca",
+        "label": "Lure (esca)",
+        "x": 11,
+        "y": 20,
+        "text": "The bait at the tip carries 2–7 worm-like appendages, which grow back if they are lost.",
+        "ref": 1
+      },
+      {
+        "id": "illicium",
+        "label": "Fishing rod",
+        "x": 16,
+        "y": 29,
+        "text": "The rod, or illicium, is the front-most dorsal fin spine. When not fishing it rests against the head, and is swung forward over the mouth to tempt prey.",
+        "ref": 2
+      },
+      {
+        "id": "eye",
+        "label": "Eye",
+        "x": 25.5,
+        "y": 37.5,
+        "text": "Prominent lines radiate out from the eyes, which it uses to follow prey before striking.",
+        "ref": 1
+      },
+      {
+        "id": "mouth",
+        "label": "Upturned mouth",
+        "x": 15.5,
+        "y": 50,
+        "text": "The mouth points upwards and the palate carries teeth. It can expand up to twelve times in size as it opens.",
+        "ref": 1
+      },
+      {
+        "id": "filaments",
+        "label": "Skin filaments",
+        "x": 23.5,
+        "y": 20.5,
+        "text": "The bumpy skin is covered in forked spinules, and males have longer skin appendages than females.",
+        "ref": 1
+      },
+      {
+        "id": "stripes",
+        "label": "Stripes",
+        "x": 57,
+        "y": 40,
+        "text": "The species name striatus means 'striped'. Individuals from the same place can look completely different, from red to black, striped or plain.",
+        "ref": 2
+      },
+      {
+        "id": "fins",
+        "label": "Limb-like fins",
+        "x": 48,
+        "y": 90,
+        "text": "Its pectoral fins are arm-like. Small, tube-shaped gill openings sit behind and below them.",
+        "ref": 2
+      }
+    ],
+    "stats": [
+      {
+        "value": "25 cm",
+        "label": "Maximum length",
+        "ref": 1
+      },
+      {
+        "value": "6 ms",
+        "label": "Time to engulf prey",
+        "ref": 1
+      },
+      {
+        "value": "12×",
+        "label": "Mouth expansion",
+        "ref": 1
+      },
+      {
+        "value": "2×",
+        "label": "Largest prey, relative to its own size",
+        "ref": 1
+      }
+    ]
+  },
+  "body": {
+    "lede": "The frogfish's body is a trap: it sits still, breathes without seeming to move, and swallows in an instant.",
+    "systems": [
+      {
+        "title": "Breathing in secret",
+        "text": "Rhythmic pumping draws water in through the mouth and out through the small gill openings, so the fish can breathe while looking completely motionless.",
+        "certainty": "confirmed",
+        "ref": 2
+      },
+      {
+        "title": "A one-way gulp",
+        "text": "After a strike, the water rushes out through the gills while a special muscle closes the gullet to keep the prey inside.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "title": "Inflatable",
+        "text": "Like a puffer fish, it can inflate its body. A gas bladder controls its buoyancy.",
+        "certainty": "confirmed",
+        "ref": 1
+      }
+    ]
+  },
+  "mind": {
+    "lede": "Frogfishes are patient hunters whose lures and lightning strikes were first revealed by careful filming in the 1970s.",
+    "studies": [
+      {
+        "year": "1978",
+        "title": "A lure that looks like a fish",
+        "text": "In one Antennarius frogfish, the lure was found to mimic a small fish, giving prey both a tempting sight and probably a low-frequency pressure cue, at very little energy cost to the angler.",
+        "certainty": "confirmed",
+        "ref": 5
+      },
+      {
+        "year": "1979",
+        "title": "Filmed at 1,000 frames a second",
+        "text": "High-speed filming showed frogfishes create enormous suction by rapidly expanding the mouth and gill chambers, engulfing prey faster than any other fish then recorded.",
+        "certainty": "confirmed",
+        "ref": 3
+      },
+      {
+        "year": "Field",
+        "title": "Stalk, then strike",
+        "text": "It watches approaching prey with its eyes, and may stalk it or shift the angle of its mouth before it strikes.",
+        "certainty": "confirmed",
+        "ref": 1
+      }
+    ]
+  },
+  "survival": {
+    "lede": "Being hard to see protects the frogfish as well as feeding it.",
+    "tactics": [
+      {
+        "title": "Stillness",
+        "text": "Its camouflage and lack of movement make it hard for prey and predators alike to notice.",
+        "certainty": "confirmed",
+        "ref": 2
+      },
+      {
+        "title": "Seldom eaten",
+        "text": "Other frogfish and moray eels do prey on adults, but this is thought to be uncommon. Young frogfish are more at risk from opportunistic fishes.",
+        "certainty": "confirmed",
+        "ref": 1
+      }
+    ],
+    "predators": [
+      "Other frogfish",
+      "Moray eels",
+      "Opportunistic fishes (young frogfish)"
+    ]
+  },
+  "life": {
+    "lede": "Spawning is a short, dramatic event that ends with the eggs drifting away in a raft of mucus.",
+    "stages": [
+      {
+        "name": "Courtship",
+        "text": "Before spawning, the pair walks over the seabed with the female in front and the male close behind, his snout touching her vent. She swells with eggs, often to twice her normal size.",
+        "ref": 1
+      },
+      {
+        "name": "Spawning",
+        "text": "The pair dashes up towards the surface, where the female releases her eggs and the male his sperm. A pair may spawn several times over the following weeks.",
+        "ref": 1
+      },
+      {
+        "name": "Egg raft",
+        "text": "The eggs float in a buoyant, ribbon-like mass of mucus, which may carry them long distances.",
+        "ref": 1
+      },
+      {
+        "name": "Adult",
+        "duration": "usually about 10 cm",
+        "text": "Adults commonly reach about 10 cm and live on rock, sand, rubble or coral, usually shallower than 40 m.",
+        "ref": 1
+      }
+    ]
+  }
+}

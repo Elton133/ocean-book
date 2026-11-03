@@ -1,0 +1,120 @@
+{
+  "slug": "bottlenose-dolphin",
+  "realm": "ocean",
+  "commonName": "Common Bottlenose Dolphin",
+  "scientificName": "Tursiops truncatus",
+  "authority": "(Montagu, 1821)",
+  "aphiaId": 137111,
+  "taxonomy": { "phylum": "Chordata", "class": "Mammalia", "order": "Cetartiodactyla", "family": "Delphinidae" },
+  "group": "Dolphin",
+  "categories": ["intelligent"],
+  "tagline": "A dolphin that calls its friends by name",
+  "summary": "A big, sociable dolphin of warm and temperate seas, at home everywhere from estuaries and harbours to the open ocean. It hunts with sound, works in teams to trap fish, and each animal develops its own signature whistle that others recognise as an identity call.",
+  "ability": "echolocation and individually distinctive signature whistles",
+  "stats": {
+    "size": "About 1.8–4 m (6–13 ft) long and 136–635 kg (300–1,400 lb); offshore animals are larger than coastal ones",
+    "depth": "Coastal animals stay shallow; offshore dolphins off Bermuda regularly dive below 200 m at night, to 1,000 m",
+    "range": "Temperate and tropical waters worldwide, from bays and estuaries to the open ocean",
+    "diet": "Fish, squid, and crustaceans such as crabs and shrimp",
+    "conservation": "IUCN: Least Concern (assessed 2018, published 2019)"
+  },
+  "depthRange": { "min": 0, "max": 1000 },
+  "regions": ["pacific-ocean", "atlantic-ocean", "indian-ocean"],
+  "facts": [
+    {
+      "title": "A name of its own",
+      "text": "Each bottlenose dolphin develops a distinctive signature whistle, shaped by vocal learning. Playback experiments showed dolphins still recognise a familiar whistle after every feature of the caller's voice has been removed, so the identity lies in the whistle's shape.",
+      "certainty": "confirmed",
+      "ref": 4
+    },
+    {
+      "title": "The dolphin in the mirror",
+      "text": "Two captive bottlenose dolphins marked with ink used a mirror to inspect the marked parts of their bodies. Mirror self-recognition was previously known only in humans and great apes.",
+      "certainty": "confirmed",
+      "ref": 5
+    },
+    {
+      "title": "Teamwork at dinner",
+      "text": "Bottlenose dolphins hunt alone or together, herding fish into tight groups and taking turns to charge through the school, or pinning fish against sandbars and seawalls. They find prey by echolocation or simply by listening.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Swallowed whole",
+      "text": "Despite a mouth full of teeth, a bottlenose dolphin does not chew. It grips a fish in its teeth and swallows it whole, head first.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Deep divers offshore",
+      "text": "Satellite tags on offshore bottlenose dolphins near Bermuda recorded dives to 1,000 m and lasting up to 13.8 minutes, mostly at night. Coastal bottlenose dolphins, by contrast, are shallow divers.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "A long childhood",
+      "text": "After a pregnancy of about 12 months, a calf nurses for around 20 months and usually stays with its mother for three to six years. Females as old as 45 have given birth.",
+      "certainty": "confirmed",
+      "ref": 1
+    }
+  ],
+  "references": [
+    { "title": "Tursiops truncatus (Montagu, 1821)", "publisher": "WoRMS", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137111" },
+    { "title": "Common Bottlenose Dolphin", "publisher": "NOAA Fisheries", "url": "https://www.fisheries.noaa.gov/species/common-bottlenose-dolphin" },
+    { "title": "Wells, R.S., Natoli, A. & Braulik, G. (2019). Tursiops truncatus. The IUCN Red List of Threatened Species 2019: e.T22563A156932432", "publisher": "IUCN Red List", "url": "https://doi.org/10.2305/IUCN.UK.2019-1.RLTS.T22563A156932432.en", "year": 2019, "authors": "Wells, Natoli & Braulik" },
+    { "title": "Fahlman, A. et al. (2023). Deep diving by offshore bottlenose dolphins (Tursiops spp.). Marine Mammal Science 39: 1251–1266", "publisher": "Marine Mammal Science", "url": "https://doi.org/10.1111/mms.13045", "year": 2023, "authors": "Fahlman, Tyson Moore, Stone, Sweeney, Trainor, Barleycorn, McHugh, Allen & Wells" },
+    { "title": "Janik, V.M., Sayigh, L.S. & Wells, R.S. (2006). Signature whistle shape conveys identity information to bottlenose dolphins. PNAS 103: 8293–8297", "publisher": "PNAS", "url": "https://doi.org/10.1073/pnas.0509918103", "year": 2006, "authors": "Janik, Sayigh & Wells" },
+    { "title": "Reiss, D. & Marino, L. (2001). Mirror self-recognition in the bottlenose dolphin: a case of cognitive convergence. PNAS 98: 5937–5942", "publisher": "PNAS", "url": "https://doi.org/10.1073/pnas.101086398", "year": 2001, "authors": "Reiss & Marino" }
+  ],
+  "image": {
+    "src": "/media/creatures/bottlenose-dolphin/hero.webp",
+    "width": 1920,
+    "height": 1286,
+    "alt": "A grey dolphin with a short, rounded beak bursts upward out of glassy blue water, its curved dorsal fin and a flipper visible and spray flying around it, its reflection beneath.",
+    "caption": "A bottlenose dolphin breaching in calm water; NOAA Photo Library image filed among the mammals of Stellwagen Bank National Marine Sanctuary.",
+    "creator": "NOAA Photo Library (anim1069)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anim1069_-_Flickr_-_NOAA_Photo_Library.jpg",
+    "species": "Tursiops truncatus",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "35% 35%",
+    "tone": "dark"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/bottlenose-dolphin/alt-1.webp",
+      "width": 1920,
+      "height": 1286,
+      "alt": "Underwater view looking down on a pod of grey dolphins swimming close together in dark blue-green water.",
+      "caption": "Underwater view of a pod of bottlenose dolphins.",
+      "creator": "NOAA Photo Library (anim1072)",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anim1072_-_Flickr_-_NOAA_Photo_Library.jpg",
+      "species": "Tursiops truncatus",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "50% 50%",
+      "tone": "dark"
+    },
+    {
+      "src": "/media/creatures/bottlenose-dolphin/alt-2.webp",
+      "width": 1920,
+      "height": 1440,
+      "alt": "Seen from above, five pale grey dolphins swim through clear, shallow green water over a seagrass bed.",
+      "caption": "Five Atlantic bottlenose dolphins swimming in shallow water, Everglades National Park, Florida, January 2010.",
+      "creator": "National Park Service (NPS photo)",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Five_Atlantic_bottlenose_dolphins_swimming_in_shallow_water._(5afd2388-d648-41bb-ac85-512214bd5cf4).jpg",
+      "species": "Tursiops truncatus",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "60% 55%",
+      "tone": "light"
+    }
+  ],
+  "notes": "Taxonomy per WoRMS (AphiaID 137111; WoRMS places Delphinidae in order Cetartiodactyla). The IUCN assessment page blocks scripted access; the DOI was confirmed through Crossref (Wells, Natoli & Braulik; assessed 13 May 2018, published 2019) and the Least Concern category through the IUCN SSC Cetacean Specialist Group's March 2019 update. Size range converted from NOAA's 6–13 ft and 300–1,400 lb. The 1,000 m depth record comes from offshore dolphins off Bermuda that Fahlman et al. (2023) call 'Tursiops spp.'; they are the offshore ecotype long treated as T. truncatus. Bottlenose dolphin taxonomy is in flux (Tursiops aduncus and, more recently, Tamanend's bottlenose dolphin T. erebennus are now recognised), so famous studies of Indo-Pacific bottlenose dolphins, such as sponge-carrying at Shark Bay, were deliberately left out. The mirror-recognition study used two captive dolphins. Images are all NOAA/NPS public domain; the hero and pod photos carry no location in their NOAA captions (Commons files the hero under Stellwagen Bank NMS); the Everglades photo is from the Gulf coast of Florida."
+}

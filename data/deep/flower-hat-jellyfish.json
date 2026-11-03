@@ -1,0 +1,49 @@
+{
+  "extraReferences": [
+    { "title": "The hydroid and early medusa stage of Olindias formosus (Cnidaria, Hydrozoa, Limnomedusae). Journal of the Marine Biological Association of the United Kingdom 94: 1409–1415", "publisher": "Journal of the Marine Biological Association of the UK", "url": "https://doi.org/10.1017/S0025315414000691", "year": 2014, "authors": "Patry W., Knowles T., Christianson L., Howard M." },
+    { "title": "Acid-tolerant monomeric GFP from Olindias formosa. Cell Chemical Biology 25: 330–338", "publisher": "Cell Chemical Biology", "url": "https://doi.org/10.1016/j.chembiol.2017.12.005", "year": 2018, "authors": "Shinoda H., Ma Y., Nakashima R. et al." }
+  ],
+  "anatomy": {
+    "lede": "The flower hat jelly wears its tentacles like a bonnet: many of them curl up over the bell, each ending in a glowing band and a pink tip.",
+    "media": 0,
+    "hotspots": [
+      { "id": "bell", "label": "Bell", "x": 49, "y": 20, "text": "The bell is translucent and pinstriped with opaque bands, and can grow to about 15 cm across.", "ref": 3 },
+      { "id": "stripes", "label": "Pinstripes", "x": 45, "y": 33, "text": "Dark lines run down the bell from top to rim, giving the jelly its striped look.", "ref": 3 },
+      { "id": "upturned-tentacles", "label": "Upturned tentacles", "x": 33, "y": 26, "text": "Unusually, many tentacles grow up along the outside of the bell.", "ref": 1 },
+      { "id": "pink-tips", "label": "Pink tips", "x": 22, "y": 44, "text": "Each tip holds a pink pigment that absorbs blue light and looks dark under it, which may sharpen the contrast with the glowing band just behind it.", "ref": 1 },
+      { "id": "trailing-tentacles", "label": "Trailing tentacles", "x": 76, "y": 63, "text": "Other tentacles trail below the bell. New tentacles are added around the rim at a steady angle, spreading them evenly as their number grows.", "ref": 2 }
+    ],
+    "stats": [
+      { "value": "15 cm", "label": "Bell diameter", "ref": 3 },
+      { "value": "< 30 m", "label": "Depth", "ref": 1 },
+      { "value": "529 nm", "label": "Peak of the green glow", "ref": 1 },
+      { "value": "137.5°", "label": "Angle between new tentacles", "ref": 2 }
+    ]
+  },
+  "body": {
+    "lede": "Much of what makes this jelly remarkable is chemistry: a glowing protein, a dark pigment and a precise growth rule.",
+    "systems": [
+      { "title": "Green protein, pink pigment", "text": "The tentacle tips contain a green fluorescent protein next to a non-fluorescent pink chromoprotein. Together they make a bright band beside a dark tip under blue light.", "certainty": "confirmed", "ref": 1 },
+      { "title": "A protein for the lab", "text": "A green fluorescent protein from this jelly, named Gamillus, stays bright in acidic conditions. Biologists now use it as a tag to follow molecules inside cells.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Glowing from the start", "text": "The fluorescence appears very early in life: the jelly's tiny polyp stage was first found in an aquarium by spotting the glow of medusa buds developing on it.", "certainty": "confirmed", "ref": 4 }
+    ]
+  },
+  "mind": {
+    "lede": "A jelly has no brain, but the flower hat's daily routine and hunting posture are well documented.",
+    "studies": [
+      { "year": "2015", "title": "Lures that need blue light", "text": "Juvenile rockfish attacked the barrier in front of a medusa nearly seven times more often under blue light than without it. Under yellow or white light, which do not make the tips glow, the medusa had no significant effect.", "certainty": "confirmed", "ref": 1 },
+      { "year": "Aquaria", "title": "Fishing posture", "text": "In experiments, the medusa settled on the bottom bell-up, with its tentacles stretched out, a stance the researchers called a 'fishing' posture.", "certainty": "confirmed", "ref": 1 },
+      { "year": "Field", "title": "Rest by day, rise by night", "text": "Adults spend the day on the bottom among rocks or algae and float up at night to hunt.", "certainty": "confirmed", "ref": 3 }
+    ]
+  },
+  "life": {
+    "lede": "Like many hydrozoans, the flower hat jelly lives two lives: a tiny polyp fixed to the seabed and a free-swimming medusa.",
+    "stages": [
+      { "name": "Polyp", "text": "The bottom-living polyp went undescribed for over a century, until one was found in an aquarium in November 2012. No polyps have yet been reported from the wild.", "ref": 4 },
+      { "name": "Budding medusa", "text": "In an aquarium, polyps grew in small clusters and released medusae about 1 mm across. Budding happened at 15 °C, and warmer water seemed to trigger the switch to medusae.", "ref": 3 },
+      { "name": "Young medusa", "duration": "from about December", "text": "Wild medusae first appear around December at about 2 cm across.", "ref": 3 },
+      { "name": "Adult medusa", "duration": "a few months", "text": "Adults grow to about 15 cm and are seen until about July, most often in April and May.", "ref": 3 }
+    ],
+    "lifespan": { "value": "a few months as an adult medusa", "ref": 3 }
+  }
+}

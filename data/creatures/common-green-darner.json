@@ -1,0 +1,158 @@
+{
+  "slug": "common-green-darner",
+  "realm": "land",
+  "commonName": "Common Green Darner",
+  "scientificName": "Anax junius",
+  "authority": "(Drury, 1773)",
+  "gbifId": 5051741,
+  "iucnId": 165081,
+  "taxonomy": {
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Odonata",
+    "family": "Aeshnidae"
+  },
+  "group": "Dragonfly",
+  "categories": [
+    "fliers",
+    "migrations"
+  ],
+  "tagline": "A dragonfly whose yearly migration takes three generations",
+  "summary": "One of the largest and most familiar dragonflies in North America, the green darner patrols ponds and fields on long, clear wings. Each spring migrants fly north, and their offspring fly south in autumn. Radio tags and the chemistry of its wings have shown that one round trip takes three generations of dragonflies.",
+  "ability": "multi-generation migration",
+  "stats": {
+    "size": "Up to about 8 cm long",
+    "habitat": "Ponds, lakes and slow streams; hunts over fields, forest edges and desert near water",
+    "range": "Across the United States into southern Canada and Mexico; northern migrants winter as far as Central America; also Hawaii, the West Indies and parts of East Asia",
+    "diet": "Adults catch flying insects on the wing; nymphs hunt aquatic insects, tadpoles and even small fish",
+    "conservation": "IUCN: Least Concern (2018 assessment)"
+  },
+  "regions": [
+    "north-american-forests",
+    "north-american-deserts",
+    "central-america"
+  ],
+  "biome": "wetland",
+  "flight": "migrating",
+  "facts": [
+    {
+      "title": "Three generations, one round trip",
+      "text": "Hydrogen isotopes in 852 wings collected over 140 years, together with 21 years of citizen-science records, showed that the yearly cycle takes at least three generations. The first flies more than 650 km north in spring, breeds and dies. Its offspring fly more than 680 km south. A third, resident generation breeds in the south and produces the next spring's migrants.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Followed by aeroplane",
+      "text": "Researchers attached radio transmitters weighing about 300 mg to the thoraxes of 14 migrating green darners. They followed them for up to 12 days with receiver-equipped Cessna aircraft and teams on the ground.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Stop-and-go travel",
+      "text": "The tagged darners alternated stopover days with travel days, migrating on average every 2.9 days. On average they advanced 58 km south in 6.1 days, about 12 km a day.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Rules of the road",
+      "text": "They flew only by day, and only when the wind was below 25 km/h, whatever its direction. They set off only after two nights of successively falling temperatures. These decision rules are strikingly similar to those of migrating songbirds.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "A darning needle in green and blue",
+      "text": "Green darners grow to about 8 cm long, among the larger dragonflies. Both sexes have a green thorax; males have a bright blue band near the base of the long, slender abdomen, which gives the group its name from its likeness to a darning needle.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Laying in tandem",
+      "text": "After mating, the pair stays linked: the male keeps hold of the female while she lays eggs in floating stems and leaves. The aquatic nymphs live in shallow water near the shore and pass through 9 to 13 moults before climbing out to become adults.",
+      "certainty": "confirmed",
+      "ref": 3
+    }
+  ],
+  "references": [
+    {
+      "title": "Anax junius — Paulson, D.R.",
+      "publisher": "IUCN Red List of Threatened Species",
+      "url": "https://www.iucnredlist.org/species/165081/65831504",
+      "year": 2018
+    },
+    {
+      "title": "Simple rules guide dragonfly migration. Biol Lett 2: 325–329",
+      "publisher": "Biology Letters",
+      "authors": "Wikelski, M., Moskowitz, D., Adelman, J.S., Cochran, J., Wilcove, D.S. & May, M.L.",
+      "year": 2006,
+      "url": "https://doi.org/10.1098/rsbl.2006.0487"
+    },
+    {
+      "title": "Tracking dragons: stable isotopes reveal the annual cycle of a long-distance migratory insect. Biol Lett 14: 20180741",
+      "publisher": "Biology Letters",
+      "authors": "Hallworth, M.T., Marra, P.P., McFarland, K.P., Zahendra, S. & Studds, C.E.",
+      "year": 2018,
+      "url": "https://doi.org/10.1098/rsbl.2018.0741"
+    },
+    {
+      "title": "Anax junius (common green darner)",
+      "publisher": "Animal Diversity Web, University of Michigan",
+      "url": "https://animaldiversity.org/accounts/Anax_junius/"
+    },
+    {
+      "title": "Anax junius (Drury, 1773)",
+      "publisher": "GBIF",
+      "url": "https://www.gbif.org/species/5051741"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/common-green-darner/hero.webp",
+    "width": 1920,
+    "height": 896,
+    "alt": "A male green darner dragonfly in side view, hovering against a soft blue and peach background, its green thorax and large eyes in sharp focus, with a long abdomen banded blue near the base and four clear wings outstretched",
+    "caption": "A male hovering over a pond at San Joaquin Wildlife Sanctuary, California",
+    "creator": "Peterwchen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anax_junius-hovering.jpg",
+    "species": "Anax junius",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "55% 50%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/common-green-darner/alt-1.webp",
+      "width": 1920,
+      "height": 1280,
+      "alt": "A pair of green darners linked in tandem on floating stems in a pond, the male in front holding the female behind the head as she lays eggs into the vegetation",
+      "caption": "A pair laying eggs in tandem, the male still holding the female",
+      "creator": "Eugene Zelenko",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anax_junius-Laying_eggs-2.jpg",
+      "species": "Anax junius",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "55% 45%",
+      "tone": "dark"
+    },
+    {
+      "src": "/media/creatures/common-green-darner/alt-2.webp",
+      "width": 1920,
+      "height": 1488,
+      "alt": "A green darner in flight over a blurred background of green grass, its pale blue abdomen and translucent wings caught mid-beat",
+      "caption": "On the wing at Patagonia Lake State Park, Arizona, in August 2010",
+      "creator": "Alan Schmierer",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:DARNER,_COMMON_GREEN_(Anax_junius)_(8-27-10)_pat_lake_state_park,_scc,_az_-01_(4933645198).jpg",
+      "species": "Anax junius",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "60% 40%",
+      "tone": "light"
+    }
+  ],
+  "notes": "IUCN Least Concern per Paulson (2018), e.T165081A65831504. iucnredlist.org, gbif.org and doi.org/royalsocietypublishing.org return 403 to automated requests. The category and IUCN taxon ID were confirmed via the GBIF API (iucnRedListCategory: LC, iucnTaxonID 165081) and the assessment DOI 10.2305/IUCN.UK.2018-1.RLTS.T165081A65831504.en, which redirects to the cited page. The Wikelski et al. (2006) and Hallworth et al. (2018) figures come from their abstracts via Europe PMC (PMC1686212, PMC6303508) and Crossref. Hallworth et al. give distances as 'further than 650 km' (north) and 'further than 680 km' (south). Size, colour, tandem egg-laying, nymph habitat (water under 0.5 m deep), instar count and diet are from ADW. The abstract of Wikelski et al. does not give the tracking year, so the fact text does not give one either. Regions: north-american-forests first (breeds widely across the US and southern Canada); north-american-deserts (ADW lists desert habitats near water, and the resident southern generation lives in the southern US and Mexico; alt-2 is from Arizona); central-america (ADW: northern migrants winter in Central America, including the Yucatán, Belize and Veracruz). Hawaii, the West Indies and East Asian records are mentioned in the range but not mapped. Biome: wetland, because the species breeds in ponds and still water. Images: hero (California, 2018) and alt-1 (Zelenko, 2008, location not stated) are CC BY-SA 4.0. alt-2 is CC0 (Alan Schmierer, Flickr); its title abbreviates 'pat lake state park, scc, az', read here as Patagonia Lake State Park, Santa Cruz County, Arizona. The alt-2 darner is a dull-blue individual in flight. Its sex is not stated, so the caption does not give one."
+}
