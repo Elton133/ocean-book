@@ -1,0 +1,146 @@
+{
+  "slug": "fennec-fox",
+  "realm": "land",
+  "commonName": "Fennec Fox",
+  "scientificName": "Vulpes zerda",
+  "authority": "(Zimmermann, 1780)",
+  "gbifId": 5219310,
+  "iucnId": 41588,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Canidae"
+  },
+  "group": "Fox",
+  "categories": [
+    "desert-survivors",
+    "nocturnal"
+  ],
+  "tagline": "The smallest fox, with the biggest ears for its size",
+  "summary": "The fennec is the smallest of all the dog family, a sand-coloured fox of the Sahara that spends the hot day in a burrow and hunts at night. Its enormous ears do two jobs at once: they shed body heat, and they pick up the sound of insects and rodents moving beneath the sand.",
+  "ability": "giant ears for cooling and listening",
+  "stats": {
+    "size": "Body about 36–41 cm plus an 18–30 cm tail; about 0.8–1.5 kg",
+    "habitat": "Sandy desert and arid scrub; shelters in burrows by day",
+    "range": "Throughout the Sahara, east to Sinai and Arabia",
+    "diet": "Insects, small rodents, lizards, birds and eggs, plus roots, fruits and leaves",
+    "conservation": "IUCN: Least Concern (2015 assessment)"
+  },
+  "regions": [
+    "sahara-arabia"
+  ],
+  "biome": "desert",
+  "facts": [
+    {
+      "title": "All ears",
+      "text": "The fennec has the largest ears relative to its body size of any member of the dog family. They can reach 10–15 cm long on an animal that weighs little more than a kilogram.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Radiators and radar",
+      "text": "Those ears dissipate heat, and they are sensitive enough for the fox to hear prey moving under the sand. Once it has located a meal, the fennec digs with all four feet to reach it.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "The smallest canid",
+      "text": "The fennec is the smallest of all canids. Adults weigh roughly 0.8–1.5 kg, smaller than many pet cats.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "No need to drink",
+      "text": "Fennecs can go for long periods, possibly indefinitely, without drinking free water. Much of their moisture comes from food, including fruit, leaves and roots.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Fur-lined slippers",
+      "text": "The soles of the feet are thickly furred, protecting the pads from hot sand and giving grip on loose dunes.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Night shift",
+      "text": "Fennecs spend the hottest hours in burrows they dig themselves and come out to hunt at night. A reflective layer behind the retina, the tapetum, helps them see in the dark.",
+      "certainty": "confirmed",
+      "ref": 2
+    }
+  ],
+  "references": [
+    {
+      "title": "Vulpes zerda (Fennec) — Wacher, Bauman & Cuzin",
+      "publisher": "IUCN Red List of Threatened Species",
+      "url": "https://www.iucnredlist.org/species/41588/46173447",
+      "year": 2015
+    },
+    {
+      "title": "Fennec fox",
+      "publisher": "Smithsonian's National Zoo & Conservation Biology Institute",
+      "url": "https://nationalzoo.si.edu/animals/fennec-fox"
+    },
+    {
+      "title": "Vulpes zerda (fennec)",
+      "publisher": "Animal Diversity Web, University of Michigan",
+      "url": "https://animaldiversity.org/accounts/Vulpes_zerda/"
+    },
+    {
+      "title": "Vulpes zerda (Zimmermann, 1780)",
+      "publisher": "GBIF",
+      "url": "https://www.gbif.org/species/5219310"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/fennec-fox/hero.webp",
+    "width": 1920,
+    "height": 1286,
+    "alt": "Four pale sandy fennec foxes curled up together on a smooth pinkish rock, their huge pointed ears upright, one fox peering towards the camera",
+    "caption": "A huddle of fennecs in Morocco; the one in front peeks at the photographer",
+    "creator": "Anass ERRIHANI",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fennec_Fox_Peek.jpg",
+    "species": "Vulpes zerda",
+    "type": "photograph",
+    "setting": "unknown",
+    "focal": "42% 55%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/fennec-fox/alt-1.webp",
+      "width": 1920,
+      "height": 1233,
+      "alt": "Close-up of a fennec fox's face resting in a sandy hollow, framed by two enormous upright ears, one eye half-closed",
+      "caption": "Ears almost as long as its head: a fennec photographed in Algeria",
+      "creator": "bilal brzm",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fennec_of_algeria.jpg",
+      "species": "Vulpes zerda",
+      "type": "photograph",
+      "setting": "unknown",
+      "focal": "40% 45%",
+      "tone": "light"
+    },
+    {
+      "src": "/media/creatures/fennec-fox/alt-2.webp",
+      "width": 862,
+      "height": 638,
+      "alt": "Black-and-white photograph of two young fennec foxes looking out from the dark mouth of a burrow dug into sandy ground",
+      "caption": "Two fennec cubs at their burrow in Wadi Muwellih, Egypt, from The Contemporary Land Mammals of Egypt (1980)",
+      "creator": "Dale J. Osborn and Ibrahim Helmy",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-US-1978-89",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vulpes_zerda_cubs.jpg",
+      "species": "Vulpes zerda",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "50% 50%",
+      "tone": "dark"
+    }
+  ],
+  "notes": "IUCN Least Concern per the Red List assessment by Wacher, Bauman & Cuzin, published 2015 (e.T41588A46173447); iucnredlist.org blocks automated fetching, so the category and year were confirmed via secondary citations of that assessment, not the live page. Size: Smithsonian gives 14–16 in body (about 36–41 cm), 7–12 in tail (18–30 cm); mass 0.8–1.5 kg from ADW (Smithsonian says 2–3 lb). Ear length 10–15 cm from Smithsonian (ADW says 15 cm). ADW's text still calls the species Data Deficient (an outdated listing) — not used. Images: the hero (Wiki Loves Earth Morocco 2017, featured picture) and alt-1 (WLE Algeria 2019) do not state whether the animals were wild or captive; four relaxed adults on a rock suggest they may be tame or kept, so setting is 'unknown'. alt-2 is a wild cub pair at a burrow (public domain, US publication 1980 without notice). Regions: sahara-arabia only — the range reaches Sinai, Kuwait and northern Nigeria/Chad edges, all within or bordering that region."
+}

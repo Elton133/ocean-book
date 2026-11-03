@@ -1,0 +1,90 @@
+{
+  "extraReferences": [
+    { "title": "Giraffa camelopardalis (giraffe) — species record", "publisher": "Animal Genome Size Database", "authors": "Gregory, T.R.", "url": "https://www.genomesize.com/result_species.php?id=4227" },
+    { "title": "Giraffa camelopardalis rothschildi genome assembly ASM1759144v1 (GCA_017591445.1)", "publisher": "NCBI Datasets", "year": 2021, "url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_017591445.1/" },
+    { "title": "Giraffe genome sequence reveals clues to its unique morphology and physiology. Nature Communications 7: 11519", "publisher": "Nature Communications", "authors": "Agaba, M. et al.", "year": 2016, "url": "https://doi.org/10.1038/ncomms11519" },
+    { "title": "Gravitational haemodynamics and oedema prevention in the giraffe. Nature 329: 59–60", "publisher": "Nature", "authors": "Hargens, A.R. et al.", "year": 1987, "url": "https://doi.org/10.1038/329059a0" },
+    { "title": "Behavioural sleep in the giraffe (Giraffa camelopardalis) in a zoological garden. Journal of Sleep Research 5: 21–32", "publisher": "Journal of Sleep Research", "authors": "Tobler, I. & Schwierin, B.", "year": 1996, "url": "https://doi.org/10.1046/j.1365-2869.1996.00010.x" },
+    { "title": "Nocturnal 'humming' vocalizations: adding a piece to the puzzle of giraffe vocal communication. BMC Research Notes 8: 425", "publisher": "BMC Research Notes", "authors": "Baotic, A., Sicks, F. & Stoeger, A.S.", "year": 2015, "url": "https://doi.org/10.1186/s13104-015-1394-3" }
+  ],
+  "anatomy": {
+    "lede": "The tallest animal alive is a feat of engineering: a two-metre neck on seven bones, a heart that must pump blood uphill to the brain, and legs sheathed in tight skin that keeps blood from pooling in the feet.",
+    "media": 0,
+    "hotspots": [
+      { "id": "ossicones", "label": "Ossicones", "x": 62, "y": 20, "text": "The 'horns' are bony knobs covered in skin and fur. Males' are thick and worn bald on top from sparring; females' are thin and tufted.", "ref": 1 },
+      { "id": "eye", "label": "Eye", "x": 64, "y": 26, "text": "Very large eyes, held high above the savanna, let a giraffe keep watch on its herd and spot predators far away.", "ref": 1 },
+      { "id": "neck", "label": "Neck", "x": 55, "y": 34, "text": "A bull's neck is about 2.4 m long. Males swing their necks and heads at each other in fights known as necking.", "ref": 1 },
+      { "id": "heart", "label": "Chest", "x": 44, "y": 50, "text": "Near the heart, arterial blood pressure is about twice that of a human — enough to push blood up the long neck to the brain.", "ref": 8 },
+      { "id": "coat", "label": "Coat", "x": 38, "y": 56, "text": "Patch patterns differ between giraffe populations and stay the same throughout an individual's life, helping to camouflage it in scrub.", "ref": 1 },
+      { "id": "legs", "label": "Legs", "x": 45, "y": 78, "text": "Tight skin on the legs, together with narrowing blood vessels, stops blood and fluid pooling in the feet.", "ref": 8 },
+      { "id": "hooves", "label": "Hooves", "x": 46, "y": 92, "text": "A kick from the front hooves can kill. Adults can run fast, but also stand and defend themselves.", "ref": 1 },
+      { "id": "tail", "label": "Tail", "x": 26, "y": 73, "text": "The tail, 76–101 cm long, ends in a black tuft that whisks away flies.", "ref": 1 }
+    ],
+    "stats": [
+      { "value": "5.7 m", "label": "Height of a bull", "ref": 1 },
+      { "value": "2.4 m", "label": "Neck length", "ref": 1 },
+      { "value": "1,930 kg", "label": "Heaviest bulls", "ref": 1 },
+      { "value": "60 km/h", "label": "Top running speed", "ref": 1 }
+    ]
+  },
+  "senses": {
+    "lede": "Height is a giraffe's greatest sense organ. From up to 5.7 metres, it keeps watch over a scattered herd and the land around it.",
+    "senses": [
+      { "kind": "sight", "name": "Sight", "text": "Keen eyesight and great height let giraffes stay in visual contact with herd-mates at long distances and spot predators early.", "certainty": "confirmed", "ref": 1 },
+      { "kind": "smell", "name": "Smell and taste", "text": "A courting bull tests a female's urine, curling his lip in a gesture called flehmen, to judge whether she is ready to mate.", "certainty": "confirmed", "ref": 1 },
+      { "kind": "hearing", "name": "Hearing", "text": "Giraffes are often said to talk in infrasound like elephants, but over 947 hours of zoo recordings found no infrasonic calls — only snorts, grunts and a low night-time hum.", "certainty": "hypothesis", "ref": 10 }
+    ]
+  },
+  "body": {
+    "lede": "Being tall poses problems no other mammal faces, from pumping blood two metres uphill to digesting tough, thorny leaves.",
+    "systems": [
+      { "title": "High-pressure circulation", "text": "Giraffes have about twice a human's arterial blood pressure at heart level. Tight skin, constricting small arteries and leak-resistant capillaries stop fluid building up in the legs.", "certainty": "confirmed", "ref": 8 },
+      { "title": "Four stomachs", "text": "Giraffes are ruminants with a four-chambered stomach. They chew the cud, even while walking, which lets them make the most of feeding time.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Thorn-proof mouth", "text": "A 45 cm tongue, narrow muzzle and flexible upper lip strip leaves from thorny acacias, and the molars crush the thorns.", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "genome": {
+    "lede": "The giraffe genome was published in 2016 alongside that of its closest relative, the short-necked okapi, so that the two could be compared gene by gene.",
+    "diploid": 30,
+    "genomeGb": 2.4,
+    "refs": { "diploid": 5, "genome": 6 },
+    "sequenced": 2016,
+    "findings": [
+      { "title": "Neck and heart evolved together", "text": "Genes with changes unique to the giraffe include some in the HOX, NOTCH and FGF pathways, which shape both the skeleton and the cardiovascular system. The long neck and the powerful heart may therefore have evolved in parallel through a small number of genes.", "certainty": "hypothesis", "ref": 7 },
+      { "title": "Built for a toxic diet", "text": "Genes for mitochondrial metabolism and for transporting fatty acids have diverged in the giraffe, perhaps linked to a diet that includes poisonous plants.", "certainty": "hypothesis", "ref": 7 },
+      { "title": "One species or several", "text": "Genetic markers from 190 giraffes across Africa revealed at least four distinct lineages, which some researchers propose are separate species.", "certainty": "hypothesis", "ref": 2 }
+    ]
+  },
+  "mind": {
+    "lede": "Long thought silent and simple, giraffes are turning out to have richer social and vocal lives than once believed.",
+    "studies": [
+      { "year": "1996", "title": "Under five hours of sleep", "text": "Video of zoo giraffes over 152 nights found they slept about 4.6 hours a day, in short bouts, both standing and lying down. Deep sleep, with the head resting on the rump, made up under 5% of that time.", "certainty": "confirmed", "ref": 9 },
+      { "year": "2015", "title": "A hum in the night", "text": "Night-time recordings in three European zoos picked up sustained, harmonic 'humming' calls that may carry information about the caller.", "certainty": "hypothesis", "ref": 10 },
+      { "year": "Field", "title": "Sizing each other up", "text": "Males settle rank by sparring: walking side by side, intertwining necks and leaning on each other to test strength, before swinging blows if it escalates.", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "survival": {
+    "lede": "A healthy adult giraffe is a formidable opponent. Predators mostly target calves and the old or sick.",
+    "tactics": [
+      { "title": "Lethal kicks", "text": "Adults stay vigilant and can run fast or deliver deadly blows with their front hooves.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Watching from above", "text": "Herds spread out to feed and gather together when threatened, keeping in sight of one another from their great height.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Hidden calves", "text": "For its first week a calf lies hidden on the ground, with its mother feeding within 25 m.", "certainty": "confirmed", "ref": 1 }
+    ],
+    "predators": ["Lions", "Leopards", "Hyenas", "Crocodiles"],
+    "threats": [
+      { "title": "Illegal hunting", "text": "Giraffes are poached for their meat, skin and tail.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Losing ground", "text": "Habitat loss, expanding farms and mines, conflict with people and civil unrest cut giraffe numbers by about 40% between 1985 and 2015.", "certainty": "confirmed", "ref": 3 }
+    ]
+  },
+  "life": {
+    "lede": "A giraffe begins life with a two-metre fall and is on its feet within minutes.",
+    "stages": [
+      { "name": "Pregnancy", "duration": "about 457 days", "text": "Mothers give birth standing up or walking, usually to a single calf. Females breed every 20–30 months.", "ref": 1 },
+      { "name": "Newborn", "duration": "first week", "text": "The 50–55 kg calf is standing and suckling about 15 minutes after birth, then spends much of its first week hidden.", "ref": 1 },
+      { "name": "Crèche", "duration": "from 3–4 weeks", "text": "Calves join a nursery group watched over by mothers in turn, so each mother can roam up to 200 m away to feed.", "ref": 1 },
+      { "name": "Weaning", "duration": "12–16 months", "text": "Females wean at 12–16 months and stay in the herd; young males tend to become solitary.", "ref": 1 },
+      { "name": "Adult", "duration": "from 3–7 years", "text": "Females mature at 3–4 years but breed a year or more later; males mature at 4–5 years and start to breed at about seven.", "ref": 1 }
+    ],
+    "lifespan": { "value": "10–15 years in the wild; 20–27 years in zoos", "ref": 1 }
+  }
+}

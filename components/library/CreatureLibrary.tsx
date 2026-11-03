@@ -3,11 +3,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
-import { useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
+import { Fragment, useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
 import type { LibraryEntry } from "@/lib/catalogue";
 import type { CategorySlug } from "@/lib/types";
 import { CATEGORIES, categoryTitle } from "@/lib/categories";
-import { ZONES, type Zone, type ZoneSlug } from "@/lib/zones";
+import { ZONES, zoneBySlug, type ZoneSlug } from "@/lib/zones";
+import { REGIONS } from "@/lib/world";
 import { EASE_OUT } from "@/lib/motion";
 import { Environment } from "./Environment";
 
@@ -62,9 +63,17 @@ const CLOTH: Record<ZoneSlug, string[]> = {
 const clothFor = (e: LibraryEntry, i: number) => CLOTH[e.zone][(i + e.commonName.length) % CLOTH[e.zone].length];
 
 const ROMAN = ["I", "II", "III", "IV", "V"];
+
+const OCEANS = REGIONS.filter((r) => r.realm === "ocean");
+/* Surface water for each ocean's shelf: warm blue to polar grey. */
+const OCEAN_WATER = ["#0e6c9a", "#0d5a86", "#0f6b7e", "#2b5168", "#3a5566"];
+/* Zone first, so each depth band stays together on the shelf, then shallowest first within it. */
+const zoneRank = (z: ZoneSlug) => ZONES.findIndex((x) => x.slug === z);
+const byDepth = (a: LibraryEntry, b: LibraryEntry) =>
+  zoneRank(a.zone) - zoneRank(b.zone) || a.depthRange.min - b.depthRange.min || a.depthRange.max - b.depthRange.max;
 const fmt = (n: number) => n.toLocaleString("en-GB");
 
-function Shelf({ items, q, zone }: { items: LibraryEntry[]; q: string; zone: Zone }) {
+function Shelf({ items, q }: { items: LibraryEntry[]; q: string }) {
   const reduced = useReducedMotion();
   const [open, setOpen] = useState<string | null>(null);
   const ref = useRef<HTMLDivElement>(null);
@@ -90,9 +99,17 @@ function Shelf({ items, q, zone }: { items: LibraryEntry[]; q: string; zone: Zon
       <ul className="flex h-[54vh] min-h-[380px] items-end gap-[3px]">
         {items.map((e, i) => {
           const isOpen = open === e.slug;
+          const zone = zoneBySlug(e.zone);
+          const newZone = i === 0 || items[i - 1].zone !== e.zone;
           return (
+            <Fragment key={e.slug}>
+            {newZone && (
+              <li aria-hidden className="relative mx-2 flex h-full shrink-0 flex-col items-center justify-end gap-2 pb-1">
+                <span className="w-px flex-1 bg-gradient-to-b from-transparent via-ivory/25 to-ivory/40" />
+                <span className="annot whitespace-nowrap text-[0.55rem] uppercase tracking-[0.16em] opacity-60 [writing-mode:vertical-rl]">{zone.name.replace(/^The /, "")}</span>
+              </li>
+            )}
             <motion.li
-              key={e.slug}
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-10%" }}
@@ -139,11 +156,12 @@ function Shelf({ items, q, zone }: { items: LibraryEntry[]; q: string; zone: Zon
                   <p className="mt-3 text-sm leading-snug opacity-80">{e.tagline}</p>
                   {q && matchReason(e, q) && <p className="annot mt-2 text-biolume">Matched: {matchReason(e, q)}</p>}
                   <p className="annot mt-3 opacity-60">
-                    {e.pageCount} pages · {zone.scientific} · Open →
+                    {e.pageCount} pages · {zone.scientific} · {fmt(e.depthRange.min)}–{fmt(e.depthRange.max)} m · Open →
                   </p>
                 </motion.div>
               </Link>
             </motion.li>
+            </Fragment>
           );
         })}
       </ul>
@@ -192,12 +210,13 @@ export function CreatureLibrary({ entries }: { entries: LibraryEntry[] }) {
     () => index.filter(({ e, h }) => (shelf === "all" || e.categories.includes(shelf)) && (!q || q.split(/\s+/).every((w) => h.includes(w)))).map(({ e }) => e),
     [index, shelf, q],
   );
-  const byZone = useMemo(
+  // One shelf per ocean, each running from the shallows to the deep; an animal of several oceans sits on each.
+  const byOcean = useMemo(
     () =>
-      ZONES.map((z) => ({
-        zone: z,
-        items: results.filter((e) => e.zone === z.slug).sort((a, b) => a.depthRange.min - b.depthRange.min || a.depthRange.max - b.depthRange.max),
-        total: entries.filter((e) => e.zone === z.slug).length,
+      OCEANS.map((o) => ({
+        ocean: o,
+        items: results.filter((e) => e.oceans.includes(o.slug)).sort(byDepth),
+        total: entries.filter((e) => e.oceans.includes(o.slug)).length,
       })),
     [results, entries],
   );
@@ -225,11 +244,11 @@ export function CreatureLibrary({ entries }: { entries: LibraryEntry[] }) {
       <div className="relative px-5 pb-6 pt-24 sm:px-10 md:pl-24 lg:px-16 lg:pl-28" style={{ background: `linear-gradient(180deg, var(--abyss), ${ZONES[0].water[0]})` }}>
         <div className="flex flex-col gap-10 lg:flex-row lg:items-end lg:justify-between">
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 1.2, ease: EASE_OUT }}>
-            <p className="eyebrow opacity-70">The Library · a descent</p>
+            <p className="eyebrow opacity-70">The Ocean Library · five oceans</p>
             <h2 className="display mt-3 text-[clamp(3rem,7vw,7rem)] leading-[0.9]">
               {entries.length} <i>volumes</i>,
               <br />
-              <span className="text-[0.55em] italic opacity-80">from the surface to the trenches</span>
+              <span className="text-[0.55em] italic opacity-80">ocean by ocean, shallow to deep</span>
             </h2>
           </motion.div>
 
@@ -291,7 +310,7 @@ export function CreatureLibrary({ entries }: { entries: LibraryEntry[] }) {
                 ? `${results.length} ${results.length === 1 ? "volume matches" : "volumes match"} “${query.trim()}”.`
                 : cat
                   ? cat.blurb
-                  : "Scroll down to descend. The shelves are arranged by the depth at which each animal usually lives."}
+                  : "One shelf for each ocean. Along each shelf the animals run from the sunlit surface down to the deepest water they are known from."}
             </motion.p>
           </AnimatePresence>
           <div className="hidden shrink-0 items-baseline gap-3 md:flex" role="group" aria-label="View">
@@ -304,18 +323,16 @@ export function CreatureLibrary({ entries }: { entries: LibraryEntry[] }) {
         </div>
       </div>
 
-      {/* The descent */}
-      {byZone.map(({ zone, items, total }, zi) => (
+      {/* The oceans, each read from the surface down */}
+      {byOcean.map(({ ocean, items, total }, oi) => (
         <section
-          key={zone.slug}
-          data-zone={zone.slug}
-          data-from={zone.from}
-          data-to={zone.to}
-          aria-label={`${zone.name}, ${fmt(zone.from)} to ${fmt(zone.to)} metres`}
-          className={`relative overflow-hidden px-5 sm:px-10 md:pl-24 lg:px-16 lg:pl-28 ${items.length ? "min-h-[100svh] py-24" : filtering ? "py-16" : "min-h-[70svh] py-24"}`}
-          style={{ background: `linear-gradient(180deg, ${zone.water[0]}, ${zone.water[1]})` }}
+          key={ocean.slug}
+          id={`ocean-${ocean.slug}`}
+          aria-label={`${ocean.name}: ${total} volumes, shallow to deep`}
+          className={`relative overflow-hidden px-5 sm:px-10 md:pl-24 lg:px-16 lg:pl-28 ${items.length ? "py-24" : filtering ? "py-14" : "py-20"}`}
+          style={{ background: `linear-gradient(180deg, ${OCEAN_WATER[oi % OCEAN_WATER.length]}, ${ZONES[2].water[1]})` }}
         >
-          <Environment zone={zone.slug} />
+          <Environment zone={oi % 2 ? "twilight" : "surface"} />
           <div className="relative z-10">
             <motion.header
               initial={{ opacity: 0, y: 40 }}
@@ -326,27 +343,25 @@ export function CreatureLibrary({ entries }: { entries: LibraryEntry[] }) {
             >
               <div className="lg:col-span-7">
                 <p className="eyebrow opacity-70">
-                  Zone {ROMAN[zi]} · {zone.scientific} · {fmt(zone.from)}–{fmt(zone.to)} m
+                  Ocean {ROMAN[oi]} · {filtering ? `${items.length} of ${total}` : total} {total === 1 ? "volume" : "volumes"}
                 </p>
-                <h3 className="display mt-3 text-[clamp(2.8rem,7vw,7.5rem)] leading-[0.9]">{zone.name}</h3>
+                <h3 className="display mt-3 text-[clamp(2.8rem,7vw,7.5rem)] leading-[0.9]">{ocean.name}</h3>
               </div>
               <div className="flex items-end lg:col-span-5">
                 <p className="display text-xl italic leading-snug opacity-85 sm:text-2xl">
-                  {zone.line}
-                  <span className="annot mt-2 block not-italic opacity-70">
-                    {filtering ? `${items.length} of ${total}` : total} {total === 1 ? "volume" : "volumes"} on this shelf
-                  </span>
+                  {ocean.line}
+                  <span className="annot mt-2 block not-italic opacity-70">Shelved from the sunlit surface down to the trenches</span>
                 </p>
               </div>
             </motion.header>
 
             {items.length > 0 ? (
               <>
-                {view === "shelf" && <Shelf items={items} q={q} zone={zone} />}
+                {view === "shelf" && <Shelf items={items} q={q} />}
                 <IndexList items={items} q={q} always={view === "index"} />
               </>
             ) : (
-              <p className="display mt-10 text-2xl italic opacity-50">{filtering ? "Nothing at this depth matches." : "No volumes yet."}</p>
+              <p className="display mt-10 text-2xl italic opacity-50">{filtering ? "Nothing in this ocean matches." : "No volumes yet."}</p>
             )}
           </div>
         </section>
@@ -361,7 +376,7 @@ export function CreatureLibrary({ entries }: { entries: LibraryEntry[] }) {
             }}
             className="display border-b border-ivory/40 pb-1 text-xl italic opacity-80 hover:opacity-100"
           >
-            Clear the search and descend again
+            Clear the search
           </button>
         </div>
       )}

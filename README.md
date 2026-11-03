@@ -1,6 +1,6 @@
-# The Ocean Book
+# The Wild Book
 
-An immersive, horizontally paged natural-history book of extraordinary marine animals. It is built with Next.js 16, TypeScript, Tailwind CSS 4 and Framer Motion.
+An immersive, horizontally paged natural-history book of extraordinary animals on land, in the air and beneath the sea. It is built with Next.js 16, TypeScript, Tailwind CSS 4 and Framer Motion.
 
 ```bash
 npm install
@@ -23,12 +23,20 @@ npm run build      # same, then a production build
 | `components/pages/` | Reusable spreads: cover, profile, feature, field notes, plate, depth, closing (references, credits, related). |
 | `components/octopus/` | Octopus interactives: anatomy plate, skin lab (chromatophores and papillae), nervous system, circulation, ink escape, life cycle, range arc. |
 | `components/signature/` | Signature interactives: anglerfish lure, mantis shrimp vision and strike, barreleye eyes, dumbo octopus swimming. |
+| `app/explore/` | The Living World: a draggable globe (`/explore`) and a zoomed map with documentary cards for each region (`/explore/[region]`). |
+| `data/world.json` | Biomes and regions (land and ocean basins): names, centroids, colours. Shared by the app and the catalogue validator. |
+| `data/region-shapes.ts` | Simplified outlines of the land regions, used for tapping and tinting on the globe. |
+| `data/species-index.json` | Every species shown on the globe, with a locality pin and an openly licensed thumbnail; those with a record in `data/creatures/` open their book. |
+| `data/deep/<slug>.json` | Optional deep chapters for any animal — anatomy (labels placed on its own photograph), senses, body, genome, mind, survival and life cycle — in the `Deep` shape from `lib/types.ts`. `extraReferences` extend the record's references; the catalogue script checks every `ref`. Rendered by `components/deep/DeepSpreads.tsx`; the book builder adds only the chapters that have data. |
+| `data/films.json` | One YouTube film per animal (or `null`), each checked with YouTube's oEmbed to be public and embeddable. Title and channel are YouTube's own; `note` records why it was chosen and is not shown to readers. A different species is never used as a stand-in. |
+| `components/explore/` | Globe, region map, animal cards and the shared Earth renderer (d3-geo on canvas). |
 | `components/motion/` | Motion primitives: `Reveal`, `SplitText` (kinetic type), `Rule`, `Parallax`, and the per-page motion context. |
 
 ### Adding a creature
 
 1. Add `data/creatures/<slug>.json` that follows the `Creature` schema, and put its media in `public/media/creatures/<slug>/`.
 2. Run `npm run catalogue`. The creature then appears in the library with an auto-built book.
+   Land animals set `"realm": "land"`, a `biome`, one or more `regions` (from `data/world.json`, the first being the region it is documented under) and `stats.habitat` instead of a depth. Their book takes its colours from the biome and ends on a range globe instead of the depth gauge.
 3. Optionally, give it an authored book (see `AUTHORED` in `lib/catalogue.ts`) or a signature chapter (see `SIGNATURE` in `lib/book-builder.ts`).
 
 ### Motion

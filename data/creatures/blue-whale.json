@@ -1,0 +1,167 @@
+{
+  "slug": "blue-whale",
+  "realm": "ocean",
+  "commonName": "Blue Whale",
+  "scientificName": "Balaenoptera musculus",
+  "authority": "(Linnaeus, 1758)",
+  "aphiaId": 137090,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Cetartiodactyla",
+    "family": "Balaenopteridae"
+  },
+  "group": "Baleen whale",
+  "categories": [
+    "giants"
+  ],
+  "tagline": "The largest animal that has ever lived",
+  "summary": "A slender, mottled blue-grey rorqual that can pass 30 metres and 150 tonnes, making it the largest animal known to have existed. It lives almost entirely on krill, gulping huge mouthfuls of water and straining them through baleen, and its low, powerful calls carry across ocean basins.",
+  "ability": "lunge feeding: engulfing and filtering vast mouthfuls of krill",
+  "stats": {
+    "size": "Up to about 33 m and 150 tonnes in the Antarctic; about 27 m in the North Atlantic and North Pacific",
+    "depth": "Feeds in the upper ocean; tagged whales dived to 204 m",
+    "range": "All oceans except the Arctic; summers on polar feeding grounds, winters towards the tropics",
+    "diet": "Almost exclusively krill; occasionally fish and copepods",
+    "conservation": "IUCN: Endangered (2018)"
+  },
+  "depthRange": {
+    "min": 0,
+    "max": 204
+  },
+  "regions": [
+    "pacific-ocean",
+    "atlantic-ocean",
+    "indian-ocean",
+    "southern-ocean"
+  ],
+  "facts": [
+    {
+      "title": "Bigger than any dinosaur",
+      "text": "NOAA describes the blue whale as the largest animal ever to live on our planet. Antarctic blue whales are the biggest, reaching about 33 m and more than 150 tonnes; females are generally larger than males.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "A mouthful of krill",
+      "text": "It swims at a swarm of krill with its mouth open, inflating its pleated throat, then pushes the water out with its tongue while baleen plates hanging from the roof of the mouth hold the krill inside. The biggest whales may eat around 5 tonnes of krill a day.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Two beats a minute",
+      "text": "An electrocardiogram tag on a whale feeding in Monterey Bay recorded heart rates of 4–8 beats a minute during dives, and as low as 2. Back at the surface the heart raced at 25–37 beats a minute.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Short, shallow dives",
+      "text": "For such a big animal it does not dive for long. Seven tagged blue whales off California reached at most 204 m, and their longest dive lasted 14.7 minutes.",
+      "certainty": "confirmed",
+      "ref": 4
+    },
+    {
+      "title": "Songs that are dropping in pitch",
+      "text": "Recordings going back to the 1960s show that blue whale songs worldwide are slowly getting lower. The song heard off California is now sung about 31% lower than in the 1960s, and no single explanation has been proved.",
+      "certainty": "confirmed",
+      "ref": 5
+    },
+    {
+      "title": "Age written in earwax",
+      "text": "Scientists estimate a whale's age by counting the layers in the waxy earplugs of dead animals. On that basis blue whales are thought to live for around 80 to 90 years.",
+      "certainty": "hypothesis",
+      "ref": 1
+    }
+  ],
+  "references": [
+    {
+      "title": "Balaenoptera musculus (Linnaeus, 1758)",
+      "publisher": "WoRMS",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137090"
+    },
+    {
+      "title": "Blue Whale",
+      "publisher": "NOAA Fisheries",
+      "url": "https://www.fisheries.noaa.gov/species/blue-whale"
+    },
+    {
+      "title": "Cooke, J.G. (2018). Balaenoptera musculus (errata version published in 2019). The IUCN Red List of Threatened Species 2018: e.T2477A156923585",
+      "publisher": "IUCN Red List",
+      "url": "https://doi.org/10.2305/IUCN.UK.2018-2.RLTS.T2477A156923585.en",
+      "year": 2018,
+      "authors": "Cooke, J.G."
+    },
+    {
+      "title": "Goldbogen, J.A. et al. (2019). Extreme bradycardia and tachycardia in the world's largest animal. PNAS 116(50): 25329–25332",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "url": "https://doi.org/10.1073/pnas.1914273116",
+      "year": 2019,
+      "authors": "Goldbogen, J.A., Cade, D.E., Calambokidis, J. et al."
+    },
+    {
+      "title": "Croll, D.A. et al. (2001). The diving behavior of blue and fin whales: is dive duration shorter than expected based on oxygen stores? Comparative Biochemistry and Physiology A 129: 797–809",
+      "publisher": "Comparative Biochemistry and Physiology Part A",
+      "url": "https://doi.org/10.1016/S1095-6433(01)00348-8",
+      "year": 2001,
+      "authors": "Croll, D.A., Acevedo-Gutiérrez, A., Tershy, B.R. & Urbán-Ramírez, J."
+    },
+    {
+      "title": "McDonald, M.A., Hildebrand, J.A. & Mesnick, S. (2009). Worldwide decline in tonal frequencies of blue whale songs. Endangered Species Research 9: 13–21",
+      "publisher": "Endangered Species Research",
+      "url": "https://doi.org/10.3354/esr00217",
+      "year": 2009,
+      "authors": "McDonald, M.A., Hildebrand, J.A. & Mesnick, S."
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/blue-whale/hero.webp",
+    "width": 1920,
+    "height": 1330,
+    "alt": "Seen from the air, a long, pale blue-grey whale glides diagonally across dark blue water, its submerged head glowing turquoise at lower left, a misty blow drifting beside it and its tail flukes at upper right.",
+    "caption": "A blue whale at the surface, photographed from the air; the light blue of its body under the water gives the species its name.",
+    "creator": "NOAA Photo Library (anim1754; photographer not named)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg",
+    "species": "Balaenoptera musculus",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "45% 50%",
+    "tone": "dark"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/blue-whale/alt-1.webp",
+      "width": 1920,
+      "height": 1280,
+      "alt": "Head-on view of a grey whale's broad, flat head breaking the surface, with two slit-like blowholes behind a raised ridge and water streaming off either side.",
+      "caption": "A blue whale surfacing with its bow wave, showing the blowholes on top of its head.",
+      "creator": "NOAA",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bluewhale2_noaa.jpg",
+      "species": "Balaenoptera musculus",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "50% 55%",
+      "tone": "dark"
+    },
+    {
+      "src": "/media/creatures/blue-whale/alt-2.webp",
+      "width": 1920,
+      "height": 1280,
+      "alt": "Aerial view of two long blue whales swimming side by side through deep blue water; one sends up a tall white blow.",
+      "caption": "Two blue whales swimming side by side in Channel Islands National Marine Sanctuary, California, 2007.",
+      "creator": "NOAA / Channel Islands National Marine Sanctuary (National Marine Sanctuaries)",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:CINMS_blue_whales_(48765952588).jpg",
+      "species": "Balaenoptera musculus",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "50% 50%",
+      "tone": "dark"
+    }
+  ],
+  "notes": "Taxonomy, order (Cetartiodactyla) and AphiaID from the WoRMS REST API. IUCN status: the IUCN site blocks scripts, so the 2018 assessment (Cooke; errata 2019) was confirmed via its DOI on Crossref, GBIF's IUCN category (EN) and the IUCN SSC Cetacean Specialist Group status page; subspecies and subpopulations have their own listings. NOAA gives size in feet/pounds and krill in US tons; converted (110 ft ≈ 33.5 m, 330,000 lb ≈ 150 t, 6 tons ≈ 5.4 t). Depth gauge uses Croll et al. (2001): maximum dive 204 m among seven tagged whales; Goldbogen et al. (2019) recorded dives to 184 m. Deeper dives may occur but no better-sourced maximum was found. Hero (anim1754) is a NOAA Photo Library image identified as Balaenoptera musculus; location and photographer not given. Regions exclude the Arctic Ocean, following NOAA."
+}

@@ -1,0 +1,74 @@
+{
+  "extraReferences": [
+    { "title": "The genome of the ctenophore Mnemiopsis leidyi and its implications for cell type evolution. Science 342: 1242592", "publisher": "Science", "url": "https://doi.org/10.1126/science.1242592", "year": 2013, "authors": "Ryan J.F., Pang K., Schnitzler C.E. et al." },
+    { "title": "The chromosome-level genome of the ctenophore Mnemiopsis leidyi A. Agassiz, 1865 reveals a unique immune gene repertoire. Genome Biology and Evolution", "publisher": "Genome Biology and Evolution (via PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11797021/", "year": 2025, "authors": "Koutsouveli V., Torres-Oliva M., Bayer T. et al." },
+    { "title": "Genomic organization, evolution, and expression of photoprotein and opsin genes in Mnemiopsis leidyi: a new view of ctenophore photocytes. BMC Biology 10: 107", "publisher": "BMC Biology", "url": "https://doi.org/10.1186/1741-7007-10-107", "year": 2012, "authors": "Schnitzler C.E., Pang K., Powers M.L. et al." },
+    { "title": "Neural connectome of the ctenophore statocyst. eLife", "publisher": "eLife", "url": "https://doi.org/10.7554/elife.108420", "year": 2026, "authors": "Jokura K., Jasek S., Niederhaus L., Burkhardt P., Jékely G." },
+    { "title": "Syncytial nerve net in a ctenophore adds insights on the evolution of nervous systems. Science 380: 293–297", "publisher": "Science", "url": "https://doi.org/10.1126/science.ade5645", "year": 2023, "authors": "Burkhardt P., Colgren J., Medhus A. et al." },
+    { "title": "Surgical removal of a complex sensory organ in highly regenerative ctenophores. Journal of Visualized Experiments", "publisher": "JoVE", "url": "https://doi.org/10.3791/67546", "year": 2025, "authors": "Duh O.A., Hanna M., Edgar A." },
+    { "title": "Cannibalism makes invasive comb jelly, Mnemiopsis leidyi, resilient to unfavourable conditions. Communications Biology 3: 212", "publisher": "Communications Biology", "url": "https://doi.org/10.1038/s42003-020-0940-2", "year": 2020, "authors": "Javidpour J., Molinero J.C., Ramírez-Romero E., Roberts P., Larsen T." }
+  ],
+  "anatomy": {
+    "lede": "A sea walnut is a living bag of seawater with eight shimmering rows of paddles, two big feeding lobes and a balance organ at the top.",
+    "media": 0,
+    "hotspots": [
+      { "id": "comb-row", "label": "Comb row", "x": 68, "y": 13, "text": "Eight rows of comb plates, each made of fused cilia, beat in waves to row the animal along. They scatter light into rainbows.", "ref": 4 },
+      { "id": "comb-row-2", "label": "Rainbow combs", "x": 78, "y": 62, "text": "The colours are diffracted light from the beating plates, not the animal's own glow, and they vanish in darkness.", "ref": 2 },
+      { "id": "lobe-upper", "label": "Oral lobe", "x": 20, "y": 35, "text": "Two large lobes flank the mouth. Lobate comb jellies, the group this species belongs to, are named after them.", "ref": 4 },
+      { "id": "lobe-lower", "label": "Second lobe", "x": 21, "y": 80, "text": "The lobes are among the features lost when a stressed adult reverts to its two-tentacled larval form.", "ref": 1 },
+      { "id": "aboral", "label": "Aboral end", "x": 86, "y": 54, "text": "At the end opposite the mouth sits the aboral organ, a sensory hub with a gravity-sensing statocyst.", "ref": 8 },
+      { "id": "body", "label": "Clear body", "x": 57, "y": 70, "text": "The body is about 97% water, which makes it almost invisible in the sea.", "ref": 4 }
+    ],
+    "stats": [
+      { "value": "7–12 cm", "label": "Adult length", "ref": 4 },
+      { "value": "8", "label": "Comb rows", "ref": 4 },
+      { "value": "97%", "label": "Water content", "ref": 4 },
+      { "value": "up to 10,000", "label": "Eggs from one large adult", "ref": 4 }
+    ]
+  },
+  "senses": {
+    "lede": "With no brain and no eyes, a comb jelly still knows which way is up and can sense light.",
+    "senses": [
+      { "kind": "balance", "name": "Statocyst", "text": "Four clusters of ciliated 'balancer' cells hold up a tiny weight called the statolith. When the animal tilts, the load on the balancers shifts and changes how the comb rows beat, turning it back on course.", "certainty": "confirmed", "ref": 8 },
+      { "kind": "sight", "name": "Light-sensing cells", "text": "Mnemiopsis has three opsin genes, which make light-detecting proteins. Opsins are active in its apical sensory organ and in the cells that make light.", "certainty": "confirmed", "ref": 7 },
+      { "kind": "other", "name": "Seeing its own light?", "text": "One opsin absorbs light at wavelengths that overlap with the animal's own blue-green glow, raising the idea that light production and light sensing are linked.", "certainty": "hypothesis", "ref": 7 }
+    ]
+  },
+  "body": {
+    "lede": "Comb jellies belong to one of the oldest branches of the animal tree, and their bodies work in ways found nowhere else.",
+    "systems": [
+      { "title": "A fused nerve net", "text": "Electron microscopy showed that neurons in its nerve net share one continuous cell membrane, forming a syncytium rather than separate cells linked by synapses.", "certainty": "confirmed", "ref": 9 },
+      { "title": "Light from a protein", "text": "Its genome holds 10 full-length photoprotein genes, the light-making proteins in its photocytes, which line canals running through the body.", "certainty": "confirmed", "ref": 7 },
+      { "title": "Rebuilding the body", "text": "A sea walnut can regenerate any missing organ, and can regrow a whole body from a fragment as small as about 15% of the original in a few days.", "certainty": "confirmed", "ref": 10 }
+    ]
+  },
+  "genome": {
+    "lede": "Mnemiopsis was the first comb jelly to have its genome sequenced, and the result reshaped ideas about the earliest animals.",
+    "genomeGb": 0.25,
+    "refs": { "genome": 6 },
+    "sequenced": 2013,
+    "findings": [
+      { "title": "Sister to all other animals?", "text": "The 2013 genome analysis suggested that comb jellies, not sponges, are the sister group of all other animals.", "certainty": "hypothesis", "ref": 5 },
+      { "title": "Muscles invented twice?", "text": "Mnemiopsis lacks many genes used by bilaterian muscle and other mesodermal cells, suggesting such cell types may have evolved independently in comb jellies.", "certainty": "hypothesis", "ref": 5 },
+      { "title": "Thirteen chromosomes", "text": "A 2025 chromosome-level assembly of about 248 million base pairs found 13 chromosomes and an unusual set of immune genes.", "certainty": "confirmed", "ref": 6 }
+    ]
+  },
+  "survival": {
+    "lede": "The sea walnut is a fragile animal that thrives through sheer numbers and flexibility.",
+    "tactics": [
+      { "title": "Eating its own young", "text": "In the Baltic Sea, once adults have cleared the water of prey, they switch to eating their own larvae and keep building nutrient reserves for lean months.", "certainty": "confirmed", "ref": 11 },
+      { "title": "Tough to kill", "text": "It tolerates salinity from 2 to 38 psu and temperatures from 2 to 32 °C.", "certainty": "confirmed", "ref": 4 },
+      { "title": "Turning back time", "text": "Stressed adults can revert to the larval form and later grow up again, a possible way to ride out hard times.", "certainty": "hypothesis", "ref": 1 }
+    ],
+    "predators": ["Beroe comb jellies"]
+  },
+  "life": {
+    "lede": "A sea walnut is hermaphroditic, so a single animal can fertilise its own eggs.",
+    "stages": [
+      { "name": "Egg", "text": "Spawning starts late in the evening or around 1–2 a.m. Eggs are released into the water, where they are fertilised.", "ref": 4 },
+      { "name": "Cydippid larva", "text": "The young hatch as rounded cydippid larvae with two tentacles, quite unlike the lobed adult.", "ref": 1 },
+      { "name": "Lobate adult", "text": "The larva grows lobes and becomes an adult. Egg-laying can begin at a body length of only about 15 mm.", "ref": 4 },
+      { "name": "Reverse development", "text": "Under stress, an adult can turn back into a cydippid larva, then mature and spawn again.", "ref": 1 }
+    ]
+  }
+}

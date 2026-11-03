@@ -1,0 +1,67 @@
+{
+  "extraReferences": [
+    { "title": "The reproductive biology of the frilled shark, Chlamydoselachus anguineus, from Suruga Bay, Japan. Japanese Journal of Ichthyology 37: 273–291", "publisher": "Japanese Journal of Ichthyology", "url": "https://doi.org/10.11369/jji1950.37.273", "year": 1990, "authors": "Tanaka S., Shiobara Y., Hioki S., Abe H., Nishi G., Yano K., Suzuki K." },
+    { "title": "Food habits of the frilled shark Chlamydoselachus anguineus collected from Suruga Bay, central Japan. Nippon Suisan Gakkaishi 57: 15–20", "publisher": "Nippon Suisan Gakkaishi", "url": "https://doi.org/10.2331/suisan.57.15", "year": 1991, "authors": "Kubota T., Shiobara Y., Kubodera T." },
+    { "title": "Frilled shark", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Frilled_shark" }
+  ],
+  "anatomy": {
+    "lede": "Long, eel-like and dark brown, the frilled shark has a head unlike any other living shark: a mouth at the very tip of the snout and gills edged with frills.",
+    "media": 0,
+    "hotspots": [
+      { "id": "snout", "label": "Snout-tip mouth", "x": 5, "y": 44, "text": "Unlike most sharks, whose mouths sit underneath the head, the frilled shark's mouth is at the front of the snout.", "ref": 1 },
+      { "id": "eye", "label": "Eye", "x": 22, "y": 57, "text": "The eyes are moderately large horizontal ovals and have no protective third eyelid.", "ref": 7 },
+      { "id": "teeth", "label": "Three-pronged teeth", "x": 17, "y": 90, "text": "About 300 trident-shaped teeth line the jaws in 19–29 rows. The small, sharp teeth point inwards.", "ref": 7 },
+      { "id": "jaw", "label": "Long jaws", "x": 36, "y": 69, "text": "The jaws hinge directly to the skull behind the eyes. This is thought to give it a relatively weak bite.", "ref": 7 },
+      { "id": "gills", "label": "Frilled gills", "x": 77, "y": 58, "text": "There are six gill slits on each side, not the usual five, and their frilly edges give the shark its name.", "ref": 1 }
+    ],
+    "stats": [
+      { "value": "almost 2 m", "label": "Largest females", "ref": 1 },
+      { "value": "about 300", "label": "Teeth", "ref": 7 },
+      { "value": "160–171", "label": "Vertebrae", "ref": 7 },
+      { "value": "500–1,000 m", "label": "Usual depth", "ref": 1 }
+    ]
+  },
+  "senses": {
+    "lede": "How a frilled shark finds food in the dark is mostly inferred from its anatomy.",
+    "senses": [
+      { "kind": "vibration", "name": "Open lateral line", "text": "Its lateral line is an open groove, with sensory hair cells exposed directly to the water, which helps it sense movement, vibration and pressure.", "certainty": "confirmed", "ref": 7 },
+      { "kind": "sight", "name": "Sight", "text": "The eyes are moderately large, but how well it sees has not been studied.", "certainty": "uncertain", "ref": 7 }
+    ]
+  },
+  "body": {
+    "lede": "Many features of the frilled shark look like those of very early sharks.",
+    "systems": [
+      { "title": "A simple backbone", "text": "The skeleton is cartilage, and the spinal column is a notochord with only poorly defined vertebrae.", "certainty": "confirmed", "ref": 7 },
+      { "title": "An oily liver", "text": "A large liver full of oil helps it control its buoyancy.", "certainty": "confirmed", "ref": 7 },
+      { "title": "Slow digestion?", "text": "Of 139 sharks examined from Suruga Bay, Japan, 73% had empty stomachs, an unusually high share for a deep-water shark, and the food that was found was heavily digested.", "certainty": "confirmed", "ref": 6 }
+    ]
+  },
+  "mind": {
+    "lede": "Almost nothing has been watched directly; its hunting style is pieced together from stomachs, captives and its body shape.",
+    "studies": [
+      { "year": "1991", "title": "A squid specialist", "text": "Squid and other cephalopods were found in 60% of stomachs that held food, and fish in about 10%. Beaks showed it eats both deep-water and near-surface squid.", "certainty": "confirmed", "ref": 6 },
+      { "year": "Hypothesis", "title": "Strike like a snake", "text": "It may bend its body, brace with its rear fins and lunge forward to seize prey, like a striking snake.", "certainty": "hypothesis", "ref": 7 },
+      { "year": "Captivity", "title": "A gleaming lure", "text": "Captive frilled sharks have been seen swimming with their mouths open. Their white teeth against the dark mouth may attract prey.", "certainty": "uncertain", "ref": 7 }
+    ]
+  },
+  "survival": {
+    "lede": "A slow-breeding shark is easily harmed by even modest fishing.",
+    "tactics": [
+      { "title": "Living deep", "text": "It usually stays between 500 and 1,000 m, on outer shelves, slopes and seamounts.", "certainty": "confirmed", "ref": 1 }
+    ],
+    "predators": ["Other sharks"],
+    "threats": [
+      { "title": "Bycatch", "text": "It is not targeted, but is caught by accident in deep-water bottom trawls and other fishing gear, and sometimes used for fishmeal or food.", "certainty": "confirmed", "ref": 4 },
+      { "title": "Very slow to recover", "text": "With few young and a very long pregnancy, its population is estimated to take more than 14 years to double.", "certainty": "confirmed", "ref": 4 }
+    ]
+  },
+  "life": {
+    "lede": "The frilled shark breeds extremely slowly, carrying its young for years.",
+    "stages": [
+      { "name": "Egg capsule", "text": "Eggs develop inside the mother in capsules, which are shed when the embryos reach 6–8 cm. Early development is slow.", "ref": 5 },
+      { "name": "Embryo", "duration": "at least 3.5 years", "text": "The embryos live on yolk inside the uterus. Based on 264 sharks from Suruga Bay, Japan, gestation was estimated at three and a half years or more.", "ref": 5 },
+      { "name": "Birth", "text": "Pups are born at about 55 cm long and 380 g, in litters of 2–10, with an average of six.", "ref": 5 },
+      { "name": "Adult", "text": "Males mature below about 1.1 m long and females at 1.4–1.5 m. Females have no fixed breeding season.", "ref": 5 }
+    ]
+  }
+}

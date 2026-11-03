@@ -1,0 +1,69 @@
+{
+  "anatomy": {
+    "lede": "A snake built for life half-submerged: eyes and nostrils on top of the head, loose skin that can soak for long periods, and a body heavy enough to overpower a caiman.",
+    "media": 1,
+    "hotspots": [
+      { "id": "eye", "label": "Eye", "x": 24, "y": 58, "text": "The small eyes sit high on the head, so an anaconda can watch the surface while the rest of its body stays hidden underwater.", "ref": 2 },
+      { "id": "nostrils", "label": "Nostrils", "x": 16, "y": 60, "text": "The nostrils open on the top of the snout, letting the snake breathe with only the tip of its head above water.", "ref": 3 },
+      { "id": "stripe", "label": "Eye stripe", "x": 28, "y": 60, "text": "A prominent black stripe runs back from each eye to the angle of the jaw.", "ref": 3 },
+      { "id": "spots", "label": "Spots", "x": 65, "y": 51, "text": "Dark oval blotches on an olive body make a submerged anaconda almost invisible from a short distance away.", "ref": 3 },
+      { "id": "belly", "label": "Belly", "x": 48, "y": 36, "text": "The olive back gradually shades to yellow on the underside, which is covered in narrow belly scales.", "ref": 3 },
+      { "id": "scales", "label": "Skin", "x": 44, "y": 81, "text": "The skin is soft and loose, with small smooth scales, and can withstand long periods of soaking in water.", "ref": 3 }
+    ],
+    "stats": [
+      { "value": "6 m", "label": "Average female length", "ref": 3 },
+      { "value": "250 kg", "label": "Heaviest reported", "ref": 2 },
+      { "value": "68 cm", "label": "Length at birth", "ref": 3 },
+      { "value": "500×", "label": "Growth in mass, birth to adult", "ref": 3 }
+    ]
+  },
+  "senses": {
+    "lede": "An anaconda finds prey and mates mainly by scent and vibration; sight and hearing matter less.",
+    "senses": [
+      { "kind": "smell", "name": "Smell", "text": "Flicking its forked tongue, the snake picks up chemical traces from the air and passes them to the Jacobson's organ in the roof of its mouth. Males track the scent of females this way in the breeding season.", "certainty": "confirmed", "ref": 3 },
+      { "kind": "vibration", "name": "Vibration", "text": "Anacondas detect approaching animals through vibrations.", "certainty": "confirmed", "ref": 3 },
+      { "kind": "heat", "name": "Heat", "text": "Some sources describe pit organs along the upper lip that sense the body heat of prey, but how well anacondas detect heat has been little studied.", "certainty": "uncertain", "ref": 2 },
+      { "kind": "sight", "name": "Sight", "text": "Anacondas can see and hear, but these senses are less well developed than their senses of smell and vibration.", "certainty": "confirmed", "ref": 3 }
+    ]
+  },
+  "body": {
+    "lede": "Swallowing huge meals whole demands a slow metabolism, a crushing grip and a body that can go months without food.",
+    "systems": [
+      { "title": "Death by coils", "text": "An anaconda grips prey with needle-sharp, curved teeth and coils around it, tightening each time the victim struggles. Death comes from failure of breathing and circulation — or from drowning, as most attacks happen near water.", "certainty": "confirmed", "ref": 3 },
+      { "title": "A slow metabolism", "text": "Apart from breeding females, anacondas need to eat only once every few weeks, and after a big meal a large snake can go weeks or months without food.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Leftover legs", "text": "Like other boas, anacondas have small horny claws near the vent — remnants of hind limbs. Males' spurs are larger, about 7.5 mm, whatever the female's size.", "certainty": "confirmed", "ref": 3 },
+      { "title": "Head-first swallowing", "text": "Prey is swallowed whole and head first, so the limbs fold back rather than snagging. Prey usually weighs 14–50% of the snake's own mass.", "certainty": "confirmed", "ref": 3 }
+    ]
+  },
+  "mind": {
+    "lede": "Field observations show anacondas adjusting their behaviour closely to the wet and dry seasons.",
+    "studies": [
+      { "year": "Field", "title": "Sleeping out the drought", "text": "In seasonally flooded savannas, anacondas must find water in the dry season or bury themselves in mud and become dormant until the rains return.", "certainty": "confirmed", "ref": 3 },
+      { "year": "Field", "title": "Coming home", "text": "Anacondas keep well-defined home ranges. In the wet season some move to higher ground, then return to their original range when the dry season comes.", "certainty": "confirmed", "ref": 3 },
+      { "year": "Field", "title": "Basking for the brood", "text": "Pregnant females bask regularly in the sun, on raised ground or dense vegetation, while non-breeding snakes are rarely seen basking.", "certainty": "confirmed", "ref": 3 }
+    ]
+  },
+  "survival": {
+    "lede": "Fully grown females have few enemies. Young and small anacondas are another matter.",
+    "tactics": [
+      { "title": "Ambush in the water", "text": "Anacondas rely on stealth, lying submerged and camouflaged until prey comes close.", "certainty": "confirmed", "ref": 3 },
+      { "title": "Coiled defence", "text": "When attacked, an anaconda rolls into a ball that protects its head while letting it strike back. It may also release a foul smell from glands near the vent.", "certainty": "confirmed", "ref": 3 },
+      { "title": "Escape route", "text": "Juveniles and males escape predators by burrowing into mud or retreating into water.", "certainty": "confirmed", "ref": 2 }
+    ],
+    "predators": ["Caimans", "Jaguars"],
+    "threats": [
+      { "title": "Habitat loss", "text": "Deforestation continues, and protected areas are not always well regulated.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Trade and fear", "text": "Anacondas are killed out of fear or to protect livestock, sold for their body parts and caught for the international pet trade, which is regulated under CITES but continues illegally.", "certainty": "confirmed", "ref": 2 }
+    ]
+  },
+  "life": {
+    "lede": "Anaconda young are born alive in the water and are on their own from the first day.",
+    "stages": [
+      { "name": "Mating", "duration": "March to May", "text": "In the dry season several males coil around one female in a breeding ball; mating can last for weeks.", "ref": 3 },
+      { "name": "Pregnancy", "duration": "about 7 months", "text": "The female carries her eggs inside her body and moves and feeds as little as possible to protect the developing young.", "ref": 3 },
+      { "name": "Birth", "duration": "end of the wet season", "text": "She gives birth in shallow water, usually to 20–40 young; bigger females have larger litters. Newborns weigh about 200 g and get no parental care.", "ref": 3 },
+      { "name": "Adult", "duration": "from 3–4 years", "text": "Anacondas mature at about 3–4 years. Females usually breed only every other year, recovering the energy that pregnancy costs.", "ref": 3 }
+    ],
+    "lifespan": { "value": "About 10 years in the wild; over 30 in captivity", "ref": 3 }
+  }
+}

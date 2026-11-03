@@ -1,0 +1,86 @@
+{
+  "extraReferences": [
+    { "title": "Panthera onca genome assembly mPanOnc1 haplotype 2 (GCF_046562875.1)", "publisher": "NCBI Datasets", "year": 2025, "url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_046562875.1/" },
+    { "title": "Genome-wide signatures of complex introgression and adaptive evolution in the big cats. Science Advances 3: e1700299", "publisher": "Science Advances", "authors": "Figueiró, H.V. et al.", "year": 2017, "url": "https://doi.org/10.1126/sciadv.1700299" },
+    { "title": "Molecular genetics and evolution of melanism in the cat family. Current Biology 13: 448–453", "publisher": "Current Biology", "authors": "Eizirik, E. et al.", "year": 2003, "url": "https://doi.org/10.1016/S0960-9822(03)00128-3" },
+    { "title": "Collaborative behaviour and coalitions in male jaguars (Panthera onca) — evidence and comparison with other felids. Behavioral Ecology and Sociobiology 76: 121", "publisher": "Behavioral Ecology and Sociobiology", "authors": "Jędrzejewski, W. et al.", "year": 2022, "url": "https://doi.org/10.1007/s00265-022-03232-3" }
+  ],
+  "anatomy": {
+    "lede": "The jaguar is built for power, not speed: a stocky, muscular cat with a broad head, short limbs and, for its size, the strongest bite of the cats measured.",
+    "media": 2,
+    "hotspots": [
+      { "id": "ear", "label": "Ear", "x": 41, "y": 38, "text": "Jaguars communicate mainly by voice. A typical call is a series of seven to a dozen grunts, more powerful in males than in females.", "ref": 2 },
+      { "id": "eye", "label": "Eye", "x": 34, "y": 45, "text": "Jaguars are most active around dawn and dusk, hunting by pouncing on prey from a hidden spot.", "ref": 2 },
+      { "id": "jaws", "label": "Jaws", "x": 32, "y": 56, "text": "Large, square jaws and prominent cheeks anchor huge muscles. For its size, the jaguar has a greater bite-force capacity than the other cats studied.", "ref": 4 },
+      { "id": "shoulder", "label": "Forelimbs", "x": 42, "y": 62, "text": "Lean bodies and muscular limbs let a jaguar drag heavy prey into cover — one hauled a 34 kg sea turtle 91.5 m.", "ref": 2 },
+      { "id": "rosettes", "label": "Rosettes", "x": 60, "y": 45, "text": "Jaguars' rosettes have distinct spots inside them, unlike the leopard's smaller spots and rosettes.", "ref": 3 },
+      { "id": "paw", "label": "Paws", "x": 46, "y": 81, "text": "Large, rounded paws help jaguars swim long distances in rivers and flooded forest.", "ref": 3 },
+      { "id": "tail", "label": "Tail", "x": 82, "y": 56, "text": "The tail measures 70–90 cm, against a head-and-body length of 1.5–1.8 m.", "ref": 2 }
+    ],
+    "stats": [
+      { "value": "68–136 kg", "label": "Adult weight", "ref": 2 },
+      { "value": "75 cm", "label": "Shoulder height", "ref": 2 },
+      { "value": "100 kg", "label": "Average Pantanal male", "ref": 2 },
+      { "value": "85+", "label": "Prey species recorded", "ref": 2 }
+    ]
+  },
+  "senses": {
+    "lede": "Jaguars are secretive and solitary, and much of their communication is by sound and scent left for others to find.",
+    "senses": [
+      { "kind": "hearing", "name": "Hearing", "text": "Females in season call in the early morning and late at night, and males answer and travel to find them. Hunters exploit this by mimicking the call with a hollow gourd.", "certainty": "confirmed", "ref": 2 },
+      { "kind": "smell", "name": "Smell", "text": "Jaguars mark their home ranges by spraying urine, leaving droppings in prominent places and scraping trees and the ground.", "certainty": "confirmed", "ref": 2 },
+      { "kind": "sight", "name": "Sight", "text": "Two genes involved in optic nerve development, DOCK3 and COL4A5, show signs of positive selection in jaguars, possibly linked to vision.", "certainty": "hypothesis", "ref": 6 }
+    ]
+  },
+  "body": {
+    "lede": "Where other big cats rely on speed or size, the jaguar relies on raw strength concentrated in its head and forequarters.",
+    "systems": [
+      { "title": "A crushing bite", "text": "Measurements of jaw muscles from nine cat species found the jaguar had relatively the greatest bite-force capacity, suiting a diet that includes caimans and turtles.", "certainty": "confirmed", "ref": 4 },
+      { "title": "A throat built to roar", "text": "Like other big cats, jaguars cannot purr. They roar instead, thanks to a hyoid bone in the throat attached to a stretchy ligament.", "certainty": "confirmed", "ref": 3 },
+      { "title": "Size follows the prey", "text": "Jaguars in the open Pantanal average 100 kg for males, while those in Honduran forest average 57 kg — perhaps because big hoofed prey is more plentiful in open habitats.", "certainty": "hypothesis", "ref": 2 }
+    ]
+  },
+  "genome": {
+    "lede": "The jaguar genome was first sequenced and published in 2017, alongside comparisons with all the other living big cats.",
+    "genomeGb": 2.5,
+    "refs": { "genome": 5 },
+    "sequenced": 2017,
+    "findings": [
+      { "title": "Big cats that interbred", "text": "The genomes of the Panthera cats show tangled family trees, caused partly by hybridisation between species after they split.", "certainty": "confirmed", "ref": 6 },
+      { "title": "Borrowed genes, put to use", "text": "Some genes that jaguars seem to have picked up through ancient hybridisation also show signs of natural selection within the species, suggesting interbreeding helped big cats adapt.", "certainty": "hypothesis", "ref": 6 },
+      { "title": "The black jaguar gene", "text": "Black jaguars carry a small deletion in the MC1R gene, one of at least four separate genetic origins of black coats in the cat family.", "certainty": "confirmed", "ref": 7 }
+    ]
+  },
+  "mind": {
+    "lede": "The jaguar has long been described as a strict loner. Camera traps and GPS collars are revealing more flexible behaviour.",
+    "studies": [
+      { "year": "2022", "title": "Male partnerships", "text": "Studies in the Venezuelan Llanos and Brazilian Pantanal recorded 70 cases of cooperation or coalition between males, including joint patrolling and marking. Two coalitions lasted more than seven years.", "certainty": "confirmed", "ref": 8 },
+      { "year": "2022", "title": "But not hunting together", "text": "Unlike lions and cheetahs, coalition jaguars spent less time together and were not seen hunting cooperatively. Coalitions were most likely where females lived at high density.", "certainty": "confirmed", "ref": 8 },
+      { "year": "Field", "title": "An escort out", "text": "Jaguars have occasionally been seen following people, perhaps to 'escort' them out of their territory. They do not attack humans without provocation.", "certainty": "uncertain", "ref": 2 }
+    ]
+  },
+  "survival": {
+    "lede": "As top predator of the American tropics, an adult jaguar has no natural enemies — only people.",
+    "tactics": [
+      { "title": "Ambush from cover", "text": "Jaguars stalk on the ground through thick vegetation and pounce from a concealed spot, then drag the kill somewhere secluded to eat.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Hidden in plain sight", "text": "Cryptic colouring and secretive habits help jaguars avoid detection by both prey and people.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Up and away", "text": "Jaguars climb trees for safety or to hunt, and in flood season may be forced to rest in them.", "certainty": "confirmed", "ref": 2 }
+    ],
+    "predators": ["Humans"],
+    "threats": [
+      { "title": "Conflict with ranchers", "text": "Jaguars occasionally kill cattle and are often shot on sight in ranching areas, despite legal protection.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Lost and broken habitat", "text": "Habitat loss and fragmentation, and overhunting of the jaguar's prey, threaten it across its range.", "certainty": "confirmed", "ref": 3 },
+      { "title": "Poaching", "text": "Jaguars are still illegally killed for their pelts, paws and teeth.", "certainty": "confirmed", "ref": 2 }
+    ]
+  },
+  "life": {
+    "lede": "Jaguar cubs depend on their mother for almost two years, learning to hunt at her side.",
+    "stages": [
+      { "name": "Pregnancy", "duration": "91–111 days", "text": "Most births come in the wet season, when prey is plentiful. A litter is usually two cubs, but can be one to four.", "ref": 2 },
+      { "name": "Newborn cub", "duration": "first 2 weeks", "text": "Cubs are born with their eyes closed and are completely dependent on their mother; their eyes open at about two weeks.", "ref": 2 },
+      { "name": "Learning to hunt", "duration": "5–6 months to about 2 years", "text": "Cubs nurse until 5–6 months old, then begin hunting with their mother, staying with her until they are almost two.", "ref": 2 },
+      { "name": "Adult", "duration": "from 1–3 years", "text": "Females mature at 12–24 months and males at 24–36 months. Male home ranges usually overlap those of two or three females.", "ref": 2 }
+    ],
+    "lifespan": { "value": "11–12 years in the wild; over 20 in captivity", "ref": 2 }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "extraReferences": [
+    { "title": "Sarcastic Fringehead", "publisher": "Aquarium of the Pacific", "url": "https://www.aquariumofpacific.org/onlinelearningcenter/species/sarcastic_fringehead" },
+    { "title": "Neoclinus blanchardi (sarcastic fringehead)", "publisher": "Animal Diversity Web (University of Michigan)", "url": "https://animaldiversity.org/accounts/Neoclinus_blanchardi/", "year": 2000, "authors": "Southern J." }
+  ],
+  "anatomy": {
+    "lede": "Most of a sarcastic fringehead's personality is in its head: bulging eyes, feathery brows and a mouth that can open far wider than its face.",
+    "media": 0,
+    "hotspots": [
+      { "id": "cirri", "label": "Cirri", "x": 46, "y": 10, "text": "Wavy, fringe-like flaps called cirri stand above the eyes and give the fringeheads their name.", "ref": 5 },
+      { "id": "eye", "label": "Eye", "x": 50, "y": 28, "text": "Big, bulging eyes sit high on the head, just below the cirri — the source of its 'bug-eyed' look.", "ref": 3 },
+      { "id": "lips", "label": "Fleshy lips", "x": 27, "y": 60, "text": "A blunt snout and prominent lips frame a mouth lined with numerous needle-like teeth.", "ref": 5 },
+      { "id": "jaw", "label": "Long upper jaw", "x": 62, "y": 64, "text": "The upper jaw bone (maxilla) runs back well past the eye, almost to the edge of the gill cover. It is longer in males.", "ref": 6 },
+      { "id": "cheek", "label": "Pale cheek patch", "x": 69, "y": 39, "text": "The body is usually brown to grey with a reddish tint, often with pale spots or patches on the cheeks.", "ref": 5 }
+    ],
+    "stats": [
+      { "value": "30 cm", "label": "Maximum length", "ref": 1 },
+      { "value": "3–73 m", "label": "Depth range", "ref": 1 },
+      { "value": "about 3,000", "label": "Eggs per clutch", "ref": 5 },
+      { "value": "6 years", "label": "Maximum reported age", "ref": 1 }
+    ]
+  },
+  "body": {
+    "lede": "The fringehead's famous gape is the result of several changes to an ordinary blenny's skull, all amplified in this one species.",
+    "systems": [
+      { "title": "A hinge in the face", "text": "A joint not found in related fishes, between the front of the upper jaw and the bone below the eye, lets the upper jaw swing outwards so the mouth flares sideways.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Jaws that keep growing", "text": "The upper jaw is lengthened by a soft, uncalcified extension at its back end. Comparisons with two close relatives suggest it evolved by growing faster and for longer than in other fringeheads.", "certainty": "confirmed", "ref": 2 },
+      { "title": "A painted mouth", "text": "The membrane lining the mouth is enlarged, brightly coloured and partly fluorescent, which may make the open-mouthed display even more conspicuous.", "certainty": "hypothesis", "ref": 2 }
+    ]
+  },
+  "mind": {
+    "lede": "Fringehead contests have been watched both on dives off California and in aquarium tanks.",
+    "studies": [
+      { "year": "2022", "title": "Residents gape first", "text": "When another male approached a resident's shelter, the resident gaped at it in nearly 70% of encounters. The intruder then either retreated or fought.", "certainty": "confirmed", "ref": 3 },
+      { "year": "2022", "title": "A signal of size", "text": "Because a gaping mouth shows off jaw size, researchers suggest the display lets rivals judge each other and avoid some fights. Contests that did turn physical ended when one fish bit the other, usually on the head.", "certainty": "hypothesis", "ref": 4 },
+      { "year": "2022", "title": "Different message for females", "text": "Males gape at other males but not at females, which they court by shaking their heads instead.", "certainty": "confirmed", "ref": 3 },
+      { "year": "Field", "title": "Backing in", "text": "Fringeheads move in short, rapid darts and often back into their burrows tail first rather than swimming in head first.", "certainty": "confirmed", "ref": 5 }
+    ]
+  },
+  "survival": {
+    "lede": "A small fish on open sand and mud survives by owning a hiding place and defending it hard.",
+    "tactics": [
+      { "title": "A borrowed fortress", "text": "It rests inside an empty shell, burrow, crevice or discarded can or bottle with only its head showing.", "certainty": "confirmed", "ref": 6 },
+      { "title": "Ambush from the doorway", "text": "It leaps out of its shelter to seize passing prey. Its wild diet is not known, but related blennies mostly eat crustaceans.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Warn, then bite", "text": "Intruders get a warning first — flexing the body, spreading the gill covers and snapping the jaws. If that fails, it may chase and bite, even a diver.", "certainty": "confirmed", "ref": 5 },
+      { "title": "No intruder too big", "text": "Fringeheads have been seen chasing other fish and even octopuses away from their shelters.", "certainty": "confirmed", "ref": 3 }
+    ],
+    "predators": []
+  },
+  "life": {
+    "lede": "For a fringehead, a home is the key to breeding: no shelter, no family.",
+    "stages": [
+      { "name": "Spawning", "duration": "usually January to August", "text": "A receptive female lays her eggs in a male's shelter, such as an old clam burrow, the space under a rock or a discarded container.", "ref": 5 },
+      { "name": "Egg", "text": "Eggs are 0.9–1.5 mm across, each with an oil droplet and sticky filaments that fix it to the shelter wall and to its neighbours.", "ref": 6 },
+      { "name": "Guarded nest", "text": "The male fertilises the eggs and guards them until they hatch.", "ref": 1 },
+      { "name": "Larva", "duration": "about 3 mm at hatching", "text": "The newly hatched larvae are only about 3 mm long.", "ref": 5 },
+      { "name": "Adult", "text": "Adult males grow larger than females and have more brightly coloured mouths, the equipment they need to win and hold a shelter.", "ref": 3 }
+    ],
+    "lifespan": { "value": "Up to about 6 years", "ref": 1 }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "slug": "western-honey-bee",
+  "realm": "land",
+  "commonName": "Western Honey Bee",
+  "scientificName": "Apis mellifera",
+  "authority": "Linnaeus, 1758",
+  "gbifId": 1341976,
+  "iucnId": 42463639,
+  "taxonomy": {
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Hymenoptera",
+    "family": "Apidae"
+  },
+  "group": "Bee",
+  "categories": [
+    "fliers",
+    "venomous"
+  ],
+  "tagline": "A forager that tells its sisters where the flowers are by dancing",
+  "summary": "Native to Europe, Africa and western Asia and now kept almost everywhere, the honey bee lives in colonies run by one queen, which may lay up to 1,000 eggs a day. Its workers fly kilometres from the nest to gather nectar and pollen, and a returning forager can tell its nestmates the direction and distance of a rich patch of flowers with the waggle dance.",
+  "ability": "foraging flights guided by the waggle dance",
+  "stats": {
+    "size": "Workers 10–15 mm long; drones 15–17 mm; queens 18–20 mm",
+    "habitat": "Woodland, meadows, farmland and gardens with plenty of flowers; wild colonies nest in tree cavities",
+    "range": "Native to Europe, Africa and western Asia; introduced by people to every other continent except Antarctica",
+    "diet": "Nectar and pollen collected from flowers",
+    "conservation": "No global IUCN assessment; Data Deficient in Europe as a whole, while wild colonies in the EU were assessed as Endangered in 2025"
+  },
+  "regions": [
+    "europe",
+    "african-savanna",
+    "sahara-arabia",
+    "congo-basin",
+    "namib-kalahari",
+    "madagascar"
+  ],
+  "biome": "temperate-forest",
+  "flight": "foraging",
+  "facts": [
+    {
+      "title": "Directions, danced",
+      "text": "A forager that has found food far from the hive performs the waggle dance on the comb. The dance tells other workers the direction of the food, measured against the sun's position, and its distance.",
+      "certainty": "confirmed",
+      "ref": 0
+    },
+    {
+      "title": "Following the dance by radar",
+      "text": "Researchers fitted bees recruited by the waggle dance with tiny transponders and tracked them with harmonic radar. This gave the first record of the paths they actually flew, testing Karl von Frisch's Nobel Prize-winning conclusion that recruits use the dance to find the food.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "A three-kilometre beat",
+      "text": "Workers usually forage within about 3 km of the hive, but they can fly 8 to 13 km when they need to.",
+      "certainty": "confirmed",
+      "ref": 0
+    },
+    {
+      "title": "A sting that costs a life",
+      "text": "A worker's sting is barbed. When she stings, it tears away from her body along with the venom glands, and she dies.",
+      "certainty": "confirmed",
+      "ref": 0
+    },
+    {
+      "title": "Still wild in Europe's beech woods",
+      "text": "Wild honey bee colonies were long assumed to be gone from Europe. A survey of two German beech forests found colonies living in tree cavities at densities of at least 0.11 to 0.14 per km², some deep inside the forest and a median 2.6 km from the nearest apiary. The authors estimated that German woodlands hold several thousand wild colonies.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Out of Asia",
+      "text": "An analysis of 251 genomes from 18 native subspecies supported an Asian origin for the species, with at least three expansions that led to the African and European lineages.",
+      "certainty": "hypothesis",
+      "ref": 2
+    }
+  ],
+  "references": [
+    {
+      "title": "Apis mellifera (honey bee)",
+      "publisher": "Animal Diversity Web, University of Michigan",
+      "authors": "Hammond, G. & Blankenship, M.",
+      "year": 2009,
+      "url": "https://animaldiversity.org/accounts/Apis_mellifera/"
+    },
+    {
+      "title": "The flight paths of honeybees recruited by the waggle dance. Nature 435: 205–207",
+      "publisher": "Nature",
+      "authors": "Riley, J.R., Greggers, U., Smith, A.D., Reynolds, D.R. & Menzel, R.",
+      "year": 2005,
+      "url": "https://doi.org/10.1038/nature03526"
+    },
+    {
+      "title": "Thrice out of Asia and the adaptive radiation of the western honey bee. Science Advances 7: eabj2151",
+      "publisher": "Science Advances",
+      "authors": "Dogantzis, K.A., Tiwari, T., Conflitti, I.M. et al.",
+      "year": 2021,
+      "url": "https://doi.org/10.1126/sciadv.abj2151"
+    },
+    {
+      "title": "The neglected bee trees: European beech forests as a home for feral honey bee colonies. PeerJ 6: e4602",
+      "publisher": "PeerJ",
+      "authors": "Kohl, P.L. & Rutschmann, B.",
+      "year": 2018,
+      "url": "https://doi.org/10.7717/peerj.4602"
+    },
+    {
+      "title": "Wild Honey Bees Receive New IUCN Red List Status (press release)",
+      "publisher": "Honey Bee Watch, via COLOSS",
+      "year": 2025,
+      "url": "https://coloss.org/wp-content/uploads/Honey-Bee-Watch_press-release_IUCN-Red-List-for-Apis-mellifera_IMMEDIATE-1.pdf"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/western-honey-bee/hero.webp",
+    "width": 1920,
+    "height": 1441,
+    "alt": "Close-up of a honey bee with a fuzzy golden-brown thorax, striped abdomen and a full yellow pollen basket on its hind leg, landing among white bird-cherry blossoms against a blue sky",
+    "caption": "A forager with a loaded pollen basket on bird cherry, Keila, north-western Estonia",
+    "creator": "Ivar Leidus",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_-_Prunus_padus_-_Keila.jpg",
+    "species": "Apis mellifera",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "45% 40%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/western-honey-bee/alt-1.webp",
+      "width": 1820,
+      "height": 1365,
+      "alt": "A honey bee in mid-flight with blurred wings and a pale yellow pollen load on its hind legs, flying towards a green leaf against a soft green background",
+      "caption": "Heading home with pollen, Torfbroek nature reserve, Belgium",
+      "creator": "Hans Hillewaert",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_(in_flight).jpg",
+      "species": "Apis mellifera",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "40% 50%",
+      "tone": "dark"
+    },
+    {
+      "src": "/media/creatures/western-honey-bee/alt-2.webp",
+      "width": 1920,
+      "height": 1080,
+      "alt": "A honey bee with translucent wings and a yellow pollen basket feeding on the orange centre of a bright yellow daisy-like flower, with more yellow flowers blurred behind",
+      "caption": "Foraging on fen ragwort, Niitvälja bog, north-western Estonia",
+      "creator": "Ivar Leidus",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_-_Senecio_paludosus_-_Keila.jpg",
+      "species": "Apis mellifera",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "65% 45%",
+      "tone": "light"
+    }
+  ],
+  "notes": "Conservation: I found no global IUCN assessment; Apis mellifera is absent from the GBIF IUCN checklist. iucnId 42463639 is the IUCN taxon ID of the European regional assessment. That assessment was Data Deficient in the 2014 European Red List of Bees (assessment ID 42463665). An October 2025 reassessment led by Honey Bee Watch, for the forthcoming European Red List, rated wild (free-living) colonies in the EU27 Endangered, and the pan-European status remains Data Deficient (assessment www.iucnredlist.org/species/42463639/277757621, per the press release; iucnredlist.org returns 403 to scripts, so it was not opened). Because the Endangered rating is regional and covers wild colonies only, the bee is not shelved under 'endangered'. 'venomous' is used for the barbed sting. The press release also cites 62% average losses of US commercial colonies (June 2024 – March 2025); this is not used. Range and introductions: ADW says the species is native to Europe, western Asia and Africa and was introduced to other continents from the 17th century. 'Every continent except Antarctica' is my wording of ADW's 'now occurs worldwide'. The worldwide introduced range is deliberately not mapped. Regions: europe first; African regions (african-savanna, sahara-arabia for North Africa and the Arabian Peninsula, congo-basin, namib-kalahari, madagascar) reflect the native African range. Assigning them to particular subspecies (for example, scutellata, capensis, adansonii, unicolor, jemenitica) is general knowledge and was not checked against the cited sources. Western Asian native range (Middle East, Caucasus, Central Asian mountains) has no matching mapped region. Biome: temperate-forest, following europe and the beech-forest wild colonies. Riley et al. 2005 (Nature) is paywalled: the fact follows the abstract only, so no accuracy figures are given. Kohl & Rutschmann: the figures are from the abstract, and the study sites (Hainich National Park, Thuringia; Swabian Alb Biosphere Reserve) come from the full text via Europe PMC (PMC5890725). Dogantzis et al.: abstract via Europe PMC; marked hypothesis because the origin of the species has long been debated. doi.org for Science Advances and PeerJ returns 403 to scripts; both DOIs were confirmed through Europe PMC/Crossref. Size, foraging range, sting, worker biology and queen egg-laying (up to 1,000 eggs/day) are from ADW. Images: Ivar Leidus's Keila (Estonia) photos are Commons Featured Pictures; the hero is from 13 May 2018 and alt-2 from Niitvälja bog, 2016 (geotagged). alt-1 is from Torfbroek, Belgium, 2010 (geotagged). These are foragers in the field, but whether each came from a managed or a wild colony cannot be known."
+}

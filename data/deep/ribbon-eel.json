@@ -1,0 +1,54 @@
+{
+  "extraReferences": [
+    { "title": "Rhinomuraena spp. (Pisces: Muraenidae): the first vertebrate genus with post-anally situated urogenital organs. Marine Biology 105: 253–257", "publisher": "Marine Biology (Springer)", "url": "https://doi.org/10.1007/BF01344294", "year": 1990, "authors": "Fishelson L." },
+    { "title": "A comparative study on the visual adaptations of four species of moray eel. Vision Research 51(9): 1099–1108", "publisher": "Vision Research (Elsevier)", "url": "https://doi.org/10.1016/j.visres.2011.02.025", "year": 2011, "authors": "Wang F.Y., Tang M.Y., Yan H.Y." },
+    { "title": "First observations of fertilized eggs and preleptocephalus larvae of Rhinomuraena quaesita in the Vienna Zoo. Zoo Biology 34(1)", "publisher": "Zoo Biology (Wiley)", "url": "https://doi.org/10.1002/zoo.21184", "year": 2015, "authors": "Preininger D., Halbauer R., Bartsch P., Weissenbacher A." },
+    { "title": "Observations of large muraenid leptocephali in coastal Indonesia: locations of sightings and behaviour of the larvae. Marine Biodiversity Records 6", "publisher": "Marine Biodiversity Records (Cambridge University Press)", "url": "https://doi.org/10.1017/s1755267213000079", "year": 2013, "authors": "Miller M.J., Rutgers R., Haythorne C. et al." }
+  ],
+  "anatomy": {
+    "lede": "A ribbon eel is almost all length: a whip-thin moray with a frilled snout, built to slip into narrow burrows and peer out at passing fish.",
+    "media": 0,
+    "hotspots": [
+      { "id": "nostril", "label": "Flared nostril", "x": 61, "y": 33, "text": "The front nostrils are long tubes that end in fan-like expansions, flaring from the tip of the snout like small leaves.", "ref": 2 },
+      { "id": "eye", "label": "Eye", "x": 58, "y": 48, "text": "Its retina differs markedly in structure from those of three other morays studied, a difference researchers link to its shallow, sunlit home.", "ref": 4 },
+      { "id": "chin-tentacles", "label": "Chin tentacles", "x": 69, "y": 47, "text": "Three small fleshy tentacles sit at the tip of the lower jaw, with a single pointed projection at the tip of the snout.", "ref": 2 },
+      { "id": "blue-body", "label": "Blue phase", "x": 37, "y": 70, "text": "Bright blue with a yellow snout and jaw is the colour usually described for males. Juveniles are black, and the largest animals turn yellow.", "ref": 1 },
+      { "id": "dorsal-fin", "label": "Dorsal fin", "x": 22, "y": 82, "text": "A high, yellow dorsal fin runs along the back. Like the anal fin, it has no spines.", "ref": 2 }
+    ],
+    "stats": [
+      { "value": "130 cm", "label": "Maximum length", "ref": 2 },
+      { "value": "270–286", "label": "Vertebrae", "ref": 2 },
+      { "value": "1–67 m", "label": "Depth range", "ref": 2 }
+    ]
+  },
+  "body": {
+    "lede": "Inside, the ribbon eel is as unusual as it looks outside.",
+    "systems": [
+      { "title": "A spine of hundreds of bones", "text": "Its backbone has 270 to 286 vertebrae, which is what makes such a long, thin, flexible body possible.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Organs behind the vent", "text": "In ribbon eels the reproductive organs lie behind the anus rather than in front of it, as in other fishes. A 1990 study described Rhinomuraena as the first vertebrate genus known with this arrangement.", "certainty": "confirmed", "ref": 3 },
+      { "title": "Eyes for bright water", "text": "Comparing two shallow-water and two deep-sea morays, researchers found that the light sensitivity of each species' eye cells closely matched the light in its habitat, with the ribbon eel's retina standing apart in structure.", "certainty": "confirmed", "ref": 4 }
+    ]
+  },
+  "survival": {
+    "lede": "A slender fish on an open reef survives by staying close to cover.",
+    "tactics": [
+      { "title": "Never far from home", "text": "It lives in burrows in sand or rubble beside coral reefs, in lagoons and on seaward reefs, and rarely leaves them.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Only the head shows", "text": "Secretive by nature, it usually stays hidden with just its head out, waiting for small fishes to come within reach.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Larvae seeking shelter", "text": "Large moray larvae, probably of this species, have been filmed swimming near the bottom in shallow water and trying to enter small crevices — perhaps looking for a safe place to change into juvenile eels.", "certainty": "hypothesis", "ref": 6 }
+    ],
+    "predators": [],
+    "threats": [
+      { "title": "Collected for aquariums", "text": "It is caught commercially for the aquarium trade. FishBase rates its vulnerability to fishing as high to very high and its resilience as very low, with populations estimated to need more than 14 years to double.", "certainty": "confirmed", "ref": 2 }
+    ]
+  },
+  "life": {
+    "lede": "A ribbon eel's life is told in colours, though what each colour means is still being worked out.",
+    "stages": [
+      { "name": "Egg", "text": "In 2014, fertilised ribbon eel eggs laid at the Vienna Zoo hatched into feeding larvae for the first time anywhere, and the larvae were kept alive for seven days.", "ref": 5 },
+      { "name": "Leptocephalus larva", "duration": "about 30–40 cm long", "text": "Like all eels it begins as a transparent, leaf-like larva. Large, greenish moray larvae seen off Indonesia are thought to be ribbon eels, but this has not been confirmed.", "ref": 6 },
+      { "name": "Black juvenile", "text": "Small juveniles are jet black with a yellow dorsal fin.", "ref": 1 },
+      { "name": "Blue adult", "text": "Adults turn bright blue with a yellow snout, lower jaw and dorsal fin, a phase usually interpreted as male.", "ref": 1 },
+      { "name": "Yellow adult", "text": "The largest animals turn yellow, a phase usually interpreted as female. But the Vienna Zoo study found that, in captivity, colour did not reflect an eel's sex or maturity, and sex change has not been confirmed.", "ref": 5 }
+    ]
+  }
+}

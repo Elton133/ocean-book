@@ -1,0 +1,156 @@
+{
+  "slug": "brown-throated-sloth",
+  "realm": "land",
+  "commonName": "Brown-throated Three-toed Sloth",
+  "scientificName": "Bradypus variegatus",
+  "authority": "Schinz, 1825",
+  "gbifId": 2436353,
+  "iucnId": 3038,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Pilosa",
+    "family": "Bradypodidae"
+  },
+  "group": "Sloth",
+  "categories": [
+    "rainforest-canopy",
+    "camouflage"
+  ],
+  "tagline": "A slow-motion leaf-eater wearing its own garden",
+  "summary": "A small, shaggy tree-dweller that spends most of its life hanging in the rainforest canopy, eating leaves. It runs on less energy than almost any other mammal, and its fur is home to algae and moths — a tiny ecosystem it may even snack on.",
+  "ability": "living on almost no energy",
+  "stats": {
+    "size": "About 60 cm long; 3.5–5.2 kg",
+    "habitat": "Rainforest canopy, semi-deciduous forest and swamp forest, favouring sunny treetops",
+    "elevation": "Sea level to about 2,400 m",
+    "range": "Southern Central America and much of tropical South America east to Brazil and south to Bolivia; possibly extinct in Argentina",
+    "diet": "Leaves, flowers and fruit, especially of Cecropia trees",
+    "conservation": "IUCN Red List: Least Concern (2022 assessment)"
+  },
+  "elevationRange": {
+    "min": 0,
+    "max": 2400
+  },
+  "regions": [
+    "amazon",
+    "central-america"
+  ],
+  "biome": "rainforest",
+  "facts": [
+    {
+      "title": "A garden in its fur",
+      "text": "Algae grow in the sloth's coarse outer hair, often tinting it green and helping it blend into the canopy. A study in Costa Rica found that sloths eat these algae, which are easy to digest and rich in fats.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Moths that ride along",
+      "text": "Three-toed sloths carry more fur-dwelling moths than two-toed sloths. Researchers propose a chain of partnerships: the moths lay eggs in sloth dung, the adults fertilise the fur with nitrogen, and the nitrogen feeds the algae the sloth eats.",
+      "certainty": "hypothesis",
+      "ref": 3
+    },
+    {
+      "title": "A dangerous trip to the toilet",
+      "text": "Every few days — roughly once a week — the sloth climbs all the way down its tree to urinate and defecate on the ground, where it is most exposed to predators.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "The lowest energy bill of any mammal",
+      "text": "Field measurements in Costa Rica found that three-toed sloths have the lowest field metabolic rate ever recorded for a mammal. They save energy by moving very little and letting their body temperature drift with the weather.",
+      "certainty": "confirmed",
+      "ref": 4
+    },
+    {
+      "title": "Extra bones in the neck",
+      "text": "Most mammals have seven neck vertebrae; this sloth has about ten, letting it turn its head through as much as 270 degrees while its body hangs still.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Slow in the trees, good in the water",
+      "text": "Though it barely manages to crawl on the ground, the brown-throated sloth is a capable swimmer and can cross rivers and flooded forest.",
+      "certainty": "confirmed",
+      "ref": 2
+    }
+  ],
+  "references": [
+    {
+      "title": "Moraes-Barros, N. et al. (2022). Bradypus variegatus. The IUCN Red List of Threatened Species 2022",
+      "publisher": "IUCN Red List",
+      "url": "https://doi.org/10.2305/IUCN.UK.2022-2.RLTS.T3038A210442893.en"
+    },
+    {
+      "title": "Bradypus variegatus Schinz, 1825",
+      "publisher": "GBIF",
+      "url": "https://www.gbif.org/species/2436353"
+    },
+    {
+      "title": "Bradypus variegatus (brown-throated three-toed sloth)",
+      "publisher": "Animal Diversity Web, University of Michigan",
+      "url": "https://animaldiversity.org/accounts/Bradypus_variegatus/"
+    },
+    {
+      "title": "Pauli, J.N. et al. (2014). A syndrome of mutualism reinforces the lifestyle of a sloth. Proceedings of the Royal Society B 281: 20133006",
+      "publisher": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24452028/"
+    },
+    {
+      "title": "Pauli, J.N., Peery, M.Z., Fountain, E.D. & Karasov, W.H. (2016). Arboreal folivores limit their energetic output, all the way to slothfulness. American Naturalist 188: 196–204",
+      "publisher": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27420784/"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/brown-throated-sloth/hero.webp",
+    "width": 1920,
+    "height": 1280,
+    "alt": "A pale grey-brown three-toed sloth hanging upside down among leafy branches, its round face with a dark eye stripe turned towards the camera",
+    "caption": "A female brown-throated sloth in Soberanía National Park, Panama",
+    "creator": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brown-throated_sloth_(Bradypus_variegatus)_female_2.jpg",
+    "species": "Bradypus variegatus",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "40% 50%",
+    "tone": "dark"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/brown-throated-sloth/alt-1.webp",
+      "width": 1920,
+      "height": 1280,
+      "alt": "Seen from above, a mottled brown-and-cream sloth swimming in dark, still water, its pale face tilted up and its long arms stretched forwards",
+      "caption": "Swimming through the flooded forest of Jaú National Park, Amazonas, Brazil, during the high-water season",
+      "creator": "Meyriane de Mira Teixeira",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_do_Ja%C3%BA_Meyriane_de_Mira_Teixeira_(07).jpg",
+      "species": "Bradypus variegatus",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "55% 45%",
+      "tone": "dark"
+    },
+    {
+      "src": "/media/creatures/brown-throated-sloth/alt-2.webp",
+      "width": 1920,
+      "height": 1281,
+      "alt": "Close view of a shaggy grey sloth clinging to a branch among green leaves, its head bowed, with a dark stripe and patch of pale fur on its back",
+      "caption": "A male brown-throated sloth in Panama; slender sloth moths (Cryptoses choloepi) live in fur like this",
+      "creator": "Kristof Zyskowski & Yulia Bereshpolova",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pyralidae-_Cryptoses_choloepi_on_Bradypus_variegatus.jpg",
+      "species": "Bradypus variegatus",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "45% 40%",
+      "tone": "light"
+    }
+  ],
+  "notes": "Hero and alt-2 are from Panama; alt-1 is the only Amazon photo. The alt-1 swimming sloth is filed on Commons under Bradypus variegatus; Jaú National Park (central Amazon, west bank of the Rio Negro) appears to fall within this species' range rather than that of the pale-throated sloth (B. tridactylus), but the ID comes from the uploader and was not independently confirmed. In alt-2 the moths described on the Commons page are tiny and may not be visible at book size, so the caption does not claim they are shown. ADW gives defecation trips every 3–8 days; Pauli et al. 2014 say 'weekly' — the fact says 'every few days — roughly once a week'. The moth–nitrogen–algae chain is marked hypothesis because Pauli et al. infer the mutualism from correlations. Pauli et al. 2016 measured syntopic two- and three-toed sloths in Costa Rica; the three-toed species at their site is B. variegatus. ADW lists a wild lifespan of 30–40 years, which looks doubtful and was left out. IUCN DOI and GBIF links resolve in a browser but return 403 to scripted requests; IDs were checked via the GBIF API and Wikidata."
+}

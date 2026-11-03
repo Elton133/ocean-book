@@ -1,0 +1,177 @@
+{
+  "extraReferences": [
+    {
+      "title": "A note on the elongated eye of the octopus Vitreledonella richardi. Journal of the Marine Biological Association of the UK 72: 89–92",
+      "publisher": "Journal of the Marine Biological Association of the United Kingdom",
+      "authors": "Land, M.F.",
+      "year": 1992,
+      "url": "https://doi.org/10.1017/S0025315400048803"
+    },
+    {
+      "title": "Stomach contents of northern bottlenose whales Hyperoodon ampullatus stranded in the North Sea. Journal of the Marine Biological Association of the UK 81: 143–150",
+      "publisher": "Journal of the Marine Biological Association of the United Kingdom",
+      "authors": "Santos, M.B., Pierce, G.J., Smeenk, C., Addink, M.J., Kinze, C.C., Tougaard, S. & Herman, J.",
+      "year": 2001,
+      "url": "https://doi.org/10.1017/S0025315401003484"
+    },
+    {
+      "title": "There's more to the story behind rare glass octopus footage",
+      "publisher": "Boston University (The Brink)",
+      "authors": "McAlpine, K.J.",
+      "year": 2021,
+      "url": "https://www.bu.edu/articles/2021/rare-glass-octopus-footage/"
+    }
+  ],
+  "anatomy": {
+    "lede": "Joubin's 1918 drawing shows a female from below: a glassy bell of a mantle over eight long, slender arms. In life almost nothing but the eyes and gut would be visible.",
+    "media": 0,
+    "hotspots": [
+      {
+        "id": "mantle",
+        "label": "Mantle",
+        "x": 50,
+        "y": 12,
+        "text": "The mantle is gelatinous and nearly colourless. In adults it reaches about 11 cm long; in brooding females it holds the eggs.",
+        "ref": 3
+      },
+      {
+        "id": "arms",
+        "label": "Arms",
+        "x": 22,
+        "y": 52,
+        "text": "The upper three pairs of arms are about as long as the mantle in juveniles and two to three times longer in adults; the lowest pair is slightly shorter.",
+        "ref": 3
+      },
+      {
+        "id": "suckers",
+        "label": "Suckers",
+        "x": 27,
+        "y": 67,
+        "text": "Its suckers are small, widely spaced and set in a single row along each arm.",
+        "ref": 3
+      }
+    ],
+    "stats": [
+      {
+        "value": "11 cm",
+        "label": "Maximum mantle length",
+        "ref": 3
+      },
+      {
+        "value": "45 cm",
+        "label": "Maximum total length",
+        "ref": 3
+      },
+      {
+        "value": "about 4 mm",
+        "label": "Egg length",
+        "ref": 3
+      },
+      {
+        "value": "680 m",
+        "label": "Depth of a 2021 sighting",
+        "ref": 2
+      }
+    ]
+  },
+  "senses": {
+    "lede": "The one organ a transparent animal cannot hide is its eye — and the glass octopus's eyes seem shaped around that problem.",
+    "senses": [
+      {
+        "kind": "sight",
+        "name": "Elongated eyes",
+        "text": "Examined in two specimens caught at 200 m, its eyes are cylindrical with the lens in the middle, which narrows their field of view sideways.",
+        "certainty": "confirmed",
+        "ref": 4
+      },
+      {
+        "kind": "sight",
+        "name": "A smaller shadow",
+        "text": "The upright shape is argued to minimise the eye's silhouette as seen by a predator looking up from below, at the cost of a wider view.",
+        "certainty": "hypothesis",
+        "ref": 4
+      }
+    ]
+  },
+  "body": {
+    "lede": "Transparency shapes the whole body, but a few internal features are distinctive.",
+    "systems": [
+      {
+        "title": "Glass tissues",
+        "text": "Its body is transparent, gelatinous and almost colourless, so that in open water mainly the compact eyes and digestive organs stand out.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "title": "A mating arm",
+        "text": "In males the third left arm is modified as a hectocotylus, which delivers sperm to the female and can detach during mating.",
+        "certainty": "confirmed",
+        "ref": 3
+      }
+    ]
+  },
+  "mind": {
+    "lede": "Its behaviour is almost unknown; most records come from nets and from the stomachs of whales.",
+    "studies": [
+      {
+        "year": "2001",
+        "title": "Found inside a whale",
+        "text": "Beaks of glass octopuses were among the remains in the stomach of a northern bottlenose whale stranded on the Danish island of Tåsinge in 1997.",
+        "certainty": "confirmed",
+        "ref": 5
+      },
+      {
+        "year": "2021",
+        "title": "Filmed alive",
+        "text": "A remotely operated vehicle exploring seamounts near the Phoenix Islands filmed two living glass octopuses, one at 680 m.",
+        "certainty": "confirmed",
+        "ref": 2
+      }
+    ]
+  },
+  "survival": {
+    "lede": "In open water there is nowhere to hide, so the glass octopus hides in plain sight.",
+    "tactics": [
+      {
+        "title": "Transparency",
+        "text": "Scientists think its near-transparency is largely a defence, making it hard for predators to spot and helping it approach prey.",
+        "certainty": "hypothesis",
+        "ref": 6
+      },
+      {
+        "title": "Shadow-shrinking eyes",
+        "text": "Narrow, upright eyes may cast less of a silhouette against the faint light from above.",
+        "certainty": "hypothesis",
+        "ref": 4
+      }
+    ],
+    "predators": [
+      "Northern bottlenose whales"
+    ]
+  },
+  "life": {
+    "lede": "The glass octopus carries its young inside its own body until they hatch.",
+    "stages": [
+      {
+        "name": "Brooded egg",
+        "text": "The female broods hundreds of eggs, each about 4 mm long, inside her mantle cavity.",
+        "ref": 3
+      },
+      {
+        "name": "Paralarva",
+        "text": "Newborn young have a mantle about 2.2 mm long. The mother dies soon after they are born, leaving them to fend for themselves.",
+        "ref": 3
+      },
+      {
+        "name": "Growing deeper",
+        "text": "Tiny young live in the upper layers; as they grow, they move away from the surface into deeper water.",
+        "ref": 1
+      },
+      {
+        "name": "Adult",
+        "text": "Adults reach about 11 cm in mantle length and up to 45 cm overall, living in the dim twilight and midnight zones.",
+        "ref": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "extraReferences": [
+    { "title": "The genome of the largest bony fish, ocean sunfish (Mola mola), provides insights into its fast growth rate. GigaScience 5: 36", "publisher": "GigaScience", "authors": "Pan, H. et al.", "year": 2016, "url": "https://doi.org/10.1186/s13742-016-0144-3" },
+    { "title": "Ocean sunfish rewarm at the surface after deep excursions to forage for siphonophores. Journal of Animal Ecology 84: 590–603", "publisher": "Journal of Animal Ecology", "authors": "Nakamura, I., Goto, Y. & Sato, K.", "year": 2015, "url": "https://doi.org/10.1111/1365-2656.12346" },
+    { "title": "Functional dorsoventral symmetry in relation to lift-based swimming in the ocean sunfish Mola mola. PLoS ONE 3: e3446", "publisher": "PLoS ONE", "authors": "Watanabe, Y. & Sato, K.", "year": 2008, "url": "https://doi.org/10.1371/journal.pone.0003446" },
+    { "title": "Ocean sunfish", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ocean_sunfish" }
+  ],
+  "anatomy": {
+    "lede": "A sunfish is a fish that seems to have stopped halfway: a deep, flattened body ending abruptly in a stiff rudder, driven by two tall fins that work like a pair of wings.",
+    "media": 0,
+    "hotspots": [
+      { "id": "dorsal-fin", "label": "Dorsal fin", "x": 42, "y": 8, "text": "The tall dorsal fin and the anal fin below it are a matched pair, with the same shape, the same area and the same mass of swimming muscle.", "ref": 6 },
+      { "id": "pectoral-fin", "label": "Pectoral fin", "x": 64, "y": 30, "text": "The small, rounded pectoral fin behind the head is supported by just 11–13 fin rays.", "ref": 2 },
+      { "id": "skin", "label": "Skin", "x": 52, "y": 42, "text": "There are no scales. The skin is covered in tiny denticles and mucus, feels as rough as sandpaper and can be up to 7.3 cm thick on the belly.", "ref": 7 },
+      { "id": "clavus", "label": "Clavus", "x": 39, "y": 40, "text": "The rudder-like clavus is supported by about 12 fin rays, 8–9 of which carry small bony knobs called ossicles.", "ref": 2 },
+      { "id": "anal-fin", "label": "Anal fin", "x": 59, "y": 74, "text": "Tags show the dorsal and anal fins beating together, about 0.3–0.6 times a second, to give lift-based thrust, much as a penguin uses its flippers.", "ref": 6 }
+    ],
+    "stats": [
+      { "value": "3.3 m", "label": "Length, at least", "ref": 1 },
+      { "value": "0.4–0.7 m/s", "label": "Cruising speed", "ref": 6 },
+      { "value": "0.82 kg/day", "label": "Growth of one captive fish", "ref": 4 }
+    ]
+  },
+  "body": {
+    "lede": "Inside, the sunfish is built light: a skeleton largely of cartilage, no swim bladder, and a thick layer of jelly that keeps it afloat at any depth.",
+    "systems": [
+      { "title": "Floating without a swim bladder", "text": "Sunfish have no swim bladder, yet they are neutrally buoyant at every depth. A thick, low-density gelatinous layer under the skin does not compress as the fish dives.", "certainty": "confirmed", "ref": 6 },
+      { "title": "A bony fish made of cartilage", "text": "Although it belongs to the bony fishes, its skeleton is mostly cartilage. This lighter skeleton may help the giant fish stay buoyant.", "certainty": "hypothesis", "ref": 4 },
+      { "title": "Warming up at the surface", "text": "Body temperature drops during deep feeding dives and recovers at the surface. Heat-budget models suggest the fish gains heat 3–7 times faster than it loses it, perhaps by controlling blood flow.", "certainty": "hypothesis", "ref": 5 },
+      { "title": "A beak for jellies", "text": "The teeth in each jaw are fused into a single plate, and the mouth is small compared with the huge body.", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "genome": {
+    "lede": "In 2016 the sunfish genome was sequenced and compared with those of other bony fishes, including its relative the pufferfish, to look for the genetic roots of its size, speed of growth and missing tail.",
+    "genomeGb": 0.73,
+    "refs": { "genome": 4 },
+    "sequenced": 2016,
+    "findings": [
+      { "title": "Genes for growing big", "text": "Several genes in the growth hormone and IGF-1 signalling pathway show signs of positive selection or fast evolution. This may help explain the sunfish's rapid growth and huge size.", "certainty": "hypothesis", "ref": 4 },
+      { "title": "Cartilage genes under selection", "text": "Several collagen genes involved in forming cartilage have evolved quickly in the sunfish, which may be linked to its largely cartilaginous skeleton.", "certainty": "hypothesis", "ref": 4 },
+      { "title": "Losing the tail without losing a Hox gene", "text": "Sunfish have the same seven Hox gene clusters as the tailed pufferfish, and even more Hox genes. Losing the tail fin was therefore not caused by losing a particular Hox gene.", "certainty": "confirmed", "ref": 4 }
+    ]
+  },
+  "mind": {
+    "lede": "Tags carrying accelerometers, thermometers and cameras have changed our picture of the sunfish, from a lazy drifter to a diving forager working to a daily routine.",
+    "studies": [
+      { "year": "2008", "title": "A swimmer, not a drifter", "text": "Multi-sensor tags showed sunfish swimming continuously and diving often, at speeds similar to salmon, marlin and open-ocean sharks.", "certainty": "confirmed", "ref": 6 },
+      { "year": "2015", "title": "Cameras on the hunt", "text": "Animal-borne cameras filmed sunfish catching prey. Siphonophores were the commonest prey, taken mostly at 100–200 m during the day, in water below 12 °C.", "certainty": "confirmed", "ref": 5 },
+      { "year": "2015", "title": "Dive, then warm up", "text": "Body temperature fell during deep dives and rose again at the surface, suggesting that basking at the surface lets sunfish rewarm and so feed longer in cold water. Not all tagging studies agree.", "certainty": "hypothesis", "ref": 5 },
+      { "year": "Field", "title": "Visiting the cleaners", "text": "Sunfish carry more than 40 kinds of parasites. They are reported to visit cleaner fish around drifting kelp and to let seabirds pick at their skin while lying at the surface.", "certainty": "hypothesis", "ref": 7 }
+    ]
+  },
+  "survival": {
+    "lede": "Sheer size protects an adult sunfish from most hunters, but the young are bite-sized, and people now pose the greatest risk.",
+    "tactics": [
+      { "title": "Too big to tackle", "text": "Adults have few natural predators, though sea lions, orcas and sharks will eat them.", "certainty": "confirmed", "ref": 7 },
+      { "title": "Safety in numbers", "text": "Young sunfish swim in schools for protection, a habit they give up as they grow.", "certainty": "confirmed", "ref": 7 }
+    ],
+    "predators": ["Sea lions", "Orcas", "Sharks", "Bluefin tuna (young)", "Mahi-mahi (young)"],
+    "threats": [
+      { "title": "Bycatch", "text": "Sunfish are often caught in huge numbers by accident in gillnet, driftnet, longline and midwater trawl fisheries, which are largely unregulated for this species.", "certainty": "confirmed", "ref": 2 },
+      { "title": "A declining population", "text": "The IUCN lists the ocean sunfish as Vulnerable, with drift gillnets its main threat.", "certainty": "confirmed", "ref": 7 },
+      { "title": "Ships and plastic", "text": "Sunfish are sometimes struck by ships. Floating debris such as plastic bags may also be a threat.", "certainty": "hypothesis", "ref": 2 }
+    ]
+  },
+  "life": {
+    "lede": "No vertebrate starts smaller and ends bigger. A sunfish begins as one of hundreds of millions of tiny drifting eggs and passes through a spiny, pufferfish-like stage before it loses its tail.",
+    "stages": [
+      { "name": "Egg", "text": "Eggs and sperm are released into the open sea, where the tiny, buoyant eggs are fertilised and drift.", "ref": 1 },
+      { "name": "Larva", "text": "A newly hatched larva is only about 2.5 mm long and weighs less than a gram.", "ref": 7 },
+      { "name": "Spiny fry", "text": "The young first look like miniature pufferfish, with large pectoral fins, a tail fin and body spines.", "ref": 4 },
+      { "name": "Transformation", "text": "In a second, highly transformed stage the tail is completely absorbed and the clavus takes its place.", "ref": 4 },
+      { "name": "Adult", "text": "Survivors may grow to up to 60 million times their hatching weight. How fast wild sunfish grow is still not known.", "ref": 7 }
+    ],
+    "lifespan": { "value": "Unknown in the wild; up to about 10 years in captivity", "ref": 7 }
+  }
+}

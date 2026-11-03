@@ -14,6 +14,11 @@
   --coral: #d9583a;
   --rust: #a8462e;
   --mist: rgba(237, 230, 214, 0.62);
+  /* Land page grounds, one per biome family */
+  --canopy: #0b1d15;
+  --dune: #21160c;
+  --savanna: #1d180b;
+  --tundra: #0c1820;
   --hairline: rgba(237, 230, 214, 0.16);
   --ease-cine: cubic-bezier(0.83, 0, 0.17, 1);
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
@@ -33,6 +38,10 @@
   --color-coral: var(--coral);
   --color-rust: var(--rust);
   --color-mist: var(--mist);
+  --color-canopy: var(--canopy);
+  --color-dune: var(--dune);
+  --color-savanna: var(--savanna);
+  --color-tundra: var(--tundra);
   --font-display: var(--font-instrument-serif);
   --font-sans: var(--font-inter);
   --font-mono: var(--font-jetbrains);

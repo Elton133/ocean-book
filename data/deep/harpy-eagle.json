@@ -1,0 +1,81 @@
+{
+  "extraReferences": [
+    { "title": "Harpia harpyja genome assembly bHarHar1 primary haplotype (GCF_026419915.1), Vertebrate Genomes Project", "publisher": "NCBI Datasets", "year": 2022, "url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_026419915.1/" },
+    { "title": "Chromosome reshuffling in birds of prey: the karyotype of the world's largest eagle (Harpy eagle, Harpia harpyja) compared to that of the chicken (Gallus gallus). Chromosoma 114: 338–343", "publisher": "Chromosoma", "authors": "de Oliveira, E.H.C. et al.", "year": 2005, "url": "https://doi.org/10.1007/s00412-005-0009-5" }
+  ],
+  "anatomy": {
+    "lede": "The harpy eagle is built to hunt inside the forest rather than above it: short, broad wings and a long tail for steering between trees, an owl-like face for listening, and feet strong enough to seize a sloth.",
+    "media": 1,
+    "hotspots": [
+      { "id": "crest", "label": "Crest", "x": 70, "y": 9, "text": "A crest of long feathers can be raised and lowered at will, for example when the eagle feels threatened.", "ref": 3 },
+      { "id": "face", "label": "Facial disc", "x": 63, "y": 19, "text": "A ring of feathers around the face can be lifted to funnel sound towards the ears on the sides of the head — a trait shared with owls.", "ref": 2 },
+      { "id": "bill", "label": "Bill", "x": 55, "y": 16, "text": "The hooked black bill tears meat; a mother feeds her tiny chick small pieces with it.", "ref": 2 },
+      { "id": "band", "label": "Chest band", "x": 64, "y": 28, "text": "Adults have a dark band across the chest above a white belly. This colouring may help eagles recognise mates that are ready to breed.", "ref": 2 },
+      { "id": "wing", "label": "Wing", "x": 80, "y": 44, "text": "Harpies are not built for soaring. Their relatively short wings let them fly from tree to tree with surprising agility for their size.", "ref": 2 },
+      { "id": "legs", "label": "Legs", "x": 74, "y": 55, "text": "Thick, powerful legs let the eagle snatch prey from the canopy and carry it off to a perch.", "ref": 3 },
+      { "id": "talons", "label": "Talons", "x": 70, "y": 66, "text": "The rear talons are about 8–10 cm long — the size of a grizzly bear's claws.", "ref": 2 },
+      { "id": "tail", "label": "Tail", "x": 70, "y": 85, "text": "The long, barred tail acts like a rudder for steering through dense vegetation.", "ref": 2 }
+    ],
+    "stats": [
+      { "value": "2 m", "label": "Wingspan", "ref": 3 },
+      { "value": "7–9 kg", "label": "Average female weight", "ref": 3 },
+      { "value": "12.5 cm", "label": "Longest talons", "ref": 3 },
+      { "value": "40 m", "label": "Typical nest height", "ref": 2 }
+    ]
+  },
+  "senses": {
+    "lede": "Under the canopy, even at midday, the forest is dim. The harpy hunts with both eyes and ears.",
+    "senses": [
+      { "kind": "sight", "name": "Sight", "text": "Harpies use keen eyesight to find prey in thick rainforest, sometimes dropping below the canopy to search.", "certainty": "confirmed", "ref": 2 },
+      { "kind": "hearing", "name": "Hearing", "text": "Because little light reaches the forest interior, harpies also use hearing to pinpoint prey, raising the feathers of the facial disc to direct sound to their ears.", "certainty": "confirmed", "ref": 2 }
+    ]
+  },
+  "body": {
+    "lede": "A predator of monkeys and sloths needs immense grip, precise flight in cramped spaces and a gut that copes with irregular meals.",
+    "systems": [
+      { "title": "Feet for heavy prey", "text": "Powerful legs and long, sharp talons let harpies catch animals that are out of reach for most birds, including howler monkeys, sloths and even young deer.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Steering, not soaring", "text": "Short wings and a long tail suit slow travel from tree to tree rather than long flights over open country.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Feast and wait", "text": "Harpies do not hunt every day. They may feed on one kill for several days and tolerate slightly rotten meat.", "certainty": "confirmed", "ref": 2 }
+    ]
+  },
+  "genome": {
+    "lede": "A chromosome-level harpy eagle genome was produced by the Vertebrate Genomes Project in 2022. Its chromosomes had already shown how unusual birds of prey are.",
+    "diploid": 58,
+    "genomeGb": 1.35,
+    "refs": { "diploid": 7, "genome": 6 },
+    "sequenced": 2022,
+    "findings": [
+      { "title": "A reshuffled karyotype", "text": "Most birds have a few large chromosomes and many tiny 'microchromosomes'. Painting harpy chromosomes with chicken probes showed this pattern has been lost: they are mostly medium-sized, with only four pairs as small as chicken microchromosomes.", "certainty": "confirmed", "ref": 7 }
+    ]
+  },
+  "mind": {
+    "lede": "Long-lived and slow-breeding, harpies form stable partnerships and invest heavily in a single chick.",
+    "studies": [
+      { "year": "Field", "title": "Partners for life", "text": "Pairs build the nest together, chirping to each other, and occasionally rub their bills together for a few seconds — behaviour thought to strengthen their bond.", "certainty": "hypothesis", "ref": 3 },
+      { "year": "Field", "title": "Fresh greenery", "text": "Adults keep bringing green twigs to the nest after the chick hatches. Some researchers think this keeps insects and parasites away or cools the nest.", "certainty": "hypothesis", "ref": 2 },
+      { "year": "Field", "title": "Patient hunters", "text": "A harpy can stay perched for up to 23 hours while watching for prey.", "certainty": "confirmed", "ref": 3 }
+    ]
+  },
+  "survival": {
+    "lede": "As an apex predator, an adult harpy has no natural enemies. Its fate is tied to the forest.",
+    "tactics": [
+      { "title": "Careful with dangerous prey", "text": "Monkeys and sloths can fight back with teeth and claws, and young eagles in particular risk injury while learning to hunt.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Guarding the nest", "text": "Parents defend the nest and their territory of about 30 km², driving out competing eagles.", "certainty": "confirmed", "ref": 3 }
+    ],
+    "predators": ["Other harpy eagles (chicks only)"],
+    "threats": [
+      { "title": "Forest loss", "text": "Logging and farming destroy the tall forest harpies need; where too much forest is cleared, parents cannot feed their young.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Shooting", "text": "Harpies are shot by people who fear them or think they take livestock. A 2002 survey in Panama found most killings stemmed from misunderstanding the bird's behaviour.", "certainty": "confirmed", "ref": 2 }
+    ]
+  },
+  "life": {
+    "lede": "Raising one harpy takes so long that a pair usually breeds only every two to three years.",
+    "stages": [
+      { "name": "Egg", "duration": "about 55–56 days", "text": "The female lays one or two eggs and does most of the incubating, but only one chick is raised; the second egg may be a back-up.", "ref": 2 },
+      { "name": "Nestling", "duration": "5–6 months", "text": "A hatchling fits in the palm of a hand, yet reaches adult size in five or six months, when it fledges.", "ref": 2 },
+      { "name": "Juvenile", "duration": "1–2 years", "text": "The young eagle stays dependent on its parents for one to two years, then disperses to find its own territory.", "ref": 2 },
+      { "name": "Adult", "duration": "from about 5 years", "text": "Young birds are pale grey and white, darkening with each moult until they reach adult plumage at about five years old.", "ref": 2 }
+    ],
+    "lifespan": { "value": "Estimated 25–35 years", "ref": 3 }
+  }
+}

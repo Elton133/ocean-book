@@ -1,0 +1,68 @@
+{
+  "extraReferences": [
+    { "title": "Predator classification by the sea pen Ptilosarcus gurneyi (Cnidaria): role of waterborne chemical cues and physical contact with predatory sea stars. Canadian Journal of Zoology 80: 185–190", "publisher": "Canadian Journal of Zoology", "url": "https://doi.org/10.1139/z01-211", "year": 2002, "authors": "Weightman J.O., Arsenault D.J." },
+    { "title": "Interactions between a sea pen and seven of its predators. Ecological Monographs 44: 211–232", "publisher": "Ecological Monographs (Ecological Society of America)", "url": "https://doi.org/10.2307/1942312", "year": 1974, "authors": "Birkeland C." },
+    { "title": "Bacterially produced Pt-GFP as ratiometric dual-excitation sensor for in planta mapping of leaf apoplastic pH in intact Avena sativa and Vicia faba. Plant Methods 10: 31", "publisher": "Plant Methods (PubMed 25313311)", "url": "https://doi.org/10.1186/1746-4811-10-31", "year": 2014, "authors": "Geilfus C.M., Mühling K.H., Kaiser H., Plieth C." },
+    { "title": "Reply to the comment by Dalby and Elliott on 'Predator classification by the sea pen Ptilosarcus gurneyi'. Canadian Journal of Zoology 81: 559–561", "publisher": "Canadian Journal of Zoology", "url": "https://doi.org/10.1139/z03-018", "year": 2003, "authors": "Weightman J.O., Arsenault D.J." }
+  ],
+  "anatomy": {
+    "lede": "What looks like a single feathery animal is a colony: one founding polyp turned into a stalk and anchor, carrying thousands of smaller polyps that each do one job.",
+    "media": 0,
+    "hotspots": [
+      { "id": "bulb", "label": "Anchoring bulb", "x": 61, "y": 89, "text": "The colony's first polyp grows into a fleshy, bulb-shaped base that anchors it in sand or mud, and into which the colony can partly withdraw.", "ref": 2 },
+      { "id": "rachis", "label": "Rachis", "x": 52, "y": 50, "text": "The central stalk is the rachis. Pumping polyps (siphonozooids) on its orange sides move water in and out, inflating or deflating the colony.", "ref": 2 },
+      { "id": "leaves", "label": "Polyp leaves", "x": 78, "y": 43, "text": "The ribbed 'leaves' along each side are lined with feeding polyps (autozooids), each with eight tentacles for catching drifting plankton.", "ref": 2 },
+      { "id": "leaf-edge", "label": "Feeding polyps", "x": 40, "y": 33, "text": "The same feeding polyps also make the colony's eggs and sperm.", "ref": 2 },
+      { "id": "second-colony", "label": "Neighbour", "x": 23, "y": 72, "text": "Young sea pens tend to settle in dense clumps, so colonies often grow close together.", "ref": 6 }
+    ],
+    "stats": [
+      { "value": "48 cm", "label": "Maximum height", "ref": 3 },
+      { "value": "5–6 years", "label": "Age at sexual maturity", "ref": 6 },
+      { "value": "15+ years", "label": "Lifespan", "ref": 6 },
+      { "value": "73%", "label": "Burrowed after touch by a leather star", "ref": 5 }
+    ]
+  },
+  "senses": {
+    "lede": "A sea pen has no eyes or brain, yet it can tell a dangerous sea star from a harmless one.",
+    "senses": [
+      { "kind": "touch", "name": "Touch", "text": "Physical contact is what triggers its defences. Most sea pens burrowed quickly after touching a specialist predator, the leather star, but barely reacted to a harmless ochre star or a glass rod.", "certainty": "confirmed", "ref": 5 },
+      { "kind": "smell", "name": "Chemical cues", "text": "In experiments, water carrying the scent of predatory sea stars caused no defensive response on its own, in the lab or in the field. The sea pen waits for contact before it reacts.", "certainty": "confirmed", "ref": 5 }
+    ]
+  },
+  "body": {
+    "lede": "A sea pen's body is a water-filled colony that can light up, swell or shrink as a whole.",
+    "systems": [
+      { "title": "Hydraulic skeleton", "text": "Water pumped in by the siphonozooids holds the colony upright. Letting it out lets the pen shrink into the sediment, and inflating lets it drift off to a new spot.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Colony-wide light", "text": "Contact with a predatory sea star set off bioluminescent flashes across the whole colony, whereas a harmless star or a glass rod produced only weaker, local glows.", "certainty": "confirmed", "ref": 5 },
+      { "title": "A borrowed glow", "text": "The orange sea pen's green fluorescent protein, Pt-GFP, is used by biologists as a pH sensor because its glow changes with acidity and resists fading.", "certainty": "confirmed", "ref": 7 },
+      { "title": "Chemical defence", "text": "It produces a mild toxin, ptilosarcone, whose role has not been well studied.", "certainty": "uncertain", "ref": 2 }
+    ]
+  },
+  "mind": {
+    "lede": "Decisions without a brain: the sea pen's responses are graded to the threat.",
+    "studies": [
+      { "year": "1974", "title": "A food web around one animal", "text": "A Puget Sound study found the sea pen feeds at least seven predators — four sea stars and three sea slugs — and worked out how each one affects its numbers.", "certainty": "confirmed", "ref": 6 },
+      { "year": "2002", "title": "Telling predators apart", "text": "Leather stars made 73% of sea pens burrow, the generalist sunflower star only 23%, and the harmless ochre star little more than a glass rod did.", "certainty": "confirmed", "ref": 5 },
+      { "year": "2003", "title": "Not the first after all", "text": "The 2002 authors had called theirs the first evidence of predator classification in cnidarians. After colleagues pointed to earlier studies, they agreed that claim was incorrect.", "certainty": "confirmed", "ref": 8 }
+    ]
+  },
+  "survival": {
+    "lede": "Standing tall on open sediment, a sea pen is one of the largest meals on the seafloor.",
+    "tactics": [
+      { "title": "Dive into the sand", "text": "Threatened, it deflates and pulls down into its base and the sediment, though some soft tissue may remain exposed.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Flash a warning", "text": "A greenish-blue light runs up and down the stalk when it is disturbed, which may startle predators.", "certainty": "hypothesis", "ref": 2 },
+      { "title": "Not enough on its own", "text": "Its refuges and escapes do not fully explain how it stays abundant. Adult-eating predators take about 3% of adults each year, picking the largest pens.", "certainty": "confirmed", "ref": 6 }
+    ],
+    "predators": ["Leather star", "Spiny red star", "Rose star", "Vermilion star", "Sunflower star", "Armina californica (sea slug)", "Tritonia festiva (sea slug)", "Hermissenda crassicornis (sea slug)"]
+  },
+  "life": {
+    "lede": "A sea pen starts as a drifting egg and builds itself, polyp by polyp, into a colony that can live for well over a decade.",
+    "stages": [
+      { "name": "Spawning", "duration": "March to April", "text": "Colonies breed in spring, releasing eggs that drift in the water.", "ref": 1 },
+      { "name": "Planula larva", "text": "The eggs develop into planula larvae, which settle on the seafloor and become a single tiny polyp.", "ref": 1 },
+      { "name": "Young colony", "text": "The first polyp clones itself again and again to build the colony. In dense patches, 97% of young pens die in their first year, mostly eaten by sea slugs and a sea star.", "ref": 6 },
+      { "name": "Mature colony", "duration": "from 5–6 years", "text": "Sea pens take five or six years to reach sexual maturity, In the Puget Sound population studied, adults spanned about ten year classes.", "ref": 6 }
+    ],
+    "lifespan": { "value": "15 years or more", "ref": 6 }
+  }
+}

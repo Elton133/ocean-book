@@ -1,0 +1,80 @@
+{
+  "extraReferences": [
+    { "title": "North African fox genomes show signatures of repeated introgression and adaptation to life in deserts. Nature Ecology & Evolution 7: 1267–1286", "publisher": "Nature Ecology & Evolution", "url": "https://doi.org/10.1038/s41559-023-02094-w", "year": 2023, "authors": "Rocha J.L., Silva P., Santos N. et al." }
+  ],
+  "anatomy": {
+    "lede": "A fennec is mostly ears and fur: a kilogram of fox built to lose heat by day, hear through sand by night and walk on ground too hot to touch.",
+    "media": 1,
+    "hotspots": [
+      { "id": "left-ear", "label": "Ear", "x": 23, "y": 25, "text": "Each ear can be 10–15 cm long, and does two jobs: shedding body heat and gathering sound.", "ref": 1 },
+      { "id": "right-ear", "label": "Pale ear lining", "x": 63, "y": 24, "text": "The fur on the face, legs and ear linings is white, while the back is buff. Fennecs are the palest of all foxes, which camouflages them on sand.", "ref": 2 },
+      { "id": "eye", "label": "Eye", "x": 34, "y": 49, "text": "A reflective layer behind the retina, the tapetum, gathers extra light for hunting at night and makes the eyes seem to glow.", "ref": 2 },
+      { "id": "whiskers", "label": "Whiskers", "x": 28, "y": 58, "text": "The whiskers, nose pad and eyes are all black, set in a pale face.", "ref": 2 },
+      { "id": "nose", "label": "Nose", "x": 40.5, "y": 65, "text": "Smell, with hearing, is one of the two senses the fennec relies on most.", "ref": 2 },
+      { "id": "paw", "label": "Furred paw", "x": 55, "y": 79, "text": "Thick fur covers the soles, giving grip on loose sand and protecting the pads from the heat.", "ref": 1 }
+    ],
+    "stats": [
+      { "value": "10–15 cm", "label": "Ear length", "ref": 1 },
+      { "value": "18–22 cm", "label": "Shoulder height", "ref": 2 },
+      { "value": "0.8–1.5 kg", "label": "Body mass", "ref": 2 },
+      { "value": "0.7 m", "label": "Standing vertical jump", "ref": 2 }
+    ]
+  },
+  "senses": {
+    "lede": "The fennec lives by its ears. Hearing and smell lead it to food buried in sand on moonless nights.",
+    "senses": [
+      { "kind": "hearing", "name": "Hearing", "text": "Besides the huge outer ears, the bony chambers of the middle ear, the auditory bullae, are enlarged. Together they let the fox hear prey moving through many centimetres of sand.", "certainty": "confirmed", "ref": 2 },
+      { "kind": "hearing", "name": "Voices of the family", "text": "Fennecs can tell apart subtle differences between the whines and whimpers of other fennecs, and their own calls include barks, shrieks, squeaks, growls, howls and chatters.", "certainty": "confirmed", "ref": 2 },
+      { "kind": "smell", "name": "Smell", "text": "A highly developed sense of smell helps the fox find prey and read the urine and droppings that mark the edges of each family's territory.", "certainty": "confirmed", "ref": 2 },
+      { "kind": "sight", "name": "Night vision", "text": "The tapetum behind the retina reflects light back through it a second time, improving vision in the dark.", "certainty": "confirmed", "ref": 2 }
+    ]
+  },
+  "body": {
+    "lede": "Life in the Sahara means coping with searing days, cold nights and almost no drinking water.",
+    "systems": [
+      { "title": "Ears as radiators", "text": "The ears are massive in proportion to the skull, and one of their main jobs is to get rid of body heat.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Water from food", "text": "Fruit, leaves and roots supply almost all of a fennec's water, so it can go indefinitely without drinking.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Kidneys under selection", "text": "Whole genomes from Saharan foxes revealed repeated signs of natural selection on genes that control water balance in the kidneys, in both the fennec and Rüppell's fox, backed by differences in gene activity and physiology.", "certainty": "confirmed", "ref": 4 }
+    ]
+  },
+  "genome": {
+    "lede": "The fennec has been sequenced as part of a study of how foxes adapted, again and again, to the Sahara.",
+    "sequenced": null,
+    "findings": [
+      { "title": "Four foxes, one desert", "text": "Researchers sequenced 82 whole genomes from four fox species living in the Sahara, which arrived there at different times in their evolution, including the fennec.", "certainty": "confirmed", "ref": 4 },
+      { "title": "Borrowed genes", "text": "Newer arrivals in the desert appear to have adapted partly by inheriting stretches of DNA from older desert species through interbreeding, including a 25-million-letter region that may be adaptive.", "certainty": "hypothesis", "ref": 4 }
+    ]
+  },
+  "mind": {
+    "lede": "Fennecs are sociable, playful and vocal — unusual for a fox — though each still hunts alone.",
+    "studies": [
+      { "year": "Field", "title": "Families with helpers", "text": "Family groups of up to ten usually include a breeding pair, their pups and some older siblings, who help to raise the young.", "certainty": "confirmed", "ref": 2 },
+      { "year": "Field", "title": "Stalk, spring, pounce", "text": "The fennec hunts alone by stalking, springing and pouncing. It can kill prey larger than itself: fully grown rabbits have been recorded.", "certainty": "confirmed", "ref": 1 },
+      { "year": "Field", "title": "Hidden stores", "text": "Fennecs cache spare food and are said to remember the hiding places from one season to the next.", "certainty": "uncertain", "ref": 2 },
+      { "year": "Captivity", "title": "Born to dig", "text": "Fennecs raised in the laboratory often dig, or try to dig, inside their cages, which suggests that digging is instinctive rather than learned.", "certainty": "hypothesis", "ref": 2 }
+    ]
+  },
+  "survival": {
+    "lede": "Little is recorded about what hunts the fennec. Its defences are a sand-coloured coat, sharp ears and a burrow with more than one way out.",
+    "tactics": [
+      { "title": "Tunnels with escape hatches", "text": "Burrows can grow into tunnel systems up to 10 m long with several entrances, so the fox can flee if an enemy arrives. They are often dug under bushes whose roots hold the walls up.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Sand-coloured", "text": "The pale coat that helps the fennec stalk prey probably also hides it from larger predators.", "certainty": "hypothesis", "ref": 2 },
+      { "title": "Out of the sun", "text": "By spending the day underground and hunting at night, the fox avoids the hottest hours and saves water.", "certainty": "confirmed", "ref": 1 }
+    ],
+    "predators": [],
+    "threats": [
+      { "title": "Trapping for sale", "text": "The main threat is people: fennecs are commonly trapped for exhibition or for sale to tourists, and they are also hunted in parts of the Sahara.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Settlements", "text": "In some places, new human settlements have spread into fennec habitat, though so far only on a limited scale.", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "life": {
+    "lede": "Fennecs pair for life and raise one litter a year, with both parents caring for the pups.",
+    "stages": [
+      { "name": "Pregnancy", "duration": "50–53 days", "text": "Mating takes place in January and February, and the female is in heat for only a day or two.", "ref": 1 },
+      { "name": "Newborn pup", "duration": "first 2 weeks", "text": "Usually two to four pups are born, sometimes five or six, each weighing about 50 g and blind. The mother stays with them in the den while the father brings her food.", "ref": 2 },
+      { "name": "Growing pup", "duration": "to about 10 weeks", "text": "Eyes open after 8–11 days and pups walk at about two weeks. They play inside the den at four weeks, outside it at five, and nurse for around ten weeks.", "ref": 1 },
+      { "name": "Adult", "duration": "from 6–11 months", "text": "Young fennecs reach adult size and sexual maturity at between six and eleven months, depending on the source.", "ref": 2 }
+    ],
+    "lifespan": { "value": "up to 10 years in the wild; 12 in captivity", "ref": 2 }
+  }
+}

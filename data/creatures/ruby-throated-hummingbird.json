@@ -1,0 +1,170 @@
+{
+  "slug": "ruby-throated-hummingbird",
+  "realm": "land",
+  "commonName": "Ruby-throated Hummingbird",
+  "scientificName": "Archilochus colubris",
+  "authority": "(Linnaeus, 1758)",
+  "gbifId": 5228514,
+  "iucnId": 22688193,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Apodiformes",
+    "family": "Trochilidae"
+  },
+  "group": "Hummingbird",
+  "categories": [
+    "fliers",
+    "migrations"
+  ],
+  "tagline": "A three-gram bird that hangs in the air on a blur of wings",
+  "summary": "The only hummingbird that nests in eastern North America, the ruby-throat hovers in front of flowers on wings beating about 53 times a second. Each autumn these tiny birds, which weigh less than a coin, fatten up and head south to Mexico and Central America, and many may cross the Gulf of Mexico on the way.",
+  "ability": "hovering on a blur of wings",
+  "stats": {
+    "size": "About 3.4 g for males and 3.8 g for females",
+    "habitat": "Deciduous woodland, forest edges, meadows, orchards and gardens; dry forest and scrub in winter",
+    "range": "Breeds across eastern North America and the Canadian prairies; winters from southern Mexico to Costa Rica and in the West Indies",
+    "diet": "Nectar from red or orange tubular flowers, plus small insects and spiders",
+    "conservation": "IUCN Red List: Least Concern (2021 assessment)"
+  },
+  "regions": [
+    "north-american-forests",
+    "central-america"
+  ],
+  "biome": "temperate-forest",
+  "flight": "hovering",
+  "signatureData": {
+    "wingbeatHz": 53,
+    "refs": {
+      "wingbeat": 0
+    }
+  },
+  "facts": [
+    {
+      "title": "53 wingbeats a second",
+      "text": "The ruby-throat beats its wings about 53 times a second. Like all hummingbirds, it can stop in an instant, hang motionless in mid-air and shift up, down, sideways and even backwards with fine control.",
+      "certainty": "confirmed",
+      "ref": 0
+    },
+    {
+      "title": "Too short-legged to walk",
+      "text": "Its legs are so short that it cannot walk or hop; the best it can do is shuffle along a perch. To scratch its head it raises a foot up and over its wing.",
+      "certainty": "confirmed",
+      "ref": 0
+    },
+    {
+      "title": "A nest the size of a thimble",
+      "text": "The female builds her nest on top of a slender branch from thistle or dandelion down bound with spider silk, and decorates the outside with lichen and moss. The cup is about 5 cm across, and its walls stretch as the chicks grow.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Fuelled for the Gulf",
+      "text": "On the Alabama coast in autumn, older birds arrived with larger fuel loads and stayed for shorter stopovers than first-year birds. The researchers calculated that an average bird could fly the roughly 1,000 km across the Gulf of Mexico in still air, but they could not say whether the birds actually fly over the Gulf or around it.",
+      "certainty": "hypothesis",
+      "ref": 3
+    },
+    {
+      "title": "The East's only hummingbird",
+      "text": "It is the only hummingbird that breeds in eastern North America, and its breeding range covers a larger area than that of any other North American hummingbird.",
+      "certainty": "confirmed",
+      "ref": 0
+    },
+    {
+      "title": "Common, but declining",
+      "text": "Partners in Flight estimates about 36 million breeding birds. But an analysis of Breeding Bird Survey data found that, after decades of increase, ruby-throats have been declining since about 2004 across most of their breeding range.",
+      "certainty": "confirmed",
+      "ref": 4
+    }
+  ],
+  "references": [
+    {
+      "title": "Ruby-throated Hummingbird: Overview",
+      "publisher": "All About Birds, Cornell Lab of Ornithology",
+      "url": "https://www.allaboutbirds.org/guide/Ruby-throated_Hummingbird/overview"
+    },
+    {
+      "title": "Ruby-throated Hummingbird: Life History",
+      "publisher": "All About Birds, Cornell Lab of Ornithology",
+      "url": "https://www.allaboutbirds.org/guide/Ruby-throated_Hummingbird/lifehistory"
+    },
+    {
+      "title": "Archilochus colubris (ruby-throated hummingbird)",
+      "publisher": "Animal Diversity Web, University of Michigan",
+      "authors": "Kirschbaum, K., Harris, M.S. & Naumann, R.",
+      "year": 2000,
+      "url": "https://animaldiversity.org/accounts/Archilochus_colubris/"
+    },
+    {
+      "title": "Stopover biology of Ruby-throated Hummingbirds (Archilochus colubris) during autumn migration. The Auk 133: 237–250",
+      "publisher": "The Auk",
+      "authors": "Zenzal, T.J. Jr. & Moore, F.R.",
+      "year": 2016,
+      "url": "https://doi.org/10.1642/AUK-15-160.1"
+    },
+    {
+      "title": "Current contrasting population trends among North American hummingbirds. Scientific Reports 11: 18369",
+      "publisher": "Scientific Reports",
+      "authors": "English, S.G., Bishop, C.A., Wilson, S. & Smith, A.C.",
+      "year": 2021,
+      "url": "https://doi.org/10.1038/s41598-021-97889-x"
+    },
+    {
+      "title": "Archilochus colubris (BirdLife International)",
+      "publisher": "IUCN Red List of Threatened Species",
+      "year": 2021,
+      "url": "https://www.iucnredlist.org/species/22688193/186910664"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/ruby-throated-hummingbird/hero.webp",
+    "width": 1920,
+    "height": 1443,
+    "alt": "A male ruby-throated hummingbird hovering face-on with wings spread wide, its throat glowing fiery red-orange below a dark face and green crown, against a soft olive-green background",
+    "caption": "A male hovering, his gorget catching the light, Kings County, New Brunswick, Canada",
+    "creator": "Blake Ross",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Archilochus_colubris-male_hovering.jpg",
+    "species": "Archilochus colubris",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "42% 45%",
+    "tone": "dark"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/ruby-throated-hummingbird/alt-1.webp",
+      "width": 1920,
+      "height": 1920,
+      "alt": "Side view of a male ruby-throated hummingbird in flight, one wing raised and one swept forward, with a long straight black bill and a patch of red on the throat, against a dark green blur",
+      "caption": "A male in flight, Cullman County, Alabama",
+      "creator": "Pslawinski",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Male_Ruby-Throated_Hummingbird_Hovering.jpg",
+      "species": "Archilochus colubris",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "50% 40%",
+      "tone": "dark"
+    },
+    {
+      "src": "/media/creatures/ruby-throated-hummingbird/alt-2.webp",
+      "width": 1920,
+      "height": 1321,
+      "alt": "A small hummingbird with a bronze-green back, white chest and red throat perched on top of a weathered wooden stake, looking left against a plain grey sky",
+      "caption": "A male on lookout over his feeding territory from the top of a tomato stake, Louisville, Kentucky",
+      "creator": "Joe Schneid",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Archilochus_colubris_(Male).jpg",
+      "species": "Archilochus colubris",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "65% 35%",
+      "tone": "light"
+    }
+  ],
+  "notes": "signatureData: wingbeatHz 53 is Cornell All About Birds' 'Cool Facts' figure ('beats its wings about 53 times a second'). Cornell gives no sex or flight mode; Birds of the World (Weidensaul et al. 2020, paywalled, seen only in a search snippet) reportedly attributes ~53 beats/s for all flight types, including hovering, to Greenewalt (1960). ADW also gives 53 beats/s, but elsewhere gives 'the normal 90 beats per second' and up to 200 in courtship, which conflict, so ADW is not used for the figure. Peer-reviewed hovering kinematics papers on this species (Chai et al. 1997, 1998; Mahalingam & Welch 2013, JEB) report wingbeat frequency, but their numbers could not be read (paywalled; abstracts give trends only). heartRateBpm is omitted: the widely quoted 1,260 bpm figure appears to come from the blue-throated hummingbird (Lampornis clemenciae), and the only ruby-throat figure found (~614 bpm, at rest) is neither a maximum nor confirmed from the primary source. allaboutbirds.org and iucnredlist.org return 403 to scripted requests. Cornell text was read from Wayback Machine copies (Dec 2025 / Jan 2026), and the IUCN category and ID came from the GBIF IUCN checklist (BirdLife International 2021, DOI 10.2305/IUCN.UK.2021-3.RLTS.T22688193A186910664.en). Zenzal & Moore: fuel-load and age results are from the abstract; the '~1,000 km' Gulf crossing estimate and the authors' uncertainty about over-versus-around come from the Discussion. The fact is marked hypothesis because the range is a flight-simulation estimate and the authors say such models may overestimate it. Mass is from ADW. The nest width converts Cornell's 'about 2 inches'. Population (36 million) is Partners in Flight via Cornell, and the post-2004 decline is from the English et al. 2021 abstract. Regions: north-american-forests is first because Cornell notes the species 'across the Canadian prairies' (the polygon covers Alberta/Saskatchewan and the eastern Dakotas); most of the eastern breeding range lies east of every mapped polygon. central-america is wintering range (ADW: southern Mexico, Central America to Costa Rica, West Indies). Categories: migrations (Gulf of Mexico migration); not endangered (LC). Images: hero is an iNaturalist observation (138799680), New Brunswick, 2022. alt-1 is from Cullman County, Alabama, 2014 (geotagged). alt-2 is a Commons Featured Picture, Louisville, Kentucky, 2006 (geotagged); the uploader describes the bird as a male, but its gorget is patchy, so it may be a young male."
+}

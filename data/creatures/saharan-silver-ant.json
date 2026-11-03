@@ -1,0 +1,139 @@
+{
+  "slug": "saharan-silver-ant",
+  "realm": "land",
+  "commonName": "Saharan Silver Ant",
+  "scientificName": "Cataglyphis bombycina",
+  "authority": "(Roger, 1859)",
+  "gbifId": 1319624,
+  "taxonomy": {
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Hymenoptera",
+    "family": "Formicidae"
+  },
+  "group": "Ant",
+  "categories": [
+    "desert-survivors"
+  ],
+  "tagline": "A heat-proof ant in a mirrored coat that forages at midday",
+  "summary": "While almost everything else in the Sahara hides from the noon sun, the silver ant comes out. A coat of tiny triangular hairs reflects sunlight and radiates heat away, and it is the fastest ant ever measured, sprinting across scorching sand to scavenge before its own heat limit is reached.",
+  "ability": "mirrored hairs and record-breaking speed",
+  "stats": {
+    "size": "Workers under about 1 cm long",
+    "habitat": "Sand dunes; nests underground",
+    "range": "Sand seas of the Sahara, North Africa",
+    "diet": "Scavenges insects and other small animals, many killed by the heat",
+    "conservation": "Not assessed by the IUCN Red List"
+  },
+  "regions": [
+    "sahara-arabia"
+  ],
+  "biome": "desert",
+  "facts": [
+    {
+      "title": "A coat of tiny prisms",
+      "text": "The silver sheen comes from a dense array of hairs with a triangular cross-section. They reflect visible and near-infrared sunlight strongly, and also boost the ant's emission of mid-infrared radiation, letting it dump heat back into the sky even in full daylight.",
+      "certainty": "confirmed",
+      "ref": 0
+    },
+    {
+      "title": "Five to ten degrees cooler",
+      "text": "The researchers estimated that the hair coat keeps the ants' bodies 5 to 10 °C cooler than they would be without it, helping them stay below their critical thermal maximum of 53.6 °C.",
+      "certainty": "confirmed",
+      "ref": 4
+    },
+    {
+      "title": "Walking a thermal tightrope",
+      "text": "Foragers pour out of the nest in a burst lasting only minutes during the hottest part of the day. Below that window, predatory lizards are still active; above it, the ants themselves would die of heat.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "The fastest ant",
+      "text": "Filmed at midday, when the sand can reach 60 °C, silver ants ran at up to 855 mm per second — about 108 body lengths every second, the fastest speed recorded for any ant.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Short legs, flickering feet",
+      "text": "Its legs are shorter than those of related desert ants. It makes up for this with stride frequencies above 40 per second, feet touching the ground for as little as 7 milliseconds, and leg swings of up to 1.4 m per second.",
+      "certainty": "confirmed",
+      "ref": 2
+    }
+  ],
+  "references": [
+    {
+      "title": "Keeping cool: Enhanced optical reflection and radiative heat dissipation in Saharan silver ants",
+      "publisher": "Science 349: 298–301",
+      "authors": "Shi NN, Tsai C-C, Camino F, Bernard GD, Yu N, Wehner R",
+      "year": 2015,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26089358/"
+    },
+    {
+      "title": "Desert ants on a thermal tightrope",
+      "publisher": "Nature 357: 586–587",
+      "authors": "Wehner R, Marsh AC, Wehner S",
+      "year": 1992,
+      "url": "https://doi.org/10.1038/357586a0"
+    },
+    {
+      "title": "High-speed locomotion in the Saharan silver ant, Cataglyphis bombycina",
+      "publisher": "Journal of Experimental Biology 222: jeb198705",
+      "authors": "Pfeffer SE, Wahl VL, Wittlinger M, Wolf H",
+      "year": 2019,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31619540/"
+    },
+    {
+      "title": "World's fastest ant hits record-breaking speed of 855mm/s",
+      "publisher": "EurekAlert! / The Company of Biologists",
+      "year": 2019,
+      "url": "https://www.eurekalert.org/news-releases/522972"
+    },
+    {
+      "title": "Saharan silver ants can control electromagnetic waves over extremely broad spectrum range",
+      "publisher": "Phys.org / Columbia University",
+      "year": 2015,
+      "url": "https://phys.org/news/2015-06-saharan-silver-ants-electromagnetic-extremely.html"
+    },
+    {
+      "title": "Cataglyphis bombycinus (Roger, 1859)",
+      "publisher": "GBIF",
+      "url": "https://www.gbif.org/species/1319624"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/saharan-silver-ant/hero.webp",
+    "width": 1920,
+    "height": 1440,
+    "alt": "Five slender orange ants with long legs and shiny silvery abdomens pull apart a dark beetle on bright orange sand, casting sharp midday shadows",
+    "caption": "Silver ants dismantling a darkling beetle to carry back to the nest, Erg Chebbi, Morocco",
+    "creator": "Bjørn Christian Tørrissen",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saharan_silver_ants_capturing_beetle.jpg",
+    "species": "Cataglyphis bombycina",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "45% 45%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/saharan-silver-ant/alt-1.webp",
+      "width": 1920,
+      "height": 1434,
+      "alt": "Close-up of several long-legged orange ants with silvery abdomens feeding on a burst, blood-filled tick on coarse orange sand and pebbles",
+      "caption": "Scavengers at work: silver ants feeding on a camel tick, Erg Chebbi, Morocco",
+      "creator": "Bjørn Christian Tørrissen",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saharan_Silver_Ants_Erg_Chebbi_2011.jpg",
+      "species": "Cataglyphis bombycina",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "55% 50%",
+      "tone": "light"
+    }
+  ],
+  "notes": "Name: GBIF's backbone spells it Cataglyphis bombycinus (key 1319624, fuzzy match); the literature cited here (Shi 2015, Pfeffer 2019) uses bombycina, which is kept. No IUCN assessment found; conservation stated as not assessed. Wehner et al. 1992 (Nature) is paywalled: the 'thermal tightrope' fact follows its abstract (explosive midday outburst lasting a few minutes, thermal window bounded by predation and heat) as quoted in secondary sources; press coverage gives the emergence threshold as ~45–47 °C at ant height, not used as a number. The 53.6 °C critical thermal maximum and the 5–10 °C cooling figure are from the Columbia/Phys.org release on Shi et al. 2015 (CTmax originally from Gehring & Wehner 1995). Speed figures (855 mm/s, 108 body lengths/s, 60 °C sand) from the Company of Biologists release; stride/stance/leg-swing figures from the Pfeffer et al. abstract. Size: the paper's figures imply ~8 mm body length (855/108); stated loosely as under about 1 cm. Diet line ('many killed by the heat') reflects the scavenging habit described in Wehner's work and press coverage — treat as general. Images: wild ants photographed by the uploader in Erg Chebbi, Morocco (geotagged); the AntWeb specimen photo was rejected because its rubbed hairs don't show the silver coat."
+}

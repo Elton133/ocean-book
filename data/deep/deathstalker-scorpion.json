@@ -1,0 +1,63 @@
+{
+  "extraReferences": [
+    { "title": "Shelter selection in females of two scorpion species depends on shelter size and scent. Journal of Comparative Physiology A 211: 163–183", "publisher": "Journal of Comparative Physiology A", "url": "https://doi.org/10.1007/s00359-024-01721-6", "year": 2025, "authors": "Hladik J., Bailer Y., Wolf H. & Stemme T." }
+  ],
+  "anatomy": {
+    "lede": "A deathstalker is built like every scorpion — pincers, eight legs, a segmented body and a tail ending in a sting — in a slender, straw-yellow form that ranks among the most dangerous scorpions on Earth.",
+    "media": 0,
+    "hotspots": [
+      { "id": "median-eyes", "label": "Median eyes", "x": 35.4, "y": 42, "text": "A pair of eyes sits on top of the head, with two to five more pairs at its front corners. Even so, scorpions do not see well.", "ref": 1 },
+      { "id": "pincers", "label": "Pincers", "x": 15, "y": 33, "text": "The slim pincers seize prey, crush it and draw it towards the mouth.", "ref": 1 },
+      { "id": "tergites", "label": "Keeled back plates", "x": 52, "y": 37, "text": "The first two plates on the back carry five raised keels each, a feature that sets this species apart from most other scorpions.", "ref": 2 },
+      { "id": "segment-v", "label": "Darker tail segment", "x": 75, "y": 14, "text": "The fifth segment of the tail, just before the sting, is marked with brown, in contrast to the yellow body.", "ref": 1 },
+      { "id": "telson", "label": "Venom bulb and sting", "x": 77, "y": 26, "text": "The swollen last part of the tail ends in a curved, dark-tipped sting that delivers the venom.", "ref": 1 },
+      { "id": "foot", "label": "Leg tip", "x": 69, "y": 72, "text": "Tiny slit-shaped sense organs near the tips of the legs pick up vibrations in the ground.", "ref": 1 }
+    ],
+    "stats": [
+      { "value": "69–90 mm", "label": "Adult length", "ref": 0 },
+      { "value": "1–2.5 g", "label": "Body mass", "ref": 1 },
+      { "value": "0.16–0.50 mg/kg", "label": "Lethal dose (LD50) of venom", "ref": 2 },
+      { "value": "35–87", "label": "Young in a brood (older records)", "ref": 1 }
+    ]
+  },
+  "senses": {
+    "lede": "A scorpion hunts in the dark by feel, reading the ground through its feet.",
+    "senses": [
+      { "kind": "vibration", "name": "Vibration", "text": "Slit organs near the tips of the legs detect vibrations in sand or soil and can tell the scorpion both the direction and the distance of prey.", "certainty": "confirmed", "ref": 1 },
+      { "kind": "touch", "name": "Touch", "text": "Deathstalkers find their way and catch prey mainly by touch, using the comb-like pectines under the body as well as other organs.", "certainty": "confirmed", "ref": 1 },
+      { "kind": "other", "name": "Pectines", "text": "In experiments on two other scorpion species, the pectines and pincers worked as touch and chemical sensors: with either impaired, the scorpions could no longer judge a shelter's size or scent.", "certainty": "confirmed", "ref": 6 },
+      { "kind": "sight", "name": "Sight", "text": "Despite having several pairs of eyes, scorpions have poor vision.", "vsHuman": "weaker", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "body": {
+    "lede": "The deathstalker's venom is a mixture of small proteins aimed at the nerves and cells of its prey.",
+    "systems": [
+      { "title": "A potent venom", "text": "Its LD50, the dose that kills half of test animals, is 0.16–0.50 mg per kilogram of body weight. In a study from Israel (where the scorpions are now classed as Leiurus hebraeus), 97% of people stung had only local reactions, but severity depends on body weight.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Chlorotoxin", "text": "The chloride-channel blocker in the venom is a small peptide of about 4,070 daltons. Its amino-acid sequence is similar to that of a group of short toxins thought to act on insects, and it is toxic to arthropods.", "certainty": "confirmed", "ref": 3 },
+      { "title": "Medicine from venom", "text": "Besides chlorotoxin's use in cancer research, other venom components are being studied for diabetes, because the channels they act on help to regulate insulin. This work is at an early stage.", "certainty": "hypothesis", "ref": 1 },
+      { "title": "Nourished before birth", "text": "Most scorpions are viviparous: the young develop inside the mother, fed through the uterine wall or by membranes around the embryo, and are relatively large at birth.", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "survival": {
+    "lede": "Even a scorpion this venomous is food for other animals — above all, for other scorpions.",
+    "tactics": [
+      { "title": "Night shift", "text": "Being active only at night helps it manage both its temperature and its water balance in the desert.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Under stones", "text": "By day it shelters under rocks or in the abandoned burrows of other animals, or digs its own about 20 cm down beneath a rock.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Ambush", "text": "It waits under stones or other cover for prey to pass, then seizes it with its pincers.", "certainty": "confirmed", "ref": 1 }
+    ],
+    "predators": ["Other scorpions", "Other deathstalkers", "Centipedes", "Vertebrates"],
+    "threats": [
+      { "title": "Collecting and habitat loss", "text": "Scorpions in general are increasingly threatened by habitat destruction and by collection for souvenirs and the pet trade, and their small broods and long generation times make recovery slow.", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "life": {
+    "lede": "Scorpions court in a dance, give birth to live young and carry them on their backs. Much of what is known for the deathstalker predates the 2014 revision that split it into several species.",
+    "stages": [
+      { "name": "Courtship", "text": "The male grasps the female's pincers in his own and leads her in a dance, the promenade à deux, before depositing a packet of sperm on the ground and guiding her over it.", "ref": 1 },
+      { "name": "Pregnancy", "duration": "122–277 days", "text": "Gestation averaged about 185 days in older records, followed by the birth of dozens of young.", "ref": 1 },
+      { "name": "First instar", "text": "In close relatives, newborn scorpions climb onto their mother's back and stay there until their first moult, protected and kept from drying out. High mortality follows soon after birth.", "ref": 1 },
+      { "name": "Juvenile", "text": "Young scorpions moult several times before becoming adult, looking like small adults at every stage.", "ref": 1 },
+      { "name": "Adult", "text": "Mortality is higher in adults than in scorpions of intermediate age.", "ref": 1 }
+    ]
+  }
+}

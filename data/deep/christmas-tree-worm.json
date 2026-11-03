@@ -1,0 +1,70 @@
+{
+  "extraReferences": [
+    { "title": "What are Christmas tree worms?", "publisher": "NOAA National Ocean Service", "url": "https://oceanservice.noaa.gov/facts/xmas-tree.html" },
+    { "title": "Radiolar eyes of serpulid worms (Annelida, Serpulidae): structures, function, and phototransduction. The Biological Bulletin 233: 39–57", "publisher": "The Biological Bulletin", "url": "https://doi.org/10.1086/694735", "year": 2017, "authors": "Bok M.J., Porter M.L., ten Hove H.A., Smith R., Nilsson D.-E." },
+    { "title": "Spirobranchus giganteus, Christmas tree worm", "publisher": "SeaLifeBase", "url": "https://www.sealifebase.se/summary/Spirobranchus-giganteus.html" },
+    { "title": "Mitochondrial genome of the Christmas tree worm Spirobranchus giganteus (Annelida: Serpulidae) reveals a high substitution rate among annelids. Gene 605: 43–53", "publisher": "Gene", "url": "https://doi.org/10.1016/j.gene.2016.12.024", "year": 2017, "authors": "Seixas V.C., Russo C.A.M., Paiva P.C." },
+    { "title": "Spirobranchus giganteus genome assembly wsSpiGiga1.1 (GCA_985776755.1)", "publisher": "NCBI Datasets (Genoscope, ATLASea programme)", "url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_985776755.1/", "year": 2026 }
+  ],
+  "anatomy": {
+    "lede": "The two 'trees' on top of the coral are one worm. Everything else, its body and its limy tube, is hidden inside the coral skeleton.",
+    "media": 0,
+    "hotspots": [
+      { "id": "crown-left", "label": "Left crown", "x": 42, "y": 41, "text": "Each crown is a spiral of feathery tentacles called radioles. The pair grow from the worm's head and are modified palps.", "ref": 1 },
+      { "id": "crown-right", "label": "Right crown", "x": 57, "y": 41, "text": "Both crowns belong to the same animal. Most worms are only about 3.8 cm long, so the crowns are the largest visible part.", "ref": 4 },
+      { "id": "radioles", "label": "Radioles", "x": 59, "y": 34, "text": "The radioles are covered in beating cilia that carry trapped food particles down to the mouth.", "ref": 1 },
+      { "id": "coral", "label": "Host coral", "x": 52, "y": 78, "text": "The worm's tube is buried in this brain coral. Larvae settle on bare patches of coral skeleton and grow their tubes towards the living tissue, which then hides them.", "ref": 6 }
+    ],
+    "stats": [
+      { "value": "about 3.8 cm", "label": "Body length", "ref": 4 },
+      { "value": "up to 20 cm", "label": "Tube length", "ref": 6 },
+      { "value": "2", "label": "Spiral crowns per worm", "ref": 4 },
+      { "value": "40+ years", "label": "Oldest estimated age", "ref": 3 }
+    ]
+  },
+  "senses": {
+    "lede": "A worm that spends its life in one spot needs early warning. Christmas tree worms carry simple eyes on their feeding crowns.",
+    "senses": [
+      { "kind": "sight", "name": "Radiolar eyes", "text": "Serpulid worms have eyes on their feeding tentacles. In an Indo-Pacific Christmas tree worm, the light-sensitive pigment is tuned to 464 nm, matching the blue light on shallow reefs.", "certainty": "confirmed", "ref": 5 },
+      { "kind": "sight", "name": "Shadow alarm", "text": "These eyes probably work as a 'burglar alarm': a passing shadow triggers the worm to snap back into its tube before a predator strikes.", "certainty": "hypothesis", "ref": 5 },
+      { "kind": "sight", "name": "Larval eyes", "text": "Larvae grow simple eyes within 24 hours of developing and swim towards light, responding to wavelengths shorter than 590 nm.", "certainty": "confirmed", "ref": 6 }
+    ]
+  },
+  "body": {
+    "lede": "The crowns do almost everything: they feed the worm, help it breathe and watch for danger.",
+    "systems": [
+      { "title": "Gills that feed", "text": "The radioles double as gills, taking up oxygen while they filter food from the water.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Closed circulation", "text": "Like other annelids, it has a well-developed closed circulatory system, with blood kept inside vessels, and it removes waste through organs called nephridia.", "certainty": "confirmed", "ref": 1 },
+      { "title": "A limy home", "text": "The worm builds a hard calcareous tube that can reach 20 cm long, usually deep inside the coral skeleton. It is often mistaken for a boring animal, but the coral grows around it.", "certainty": "confirmed", "ref": 6 }
+    ]
+  },
+  "genome": {
+    "lede": "A chromosome-level genome of a Caribbean Christmas tree worm was released in 2026 by France's ATLASea marine genome programme. No paper describing it had been published at the time of writing.",
+    "genomeGb": 1.66,
+    "refs": { "genome": 8 },
+    "sequenced": 2026,
+    "findings": [
+      { "title": "Eleven chromosomes", "text": "The assembly, made from an adult collected off Guadeloupe and identified by DNA barcoding, spans about 1.66 billion base pairs arranged in 11 chromosomes.", "certainty": "confirmed", "ref": 8 },
+      { "title": "A fast-changing mitochondrion", "text": "Its mitochondrial genome, sequenced in 2017, changes faster than that of other annelids studied.", "certainty": "confirmed", "ref": 7 }
+    ]
+  },
+  "survival": {
+    "lede": "A Christmas tree worm cannot run, so it hides: inside its tube, inside a coral.",
+    "tactics": [
+      { "title": "Lightning retreat", "text": "When startled, the worm pulls its crowns back into its burrow in an instant.", "certainty": "confirmed", "ref": 4 },
+      { "title": "A spiny lid", "text": "Once inside, it plugs the tube with its operculum, a modified radiole topped with sharp, antler-like spines.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Coral armour", "text": "Because the tube is usually buried deep in the coral skeleton, only the crowns are ever exposed.", "certainty": "confirmed", "ref": 6 }
+    ],
+    "predators": []
+  },
+  "life": {
+    "lede": "Christmas tree worms spawn in step with the corals they live on, and their young must find a coral home within days.",
+    "stages": [
+      { "name": "Spawning", "text": "Males and females release eggs and sperm in the evening during calm neap tides, when less turbulence lets more eggs be fertilised. In the Caribbean this coincides with spawning by their host corals.", "ref": 6 },
+      { "name": "Larva", "duration": "9–12 days", "text": "The larvae drift and feed in the plankton, swimming towards light with their newly formed eyes.", "ref": 6 },
+      { "name": "Settler", "text": "A larva settles on exposed coral skeleton and starts building its tube, which it extends towards the living coral tissue.", "ref": 6 },
+      { "name": "Adult", "duration": "decades", "text": "Counting the coral's annual growth bands around the tubes showed that some worms had lived more than 10 years, and a few more than 40.", "ref": 3 }
+    ],
+    "lifespan": { "value": "some more than 40 years", "ref": 3 }
+  }
+}

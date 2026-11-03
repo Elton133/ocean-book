@@ -1,0 +1,68 @@
+{
+  "extraReferences": [
+    { "title": "Investigating body patterning in aquarium-raised flamboyant cuttlefish (Metasepia pfefferi). PeerJ 4: e2035", "publisher": "PeerJ", "url": "https://doi.org/10.7717/peerj.2035", "year": 2016, "authors": "Thomas A., MacDonald C." },
+    { "title": "Color blindness and contrast perception in cuttlefish (Sepia officinalis) determined by a visual sensorimotor assay. Vision Research 46: 1746–1753", "publisher": "Vision Research", "url": "https://doi.org/10.1016/j.visres.2005.09.035", "year": 2006, "authors": "Mäthger L.M., Barbosa A., Miner S., Hanlon R.T." }
+  ],
+  "anatomy": {
+    "lede": "A flamboyant cuttlefish is a small, broad body with blade-like arms, fleshy flaps and a skin that never stops changing colour.",
+    "media": 0,
+    "hotspots": [
+      { "id": "arm-tips", "label": "Red arm tips", "x": 22, "y": 58, "text": "The broad, blade-like arms carry four rows of suckers. Their tips often flush bright red, which may help ward off predators.", "ref": 3 },
+      { "id": "eye", "label": "Eye", "x": 47, "y": 42, "text": "Like other cuttlefish, it is probably colour-blind, yet it can still produce colour patterns of great complexity.", "ref": 4 },
+      { "id": "eye-papillae", "label": "Papillae over the eye", "x": 50, "y": 35, "text": "Fleshy papillae rise above the eyes, part of the skin texture it can raise and lower.", "ref": 3 },
+      { "id": "mantle-flaps", "label": "Mantle flaps", "x": 68, "y": 33, "text": "Three pairs of large, flat flaps stand up from the top of the very broad, oval mantle.", "ref": 3 },
+      { "id": "fin", "label": "Fin", "x": 73, "y": 56, "text": "The fins edging the mantle pulse during its warning display, and help it 'walk' along the bottom together with its arms.", "ref": 2 },
+      { "id": "walking-arms", "label": "Walking arms", "x": 39, "y": 69, "text": "Two arms act like legs. Its cuttlebone is too small to keep it afloat for long, so it ambles over sand and mud instead of hovering.", "ref": 2 }
+    ],
+    "stats": [
+      { "value": "6–8 cm", "label": "Mantle length", "ref": 2 },
+      { "value": "3–86 m", "label": "Depth", "ref": 3 },
+      { "value": "11", "label": "Body patterns catalogued", "ref": 4 }
+    ]
+  },
+  "senses": {
+    "lede": "Its senses are barely studied; what is known comes mostly from its better-known relatives.",
+    "senses": [
+      { "kind": "sight", "name": "Colour-blind vision", "text": "Tests on the common cuttlefish show that cuttlefish cannot tell colours apart, although they are sensitive to contrast. Researchers assume the flamboyant cuttlefish sees in the same way.", "certainty": "hypothesis", "ref": 5 },
+      { "kind": "sight", "name": "A daytime hunter's eyes", "text": "Unlike most cephalopods, it is active by day, when it can be seen hunting crustaceans and small fish in full light.", "certainty": "confirmed", "ref": 2 }
+    ]
+  },
+  "body": {
+    "lede": "Its body is built for walking rather than swimming, and for showing off rather than hiding.",
+    "systems": [
+      { "title": "A cut-down cuttlebone", "text": "The cuttlebone is a small rhombus, two-thirds to three-quarters the length of the mantle, and lacks the central ridge and outer cone found in most other cuttlefish.", "certainty": "confirmed", "ref": 3 },
+      { "title": "A skin of many parts", "text": "In one aquarium study, researchers counted 7 texture, 14 posture and 7 movement components, plus 42–75 colour components, which combine into 11 distinct body patterns.", "certainty": "confirmed", "ref": 4 },
+      { "title": "Poisonous or not?", "text": "Its muscle has been described as highly toxic, based on unpublished work. Preliminary later tests found only trace amounts of tetrodotoxin, too little to harm vertebrates.", "certainty": "uncertain", "ref": 3 }
+    ]
+  },
+  "mind": {
+    "lede": "Though described in 1885, this cuttlefish was not reported alive until 1988, and its behaviour is still poorly known.",
+    "studies": [
+      { "year": "1988", "title": "First seen alive", "text": "The first report of living animals described an 'extremely rich' set of body-pattern components, but only as a preliminary inventory.", "certainty": "confirmed", "ref": 4 },
+      { "year": "2016", "title": "Waves that never stop", "text": "In five aquarium-bred adults, 8 of the 11 body patterns included waves of colour travelling across the mantle. In other cuttlefish such waves mostly appear during hunting, but these animals used them in many situations.", "certainty": "confirmed", "ref": 4 },
+      { "year": "2016", "title": "Dark, not hidden", "text": "Almost all the patterns recorded in the aquarium were dark, even over pale gravel, and the animals hardly tried to blend in. The authors suggest this may be a side effect of captivity, since wild animals are reported to camouflage well.", "certainty": "hypothesis", "ref": 4 },
+      { "year": "Aquaria", "title": "Dens and duels", "text": "Males fight over mating dens, and females visit a den to mate with the male living there.", "certainty": "confirmed", "ref": 2 }
+    ]
+  },
+  "survival": {
+    "lede": "Instead of fleeing, the flamboyant cuttlefish stands its ground and puts on a show.",
+    "tactics": [
+      { "title": "Warning colours", "text": "When disturbed, it switches from its usual dark brown to black, dark brown and white with yellow patches, often with red arm tips.", "certainty": "confirmed", "ref": 3 },
+      { "title": "An honest warning?", "text": "The display is often said to advertise poisonous flesh, but no significant toxin has yet been isolated, so what the warning protects remains unclear.", "certainty": "hypothesis", "ref": 3 },
+      { "title": "Camouflage on the hunt", "text": "It uses complex, changing camouflage to stalk its prey.", "certainty": "confirmed", "ref": 3 }
+    ],
+    "predators": [],
+    "threats": [
+      { "title": "Trawling and pollution", "text": "Pollution, overfishing and habitat destruction threaten cephalopods like this one, and bottom trawling churns up the seafloor sediment it lives on.", "certainty": "confirmed", "ref": 2 }
+    ]
+  },
+  "life": {
+    "lede": "A flamboyant cuttlefish lives fast: it mates, lays a few eggs, and the female dies soon afterwards.",
+    "stages": [
+      { "name": "Mating", "text": "Pairs mate face to face, and the male uses a special arm to pass a sperm packet into the female's mantle cavity.", "ref": 2 },
+      { "name": "Eggs", "text": "Eggs are laid singly in crevices or under ledges in coral, rock or wood; about a dozen were once found under half a coconut husk. Fresh eggs are white and slowly turn see-through.", "ref": 3 },
+      { "name": "Hatchling", "text": "Hatchlings are fully independent, receive no care, and can already make the same camouflage patterns as adults.", "ref": 3 },
+      { "name": "End of life", "text": "The female dies shortly after laying her eggs.", "ref": 2 }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "slug": "dromedary",
+  "realm": "land",
+  "commonName": "Dromedary",
+  "scientificName": "Camelus dromedarius",
+  "authority": "Linnaeus, 1758",
+  "gbifId": 9055455,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Artiodactyla",
+    "family": "Camelidae"
+  },
+  "group": "Camel",
+  "categories": [
+    "desert-survivors"
+  ],
+  "tagline": "The one-humped camel that lets itself heat up to save water",
+  "summary": "The dromedary, or Arabian camel, has carried people and goods across hot deserts for about 3,000 years. Its secret is not a water tank in the hump, which is fat, but a body that tolerates extreme dehydration, refills fast and lets its temperature rise by day rather than sweat water away.",
+  "ability": "extreme water economy",
+  "stats": {
+    "size": "About 1.8–2 m at the shoulder; males 400–600 kg",
+    "habitat": "Hot deserts and dry scrub, almost entirely with people",
+    "range": "North Africa and the Horn of Africa through Arabia to north-western India; feral herds in central Australia",
+    "diet": "Almost any desert vegetation, including dry, thorny and salty plants",
+    "conservation": "Not assessed by the IUCN: a domesticated animal whose wild ancestor is extinct; only feral herds live free"
+  },
+  "regions": [
+    "sahara-arabia",
+    "indian-subcontinent",
+    "australian-outback"
+  ],
+  "biome": "desert",
+  "facts": [
+    {
+      "title": "Running on empty",
+      "text": "A dromedary can tolerate losing more than 30% of its body water. For most mammals, losing about 15% is fatal.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "A hundred litres in ten minutes",
+      "text": "When it does reach water, a thirsty dromedary can drink about 100 litres in just ten minutes.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Running hot to stay wet",
+      "text": "Its body temperature can swing between about 34 °C and 41.7 °C in a day. Classic experiments by Knut Schmidt-Nielsen and colleagues showed that storing heat by day and losing it in the cool night saves water that would otherwise be spent on sweating.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Fat, not water",
+      "text": "The hump stores fat, not water, as an energy reserve. When food is scarce it shrinks and can lean or droop.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Born of a vanished wild camel",
+      "text": "Ancient and modern DNA show that wild dromedaries from the south-east Arabian Peninsula were among the founders of today's domestic herds. Those wild populations are now extinct.",
+      "certainty": "confirmed",
+      "ref": 4
+    },
+    {
+      "title": "Wild again, in Australia",
+      "text": "Free-living dromedaries survive today only as feral herds in Australia, descended from camels introduced there in the 19th century.",
+      "certainty": "confirmed",
+      "ref": 3
+    }
+  ],
+  "references": [
+    {
+      "title": "Camelus dromedarius Linnaeus, 1758",
+      "publisher": "GBIF",
+      "url": "https://www.gbif.org/species/9055455"
+    },
+    {
+      "title": "Camelus dromedarius (dromedary)",
+      "publisher": "Animal Diversity Web, University of Michigan",
+      "url": "https://animaldiversity.org/accounts/Camelus_dromedarius/"
+    },
+    {
+      "title": "Body temperature of the camel and its relation to water economy",
+      "publisher": "American Journal of Physiology 188: 103–112",
+      "authors": "Schmidt-Nielsen K, Schmidt-Nielsen B, Jarnum SA, Houpt TR",
+      "year": 1957,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/13402948/"
+    },
+    {
+      "title": "Camel",
+      "publisher": "San Diego Zoo Wildlife Alliance Animals & Plants",
+      "url": "https://animals.sandiegozoo.org/animals/camel"
+    },
+    {
+      "title": "Ancient and modern DNA reveal dynamics of domestication and cross-continental dispersal of the dromedary",
+      "publisher": "PNAS 113: 6707–6712",
+      "authors": "Almathen F et al.",
+      "year": 2016,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27162355/"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/dromedary/hero.webp",
+    "width": 1920,
+    "height": 1280,
+    "alt": "Seen from above, four loaded dromedaries with colourful packs and a guide cross rippled golden sand dunes, a single green shrub in the distance",
+    "caption": "A camel caravan in the dunes of the Tunisian Sahara",
+    "creator": "Skander zarrad",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Un_groupe_de_dromadaire_dans_le_desert_tunisien.jpg",
+    "species": "Camelus dromedarius",
+    "type": "photograph",
+    "setting": "domestic",
+    "focal": "50% 60%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/dromedary/alt-1.webp",
+      "width": 1920,
+      "height": 1184,
+      "alt": "A pale dromedary lying on a sand dune against a clear blue sky, wearing a red embroidered saddle cloth and a bead-decorated halter",
+      "caption": "Resting in the Thar Desert, Rajasthan, India",
+      "creator": "Clément Bardot",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dromedary_in_Thar_desert.jpg",
+      "species": "Camelus dromedarius",
+      "type": "photograph",
+      "setting": "domestic",
+      "focal": "55% 55%",
+      "tone": "light"
+    },
+    {
+      "src": "/media/creatures/dromedary/alt-2.webp",
+      "width": 1920,
+      "height": 1440,
+      "alt": "Two reddish-brown camels walking through dry golden grass among bare grey trees under a blue sky",
+      "caption": "Feral dromedaries in Central Australia, the only free-living herds in the world",
+      "creator": "Mark Marathon",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Desert_camels.jpg",
+      "species": "Camelus dromedarius",
+      "type": "photograph",
+      "setting": "feral",
+      "focal": "25% 50%",
+      "tone": "light"
+    }
+  ],
+  "notes": "No iucnId: the IUCN Red List does not assess the domestic dromedary (ADW: 'not evaluated'/no special status); the only camel assessed is the wild Bactrian, Camelus ferus. Water figures (>30% loss tolerated vs ~15% lethal for most mammals; ~100 L in 10 min; 34–41.7 °C daily swing) are from ADW. The 1957 Schmidt-Nielsen paper (dated 1956 in its DOI) is the primary source for heat storage saving water; its full text was not accessible, so the specific numbers are attributed to ADW. San Diego Zoo quotes 145 L per drinking session and a 40% weight-loss tolerance — not used, as it is less specific. Shoulder height 1.8–2.0 m for males per ADW (San Diego gives 1.6–1.8 m). '3,000 years' of use is from Almathen et al. 2016; ADW says domestication evidence dates to ~4,000 years ago. Regions: sahara-arabia, indian-subcontinent (Thar/Rajasthan) and australian-outback (feral, introduced). The Horn of Africa holds very large herds but has no matching region slug; african-savanna was not used. Images are domestic/feral animals, labelled so; there are no wild dromedaries to photograph."
+}

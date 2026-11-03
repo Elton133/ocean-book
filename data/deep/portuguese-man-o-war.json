@@ -1,0 +1,59 @@
+{
+  "extraReferences": [
+    { "title": "Morphology and development of the Portuguese man of war, Physalia physalis. Scientific Reports 9: 15522", "publisher": "Scientific Reports", "url": "https://doi.org/10.1038/s41598-019-51842-1", "year": 2019, "authors": "Munro C., Vue Z., Behringer R.R., Dunn C.W." },
+    { "title": "Population genomics of a sailing siphonophore reveals genetic structure in the open ocean. Current Biology 35(15): 3556–3569", "publisher": "Current Biology", "url": "https://doi.org/10.1016/j.cub.2025.05.066", "year": 2025, "authors": "Church S.H., Abedon R.B., Ahuja N., et al." },
+    { "title": "Global genomics of the man-o'-war (Physalia) reveals biodiversity at the ocean surface (preprint)", "publisher": "bioRxiv", "url": "https://doi.org/10.1101/2024.07.10.602499", "year": 2024, "authors": "Church S.H., Abedon R.B., Ahuja N., et al." }
+  ],
+  "anatomy": {
+    "lede": "What looks like one animal is a colony: a gas-filled float on top, and beneath it clusters of specialised zooids that feed, sting and breed.",
+    "media": 0,
+    "hotspots": [
+      { "id": "float", "label": "Float", "x": 48, "y": 47, "text": "The pneumatophore is filled with carbon monoxide and air. Gas-making cells in a gas gland inside the float produce the carbon monoxide.", "ref": 3 },
+      { "id": "sail", "label": "Sail crest", "x": 55, "y": 30, "text": "The crest along the top of the float works as a sail. Muscles around the float squeeze it to raise the pressure inside and stand the sail up.", "ref": 3 },
+      { "id": "zooids", "label": "Feeding zooids", "x": 45, "y": 85, "text": "Under the float hang the gastrozooids, feeding polyps that spread over caught prey and digest it. Upwards of 50 have been seen covering a single 10 cm fish.", "ref": 3 },
+      { "id": "tentacle", "label": "Tentacle", "x": 78, "y": 82, "text": "Each tentacle belongs to a tentacular palpon, a zooid found only in this genus and specialised for making stinging cells. Caught prey is hauled up to the feeding zooids near the float.", "ref": 3 }
+    ],
+    "stats": [
+      { "value": "Up to 30 m", "label": "Tentacle length in mature colonies", "ref": 3 },
+      { "value": "Up to 30 cm", "label": "Float height", "ref": 2 },
+      { "value": "70–90%", "label": "Share of fish and fish larvae in the diet", "ref": 3 }
+    ]
+  },
+  "body": {
+    "lede": "With no brain, heart or swimming muscles of note, the colony relies on a float, a sail and a curtain of stinging cells.",
+    "systems": [
+      { "title": "A float that makes its own gas", "text": "The float holds less carbon monoxide than the floats of other siphonophores, probably because its gas mixes with air through diffusion and exchange.", "certainty": "confirmed", "ref": 3 },
+      { "title": "One kind of sting", "text": "Its stinging capsules are all of a single type, which can only pierce soft-bodied prey. The toxin paralyses fish.", "certainty": "confirmed", "ref": 3 },
+      { "title": "A division of labour", "text": "Unlike other siphonophores, its feeding zooids have no tentacles of their own. Catching prey falls to the tentacular palpons, and eating to the gastrozooids.", "certainty": "confirmed", "ref": 3 }
+    ]
+  },
+  "genome": {
+    "lede": "Genomes from specimens collected around the world showed that the 'one' man o' war is really several species.",
+    "genomeGb": 3.33,
+    "refs": { "genome": 5 },
+    "sequenced": 2024,
+    "findings": [
+      { "title": "A big, repetitive genome", "text": "The first Physalia genome assembly, made for this global study, measured about 3.33 billion base pairs, with roughly 65% of it made of repeated sequences.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Not one species but at least four", "text": "Whole genomes of 151 samples fell into five distinct lineages that do not appear to interbreed even where they overlap. Four match recognisable body forms, including a newly named species, Physalia minuta.", "certainty": "confirmed", "ref": 4 },
+      { "title": "Populations follow the currents", "text": "Within each species, populations are regional and persist from year to year, with boundaries that line up with prevailing currents and winds.", "certainty": "confirmed", "ref": 4 }
+    ]
+  },
+  "survival": {
+    "lede": "Drifting at the surface, the colony cannot flee, so its defence is its sting.",
+    "tactics": [
+      { "title": "A curtain of stings", "text": "Tentacles towed by the wind trail far below the float, catching and paralysing fish that brush against them.", "certainty": "confirmed", "ref": 3 },
+      { "title": "A fish that lives among the tentacles", "text": "The man-of-war fish, Nomeus gronovii, swims among the tentacles and even feeds on them. It tolerates the venom far better than other fish.", "certainty": "confirmed", "ref": 3 },
+      { "title": "Stings that outlast the colony", "text": "The stinging cells stay active after the colony dies, so stranded animals remain dangerous to touch.", "certainty": "confirmed", "ref": 2 }
+    ],
+    "predators": ["Sea turtles", "Blue dragon sea slugs"]
+  },
+  "life": {
+    "lede": "Much of the man o' war's life cycle happens out of sight, below the surface, and has never been watched directly.",
+    "stages": [
+      { "name": "Breeding clusters", "text": "Each colony is either male or female. Its reproductive clusters, called gonodendra, are thought to break away when mature, perhaps swimming down with small jet-propelling bells.", "ref": 3 },
+      { "name": "Egg and larva", "text": "Fertilisation, the egg and the earliest larva have never been observed, and they develop at an unknown depth below the surface.", "ref": 3 },
+      { "name": "Young larva", "text": "The smallest larva described is 2 mm long, with a tiny float and a first feeding polyp bearing a tentacle. The sail's left- or right-handed set is fixed this early.", "ref": 3 },
+      { "name": "Juvenile", "text": "Once its float is big enough, the young colony can ride at the surface. Juveniles have floats about 8–10 cm long and immature breeding clusters.", "ref": 3 }
+    ]
+  }
+}

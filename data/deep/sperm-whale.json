@@ -1,0 +1,288 @@
+{
+  "extraReferences": [
+    {
+      "title": "Rendell, L.E. & Whitehead, H. (2003). Vocal clans in sperm whales (Physeter macrocephalus). Proceedings of the Royal Society B 270: 225–231",
+      "publisher": "Proceedings of the Royal Society B",
+      "url": "https://doi.org/10.1098/rspb.2002.2239",
+      "year": 2003,
+      "authors": "Rendell, L.E. & Whitehead, H."
+    },
+    {
+      "title": "Sharma, P. et al. (2024). Contextual and combinatorial structure in sperm whale vocalisations. Nature Communications 15",
+      "publisher": "Nature Communications",
+      "url": "https://doi.org/10.1038/s41467-024-47221-8",
+      "year": 2024,
+      "authors": "Sharma, P., Gero, S., Payne, R., Gruber, D.F., Rus, D., Torralba, A. & Andreas, J."
+    },
+    {
+      "title": "Pitman, R.L. et al. (2001). Killer whale predation on sperm whales: observations and implications. Marine Mammal Science 17(3): 494–507",
+      "publisher": "Marine Mammal Science",
+      "url": "https://doi.org/10.1111/j.1748-7692.2001.tb01000.x",
+      "year": 2001,
+      "authors": "Pitman, R.L., Ballance, L.T., Mesnick, S.I. & Chivers, S.J."
+    },
+    {
+      "title": "Warren, W.C. et al. (2017). The novel evolution of the sperm whale genome. Genome Biology and Evolution 9(12): 3260–3264",
+      "publisher": "Genome Biology and Evolution",
+      "url": "https://doi.org/10.1093/gbe/evx187",
+      "year": 2017,
+      "authors": "Warren, W.C., Kuderna, L., Alexander, A. et al."
+    },
+    {
+      "title": "Fan, G. et al. (2019). The first chromosome-level genome for a marine mammal as a resource to study ecology and evolution. Molecular Ecology Resources 19(4): 944–956",
+      "publisher": "Molecular Ecology Resources",
+      "url": "https://doi.org/10.1111/1755-0998.13003",
+      "year": 2019,
+      "authors": "Fan, G., Zhang, Y., Liu, X. et al."
+    },
+    {
+      "title": "Physeter macrocephalus genome assembly ASM283717v5 (GCF_002837175.3)",
+      "publisher": "NCBI Datasets",
+      "url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_002837175.3/",
+      "year": 2023
+    },
+    {
+      "title": "Ali, M.B. et al. (2026). Genome analyses support global effective panmixia in sperm whales. Biology 15(18): 1619",
+      "publisher": "Biology (MDPI)",
+      "url": "https://doi.org/10.3390/biology15181619",
+      "year": 2026,
+      "authors": "Ali, M.B., de Jong, M.J., Arnason, U. et al."
+    },
+    {
+      "title": "Towers, J.R. et al. (2019). Movements and dive behaviour of a toothfish-depredating killer and sperm whale. ICES Journal of Marine Science 76(1): 298–311",
+      "publisher": "ICES Journal of Marine Science",
+      "url": "https://doi.org/10.1093/icesjms/fsy118",
+      "year": 2019,
+      "authors": "Towers, J.R., Tixier, P., Ross, K.A., Bennett, J., Arnould, J.P.Y., Pitman, R.L. & Durban, J.W."
+    }
+  ],
+  "anatomy": {
+    "lede": "A sperm whale is built around its head: a huge, blunt block that holds the machinery for the most powerful sounds in the animal kingdom.",
+    "media": 0,
+    "hotspots": [
+      {
+        "id": "head",
+        "label": "Head and spermaceti",
+        "x": 12,
+        "y": 56,
+        "text": "The head is about a third of the body's length. It holds spermaceti, a waxy oil in a sac that helps the whale focus sound.",
+        "ref": 1
+      },
+      {
+        "id": "jaw",
+        "label": "Lower jaw",
+        "x": 12,
+        "y": 67,
+        "text": "The narrow lower jaw carries 20–26 large teeth on each side. Teeth in the upper jaw rarely break through the gums.",
+        "ref": 1
+      },
+      {
+        "id": "skin",
+        "label": "Wrinkled skin",
+        "x": 26,
+        "y": 48,
+        "text": "The skin just behind the head is often wrinkled, and the body is mostly dark grey.",
+        "ref": 1
+      },
+      {
+        "id": "hump",
+        "label": "Dorsal hump",
+        "x": 46,
+        "y": 36,
+        "text": "Instead of a tall fin, the sperm whale has a low, thick, usually rounded dorsal fin.",
+        "ref": 1
+      },
+      {
+        "id": "flukes",
+        "label": "Flukes",
+        "x": 72,
+        "y": 33,
+        "text": "Broad triangular flukes power foraging dives that last about 45 minutes on average.",
+        "ref": 3
+      },
+      {
+        "id": "calf",
+        "label": "Calf",
+        "x": 57,
+        "y": 58,
+        "text": "A calf is about 4 m long at birth. It starts eating solid food before its first birthday but keeps nursing for several years.",
+        "ref": 1
+      }
+    ],
+    "stats": [
+      { "value": "≈16 m", "label": "Length of a fully grown male", "ref": 1 },
+      { "value": "45 min", "label": "Typical foraging dive", "ref": 3 },
+      { "value": "236 dB", "label": "Loudest click (re 1 µPa)", "ref": 5 },
+      { "value": "20–26", "label": "Teeth on each side of the lower jaw", "ref": 1 }
+    ]
+  },
+  "senses": {
+    "lede": "Hundreds of metres down there is no sunlight, so the sperm whale hunts, navigates and keeps in touch almost entirely through sound.",
+    "senses": [
+      {
+        "kind": "echolocation",
+        "name": "Long-range biosonar",
+        "text": "Whales start regular clicking on the way down and descend about 390 m on average before the first 'buzz', a rapid click burst that marks an attempt to catch prey. This suggests the clicks work as long-range sonar; tagged whales made about 18 buzzes per dive.",
+        "certainty": "confirmed",
+        "ref": 3
+      },
+      {
+        "kind": "hearing",
+        "name": "Hearing",
+        "text": "Sperm whales depend on sound to communicate. Ship and industrial noise shrinks the distance over which they can hear each other and, if loud enough, can damage their hearing.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "kind": "other",
+        "name": "Coda clicks",
+        "text": "Socialising whales exchange codas, short patterned sequences of clicks. A 2024 analysis found the codas vary in rhythm, tempo, 'rubato' and 'ornamentation', making nearly ten times more distinct codas than had been recognised.",
+        "certainty": "confirmed",
+        "ref": 7
+      }
+    ]
+  },
+  "body": {
+    "lede": "The sperm whale's body is shaped by two demands: making extremely powerful sounds, and spending most of its life on long, deep dives.",
+    "systems": [
+      {
+        "title": "A nose that makes sonar",
+        "text": "Clicks recorded head-on are single pulses about 100 microseconds long, focused in a narrow forward beam. This supports the idea that the whale's huge nose works as a sound generator.",
+        "certainty": "confirmed",
+        "ref": 5
+      },
+      {
+        "title": "One blowhole, on the left",
+        "text": "It is the only living whale or dolphin with a single blowhole set off-centre, on the left side of the crown of the head.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "title": "Built for endurance",
+        "text": "Tagged whales spent more than 72% of their time in foraging dive cycles, needing only about 9 minutes at the surface between 45-minute dives. The researchers credit efficient swimming and a large capacity to dive on stored oxygen.",
+        "certainty": "confirmed",
+        "ref": 3
+      },
+      {
+        "title": "A big appetite",
+        "text": "A sperm whale eats about 3–3.5% of its body weight each day, mostly deep-water squid and fish.",
+        "certainty": "confirmed",
+        "ref": 1
+      }
+    ]
+  },
+  "genome": {
+    "lede": "The sperm whale was among the first whales to have its genome assembled, and a later chromosome-level assembly is now the standard reference.",
+    "genomeGb": 2.5,
+    "refs": { "genome": 11 },
+    "sequenced": 2017,
+    "findings": [
+      {
+        "title": "Skin genes and an Ice Age decline",
+        "text": "The first sperm whale genome pointed to genes for skin integrity as especially important in whales, and showed a steep fall in population size in the early Pleistocene.",
+        "certainty": "confirmed",
+        "ref": 9
+      },
+      {
+        "title": "Chromosome-level genome",
+        "text": "The first chromosome-level genome for any marine mammal, from a stranded female sperm whale, showed many repeated LINE elements, expanded gene families and fewer genes in the immune MHC region.",
+        "certainty": "confirmed",
+        "ref": 10
+      },
+      {
+        "title": "One global gene pool",
+        "text": "Whole genomes of 45 whales from the Atlantic, Pacific and Indian Oceans showed almost no genetic structure, suggesting a single, globally mixing population. The Mediterranean whales were the exception and form a distinct group.",
+        "certainty": "hypothesis",
+        "ref": 12
+      }
+    ]
+  },
+  "mind": {
+    "lede": "Sperm whales live in long-lasting family groups whose calls differ in ways that look like culture.",
+    "studies": [
+      {
+        "year": "2003",
+        "title": "Vocal clans",
+        "text": "Coda repertoires recorded in the South Pacific and Caribbean between 1985 and 2000 split the whales into six acoustic 'clans'. These clans overlap in range across thousands of kilometres, and family units prefer to group with units of their own clan.",
+        "certainty": "confirmed",
+        "ref": 6
+      },
+      {
+        "year": "2024",
+        "title": "Codas as building blocks",
+        "text": "Whales adjust the timing of their codas to the conversation and copy each other's adjustments, combining a few features into a large set of distinct codas. What the codas mean remains unknown.",
+        "certainty": "confirmed",
+        "ref": 7
+      },
+      {
+        "year": "Field",
+        "title": "Stealing from fishing lines",
+        "text": "Some sperm whales pull fish off longlines by using their jaws to tension the line until fish shake off the hooks. Scientists think this behaviour may be learned from other whales.",
+        "certainty": "hypothesis",
+        "ref": 1
+      },
+      {
+        "year": "2019",
+        "title": "Following the fishing boat",
+        "text": "A satellite-tagged sperm whale off South Georgia followed a fishing vessel for more than 180 km over six days, repeatedly taking toothfish as the lines were hauled in.",
+        "certainty": "confirmed",
+        "ref": 13
+      }
+    ]
+  },
+  "survival": {
+    "lede": "Their size and deep habitat were once thought to make sperm whales safe from predators. Close observation showed otherwise.",
+    "tactics": [
+      {
+        "title": "The marguerite",
+        "text": "Attacked by about 35 killer whales off California in 1997, nine sperm whales formed a rosette with their heads together and tails pointing out.",
+        "certainty": "confirmed",
+        "ref": 8
+      },
+      {
+        "title": "Rescuing the isolated",
+        "text": "When a whale was pulled out of the formation, one or two others left the rosette to flank it and guide it back, putting themselves at greater risk.",
+        "certainty": "confirmed",
+        "ref": 8
+      },
+      {
+        "title": "Strength in families",
+        "text": "Females and young live in stable social units of about 12 females with their calves, staying with the same unit for life.",
+        "certainty": "confirmed",
+        "ref": 1
+      }
+    ],
+    "predators": ["Killer whales"],
+    "threats": [
+      {
+        "title": "The legacy of whaling",
+        "text": "Sperm whales were a main target of commercial whaling from 1800 to the 1980s, which nearly wiped out many populations. They are still recovering.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "title": "Ship strikes",
+        "text": "Between deep dives sperm whales rest at the surface, often for up to 10 minutes. This 'rafting' leaves them exposed to collisions as shipping increases.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "title": "Fishing gear and debris",
+        "text": "They can become tangled in traps, pots and gillnets, and may swallow marine debris in the deep layers where they feed.",
+        "certainty": "confirmed",
+        "ref": 1
+      }
+    ]
+  },
+  "life": {
+    "lede": "Sperm whales grow slowly and breed rarely, and males and females follow very different paths through life.",
+    "stages": [
+      { "name": "Pregnancy", "duration": "14–16 months", "text": "A single calf, about 4 m long, is born after a pregnancy of well over a year.", "ref": 1 },
+      { "name": "Calf", "duration": "several years of nursing", "text": "Calves eat some solid food before their first birthday but keep nursing for several years, growing up within their mother's social unit.", "ref": 1 },
+      { "name": "Young males leave", "duration": "at 4–21 years", "text": "Young males leave their family and join 'bachelor' groups of males of similar age. As they grow, they move towards the poles and the largest end up alone.", "ref": 1 },
+      { "name": "Adult female", "duration": "mature at about 9 years", "text": "Females mature at about 9 years and then have a calf only about once every five to seven years. They reach full size, up to about 11 m, at around 30.", "ref": 1 },
+      { "name": "Breeding male", "duration": "late 20s onwards", "text": "Males keep growing into their 30s and reach full size at about 50. They rarely breed before their late twenties, when they return to the tropics to mate.", "ref": 1 }
+    ],
+    "lifespan": { "value": "Up to about 60 years", "ref": 1 }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "extraReferences": [
+    {
+      "title": "Morphology of the compound eye of the giant deep-sea isopod Bathynomus giganteus. Journal of Morphology 189: 145–156",
+      "publisher": "Journal of Morphology",
+      "url": "https://doi.org/10.1002/jmor.1051890205",
+      "year": 1986,
+      "authors": "Chamberlain S.C., Meyer-Rochow V.B., Dossert W.P."
+    },
+    {
+      "title": "Aspects of the biology of the giant isopod Bathynomus giganteus A. Milne Edwards, 1879 (Flabellifera: Cirolanidae), off the Yucatan Peninsula. Journal of Crustacean Biology 11: 375–385",
+      "publisher": "Journal of Crustacean Biology",
+      "url": "https://doi.org/10.2307/1548464",
+      "year": 1991,
+      "authors": "Briones-Fourzán P., Lozano-Alvarez E."
+    },
+    {
+      "title": "Reproduction in the giant isopod, Bathynomus giganteus. Invertebrate Reproduction & Development 20: 153–157",
+      "publisher": "Invertebrate Reproduction & Development",
+      "url": "https://doi.org/10.1080/07924259.1991.9672192",
+      "year": 1991,
+      "authors": "Perry N.E., Hinsch G.W."
+    }
+  ],
+  "anatomy": {
+    "lede": "Built on the same plan as a garden woodlouse, the giant isopod is an armoured box of segments and legs, enormously scaled up.",
+    "media": 0,
+    "hotspots": [
+      {
+        "id": "antenna",
+        "label": "Antenna",
+        "x": 29,
+        "y": 52,
+        "text": "Every isopod has two pairs of antennae, along with compound eyes and four sets of jaws.",
+        "ref": 1
+      },
+      {
+        "id": "head",
+        "label": "Head shield",
+        "x": 52,
+        "y": 44,
+        "text": "The two triangular compound eyes sit at the front of the head, about 25 mm apart.",
+        "ref": 4
+      },
+      {
+        "id": "mouthparts",
+        "label": "Mouthparts",
+        "x": 48,
+        "y": 59,
+        "text": "Fish, squid and crabs were the most common foods found in the guts of giant isopods caught off Yucatán, Mexico.",
+        "ref": 5
+      },
+      {
+        "id": "legs",
+        "label": "Walking legs",
+        "x": 43,
+        "y": 81,
+        "text": "Each of the seven segments of the thorax carries its own pair of walking legs.",
+        "ref": 1
+      },
+      {
+        "id": "segments",
+        "label": "Body segments",
+        "x": 68,
+        "y": 31,
+        "text": "Overlapping armoured plates cover the seven thorax segments; behind them, the short abdomen has segments of which one or more fuse into a tail.",
+        "ref": 1
+      }
+    ],
+    "stats": [
+      {
+        "value": "19–36 cm",
+        "label": "Typical length",
+        "ref": 3
+      },
+      {
+        "value": "about 50 cm",
+        "label": "Largest documented",
+        "ref": 2
+      },
+      {
+        "value": "about 3,500",
+        "label": "Facets in each eye",
+        "ref": 4
+      },
+      {
+        "value": "7 pairs",
+        "label": "Walking legs",
+        "ref": 1
+      }
+    ]
+  },
+  "senses": {
+    "lede": "The giant isopod has large eyes in a world with almost no light, and they are badly damaged by sunlight.",
+    "senses": [
+      {
+        "kind": "sight",
+        "name": "Light-gathering eyes",
+        "text": "Each eye is about 18 mm along its top edge and holds roughly 3,500 facets. Cells packed with tiny clear vesicles behind the light-sensitive parts are thought to reflect light back through them.",
+        "certainty": "hypothesis",
+        "ref": 4
+      },
+      {
+        "kind": "sight",
+        "name": "Forward-facing view",
+        "text": "The eyes face forwards and slightly down, and their fields of view may overlap a good deal.",
+        "certainty": "hypothesis",
+        "ref": 4
+      },
+      {
+        "kind": "sight",
+        "name": "Blinded by daylight",
+        "text": "Isopods brought up from the deep and exposed to daylight suffered severe damage to their light-sensitive cells, which did not recover even after two months in darkness.",
+        "certainty": "confirmed",
+        "ref": 4
+      }
+    ]
+  },
+  "body": {
+    "lede": "Beneath the armour, the giant isopod breathes and swims with the same limbs.",
+    "systems": [
+      {
+        "title": "Gills that paddle",
+        "text": "Under the abdomen, branched limbs called pleopods do two jobs: they exchange gases like gills and beat to swim. Giant isopods are seldom seen swimming, though one has been filmed coming in to land.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "title": "Large eggs, not more eggs",
+        "text": "Although far bigger than other isopods, a female carries about the same number of eggs. Instead, egg size seems to grow almost in step with body size.",
+        "certainty": "confirmed",
+        "ref": 6
+      },
+      {
+        "title": "Ordinary on the inside",
+        "text": "The male reproductive organs look much like those of smaller isopod species.",
+        "certainty": "confirmed",
+        "ref": 6
+      }
+    ]
+  },
+  "survival": {
+    "lede": "A slow scavenger on the dark seafloor, the giant isopod eats what falls from above and whatever cannot get away.",
+    "tactics": [
+      {
+        "title": "Scavenging",
+        "text": "Gut contents support the idea that it is mainly a scavenger of dead animals, especially fish, squid and crustaceans.",
+        "certainty": "confirmed",
+        "ref": 5
+      },
+      {
+        "title": "Easy prey",
+        "text": "It also feeds on fixed or slow-moving animals, such as echinoderms and sea squirts.",
+        "certainty": "confirmed",
+        "ref": 5
+      }
+    ],
+    "predators": [
+      "Tiger sharks"
+    ]
+  },
+  "life": {
+    "lede": "Giant isopods skip the larval stage entirely: the young leave their mother's pouch looking like small adults.",
+    "stages": [
+      {
+        "name": "Brooded egg",
+        "text": "Females lay eggs into a brood pouch, the marsupium, on the underside of the body and carry them until the young are ready to emerge.",
+        "ref": 3
+      },
+      {
+        "name": "Manca",
+        "duration": "up to about 6 cm",
+        "text": "The young, called mancae, look like miniature adults but lack the seventh pair of legs.",
+        "ref": 3
+      },
+      {
+        "name": "Adult",
+        "duration": "commonly 19–36 cm",
+        "text": "Isopods trapped off Yucatán, at 349–733 m, ranged from 4.4 to 36.5 cm long.",
+        "ref": 5
+      },
+      {
+        "name": "Breeding",
+        "text": "Far more males and females were mature in February than in August, suggesting that reproduction is seasonal.",
+        "ref": 5
+      }
+    ]
+  }
+}

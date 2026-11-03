@@ -1,0 +1,58 @@
+{
+  "extraReferences": [
+    { "title": "The eyes of the colossal squid", "publisher": "Te Papa — Museum of New Zealand", "url": "https://www.tepapa.govt.nz/digital-museum/explore-digital-museum/colossal-squid/anatomy-colossal-squid/eyes-colossal-squid" },
+    { "title": "Life and habits of the colossal squid", "publisher": "Te Papa — Museum of New Zealand", "url": "https://www.tepapa.govt.nz/digital-museum/explore-digital-museum/colossal-squid/life-and-habits-colossal-squid" },
+    { "title": "A unique advantage for giant eyes in giant squid. Current Biology 22: 683–688", "publisher": "Current Biology", "url": "https://doi.org/10.1016/j.cub.2012.02.031", "year": 2012, "authors": "Nilsson D.-E., Warrant E.J., Johnsen S., Hanlon R., Shashar N." },
+    { "title": "Slow pace of life of the Antarctic colossal squid. Journal of the Marine Biological Association of the UK 90: 1375–1378", "publisher": "Journal of the Marine Biological Association of the UK", "url": "https://doi.org/10.1017/s0025315409991494", "year": 2010, "authors": "Rosa R., Seibel B.A." }
+  ],
+  "anatomy": {
+    "lede": "The colossal squid is known mostly from a handful of dead or dying specimens. This one, caught in 2007, is the best studied of them all.",
+    "media": 0,
+    "hotspots": [
+      { "id": "fin", "label": "Fin", "x": 49, "y": 17, "text": "The body has three main parts: the mantle with its broad fin, the head, and a ring of arms and tentacles.", "ref": 1 },
+      { "id": "mantle", "label": "Mantle", "x": 50, "y": 27, "text": "The mantle is the main body. The 2003 specimen, an immature female, had a mantle 2.5 m long and a total length of 5.4 m.", "ref": 1 },
+      { "id": "head", "label": "Head", "x": 49, "y": 33, "text": "The head holds the largest eyes ever studied, about 27 cm across, each with a lens 8–9 cm wide, about the size of an orange.", "ref": 4 },
+      { "id": "arms", "label": "Hooked arms", "x": 62, "y": 44, "text": "The eight arms carry hooks partway along their length. These hooks tell young colossal squid apart from other glass squid.", "ref": 2 },
+      { "id": "tentacles", "label": "Tentacles", "x": 56, "y": 68, "text": "The two longer tentacles end in clubs armed with rotating hooks that ensnare prey.", "ref": 1 }
+    ],
+    "stats": [
+      { "value": "about 470 kg", "label": "Weight of the 2007 specimen", "ref": 1 },
+      { "value": "about 27 cm", "label": "Eye diameter", "ref": 4 },
+      { "value": "49 mm", "label": "Largest lower beak from a whale's stomach", "ref": 1 },
+      { "value": "0.03 kg", "label": "Estimated prey needed per day", "ref": 7 }
+    ]
+  },
+  "senses": {
+    "lede": "At 1,000 m and below, there is almost no sunlight. The colossal squid's giant eyes seem built to catch the faintest glow.",
+    "senses": [
+      { "kind": "sight", "name": "Headlights", "text": "Each eyeball carries a light organ beside the lens that glows constantly. When the eyes turn forward, these light up prey in front of the arms.", "certainty": "hypothesis", "ref": 4 },
+      { "kind": "sight", "name": "Judging distance", "text": "The eyes face forward and can give overlapping, stereoscopic vision, helping the squid judge how far to reach with its tentacles. It probably cannot see colour.", "certainty": "hypothesis", "ref": 4 },
+      { "kind": "sight", "name": "Whale warning", "text": "Modelling suggests that eyes this large are best at spotting very large animals, such as sperm whales, lit by glowing plankton. A 27 cm eye below 600 m could detect a whale more than 120 m away.", "vsHuman": "keener", "certainty": "hypothesis", "ref": 6 }
+    ]
+  },
+  "body": {
+    "lede": "A giant body need not be a fast one. The colossal squid seems to live in the slow lane.",
+    "systems": [
+      { "title": "Very slow metabolism", "text": "Estimates based on its size and the near-freezing water suggest it burns only about 45 kcal a day.", "certainty": "hypothesis", "ref": 7 },
+      { "title": "Two-piece lens", "text": "As in other cephalopods, the lens of the eye is in two pieces. Its pupil is 8–9 cm across to gather as much light as possible.", "certainty": "confirmed", "ref": 4 },
+      { "title": "A beak that lasts", "text": "The beak is the squid's mouth and the start of its digestive system. Beaks resist digestion, so they pile up in sperm whale stomachs and reveal how big the squid grow.", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "survival": {
+    "lede": "Rather than chasing prey at speed, the colossal squid probably waits for it in the dark.",
+    "tactics": [
+      { "title": "Sit-and-float ambush", "text": "Researchers argue it is not a voracious, high-speed hunter but an ambush predator that uses its hooks to snag prey that drifts too close.", "certainty": "hypothesis", "ref": 7 },
+      { "title": "Early warning", "text": "Huge eyes may spot a hunting sperm whale from beyond 120 m, giving the squid early warning to prepare a powerful escape.", "certainty": "hypothesis", "ref": 6 }
+    ],
+    "predators": ["Sperm whales"]
+  },
+  "life": {
+    "lede": "Its life cycle is almost unknown. Only females have been found, and no one has seen it breed.",
+    "stages": [
+      { "name": "Egg", "text": "It probably lays its eggs in a large, floating, jelly-like mass, as the giant squid does.", "ref": 5 },
+      { "name": "Hatchling", "text": "Eggs hatch into tiny versions of the adult.", "ref": 5 },
+      { "name": "Juvenile", "text": "In 2025 a transparent juvenile about 30 cm long was filmed alive at 600 m, holding its arms in the 'cockatoo' pose typical of glass squid.", "ref": 2 },
+      { "name": "Adult", "duration": "matures in 1–3 years", "text": "Adults live at 1,000 m or deeper. Males are thought to deliver sperm directly to the female, but none has been examined.", "ref": 5 }
+    ]
+  }
+}

@@ -1,0 +1,2870 @@
+[
+ {
+  "slug": "jaguar",
+  "commonName": "Jaguar",
+  "scientificName": "Panthera onca",
+  "region": "amazon",
+  "biome": "rainforest",
+  "pin": [
+   -64.8,
+   -2.3
+  ],
+  "thumb": null
+ },
+ {
+  "slug": "green-anaconda",
+  "commonName": "Green anaconda",
+  "scientificName": "Eunectes murinus",
+  "region": "amazon",
+  "biome": "wetland",
+  "pin": [
+   -60.8,
+   -2.5
+  ],
+  "thumb": null
+ },
+ {
+  "slug": "amazon-river-dolphin",
+  "commonName": "Amazon river dolphin",
+  "scientificName": "Inia geoffrensis",
+  "region": "amazon",
+  "biome": "wetland",
+  "pin": [
+   -74.6,
+   -5
+  ],
+  "thumb": {
+   "src": "/media/species/amazon-river-dolphin.webp",
+   "width": 640,
+   "height": 480,
+   "alt": "A pink Amazon river dolphin swimming underwater",
+   "creator": "Oceancetaceen",
+   "license": "CC BY-SA 2.0 de",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amazonas-Flussdelfin_Orinoko3.jpg"
+  }
+ },
+ {
+  "slug": "harpy-eagle",
+  "commonName": "Harpy eagle",
+  "scientificName": "Harpia harpyja",
+  "region": "amazon",
+  "biome": "rainforest",
+  "pin": [
+   -69.6,
+   -12.9
+  ],
+  "thumb": null
+ },
+ {
+  "slug": "brown-throated-sloth",
+  "commonName": "Brown-throated three-toed sloth",
+  "scientificName": "Bradypus variegatus",
+  "region": "amazon",
+  "biome": "rainforest",
+  "pin": [
+   -76.4,
+   -0.9
+  ],
+  "thumb": null
+ },
+ {
+  "slug": "giant-otter",
+  "commonName": "Giant otter",
+  "scientificName": "Pteronura brasiliensis",
+  "region": "amazon",
+  "biome": "wetland",
+  "pin": [
+   -71.4,
+   -11.9
+  ],
+  "thumb": {
+   "src": "/media/species/giant-otter.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "Giant otters resting on a log",
+   "creator": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giant_otters_(Pteronura_brasiliensis).jpg"
+  }
+ },
+ {
+  "slug": "hoatzin",
+  "commonName": "Hoatzin",
+  "scientificName": "Opisthocomus hoazin",
+  "region": "amazon",
+  "biome": "wetland",
+  "pin": [
+   -76.2,
+   0
+  ],
+  "thumb": {
+   "src": "/media/species/hoatzin.webp",
+   "width": 640,
+   "height": 960,
+   "alt": "A hoatzin perched on a branch",
+   "creator": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hoatzin_(Opisthocomus_hoazin)_Rio_Napo.jpg"
+  }
+ },
+ {
+  "slug": "dyeing-poison-frog",
+  "commonName": "Dyeing poison frog",
+  "scientificName": "Dendrobates tinctorius",
+  "region": "amazon",
+  "biome": "rainforest",
+  "pin": [
+   -55.2,
+   4.9
+  ],
+  "thumb": {
+   "src": "/media/species/dyeing-poison-frog.webp",
+   "width": 640,
+   "height": 437,
+   "alt": "A black and yellow dyeing poison frog on moss",
+   "creator": "H. Zell",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dendrobates_tinctorius_-_Karlsruhe_Zoo_05.jpg"
+  }
+ },
+ {
+  "slug": "leafcutter-ant",
+  "commonName": "Leafcutter ant",
+  "scientificName": "Atta cephalotes",
+  "region": "amazon",
+  "biome": "rainforest",
+  "pin": [
+   -73.4,
+   -3.9
+  ],
+  "thumb": {
+   "src": "/media/species/leafcutter-ant.webp",
+   "width": 640,
+   "height": 450,
+   "alt": "Leafcutter ants carrying a leaf fragment along a twig",
+   "creator": "Pjt56",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atta_cephalotes-pjt.jpg"
+  }
+ },
+ {
+  "slug": "red-bellied-piranha",
+  "commonName": "Red-bellied piranha",
+  "scientificName": "Pygocentrus nattereri",
+  "region": "amazon",
+  "biome": "wetland",
+  "pin": [
+   -69.9,
+   -4.2
+  ],
+  "thumb": {
+   "src": "/media/species/red-bellied-piranha.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A red-bellied piranha swimming among water plants",
+   "creator": "H. Zell",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg"
+  }
+ },
+ {
+  "slug": "hyacinth-macaw",
+  "commonName": "Hyacinth macaw",
+  "scientificName": "Anodorhynchus hyacinthinus",
+  "region": "pantanal",
+  "biome": "wetland",
+  "pin": [
+   -56.4,
+   -20
+  ],
+  "thumb": {
+   "src": "/media/species/hyacinth-macaw.webp",
+   "width": 640,
+   "height": 800,
+   "alt": "A pair of hyacinth macaws perched in a flowering tree",
+   "creator": "Giles Laurent",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:008_Hyacinth_macaw_couple_kissing_under_Pink_Ip%C3%AA_tree_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg"
+  }
+ },
+ {
+  "slug": "yacare-caiman",
+  "commonName": "Yacare caiman",
+  "scientificName": "Caiman yacare",
+  "region": "pantanal",
+  "biome": "wetland",
+  "pin": [
+   -56.8,
+   -17.4
+  ],
+  "thumb": {
+   "src": "/media/species/yacare-caiman.webp",
+   "width": 640,
+   "height": 293,
+   "alt": "A yacare caiman basking on a riverbank",
+   "creator": "Bernard DUPONT from FRANCE",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yacare_Caiman_(Caiman_Yacare)_-_Flickr_-_berniedup.jpg"
+  }
+ },
+ {
+  "slug": "capybara",
+  "commonName": "Capybara",
+  "scientificName": "Hydrochoerus hydrochaeris",
+  "region": "pantanal",
+  "biome": "wetland",
+  "pin": [
+   -56.6,
+   -16.5
+  ],
+  "thumb": {
+   "src": "/media/species/capybara.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A capybara sitting on a sandy riverbank",
+   "creator": "Giles Laurent",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Capybaracropped.jpg"
+  }
+ },
+ {
+  "slug": "giant-anteater",
+  "commonName": "Giant anteater",
+  "scientificName": "Myrmecophaga tridactyla",
+  "region": "pantanal",
+  "biome": "savanna",
+  "pin": [
+   -56.2,
+   -19
+  ],
+  "thumb": {
+   "src": "/media/species/giant-anteater.webp",
+   "width": 640,
+   "height": 433,
+   "alt": "A giant anteater foraging with its snout to the ground",
+   "creator": "Malene Thyssen",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Myresluger2.jpg"
+  }
+ },
+ {
+  "slug": "marsh-deer",
+  "commonName": "Marsh deer",
+  "scientificName": "Blastocerus dichotomus",
+  "region": "pantanal",
+  "biome": "wetland",
+  "pin": [
+   -57.3,
+   -18.2
+  ],
+  "thumb": {
+   "src": "/media/species/marsh-deer.webp",
+   "width": 640,
+   "height": 1054,
+   "alt": "A marsh deer stag standing in grass",
+   "creator": "Jonathan Wilkins",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cervo_do_pantano.jpg"
+  }
+ },
+ {
+  "slug": "red-eyed-tree-frog",
+  "commonName": "Red-eyed tree frog",
+  "scientificName": "Agalychnis callidryas",
+  "region": "central-america",
+  "biome": "rainforest",
+  "pin": [
+   -83.5,
+   10.5
+  ],
+  "thumb": {
+   "src": "/media/species/red-eyed-tree-frog.webp",
+   "width": 640,
+   "height": 511,
+   "alt": "A red-eyed tree frog clinging to a stem",
+   "creator": "Geoff Gallice",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red-eyed_Tree_Frog_(Agalychnis_callidryas)_1.png"
+  }
+ },
+ {
+  "slug": "resplendent-quetzal",
+  "commonName": "Resplendent quetzal",
+  "scientificName": "Pharomachrus mocinno",
+  "region": "central-america",
+  "biome": "rainforest",
+  "pin": [
+   -84.8,
+   10.3
+  ],
+  "thumb": {
+   "src": "/media/species/resplendent-quetzal.webp",
+   "width": 640,
+   "height": 800,
+   "alt": "A resplendent quetzal perched on a tree trunk",
+   "creator": "lwolfartist",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Resplendent_quetzal_san_gerardo_de_dota_3.31.24_DSC_3989-topaz-denoiseraw.jpg"
+  }
+ },
+ {
+  "slug": "strawberry-poison-frog",
+  "commonName": "Strawberry poison frog",
+  "scientificName": "Oophaga pumilio",
+  "region": "central-america",
+  "biome": "rainforest",
+  "pin": [
+   -82.2,
+   9.3
+  ],
+  "thumb": {
+   "src": "/media/species/strawberry-poison-frog.webp",
+   "width": 640,
+   "height": 516,
+   "alt": "A bright red strawberry poison frog on a leaf",
+   "creator": "Rhododendrites",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Strawberry_poison_dart_frog_(70539).jpg"
+  }
+ },
+ {
+  "slug": "bairds-tapir",
+  "commonName": "Baird's tapir",
+  "scientificName": "Tapirus bairdii",
+  "region": "central-america",
+  "biome": "rainforest",
+  "pin": [
+   -83.6,
+   8.5
+  ],
+  "thumb": {
+   "src": "/media/species/bairds-tapir.webp",
+   "width": 640,
+   "height": 452,
+   "alt": "A Baird's tapir mother with her striped calf",
+   "creator": "Rhododendrites",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baird%27s_tapir_mother_with_baby_(92151).jpg"
+  }
+ },
+ {
+  "slug": "mantled-howler",
+  "commonName": "Mantled howler",
+  "scientificName": "Alouatta palliata",
+  "region": "central-america",
+  "biome": "rainforest",
+  "pin": [
+   -79.8,
+   9.2
+  ],
+  "thumb": {
+   "src": "/media/species/mantled-howler.webp",
+   "width": 640,
+   "height": 480,
+   "alt": "A mantled howler monkey sitting in a tree",
+   "creator": "Dr. Ariel Rodriguez-Vargas",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panamanian_Male_Adult_Howler_Monkey.jpg"
+  }
+ },
+ {
+  "slug": "andean-condor",
+  "commonName": "Andean condor",
+  "scientificName": "Vultur gryphus",
+  "region": "andes-patagonia",
+  "biome": "mountain",
+  "pin": [
+   -71.9,
+   -15.6
+  ],
+  "thumb": {
+   "src": "/media/species/andean-condor.webp",
+   "width": 640,
+   "height": 801,
+   "alt": "An Andean condor perched on a rock",
+   "creator": "Greg Hume",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:AndeanCondorMale.jpg"
+  }
+ },
+ {
+  "slug": "vicuna",
+  "commonName": "Vicuña",
+  "scientificName": "Vicugna vicugna",
+  "region": "andes-patagonia",
+  "biome": "mountain",
+  "pin": [
+   -74.4,
+   -14.7
+  ],
+  "thumb": {
+   "src": "/media/species/vicuna.webp",
+   "width": 640,
+   "height": 528,
+   "alt": "A vicuña standing in profile",
+   "creator": "Thomas Quine",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vicuna_(89163948)_(cropped).jpg"
+  }
+ },
+ {
+  "slug": "spectacled-bear",
+  "commonName": "Spectacled bear",
+  "scientificName": "Tremarctos ornatus",
+  "region": "andes-patagonia",
+  "biome": "mountain",
+  "pin": [
+   -72.5,
+   -13.2
+  ],
+  "thumb": {
+   "src": "/media/species/spectacled-bear.webp",
+   "width": 640,
+   "height": 542,
+   "alt": "A spectacled bear sitting upright",
+   "creator": "Wilfredor",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tremarctos_ornatus_in_Jardim_Zool%C3%B3gico_de_Curitiba.jpg"
+  }
+ },
+ {
+  "slug": "guanaco",
+  "commonName": "Guanaco",
+  "scientificName": "Lama guanicoe",
+  "region": "andes-patagonia",
+  "biome": "grassland",
+  "pin": [
+   -64,
+   -42.5
+  ],
+  "thumb": {
+   "src": "/media/species/guanaco.webp",
+   "width": 640,
+   "height": 562,
+   "alt": "A guanaco standing on a scrubby hillside",
+   "creator": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guanaco_(Lama_guanicoe)_Leona_Amarga.jpg"
+  }
+ },
+ {
+  "slug": "andean-flamingo",
+  "commonName": "Andean flamingo",
+  "scientificName": "Phoenicoparrus andinus",
+  "region": "andes-patagonia",
+  "biome": "mountain",
+  "pin": [
+   -67.8,
+   -22.2
+  ],
+  "thumb": {
+   "src": "/media/species/andean-flamingo.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "An Andean flamingo wading in shallow water",
+   "creator": "Luciano Massa",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andean_Flamingo,_Salta,_AR_imported_from_iNaturalist_photo_171995487.jpg"
+  }
+ },
+ {
+  "slug": "puma",
+  "commonName": "Puma",
+  "scientificName": "Puma concolor",
+  "region": "andes-patagonia",
+  "biome": "mountain",
+  "pin": [
+   -72.9,
+   -51
+  ],
+  "thumb": {
+   "src": "/media/species/puma.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A puma standing on rocks",
+   "creator": "National Park Service",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mountain_Lion_in_Glacier_National_Park.jpg"
+  }
+ },
+ {
+  "slug": "galapagos-giant-tortoise",
+  "commonName": "Galápagos giant tortoise",
+  "scientificName": "Chelonoidis niger",
+  "region": "galapagos",
+  "biome": "island",
+  "pin": [
+   -90.4,
+   -0.7
+  ],
+  "thumb": {
+   "src": "/media/species/galapagos-giant-tortoise.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A Galápagos giant tortoise walking on dry ground",
+   "creator": "Matthew Field",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Galapagos_giant_tortoise_Geochelone_elephantopus.jpg"
+  }
+ },
+ {
+  "slug": "marine-iguana",
+  "commonName": "Marine iguana",
+  "scientificName": "Amblyrhynchus cristatus",
+  "region": "galapagos",
+  "biome": "island",
+  "pin": [
+   -91.5,
+   -0.4
+  ],
+  "thumb": {
+   "src": "/media/species/marine-iguana.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A marine iguana resting on a sea rock",
+   "creator": "RAF-YYC from Calgary, Canada",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amblyrhynchus_cristatus_(3838137696).jpg"
+  }
+ },
+ {
+  "slug": "blue-footed-booby",
+  "commonName": "Blue-footed booby",
+  "scientificName": "Sula nebouxii",
+  "region": "galapagos",
+  "biome": "island",
+  "pin": [
+   -90.3,
+   -0.4
+  ],
+  "thumb": {
+   "src": "/media/species/blue-footed-booby.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A blue-footed booby standing on a coastal rock",
+   "creator": "Ndecam from London, UK",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sula_nebouxii_-Santa_Cruz,_Galapagos_Islands,_Ecuador-8_(1).jpg"
+  }
+ },
+ {
+  "slug": "gila-monster",
+  "commonName": "Gila monster",
+  "scientificName": "Heloderma suspectum",
+  "region": "north-american-deserts",
+  "biome": "desert",
+  "pin": [
+   -110.7,
+   32.2
+  ],
+  "thumb": {
+   "src": "/media/species/gila-monster.webp",
+   "width": 640,
+   "height": 480,
+   "alt": "A coiled Gila monster with beaded orange and black skin",
+   "creator": "Blueag9",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gila_monster2.JPG"
+  }
+ },
+ {
+  "slug": "greater-roadrunner",
+  "commonName": "Greater roadrunner",
+  "scientificName": "Geococcyx californianus",
+  "region": "north-american-deserts",
+  "biome": "desert",
+  "pin": [
+   -103.2,
+   29.3
+  ],
+  "thumb": {
+   "src": "/media/species/greater-roadrunner.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A greater roadrunner on dry desert ground",
+   "creator": "Polinova",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greater_Roadrunner_Tingley_Beach.jpg"
+  }
+ },
+ {
+  "slug": "mojave-desert-tortoise",
+  "commonName": "Mojave desert tortoise",
+  "scientificName": "Gopherus agassizii",
+  "region": "north-american-deserts",
+  "biome": "desert",
+  "pin": [
+   -115.5,
+   35.1
+  ],
+  "thumb": {
+   "src": "/media/species/mojave-desert-tortoise.webp",
+   "width": 640,
+   "height": 480,
+   "alt": "A desert tortoise on cracked dry earth",
+   "creator": "Tigerhawkvok",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gopherus_agassizii.jpg"
+  }
+ },
+ {
+  "slug": "western-diamondback-rattlesnake",
+  "commonName": "Western diamondback rattlesnake",
+  "scientificName": "Crotalus atrox",
+  "region": "north-american-deserts",
+  "biome": "desert",
+  "pin": [
+   -112.9,
+   32
+  ],
+  "thumb": {
+   "src": "/media/species/western-diamondback-rattlesnake.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A coiled western diamondback rattlesnake",
+   "creator": "Holger Krisp",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:(Westliche_Diamantklapperschlange)_Crotalus_atrox.jpg"
+  }
+ },
+ {
+  "slug": "merriams-kangaroo-rat",
+  "commonName": "Merriam's kangaroo rat",
+  "scientificName": "Dipodomys merriami",
+  "region": "north-american-deserts",
+  "biome": "desert",
+  "pin": [
+   -116.4,
+   33.2
+  ],
+  "thumb": {
+   "src": "/media/species/merriams-kangaroo-rat.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A Merriam's kangaroo rat held in a hand",
+   "creator": "Connor Long",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Merriam%27s_Kangaroo_Rat.jpg"
+  }
+ },
+ {
+  "slug": "collared-peccary",
+  "commonName": "Collared peccary",
+  "scientificName": "Dicotyles tajacu",
+  "region": "north-american-deserts",
+  "biome": "desert",
+  "pin": [
+   -112.4,
+   32.9
+  ],
+  "thumb": {
+   "src": "/media/species/collared-peccary.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A collared peccary rooting on the ground",
+   "creator": "Carlos Delgado",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pecari_tajacu_-_02.jpg"
+  }
+ },
+ {
+  "slug": "grizzly-bear",
+  "commonName": "Grizzly bear",
+  "scientificName": "Ursus arctos horribilis",
+  "region": "north-american-forests",
+  "biome": "temperate-forest",
+  "pin": [
+   -110.5,
+   44.7
+  ],
+  "thumb": {
+   "src": "/media/species/grizzly-bear.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A close view of a grizzly bear among shrubs",
+   "creator": "Gregory \"Slobirdr\" Smith",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grizzly_Bear_(Ursus_arctos_ssp.).jpg"
+  }
+ },
+ {
+  "slug": "gray-wolf",
+  "commonName": "Gray wolf",
+  "scientificName": "Canis lupus",
+  "region": "north-american-forests",
+  "biome": "temperate-forest",
+  "pin": [
+   -110.2,
+   44.9
+  ],
+  "thumb": {
+   "src": "/media/species/gray-wolf.webp",
+   "width": 640,
+   "height": 478,
+   "alt": "A dark-coated gray wolf in Yellowstone",
+   "creator": "Shanthanu Bhardwaj",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gray_Wolf_(7828692538).jpg"
+  }
+ },
+ {
+  "slug": "american-bison",
+  "commonName": "American bison",
+  "scientificName": "Bison bison",
+  "region": "north-american-forests",
+  "biome": "grassland",
+  "pin": [
+   -103.5,
+   46.9
+  ],
+  "thumb": {
+   "src": "/media/species/american-bison.webp",
+   "width": 640,
+   "height": 418,
+   "alt": "An American bison standing in dry grass",
+   "creator": "Jack Dykinga",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_bison_k5680-1.jpg"
+  }
+ },
+ {
+  "slug": "bald-eagle",
+  "commonName": "Bald eagle",
+  "scientificName": "Haliaeetus leucocephalus",
+  "region": "north-american-forests",
+  "biome": "temperate-forest",
+  "pin": [
+   -113.8,
+   48.7
+  ],
+  "thumb": {
+   "src": "/media/species/bald-eagle.webp",
+   "width": 640,
+   "height": 512,
+   "alt": "A bald eagle about to take off from a stump",
+   "creator": "Andy Morffew from Itchen Abbas, Hampshire, UK",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bald_eagle_about_to_fly_in_Alaska_(2016).jpg"
+  }
+ },
+ {
+  "slug": "moose",
+  "commonName": "Moose",
+  "scientificName": "Alces alces",
+  "region": "north-american-forests",
+  "biome": "temperate-forest",
+  "pin": [
+   -110.7,
+   43.8
+  ],
+  "thumb": {
+   "src": "/media/species/moose.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A bull moose with large antlers in autumn grass",
+   "creator": "Paxson Woelber",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alaska_moose.jpg"
+  }
+ },
+ {
+  "slug": "north-american-beaver",
+  "commonName": "North American beaver",
+  "scientificName": "Castor canadensis",
+  "region": "north-american-forests",
+  "biome": "temperate-forest",
+  "pin": [
+   -105.7,
+   40.3
+  ],
+  "thumb": {
+   "src": "/media/species/north-american-beaver.webp",
+   "width": 640,
+   "height": 641,
+   "alt": "A North American beaver sitting upright on the ground",
+   "creator": "Steve from Washington, DC, USA",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_Beaver.jpg"
+  }
+ },
+ {
+  "slug": "polar-bear",
+  "commonName": "Polar bear",
+  "scientificName": "Ursus maritimus",
+  "region": "arctic-tundra",
+  "biome": "polar",
+  "pin": [
+   -94.2,
+   58.8
+  ],
+  "thumb": {
+   "src": "/media/species/polar-bear.webp",
+   "width": 640,
+   "height": 643,
+   "alt": "A polar bear walking on snow",
+   "creator": "Alan Wilson",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Polar_Bear_-_Alaska_(cropped).jpg"
+  }
+ },
+ {
+  "slug": "arctic-fox",
+  "commonName": "Arctic fox",
+  "scientificName": "Vulpes lagopus",
+  "region": "arctic-tundra",
+  "biome": "tundra",
+  "pin": [
+   -105.1,
+   69.1
+  ],
+  "thumb": {
+   "src": "/media/species/arctic-fox.webp",
+   "width": 640,
+   "height": 792,
+   "alt": "An arctic fox in white winter coat sitting in snow",
+   "creator": "Jonatan Pie (unsplash.com/@r3dmax)",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vulpes_lagopus_in_Iceland_(cropped_3).jpg"
+  }
+ },
+ {
+  "slug": "caribou",
+  "commonName": "Caribou",
+  "scientificName": "Rangifer tarandus",
+  "region": "arctic-tundra",
+  "biome": "tundra",
+  "pin": [
+   -144,
+   69.5
+  ],
+  "thumb": {
+   "src": "/media/species/caribou.webp",
+   "width": 640,
+   "height": 420,
+   "alt": "A bull caribou grazing below mountains",
+   "creator": "Dean Biggins (U.S. Fish and Wildlife Service)",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caribou.jpg"
+  }
+ },
+ {
+  "slug": "muskox",
+  "commonName": "Muskox",
+  "scientificName": "Ovibos moschatus",
+  "region": "arctic-tundra",
+  "biome": "tundra",
+  "pin": [
+   -119.5,
+   73.7
+  ],
+  "thumb": {
+   "src": "/media/species/muskox.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A shaggy muskox bull standing in vegetation",
+   "creator": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Muskox_(Ovibos_moschatus)_male_Dovrefjell_4.jpg"
+  }
+ },
+ {
+  "slug": "snowy-owl",
+  "commonName": "Snowy owl",
+  "scientificName": "Bubo scandiacus",
+  "region": "arctic-tundra",
+  "biome": "tundra",
+  "pin": [
+   -156.8,
+   71.3
+  ],
+  "thumb": {
+   "src": "/media/species/snowy-owl.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A snowy owl swooping on prey",
+   "creator": "Chuck Homler",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:SnowyOwlAmericanBlackDuck.jpg"
+  }
+ },
+ {
+  "slug": "fennec-fox",
+  "commonName": "Fennec fox",
+  "scientificName": "Vulpes zerda",
+  "region": "sahara-arabia",
+  "biome": "desert",
+  "pin": [
+   -4,
+   31.1
+  ],
+  "thumb": null
+ },
+ {
+  "slug": "dromedary",
+  "commonName": "Dromedary",
+  "scientificName": "Camelus dromedarius",
+  "region": "sahara-arabia",
+  "biome": "desert",
+  "pin": [
+   8,
+   17
+  ],
+  "thumb": null
+ },
+ {
+  "slug": "addax",
+  "commonName": "Addax",
+  "scientificName": "Addax nasomaculatus",
+  "region": "sahara-arabia",
+  "biome": "desert",
+  "pin": [
+   11.5,
+   16
+  ],
+  "thumb": {
+   "src": "/media/species/addax.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "An addax with long twisted horns grazing",
+   "creator": "HaytemBouchri93",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_big_male_Addax_showing_as_the_power_of_his_horns.jpg"
+  }
+ },
+ {
+  "slug": "sand-cat",
+  "commonName": "Sand cat",
+  "scientificName": "Felis margarita",
+  "region": "sahara-arabia",
+  "biome": "desert",
+  "pin": [
+   -14,
+   24
+  ],
+  "thumb": {
+   "src": "/media/species/sand-cat.webp",
+   "width": 640,
+   "height": 443,
+   "alt": "A sand cat walking across sandy ground",
+   "creator": "Payman sazesh",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Persian_sand_CAT.jpg"
+  }
+ },
+ {
+  "slug": "saharan-horned-viper",
+  "commonName": "Saharan horned viper",
+  "scientificName": "Cerastes cerastes",
+  "region": "sahara-arabia",
+  "biome": "desert",
+  "pin": [
+   8,
+   25.5
+  ],
+  "thumb": {
+   "src": "/media/species/saharan-horned-viper.webp",
+   "width": 640,
+   "height": 412,
+   "alt": "A Saharan horned viper coiled on sand",
+   "creator": "Holger Krisp",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hornviper_Cerastes_cerastes.jpg"
+  }
+ },
+ {
+  "slug": "deathstalker-scorpion",
+  "commonName": "Deathstalker scorpion",
+  "scientificName": "Leiurus quinquestriatus",
+  "region": "sahara-arabia",
+  "biome": "desert",
+  "pin": [
+   32.9,
+   24.1
+  ],
+  "thumb": null
+ },
+ {
+  "slug": "saharan-silver-ant",
+  "commonName": "Saharan silver ant",
+  "scientificName": "Cataglyphis bombycina",
+  "region": "sahara-arabia",
+  "biome": "desert",
+  "pin": [
+   9,
+   33.4
+  ],
+  "thumb": null
+ },
+ {
+  "slug": "arabian-oryx",
+  "commonName": "Arabian oryx",
+  "scientificName": "Oryx leucoryx",
+  "region": "sahara-arabia",
+  "biome": "desert",
+  "pin": [
+   46.4,
+   19.4
+  ],
+  "thumb": {
+   "src": "/media/species/arabian-oryx.webp",
+   "width": 640,
+   "height": 552,
+   "alt": "An Arabian oryx standing on a sand dune",
+   "creator": "Charles J. Sharp",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arabian_oryx_(oryx_leucoryx).jpg"
+  }
+ },
+ {
+  "slug": "african-bush-elephant",
+  "commonName": "African bush elephant",
+  "scientificName": "Loxodonta africana",
+  "region": "african-savanna",
+  "biome": "savanna",
+  "pin": [
+   37.3,
+   -2.7
+  ],
+  "thumb": null
+ },
+ {
+  "slug": "lion",
+  "commonName": "Lion",
+  "scientificName": "Panthera leo",
+  "region": "african-savanna",
+  "biome": "savanna",
+  "pin": [
+   34.8,
+   -2.3
+  ],
+  "thumb": null
+ },
+ {
+  "slug": "cheetah",
+  "commonName": "Cheetah",
+  "scientificName": "Acinonyx jubatus",
+  "region": "african-savanna",
+  "biome": "savanna",
+  "pin": [
+   35.1,
+   -1.5
+  ],
+  "thumb": null
+ },
+ {
+  "slug": "giraffe",
+  "commonName": "Giraffe",
+  "scientificName": "Giraffa camelopardalis",
+  "region": "african-savanna",
+  "biome": "savanna",
+  "pin": [
+   36.8,
+   -1.4
+  ],
+  "thumb": null
+ },
+ {
+  "slug": "plains-zebra",
+  "commonName": "Plains zebra",
+  "scientificName": "Equus quagga",
+  "region": "african-savanna",
+  "biome": "savanna",
+  "pin": [
+   36,
+   -3.9
+  ],
+  "thumb": {
+   "src": "/media/species/plains-zebra.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A plains zebra standing in grassland",
+   "creator": "Yathin S Krishnappa",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Equus_quagga_burchellii_-_Etosha,_2014.jpg"
+  }
+ },
+ {
+  "slug": "blue-wildebeest",
+  "commonName": "Blue wildebeest",
+  "scientificName": "Connochaetes taurinus",
+  "region": "african-savanna",
+  "biome": "savanna",
+  "pin": [
+   35,
+   -3
+  ],
+  "thumb": {
+   "src": "/media/species/blue-wildebeest.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A blue wildebeest with starlings on its back in dry grass",
+   "creator": "Giles Laurent",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:040_Blue_wildebeest_with_wattled_starlings_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg"
+  }
+ },
+ {
+  "slug": "spotted-hyena",
+  "commonName": "Spotted hyena",
+  "scientificName": "Crocuta crocuta",
+  "region": "african-savanna",
+  "biome": "savanna",
+  "pin": [
+   35.6,
+   -3.2
+  ],
+  "thumb": {
+   "src": "/media/species/spotted-hyena.webp",
+   "width": 640,
+   "height": 344,
+   "alt": "A spotted hyena standing among low shrubs",
+   "creator": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spotted_hyena_(Crocuta_crocuta).jpg"
+  }
+ },
+ {
+  "slug": "african-wild-dog",
+  "commonName": "African wild dog",
+  "scientificName": "Lycaon pictus",
+  "region": "african-savanna",
+  "biome": "savanna",
+  "pin": [
+   38,
+   -8.3
+  ],
+  "thumb": {
+   "src": "/media/species/african-wild-dog.webp",
+   "width": 640,
+   "height": 360,
+   "alt": "An African wild dog trotting",
+   "creator": "AfricanConservation",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:African_Wild_Dog_at_Working_with_Wildlife.jpg"
+  }
+ },
+ {
+  "slug": "black-rhinoceros",
+  "commonName": "Black rhinoceros",
+  "scientificName": "Diceros bicornis",
+  "region": "african-savanna",
+  "biome": "savanna",
+  "pin": [
+   31.9,
+   -28.2
+  ],
+  "thumb": {
+   "src": "/media/species/black-rhinoceros.webp",
+   "width": 640,
+   "height": 360,
+   "alt": "A black rhinoceros standing on bare ground",
+   "creator": "AfricanConservation",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Rhino_at_Working_with_Wildlife.jpg"
+  }
+ },
+ {
+  "slug": "hippopotamus",
+  "commonName": "Hippopotamus",
+  "scientificName": "Hippopotamus amphibius",
+  "region": "african-savanna",
+  "biome": "wetland",
+  "pin": [
+   31.8,
+   -13.1
+  ],
+  "thumb": {
+   "src": "/media/species/hippopotamus.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A hippopotamus standing in shallow water",
+   "creator": "Muhammad Mahdi Karim",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_Hippopotamus_in_the_water.jpg"
+  }
+ },
+ {
+  "slug": "nile-crocodile",
+  "commonName": "Nile crocodile",
+  "scientificName": "Crocodylus niloticus",
+  "region": "african-savanna",
+  "biome": "wetland",
+  "pin": [
+   31.7,
+   2.3
+  ],
+  "thumb": {
+   "src": "/media/species/nile-crocodile.webp",
+   "width": 640,
+   "height": 502,
+   "alt": "Two Nile crocodiles on a bank",
+   "creator": "Dewet",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:NileCrocodile.jpg"
+  }
+ },
+ {
+  "slug": "secretarybird",
+  "commonName": "Secretarybird",
+  "scientificName": "Sagittarius serpentarius",
+  "region": "african-savanna",
+  "biome": "savanna",
+  "pin": [
+   31.5,
+   -24
+  ],
+  "thumb": {
+   "src": "/media/species/secretarybird.webp",
+   "width": 640,
+   "height": 512,
+   "alt": "A secretarybird striding through grass",
+   "creator": "Sumeet Moghe",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Secretary_bird_Mara_for_WC.jpg"
+  }
+ },
+ {
+  "slug": "honey-badger",
+  "commonName": "Honey badger",
+  "scientificName": "Mellivora capensis",
+  "region": "african-savanna",
+  "biome": "savanna",
+  "pin": [
+   34.9,
+   -7.7
+  ],
+  "thumb": {
+   "src": "/media/species/honey-badger.webp",
+   "width": 640,
+   "height": 360,
+   "alt": "A honey badger walking across open ground",
+   "creator": "Sumeet Moghe",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Honey_Badger.jpg"
+  }
+ },
+ {
+  "slug": "western-lowland-gorilla",
+  "commonName": "Western lowland gorilla",
+  "scientificName": "Gorilla gorilla gorilla",
+  "region": "congo-basin",
+  "biome": "rainforest",
+  "pin": [
+   14.9,
+   0.8
+  ],
+  "thumb": {
+   "src": "/media/species/western-lowland-gorilla.webp",
+   "width": 640,
+   "height": 736,
+   "alt": "A male western lowland gorilla sitting on a rock",
+   "creator": "Greg Hume",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:WesternLowlandGorilla03.jpg"
+  }
+ },
+ {
+  "slug": "mountain-gorilla",
+  "commonName": "Mountain gorilla",
+  "scientificName": "Gorilla beringei beringei",
+  "region": "congo-basin",
+  "biome": "rainforest",
+  "pin": [
+   29.5,
+   -1.4
+  ],
+  "thumb": {
+   "src": "/media/species/mountain-gorilla.webp",
+   "width": 640,
+   "height": 673,
+   "alt": "An adult male mountain gorilla in dense vegetation",
+   "creator": "d_proffer",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Susa_group,_mountain_gorilla.jpg"
+  }
+ },
+ {
+  "slug": "bonobo",
+  "commonName": "Bonobo",
+  "scientificName": "Pan paniscus",
+  "region": "congo-basin",
+  "biome": "rainforest",
+  "pin": [
+   21,
+   -2
+  ],
+  "thumb": {
+   "src": "/media/species/bonobo.webp",
+   "width": 640,
+   "height": 635,
+   "alt": "A bonobo leaning on a post",
+   "creator": "natataek",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apeldoorn_Apenheul_zoo_Bonobo.jpg"
+  }
+ },
+ {
+  "slug": "okapi",
+  "commonName": "Okapi",
+  "scientificName": "Okapia johnstoni",
+  "region": "congo-basin",
+  "biome": "rainforest",
+  "pin": [
+   28.5,
+   1.5
+  ],
+  "thumb": {
+   "src": "/media/species/okapi.webp",
+   "width": 640,
+   "height": 428,
+   "alt": "An okapi with striped legs standing in grass",
+   "creator": "Daniel Jolivet",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint-Aignan_(Loir-et-Cher)._Okapi.jpg"
+  }
+ },
+ {
+  "slug": "african-forest-elephant",
+  "commonName": "African forest elephant",
+  "scientificName": "Loxodonta cyclotis",
+  "region": "congo-basin",
+  "biome": "rainforest",
+  "pin": [
+   16.2,
+   2.9
+  ],
+  "thumb": {
+   "src": "/media/species/african-forest-elephant.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "An African forest elephant and calf in a swamp clearing",
+   "creator": "Thomas Breuer",
+   "license": "CC BY 2.5",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loxodontacyclotis.jpg"
+  }
+ },
+ {
+  "slug": "common-chimpanzee",
+  "commonName": "Common chimpanzee",
+  "scientificName": "Pan troglodytes",
+  "region": "congo-basin",
+  "biome": "rainforest",
+  "pin": [
+   11.6,
+   -0.5
+  ],
+  "thumb": {
+   "src": "/media/species/common-chimpanzee.webp",
+   "width": 640,
+   "height": 960,
+   "alt": "A chimpanzee sitting in a forest tree",
+   "creator": "Giles Laurent",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg"
+  }
+ },
+ {
+  "slug": "grey-parrot",
+  "commonName": "Grey parrot",
+  "scientificName": "Psittacus erithacus",
+  "region": "congo-basin",
+  "biome": "rainforest",
+  "pin": [
+   15.8,
+   2.3
+  ],
+  "thumb": {
+   "src": "/media/species/grey-parrot.webp",
+   "width": 640,
+   "height": 360,
+   "alt": "A grey parrot with a red tail perched on wood",
+   "creator": "Florettesokeng",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Perroquet_%C3%A0_Yampopo_Beach_-_Douala.jpg"
+  }
+ },
+ {
+  "slug": "goliath-frog",
+  "commonName": "Goliath frog",
+  "scientificName": "Conraua goliath",
+  "region": "congo-basin",
+  "biome": "rainforest",
+  "pin": [
+   10,
+   4.4
+  ],
+  "thumb": {
+   "src": "/media/species/goliath-frog.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A goliath frog on wet rock",
+   "creator": "jeanlouisamiet",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Conraua_goliath_photo_from_iNaturalist_539752953.jpg"
+  }
+ },
+ {
+  "slug": "namib-fog-basking-beetle",
+  "commonName": "Namib fog-basking beetle",
+  "scientificName": "Onymacris unguicularis",
+  "region": "namib-kalahari",
+  "biome": "desert",
+  "pin": [
+   15,
+   -23.6
+  ],
+  "thumb": {
+   "src": "/media/species/namib-fog-basking-beetle.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A black Namib darkling beetle on red sand",
+   "creator": "Schnobby",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Onymacris_unguicularis_in_Namib_Desert.jpg"
+  }
+ },
+ {
+  "slug": "meerkat",
+  "commonName": "Meerkat",
+  "scientificName": "Suricata suricatta",
+  "region": "namib-kalahari",
+  "biome": "desert",
+  "pin": [
+   21.8,
+   -27
+  ],
+  "thumb": {
+   "src": "/media/species/meerkat.webp",
+   "width": 640,
+   "height": 528,
+   "alt": "Three meerkats standing upright on red sand",
+   "creator": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meerkat_(Suricata_suricatta)_Tswalu.jpg"
+  }
+ },
+ {
+  "slug": "gemsbok",
+  "commonName": "Gemsbok",
+  "scientificName": "Oryx gazella",
+  "region": "namib-kalahari",
+  "biome": "desert",
+  "pin": [
+   15.3,
+   -24.7
+  ],
+  "thumb": {
+   "src": "/media/species/gemsbok.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A gemsbok with long straight horns standing in scrub",
+   "creator": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gemsbok_(Oryx_gazella)_male.jpg"
+  }
+ },
+ {
+  "slug": "namaqua-chameleon",
+  "commonName": "Namaqua chameleon",
+  "scientificName": "Chamaeleo namaquensis",
+  "region": "namib-kalahari",
+  "biome": "desert",
+  "pin": [
+   14.6,
+   -22.7
+  ],
+  "thumb": {
+   "src": "/media/species/namaqua-chameleon.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A Namaqua chameleon walking on gravel",
+   "creator": "Yathin S Krishnappa",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chamaeleo_namaquensis_(Walvis_Bay).jpg"
+  }
+ },
+ {
+  "slug": "web-footed-gecko",
+  "commonName": "Web-footed gecko",
+  "scientificName": "Pachydactylus rangei",
+  "region": "namib-kalahari",
+  "biome": "desert",
+  "pin": [
+   14.7,
+   -23.4
+  ],
+  "thumb": {
+   "src": "/media/species/web-footed-gecko.webp",
+   "width": 640,
+   "height": 434,
+   "alt": "A translucent web-footed gecko on sand",
+   "creator": "Stefan Kümmel",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pachydactylus-rangei.jpg"
+  }
+ },
+ {
+  "slug": "peringueys-adder",
+  "commonName": "Péringuey's adder",
+  "scientificName": "Bitis peringueyi",
+  "region": "namib-kalahari",
+  "biome": "desert",
+  "pin": [
+   14.5,
+   -23
+  ],
+  "thumb": {
+   "src": "/media/species/peringueys-adder.webp",
+   "width": 640,
+   "height": 426,
+   "alt": "A sand-coloured Péringuey's adder coiled on sand",
+   "creator": "Marius Burger",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bitis_peringueyi_183263832.jpg"
+  }
+ },
+ {
+  "slug": "ring-tailed-lemur",
+  "commonName": "Ring-tailed lemur",
+  "scientificName": "Lemur catta",
+  "region": "madagascar",
+  "biome": "monsoon-forest",
+  "pin": [
+   46.3,
+   -25
+  ],
+  "thumb": {
+   "src": "/media/species/ring-tailed-lemur.webp",
+   "width": 640,
+   "height": 960,
+   "alt": "A ring-tailed lemur drinking at the water edge",
+   "creator": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ring-tailed_lemur_(Lemur_catta).jpg"
+  }
+ },
+ {
+  "slug": "aye-aye",
+  "commonName": "Aye-aye",
+  "scientificName": "Daubentonia madagascariensis",
+  "region": "madagascar",
+  "biome": "rainforest",
+  "pin": [
+   49.8,
+   -15.5
+  ],
+  "thumb": {
+   "src": "/media/species/aye-aye.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "An aye-aye clinging to a branch at night",
+   "creator": "nomis-simon",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wild_aye_aye.jpg"
+  }
+ },
+ {
+  "slug": "indri",
+  "commonName": "Indri",
+  "scientificName": "Indri indri",
+  "region": "madagascar",
+  "biome": "rainforest",
+  "pin": [
+   48.4,
+   -18.9
+  ],
+  "thumb": {
+   "src": "/media/species/indri.webp",
+   "width": 640,
+   "height": 640,
+   "alt": "Indris sitting in a tree",
+   "creator": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indri_(Indri_indri).jpg"
+  }
+ },
+ {
+  "slug": "fossa",
+  "commonName": "Fossa",
+  "scientificName": "Cryptoprocta ferox",
+  "region": "madagascar",
+  "biome": "monsoon-forest",
+  "pin": [
+   44.7,
+   -20.1
+  ],
+  "thumb": {
+   "src": "/media/species/fossa.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A fossa sitting on a forest track",
+   "creator": "Lennart Hudel",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cryptoprocta_ferox_61884767.jpg"
+  }
+ },
+ {
+  "slug": "panther-chameleon",
+  "commonName": "Panther chameleon",
+  "scientificName": "Furcifer pardalis",
+  "region": "madagascar",
+  "biome": "rainforest",
+  "pin": [
+   48.3,
+   -13.3
+  ],
+  "thumb": {
+   "src": "/media/species/panther-chameleon.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A green panther chameleon on a branch",
+   "creator": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panther_chameleon_(Furcifer_pardalis)_male_Nosy_Be.jpg"
+  }
+ },
+ {
+  "slug": "satanic-leaf-tailed-gecko",
+  "commonName": "Satanic leaf-tailed gecko",
+  "scientificName": "Uroplatus phantasticus",
+  "region": "madagascar",
+  "biome": "rainforest",
+  "pin": [
+   47.4,
+   -21.3
+  ],
+  "thumb": {
+   "src": "/media/species/satanic-leaf-tailed-gecko.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A satanic leaf-tailed gecko on a twig",
+   "creator": "Julien Renoult",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Uroplatus_phantasticus_12893423.jpg"
+  }
+ },
+ {
+  "slug": "tomato-frog",
+  "commonName": "Tomato frog",
+  "scientificName": "Dyscophus antongilii",
+  "region": "madagascar",
+  "biome": "wetland",
+  "pin": [
+   49.7,
+   -15.4
+  ],
+  "thumb": {
+   "src": "/media/species/tomato-frog.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A bright red tomato frog on soil",
+   "creator": "Rob Foster",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tomato_Frog,_Maroantsetra,_Madagascar_imported_from_iNaturalist_photo_455535654.jpg"
+  }
+ },
+ {
+  "slug": "bengal-tiger",
+  "commonName": "Bengal tiger",
+  "scientificName": "Panthera tigris tigris",
+  "region": "indian-subcontinent",
+  "biome": "monsoon-forest",
+  "pin": [
+   80.6,
+   22.3
+  ],
+  "thumb": {
+   "src": "/media/species/bengal-tiger.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A Bengal tiger walking through grass",
+   "creator": "Tisha Mukherjee",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bengal_tiger_in_Sanjay_Dubri_Tiger_Reserve_December_2024_by_Tisha_Mukherjee_11.jpg"
+  }
+ },
+ {
+  "slug": "greater-one-horned-rhinoceros",
+  "commonName": "Greater one-horned rhinoceros",
+  "scientificName": "Rhinoceros unicornis",
+  "region": "indian-subcontinent",
+  "biome": "grassland",
+  "pin": [
+   93.4,
+   26.6
+  ],
+  "thumb": {
+   "src": "/media/species/greater-one-horned-rhinoceros.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A greater one-horned rhinoceros on a forest track",
+   "creator": "Tisha Mukherjee",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_rhinoceros_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_02.jpg"
+  }
+ },
+ {
+  "slug": "asian-elephant",
+  "commonName": "Asian elephant",
+  "scientificName": "Elephas maximus",
+  "region": "indian-subcontinent",
+  "biome": "monsoon-forest",
+  "pin": [
+   76.1,
+   12
+  ],
+  "thumb": {
+   "src": "/media/species/asian-elephant.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "An Asian elephant bull standing in forest",
+   "creator": "Yathin S Krishnappa",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elephas_maximus_(Bandipur).jpg"
+  }
+ },
+ {
+  "slug": "indian-peafowl",
+  "commonName": "Indian peafowl",
+  "scientificName": "Pavo cristatus",
+  "region": "indian-subcontinent",
+  "biome": "monsoon-forest",
+  "pin": [
+   76.5,
+   26
+  ],
+  "thumb": {
+   "src": "/media/species/indian-peafowl.webp",
+   "width": 640,
+   "height": 960,
+   "alt": "A male Indian peafowl perched on a tree",
+   "creator": "Kandukuru Nagarjun from Bangalore, India",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peacock_on_tree_(52077240794).jpg"
+  }
+ },
+ {
+  "slug": "gharial",
+  "commonName": "Gharial",
+  "scientificName": "Gavialis gangeticus",
+  "region": "indian-subcontinent",
+  "biome": "wetland",
+  "pin": [
+   78.6,
+   26.6
+  ],
+  "thumb": {
+   "src": "/media/species/gharial.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A male gharial with its long thin snout in a river",
+   "creator": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gharial_(Gavialis_gangeticus)_male.jpg"
+  }
+ },
+ {
+  "slug": "sloth-bear",
+  "commonName": "Sloth bear",
+  "scientificName": "Melursus ursinus",
+  "region": "indian-subcontinent",
+  "biome": "monsoon-forest",
+  "pin": [
+   76.6,
+   15.2
+  ],
+  "thumb": {
+   "src": "/media/species/sloth-bear.webp",
+   "width": 640,
+   "height": 474,
+   "alt": "A shaggy black sloth bear walking",
+   "creator": "Asiir",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sloth_Bear_Washington_DC.JPG"
+  }
+ },
+ {
+  "slug": "asiatic-lion",
+  "commonName": "Asiatic lion",
+  "scientificName": "Panthera leo leo",
+  "region": "indian-subcontinent",
+  "biome": "monsoon-forest",
+  "pin": [
+   70.8,
+   21.1
+  ],
+  "thumb": {
+   "src": "/media/species/asiatic-lion.webp",
+   "width": 640,
+   "height": 466,
+   "alt": "An Asiatic lion walking through dry grass",
+   "creator": "0720reemagupta",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lions.Gir5_(cropped).jpg"
+  }
+ },
+ {
+  "slug": "snow-leopard",
+  "commonName": "Snow leopard",
+  "scientificName": "Panthera uncia",
+  "region": "himalaya-tibet",
+  "biome": "mountain",
+  "pin": [
+   77.3,
+   33.9
+  ],
+  "thumb": {
+   "src": "/media/species/snow-leopard.webp",
+   "width": 640,
+   "height": 480,
+   "alt": "A snow leopard standing on snowy rocks",
+   "creator": "Irbis1983",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Irbis4.JPG"
+  }
+ },
+ {
+  "slug": "red-panda",
+  "commonName": "Red panda",
+  "scientificName": "Ailurus fulgens",
+  "region": "himalaya-tibet",
+  "biome": "temperate-forest",
+  "pin": [
+   88,
+   27.1
+  ],
+  "thumb": {
+   "src": "/media/species/red-panda.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A red panda resting on a mossy branch",
+   "creator": "Sunuwargr",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_Panda,_Gentle_Tree-Dweller_of_the_Himalayas.jpg"
+  }
+ },
+ {
+  "slug": "wild-yak",
+  "commonName": "Wild yak",
+  "scientificName": "Bos mutus",
+  "region": "himalaya-tibet",
+  "biome": "mountain",
+  "pin": [
+   86,
+   34.5
+  ],
+  "thumb": null
+ },
+ {
+  "slug": "tibetan-antelope",
+  "commonName": "Tibetan antelope",
+  "scientificName": "Pantholops hodgsonii",
+  "region": "himalaya-tibet",
+  "biome": "mountain",
+  "pin": [
+   91.5,
+   35.5
+  ],
+  "thumb": {
+   "src": "/media/species/tibetan-antelope.webp",
+   "width": 640,
+   "height": 480,
+   "alt": "A Tibetan antelope standing on a grassy plateau",
+   "creator": "James Eaton",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pantholops_hodgsonii_367800821.jpg"
+  }
+ },
+ {
+  "slug": "himalayan-tahr",
+  "commonName": "Himalayan tahr",
+  "scientificName": "Hemitragus jemlahicus",
+  "region": "himalaya-tibet",
+  "biome": "mountain",
+  "pin": [
+   86.7,
+   27.9
+  ],
+  "thumb": {
+   "src": "/media/species/himalayan-tahr.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A Himalayan tahr standing on a slope",
+   "creator": "Pratap Gurung",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Himalayan_Tahr_at_Sagarmatha_National_Park,_Nepal_01.jpg"
+  }
+ },
+ {
+  "slug": "giant-panda",
+  "commonName": "Giant panda",
+  "scientificName": "Ailuropoda melanoleuca",
+  "region": "china-mongolia",
+  "biome": "temperate-forest",
+  "pin": [
+   103.2,
+   31
+  ],
+  "thumb": {
+   "src": "/media/species/giant-panda.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A giant panda walking among plants",
+   "creator": "J. Patrick Fischer",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grosser_Panda.JPG"
+  }
+ },
+ {
+  "slug": "golden-snub-nosed-monkey",
+  "commonName": "Golden snub-nosed monkey",
+  "scientificName": "Rhinopithecus roxellana",
+  "region": "china-mongolia",
+  "biome": "temperate-forest",
+  "pin": [
+   110.4,
+   31.6
+  ],
+  "thumb": {
+   "src": "/media/species/golden-snub-nosed-monkey.webp",
+   "width": 640,
+   "height": 931,
+   "alt": "A golden snub-nosed monkey holding its infant",
+   "creator": "Giovanni Mari",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golden_Snub-nosed_Monkeys,_Qinling_Mountains_-_China.jpg"
+  }
+ },
+ {
+  "slug": "wild-bactrian-camel",
+  "commonName": "Wild Bactrian camel",
+  "scientificName": "Camelus ferus",
+  "region": "china-mongolia",
+  "biome": "desert",
+  "pin": [
+   96.5,
+   43.5
+  ],
+  "thumb": null
+ },
+ {
+  "slug": "przewalskis-horse",
+  "commonName": "Przewalski's horse",
+  "scientificName": "Equus ferus przewalskii",
+  "region": "china-mongolia",
+  "biome": "grassland",
+  "pin": [
+   106,
+   47.8
+  ],
+  "thumb": {
+   "src": "/media/species/przewalskis-horse.webp",
+   "width": 640,
+   "height": 631,
+   "alt": "A Przewalski's horse on the steppe",
+   "creator": "Claudia Feh",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Przewalskis_horse_02.jpg"
+  }
+ },
+ {
+  "slug": "amur-tiger",
+  "commonName": "Amur tiger",
+  "scientificName": "Panthera tigris altaica",
+  "region": "siberian-taiga",
+  "biome": "temperate-forest",
+  "pin": [
+   136,
+   45.3
+  ],
+  "thumb": {
+   "src": "/media/species/amur-tiger.webp",
+   "width": 640,
+   "height": 462,
+   "alt": "An Amur tiger walking in snow",
+   "creator": "Appaloosa",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:P.t.altaica_Tomak_Male.jpg"
+  }
+ },
+ {
+  "slug": "amur-leopard",
+  "commonName": "Amur leopard",
+  "scientificName": "Panthera pardus orientalis",
+  "region": "siberian-taiga",
+  "biome": "temperate-forest",
+  "pin": [
+   131.4,
+   43.1
+  ],
+  "thumb": {
+   "src": "/media/species/amur-leopard.webp",
+   "width": 640,
+   "height": 480,
+   "alt": "An Amur leopard with thick spotted fur on rocks",
+   "creator": "William Warby",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panthera_pardus_orientalis_Colchester_Zoo_(1).jpg"
+  }
+ },
+ {
+  "slug": "eurasian-brown-bear",
+  "commonName": "Eurasian brown bear",
+  "scientificName": "Ursus arctos arctos",
+  "region": "siberian-taiga",
+  "biome": "taiga",
+  "pin": [
+   92.8,
+   55.9
+  ],
+  "thumb": {
+   "src": "/media/species/eurasian-brown-bear.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A Eurasian brown bear in a forest clearing",
+   "creator": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eurasian_brown_bear_(Ursus_arctos_arctos)_female_1.jpg"
+  }
+ },
+ {
+  "slug": "sable",
+  "commonName": "Sable",
+  "scientificName": "Martes zibellina",
+  "region": "siberian-taiga",
+  "biome": "taiga",
+  "pin": [
+   109.9,
+   54.4
+  ],
+  "thumb": null
+ },
+ {
+  "slug": "great-grey-owl",
+  "commonName": "Great grey owl",
+  "scientificName": "Strix nebulosa",
+  "region": "siberian-taiga",
+  "biome": "taiga",
+  "pin": [
+   124.6,
+   61
+  ],
+  "thumb": {
+   "src": "/media/species/great-grey-owl.webp",
+   "width": 640,
+   "height": 845,
+   "alt": "A great grey owl perched on a branch",
+   "creator": "Dion Art",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%BE%D1%80%D0%BE%D0%B4%D0%B0%D1%82%D0%B0%D1%8F_%D0%BD%D0%B5%D1%8F%D1%81%D1%8B%D1%82%D1%8C_(Strix_nebulosa,_m),_%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%B0%D0%B4.jpg"
+  }
+ },
+ {
+  "slug": "european-bison",
+  "commonName": "European bison",
+  "scientificName": "Bison bonasus",
+  "region": "europe",
+  "biome": "temperate-forest",
+  "pin": [
+   23.8,
+   52.7
+  ],
+  "thumb": {
+   "src": "/media/species/european-bison.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A European bison bull standing in a meadow",
+   "creator": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:European_bison_(Bison_bonasus)_male_Bia%C5%82owieza.jpg"
+  }
+ },
+ {
+  "slug": "eurasian-lynx",
+  "commonName": "Eurasian lynx",
+  "scientificName": "Lynx lynx",
+  "region": "europe",
+  "biome": "temperate-forest",
+  "pin": [
+   13.4,
+   49
+  ],
+  "thumb": {
+   "src": "/media/species/eurasian-lynx.webp",
+   "width": 640,
+   "height": 429,
+   "alt": "A Eurasian lynx standing in snow",
+   "creator": "Aconcagua",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lynx_Nationalpark_Bayerischer_Wald_01.jpg"
+  }
+ },
+ {
+  "slug": "red-deer",
+  "commonName": "Red deer",
+  "scientificName": "Cervus elaphus",
+  "region": "europe",
+  "biome": "temperate-forest",
+  "pin": [
+   -3.6,
+   57.1
+  ],
+  "thumb": {
+   "src": "/media/species/red-deer.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A red deer stag with antlers in woodland",
+   "creator": "Lviatour",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cervus_elaphus_Luc_Viatour_6.jpg"
+  }
+ },
+ {
+  "slug": "alpine-ibex",
+  "commonName": "Alpine ibex",
+  "scientificName": "Capra ibex",
+  "region": "europe",
+  "biome": "mountain",
+  "pin": [
+   7.3,
+   45.5
+  ],
+  "thumb": {
+   "src": "/media/species/alpine-ibex.webp",
+   "width": 640,
+   "height": 960,
+   "alt": "An Alpine ibex with curved horns on a snowy ridge",
+   "creator": "Giles Laurent",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:003_Wild_Alpine_Ibex_Sunset_Creux_du_Van_Mont_Racine_Photo_by_Giles_Laurent.jpg"
+  }
+ },
+ {
+  "slug": "eurasian-beaver",
+  "commonName": "Eurasian beaver",
+  "scientificName": "Castor fiber",
+  "region": "europe",
+  "biome": "temperate-forest",
+  "pin": [
+   22.6,
+   53.5
+  ],
+  "thumb": {
+   "src": "/media/species/eurasian-beaver.webp",
+   "width": 640,
+   "height": 499,
+   "alt": "A Eurasian beaver at the edge of water",
+   "creator": "Per Harald Olsen",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beaver_pho34.jpg"
+  }
+ },
+ {
+  "slug": "bornean-orangutan",
+  "commonName": "Bornean orangutan",
+  "scientificName": "Pongo pygmaeus",
+  "region": "borneo-sumatra",
+  "biome": "rainforest",
+  "pin": [
+   111.9,
+   -2.8
+  ],
+  "thumb": {
+   "src": "/media/species/bornean-orangutan.webp",
+   "width": 640,
+   "height": 961,
+   "alt": "A Bornean orangutan climbing in forest",
+   "creator": "Nanosanchez",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tanjung_Puting30477.jpg"
+  }
+ },
+ {
+  "slug": "sumatran-orangutan",
+  "commonName": "Sumatran orangutan",
+  "scientificName": "Pongo abelii",
+  "region": "borneo-sumatra",
+  "biome": "rainforest",
+  "pin": [
+   98.1,
+   3.6
+  ],
+  "thumb": {
+   "src": "/media/species/sumatran-orangutan.webp",
+   "width": 640,
+   "height": 480,
+   "alt": "A Sumatran orangutan sitting in grass",
+   "creator": "Fiver, der Hellseher",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sumatra-Orang-Utan_im_Pongoland.jpg"
+  }
+ },
+ {
+  "slug": "sumatran-tiger",
+  "commonName": "Sumatran tiger",
+  "scientificName": "Panthera tigris sondaica",
+  "region": "borneo-sumatra",
+  "biome": "rainforest",
+  "pin": [
+   101.5,
+   -2
+  ],
+  "thumb": {
+   "src": "/media/species/sumatran-tiger.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A Sumatran tiger walking past a rock wall",
+   "creator": "Captain Herbert",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sumatran_Tiger_Berlin_Tierpark.jpg"
+  }
+ },
+ {
+  "slug": "proboscis-monkey",
+  "commonName": "Proboscis monkey",
+  "scientificName": "Nasalis larvatus",
+  "region": "borneo-sumatra",
+  "biome": "rainforest",
+  "pin": [
+   118.2,
+   5.5
+  ],
+  "thumb": {
+   "src": "/media/species/proboscis-monkey.webp",
+   "width": 640,
+   "height": 458,
+   "alt": "A proboscis monkey sitting in a tree",
+   "creator": "David Dennis",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Proboscis_Monkey_in_Borneo.jpg"
+  }
+ },
+ {
+  "slug": "malayan-tapir",
+  "commonName": "Malayan tapir",
+  "scientificName": "Tapirus indicus",
+  "region": "borneo-sumatra",
+  "biome": "rainforest",
+  "pin": [
+   105.8,
+   -5
+  ],
+  "thumb": {
+   "src": "/media/species/malayan-tapir.webp",
+   "width": 640,
+   "height": 446,
+   "alt": "A black and white Malayan tapir walking",
+   "creator": "Rufus46",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schabrackentapir_Tapirus_indicus_Tiergarten-Nuernberg-1.jpg"
+  }
+ },
+ {
+  "slug": "rhinoceros-hornbill",
+  "commonName": "Rhinoceros hornbill",
+  "scientificName": "Buceros rhinoceros",
+  "region": "borneo-sumatra",
+  "biome": "rainforest",
+  "pin": [
+   117.8,
+   5
+  ],
+  "thumb": {
+   "src": "/media/species/rhinoceros-hornbill.webp",
+   "width": 640,
+   "height": 407,
+   "alt": "A pair of rhinoceros hornbills on a perch",
+   "creator": "JP Bennett from Yamato, Japan",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Buceros_rhinoceros_-Singapore_Zoo_-pair-8a.jpg"
+  }
+ },
+ {
+  "slug": "sunda-colugo",
+  "commonName": "Sunda colugo",
+  "scientificName": "Galeopterus variegatus",
+  "region": "borneo-sumatra",
+  "biome": "rainforest",
+  "pin": [
+   110.4,
+   1.7
+  ],
+  "thumb": {
+   "src": "/media/species/sunda-colugo.webp",
+   "width": 640,
+   "height": 931,
+   "alt": "A Sunda colugo clinging to a tree trunk",
+   "creator": "Nina Holopainen",
+   "license": "CC BY 2.5",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kaguaani_02.jpg"
+  }
+ },
+ {
+  "slug": "wallaces-flying-frog",
+  "commonName": "Wallace's flying frog",
+  "scientificName": "Rhacophorus nigropalmatus",
+  "region": "borneo-sumatra",
+  "biome": "rainforest",
+  "pin": [
+   114.9,
+   4.05
+  ],
+  "thumb": {
+   "src": "/media/species/wallaces-flying-frog.webp",
+   "width": 640,
+   "height": 428,
+   "alt": "A green Wallace's flying frog on a stem",
+   "creator": "Rushenb",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rhacophorus_nigropalmatus.jpg"
+  }
+ },
+ {
+  "slug": "orchid-mantis",
+  "commonName": "Orchid mantis",
+  "scientificName": "Hymenopus coronatus",
+  "region": "borneo-sumatra",
+  "biome": "rainforest",
+  "pin": [
+   116.6,
+   6
+  ],
+  "thumb": {
+   "src": "/media/species/orchid-mantis.webp",
+   "width": 640,
+   "height": 640,
+   "alt": "A pink and white orchid mantis",
+   "creator": "Luc Viatour",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mantis_Hymenopus_coronatus_6_Luc_Viatour.jpg"
+  }
+ },
+ {
+  "slug": "king-cobra",
+  "commonName": "King cobra",
+  "scientificName": "Ophiophagus hannah",
+  "region": "borneo-sumatra",
+  "biome": "rainforest",
+  "pin": [
+   104,
+   -5.3
+  ],
+  "thumb": {
+   "src": "/media/species/king-cobra.webp",
+   "width": 640,
+   "height": 479,
+   "alt": "A king cobra raised with its hood spread",
+   "creator": "Michael Allen Smith from Seattle, USA",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:12_-_The_Mystical_King_Cobra_and_Coffee_Forests.jpg"
+  }
+ },
+ {
+  "slug": "red-kangaroo",
+  "commonName": "Red kangaroo",
+  "scientificName": "Osphranter rufus",
+  "region": "australian-outback",
+  "biome": "desert",
+  "pin": [
+   141.6,
+   -29
+  ],
+  "thumb": {
+   "src": "/media/species/red-kangaroo.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "Red kangaroos standing in outback scrub",
+   "creator": "PotMart186",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_Kangaroos_at_Sturt_National_Park_NSW.jpg"
+  }
+ },
+ {
+  "slug": "thorny-devil",
+  "commonName": "Thorny devil",
+  "scientificName": "Moloch horridus",
+  "region": "australian-outback",
+  "biome": "desert",
+  "pin": [
+   131,
+   -25.3
+  ],
+  "thumb": {
+   "src": "/media/species/thorny-devil.webp",
+   "width": 640,
+   "height": 380,
+   "alt": "A spiky thorny devil on red sand",
+   "creator": "Bäras",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thornydevil.jpg"
+  }
+ },
+ {
+  "slug": "inland-taipan",
+  "commonName": "Inland taipan",
+  "scientificName": "Oxyuranus microlepidotus",
+  "region": "australian-outback",
+  "biome": "desert",
+  "pin": [
+   141,
+   -23.7
+  ],
+  "thumb": {
+   "src": "/media/species/inland-taipan.webp",
+   "width": 640,
+   "height": 480,
+   "alt": "An inland taipan stretched across sand",
+   "creator": "XLerate",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fierce_Snake-Oxyuranus_microlepidotus.jpg"
+  }
+ },
+ {
+  "slug": "emu",
+  "commonName": "Emu",
+  "scientificName": "Dromaius novaehollandiae",
+  "region": "australian-outback",
+  "biome": "grassland",
+  "pin": [
+   138.6,
+   -31.5
+  ],
+  "thumb": {
+   "src": "/media/species/emu.webp",
+   "width": 640,
+   "height": 512,
+   "alt": "An emu walking in grassland",
+   "creator": "JJ Harrison",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emu_1_-_Tidbinbilla.jpg"
+  }
+ },
+ {
+  "slug": "greater-bilby",
+  "commonName": "Greater bilby",
+  "scientificName": "Macrotis lagotis",
+  "region": "australian-outback",
+  "biome": "desert",
+  "pin": [
+   130.5,
+   -20.5
+  ],
+  "thumb": {
+   "src": "/media/species/greater-bilby.webp",
+   "width": 640,
+   "height": 385,
+   "alt": "A greater bilby with long ears foraging",
+   "creator": "Dcoetzee",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bilby_at_Sydney_Wildlife_World.jpg"
+  }
+ },
+ {
+  "slug": "dingo",
+  "commonName": "Dingo",
+  "scientificName": "Canis dingo",
+  "region": "australian-outback",
+  "biome": "desert",
+  "pin": [
+   131.6,
+   -24.3
+  ],
+  "thumb": {
+   "src": "/media/species/dingo.webp",
+   "width": 640,
+   "height": 565,
+   "alt": "A dingo standing on the ground",
+   "creator": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dingo_(Canis_lupus_dingo)_Kakadu_2.jpg"
+  }
+ },
+ {
+  "slug": "koala",
+  "commonName": "Koala",
+  "scientificName": "Phascolarctos cinereus",
+  "region": "eastern-australia-new-guinea",
+  "biome": "temperate-forest",
+  "pin": [
+   143.6,
+   -38.8
+  ],
+  "thumb": {
+   "src": "/media/species/koala.webp",
+   "width": 640,
+   "height": 630,
+   "alt": "A koala climbing a tree trunk",
+   "creator": "Diliff",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Koala_climbing_tree.jpg"
+  }
+ },
+ {
+  "slug": "platypus",
+  "commonName": "Platypus",
+  "scientificName": "Ornithorhynchus anatinus",
+  "region": "eastern-australia-new-guinea",
+  "biome": "temperate-forest",
+  "pin": [
+   148.5,
+   -21.1
+  ],
+  "thumb": {
+   "src": "/media/species/platypus.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A platypus swimming at the surface",
+   "creator": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duck-billed_platypus_(Ornithorhynchus_anatinus)_Scottsdale.jpg"
+  }
+ },
+ {
+  "slug": "short-beaked-echidna",
+  "commonName": "Short-beaked echidna",
+  "scientificName": "Tachyglossus aculeatus",
+  "region": "eastern-australia-new-guinea",
+  "biome": "temperate-forest",
+  "pin": [
+   146.4,
+   -39
+  ],
+  "thumb": {
+   "src": "/media/species/short-beaked-echidna.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A short-beaked echidna among dry leaves",
+   "creator": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Short-beaked_echidna_(Tachyglossus_aculeatus)_Freycinet.jpg"
+  }
+ },
+ {
+  "slug": "southern-cassowary",
+  "commonName": "Southern cassowary",
+  "scientificName": "Casuarius casuarius",
+  "region": "eastern-australia-new-guinea",
+  "biome": "rainforest",
+  "pin": [
+   146.1,
+   -17.9
+  ],
+  "thumb": {
+   "src": "/media/species/southern-cassowary.webp",
+   "width": 640,
+   "height": 480,
+   "alt": "A southern cassowary walking on grass",
+   "creator": "Summerdrought",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Southern_Cassowary_7071.jpg"
+  }
+ },
+ {
+  "slug": "tasmanian-devil",
+  "commonName": "Tasmanian devil",
+  "scientificName": "Sarcophilus harrisii",
+  "region": "eastern-australia-new-guinea",
+  "biome": "temperate-forest",
+  "pin": [
+   145.9,
+   -41.6
+  ],
+  "thumb": {
+   "src": "/media/species/tasmanian-devil.webp",
+   "width": 640,
+   "height": 418,
+   "alt": "A Tasmanian devil in grass",
+   "creator": "JJ Harrison",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sarcophilus_harrisii_taranna.jpg"
+  }
+ },
+ {
+  "slug": "common-wombat",
+  "commonName": "Common wombat",
+  "scientificName": "Vombatus ursinus",
+  "region": "eastern-australia-new-guinea",
+  "biome": "temperate-forest",
+  "pin": [
+   148.1,
+   -42.6
+  ],
+  "thumb": {
+   "src": "/media/species/common-wombat.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A common wombat on open ground",
+   "creator": "JJ Harrison",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vombatus_ursinus_-Maria_Island_National_Park.jpg"
+  }
+ },
+ {
+  "slug": "raggiana-bird-of-paradise",
+  "commonName": "Raggiana bird-of-paradise",
+  "scientificName": "Paradisaea raggiana",
+  "region": "eastern-australia-new-guinea",
+  "biome": "rainforest",
+  "pin": [
+   147.4,
+   -9.4
+  ],
+  "thumb": {
+   "src": "/media/species/raggiana-bird-of-paradise.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "A male Raggiana bird-of-paradise displaying on a branch",
+   "creator": "JJ Harrison",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raggiana_Bird-of-paradise_0A2A5379.jpg"
+  }
+ },
+ {
+  "slug": "emperor-penguin",
+  "commonName": "Emperor penguin",
+  "scientificName": "Aptenodytes forsteri",
+  "region": "antarctica",
+  "biome": "polar",
+  "pin": [
+   165.4,
+   -74.6
+  ],
+  "thumb": {
+   "src": "/media/species/emperor-penguin.webp",
+   "width": 640,
+   "height": 1028,
+   "alt": "Two emperor penguins with a juvenile on ice",
+   "creator": "Ian Duffy from UK",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aptenodytes_forsteri_-Snow_Hill_Island,_Antarctica_-adults_and_juvenile-8.jpg"
+  }
+ },
+ {
+  "slug": "adelie-penguin",
+  "commonName": "Adélie penguin",
+  "scientificName": "Pygoscelis adeliae",
+  "region": "antarctica",
+  "biome": "polar",
+  "pin": [
+   170.3,
+   -71.3
+  ],
+  "thumb": {
+   "src": "/media/species/adelie-penguin.webp",
+   "width": 640,
+   "height": 427,
+   "alt": "An Adélie penguin standing on snow",
+   "creator": "Godot13",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hope_Bay-2016-Trinity_Peninsula%E2%80%93Ad%C3%A9lie_penguin_(Pygoscelis_adeliae)_02.jpg"
+  }
+ },
+ {
+  "slug": "peregrine-falcon",
+  "commonName": "Peregrine falcon",
+  "scientificName": "Falco peregrinus",
+  "region": "north-american-forests",
+  "biome": "mountain",
+  "pin": [
+   -105.51,
+   40.41
+  ],
+  "thumb": null
+ },
+ {
+  "slug": "ruby-throated-hummingbird",
+  "commonName": "Ruby-throated hummingbird",
+  "scientificName": "Archilochus colubris",
+  "region": "north-american-forests",
+  "biome": "temperate-forest",
+  "pin": [
+   -112.87,
+   53.6
+  ],
+  "thumb": null
+ },
+ {
+  "slug": "monarch-butterfly",
+  "commonName": "Monarch butterfly",
+  "scientificName": "Danaus plexippus",
+  "region": "north-american-forests",
+  "biome": "temperate-forest",
+  "pin": [
+   -97.3,
+   46.4
+  ],
+  "thumb": null
+ },
+ {
+  "slug": "western-honey-bee",
+  "commonName": "Western honey bee",
+  "scientificName": "Apis mellifera",
+  "region": "europe",
+  "biome": "temperate-forest",
+  "pin": [
+   10.43,
+   51.08
+  ],
+  "thumb": null
+ },
+ {
+  "slug": "greater-horseshoe-bat",
+  "commonName": "Greater horseshoe bat",
+  "scientificName": "Rhinolophus ferrumequinum",
+  "region": "europe",
+  "biome": "temperate-forest",
+  "pin": [
+   -2.7,
+   51.28
+  ],
+  "thumb": null
+ },
+ {
+  "slug": "mexican-free-tailed-bat",
+  "commonName": "Mexican free-tailed bat",
+  "scientificName": "Tadarida brasiliensis",
+  "region": "north-american-deserts",
+  "biome": "desert",
+  "pin": [
+   -104.44,
+   32.18
+  ],
+  "thumb": null
+ },
+ {
+  "slug": "common-green-darner",
+  "commonName": "Common green darner",
+  "scientificName": "Anax junius",
+  "region": "north-american-forests",
+  "biome": "wetland",
+  "pin": [
+   -123.1,
+   49.1
+  ],
+  "thumb": null
+ }
+]

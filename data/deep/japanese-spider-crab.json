@@ -1,0 +1,54 @@
+{
+  "extraReferences": [
+    { "title": "Macrocheira kaempferi, Japanese spider crab", "publisher": "Animal Diversity Web (University of Michigan)", "authors": "Riebel, W.", "year": 2011, "url": "https://animaldiversity.org/accounts/Macrocheira_kaempferi/" },
+    { "title": "Studies on the larval rearing of giant spider crab, Macrocheira kaempferi. III. Influence of temperature on survival and growth of larvae. Nippon Suisan Gakkaishi 59: 419–424", "publisher": "Nippon Suisan Gakkaishi", "authors": "Okamoto, K.", "year": 1993, "url": "https://doi.org/10.2331/suisan.59.419" },
+    { "title": "Prezoeal stage of giant spider crab Macrocheira kaempferi (Crustacea, Decapoda, Majidae). Fisheries Science 61: 161–162", "publisher": "Fisheries Science", "authors": "Okamoto, K.", "year": 1995, "url": "https://doi.org/10.2331/fishsci.61.161" },
+    { "title": "A redescription of Macrocheira kaempferi (Temminck, 1836) zoeas with a discussion of the classification of the Majoidea Samouelle, 1819 (Crustacea: Brachyura). Journal of Natural History 25: 1259–1279", "publisher": "Journal of Natural History", "authors": "Clark, P.F. & Webber, W.R.", "year": 1991, "url": "https://doi.org/10.1080/00222939100770781" }
+  ],
+  "anatomy": {
+    "lede": "A body no bigger than a large dinner plate hangs from legs that reach across a room. Most of a Japanese spider crab is limb.",
+    "media": 1,
+    "hotspots": [
+      { "id": "carapace", "label": "Carapace", "x": 46, "y": 30, "text": "The pear-shaped shell is covered in small, spike-like bumps. Young crabs have long spines for their size; on adults they are short and curve outwards.", "ref": 2 },
+      { "id": "eye", "label": "Eye", "x": 58, "y": 45, "text": "Its eyestalks and antennae are reduced, and its senses seem less developed than those of many related crabs.", "ref": 3 },
+      { "id": "claw", "label": "Claw", "x": 38, "y": 54, "text": "The claws sit on the first pair of legs. Females' are much shorter than males', and even shorter than the next pair of legs.", "ref": 2 },
+      { "id": "legs", "label": "Walking legs", "x": 75, "y": 38, "text": "The legs keep growing after the crab reaches maturity, which is why old crabs reach such extraordinary spans.", "ref": 2 },
+      { "id": "leg-tip", "label": "Leg tip", "x": 81, "y": 77, "text": "It cannot swim. It walks slowly over the seafloor on its pointed leg tips, searching for food.", "ref": 3 }
+    ],
+    "stats": [
+      { "value": "3.7 m", "label": "Claw-to-claw span, record", "ref": 1 },
+      { "value": "40 cm", "label": "Carapace width, up to", "ref": 2 },
+      { "value": "19 kg", "label": "Weight, up to", "ref": 2 }
+    ]
+  },
+  "mind": {
+    "lede": "Little is known about how this giant lives day to day. Aquariums and divers describe a calm, solitary crab.",
+    "studies": [
+      { "year": "Aquaria", "title": "Calm loners", "text": "Japanese spider crabs spend much of their time slowly searching the seafloor for food. Even when kept together, they interact very little.", "certainty": "uncertain", "ref": 3 },
+      { "year": "Field", "title": "Disguise is for the young", "text": "Juveniles often camouflage themselves with sponges and other debris. Adults rarely bother, perhaps because their size already deters most predators.", "certainty": "hypothesis", "ref": 3 }
+    ]
+  },
+  "survival": {
+    "lede": "For a young spider crab, safety means looking like the seabed; for an adult, being too big to bother with.",
+    "tactics": [
+      { "title": "Living camouflage", "text": "Young crabs cover their shells with sponges and debris to blend in with the bottom.", "certainty": "confirmed", "ref": 3 },
+      { "title": "Size and claws", "text": "Large adults are avoided by most predators and can fend off smaller attackers with their claws.", "certainty": "confirmed", "ref": 3 }
+    ],
+    "predators": [],
+    "threats": [
+      { "title": "Fishing", "text": "It is caught as a delicacy in Japan, and catches have declined over the past 40 years. Data are too few to assess its conservation status.", "certainty": "confirmed", "ref": 3 },
+      { "title": "Protecting the breeding season", "text": "Japanese law bans catching the crabs from January to April, their mating season, and restocking with farmed juveniles has been proposed.", "certainty": "confirmed", "ref": 3 }
+    ]
+  },
+  "life": {
+    "lede": "The world's longest-legged crab starts life as a speck of plankton, passing through four larval forms before it settles to the seabed.",
+    "stages": [
+      { "name": "Egg", "text": "Mating takes place in early spring, and the female carries her fertilised eggs on her body until they hatch.", "ref": 3 },
+      { "name": "Prezoea", "duration": "minutes", "text": "The newly hatched larva is a prezoea, a stage that lasts only minutes before it moults.", "ref": 5 },
+      { "name": "Zoea", "text": "Two zoeal stages follow, swimming with the plankton near the surface.", "ref": 6 },
+      { "name": "Megalopa", "text": "The last larval stage, the megalopa, has the longest gap between moults. The planktonic stages together can last one to three months; 15–18 °C suits them best.", "ref": 4 },
+      { "name": "Juvenile", "text": "Young crabs settle on the seafloor, where they hide under sponges and other debris as they grow.", "ref": 3 }
+    ],
+    "lifespan": { "value": "Unverified; often said to exceed 50 years", "ref": 3 }
+  }
+}

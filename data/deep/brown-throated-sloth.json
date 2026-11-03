@@ -1,0 +1,83 @@
+{
+  "extraReferences": [
+    { "title": "Mitigating the squash effect: sloths breathe easily upside down. Biology Letters 10: 20140172", "publisher": "Biology Letters", "authors": "Cliffe, R.N. et al.", "year": 2014, "url": "https://doi.org/10.1098/rsbl.2014.0172" },
+    { "title": "Sleeping outside the box: electroencephalographic measures of sleep in sloths inhabiting a rainforest. Biology Letters 4: 402–405", "publisher": "Biology Letters", "authors": "Rattenborg, N.C. et al.", "year": 2008, "url": "https://doi.org/10.1098/rsbl.2008.0203" },
+    { "title": "Genomic evidence for rod monochromacy in sloths and armadillos suggests early subterranean history for Xenarthra. Proceedings of the Royal Society B 282: 20142192", "publisher": "Proceedings of the Royal Society B", "authors": "Emerling, C.A. & Springer, M.S.", "year": 2015, "url": "https://doi.org/10.1098/rspb.2014.2192" },
+    { "title": "Bradypus variegatus (brown-throated three-toed sloth) — species record", "publisher": "Animal Genome Size Database", "authors": "Gregory, T.R.", "url": "https://www.genomesize.com/result_species.php?id=5443" },
+    { "title": "Bradypus variegatus genome assembly BraVar_v1_BIUU (GCA_004027775.1)", "publisher": "NCBI Datasets", "year": 2019, "url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_004027775.1/" }
+  ],
+  "anatomy": {
+    "lede": "A sloth is a mammal rebuilt for hanging: long hooked arms, a neck that swivels, a coat that grows a garden, and internal organs strapped in place so they do not press on the lungs when upside down.",
+    "media": 0,
+    "hotspots": [
+      { "id": "face", "label": "Face", "x": 37, "y": 44, "text": "The brown throat and head give the species its name. Its eyes lack a focusing muscle and have few nerve cells, so its eyesight is poor.", "ref": 2 },
+      { "id": "arm", "label": "Arm and claws", "x": 33, "y": 28, "text": "Long forelimbs end in three clawed toes, which hook over branches so the sloth can hang with little effort.", "ref": 2 },
+      { "id": "neck", "label": "Neck", "x": 43, "y": 53, "text": "About ten neck vertebrae, rather than the usual mammal seven, let the sloth turn its head through up to 270 degrees.", "ref": 2 },
+      { "id": "fur", "label": "Fur", "x": 60, "y": 56, "text": "Its coat has a short, fine underfur and a thick, woolly outer layer, where algae grow and can tint the sloth green.", "ref": 2 },
+      { "id": "hind", "label": "Hind limb", "x": 76, "y": 36, "text": "Sloths barely manage to crawl on the ground, and come down from the canopy only every 3–8 days to urinate and defecate.", "ref": 2 }
+    ],
+    "stats": [
+      { "value": "4.3 kg", "label": "Average adult weight", "ref": 2 },
+      { "value": "60 cm", "label": "Average length", "ref": 2 },
+      { "value": "270°", "label": "Head rotation", "ref": 2 },
+      { "value": "Under 2 ha", "label": "Average home range", "ref": 2 }
+    ]
+  },
+  "senses": {
+    "lede": "Little is known about how sloths sense their world, but their eyes are among the poorest of any mammal studied.",
+    "senses": [
+      { "kind": "sight", "name": "Sight", "text": "Sloths lack the ciliary muscle that focuses the eye and have very few retinal nerve cells, so their vision is poor. It seems to work best in dim light.", "vsHuman": "weaker", "certainty": "confirmed", "ref": 2 },
+      { "kind": "sight", "name": "Colour", "text": "Genetic studies of sloths indicate they have lost working cone cells, which leaves them colour-blind and likely to see poorly in bright light.", "vsHuman": "weaker", "certainty": "hypothesis", "ref": 7 },
+      { "kind": "hearing", "name": "Hearing", "text": "Mothers and young communicate a good deal by calls, and females call out to attract males in the breeding season.", "certainty": "confirmed", "ref": 2 }
+    ]
+  },
+  "body": {
+    "lede": "The sloth's whole body is organised around spending as little energy as possible on a diet of tough, low-energy leaves.",
+    "systems": [
+      { "title": "Organs held in place", "text": "Unique fibrous attachments anchor the liver and stomach to the lower ribs, so their weight does not press on the lungs when the sloth hangs upside down. This may cut its energy use by almost 13% whenever it is fully inverted.", "certainty": "confirmed", "ref": 5 },
+      { "title": "A many-chambered stomach", "text": "Like many hoofed mammals, the sloth has a stomach divided into compartments, where microbes help digest the cellulose in leaves. Its teeth are peg-like and lack enamel.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Barely keeping warm", "text": "Sloths struggle to keep warm in cool weather, probably because of their sparse muscle, small heart and slow heart rate. They favour treetops exposed to the sun, which may help them warm up.", "certainty": "confirmed", "ref": 2 }
+    ]
+  },
+  "genome": {
+    "lede": "A draft genome of the brown-throated sloth was released in 2019, though it is still fragmentary. Measurements of its cells suggest about 4.2 picograms of DNA, roughly 4.1 billion base pairs.",
+    "diploid": 54,
+    "genomeGb": 4.1,
+    "refs": { "diploid": 8, "genome": 8 },
+    "sequenced": 2019,
+    "findings": [
+      { "title": "Colour vision switched off", "text": "Sloths and anteaters share a broken gene, PDE6C, needed for cone cells to work. Their ancestors lost cone vision early on, perhaps while living underground.", "certainty": "hypothesis", "ref": 7 },
+      { "title": "Fifty-four or fifty-five", "text": "Most brown-throated sloths have 54 chromosomes, though a few individuals with 55 have been reported.", "certainty": "confirmed", "ref": 8 }
+    ]
+  },
+  "mind": {
+    "lede": "Sloths are famous for sleeping — but the first measurements from the wild suggest the reputation is exaggerated.",
+    "studies": [
+      { "year": "2008", "title": "Less sleepy than we thought", "text": "Brain-wave recorders on wild sloths in the rainforest canopy showed they sleep about 9.6 hours a day — more than six hours less than had been reported for sloths in captivity.", "certainty": "confirmed", "ref": 6 },
+      { "year": "Field", "title": "Solitary neighbours", "text": "Adults have never been seen sharing a tree with another adult, and fights are rare, though they will defend territory and food.", "certainty": "confirmed", "ref": 2 },
+      { "year": "Field", "title": "Help at the birth", "text": "Other sloths have been reported cleaning the mother and newborn and making sure the infant does not fall.", "certainty": "uncertain", "ref": 2 }
+    ]
+  },
+  "survival": {
+    "lede": "A sloth cannot outrun anything. It survives by not being noticed.",
+    "tactics": [
+      { "title": "Too slow to see", "text": "Moving very slowly and camouflaged by its fur, a sloth is hard for predators to spot.", "certainty": "confirmed", "ref": 2 },
+      { "title": "A green disguise", "text": "Algae in the outer coat give it a greenish tint, which is thought to help it blend into the canopy.", "certainty": "hypothesis", "ref": 2 },
+      { "title": "Clinging infant", "text": "A newborn is carried on its mother's belly, which is thought to protect it from predators.", "certainty": "hypothesis", "ref": 2 }
+    ],
+    "predators": ["Harpy eagles", "Spectacled owls", "Wild cats"],
+    "threats": [
+      { "title": "Deforestation", "text": "The species is not seriously threatened overall, but some populations in the Brazilian Amazon are thought to be declining as forest is cleared.", "certainty": "hypothesis", "ref": 2 }
+    ]
+  },
+  "life": {
+    "lede": "A sloth has one baby a year and carries it everywhere until it can manage on its own.",
+    "stages": [
+      { "name": "Pregnancy", "duration": "5–8 months", "text": "The mother makes no nest; she gives birth either in the trees or on the ground.", "ref": 2 },
+      { "name": "Infant", "duration": "about 4 months", "text": "The newborn weighs under 1 kg and clings to its mother's front. She helps it learn posture, movement and how to explore.", "ref": 2 },
+      { "name": "Independent young", "duration": "from about 4 months", "text": "Most young become independent once they are weaned.", "ref": 2 },
+      { "name": "Adult", "duration": "from 3–5 years", "text": "Females mature by three years old, males between three and five.", "ref": 2 }
+    ],
+    "lifespan": { "value": "Reported as 30–40 years in the wild", "ref": 2 }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "extraReferences": [
+    { "title": "Chromosome-scale genome assembly provides insights into condor evolution and conservation. Molecular Ecology Resources", "publisher": "Molecular Ecology Resources", "authors": "De Panis, D., Le Dily, F., Lambertucci, S.A. et al.", "year": 2025, "url": "https://doi.org/10.1111/1755-0998.70000" },
+    { "title": "Repeated conservation threats across the Americas: high levels of blood and bone lead in the Andean Condor widen the problem to a continental scale. Environmental Pollution 220: 672–679", "publisher": "Environmental Pollution", "authors": "Wiemeyer, G.M., Pérez, M.A., Torres Bianchini, L. et al.", "year": 2017, "url": "https://doi.org/10.1016/j.envpol.2016.10.025" }
+  ],
+  "anatomy": {
+    "lede": "The Andean condor is a glider first and foremost: enormous wings, a bare head for feeding inside carcasses, and feet made for walking rather than killing.",
+    "media": 0,
+    "hotspots": [
+      { "id": "bill", "label": "Bill", "x": 76, "y": 71, "text": "The hooked bill, dark at the base and ivory towards the tip, is used to tear open and strip carcasses.", "ref": 2 },
+      { "id": "eye", "label": "Eye", "x": 70.8, "y": 63, "text": "Sight is the condor's main sense for finding food, scanning the ground from high above.", "ref": 2 },
+      { "id": "head", "label": "Bare head", "x": 68.3, "y": 66, "text": "The head and neck have no feathers. Bare skin is thought to stay cleaner after feeding on carcasses, and condors can change its colour to signal their mood.", "ref": 2 },
+      { "id": "ruff", "label": "Neck ruff", "x": 64.8, "y": 62, "text": "A collar of white down circles the base of the neck in adults; young birds are olive-grey and brown.", "ref": 2 },
+      { "id": "panel", "label": "White wing panel", "x": 62.5, "y": 30, "text": "Adults have white flight feathers on the upper wing, more pronounced in males.", "ref": 2 },
+      { "id": "wing", "label": "Wing", "x": 25, "y": 44, "text": "A wingspan of about 3.2 m — the largest of any land bird — lets the condor ride rising air for hours with barely a flap.", "ref": 2 }
+    ],
+    "stats": [
+      { "value": "3.2 m", "label": "Wingspan", "ref": 2 },
+      { "value": "10.8 kg", "label": "Average weight", "ref": 2 },
+      { "value": "1%", "label": "Flight time spent flapping", "ref": 1 }
+    ]
+  },
+  "senses": {
+    "lede": "Soaring for hours over mountains and steppe, a condor relies on its eyes — and sometimes on other birds — to find a meal.",
+    "senses": [
+      { "kind": "sight", "name": "Sight", "text": "Condors find carrion mainly by sight, spotting it from high altitude as they soar.", "certainty": "confirmed", "ref": 2 },
+      { "kind": "other", "name": "Watching other vultures", "text": "Turkey and black vultures find food by smell. Condors may follow these smaller birds to a carcass they could not have located themselves.", "certainty": "hypothesis", "ref": 2 }
+    ]
+  },
+  "body": {
+    "lede": "The heaviest soaring bird has some unusual ways of coping with heat, carrion and a life on the wing.",
+    "systems": [
+      { "title": "Cooling with its own droppings", "text": "Condors excrete onto their own legs so that evaporation cools them — a habit called urohidrosis that leaves the legs streaked white with uric acid.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Walking feet", "text": "Unlike hunting raptors, condors have relatively weak feet with short, blunt talons and a small hind toe, suited to standing on carcasses rather than gripping prey.", "certainty": "confirmed", "ref": 2 },
+      { "title": "A voice without a voice box", "text": "Condors lack a syrinx, the bird's sound-making organ, so they cannot sing or call in the usual way. They communicate mainly with hisses and clicks.", "certainty": "confirmed", "ref": 2 }
+    ]
+  },
+  "genome": {
+    "lede": "The first chromosome-scale Andean condor genome was published in 2025, allowing a close comparison with its critically endangered cousin, the California condor.",
+    "genomeGb": 1.19,
+    "refs": { "genome": 5 },
+    "sequenced": 2025,
+    "findings": [
+      { "title": "A close cousin", "text": "The assembly contains 29 autosomes and the Z sex chromosome, and its gene order closely matches that of the California condor genome.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Less inbred than California condors", "text": "Andean condors carry less genetic diversity than California condors, yet far less of their genome lies in long identical stretches inherited from related parents — about 1.4% versus 7.3% for the longest stretches.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Genes of a scavenger", "text": "Gene families linked to detoxification, high-altitude living and immunity have expanded or shrunk differently in the two condors. Avian scavengers share some of these trends, suggesting similar adaptations evolved independently.", "certainty": "hypothesis", "ref": 5 }
+    ]
+  },
+  "mind": {
+    "lede": "Condors are long-lived social birds with ranks, displays and partnerships that can last for life.",
+    "studies": [
+      { "year": "Field", "title": "A pecking order", "text": "Condors roost together on cliff ledges. Males dominate females and adults dominate juveniles, which affects who gets the best roost sites.", "certainty": "confirmed", "ref": 2 },
+      { "year": "Field", "title": "Courtship", "text": "A courting male spreads his wings, inflates his neck and flushes its skin bright yellow, then approaches the female with arched neck, swaying from side to side. Pairs nibble each other and click their bills together.", "certainty": "confirmed", "ref": 2 },
+      { "year": "Field", "title": "Partners at the carcass", "text": "Condors can tear open tough hides that smaller vultures cannot, while those vultures are better at finding carcasses by smell; each benefits from the other.", "certainty": "confirmed", "ref": 2 }
+    ]
+  },
+  "survival": {
+    "lede": "A healthy adult condor has no natural predators. Its risks come from slow breeding and from people.",
+    "tactics": [
+      { "title": "Fierce nest defence", "text": "Condors are not territorial away from the nest, but they defend it vigorously — even against zookeepers in captivity.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Liver first", "text": "Condors often open a carcass near the tail end and eat the liver first, then the muscle.", "certainty": "confirmed", "ref": 2 }
+    ],
+    "predators": ["Large birds of prey (eggs and chicks)", "Foxes (eggs and chicks)"],
+    "threats": [
+      { "title": "Lead poisoning", "text": "Wild condors in Argentina showed high lead levels across more than 4,000 km of their range; exposure has also been found in Chile, Ecuador and Peru. Captive-bred birds had far lower levels.", "certainty": "confirmed", "ref": 6 },
+      { "title": "Poison and persecution", "text": "Condors are persecuted by farmers and lose habitat, and their slow breeding makes every loss hard to replace.", "certainty": "confirmed", "ref": 2 }
+    ]
+  },
+  "life": {
+    "lede": "A pair raises at most one chick every two to three years, and that chick takes many years to grow up.",
+    "stages": [
+      { "name": "Egg", "duration": "54–58 days", "text": "A single egg of about 280 g is laid on a bare cliff ledge, and both parents take turns incubating it.", "ref": 2 },
+      { "name": "Nestling", "duration": "6–7 months", "text": "The helpless chick, covered in grey down, is fed by both parents — the male more often than the female — until it fledges.", "ref": 2 },
+      { "name": "Juvenile", "duration": "about 2 years with parents", "text": "Young condors stay with their parents for about two years, in olive-grey and brown plumage.", "ref": 2 },
+      { "name": "Adult", "duration": "from 6–11 years", "text": "Condors reach breeding age at 6 to 11 years and are thought to mate for life.", "ref": 2 }
+    ],
+    "lifespan": { "value": "Estimated about 50 years in the wild; nearly 80 years in captivity", "ref": 2 }
+  }
+}

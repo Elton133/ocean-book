@@ -1,0 +1,57 @@
+{
+  "extraReferences": [
+    { "title": "Natural history of neustonic animals in the Sargasso Sea: reproduction, predation, and behavior of Glaucus atlanticus, Velella velella, and Janthina spp. Marine Biodiversity 51: 99", "publisher": "Marine Biodiversity", "url": "https://doi.org/10.1007/s12526-021-01233-5", "year": 2021, "authors": "Helm R.R." },
+    { "title": "On the occurrence and ecology of Glaucus atlanticus Forster, 1777 (Mollusca: Nudibranchia) along the Southwestern Atlantic coast. Anais da Academia Brasileira de Ciências 91: e20180154", "publisher": "Anais da Academia Brasileira de Ciências", "url": "https://doi.org/10.1590/0001-3765201920180154", "year": 2019, "authors": "Pinotti R.M., Bom F.C., Muxagata E." }
+  ],
+  "anatomy": {
+    "lede": "The blue dragon is a sea slug turned upside down: its foot faces the sky, and its six fans of cerata spread like wings.",
+    "media": 0,
+    "hotspots": [
+      { "id": "head", "label": "Head", "x": 62, "y": 29, "text": "The head has dark blue stripes. Inside the mouth, a radula with serrated teeth and a strong jaw let it grasp prey and chip pieces off.", "ref": 2 },
+      { "id": "front-cerata", "label": "Front cerata", "x": 47, "y": 25, "text": "The first pair of cerata sits on short stalks. In aquaria, blue dragons use these front cerata like hands to grab fish and jellyfish.", "ref": 1 },
+      { "id": "cerata-tips", "label": "Cerata tips", "x": 79, "y": 51, "text": "The tip of each ceras holds a cnidosac, a sac where stinging cells taken from its prey are stored.", "ref": 1 },
+      { "id": "foot", "label": "Blue foot", "x": 51, "y": 41, "text": "What faces up is actually the foot, the underside in other slugs. Its blue colour blends with the sea when seen from above.", "ref": 2 },
+      { "id": "rear-cerata", "label": "Rear cerata", "x": 33, "y": 63, "text": "The cerata are set in a single row in each group and can number up to 84 in total.", "ref": 2 },
+      { "id": "tail", "label": "Tapering tail", "x": 31, "y": 85, "text": "The body is flat and tapers to a point behind.", "ref": 2 }
+    ],
+    "stats": [
+      { "value": "About 3 cm", "label": "Adult length", "ref": 2 },
+      { "value": "Up to 84", "label": "Cerata", "ref": 2 },
+      { "value": "Up to 1 year", "label": "Lifespan in good conditions", "ref": 2 }
+    ]
+  },
+  "body": {
+    "lede": "Unlike most sea slugs, which crawl on the seabed, blue dragons spend their whole lives at the sea surface.",
+    "systems": [
+      { "title": "A bubble for a float", "text": "All Glaucus species float on the surface using their cerata and air bubbles held in the stomach. Because of where the gas sits, they float upside down.", "certainty": "confirmed", "ref": 1 },
+      { "title": "A store of stolen stings", "text": "Stinging capsules from swallowed prey pass through the gut to special cells in the cnidosacs at the cerata tips. They are fired off if the slug is attacked.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Muscles for grasping", "text": "A well-developed layer of muscle fibres lies under the skin of the cerata and at their bases, which may explain how the front cerata can move so skilfully.", "certainty": "hypothesis", "ref": 1 }
+    ]
+  },
+  "mind": {
+    "lede": "Blue dragons are hard to keep alive in captivity, so their behaviour has only recently been watched closely.",
+    "studies": [
+      { "year": "2021", "title": "Eating from below", "text": "In the Sargasso Sea, blue dragons showed no preference among their floating prey, but usually fed by crawling underneath and eating the prey's underside.", "certainty": "confirmed", "ref": 3 },
+      { "year": "2025", "title": "Hands for hunting", "text": "Captive blue dragons pointed their front cerata at live whitebait, grabbed them, twisted to aim their mouths and ate the fish from the gills to the tail. They caught every cnidarian jellyfish offered, but no comb jellies.", "certainty": "confirmed", "ref": 1 },
+      { "year": "Aquaria", "title": "Cannibals", "text": "In captivity, individuals sometimes attack and eat each other.", "certainty": "uncertain", "ref": 2 }
+    ]
+  },
+  "survival": {
+    "lede": "Floating at the surface, the blue dragon cannot hide, so it relies on colour and borrowed weapons.",
+    "tactics": [
+      { "title": "Countershading", "text": "The blue foot faces the sky and the silver-grey back faces the deep, hiding the slug from predators above and below.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Stolen stings", "text": "It keeps stinging cells from its prey, likely for defence against predators, and can give people a painful sting.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Washed ashore", "text": "Once over the continental shelf, winds and storms can push blue dragons towards land. Along the coast of Brazil, strandings happen in summer.", "certainty": "confirmed", "ref": 4 }
+    ],
+    "predators": []
+  },
+  "life": {
+    "lede": "Each blue dragon is both male and female, and after mating both partners can lay eggs.",
+    "stages": [
+      { "name": "Mating", "text": "Blue dragons are hermaphrodites. Unlike most nudibranchs, which mate with their right sides together, they mate with their undersides facing.", "ref": 2 },
+      { "name": "Egg strings", "text": "Both partners can then lay strings of eggs. Blue dragons from the Sargasso Sea bred in the lab and laid large numbers of eggs, which may be an adaptation to heavy losses at sea.", "ref": 3 },
+      { "name": "Adult", "text": "Adults drift on winds and currents and feed on floating cnidarians such as bluebottles, by-the-wind sailors and blue buttons.", "ref": 1 }
+    ],
+    "lifespan": { "value": "Up to about a year under the right conditions", "ref": 2 }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "extraReferences": [
+    { "title": "Swimming in the intermediate Reynolds range: kinematics of the pteropod Limacina helicina. Integrative and Comparative Biology 52(5): 597–615", "publisher": "Integrative and Comparative Biology (PubMed 22988027)", "url": "https://doi.org/10.1093/icb/ics113", "year": 2012, "authors": "Chang Y., Yen J." },
+    { "title": "Limacina helicina shell dissolution as an indicator of declining habitat suitability owing to ocean acidification in the California Current Ecosystem. Proceedings of the Royal Society B 281: 20140123", "publisher": "Proceedings of the Royal Society B (PubMed 24789895)", "url": "https://doi.org/10.1098/rspb.2014.0123", "year": 2014, "authors": "Bednaršek N., Feely R.A., Reum J.C., Peterson B., Menkel J., Alin S.R., Hales B." },
+    { "title": "Shell density of planktonic foraminifera and pteropod species Limacina helicina in the Barents Sea: relation to ontogeny and water chemistry. PLoS ONE 16(4): e0249178", "publisher": "PLoS ONE (PubMed 33909623)", "url": "https://doi.org/10.1371/journal.pone.0249178", "year": 2021, "authors": "Ofstad S., Zamelczyk K., Kimoto K., Chierici M., Fransson A., Rasmussen T.L." }
+  ],
+  "anatomy": {
+    "lede": "A sea butterfly is a snail the size of a lentil, with a glassy shell and a foot turned into a pair of beating wings.",
+    "media": 0,
+    "hotspots": [
+      { "id": "wing", "label": "Wing", "x": 42, "y": 20, "text": "The wings are parapodia: flexible flaps that evolved from the snail's foot.", "ref": 2 },
+      { "id": "wing-stroke", "label": "Second wing", "x": 73, "y": 62, "text": "During each stroke the wings clap together and fling apart, a 'clap and fling' trick also used by tiny flying insects.", "ref": 3 },
+      { "id": "shell", "label": "Shell", "x": 40, "y": 72, "text": "The very thin shell coils to the left, with five to six whorls, and is made of aragonite, a form of calcium carbonate that dissolves easily in acidic water.", "ref": 2 },
+      { "id": "body", "label": "Soft body", "x": 47, "y": 55, "text": "The soft body, dark purple to violet in life, can pull right back inside the shell when the animal is disturbed.", "ref": 2 }
+    ],
+    "stats": [
+      { "value": "5–10 mm", "label": "Shell width", "ref": 2 },
+      { "value": "4.5–9.4", "label": "Wing-beats per second", "ref": 3 },
+      { "value": "13–44 mm/s", "label": "Swimming speed", "ref": 3 },
+      { "value": "> 50%", "label": "Share of polar zooplankton at times", "ref": 2 }
+    ]
+  },
+  "body": {
+    "lede": "Moving through water at the scale of a few millimetres is neither quite swimming nor quite flying, and the sea butterfly does a little of both.",
+    "systems": [
+      { "title": "Rowing and flying at once", "text": "High-speed filming showed a complex three-dimensional wing-stroke with elements of both rowing and flapping flight, plus a rotation of the whole body. Smaller animals beat their wings faster than larger ones.", "certainty": "confirmed", "ref": 3 },
+      { "title": "Sawtooth climbs", "text": "Swimming sea butterflies rise along a zigzag, sawtooth path as each stroke rocks the body. When they stop, they sink smoothly at 5–45 mm per second.", "certainty": "confirmed", "ref": 3 },
+      { "title": "A shell that thickens with depth", "text": "In the Barents Sea, living sea butterflies had denser, larger and thicker shells the deeper they were caught, down to about 300 m.", "certainty": "confirmed", "ref": 5 }
+    ]
+  },
+  "survival": {
+    "lede": "Almost everything in polar seas eats sea butterflies, and their main defence is a shell that is itself under threat.",
+    "tactics": [
+      { "title": "Retreat and drop the net", "text": "When disturbed, it pulls back into its shell and abandons its mucus feeding web.", "certainty": "confirmed", "ref": 2 },
+      { "title": "Growing out of danger", "text": "One specialist predator, the sea angel Paedoclione doliiformis, eats only young sea butterflies with shells under 1 mm across.", "certainty": "confirmed", "ref": 2 }
+    ],
+    "predators": ["Sea angels", "Herring", "Chum salmon", "Pink salmon", "Rorquals", "Ringed seals", "Seabirds"],
+    "threats": [
+      { "title": "Corrosive coastal water", "text": "Off Washington, Oregon and California in 2011, 53% of sea butterflies caught near shore and 24% offshore had severe shell dissolution. Researchers estimate such damage near shore has doubled since pre-industrial times and is on track to triple by 2050.", "certainty": "confirmed", "ref": 4 },
+      { "title": "Dissolving in the lab", "text": "In week-long experiments with Puget Sound animals, shell damage rose steadily as the water's aragonite saturation fell, and survival was lowest in the most corrosive water.", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "life": {
+    "lede": "A sea butterfly lives fast, changing sex as it grows and completing its life within a year or two.",
+    "stages": [
+      { "name": "Egg", "duration": "mainly summer", "text": "Sperm is passed in packets called spermatophores, and eggs are laid in ribbon-like clusters, mostly in summer but some in winter.", "ref": 2 },
+      { "name": "Veliger larva", "duration": "about 0.15 mm", "text": "The eggs hatch into tiny swimming veliger larvae.", "ref": 2 },
+      { "name": "Juvenile", "text": "The smallest young, 0.2–0.4 mm across, live mainly in the top 50 m; larger animals range down to about 150 m.", "ref": 2 },
+      { "name": "Male", "duration": "about 4–5 mm", "text": "Every sea butterfly matures first as a male.", "ref": 2 },
+      { "name": "Female", "duration": "over about 5 mm", "text": "Once larger than about 5 mm, it becomes female.", "ref": 2 }
+    ],
+    "lifespan": { "value": "About 1–2 years", "ref": 2 }
+  }
+}

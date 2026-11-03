@@ -1,0 +1,262 @@
+{
+  "extraReferences": [
+    {
+      "title": "A draft genome sequence of the elusive giant squid, Architeuthis dux. GigaScience 9(1): giz152",
+      "publisher": "GigaScience",
+      "authors": "da Fonseca, R.R. et al.",
+      "year": 2020,
+      "url": "https://doi.org/10.1093/gigascience/giz152"
+    },
+    {
+      "title": "A unique advantage for giant eyes in giant squid. Current Biology 22: 683–688",
+      "publisher": "Current Biology",
+      "authors": "Nilsson, D.-E., Warrant, E.J., Johnsen, S., Hanlon, R. & Shashar, N.",
+      "year": 2012,
+      "url": "https://doi.org/10.1016/j.cub.2012.02.031"
+    },
+    {
+      "title": "Mitochondrial genome diversity and population structure of the giant squid Architeuthis: genetics sheds new light on one of the most enigmatic marine species. Proc. R. Soc. B 280: 20130273",
+      "publisher": "Proceedings of the Royal Society B",
+      "authors": "Winkelmann, I. et al.",
+      "year": 2013,
+      "url": "https://doi.org/10.1098/rspb.2013.0273"
+    },
+    {
+      "title": "Mismatch between the eye and the optic lobe in the giant squid. Royal Society Open Science 4: 170289",
+      "publisher": "Royal Society Open Science",
+      "authors": "Liu, Y.-C., Liu, T.-H., Yu, C.-C., Su, C.-H. & Chiao, C.-C.",
+      "year": 2017,
+      "url": "https://doi.org/10.1098/rsos.170289"
+    },
+    {
+      "title": "Evidence for direct use of terminal organ for spermatophore transfer in giant squid, Architeuthis dux. microPublication Biology",
+      "publisher": "microPublication Biology",
+      "authors": "Sasai, S., Tanaka, Y. & Hirohashi, N.",
+      "year": 2025,
+      "url": "https://doi.org/10.17912/micropub.biology.001476"
+    },
+    {
+      "title": "Scientists capture first-ever video of giant squid in U.S. waters (Florida International University release)",
+      "publisher": "Phys.org",
+      "authors": "Adkins, J.",
+      "year": 2019,
+      "url": "https://phys.org/news/2019-06-scientists-capture-first-ever-video-giant.html"
+    }
+  ],
+  "anatomy": {
+    "lede": "Laid out on a ship's deck, a giant squid is mostly reach: eight thick arms, two far longer feeding tentacles, and behind them a torpedo-shaped mantle that holds the organs.",
+    "media": 0,
+    "hotspots": [
+      {
+        "id": "eye",
+        "label": "Eye",
+        "x": 55,
+        "y": 50,
+        "text": "A photographed giant squid eye measured about 27 cm across, with a 9 cm pupil — the largest eyes known in any animal apart from the colossal squid's.",
+        "ref": 5
+      },
+      {
+        "id": "arms",
+        "label": "Eight arms",
+        "x": 32,
+        "y": 52,
+        "text": "Each of the eight arms carries two rows of suckers, which hold prey once the tentacles have caught it.",
+        "ref": 2
+      },
+      {
+        "id": "club",
+        "label": "Tentacle club",
+        "x": 80,
+        "y": 42,
+        "text": "The two feeding tentacles end in broadened clubs. Their suckers are ringed with sharp, finely serrated chitin teeth that grip slippery prey.",
+        "ref": 2
+      },
+      {
+        "id": "mantle",
+        "label": "Mantle",
+        "x": 75,
+        "y": 54,
+        "text": "The muscular mantle encloses the internal organs. Measured mantles are not known to exceed about 2.25 m.",
+        "ref": 3
+      },
+      {
+        "id": "fin",
+        "label": "Fins",
+        "x": 92,
+        "y": 53,
+        "text": "A pair of fins sits at the rear tip of the mantle; body length is measured from here to the tentacle tips.",
+        "ref": 3
+      }
+    ],
+    "stats": [
+      {
+        "value": "27 cm",
+        "label": "Eye diameter",
+        "ref": 5
+      },
+      {
+        "value": "9 cm",
+        "label": "Pupil diameter",
+        "ref": 5
+      },
+      {
+        "value": "about 2.25 m",
+        "label": "Maximum mantle length",
+        "ref": 3
+      },
+      {
+        "value": "up to about 5.5 cm",
+        "label": "Largest suckers",
+        "ref": 2
+      }
+    ]
+  },
+  "senses": {
+    "lede": "Almost everything known about the giant squid's senses comes from dead specimens, and it centres on one organ: the eye.",
+    "senses": [
+      {
+        "kind": "sight",
+        "name": "Giant eyes",
+        "text": "Modelling suggests that below about 600 m an eye this size could pick out a sperm whale at more than 120 m, by the glow of bioluminescent plankton the whale disturbs. Such eyes would be poorly suited to spotting small prey or mates far away.",
+        "certainty": "hypothesis",
+        "ref": 5
+      },
+      {
+        "kind": "sight",
+        "name": "A modest visual brain",
+        "text": "An MRI scan of one male's optic lobe found a well-developed outer layer for processing images, but a relatively small inner region that links vision to movement. Its brain may not have grown in step with its huge eyes.",
+        "certainty": "hypothesis",
+        "ref": 7
+      }
+    ]
+  },
+  "body": {
+    "lede": "Inside, the giant squid is built like other squids, only larger — with a few features that hint at life in cold, dark water.",
+    "systems": [
+      {
+        "title": "Blood suited to the cold",
+        "text": "Research on its oxygen-carrying blood suggests it binds oxygen poorly at higher temperatures, so warm water may leave a giant squid short of oxygen. That could explain why it lives in cool, deep water.",
+        "certainty": "hypothesis",
+        "ref": 2
+      },
+      {
+        "title": "Closed circulation",
+        "text": "Like other squids it has a closed circulatory system, with blood pumped through vessels rather than washing loosely around the organs.",
+        "certainty": "confirmed",
+        "ref": 2
+      },
+      {
+        "title": "A terminal organ for mating",
+        "text": "Most male cephalopods pass sperm packets with a modified arm. Two dying males found in shallow water were seen moving a penis-like terminal organ out through the funnel, supporting the idea that giant squid transfer sperm packets with it directly.",
+        "certainty": "hypothesis",
+        "ref": 8
+      }
+    ]
+  },
+  "genome": {
+    "lede": "A draft genome assembled in 2020 from a specimen tissue sample gave the first look at the giant squid's DNA.",
+    "genomeGb": 2.7,
+    "refs": {
+      "genome": 4
+    },
+    "sequenced": 2020,
+    "findings": [
+      {
+        "title": "Brain-building genes",
+        "text": "The genome holds about 135 protocadherin genes, many in clusters. This family, linked to wiring nerve cells, is greatly expanded in cephalopods compared with other molluscs.",
+        "certainty": "confirmed",
+        "ref": 4
+      },
+      {
+        "title": "Reflectin genes",
+        "text": "It has seven reflectin genes and three reflectin-like genes, which in other cephalopods make the light-reflecting proteins of the skin and eyes.",
+        "certainty": "confirmed",
+        "ref": 4
+      },
+      {
+        "title": "Very little variation",
+        "text": "Mitochondrial genomes from 43 giant squid across the world showed no regional structure and exceptionally low diversity, consistent with a single, widely dispersing global species.",
+        "certainty": "confirmed",
+        "ref": 6
+      }
+    ]
+  },
+  "mind": {
+    "lede": "Its behaviour has been glimpsed only a handful of times, each sighting rewriting what was assumed about it.",
+    "studies": [
+      {
+        "year": "2004",
+        "title": "Attacking bait off Japan",
+        "text": "An automated camera at about 900 m off the Ogasawara Islands photographed a giant squid wrapping its tentacles around a baited line, showing it to be an active predator.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "year": "2019",
+        "title": "Stalking a fake jellyfish",
+        "text": "In the Gulf of Mexico, a camera with a ring of lights mimicking a glowing jellyfish filmed a juvenile about 3–3.7 m long. It stalked the lure, seized it with its tentacles, then pulled back into the dark.",
+        "certainty": "confirmed",
+        "ref": 9
+      },
+      {
+        "year": "Field",
+        "title": "Probably a loner",
+        "text": "No two giant squid have been caught together in fishing nets, which has led researchers to suggest they hunt alone.",
+        "certainty": "uncertain",
+        "ref": 2
+      }
+    ]
+  },
+  "survival": {
+    "lede": "Adult giant squid have very few enemies, but one of them is the largest toothed predator on Earth.",
+    "tactics": [
+      {
+        "title": "Early warning",
+        "text": "Seeing a sperm whale's glowing wake at long range may give a giant squid time to mount a powerful escape before the whale closes in.",
+        "certainty": "hypothesis",
+        "ref": 5
+      },
+      {
+        "title": "Strike from a distance",
+        "text": "Its long feeding tentacles let it seize prey well away from its body, then pull it in to the arms and beak.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "title": "Grip that holds",
+        "text": "Toothed sucker rings on the arms and clubs grip struggling fish and squid that would slip from smooth suckers.",
+        "certainty": "confirmed",
+        "ref": 2
+      }
+    ],
+    "predators": [
+      "Sperm whales",
+      "Deep-sea fishes (on young squid)"
+    ]
+  },
+  "life": {
+    "lede": "How giant squid mate, where they spawn and how long they live are still largely unknown; what follows is pieced together from specimens.",
+    "stages": [
+      {
+        "name": "Egg",
+        "text": "A female can carry more than 5 kg of eggs — well over a million — each only about 0.5–1.4 mm long.",
+        "ref": 2
+      },
+      {
+        "name": "Drifting young",
+        "text": "Low genetic variation across the oceans suggests young giant squid disperse widely, possibly as drifting larvae carried by currents.",
+        "ref": 6
+      },
+      {
+        "name": "Rapid growth",
+        "text": "One study suggests giant squid may reach adult size within about three years, an extraordinary growth rate for an animal of several hundred kilograms.",
+        "ref": 2
+      },
+      {
+        "name": "Mating",
+        "text": "Males mature at a smaller size than females and store sperm packets in a Needham's sac before passing them to a female.",
+        "ref": 2
+      }
+    ]
+  }
+}

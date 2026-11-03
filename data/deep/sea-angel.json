@@ -1,0 +1,75 @@
+{
+  "extraReferences": [
+    { "title": "Control of locomotion in marine mollusk Clione limacina. IX. Neuronal mechanisms of spatial orientation. Journal of Neurophysiology 73(5): 1924–1937", "publisher": "Journal of Neurophysiology (PubMed 7623091)", "url": "https://doi.org/10.1152/jn.1995.73.5.1924", "year": 1995, "authors": "Panchin Y.V., Arshavsky Y.I., Deliagina T.G., Popova L.B., Orlovsky G.N." },
+    { "title": "Pharmacologically induced elements of the hunting and feeding behavior in the pteropod mollusk Clione limacina. II. Effects of physostigmine. Journal of Neurophysiology 69(2): 522–532", "publisher": "Journal of Neurophysiology (PubMed 8459283)", "url": "https://doi.org/10.1152/jn.1993.69.2.522", "year": 1993, "authors": "Arshavsky Y.I., Deliagina T.G., Gamkrelidze G.N., Orlovsky G.N., Panchin Y.V., Popova L.B." },
+    { "title": "Control of spatial orientation in a mollusc. Nature 393: 172–175", "publisher": "Nature (PubMed 9603520)", "url": "https://doi.org/10.1038/30251", "year": 1998, "authors": "Deliagina T.G., Arshavsky Y.I., Orlovsky G.N." },
+    { "title": "A review of the circuit-level and cellular mechanisms contributing to locomotor acceleration in the marine mollusk Clione limacina. Frontiers in Neuroscience 16: 1072974", "publisher": "Frontiers in Neuroscience", "url": "https://doi.org/10.3389/fnins.2022.1072974", "year": 2022, "authors": "Pirtle T.J." },
+    { "title": "Clione limacina genome assembly ASM3236220v1 (GCA_032362205.1)", "publisher": "NCBI Genome", "url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_032362205.1/", "year": 2023, "authors": "Iridian Genomes" }
+  ],
+  "anatomy": {
+    "lede": "A sea angel is a snail stripped down for open water: no shell, a foot reshaped into wings, and a head that hides a set of grappling tools.",
+    "media": 0,
+    "hotspots": [
+      { "id": "head", "label": "Head", "x": 22, "y": 52, "text": "Folded inside the head are three pairs of buccal cones, which inflate in an instant to seize a sea butterfly, plus chitin hooks and a toothed radula that pull it from its shell.", "ref": 7 },
+      { "id": "wing-upper", "label": "Wing", "x": 42, "y": 20, "text": "Each wing is a flap of the snail's foot, called a parapodium. The pair beat up and down, driven by a rhythm-generating circuit of nerve cells in the pedal ganglia.", "ref": 7 },
+      { "id": "wing-lower", "label": "Second wing", "x": 44, "y": 80, "text": "The sea angel swims almost constantly to hold its place in the water, and beats its wings faster when hunting or escaping danger.", "ref": 7 },
+      { "id": "tail", "label": "Tail", "x": 83, "y": 63, "text": "The tail works as a rudder. When the body tips away from upright, it bends the opposite way to correct it.", "ref": 4 }
+    ],
+    "stats": [
+      { "value": "7–8.5 cm", "label": "Largest northern adults", "ref": 3 },
+      { "value": "about 3 cm", "label": "Size at maturity", "ref": 3 },
+      { "value": "356 days", "label": "Survived without food in the lab", "ref": 2 },
+      { "value": "9–11", "label": "Receptor cells per statocyst", "ref": 7 }
+    ]
+  },
+  "senses": {
+    "lede": "With simple, large nerve cells, the sea angel's senses have been traced almost cell by cell.",
+    "senses": [
+      { "kind": "balance", "name": "Gravity sense", "text": "Two statocysts — tiny balance organs, each holding a stone-like statolith — tell it which way is up. Receptor cells fire when they lie beneath the statolith. With the statocysts removed, a sea angel can no longer hold any steady orientation.", "certainty": "confirmed", "ref": 4 },
+      { "kind": "touch", "name": "Touch", "text": "A touch on the head normally triggers a defensive shutdown. But contact with its prey, the sea butterfly, sets off the whole hunting sequence instead: cones out, faster wing-beats and swimming in circles.", "certainty": "confirmed", "ref": 5 }
+    ]
+  },
+  "body": {
+    "lede": "Its nervous system is simple enough to study in a dish, which has made the sea angel a classic model in neuroscience.",
+    "systems": [
+      { "title": "A built-in metronome", "text": "Two groups of interneurons, one for the upstroke and one for the downstroke, inhibit each other in turn. The length of each inhibition largely sets how fast the wings beat.", "certainty": "confirmed", "ref": 7 },
+      { "title": "Serotonin for speed", "text": "Serotonin-releasing neurons in the brain speed up swimming by recruiting extra cells into the wing circuit and strengthening the wing muscles' contractions. Stimulating the tail also speeds swimming and raises the heart rate.", "certainty": "confirmed", "ref": 7 }
+    ]
+  },
+  "genome": {
+    "lede": "The sea angel's DNA has been sequenced only in rough draft.",
+    "genomeGb": 1.26,
+    "refs": { "genome": 8 },
+    "sequenced": null,
+    "findings": [
+      { "title": "A first rough draft", "text": "A draft assembly of about 1.26 billion base pairs was deposited in 2023 by Iridian Genomes. It is split into more than 500,000 short pieces, so it is not yet a finished reference genome.", "certainty": "confirmed", "ref": 8 }
+    ]
+  },
+  "mind": {
+    "lede": "Russian and American laboratories have studied how this little snail's nervous system runs its behaviour for more than four decades.",
+    "studies": [
+      { "year": "1993", "title": "Hunting on a switch", "text": "Injecting a drug that boosts the nerve messenger acetylcholine made sea angels perform the full hunting routine in response to a simple touch, or even spontaneously.", "certainty": "confirmed", "ref": 5 },
+      { "year": "1995", "title": "Head up or head down", "text": "Sea angels usually swim head up, but hold a head-down posture in warmer water and at one stage of hunting. Postural control switches off entirely during vertical migrations, defence and the 'looping' of a hunt.", "certainty": "confirmed", "ref": 4 },
+      { "year": "1998", "title": "A brain steering a motor", "text": "Researchers wired an isolated sea angel nervous system, with its statocysts, to a motor that rotated it. When the loop was closed, the neurons kept the preparation upright on their own.", "certainty": "confirmed", "ref": 6 },
+      { "year": "2022", "title": "A model for changing gear", "text": "Because it changes swimming speed to feed and to avoid predators, and its neurons can be recognised from animal to animal, the sea angel is used to study how nervous systems control speed.", "certainty": "confirmed", "ref": 7 }
+    ]
+  },
+  "survival": {
+    "lede": "A slow, soft-bodied snail in open water has few defences beyond speed and stamina.",
+    "tactics": [
+      { "title": "Shut down when touched", "text": "A touch on the head triggers a defence reaction: the main motor systems, including swimming, the tentacles and the feeding apparatus, are inhibited for a long time.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Sprint away", "text": "Sea angels accelerate their wing-beats to escape potential predators.", "certainty": "confirmed", "ref": 7 },
+      { "title": "Living on reserves", "text": "Stored fats carry it through long periods without prey, and lab animals survived about a year without eating.", "certainty": "confirmed", "ref": 2 }
+    ],
+    "predators": ["Baleen whales", "Chum salmon", "Other fishes"]
+  },
+  "life": {
+    "lede": "In the high Arctic, a sea angel takes years to grow from a speck into a winged hunter.",
+    "stages": [
+      { "name": "Egg", "duration": "spring and summer", "text": "Sea angels are hermaphrodites, probably carrying male and female organs at the same time. They breed in spring and summer and lay eggs about 0.12 mm across.", "ref": 3 },
+      { "name": "Larva", "text": "Young larvae feed on phytoplankton, then switch to sea butterflies as they grow.", "ref": 3 },
+      { "name": "Adult", "duration": "mature from about 3 cm", "text": "Northern animals mature at about 3 cm and can reach 7–8.5 cm, feeding almost entirely on sea butterflies.", "ref": 3 }
+    ],
+    "lifespan": { "value": "Life cycle of at least two years in Svalbard", "ref": 1 }
+  }
+}

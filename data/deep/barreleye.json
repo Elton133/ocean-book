@@ -1,0 +1,47 @@
+{
+  "extraReferences": [
+    { "title": "Diversity and evolution of optically complex eyes in a family of deep-sea fish: ocular diverticula in barreleye spookfish (Opisthoproctidae). Frontiers in Ecology and Evolution 10: 1044565", "publisher": "Frontiers in Ecology and Evolution", "url": "https://doi.org/10.3389/fevo.2022.1044565", "year": 2022, "authors": "Wagner H.-J., Genner M.J., Partridge J.C. et al." },
+    { "title": "MBARI researchers film rarely seen deep-sea barreleye fish in 4K", "publisher": "MBARI (news, 28 Oct 2026)", "url": "https://www.mbari.org/news/mbari-researchers-film-rarely-seen-deep-sea-barreleye-fish-in-4k/", "year": 2026 }
+  ],
+  "anatomy": {
+    "lede": "The barreleye is a small, dark fish built around its eyes: two green-lensed tubes inside a clear, fluid-filled dome.",
+    "media": 0,
+    "hotspots": [
+      { "id": "shield", "label": "Transparent shield", "x": 25, "y": 31, "text": "A tough, flexible, see-through skin covers the top of the head. It attaches to the scales behind the head and to clear bones that protect the eyes from the side.", "ref": 4 },
+      { "id": "eye", "label": "Tubular eye", "x": 24, "y": 40, "text": "The tubular eyes sit in a fluid-filled chamber under the shield and can rotate through an arc of about 75 degrees, from looking up to looking forward.", "ref": 4 },
+      { "id": "mouth", "label": "Small mouth", "x": 13, "y": 52, "text": "Its name means 'large fins, small mouth'. The small, pointed mouth suggests it picks out prey precisely.", "ref": 6 },
+      { "id": "fin", "label": "Broad fins", "x": 47, "y": 57, "text": "Large, flat fins let it hang nearly motionless and manoeuvre with precision.", "ref": 1 },
+      { "id": "dorsal-fin", "label": "Dorsal fin", "x": 74, "y": 30, "text": "The dorsal fin has 11 soft rays and no spines.", "ref": 4 },
+      { "id": "body", "label": "Dark body", "x": 62, "y": 45, "text": "Adults are dark brown. Their digestive system is large, suggesting they can eat both small drifting animals and jellies.", "ref": 4 }
+    ],
+    "stats": [
+      { "value": "15 cm", "label": "Maximum length", "ref": 0 },
+      { "value": "460–800 m", "label": "Usual depth", "ref": 0 },
+      { "value": "About 75°", "label": "Eye rotation", "ref": 4 }
+    ]
+  },
+  "senses": {
+    "lede": "In the twilight zone, the last of the sunlight comes from straight above, and the barreleye's senses are tuned to it.",
+    "senses": [
+      { "kind": "sight", "name": "Light-gathering eyes", "text": "The tubular shape concentrates light, letting the fish see the silhouettes of prey against the faint sunlight from above. The trade-off, in tubular eyes generally, is a very narrow field of view.", "certainty": "confirmed", "ref": 1 },
+      { "kind": "sight", "name": "Green filters", "text": "Green pigment in the lenses may filter out direct sunlight, helping the fish tell it apart from the bioluminescent glow of prey overhead.", "certainty": "hypothesis", "ref": 1 },
+      { "kind": "sight", "name": "Eyes that look sideways too?", "text": "Other barreleyes in its family have light-sensitive pouches on their eyes that extend their view to the sides and below. The barreleye's own eyes have so far had only a preliminary description.", "certainty": "uncertain", "ref": 5 },
+      { "kind": "smell", "name": "Smell", "text": "The two spots above the mouth that look like eyes are actually its nares, olfactory organs comparable to our nostrils.", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "body": {
+    "lede": "Two features set this fish apart: a head you can see through, and eyes that are not fixed in place.",
+    "systems": [
+      { "title": "A fluid-filled dome", "text": "The eyes sit in a chamber of fluid under the clear shield. This fragile structure was missing from older descriptions, probably because it was destroyed when fish were hauled up in nets.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Two ways to feed", "text": "It can either tilt its whole body upwards while keeping its eyes locked on a target, or stay level and roll its eyes forward as food sinks towards its mouth.", "certainty": "confirmed", "ref": 4 }
+    ]
+  },
+  "mind": {
+    "lede": "Almost everything known about how the barreleye lives comes from a few encounters with underwater robots.",
+    "studies": [
+      { "year": "2008", "title": "Watching the eyes turn", "text": "ROV video off central California, at 600 to 800 m, showed barreleyes hanging still with eyes glowing green in the lights. A net-caught fish kept alive for several hours on board confirmed that it rotated its eyes as it turned its body upright.", "certainty": "confirmed", "ref": 1 },
+      { "year": "2009", "title": "A working hypothesis", "text": "The researchers proposed that the fish waits horizontally with eyes up, then rotates its eyes forward and swims upwards when it spots prey such as a drifting jelly.", "certainty": "hypothesis", "ref": 1 },
+      { "year": "2026", "title": "A rare sighting in 4K", "text": "A barreleye filmed about 600 m down, roughly 90 km off California, was only MBARI's eleventh observation of the species. The team spent about 20 minutes filming it, testing different lighting to show off its clear head.", "certainty": "confirmed", "ref": 6 }
+    ]
+  }
+}

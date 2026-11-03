@@ -1,0 +1,83 @@
+{
+  "extraReferences": [
+    { "title": "Disproportionate frequency representation in the inferior colliculus of Doppler-compensating greater horseshoe bats: evidence for an acoustic fovea. Journal of Comparative Physiology A 132: 47–54", "publisher": "Journal of Comparative Physiology A", "url": "https://doi.org/10.1007/BF00617731", "year": 1979, "authors": "Schuller G. & Pollak G." },
+    { "title": "Six reference-quality genomes reveal evolution of bat adaptations. Nature 583: 578–584", "publisher": "Nature", "url": "https://doi.org/10.1038/s41586-020-2486-3", "year": 2020, "authors": "Jebb D., Huang Z., Pippel M. et al." },
+    { "title": "Rhinolophus ferrumequinum genome assembly mRhiFer1_v1.p (GCF_004115265.2)", "publisher": "NCBI Datasets, National Center for Biotechnology Information", "url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_004115265.2/", "year": 2019 },
+    { "title": "Mate fidelity and intra-lineage polygyny in greater horseshoe bats. Nature 437: 408–411", "publisher": "Nature", "url": "https://doi.org/10.1038/nature03965", "year": 2005, "authors": "Rossiter S.J., Ransome R.D., Faulkes C.G., Le Comber S.C. & Jones G." }
+  ],
+  "anatomy": {
+    "lede": "The largest horseshoe bat in Europe, about the size of a small pear, with a face shaped around the sound it makes.",
+    "media": 0,
+    "hotspots": [
+      { "id": "left-ear", "label": "Ear", "x": 40.5, "y": 22, "text": "The large, pointed ears have no tragus, the small flap that stands inside the ear of many other bats.", "ref": 4 },
+      { "id": "right-ear", "label": "Ear tuned to one note", "x": 72, "y": 22, "text": "Hearing is sharply tuned to frequencies close to the bat's own resting call.", "ref": 2 },
+      { "id": "lancet", "label": "Pointed upper noseleaf", "x": 56, "y": 37, "text": "The upper part of the noseleaf rises to a point, while the lower part is shaped like a horseshoe.", "ref": 4 },
+      { "id": "horseshoe", "label": "Horseshoe", "x": 57, "y": 60, "text": "The bat calls through its nostrils, which sit inside the horseshoe. This complex noseleaf is tied to the horseshoe bats' particular kind of echolocation.", "ref": 1 },
+      { "id": "fur", "label": "Fur", "x": 34, "y": 44, "text": "Adults are buff- or greyish-brown with a reddish tint, paler beneath; young bats are uniformly grey.", "ref": 4 },
+      { "id": "wing", "label": "Wrapped wing", "x": 57, "y": 81, "text": "At rest, and through hibernation, the bat hangs free with its wing membranes wrapped around its body.", "ref": 1 }
+    ],
+    "stats": [
+      { "value": "35–40 cm", "label": "Wingspan", "ref": 1 },
+      { "value": "17–34 g", "label": "Weight", "ref": 1 },
+      { "value": "about 82 kHz", "label": "Call frequency", "ref": 1 },
+      { "value": "30 years", "label": "Oldest recorded age", "ref": 1 }
+    ]
+  },
+  "senses": {
+    "lede": "Horseshoe bats hunt with one long, pure note and listen for the flicker of insect wings in its echoes.",
+    "senses": [
+      { "kind": "echolocation", "name": "Constant-frequency sonar", "text": "Instead of brief sweeps, the greater horseshoe sends out long calls held at almost one frequency, emitted through the nose. A moving bat adjusts the pitch so that the returning echoes land on the note its ears hear best.", "vsHuman": "absent in us", "certainty": "confirmed", "ref": 2 },
+      { "kind": "hearing", "name": "An acoustic fovea", "text": "In the bat's auditory midbrain, a disproportionate share of neurons responds to a narrow band of frequencies around the echo frequency, much as the fovea of the human eye packs in receptors for sharp central vision.", "certainty": "confirmed", "ref": 6 },
+      { "kind": "hearing", "name": "Listening to rivals", "text": "Among European horseshoe bats, differences in call loudness change how far away each species can detect prey, and may help them share out food. Loudness might also carry information about a bat's condition.", "certainty": "hypothesis", "ref": 3 }
+    ]
+  },
+  "body": {
+    "lede": "A long-lived bat that spends half the year in hibernation and controls exactly when its single pup is conceived.",
+    "systems": [
+      { "title": "Hibernation", "text": "From about October to April the bats hibernate in caves, mines, cellars and tunnels, often in clusters. They wake at frequent intervals and may move up to 30 km between sites in search of the right temperature.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Delayed fertilisation", "text": "Mating happens mostly in autumn, but the female stores the sperm and fertilisation is delayed until later. After mating, a plug secreted by the male closes the female's reproductive tract.", "certainty": "confirmed", "ref": 4 },
+      { "title": "Teeth lost before birth", "text": "Greater horseshoe bats shed their milk teeth before they are even born.", "certainty": "confirmed", "ref": 4 }
+    ]
+  },
+  "genome": {
+    "lede": "The greater horseshoe bat was one of the first six bats to receive a reference-quality genome, assembled with long-read sequencing.",
+    "genomeGb": 2.08,
+    "refs": { "genome": 8 },
+    "sequenced": 2020,
+    "findings": [
+      { "title": "Small genomes", "text": "At about 2 billion letters, bat genomes are generally smaller than those of other placental mammals, which typically run to 2.5–3.5 billion. Smaller genomes contain fewer transposable elements.", "certainty": "confirmed", "ref": 7 },
+      { "title": "Hearing genes", "text": "Signs of selection on hearing-related genes in the ancestor of all bats suggest that echolocation using the larynx was present from the start.", "certainty": "hypothesis", "ref": 7 },
+      { "title": "Living with viruses", "text": "Lost and altered immunity genes, extra copies of antiviral APOBEC3 genes and fragments of old viruses in bat genomes point to a long history of tolerating viral infection.", "certainty": "hypothesis", "ref": 7 }
+    ]
+  },
+  "mind": {
+    "lede": "Long-term studies of a few colonies in south-west England have revealed an intricate social life.",
+    "studies": [
+      { "year": "2005", "title": "Faithful partners", "text": "Genetic studies showed that most females return to breed with the same male year after year, so their pups from different years are full siblings. Mothers and daughters also share mates more often than chance would predict, without raising inbreeding.", "certainty": "confirmed", "ref": 9 },
+      { "year": "1993", "title": "A note learned from mother", "text": "Young bats' call frequencies closely match their mothers', suggesting that the calls are shaped by maternal effects, possibly learned while young.", "certainty": "hypothesis", "ref": 2 },
+      { "year": "Field", "title": "Noisy nurseries", "text": "Maternity colonies are noisy places, full of continuous chattering, chirping and scolding calls.", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "survival": {
+    "lede": "The greatest threats to this bat come from people disturbing its roosts and changing the countryside where it feeds.",
+    "tactics": [
+      { "title": "Warm summer roofs", "text": "Breeding females gather in sun-warmed roof spaces of large old houses, churches and barns, but need a cave or tunnel nearby to retreat to when bad weather cuts off their food.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Saving energy in the cold", "text": "The bats do not hunt in winter unless it is warm enough for insects to fly, and they hunt less in cold or wet weather.", "certainty": "confirmed", "ref": 4 }
+    ],
+    "predators": [],
+    "threats": [
+      { "title": "Roost disturbance", "text": "The bats are particularly sensitive to disturbance at nursery and winter roosts, which need protection and unobstructed entrances.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Farming and pesticides", "text": "Loss of permanent pasture and the use of pesticides have reduced the large beetles, especially cockchafers, and moths that the bats depend on.", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "life": {
+    "lede": "A female raises at most one pup a year, and may wait years before her first.",
+    "stages": [
+      { "name": "Mating", "duration": "autumn to spring", "text": "Mating takes place mainly in autumn, sometimes in late winter or spring, with fertilisation delayed until the spring.", "ref": 1 },
+      { "name": "Birth", "duration": "June–July", "text": "Maternity colonies gather from May, and each female gives birth to a single pup after a gestation of about 80 days.", "ref": 4 },
+      { "name": "Pup", "duration": "7–8 weeks", "text": "Eyes open at about seven days and pups fly at three to four weeks. By seven to eight weeks they are ready to leave the roost.", "ref": 4 },
+      { "name": "Adult", "duration": "from 2–3 years", "text": "Males can breed at two. Females usually mature in their third year, often do not have young until their fifth, and one known female did not breed until her tenth year.", "ref": 1 }
+    ],
+    "lifespan": { "value": "up to 30 years", "ref": 1 }
+  }
+}

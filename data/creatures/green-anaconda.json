@@ -1,0 +1,149 @@
+{
+  "slug": "green-anaconda",
+  "realm": "land",
+  "commonName": "Green Anaconda",
+  "scientificName": "Eunectes murinus",
+  "authority": "(Linnaeus, 1758)",
+  "gbifId": 5225712,
+  "iucnId": 44580041,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Reptilia",
+    "order": "Squamata",
+    "family": "Boidae"
+  },
+  "group": "Snake (boa)",
+  "categories": [
+    "apex-predators"
+  ],
+  "tagline": "A giant constrictor that lives in the water",
+  "summary": "A massive, olive-green boa of South American swamps and slow rivers, and one of the heaviest snakes on Earth. It lies almost hidden in shallow water, with only its eyes and nostrils showing, then seizes passing animals and squeezes them until they suffocate.",
+  "ability": "ambush and constriction",
+  "stats": {
+    "size": "Females average about 6 m and males about 3 m; reported up to 250 kg",
+    "habitat": "Swamps, marshes, slow-moving rivers, flooded grasslands and rainforest waterways",
+    "range": "Tropical lowlands of South America east of the Andes, especially the Amazon and Orinoco basins and the Llanos; also Trinidad",
+    "diet": "Fish, birds, caimans, capybaras, deer and other animals, swallowed whole",
+    "conservation": "IUCN Red List: Least Concern (2021 assessment)"
+  },
+  "regions": [
+    "amazon"
+  ],
+  "biome": "wetland",
+  "facts": [
+    {
+      "title": "A heavyweight with disputed records",
+      "text": "Green anacondas have been reported at up to 250 kg, which makes them among the heaviest snakes alive — though the true maximum size is still argued over, and many giant-snake stories are exaggerated.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Females are the giants",
+      "text": "Females are far bigger than males: on average about 6 m long against about 3 m for males, and much heavier.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Periscope eyes",
+      "text": "Its eyes and nostrils sit on top of its head, so it can watch and breathe while the rest of its body stays hidden underwater.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Breeding balls",
+      "text": "Up to 13 males may coil around a single female in a writhing 'breeding ball', competing to mate with her for as long as a month. Afterwards she may eat one or more of her much smaller suitors.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Born alive and ready to swim",
+      "text": "Females do not lay eggs; they give birth in shallow water to live young, usually 20–40 of them, with a record of 82. Each newborn is about 68 cm long, and a pregnant female may go without food for up to seven months.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Two anacondas in one?",
+      "text": "In 2024 researchers named a Northern green anaconda, Eunectes akayima, arguing that genetic data show the 'green anaconda' is really two species that split about 10 million years ago. The proposal is still debated and has not yet been adopted by major checklists.",
+      "certainty": "hypothesis",
+      "ref": 4
+    }
+  ],
+  "references": [
+    {
+      "title": "Calderón, M. et al. (2021). Eunectes murinus. The IUCN Red List of Threatened Species 2021",
+      "publisher": "IUCN Red List",
+      "url": "https://doi.org/10.2305/IUCN.UK.2021-2.RLTS.T44580041A44580052.en"
+    },
+    {
+      "title": "Eunectes murinus (Linnaeus, 1758)",
+      "publisher": "GBIF",
+      "url": "https://www.gbif.org/species/5225712"
+    },
+    {
+      "title": "Green anaconda",
+      "publisher": "Smithsonian's National Zoo & Conservation Biology Institute",
+      "url": "https://nationalzoo.si.edu/animals/green-anaconda"
+    },
+    {
+      "title": "Eunectes murinus (green anaconda)",
+      "publisher": "Animal Diversity Web, University of Michigan",
+      "url": "https://animaldiversity.org/accounts/Eunectes_murinus/"
+    },
+    {
+      "title": "Rivas, J.A. et al. (2024). Description of the Northern Green Anaconda (Eunectes akayima sp. nov.): What Is in a Name? Diversity 16(7): 418",
+      "publisher": "Vrije Universiteit Amsterdam research portal",
+      "url": "https://research.vu.nl/en/publications/description-of-the-northern-green-anaconda-eunectes-akayima-sp-no/"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/green-anaconda/hero.webp",
+    "width": 1920,
+    "height": 1280,
+    "alt": "A thick olive-green anaconda with black oval spots and yellowish flanks lying in loose coils on a dry, leaf-strewn bank, its head resting on the ground at lower right",
+    "caption": "A green anaconda of more than 4 m on the Paraná Madeirinha, Amazonas, Brazil",
+    "creator": "Tserres34",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Green_Anaconda_-_Parana_Madeirinha_-_AZ.JPG",
+    "species": "Eunectes murinus",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "55% 60%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/green-anaconda/alt-1.webp",
+      "width": 1920,
+      "height": 1920,
+      "alt": "A young green anaconda coiled in a tight pile on dry leaves and twigs, its olive body marked with large round black spots and its head raised to show eyes set high on the skull",
+      "caption": "The bold spots and high-set eyes of a young green anaconda at Ilha Solteira, São Paulo, Brazil",
+      "creator": "Gabriel Augusto Faria",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eunectes_murinus_-_Gabriel_Augusto_Faria_-_601583394.jpeg",
+      "species": "Eunectes murinus",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "50% 55%",
+      "tone": "light"
+    },
+    {
+      "src": "/media/creatures/green-anaconda/alt-2.webp",
+      "width": 1920,
+      "height": 1440,
+      "alt": "Dense green grass with the dark, mottled head and neck of an anaconda just visible low on the right, almost hidden among the blades",
+      "caption": "Hard to spot: an anaconda moving through marsh grass near the Río Beni, Bolivia",
+      "creator": "Phil Whitehouse",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anaconda_head_Bolivia.jpg",
+      "species": "Eunectes murinus",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "75% 60%",
+      "tone": "light"
+    }
+  ],
+  "notes": "Taxonomy: GBIF's backbone places Squamata at class rank; the record uses class Reptilia, order Squamata (ITIS convention). Rivas et al. 2024 split off Eunectes akayima (northern green anaconda: Ecuadorian Amazon through Colombia and Venezuela to the Guianas); the split is disputed (e.g. by Dubois et al., reported second-hand, not checked) and E. akayima does not resolve in the GBIF backbone (checked Nov 2026), so this record treats E. murinus in the broad sense. Photos were deliberately chosen from the southern part of the range (Amazonas and São Paulo, Brazil; Beni, Bolivia), which is E. murinus under either taxonomy. The alt-1 location (Ilha Solteira, upper Paraná basin) is identified on iNaturalist as E. murinus; the round spots and lack of yellow ground colour rule out the yellow anaconda. Regions: only 'amazon' — green anacondas are reported from Paraguay, but I found no solid source for the Pantanal, where the yellow anaconda dominates. Biome set to 'wetland' because the species is aquatic, although the region is rainforest. The 250 kg maximum is from Smithsonian and ADW; ADW notes maximum size is 'the subject of much dispute'. IUCN DOI and GBIF links resolve in a browser but return 403 to scripted requests; IDs were checked via the GBIF API and Wikidata."
+}

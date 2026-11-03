@@ -1,4 +1,4 @@
-import type { Creature } from "./types";
+import type { OceanCreature } from "./types";
 
 export type ZoneSlug = "surface" | "twilight" | "midnight" | "abyssal" | "hadal";
 
@@ -33,7 +33,7 @@ const OVERRIDES: Record<string, ZoneSlug> = {
 };
 
 /** Representative depth: geometric mean of the range, which favours where an animal is usually found. */
-export function zoneOf(c: Pick<Creature, "slug" | "depthRange">): ZoneSlug {
+export function zoneOf(c: Pick<OceanCreature, "slug" | "depthRange">): ZoneSlug {
   if (OVERRIDES[c.slug]) return OVERRIDES[c.slug];
   const rep = Math.sqrt((c.depthRange.min + 1) * (c.depthRange.max + 1));
   return (ZONES.find((z) => rep < z.to) ?? ZONES[ZONES.length - 1]).slug;

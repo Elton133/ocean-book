@@ -1,0 +1,76 @@
+{
+  "extraReferences": [
+    { "title": "Leafy and weedy seadragon genomes connect genic and repetitive DNA features to the extravagant biology of syngnathid fishes. PNAS 119: e2119602119", "publisher": "Proceedings of the National Academy of Sciences", "authors": "Small, C.M. et al.", "year": 2022, "url": "https://doi.org/10.1073/pnas.2119602119" },
+    { "title": "The leafy seadragon, Phycodurus eques, a flagship species with low but structured genetic variability. Journal of Heredity 108: 152–162", "publisher": "Journal of Heredity", "authors": "Stiller, J., Wilson, N.G., Donnellan, S. & Rouse, G.W.", "year": 2017, "url": "https://doi.org/10.1093/jhered/esw075" },
+    { "title": "Using ultraconserved elements to track the influence of sea-level change on leafy seadragon populations. Molecular Ecology 30: 1364–1380", "publisher": "Molecular Ecology", "authors": "Stiller, J. et al.", "year": 2021, "url": "https://doi.org/10.1111/mec.15744" },
+    { "title": "Patterns of movement and habitat use by leafy seadragons tracked ultrasonically. Journal of Fish Biology 61: 684–695", "publisher": "Journal of Fish Biology", "authors": "Connolly, R.M., Melville, A.J. & Preston, K.M.", "year": 2002, "url": "https://doi.org/10.1111/j.1095-8649.2002.tb00904.x" },
+    { "title": "Abundance, movement and individual identification of leafy seadragons, Phycodurus eques (Pisces: Syngnathidae). Marine and Freshwater Research 53: 777–780", "publisher": "Marine and Freshwater Research", "authors": "Connolly, R.M., Melville, A.J. & Keesing, J.K.", "year": 2002, "url": "https://doi.org/10.1071/MF01168" }
+  ],
+  "anatomy": {
+    "lede": "Under the leaves is a seahorse-like fish: an armoured body of bony plates, a tube for a mouth, and fins so small and clear that it seems to drift rather than swim.",
+    "media": 0,
+    "hotspots": [
+      { "id": "snout", "label": "Snout", "x": 20, "y": 74, "text": "The long, thin, pipe-like snout has no teeth. It sucks in tiny prey whole, working much like a pipette.", "ref": 3 },
+      { "id": "face", "label": "Face", "x": 22, "y": 58, "text": "Markings on the face differ between individuals. Divers have used photographs of them to recognise the same seadragon for at least 11 months.", "ref": 9 },
+      { "id": "leaves", "label": "Leafy appendages", "x": 52, "y": 16, "text": "The leafy appendages are bony and stand away from the body, so scientists have been able to attach tracking tags to them without harming the fish.", "ref": 8 },
+      { "id": "spines", "label": "Spines", "x": 39, "y": 63, "text": "Each bony plate of the body carries a long, sharp spine that may help defend the seadragon.", "ref": 3 },
+      { "id": "dorsal-fin", "label": "Dorsal fin", "x": 60, "y": 35, "text": "A small, transparent dorsal fin on the back ripples to push the fish along. Seadragons have lost the tail fin and the pelvic fins.", "ref": 3 },
+      { "id": "tail", "label": "Tail", "x": 72, "y": 54, "text": "The tail makes up about half the total length. In males, eggs are carried attached to its underside.", "ref": 2 }
+    ],
+    "stats": [
+      { "value": "35 cm", "label": "Length, up to about", "ref": 1 },
+      { "value": "5 ha", "label": "Largest home range tracked", "ref": 8 },
+      { "value": "68 hours", "label": "Longest time seen without moving", "ref": 8 }
+    ]
+  },
+  "body": {
+    "lede": "Seadragons feed, defend themselves and breed in ways shared only with their seahorse and pipefish relatives.",
+    "systems": [
+      { "title": "No teeth, no stomach", "text": "Leafy seadragons have neither teeth nor a stomach, so they feed almost constantly on mysid shrimps, other small crustaceans and larval fish.", "certainty": "confirmed", "ref": 3 },
+      { "title": "A suit of bony plates", "text": "The body is covered in bony plates, each bearing a long, sharp spine, giving this fragile-looking fish a suit of armour.", "certainty": "confirmed", "ref": 3 },
+      { "title": "Male pregnancy", "text": "It is the male who carries the eggs, attached to a brood area on the underside of his tail, for the six to eight weeks until they hatch.", "certainty": "confirmed", "ref": 3 }
+    ]
+  },
+  "genome": {
+    "lede": "In 2022 researchers published chromosome-scale genomes of a male leafy seadragon and a female weedy seadragon, the first major genetic resources for these fish.",
+    "genomeGb": 0.64,
+    "refs": { "genome": 5 },
+    "sequenced": 2022,
+    "findings": [
+      { "title": "Missing growth-factor genes", "text": "Seadragons, seahorses and pipefishes have lost the genes fgf3 and fgf4, which other vertebrates use in forming teeth, limbs and skin outgrowths. This may be linked to their toothless jaws and unusual bony armour.", "certainty": "hypothesis", "ref": 5 },
+      { "title": "A genome full of repeats", "text": "Seadragon genomes are unusually dense in repetitive DNA, with recent bursts of 'jumping genes' (transposable elements). They also have divergent non-coding DNA near a developmental gene involved in skin outgrowths.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Two separate populations", "text": "DNA from 71 wild seadragons shows two main groups, one in Western Australia and one in South Australia. Genetic diversity is moderate to low, and especially low in the west.", "certainty": "confirmed", "ref": 6 }
+    ]
+  },
+  "mind": {
+    "lede": "Tracking and photo-identification show the leafy seadragon is a homebody, spending most of its time standing still in a small patch of reef and seagrass.",
+    "studies": [
+      { "year": "2002", "title": "Tracked by sound", "text": "Nine adults fitted with ultrasonic tags mostly stayed within home ranges of up to 5 ha. Short bursts of movement were separated by long still spells, by day or by night.", "certainty": "confirmed", "ref": 8 },
+      { "year": "2002", "title": "Known by their faces", "text": "Over 14 months, divers identified nine individuals from their facial markings and resighted them months apart in the same area, about 57 seadragons per hectare.", "certainty": "confirmed", "ref": 9 },
+      { "year": "Field", "title": "Seasonal gatherings", "text": "Seadragons are usually solitary and move into deeper water in winter. In late winter they gather in shallow bays to pair and mate.", "certainty": "confirmed", "ref": 3 }
+    ]
+  },
+  "survival": {
+    "lede": "A slow, fragile fish with few defences, the leafy seadragon survives by not being noticed.",
+    "tactics": [
+      { "title": "Hiding as seaweed", "text": "Leafy appendages, the ability to change colour and a gentle swaying motion make it look like drifting weed.", "certainty": "confirmed", "ref": 3 },
+      { "title": "Spines", "text": "Sharp spines on the bony plates may deter a predator that sees through the disguise.", "certainty": "hypothesis", "ref": 3 }
+    ],
+    "predators": [],
+    "threats": [
+      { "title": "Losing kelp and seagrass", "text": "The kelp and seagrass habitats seadragons need have been retreating throughout their range.", "certainty": "confirmed", "ref": 6 },
+      { "title": "Pollution and fishing", "text": "Coastal development, pollution and fertiliser runoff damage their habitat, and some are taken as bycatch or by poachers.", "certainty": "confirmed", "ref": 3 },
+      { "title": "Warming seas", "text": "Rising water temperatures from climate change may also affect them.", "certainty": "hypothesis", "ref": 3 }
+    ]
+  },
+  "life": {
+    "lede": "Seadragon life begins on the father's tail, and the young emerge looking nothing like their leafy parents.",
+    "stages": [
+      { "name": "Egg", "text": "The female lays 250–300 eggs, each about 4 mm across, onto the underside of the male's tail.", "ref": 3 },
+      { "name": "Brooding", "duration": "6–8 weeks", "text": "The male carries the eggs, each held in its own small cup in his skin, until they are ready to hatch.", "ref": 3 },
+      { "name": "Hatching", "duration": "hours to days", "text": "He releases only a few young at a time, so a whole brood can take hours or days to hatch.", "ref": 3 },
+      { "name": "Fry", "text": "Newborn fry have very short snouts and no leafy appendages, and stay close to the bottom for about two days.", "ref": 3 }
+    ],
+    "lifespan": { "value": "Possibly 7–10 years in the wild", "ref": 3 }
+  }
+}

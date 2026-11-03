@@ -1,0 +1,43 @@
+{
+  "extraReferences": [
+    { "title": "The 'Mimic Octopus' (Thaumoctopus mimicus n. gen. et sp.), a new octopus from the tropical Indo-West Pacific (Cephalopoda: Octopodidae). Molluscan Research 25: 57–70", "publisher": "Molluscan Research", "authors": "Norman, M.D. & Hochberg, F.G.", "year": 2005, "url": "https://doi.org/10.11646/mr.25.2.1" },
+    { "title": "Mimicry and foraging behaviour of two tropical sand-flat octopus species off North Sulawesi, Indonesia. Biological Journal of the Linnean Society 93: 23–38", "publisher": "Biological Journal of the Linnean Society", "authors": "Hanlon, R.T., Conroy, L.-A. & Forsythe, J.W.", "year": 2008, "url": "https://doi.org/10.1111/j.1095-8312.2007.00948.x" },
+    { "title": "The evolution of conspicuous facultative mimicry in octopuses: an example of secondary adaptation? Biological Journal of the Linnean Society 101: 68–77", "publisher": "Biological Journal of the Linnean Society", "authors": "Huffard, C.L., Saarman, N., Hamilton, H. & Simison, W.B.", "year": 2010, "url": "https://doi.org/10.1111/j.1095-8312.2010.01484.x" },
+    { "title": "Opportunistic mimicry by a jawfish. Coral Reefs 31: 285", "publisher": "Coral Reefs", "authors": "Rocha, L.A., Ross, R. & Kopp, G.", "year": 2011, "url": "https://doi.org/10.1007/s00338-011-0855-y" }
+  ],
+  "anatomy": {
+    "lede": "Long, thin arms and a boldly banded skin are the raw materials of the mimic octopus's disguises. The features that tell it apart from other octopuses are small details of pattern and sucker.",
+    "media": 0,
+    "hotspots": [
+      { "id": "eye", "label": "Eye horns", "x": 47, "y": 9, "text": "A small horn sticks up above each eye, which sits high on the head.", "ref": 2 },
+      { "id": "mantle", "label": "Mantle markings", "x": 45, "y": 43, "text": "Distinctive base markings include a white teardrop-shaped ring in the middle of the back and a white 'U' patch towards the rear of the mantle.", "ref": 3 },
+      { "id": "arms", "label": "Arms", "x": 30, "y": 72, "text": "The arms are long and narrow, and can be shed at a set point near the base, an escape trick known as autotomy.", "ref": 3 },
+      { "id": "bands", "label": "Bands", "x": 78, "y": 69, "text": "The high-contrast brown-and-white bands may copy a toxic sole, break up the animal's outline, or warn predators off.", "ref": 5 },
+      { "id": "suckers", "label": "Suckers", "x": 80, "y": 60, "text": "Unlike many octopuses, neither males nor females have any enlarged suckers.", "ref": 3 }
+    ],
+    "stats": [
+      { "value": "60 cm", "label": "Length including arms", "ref": 2 },
+      { "value": "0.5–37 m", "label": "Recorded depth", "ref": 3 },
+      { "value": "c. 500", "label": "Flounder impressions filmed in 5 days", "ref": 4 }
+    ]
+  },
+  "mind": {
+    "lede": "Field studies are trying to separate the mimic octopus's legend from what it actually does, and why.",
+    "studies": [
+      { "year": "2008", "title": "Mimicry when moving", "text": "Divers filmed mimic octopuses copying the shape, swimming style, speed and sometimes colour of local flounders, but only while moving across open sand, where movement would give away their camouflage.", "certainty": "confirmed", "ref": 4 },
+      { "year": "2008", "title": "Hunting by touch", "text": "Octopuses foraged twice a day, using two feeling-and-probing tactics to find hidden prey in the sand.", "certainty": "confirmed", "ref": 4 },
+      { "year": "2010", "title": "Where flatfish swimming came from", "text": "A family-tree study found that flatfish-style swimming appeared alongside very long arms in a group of sand-dwelling octopuses. The bold colours may have been added later.", "certainty": "hypothesis", "ref": 5 },
+      { "year": "2011", "title": "The mimic gets mimicked", "text": "Video from Indonesia showed a black-marble jawfish, coloured like the octopus's arms, swimming close beside a mimic octopus, probably to forage safely away from its burrow.", "certainty": "hypothesis", "ref": 6 }
+    ]
+  },
+  "survival": {
+    "lede": "Foraging by day on open sand, with nowhere to hide, the mimic octopus defends itself mainly by not looking like an octopus.",
+    "tactics": [
+      { "title": "Still: a sponge", "text": "When motionless it takes on shapes and patterns resembling small sponges, tube-worm tubes or sea squirts, among the few objects on the open sand.", "certainty": "confirmed", "ref": 4 },
+      { "title": "Moving: a flatfish", "text": "When it must travel, it switches to flounder mimicry as its first line of defence.", "certainty": "confirmed", "ref": 4 },
+      { "title": "Plan B", "text": "When fishes and mantis shrimps actually confronted it, the octopus used ordinary octopus defences rather than mimicry.", "certainty": "confirmed", "ref": 4 },
+      { "title": "Dropping an arm", "text": "Its arms can break off at a set point near the base, which may let it escape a predator's grip.", "certainty": "hypothesis", "ref": 3 }
+    ],
+    "predators": []
+  }
+}

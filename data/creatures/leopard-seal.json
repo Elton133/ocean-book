@@ -1,0 +1,120 @@
+{
+  "slug": "leopard-seal",
+  "realm": "ocean",
+  "commonName": "Leopard Seal",
+  "scientificName": "Hydrurga leptonyx",
+  "authority": "(Blainville, 1820)",
+  "aphiaId": 231417,
+  "taxonomy": { "phylum": "Chordata", "class": "Mammalia", "order": "Carnivora", "family": "Phocidae" },
+  "group": "Seal",
+  "categories": [],
+  "tagline": "The spotted hunter of the Antarctic pack ice",
+  "summary": "A long, sinuous, spotted seal with a huge head, at the top of the Antarctic food web. It eats almost anything from krill to penguins and young seals, sieving small prey through interlocking cheek teeth, and it roams thousands of kilometres between the pack ice and the subantarctic islands.",
+  "ability": "teeth that both seize penguins and sieve krill",
+  "stats": {
+    "size": "Females up to about 3.8 m and over 500 kg; males smaller, about 3 m and 300 kg",
+    "depth": "Usually short, shallow dives (on average about 30 m and 3 minutes); one dive recorded to 1,256 m",
+    "range": "Around Antarctica's pack ice and the Southern Ocean, reaching the subantarctic islands, especially in winter",
+    "diet": "Krill, fish, squid, penguins and other seabirds, and seals, including crabeater and fur seal pups",
+    "conservation": "IUCN: Least Concern (2015)"
+  },
+  "depthRange": { "min": 0, "max": 1256 },
+  "regions": ["southern-ocean"],
+  "facts": [
+    {
+      "title": "Bigger females",
+      "text": "Adult females measured at Cape Shirreff, Antarctic Peninsula, averaged 454 kg against 302 kg for males, about 50% heavier. That makes the leopard seal one of the most extreme cases of females outsizing males among marine mammals.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Two ways to eat",
+      "text": "Captive leopard seals catch small prey by suction, then force the water back out through their cheek teeth, whose cusps interlock to form a sieve. The same jaws seize and shake penguins.",
+      "certainty": "confirmed",
+      "ref": 4
+    },
+    {
+      "title": "A shallow diver, with one surprise",
+      "text": "Tagged adults at Cape Shirreff made dives averaging about 29 m and 3 minutes. One male, however, dived to 1,256 m for 25 minutes, far deeper than the previous record of 425 m.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Penguin specialists, sometimes",
+      "text": "Leopard seals are generalists, eating krill, fish, seals and penguins. At Bird Island, South Georgia, they have been estimated to take 16–20% of the small local gentoo penguin population.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Long-distance wanderers",
+      "text": "Seals tracked from Bird Island for an average of 294 days made trips of 100–500 km, some heading south to the pack ice, and travelled up to 1,950 km from the island. They spent about a quarter of their time hauled out.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Slender-clawed water-worker",
+      "text": "Its scientific name Hydrurga leptonyx translates as 'slender-clawed water-worker', fitting an animal far more agile in the water than on the ice.",
+      "certainty": "confirmed",
+      "ref": 5
+    }
+  ],
+  "references": [
+    { "title": "Hydrurga leptonyx (Blainville, 1820)", "publisher": "WoRMS", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=231417" },
+    { "title": "Hückstädt, L. (2015). Hydrurga leptonyx. The IUCN Red List of Threatened Species 2015: e.T10340A45226422", "publisher": "IUCN Red List", "url": "https://doi.org/10.2305/IUCN.UK.2015-4.RLTS.T10340A45226422.en", "year": 2015, "authors": "Hückstädt" },
+    { "title": "Kienle, S.S. et al. (2022). Plasticity in the morphometrics and movements of an Antarctic apex predator, the leopard seal. Frontiers in Marine Science 9: 976019", "publisher": "Frontiers in Marine Science", "url": "https://doi.org/10.3389/fmars.2022.976019", "year": 2022, "authors": "Kienle, Goebel, LaBrecque, Borras-Chavez et al." },
+    { "title": "Staniland, I.J. et al. (2018). Long term movements and activity patterns of an Antarctic marine apex predator: the leopard seal. PLOS ONE 13: e0197767", "publisher": "PLOS ONE (British Antarctic Survey study)", "url": "https://doi.org/10.1371/journal.pone.0197767", "year": 2018, "authors": "Staniland, Ratcliffe, Trathan & Forcada" },
+    { "title": "Hocking, D.P., Evans, A.R. & Fitzgerald, E.M.G. (2013). Leopard seals (Hydrurga leptonyx) use suction and filter feeding when hunting small prey underwater. Polar Biology 36: 211–222", "publisher": "Polar Biology", "url": "https://doi.org/10.1007/s00300-012-1253-9", "year": 2013, "authors": "Hocking, Evans & Fitzgerald" },
+    { "title": "Hydrurga leptonyx (leopard seal)", "publisher": "Animal Diversity Web, University of Michigan", "url": "https://animaldiversity.org/accounts/Hydrurga_leptonyx/" }
+  ],
+  "image": {
+    "src": "/media/creatures/leopard-seal/hero.webp",
+    "width": 1920,
+    "height": 1508,
+    "alt": "A pale grey, dark-spotted seal with a large, rounded head lies on its side on snow, looking towards the camera, one foreflipper resting on its body and another on the snow.",
+    "caption": "An adult leopard seal resting on snow-covered ice.",
+    "creator": "Gilad Rom",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hydrurga_leptonyx_on_ice.jpg",
+    "species": "Hydrurga leptonyx",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "62% 40%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/leopard-seal/alt-1.webp",
+      "width": 1920,
+      "height": 1080,
+      "alt": "A grey seal's head breaks the surface of blue-grey water, its open jaws and yellowed teeth clamped on a black-and-white penguin.",
+      "caption": "A leopard seal captures a gentoo penguin near Palmer Station, Antarctica, April 2009.",
+      "creator": "Sean Bonnette, National Science Foundation (U.S. Antarctic Program Photo Library)",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:GentooPenguinPredation.jpg",
+      "species": "Hydrurga leptonyx",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "50% 70%",
+      "tone": "dark"
+    },
+    {
+      "src": "/media/creatures/leopard-seal/alt-2.webp",
+      "width": 1920,
+      "height": 1440,
+      "alt": "A spotted leopard seal lying on its back on a dark sandy beach yawns hugely, showing a pink mouth lined with rows of jagged teeth, one foreflipper raised in the air.",
+      "caption": "A leopard seal yawning on the beach at Cooper Bay, South Georgia, December 2021.",
+      "creator": "Sastognuti",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seeleopard_(Hydrurga_leptonyx).jpg",
+      "species": "Hydrurga leptonyx",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "55% 50%",
+      "tone": "dark"
+    }
+  ],
+  "notes": "Taxonomy per WoRMS (AphiaID 231417). The IUCN page blocks scripted access; the 2015 assessment (Hückstädt, assessed 20 January 2015) was confirmed through Crossref and the Least Concern category through SeaLifeBase and other secondary sources. The British Antarctic Survey's own leopard seal page could not be loaded (bot protection), so the BAS-led tracking study at Bird Island (Staniland et al. 2018) is cited instead. The 1,256 m dive is a single record from one adult male; typical dives are shallow. Size: ADW gives females up to 3.8 m and 500 kg; Kienle et al. weighed a 540 kg female. The filter-feeding evidence comes from captive seals in Australia. Leopard seals also wander further north (Commons holds photographs from Petone Beach, New Zealand, and from southern Chile and Argentina), but only the Southern Ocean is mapped as their range. The hero photo's Commons page gives no location. Category shelves left empty: none of the ocean shelves fits without forcing."
+}

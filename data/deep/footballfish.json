@@ -1,0 +1,197 @@
+{
+  "extraReferences": [
+    {
+      "title": "Himantolophus. Footballfishes. Tree of Life Web Project",
+      "publisher": "Tree of Life Web Project",
+      "url": "https://tolweb.org/Himantolophus",
+      "year": 2007,
+      "authors": "Pietsch T.W."
+    },
+    {
+      "title": "Family Himantolophidae: Footballfishes, Prickly Deepsea Anglerfishes",
+      "publisher": "Fishes of Australia (Museums Victoria)",
+      "url": "https://fishesofaustralia.net.au/Home/family/181"
+    }
+  ],
+  "anatomy": {
+    "lede": "The female footballfish is a round, spiny body with a vast mouth and a glowing rod on its head. This preserved specimen shows her lure, but not its light.",
+    "media": 0,
+    "hotspots": [
+      {
+        "id": "illicium",
+        "label": "Fishing rod",
+        "x": 37.5,
+        "y": 24,
+        "text": "The rod, or illicium, is a modified fin spine. In this species it measures 28–54% of the body length.",
+        "ref": 3
+      },
+      {
+        "id": "esca",
+        "label": "Lure",
+        "x": 48,
+        "y": 16,
+        "text": "The bulb at the tip, the esca, holds glowing bacteria. Its size and shape vary more than in other deep-sea anglerfishes.",
+        "ref": 3
+      },
+      {
+        "id": "appendages",
+        "label": "Lure appendages",
+        "x": 56,
+        "y": 14,
+        "text": "Branched and unbranched tentacle-like appendages sprout from the bulb, with light-guiding appendages at its tip.",
+        "ref": 4
+      },
+      {
+        "id": "eye",
+        "label": "Tiny eye",
+        "x": 36.5,
+        "y": 42,
+        "text": "Females have small to tiny eyes, unlike the well-developed eyes of the males.",
+        "ref": 5
+      },
+      {
+        "id": "mouth",
+        "label": "Mouth",
+        "x": 26.5,
+        "y": 53,
+        "text": "The large, slanting mouth has a stout lower jaw that juts beyond the upper, lined with slender, curved teeth that fold inwards.",
+        "ref": 5
+      },
+      {
+        "id": "spine",
+        "label": "Skin spines",
+        "x": 43,
+        "y": 31,
+        "text": "Large conical spines are scattered over the head and body. The bumps are the bases of these spines, which may put off predators.",
+        "ref": 1
+      },
+      {
+        "id": "pectoral-fin",
+        "label": "Pectoral fin",
+        "x": 63.5,
+        "y": 59,
+        "text": "Footballfishes have no pelvic fins at all. The short dorsal and anal fins sit far back, near the tail.",
+        "ref": 5
+      }
+    ],
+    "stats": [
+      {
+        "value": "about 60 cm",
+        "label": "Largest females",
+        "ref": 3
+      },
+      {
+        "value": "about 4 cm",
+        "label": "Largest males",
+        "ref": 3
+      },
+      {
+        "value": "200–800 m",
+        "label": "Usual depth",
+        "ref": 3
+      },
+      {
+        "value": "18",
+        "label": "Footballfish species",
+        "ref": 4
+      }
+    ]
+  },
+  "senses": {
+    "lede": "Males and females are built for different jobs. Females wait in the dark; males must search it for a mate.",
+    "senses": [
+      {
+        "kind": "smell",
+        "name": "A male's nose",
+        "text": "Males have large smelling organs with nostrils facing sideways, and are thought to find females by smell.",
+        "certainty": "hypothesis",
+        "ref": 3
+      },
+      {
+        "kind": "sight",
+        "name": "A male's eyes",
+        "text": "Males have well-developed eyes, 5.5–8.7% of their body length across, and directed to the sides.",
+        "certainty": "confirmed",
+        "ref": 4
+      },
+      {
+        "kind": "sight",
+        "name": "A female's eyes",
+        "text": "Females have small to tiny eyes; instead of searching for food, they lure it to them.",
+        "certainty": "confirmed",
+        "ref": 5
+      }
+    ]
+  },
+  "body": {
+    "lede": "Everything about the female is designed to bring food to her mouth and keep it there.",
+    "systems": [
+      {
+        "title": "Borrowed light",
+        "text": "The lure does not make its own light. It glows because of living light-producing bacteria, Photobacterium, housed inside it.",
+        "certainty": "confirmed",
+        "ref": 1
+      },
+      {
+        "title": "A fluorescent lure?",
+        "text": "In a Pacific footballfish, the lure also showed fluorescence, the first recorded in a deep-sea anglerfish. Whether this helps attract prey or mates is unknown.",
+        "certainty": "hypothesis",
+        "ref": 1
+      },
+      {
+        "title": "Gripping without teeth",
+        "text": "Males have no jaw teeth. Instead, bony plates on the snout and chin carry 16–31 and 20–50 hooked denticles, used to grip a female temporarily.",
+        "certainty": "confirmed",
+        "ref": 4
+      }
+    ]
+  },
+  "survival": {
+    "lede": "Footballfishes are rarely seen alive; most of what is known comes from specimens caught in nets or found inside whales.",
+    "tactics": [
+      {
+        "title": "A trap of teeth",
+        "text": "Prey is whatever fits into the mouth, and backward-curving teeth stop it escaping.",
+        "certainty": "confirmed",
+        "ref": 3
+      },
+      {
+        "title": "Spiny skin",
+        "text": "The spines scattered over the body may deter predators.",
+        "certainty": "hypothesis",
+        "ref": 1
+      }
+    ],
+    "predators": [
+      "Sperm whales"
+    ]
+  },
+  "life": {
+    "lede": "Footballfishes start as tiny, round larvae near the surface and change shape completely before descending.",
+    "stages": [
+      {
+        "name": "Egg and larva",
+        "duration": "to about 2 cm",
+        "text": "Eggs and larvae drift in open water. The larvae are short and almost spherical, with puffed-up skin, and reach 17–22.5 mm.",
+        "ref": 4
+      },
+      {
+        "name": "Metamorphosis",
+        "duration": "at 20–33 mm",
+        "text": "Even as larvae, females can be told apart by a small club-shaped stub of the future rod on the head. Larvae transform into their adult shape at about 20–33 mm.",
+        "ref": 5
+      },
+      {
+        "name": "Free-living male",
+        "duration": "up to about 4 cm",
+        "text": "Males are free-living and never parasitic. They are thought to cling to a female only briefly, though no male has yet been found attached to one.",
+        "ref": 4
+      },
+      {
+        "name": "Female",
+        "text": "Females keep growing long after the males stop. The largest known female of this species, from south-west Greenland, measured about 46.5 cm in standard length; some sources give up to about 60 cm.",
+        "ref": 4
+      }
+    ]
+  }
+}

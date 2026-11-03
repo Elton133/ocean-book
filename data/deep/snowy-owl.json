@@ -1,0 +1,79 @@
+{
+  "extraReferences": [
+    { "title": "Centromeric satellite expansion drives genome evolution in the snowy owl. Genome Biology 27: 302", "publisher": "Genome Biology", "authors": "Baalsrud, H.T., Garmann-Aarhus, B., Enevoldsen, E.L.G. et al.", "year": 2026, "url": "https://doi.org/10.1186/s13059-026-04175-y" },
+    { "title": "Evolutionary new centromeres in the snowy owl genome putatively seeded from a transposable element (preprint)", "publisher": "bioRxiv", "authors": "Baalsrud, H.T., Garmann-Aarhus, B., Enevoldsen, E.L.G. et al.", "year": 2024, "url": "https://doi.org/10.1101/2024.07.05.602039" }
+  ],
+  "anatomy": {
+    "lede": "A snowy owl is a heavy, round-headed owl wrapped in dense white feathers, with forward-facing yellow eyes and a neck that lets it scan the open tundra without moving its body.",
+    "media": 1,
+    "hotspots": [
+      { "id": "crown", "label": "Head", "x": 35, "y": 30, "text": "Like other owls it can swivel its head about 270 degrees, three-quarters of the way round, to scan for prey.", "ref": 1 },
+      { "id": "eye", "label": "Eye", "x": 37.5, "y": 33, "text": "Bright yellow eyes face forwards. This owl hunts mostly in daylight, often watching from a post, rock or low rise.", "ref": 5 },
+      { "id": "bill", "label": "Bill", "x": 40.5, "y": 36, "text": "The black, hooked bill is largely hidden in the feathers of the face.", "ref": 5 },
+      { "id": "barring", "label": "Dark barring", "x": 45, "y": 48, "text": "White feathers are marked with dusky brown spots and bars. Females usually carry more markings, while some adults become almost pure white with age.", "ref": 1 },
+      { "id": "wingtips", "label": "Wing tips", "x": 63, "y": 61, "text": "The ends of the flight feathers are very soft and feathery, which helps the owl fly almost silently.", "ref": 5 }
+    ],
+    "stats": [
+      { "value": "63–73 cm", "label": "Length", "ref": 1 },
+      { "value": "about 1.7 m", "label": "Average wingspan", "ref": 1 },
+      { "value": "270°", "label": "Head rotation", "ref": 1 }
+    ]
+  },
+  "senses": {
+    "lede": "On the treeless tundra, a snowy owl watches by day and listens for what it cannot see.",
+    "senses": [
+      { "kind": "sight", "name": "Sight", "text": "Unusually for an owl, it hunts mainly by day, scanning open ground from a perch before swooping on prey.", "certainty": "confirmed", "ref": 1 },
+      { "kind": "hearing", "name": "Hearing", "text": "Sharp hearing lets it pinpoint a vole moving beneath the snow, then pounce and grab it without ever seeing it.", "certainty": "confirmed", "ref": 5 }
+    ]
+  },
+  "body": {
+    "lede": "Living year-round where winters are long and dark, the snowy owl's body is built for cold.",
+    "systems": [
+      { "title": "Feathers to the toes", "text": "The feathers on its legs and feet are more densely layered than in owls of warmer climates, insulating the feet against snow and ice.", "certainty": "confirmed", "ref": 5 },
+      { "title": "Quiet wings", "text": "Owl flight feathers have soft fringes and a velvety surface. A 2020 review suggests these mainly reduce the noise of feathers rubbing together as the wings move.", "certainty": "hypothesis", "ref": 4 },
+      { "title": "A big appetite", "text": "An owl needs several lemmings or voles a day just to survive, and a family with chicks can eat dozens a day.", "certainty": "confirmed", "ref": 5 }
+    ]
+  },
+  "genome": {
+    "lede": "A chromosome-level snowy owl genome, from a captive-bred female, was shared as a preprint in 2024 and published in 2026. It turned out to be one of the most repeat-rich bird genomes known.",
+    "diploid": 82,
+    "genomeGb": 1.6,
+    "refs": { "diploid": 7, "genome": 6 },
+    "sequenced": 2026,
+    "findings": [
+      { "title": "Unusually full of repeats", "text": "About 28% of the snowy owl genome is repetitive DNA, compared with an average of around 10% in other birds — among the highest share reported for any bird.", "certainty": "confirmed", "ref": 6 },
+      { "title": "Giant centromere arrays", "text": "Most of these repeats are satellite DNA at the centromeres, forming large blocks on several chromosomes — one of the biggest centromere expansions found in birds.", "certainty": "confirmed", "ref": 6 },
+      { "title": "New centromeres, new species?", "text": "The owl's centromeres sit in different places from the chicken's, at points where chromosomes have been rearranged. The authors suggest this rapid change may have helped the snowy owl become a separate species.", "certainty": "hypothesis", "ref": 6 }
+    ]
+  },
+  "mind": {
+    "lede": "Mostly solitary outside the breeding season, snowy owls communicate with displays and a surprising range of calls.",
+    "studies": [
+      { "year": "Field", "title": "Courtship displays", "text": "Males court and threaten with displays both in the air and on the ground.", "certainty": "confirmed", "ref": 1 },
+      { "year": "Field", "title": "Many voices", "text": "Males hoot, mainly to defend territory. Both sexes also give barking 'rick, rick, rick' and 'kre kre kre' calls, mews and hisses, especially when disturbed near the nest.", "certainty": "confirmed", "ref": 1 },
+      { "year": "Field", "title": "Sit and wait", "text": "Snowy owls usually hunt from posts, rocks or the ground, watching quietly. They also snatch fish from the water's surface and even catch prey while walking.", "certainty": "confirmed", "ref": 5 }
+    ]
+  },
+  "survival": {
+    "lede": "Adults have few enemies, but eggs and chicks on an open tundra nest are exposed.",
+    "tactics": [
+      { "title": "A guard on duty", "text": "While the female incubates and broods, the male stands guard near the nest.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Dive-bombs and decoys", "text": "Both parents dive at approaching predators and use distraction displays to lure them away from the nest.", "certainty": "confirmed", "ref": 1 }
+    ],
+    "predators": ["Arctic foxes (eggs and chicks)", "Wolves", "Jaegers", "Gulls (eggs and chicks)"],
+    "threats": [
+      { "title": "Collisions and shooting", "text": "Common causes of death include collisions with vehicles, power lines and aircraft, shooting, electrocution and entanglement in fishing gear.", "certainty": "confirmed", "ref": 1 },
+      { "title": "A warming Arctic", "text": "Climate change may be one of the biggest threats, as the Arctic is warming almost twice as fast as the global average.", "certainty": "hypothesis", "ref": 5 }
+    ]
+  },
+  "life": {
+    "lede": "A snowy owl's breeding year depends on lemmings: in good years a pair raises a large brood, in poor years it may not breed at all.",
+    "stages": [
+      { "name": "Egg", "duration": "about 32 days", "text": "The female lays an egg about every two days; a clutch can reach 16 eggs when prey is extremely abundant.", "ref": 1 },
+      { "name": "Nestling", "duration": "2–4 weeks", "text": "Chicks hatch roughly a day or two apart, so a brood ranges widely in size. They leave the nest on foot at 14–26 days, before they can fly.", "ref": 1 },
+      { "name": "Fledgling", "duration": "to about 8 weeks and beyond", "text": "Young owls master flight at about eight weeks old, and parents keep feeding them for several weeks until they can hunt.", "ref": 5 },
+      { "name": "Adult", "duration": "from about 2 years", "text": "Young owls are thought to be ready to breed at about two years old.", "ref": 5 }
+    ],
+    "lifespan": { "value": "Oldest known wild bird at least 9 years 5 months; 28 years in captivity", "ref": 1 }
+  }
+}

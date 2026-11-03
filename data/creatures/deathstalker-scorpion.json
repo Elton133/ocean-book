@@ -1,0 +1,161 @@
+{
+  "slug": "deathstalker-scorpion",
+  "realm": "land",
+  "commonName": "Deathstalker Scorpion",
+  "scientificName": "Leiurus quinquestriatus",
+  "authority": "(Ehrenberg, 1828)",
+  "gbifId": 6893601,
+  "taxonomy": {
+    "phylum": "Arthropoda",
+    "class": "Arachnida",
+    "order": "Scorpiones",
+    "family": "Buthidae"
+  },
+  "group": "Scorpion",
+  "categories": [
+    "venomous",
+    "nocturnal",
+    "desert-survivors"
+  ],
+  "tagline": "A pale yellow hunter whose venom is both feared and medically useful",
+  "summary": "The deathstalker is a slender, straw-yellow scorpion of the deserts along the Nile, active at night and among the most medically important scorpions in its region. Its venom is a cocktail of nerve toxins, one of which, chlorotoxin, has been turned into a 'tumour paint' that makes cancer cells glow during surgery.",
+  "ability": "potent neurotoxic venom",
+  "stats": {
+    "size": "Adults about 69–90 mm long",
+    "habitat": "Stony and gravel desert, hiding under rocks and in burrows; not in sand dunes",
+    "range": "Egypt and Sudan, as revised in 2014; older records across North Africa and the Middle East now partly belong to other species",
+    "diet": "Insects, spiders, centipedes and other scorpions",
+    "conservation": "Not evaluated by the IUCN Red List"
+  },
+  "regions": [
+    "sahara-arabia"
+  ],
+  "biome": "desert",
+  "facts": [
+    {
+      "title": "One name, several species",
+      "text": "A 2014 revision of the genus Leiurus split the old, wide-ranging deathstalker into several species. L. quinquestriatus in the strict sense is now confirmed from Egypt and Sudan, while scorpions from Israel and the Levant became L. hebraeus and several Arabian populations were described as new species.",
+      "certainty": "confirmed",
+      "ref": 0
+    },
+    {
+      "title": "Dangerous, especially to children",
+      "text": "Its venom is very potent and it causes deaths every year. Most stings cause only local pain, but symptoms depend on body weight, so the venom is most dangerous to small children.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "A toxin that blocks chloride channels",
+      "text": "In 1993 researchers purified chlorotoxin from deathstalker venom: a small peptide that blocks chloride channels in cells and is toxic to arthropods.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Tumour paint",
+      "text": "Chlorotoxin binds to many kinds of cancer cell. Linked to a near-infrared dye, it lit up brain tumours and other cancers in mice, down to clusters of a few hundred cells — the basis of 'tumour paint' for guiding surgeons.",
+      "certainty": "confirmed",
+      "ref": 4
+    },
+    {
+      "title": "Hunter of the night",
+      "text": "It spends the day under stones or in burrows, sometimes digging its own about 20 cm down, and comes out at night to hunt — a way of saving water as well as avoiding the heat.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "Born alive",
+      "text": "Females give birth to live young rather than laying eggs. Older records report broods averaging about 60 after a gestation of several months, though these may include scorpions now placed in other Leiurus species.",
+      "certainty": "uncertain",
+      "ref": 1
+    }
+  ],
+  "references": [
+    {
+      "title": "A review of the genus Leiurus Ehrenberg, 1828 (Scorpiones: Buthidae) with description of four new species from the Arabian Peninsula",
+      "publisher": "Euscorpius 191: 1–129",
+      "authors": "Lowe G, Yağmur EA, Kovařík F",
+      "year": 2014,
+      "url": "https://doi.org/10.18590/euscorpius.2014.vol2014.iss191.1"
+    },
+    {
+      "title": "Leiurus quinquestriatus (deathstalker)",
+      "publisher": "Animal Diversity Web, University of Michigan",
+      "url": "https://animaldiversity.org/accounts/Leiurus_quinquestriatus/"
+    },
+    {
+      "title": "Leiurus quinquestriatus",
+      "publisher": "The Scorpion Files, NTNU University Library",
+      "url": "https://www.ntnu.no/ub/scorpion-files/l_quinquestriatus.php"
+    },
+    {
+      "title": "Purification and characterization of chlorotoxin, a chloride channel ligand from the venom of the scorpion",
+      "publisher": "American Journal of Physiology 264: C361–C369",
+      "authors": "DeBin JA, Maggio JE, Strichartz GR",
+      "year": 1993,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8383429/"
+    },
+    {
+      "title": "Tumor paint: a chlorotoxin:Cy5.5 bioconjugate for intraoperative visualization of cancer foci",
+      "publisher": "Cancer Research 67: 6882–6888",
+      "authors": "Veiseh M et al.",
+      "year": 2007,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17638899/"
+    },
+    {
+      "title": "Leiurus quinquestriatus (Ehrenberg, 1828)",
+      "publisher": "GBIF",
+      "url": "https://www.gbif.org/species/6893601"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/deathstalker-scorpion/hero.webp",
+    "width": 1920,
+    "height": 1280,
+    "alt": "A pale yellow scorpion with slim pincers and a raised, segmented tail ending in a dark-tipped sting, standing on grey speckled rock",
+    "caption": "A sub-adult female deathstalker, its slim pincers and arched tail typical of the genus",
+    "creator": "RichardMcJimsey",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leiurusquinquestriatus.jpg",
+    "species": "Leiurus quinquestriatus",
+    "type": "photograph",
+    "setting": "captive",
+    "focal": "50% 45%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/deathstalker-scorpion/alt-1.webp",
+      "width": 1920,
+      "height": 1402,
+      "alt": "A yellow-brown scorpion on gravel next to the pale, empty, translucent skin it has just moulted",
+      "caption": "A captive deathstalker beside the skin it has just shed",
+      "creator": "Tola Kokoza",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:L_quinquestriatus.jpg",
+      "species": "Leiurus quinquestriatus",
+      "type": "photograph",
+      "setting": "captive",
+      "focal": "55% 50%",
+      "tone": "light"
+    },
+    {
+      "src": "/media/creatures/deathstalker-scorpion/alt-2.webp",
+      "width": 1920,
+      "height": 1652,
+      "alt": "Hand-coloured 19th-century engraving of a yellow scorpion seen from above, its long segmented tail stretched out diagonally and pincers held forward, on a white background",
+      "caption": "Androctonus quinquestriatus, as the deathstalker was then called, from C. L. Koch's Die Arachniden (1841)",
+      "creator": "Carl Ludwig Koch",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old-100-expired",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Koch_1841_Die_Arachniden_fig._622_Androctonus_quinquestriatus.jpg",
+      "species": "Leiurus quinquestriatus",
+      "type": "illustration",
+      "setting": "illustration",
+      "focal": "50% 50%",
+      "tone": "light"
+    }
+  ],
+  "notes": "Taxonomy: Lowe, Yağmur & Kovařík 2014 (Euscorpius 191) restored L. brachycentrus, raised L. hebraeus to species and described L. arabicus, L. haenggii, L. heberti and L. macroctenus from Arabia. Their treatment gives L. quinquestriatus s.str. distribution as 'Egypt, Sudan' (69–90 mm adults) and explicitly leaves records from Libya, Algeria and southern Sinai unrevised. So range is stated as Egypt and Sudan, with regions only sahara-arabia; the Scorpion Files page still lists a broad pre-revision range (Algeria to Saudi Arabia), and ADW's 80–110 mm size and brood data are pre-revision, hence the 'uncertain' birth fact. Chlorotoxin (DeBin 1993) was purified from venom sold as 'L. quinquestriatus' before the split; the exact population is not stated. Charybdotoxin and agitoxin come from L. q. hebraeus (now L. hebraeus), so they are deliberately not credited here. No 'apex-predators' category. Images: many Commons photos labelled L. quinquestriatus were taken in the Negev, Israel — after 2014 those are L. hebraeus, so none were used. The hero and alt-1 are captive animals labelled L. quinquestriatus by their photographers with no locality, so identity follows the uploaders' labels and cannot be checked against the 2014 diagnosis; the hero's 'captive' setting is inferred (no locality, studio-style shot). alt-2 is Koch's 1841 engraving, which predates the revision. LD50 figures (0.16–0.50 mg/kg per Scorpion Files) were not used because test route and species concept are unclear. No IUCN evaluation (ADW: not evaluated by IUCN or CITES)."
+}

@@ -1,0 +1,87 @@
+{
+  "extraReferences": [
+    { "title": "Tursiops truncatus (bottlenose dolphin)", "publisher": "Animal Diversity Web, University of Michigan", "url": "https://animaldiversity.org/accounts/Tursiops_truncatus/" },
+    { "title": "Bruck, J.N. (2013). Decades-long social memory in bottlenose dolphins. Proceedings of the Royal Society B 280: 20131726", "publisher": "Proceedings of the Royal Society B", "url": "https://doi.org/10.1098/rspb.2013.1726", "year": 2013, "authors": "Bruck" },
+    { "title": "Brookwell, R., Finlayson, K. & van de Merwe, J.P. (2021). A comparative analysis of the karyotypes of three dolphins – Tursiops truncatus, Tursiops australis and Grampus griseus. Comparative Cytogenetics 15(1): 53–63", "publisher": "Comparative Cytogenetics", "url": "https://doi.org/10.3897/compcytogen.v15.i1.60398", "year": 2021, "authors": "Brookwell, Finlayson & van de Merwe" },
+    { "title": "Martinez-Viaud, K.A. et al. (2019). New de novo assembly of the Atlantic bottlenose dolphin (Tursiops truncatus) improves genome completeness and provides haplotype phasing. GigaScience 8(3): giy168", "publisher": "GigaScience", "url": "https://doi.org/10.1093/gigascience/giy168", "year": 2019, "authors": "Martinez-Viaud, Lawley, Martinez Vergara et al." },
+    { "title": "Tursiops truncatus genome assembly mTurTru1.mat.Y (GCF_011762595.2)", "publisher": "NCBI Datasets (Vertebrate Genomes Project)", "url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_011762595.2/" }
+  ],
+  "anatomy": {
+    "lede": "Every part of a bottlenose dolphin is shaped for life in water: a smooth, torpedo-shaped body with no hair, no external ears and no hind limbs, steered by flippers and a tall fin.",
+    "media": 0,
+    "hotspots": [
+      { "id": "rostrum", "label": "Beak (rostrum)", "x": 52, "y": 8, "text": "Like all modern whales and dolphins, its skull is 'telescoped': the jaws are drawn out into a tapering beak and the nostrils have moved to the top of the head, so it can breathe while swimming.", "ref": 6 },
+      { "id": "jaw", "label": "Toothed jaws", "x": 47, "y": 17, "text": "The teeth grip slippery prey but do no chewing; fish are swallowed whole, head first.", "ref": 1 },
+      { "id": "flipper", "label": "Flipper", "x": 48, "y": 40, "text": "The front limbs are flippers, used with the dorsal fin and tail flukes for steering and swimming.", "ref": 6 },
+      { "id": "dorsal-fin", "label": "Dorsal fin", "x": 16, "y": 32, "text": "The dorsal fin is tall and curved and sits near the middle of the back.", "ref": 6 },
+      { "id": "body", "label": "Streamlined body", "x": 30, "y": 55, "text": "A fusiform, hairless body reduces turbulence, letting the dolphin cruise at speed. The back is dark to light grey and the belly white, sometimes faintly pink.", "ref": 6 }
+    ],
+    "stats": [
+      { "value": "up to 4 m", "label": "Length (13 ft)", "ref": 1 },
+      { "value": "up to 635 kg", "label": "Weight (1,400 lb)", "ref": 1 },
+      { "value": "30 km/h", "label": "Top swimming speed", "ref": 6 },
+      { "value": "1,000 m", "label": "Deepest recorded dive (Bermuda)", "ref": 3 }
+    ]
+  },
+  "senses": {
+    "lede": "In water that is often murky or dark, the bottlenose dolphin lives in a world of sound, and it keeps in close physical contact with its companions.",
+    "senses": [
+      { "kind": "echolocation", "name": "Echolocation", "text": "It sends out high-frequency clicks and listens for the echoes to find prey, a sense humans lack entirely.", "vsHuman": "absent in us", "certainty": "confirmed", "ref": 1 },
+      { "kind": "hearing", "name": "Passive listening", "text": "Dolphins also find prey simply by listening for the sounds fish make, without clicking, and use sound to communicate with their group.", "certainty": "confirmed", "ref": 1 },
+      { "kind": "touch", "name": "Touch", "text": "Gentle body contact such as rubbing is a regular part of social life, alongside play and aggression.", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "body": {
+    "lede": "A warm-blooded, air-breathing mammal that lives its whole life at sea needs special plumbing for warmth, sleep and breath-holding.",
+    "systems": [
+      { "title": "Keeping warm", "text": "Blubber, a body large relative to its surface, and vascular shunts that cool chosen organs keep its temperature steady. Its metabolism rises if the water drops below about 13 °C or climbs above 28 °C.", "certainty": "confirmed", "ref": 6 },
+      { "title": "Half-asleep", "text": "A dolphin must surface to breathe, so it rests one side of its brain at a time while slowing down, staying conscious enough to breathe and react.", "certainty": "confirmed", "ref": 6 },
+      { "title": "Holding its breath", "text": "From thousands of tagged dives off Bermuda, researchers estimated that adults can stay down for about 9–11 minutes before needing extra recovery time near the surface.", "certainty": "confirmed", "ref": 3 }
+    ]
+  },
+  "genome": {
+    "lede": "The bottlenose dolphin has one of the best-studied genomes of any marine mammal, used in research on metabolism and ageing.",
+    "diploid": 44,
+    "genomeGb": 2.4,
+    "refs": { "diploid": 8, "genome": 9 },
+    "sequenced": 2019,
+    "findings": [
+      { "title": "Two parents, two genomes", "text": "A 2019 assembly from a 36-year-old female improved on the earlier reference genome and was the first for the species to separate the copies inherited from each parent.", "certainty": "confirmed", "ref": 9 },
+      { "title": "Chromosome by chromosome", "text": "The Vertebrate Genomes Project has since produced a chromosome-level assembly of about 2.38 billion base pairs.", "certainty": "confirmed", "ref": 10 },
+      { "title": "A conserved karyotype", "text": "Bottlenose dolphins have 44 chromosomes, the same number as the related Burrunan dolphin and Risso's dolphin.", "certainty": "confirmed", "ref": 8 }
+    ]
+  },
+  "mind": {
+    "lede": "Experiments and decades of field study have made the bottlenose dolphin a standard example of animal intelligence.",
+    "studies": [
+      { "year": "2001", "title": "Recognising itself", "text": "Two dolphins marked with ink went to a mirror and twisted to inspect the marks, evidence of mirror self-recognition.", "certainty": "confirmed", "ref": 5 },
+      { "year": "2006", "title": "Names without voices", "text": "Dolphins recognised synthetic versions of familiar signature whistles with every feature of the caller's voice removed, showing the whistle's shape alone carries identity.", "certainty": "confirmed", "ref": 4 },
+      { "year": "2013", "title": "Twenty years of memory", "text": "Playback of the whistles of former tank mates showed dolphins recognise companions they have not heard for at least 20 years.", "certainty": "confirmed", "ref": 7 },
+      { "year": "Field", "title": "Hunting plans", "text": "Wild dolphins herd fish into tight balls, take turns charging the school, and pin prey against sandbars and seawalls.", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "survival": {
+    "lede": "Safety for a bottlenose dolphin lies in its group.",
+    "tactics": [
+      { "title": "Shifting groups", "text": "Dolphins live in fission–fusion societies: groups from a few animals to more than 100 split and re-form, and adult males often travel in strongly bonded pairs.", "certainty": "confirmed", "ref": 6 },
+      { "title": "Shared babysitting", "text": "Females in a group help care for each other's calves and protect them from predators.", "certainty": "confirmed", "ref": 6 },
+      { "title": "Helping the injured", "text": "Dolphins have been seen supporting injured companions at the surface and guarding them from threats.", "certainty": "confirmed", "ref": 6 }
+    ],
+    "predators": ["Sharks"],
+    "threats": [
+      { "title": "Fishing gear", "text": "Bycatch and entanglement in gillnets, trawls, traps and recreational lines are major threats.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Polluted coasts", "text": "Harmful algal blooms, chemical contaminants such as PCBs and oil spills harm coastal dolphins.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Boats and noise", "text": "Vessel strikes, illegal feeding and harassment, and ocean noise also take a toll.", "certainty": "confirmed", "ref": 1 }
+    ]
+  },
+  "life": {
+    "lede": "A bottlenose dolphin grows up slowly, with one of the longest childhoods in the sea.",
+    "stages": [
+      { "name": "Pregnancy", "duration": "about 12 months", "text": "A single calf is born after a year-long pregnancy, often in warmer months.", "ref": 1 },
+      { "name": "Calf", "duration": "nursing about 20 months", "text": "Newborns are 84–140 cm long and 14–20 kg. A calf swims in 'baby position' in its mother's slipstream, which makes nursing easier and reduces drag.", "ref": 6 },
+      { "name": "Youngster", "duration": "3–6 years with mother", "text": "Calves usually stay with their mothers for three to six years.", "ref": 1 },
+      { "name": "Adult", "duration": "mature at 5–15 years", "text": "Females can mature before males. Mothers calve every three to six years, and females as old as 45 have given birth.", "ref": 1 }
+    ],
+    "lifespan": { "value": "40–60 years; females can outlive males", "ref": 1 }
+  }
+}

@@ -1,8 +1,10 @@
 import raw from "@/data/catalogue.generated.json";
 import { octopus, octopusPages } from "@/data/books/giant-pacific-octopus";
-import type { Book, Creature, PageSpec } from "./types";
+import films from "@/data/films.json";
+import type { Book, Creature, Film, LandCreature, MediaAsset, OceanCreature, PageSpec, RegionSlug } from "./types";
 import { buildDefaultPages } from "./book-builder";
-import { zoneOf, type ZoneSlug } from "./zones";
+import { zoneBySlug, zoneOf, type ZoneSlug } from "./zones";
+import { oceanRegionsOf, regionBySlug } from "./world";
 
 /** Hand-authored books take precedence over the generated default layout. */
 const AUTHORED: Record<string, { creature: Creature; pages: PageSpec[] }> = {
@@ -27,7 +29,7 @@ const RELATED_BY_SLUG: Record<string, string[]> = {
 function relatedFor(creature: Creature) {
   const curated = (RELATED_BY_SLUG[creature.slug] ?? []).map(getCreature).filter(Boolean) as Creature[];
   const scored = creatures
-    .filter((c) => c.slug !== creature.slug && !curated.includes(c))
+    .filter((c) => c.slug !== creature.slug && c.realm === creature.realm && !curated.includes(c))
     .map((c) => ({
       c,
       score:
@@ -46,20 +48,66 @@ export function getBook(slug: string): Book | undefined {
   if (!creature) return undefined;
   return {
     creature,
-    zone: zoneOf(creature),
+    film: (films as Record<string, Film | null>)[slug] ?? null,
+    zone: creature.realm === "ocean" ? zoneOf(creature) : null,
     pages: authored?.pages ?? buildDefaultPages(creature),
     related: relatedFor(creature),
   };
 }
 
-/** Lightweight records for the library and search, safe to send to the client. */
+/** One slide of the landing-page showcase. */
+export interface ShowcaseSlide {
+  slug: string;
+  commonName: string;
+  scientificName: string;
+  realm: Creature["realm"];
+  /** Where it lives: a region on land, a depth zone at sea. */
+  place: string;
+  image: MediaAsset;
+}
+
+/** Animals for the landing page, in the order given, skipping any without a photograph. */
+export function showcase(slugs: string[]): ShowcaseSlide[] {
+  return slugs
+    .map(getCreature)
+    .filter((c): c is Creature & { image: MediaAsset } => !!c?.image)
+    .map((c) => ({
+      slug: c.slug,
+      commonName: c.commonName,
+      scientificName: c.scientificName,
+      realm: c.realm,
+      place: c.realm === "land" ? (regionBySlug(c.regions[0])?.name ?? "") : zoneBySlug(zoneOf(c)).name,
+      image: c.image,
+    }));
+}
+
+/** Land volumes for the landing page, grouped by habitat on the client. */
+export type LandEntry = Pick<LandCreature, "slug" | "commonName" | "scientificName" | "biome" | "regions" | "categories" | "tagline" | "image" | "flight">;
+
+export function landIndex(): LandEntry[] {
+  return creatures
+    .filter((c): c is LandCreature => c.realm === "land")
+    .map(({ slug, commonName, scientificName, biome, regions, categories, tagline, image, flight }) => ({
+      slug,
+      commonName,
+      scientificName,
+      biome,
+      regions,
+      categories,
+      tagline,
+      image,
+      ...(flight ? { flight } : {}),
+    }));
+}
+
+/** Lightweight records for the ocean library and search, safe to send to the client. */
 export type LibraryEntry = Pick<
-  Creature,
+  OceanCreature,
   "slug" | "commonName" | "scientificName" | "group" | "categories" | "tagline" | "ability" | "taxonomy" | "image" | "depthRange"
-> & { pageCount: number; zone: ZoneSlug };
+> & { pageCount: number; zone: ZoneSlug; oceans: RegionSlug[] };
 
 export function libraryIndex(): LibraryEntry[] {
-  return creatures.map((c) => ({
+  return creatures.filter((c): c is OceanCreature => c.realm === "ocean").map((c) => ({
     slug: c.slug,
     commonName: c.commonName,
     scientificName: c.scientificName,
@@ -71,6 +119,7 @@ export function libraryIndex(): LibraryEntry[] {
     image: c.image,
     depthRange: c.depthRange,
     zone: zoneOf(c),
+    oceans: oceanRegionsOf(c),
     pageCount: (AUTHORED[c.slug]?.pages ?? buildDefaultPages(c)).length,
   }));
 }

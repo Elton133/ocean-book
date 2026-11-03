@@ -1,0 +1,47 @@
+{
+  "extraReferences": [
+    { "title": "Histologic examination of a sea pig (Scotoplanes sp.) using bright field light microscopy. Journal of Marine Science and Engineering 9: 848", "publisher": "Journal of Marine Science and Engineering", "authors": "LaDouceur, E.E.B., Kuhnz, L.A., Biggs, C. et al.", "year": 2021, "url": "https://doi.org/10.3390/jmse9080848" },
+    { "title": "Feeding selectivity and rapid particle processing by deep-sea megafaunal deposit feeders: a 234Th tracer approach. Journal of Marine Research 58: 653–673", "publisher": "Journal of Marine Research", "authors": "Miller, R.J., Smith, C.R., DeMaster, D.J. & Fornes, W.L.", "year": 2000, "url": "https://doi.org/10.1357/002224000321511061" },
+    { "title": "Symbiosis between the holothurian Scotoplanes sp. A and the lithodid crab Neolithodes diomedeae on a featureless bathyal sediment plain. Marine Ecology 38: e12396", "publisher": "Marine Ecology", "authors": "Barry, J.P., Taylor, J.R., Kuhnz, L.A. & De Vogelaere, A.P.", "year": 2016, "url": "https://doi.org/10.1111/maec.12396" },
+    { "title": "Genomic, spatial, and evolutionary insights into a dominant Mycoplasmatota symbiont colonizing the body wall of deep-sea holothurians (preprint)", "publisher": "bioRxiv", "authors": "Yoshida, Nishimura, Itoh, Hasegawa-Takano, Takano et al.", "year": 2026, "url": "https://doi.org/10.64898/2026.08.10.742674" },
+    { "title": "Scotoplanes globosa genome assembly ASM2757502v1 (GCA_027575025.1), Iridian Genomes", "publisher": "NCBI Datasets", "year": 2023, "url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_027575025.1/" },
+    { "title": "Complete mitochondrial genome sequences of a deep-sea holothurian species of the genus Scotoplanes (Elasipodida: Elpidiidae). Mitochondrial DNA Part B 4: 112–113", "publisher": "Mitochondrial DNA Part B", "authors": "Takano, T., Ijichi, M., Itoh, H. et al.", "year": 2018, "url": "https://doi.org/10.1080/23802359.2018.1536462" },
+    { "title": "The mitogenomes of two species of sea pigs, Scotoplanes clarki and Protelpidia murrayi (Elasipodida: Holothuroidea: Echinodermata). Mitochondrial DNA Part B 9: 1664–1668", "publisher": "Mitochondrial DNA Part B", "authors": "Morey, K. & Rouse, G.W.", "year": 2024, "url": "https://doi.org/10.1080/23802359.2024.2438272" }
+  ],
+  "anatomy": {
+    "lede": "A sea pig is a sea cucumber rebuilt for walking: its tube feet have become legs, its back sprouts tall flexible papillae, and a ring of tentacles at the front shovels up mud.",
+    "media": 0,
+    "hotspots": [
+      { "id": "tentacles", "label": "Feeding tentacles", "x": 43, "y": 67, "text": "Ten tentacles surround the mouth, their surface deeply folded. They gather mud and fresh detritus from the seafloor.", "ref": 3 },
+      { "id": "papilla-front", "label": "Dorsal papilla", "x": 31, "y": 46, "text": "The long projections on the back are papillae. Under the microscope they resemble tube feet, each with a large muscular water canal running through the middle.", "ref": 3 },
+      { "id": "papillae-back", "label": "Papillae", "x": 37, "y": 24, "text": "Papillae rise from the upper side of the body, giving the sea pig its odd, horned outline.", "ref": 3 },
+      { "id": "body", "label": "See-through body", "x": 47, "y": 37, "text": "The body is pale and translucent, which is why MBARI calls sea pigs 'see-through sea cucumbers'.", "ref": 1 },
+      { "id": "legs", "label": "Walking tube feet", "x": 59, "y": 42, "text": "Six pairs of greatly enlarged tube feet grow from the sides of the body and point downwards for walking, holding the body above the soft mud.", "ref": 3 },
+      { "id": "crab", "label": "Juvenile king crab", "x": 51.5, "y": 48, "text": "A young king crab sheltering underneath. Off central California, 22% of nearly 2,600 sea pigs observed had at least one juvenile crab with them.", "ref": 5 }
+    ],
+    "stats": [
+      { "value": "up to 17 cm", "label": "Length", "ref": 1 },
+      { "value": "6 pairs", "label": "Walking tube feet", "ref": 3 },
+      { "value": "10", "label": "Feeding tentacles", "ref": 3 },
+      { "value": "up to 25.9 per m²", "label": "Density off central California", "ref": 5 }
+    ]
+  },
+  "body": {
+    "lede": "Very few sea pigs have ever been examined under a microscope. A 2021 study of two animals from Monterey Bay found a body similar to other sea cucumbers — with some surprises.",
+    "systems": [
+      { "title": "Breathing through its feet?", "text": "Many sea cucumbers breathe with internal 'respiratory trees', but none was found in sea pigs. The large tube feet may take over the job of gas exchange.", "certainty": "hypothesis", "ref": 3 },
+      { "title": "Hydraulic limbs", "text": "Like all echinoderms, sea pigs move their tube feet and papillae with a water vascular system: fluid-filled canals run through the centre of each projection.", "certainty": "confirmed", "ref": 3 },
+      { "title": "A picky mud-eater", "text": "Sea pigs in the Santa Catalina Basin had more freshly settled particles in their guts than in the surrounding mud, suggesting they select food that reached the seafloor within roughly the previous 20 days.", "certainty": "confirmed", "ref": 4 },
+      { "title": "A skin full of bacteria", "text": "In sea pigs from the north-west Pacific, a single newly described bacterium made up 76–99% of the microbes in the body wall, forming clusters on the skin's outer side. Its role is still unknown.", "certainty": "hypothesis", "ref": 6 }
+    ]
+  },
+  "genome": {
+    "lede": "No reference genome for a sea pig has been published. A rough, highly fragmented draft for Scotoplanes globosa was deposited in NCBI in 2023 without an accompanying paper.",
+    "genomeGb": 0.98,
+    "refs": { "genome": 7 },
+    "sequenced": null,
+    "findings": [
+      { "title": "Mitochondrial genomes", "text": "The much smaller mitochondrial genome has been fully sequenced for an unnamed Scotoplanes species (2018) and for Scotoplanes clarki (2024).", "certainty": "confirmed", "ref": 9 }
+    ]
+  }
+}

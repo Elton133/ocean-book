@@ -1,0 +1,156 @@
+{
+  "slug": "harpy-eagle",
+  "realm": "land",
+  "commonName": "Harpy Eagle",
+  "scientificName": "Harpia harpyja",
+  "authority": "(Linnaeus, 1758)",
+  "gbifId": 2480516,
+  "iucnId": 22695998,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Accipitriformes",
+    "family": "Accipitridae"
+  },
+  "group": "Bird of prey",
+  "categories": [
+    "apex-predators",
+    "rainforest-canopy"
+  ],
+  "tagline": "The rainforest eagle that snatches sloths from the treetops",
+  "summary": "One of the largest and most powerful eagles in the world, the top aerial predator of the Amazon canopy. Using its huge talons, it plucks sloths and monkeys from the branches, and a pair raises only one chick every two to three years.",
+  "ability": "crushing talons and canopy ambush",
+  "stats": {
+    "size": "About 1 m long with a wingspan up to 2 m; 4–9 kg, females up to twice the weight of males",
+    "habitat": "Tall, unbroken lowland rainforest",
+    "range": "Southern Mexico through Central America to northern Argentina, with its stronghold in the Amazon",
+    "diet": "Sloths, monkeys and other canopy mammals, plus birds and reptiles",
+    "conservation": "IUCN Red List: Vulnerable (2021 assessment)"
+  },
+  "regions": [
+    "amazon",
+    "central-america"
+  ],
+  "biome": "rainforest",
+  "facts": [
+    {
+      "title": "Talons up to 10 cm long",
+      "text": "The rear talons on each foot are about 8–10 cm long — the weapons it uses to seize and crush animals as heavy as an 8-pound (3.6 kg) sloth.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "A sloth specialist",
+      "text": "A three-year study of five breeding pairs in the central Amazon found their diet was dominated, by number and by weight, by two species of sloth — including the brown-throated three-toed sloth.",
+      "certainty": "confirmed",
+      "ref": 4
+    },
+    {
+      "title": "An owl-like face for hearing",
+      "text": "It is one of the few daytime birds of prey with a facial disc. By raising or lowering the feathers around its face it can funnel sound towards its ears to pinpoint hidden prey.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Nests in the giants",
+      "text": "Pairs build a nest about 40 m up in the fork of one of the tallest trees in the forest. It can be nearly 2 m across and made of more than 300 branches.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "One chick at a time",
+      "text": "The female lays two eggs but raises only one chick. The young eagle stays dependent on its parents for a year or more, so a pair breeds only every two to three years.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Starved by deforestation",
+      "text": "A study of 16 nests in Brazil's 'Arc of Deforestation' found that where more than half the forest had been cleared, parents could not bring in enough prey: three fledglings starved, and no nests were found where over 70% of the forest was gone.",
+      "certainty": "confirmed",
+      "ref": 5
+    }
+  ],
+  "references": [
+    {
+      "title": "BirdLife International (2021). Harpia harpyja. The IUCN Red List of Threatened Species 2021",
+      "publisher": "IUCN Red List",
+      "url": "https://doi.org/10.2305/IUCN.UK.2021-3.RLTS.T22695998A197957213.en"
+    },
+    {
+      "title": "Harpia harpyja (Linnaeus, 1758)",
+      "publisher": "GBIF",
+      "url": "https://www.gbif.org/species/2480516"
+    },
+    {
+      "title": "Harpy Eagle",
+      "publisher": "The Peregrine Fund",
+      "url": "https://www.peregrinefund.org/explore-raptors-species/eagles/harpy-eagle"
+    },
+    {
+      "title": "Harpia harpyja (harpy eagle)",
+      "publisher": "Animal Diversity Web, University of Michigan",
+      "url": "https://animaldiversity.org/accounts/Harpia_harpyja/"
+    },
+    {
+      "title": "Aguiar-Silva, F.H., Sanaiotti, T.M. & Luz, B.B. (2014). Food habits of the harpy eagle, a top predator from the Amazonian rainforest canopy. Journal of Raptor Research 48(1): 24–35",
+      "publisher": "Journal of Raptor Research",
+      "url": "https://doi.org/10.3356/JRR-13-00017.1"
+    },
+    {
+      "title": "Miranda, E.B.P. et al. (2021). Tropical deforestation induces thresholds of reproductive viability and habitat suitability in Earth's largest eagles. Scientific Reports 11: 13048",
+      "publisher": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34193882/"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/harpy-eagle/hero.webp",
+    "width": 1920,
+    "height": 1281,
+    "alt": "A large slate-grey eagle with a pale grey head and banded tail perched on a stump, seen from behind as it looks back over its shoulder, with tree trunks and brown foliage behind",
+    "caption": "A harpy eagle looks back over its shoulder in Pará, Brazil",
+    "creator": "Christoph Moning",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harpia_harpyja_-_Christoph_Moning_-_447088675.jpeg",
+    "species": "Harpia harpyja",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "38% 45%",
+    "tone": "dark"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/harpy-eagle/alt-1.webp",
+      "width": 1920,
+      "height": 2096,
+      "alt": "A harpy eagle perched upright on a branch among feathery green leaves, showing its grey crested head, black chest band, white belly and thick yellow legs",
+      "caption": "Front view of a wild harpy eagle in Carajás National Forest, Pará, Brazil",
+      "creator": "Luiz Fernando Matos",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gavi%C3%A3o-real_-_FLONA_de_Caraj%C3%A1s_-_Luiz_Fernando_Matos(001).jpg",
+      "species": "Harpia harpyja",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "50% 30%",
+      "tone": "dark"
+    },
+    {
+      "src": "/media/creatures/harpy-eagle/alt-2.webp",
+      "width": 1769,
+      "height": 1131,
+      "alt": "A harpy eagle in flight with broad, barred wings raised, carrying a dark-furred monkey in its talons against a blurred green forest background",
+      "caption": "Bringing home a brown capuchin monkey: a harpy eagle arriving at its nest, from a study of nests in the southern Amazon",
+      "creator": "Jiang Chunsheng (via Miranda et al. 2021, Scientific Reports)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harpia_chega_ao_ninho_com_um_macaco-prego.jpg",
+      "species": "Harpia harpyja",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "50% 45%",
+      "tone": "light"
+    }
+  ],
+  "notes": "Talon length: the Peregrine Fund gives rear talons of about 3–4 inches (8–10 cm); ADW gives up to 12.5 cm. The more conservative figure is used. Weight (4–9 kg) follows the Peregrine Fund and ADW; the summary's 'among the largest eagles' is supported by Miranda et al. 2021 ('Earth's largest eagle'). The sloth fact comes from the Aguiar-Silva et al. 2014 abstract (via the DOI page and FAO AGRIS record); the full text was not read, so no percentages are given. alt-2 is a figure extracted from Miranda et al. 2021 (CC BY 4.0), credited there to Jiang Chunsheng; the study nests were in the Amazon 'Arc of Deforestation' in Mato Grosso, but the exact place is not stated. The hero is from iNaturalist (Pará); it appears wild but the setting is not confirmed by the uploader. Elevation is omitted because sources only say 'low elevations'. Pantanal not included as a region: no solid source found. IUCN DOI and GBIF links resolve in a browser but return 403 to scripted requests; IDs were checked via the GBIF API and Wikidata."
+}

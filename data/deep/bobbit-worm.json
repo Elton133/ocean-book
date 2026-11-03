@@ -1,0 +1,55 @@
+{
+  "anatomy": {
+    "lede": "Almost all of a bobbit worm stays out of sight. What shows above the sand is a head built for one thing: seizing a fish in a fraction of a second.",
+    "media": 0,
+    "hotspots": [
+      { "id": "antennae", "label": "Antennae", "x": 53, "y": 23, "text": "Five striped antennae stand up from the head. They are thought to detect prey, and some worms twitch an antenna in a worm-like way that may lure fish closer.", "ref": 3 },
+      { "id": "jaw-left", "label": "Jaws", "x": 33, "y": 24, "text": "The curved grey jaws are strong, toothed plates called maxillae, carried on a pharynx that the worm can turn inside out to grab prey.", "ref": 3 },
+      { "id": "jaw-right", "label": "Jaw tip", "x": 75, "y": 33, "text": "The jaws are armed with sharp teeth. Bobbit worms are known to bite people and can cause severe wounds.", "ref": 1 },
+      { "id": "iridescence", "label": "Iridescent skin", "x": 52, "y": 45, "text": "The body surface shimmers blue and green in the light. Related giant Eunice worms are also described as iridescent when alive.", "ref": 2 },
+      { "id": "segments", "label": "Body segments", "x": 49, "y": 58, "text": "The body is a long chain of segments. In a related giant species, one incomplete specimen nearly a metre long had 520 bristle-bearing segments.", "ref": 2 },
+      { "id": "parapodium", "label": "Side lobe", "x": 41, "y": 51, "text": "Each segment carries a small fleshy side lobe, a parapodium, with bristles; further back, feathery gills grow from them.", "ref": 2 },
+      { "id": "burrow", "label": "Burrow mouth", "x": 52, "y": 69, "text": "The rest of the worm lies in a mucus-lined burrow. When it pulls back, sliding sand leaves a small crater that marks the spot.", "ref": 1 }
+    ],
+    "stats": [
+      { "value": "299 cm", "label": "Longest recorded specimen", "ref": 1 },
+      { "value": "433 g", "label": "Weight of that specimen", "ref": 1 },
+      { "value": "about 2 cm", "label": "Body diameter", "ref": 3 },
+      { "value": "about 0.1 s", "label": "Strike to prey vanishing", "ref": 1 }
+    ]
+  },
+  "senses": {
+    "lede": "A buried ambush hunter needs to know exactly when something edible is overhead. Touch and sight seem to do most of the work.",
+    "senses": [
+      { "kind": "touch", "name": "Antennae", "text": "By day the worm attacks when its antennae are touched by passing prey. In early field tests, only a lure that moved like a living fish set off a strike.", "certainty": "confirmed", "ref": 1 },
+      { "kind": "sight", "name": "Eyes", "text": "Two eyes sit on the head. At night even a diver's torch beam can trigger an attack, which suggests sight plays a part.", "certainty": "confirmed", "ref": 1 },
+      { "kind": "vibration", "name": "Vibration", "text": "A closely related giant Eunice from Australia retreats quickly into its burrow when it senses vibration, which makes it very hard to collect.", "certainty": "hypothesis", "ref": 2 }
+    ]
+  },
+  "body": {
+    "lede": "The bobbit worm's body is little more than a long, muscular tube with a deadly front end.",
+    "systems": [
+      { "title": "A pharynx that turns inside out", "text": "To feed, the worm shoots out its pharynx and closes its strong toothed maxillae on the prey, then drags it, still alive, down into the sediment.", "certainty": "confirmed", "ref": 3 },
+      { "title": "Mucus mortar", "text": "The burrow is lined with mucus. Fossil burrows thought to be from similar worms are rich in iron, probably because bacteria feeding on the mucus left iron minerals behind.", "certainty": "hypothesis", "ref": 3 },
+      { "title": "Moving by waves", "text": "Burrowing worms like this move mainly by waves of muscle contraction along the body, which leaves a smooth-walled tunnel.", "certainty": "confirmed", "ref": 3 }
+    ]
+  },
+  "mind": {
+    "lede": "A worm has a simple nervous system, but the bobbit worm's ambush is precise, and some of its prey have learned to fight back.",
+    "studies": [
+      { "year": "2016", "title": "Mobbed by young fish", "text": "Over 90 dives in Indonesia's Lembeh Strait, researchers recorded 54 encounters in which groups of up to seven young monocle bream harassed bobbit worms. The mobbing lasted from 4 to 62 seconds.", "certainty": "confirmed", "ref": 1 },
+      { "year": "2016", "title": "Water jets at the burrow", "text": "The fish squirted jets of water at the burrow. Most of the time the worm did not react, but in about a quarter of cases it pulled back completely, and it never caught a mobbing fish.", "certainty": "confirmed", "ref": 1 },
+      { "year": "Field", "title": "Only moving bait works", "text": "In preliminary trials, the worms struck only at a lure that moved like a living fish, not at still bait.", "certainty": "uncertain", "ref": 1 },
+      { "year": "Field", "title": "Two ways to hunt", "text": "Mature worms keep a permanent burrow and wait for prey, while some use an antenna to imitate a wriggling worm and draw fish within reach.", "certainty": "hypothesis", "ref": 3 }
+    ]
+  },
+  "survival": {
+    "lede": "Little is known about what eats a bobbit worm. Its main defence is simply staying hidden.",
+    "tactics": [
+      { "title": "Living underground", "text": "Keeping almost the whole body in the burrow protects the worm while it waits for prey.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Instant retreat", "text": "When harassed, the worm can pull its antennae, or its whole head, back into the sand.", "certainty": "confirmed", "ref": 1 },
+      { "title": "Hard to spot", "text": "Bobbit worms are spread thinly: only four were found in 15,000 square metres of seabed at the Lembeh Strait study site.", "certainty": "confirmed", "ref": 1 }
+    ],
+    "predators": []
+  }
+}

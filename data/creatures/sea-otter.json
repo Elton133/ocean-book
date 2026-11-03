@@ -1,0 +1,120 @@
+{
+  "slug": "sea-otter",
+  "realm": "ocean",
+  "commonName": "Sea Otter",
+  "scientificName": "Enhydra lutris",
+  "authority": "(Linnaeus, 1758)",
+  "aphiaId": 242598,
+  "taxonomy": { "phylum": "Chordata", "class": "Mammalia", "order": "Carnivora", "family": "Mustelidae" },
+  "group": "Otter",
+  "categories": ["intelligent"],
+  "tagline": "The otter that keeps the kelp forest standing",
+  "summary": "The smallest marine mammal and the heaviest member of the weasel family, living along the rocky coasts and kelp forests of the North Pacific. With no blubber, it stays warm inside the densest fur of any animal, eats about a quarter of its body weight a day, and cracks shellfish open with stones.",
+  "ability": "stone tools and the densest fur of any animal",
+  "stats": {
+    "size": "Males 1.2–1.5 m, females 1–1.4 m long; up to about 45 kg",
+    "depth": "Most foraging at 2–30 m; dives recorded to about 100 m",
+    "range": "Coastal North Pacific: the Kuril and Commander Islands, the Aleutians and Alaska to British Columbia and Washington, and central California",
+    "diet": "Sea urchins, crabs, clams, mussels, snails, abalone and other seabed invertebrates; some populations also eat fish",
+    "conservation": "IUCN: Endangered (assessed 2020, published 2021)"
+  },
+  "depthRange": { "min": 0, "max": 100 },
+  "regions": ["pacific-ocean"],
+  "facts": [
+    {
+      "title": "Warm without blubber",
+      "text": "Unlike other marine mammals, sea otters have no blubber. They rely on the densest fur of any animal, with more than a million hairs per square inch at its thickest, which traps a layer of air next to the skin.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Always hungry",
+      "text": "To keep its body at about 38 °C (100 °F) in cold water, a sea otter eats about a quarter of its body weight every day.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Guardian of the kelp",
+      "text": "Comparing Aleutian islands with and without sea otters, Estes and Palmisano (1974) found that otters keep plant-eating invertebrates such as sea urchins in check. Where otters had been removed, grazing increased and kelp beds were destroyed.",
+      "certainty": "confirmed",
+      "ref": 4
+    },
+    {
+      "title": "A rock in its pocket",
+      "text": "Sea otters break hard-shelled prey with stones, either holding the rock on the chest and pounding the prey against it or striking the prey with the rock. A loose fold of skin under each forearm can hold a favourite stone and food collected on a dive.",
+      "certainty": "confirmed",
+      "ref": 5
+    },
+    {
+      "title": "Shallow feeders",
+      "text": "Sea otters fitted with depth recorders in south-east Alaska did most of their foraging between 2 and 30 m. Males often fed deeper than females, and the deepest foraging dives ranged from 35 to 100 m.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "Hunted to the brink",
+      "text": "Hunting for their fur in the 18th and 19th centuries greatly reduced the sea otter's range. Today three subspecies are recognised, and northern sea otters have been reintroduced to coasts from Alaska to Oregon.",
+      "certainty": "confirmed",
+      "ref": 5
+    }
+  ],
+  "references": [
+    { "title": "Enhydra lutris (Linnaeus, 1758)", "publisher": "WoRMS", "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=242598" },
+    { "title": "Doroff, A., Burdin, A. & Larson, S. (2021). Enhydra lutris. The IUCN Red List of Threatened Species 2021: e.T7750A219377647", "publisher": "IUCN Red List", "url": "https://doi.org/10.2305/IUCN.UK.2021-3.RLTS.T7750A219377647.en", "year": 2021, "authors": "Doroff, Burdin & Larson" },
+    { "title": "Sea otter", "publisher": "Monterey Bay Aquarium", "url": "https://www.montereybayaquarium.org/animals/animals-a-to-z/sea-otter" },
+    { "title": "Bodkin, J.L., Esslinger, G.G. & Monson, D.H. (2004). Foraging depths of sea otters and implications to coastal marine communities. Marine Mammal Science 20: 305–321", "publisher": "Marine Mammal Science", "url": "https://doi.org/10.1111/j.1748-7692.2004.tb01159.x", "year": 2004, "authors": "Bodkin, Esslinger & Monson" },
+    { "title": "Estes, J.A. & Palmisano, J.F. (1974). Sea otters: their role in structuring nearshore communities. Science 185: 1058–1060", "publisher": "Science", "url": "https://doi.org/10.1126/science.185.4156.1058", "year": 1974, "authors": "Estes & Palmisano" },
+    { "title": "Enhydra lutris (sea otter)", "publisher": "Animal Diversity Web, University of Michigan", "url": "https://animaldiversity.org/accounts/Enhydra_lutris/" }
+  ],
+  "image": {
+    "src": "/media/creatures/sea-otter/hero.webp",
+    "width": 1920,
+    "height": 1280,
+    "alt": "A sea otter with a pale, shaggy head and a dark brown body floats upright in calm blue-grey water, looking straight at the camera with its forepaws folded on its chest.",
+    "caption": "A sea otter at Kodiak National Wildlife Refuge, Alaska, July 2022.",
+    "creator": "Erin Strand, U.S. Fish and Wildlife Service",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sea_Otter_Surprise_(53611654245).jpg",
+    "species": "Enhydra lutris",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "58% 30%",
+    "tone": "dark"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/sea-otter/alt-1.webp",
+      "width": 1920,
+      "height": 1281,
+      "alt": "A sea otter floats on its back in grey water, a strand of golden-brown kelp draped over its body, its webbed hind feet raised and its forepaws held to its face.",
+      "caption": "A sea otter anchored in kelp near Morro Rock, Morro Bay, California, May 2008.",
+      "creator": "Mike Baird",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sea_Otter_at_Piedras_Blancas.jpeg",
+      "species": "Enhydra lutris",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "60% 50%",
+      "tone": "light"
+    },
+    {
+      "src": "/media/creatures/sea-otter/alt-2.webp",
+      "width": 1920,
+      "height": 1518,
+      "alt": "A tight group of sea otters floats together on their backs in rippled blue water, several holding up their paws and flippers.",
+      "caption": "A raft of sea otters resting together.",
+      "creator": "U.S. Fish and Wildlife Service",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sea_Otter_(6383864515).jpg",
+      "species": "Enhydra lutris",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "50% 50%",
+      "tone": "light"
+    }
+  ],
+  "notes": "Taxonomy per WoRMS (AphiaID 242598). The IUCN page blocks scripted access; the 2021 assessment (Doroff, Burdin & Larson; assessed 21 January 2020, category Endangered A2abe) was confirmed through Crossref, the IUCN Otter Specialist Group's Red List document and the Monterey Bay Aquarium. The southern sea otter is separately listed as Threatened under the US Endangered Species Act. Depth: the 100 m maximum is the deepest foraging dive in Bodkin et al. (2004); the Monterey Bay Aquarium states that sea otters can dive to 600 ft (183 m), which could not be traced to a primary source and is not used for the gauge. Fur density: the aquarium gives more than a million hairs per square inch; ADW gives about 100,000 per cm² (about 645,000 per square inch), so 'densest of any animal' is used without a precise number in the summary. 'Smallest marine mammal' follows Yeates et al. (2007), cited in the deep chapters. 'Intelligent' shelf based on habitual stone-tool use. The Morro Bay photograph carries the photographer's credit line in the bottom-left corner; its Commons title says Piedras Blancas but the description places it at Morro Rock. The raft photograph's USFWS caption gives no location."
+}

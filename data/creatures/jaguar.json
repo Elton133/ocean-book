@@ -1,0 +1,156 @@
+{
+  "slug": "jaguar",
+  "realm": "land",
+  "commonName": "Jaguar",
+  "scientificName": "Panthera onca",
+  "authority": "(Linnaeus, 1758)",
+  "gbifId": 5219426,
+  "iucnId": 15953,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Felidae"
+  },
+  "group": "Big cat",
+  "categories": [
+    "apex-predators"
+  ],
+  "tagline": "The big cat that kills with a bite to the skull",
+  "summary": "The largest cat in the Americas, a powerfully built hunter of rainforest, river and swamp. Rather than simply gripping the throat, a jaguar will often drive its canines straight through its prey's skull, and its jaws can crack turtle shells and pierce the armoured hide of a caiman.",
+  "ability": "skull-piercing bite",
+  "stats": {
+    "size": "Head and body 1.5–1.8 m plus a 70–90 cm tail; usually 68–136 kg",
+    "habitat": "Dense lowland rainforest, flooded forest, swamps and wetlands, nearly always close to water",
+    "elevation": "Mostly below 2,000 m; recorded up to 3,800 m in Costa Rica",
+    "range": "Mexico to northern Argentina, across 18 countries; rare wanderers reach Arizona and New Mexico",
+    "diet": "Over 85 prey species, from peccaries, capybaras and deer to caimans, turtles and fish",
+    "conservation": "IUCN Red List: Near Threatened (2017 assessment)"
+  },
+  "elevationRange": {
+    "min": 10,
+    "max": 3800
+  },
+  "regions": [
+    "amazon",
+    "pantanal",
+    "central-america"
+  ],
+  "biome": "rainforest",
+  "facts": [
+    {
+      "title": "Straight through the skull",
+      "text": "A jaguar may kill with a suffocating neck bite, but it often drives its canines through the back of its prey's skull instead. The same jaws can bite through thick reptile skin and turtle shells.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Pound for pound, the strongest jaws",
+      "text": "A 2012 study of the jaw muscles of nine cat species found that the jaguar — the most bone- and shell-crunching cat in the sample — had relatively greater bite-force capacity than the others. A tiger bites harder in absolute terms, but for its size the jaguar comes out ahead.",
+      "certainty": "confirmed",
+      "ref": 4
+    },
+    {
+      "title": "A cat that loves water",
+      "text": "Jaguars are excellent swimmers. In the flooded forests of the Amazon they swim from tree to tree to hunt monkeys and sloths, and they regularly catch caimans, turtles and anacondas.",
+      "certainty": "confirmed",
+      "ref": 3
+    },
+    {
+      "title": "A menu of 85 species",
+      "text": "More than 85 kinds of prey have been recorded in the jaguar's diet. One jaguar was seen dragging a 34 kg sea turtle 91.5 m into the cover of the forest.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Black jaguars are not a separate species",
+      "text": "All-black jaguars are fairly common, especially in forest. Their colour comes from a single dominant gene, and the rosettes are usually still faintly visible against the dark coat.",
+      "certainty": "confirmed",
+      "ref": 2
+    },
+    {
+      "title": "Half its kingdom lost",
+      "text": "Jaguars have been wiped out from nearly half of their historic range, mainly through habitat loss, conflict with ranchers and the hunting of their prey.",
+      "certainty": "confirmed",
+      "ref": 3
+    }
+  ],
+  "references": [
+    {
+      "title": "Quigley, H. et al. (2017). Panthera onca. The IUCN Red List of Threatened Species 2017",
+      "publisher": "IUCN Red List",
+      "url": "https://doi.org/10.2305/IUCN.UK.2017-3.RLTS.T15953A50658693.en"
+    },
+    {
+      "title": "Panthera onca (Linnaeus, 1758)",
+      "publisher": "GBIF",
+      "url": "https://www.gbif.org/species/5219426"
+    },
+    {
+      "title": "Panthera onca (jaguar)",
+      "publisher": "Animal Diversity Web, University of Michigan",
+      "url": "https://animaldiversity.org/accounts/Panthera_onca/"
+    },
+    {
+      "title": "Jaguar",
+      "publisher": "Panthera",
+      "url": "https://www.panthera.org/cat/jaguar"
+    },
+    {
+      "title": "Hartstone-Rose, A., Perry, J.M. & Morrow, C.J. (2012). Bite force estimation and the fiber architecture of felid masticatory muscles. Anatomical Record 295: 1336–1351",
+      "publisher": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22707481/"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/jaguar/hero.webp",
+    "width": 1920,
+    "height": 1281,
+    "alt": "A golden, black-rosetted jaguar resting in the fork of a pale tree trunk, its head and one large forepaw draped over the bark as it looks towards the camera",
+    "caption": "A wild jaguar resting in a tree in Encontro das Águas State Park, in the Brazilian Pantanal",
+    "creator": "Thiagomarcelcampi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi(001).jpg",
+    "species": "Panthera onca",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "45% 45%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/jaguar/alt-1.webp",
+      "width": 1920,
+      "height": 1094,
+      "alt": "Two spotted jaguars face to face in tall green grass, both snarling with mouths wide open to show their long canine teeth",
+      "caption": "Teeth on show: two jaguars snarl at each other in Pantanal Matogrossense National Park, Brazil",
+      "creator": "Silvaninha2542",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:On%C3%A7a-pintada-PARNA_do_Pantanal_Matogrossense-Silvaninha2542(001).jpg",
+      "species": "Panthera onca",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "50% 40%",
+      "tone": "light"
+    },
+    {
+      "src": "/media/creatures/jaguar/alt-2.webp",
+      "width": 1920,
+      "height": 1280,
+      "alt": "A heavily built male jaguar walking left along a pale sandy riverbank in front of tall green grass",
+      "caption": "A male jaguar patrols the bank of the Three Brothers River in the Pantanal, Mato Grosso, Brazil",
+      "creator": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jaguar_(Panthera_onca_palustris)_male_Three_Brothers_River_2.jpg",
+      "species": "Panthera onca",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "52% 60%",
+      "tone": "light"
+    }
+  ],
+  "notes": "All three photographs are wild jaguars from the Brazilian Pantanal (no licensed in-situ Amazon photo of comparable quality was found); the record is still filed under 'amazon' first as briefed. Commons labels the alt-2 animal with the subspecies name P. o. palustris, but jaguar subspecies are not generally recognised, so species is given as Panthera onca. The bite-force fact rests on Hartstone-Rose et al. 2012, whose abstract says the jaguar 'appears to have relatively higher force production capabilities' among nine felids; the tiger comparison is from the lead author's comments reported by BBC Wildlife (discoverwildlife.com), not cited here. Size: ADW notes Pantanal males average 100 kg while Honduran males average 57 kg, so the 68–136 kg range is typical rather than absolute. Elevation minimum (10 m) follows ADW. The IUCN DOI and GBIF links resolve in a browser but return 403 to scripted requests (bot protection); IDs were checked through the GBIF API and Wikidata. IUCN year is the publication year of the assessment (2017)."
+}

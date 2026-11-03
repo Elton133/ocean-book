@@ -1,0 +1,152 @@
+{
+  "slug": "giraffe",
+  "realm": "land",
+  "commonName": "Giraffe",
+  "scientificName": "Giraffa camelopardalis",
+  "authority": "(Linnaeus, 1758)",
+  "gbifId": 2441205,
+  "iucnId": 9194,
+  "taxonomy": {
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Artiodactyla",
+    "family": "Giraffidae"
+  },
+  "group": "Giraffe",
+  "categories": [],
+  "tagline": "The tallest animal on Earth, browsing where no one else can reach",
+  "summary": "With legs and a neck that lift its head more than five metres off the ground, the giraffe feeds on leaves that other browsers cannot reach, plucking them from thorny acacias with a long, dark tongue. Giraffes are still officially one species, but genetic studies suggest there may be four.",
+  "ability": "browsing at treetop height",
+  "stats": {
+    "size": "Males stand up to 5.7 m tall to the tips of their horns and weigh up to 1,930 kg; females up to 1,180 kg",
+    "habitat": "Dry savanna, grassland and open woodland",
+    "range": "Africa south of the Sahara; now gone from most of West Africa",
+    "diet": "Leaves, especially from acacia trees; an adult male can eat up to 66 kg of food a day",
+    "conservation": "IUCN Red List: Vulnerable (2016; amended 2018)"
+  },
+  "regions": [
+    "african-savanna",
+    "namib-kalahari"
+  ],
+  "biome": "savanna",
+  "facts": [
+    {
+      "title": "Seven bones, very long",
+      "text": "A giraffe's neck has the same number of vertebrae as a human's — seven — but each one is greatly elongated.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "A 45 cm tongue",
+      "text": "Its black tongue, about 45 cm long, grasps prickly food from the very tops of trees. Acacia leaves are its main food.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "A two-metre drop",
+      "text": "A newborn calf drops about 2 m to the ground at birth — and already stands around 2 m tall at the shoulder.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "A coat for life",
+      "text": "Each giraffe's pattern of patches stays the same throughout its life. The 'horns', called ossicones, are bony knobs covered in skin and fur.",
+      "certainty": "confirmed",
+      "ref": 1
+    },
+    {
+      "title": "One species, or four?",
+      "text": "Traditionally giraffes are one species with nine accepted subspecies. A 2016 study of 190 giraffes from across Africa, using several genetic markers, found at least four separate lineages and proposed recognising them as four species.",
+      "certainty": "hypothesis",
+      "ref": 2
+    },
+    {
+      "title": "A silent extinction",
+      "text": "Giraffe numbers fell by about 40%, from around 157,000 in 1985 to 97,500 in 2015, through illegal hunting, habitat loss, expanding farms and mines, conflict with people and civil unrest. In 2016 the IUCN moved the giraffe from Least Concern to Vulnerable.",
+      "certainty": "confirmed",
+      "ref": 3
+    }
+  ],
+  "references": [
+    {
+      "title": "Giraffa camelopardalis (amended version of 2016 assessment; Muller et al.)",
+      "publisher": "IUCN Red List of Threatened Species",
+      "year": 2018,
+      "url": "https://www.iucnredlist.org/species/9194/136266699"
+    },
+    {
+      "title": "Giraffa camelopardalis (giraffe)",
+      "publisher": "Animal Diversity Web",
+      "url": "https://animaldiversity.org/accounts/Giraffa_camelopardalis/"
+    },
+    {
+      "title": "Multi-locus analyses reveal four giraffe species instead of one. Current Biology 26: 2543–2549",
+      "publisher": "Current Biology",
+      "authors": "Fennessy, J., Bidon, T., Reuss, F., Kumar, V., Elkan, P., Nilsson, M.A., Vamberger, M., Fritz, U. & Janke, A.",
+      "year": 2016,
+      "url": "https://doi.org/10.1016/j.cub.2016.07.036"
+    },
+    {
+      "title": "Giraffes facing 'silent extinction': IUCN",
+      "publisher": "Mongabay",
+      "year": 2016,
+      "url": "https://news.mongabay.com/2016/12/giraffes-facing-silent-extinction-iucn/"
+    },
+    {
+      "title": "Giraffa camelopardalis (Linnaeus, 1758)",
+      "publisher": "GBIF",
+      "url": "https://www.gbif.org/species/2441205"
+    }
+  ],
+  "image": {
+    "src": "/media/creatures/giraffe/hero.webp",
+    "width": 1920,
+    "height": 1280,
+    "alt": "A tall male giraffe with dark brown, cream-edged patches standing side-on on short grass, its long neck raised and head turned to the right, with oxpeckers on its neck and green woodland behind",
+    "caption": "A South African giraffe in Kruger National Park, South Africa",
+    "creator": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:South_African_giraffe_(Giraffa_camelopardalis_giraffa)_Kruger.jpg",
+    "species": "Giraffa camelopardalis giraffa",
+    "type": "photograph",
+    "setting": "in situ",
+    "focal": "45% 55%",
+    "tone": "light"
+  },
+  "gallery": [
+    {
+      "src": "/media/creatures/giraffe/alt-1.webp",
+      "width": 1920,
+      "height": 1280,
+      "alt": "A pale giraffe stretching its neck forward to browse leaves from a green bush, while a small, darker calf stands behind her in the grass looking towards the camera",
+      "caption": "An Angolan giraffe browsing, with her two-month-old calf, Chobe National Park, Botswana",
+      "creator": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angolan_giraffe_(Giraffa_camelopardalis_angolensis)_female_with_young_2_months.jpg",
+      "species": "Giraffa camelopardalis angolensis",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "55% 55%",
+      "tone": "light"
+    },
+    {
+      "src": "/media/creatures/giraffe/alt-2.webp",
+      "width": 1920,
+      "height": 1280,
+      "alt": "Four giraffes standing among low acacia bushes on red sandy ground, three looking at the camera and one facing away, with a scrubby hill and clear blue sky behind",
+      "caption": "Females in the red sands of the Tswalu Kalahari Reserve, South Africa",
+      "creator": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giraffe_(Giraffa_camelopardalis)_females.jpg",
+      "species": "Giraffa camelopardalis",
+      "type": "photograph",
+      "setting": "in situ",
+      "focal": "50% 65%",
+      "tone": "light"
+    }
+  ],
+  "notes": "Taxonomy: follows the IUCN Red List and GBIF backbone (both accept a single species, Giraffa camelopardalis, which IUCN divides into nine subspecies). Fennessy et al. 2016 (ref 2) proposed four species (northern G. camelopardalis, reticulated G. reticulata, Masai G. tippelskirchi and southern G. giraffa); some authorities and Commons now use that split, e.g. Commons files these photos under 'Giraffa giraffa'. The four-species fact is marked 'hypothesis' because it is not yet the IUCN treatment. Images: hero is the South African subspecies (G. c. giraffa), gallery the Angolan (G. c. angolensis) and Kalahari giraffes; under the four-species view all three would be southern giraffe, G. giraffa. Conservation: Muller et al. 2016 assessment, amended 2018 (e.T9194A136266699), Vulnerable per GBIF's IUCN checklist (July 2026); iucnredlist.org returns 403 to scripted requests, so that URL was confirmed via the GBIF API. Some subspecies have separate, more threatened assessments, not covered here. Decline figures are from Mongabay's report of the 2016 IUCN update (other outlets gave 151,702–163,452 in 1985 and 97,562 in 2015); I could not fetch the original IUCN release. Lifespan (ADW: 10–15 years in the wild) left out as it conflicts with other commonly quoted figures. Categories: none fit (IUCN VU, not EN). Regions: namib-kalahari for the Angolan giraffes of Namibia and the Kalahari populations (gallery). No elevation given: no source checked gives one."
+}
